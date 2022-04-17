@@ -505,14 +505,22 @@ body {
   text-transform: capitalize;
   border: 1px solid #183a79;
   border-radius: 2rem;
+  font-size: 1rem;
+  cursor: pointer;
 }
 .card__btn:hover {
   background-color: #538fff;
   border: 1px solid #183a79;
 }
+.card__btn:disabled {
+  background-color: #818181;
+  color: rgb(196, 196, 196);
+  border: 1px solid #3d3d3d;
+  cursor: default;
+}
 
 .checkbox {
-  z-index: 100;
+  z-index: 5;
   /* The container */
   /* Hide the browser's default checkbox */
   /* Create a custom checkbox */
@@ -574,6 +582,38 @@ body {
   border: solid white;
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);
+}
+
+.qr__container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 150;
+}
+.qr__img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.qr__btn {
+  font-size: 3rem;
+  border: 0;
+  border-radius: 100%;
+  width: 5rem;
+  height: 5rem;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  background-color: #183a79;
+  color: #fff;
+  cursor: pointer;
+}
+.qr__btn:hover {
+  background-color: #538fff;
 }
 
 .filter-nav {

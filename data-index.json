@@ -1,0 +1,21 @@
+data = {
+   "exercisesGif":{
+      "face":{
+         "angry":{
+            "id": "01",
+            "title":"angry face",
+            "imgurls":["Exercises Daigram/Exercises Images/Face/Angry.gif","Exercises Daigram/Exercises Images/Lower limb/Foot and Ankle/Strengthening/Ankle DF with Theraband.gif"],
+            "tags":[ "ACL", "PCL", "knee", "hamstring", "shoulder", "head", "knees", "toes"],
+            "docurl": "Exercises Daigram/Exercises Images/Face/Angry.gif"
+
+         },
+         "closeEyes":{},
+         "fullMouth":{}
+      }
+   },
+   "ortho":{},
+   "neuro":{},
+   "pedia":{},
+   "womenHealth":{},
+   "others":{}
+}

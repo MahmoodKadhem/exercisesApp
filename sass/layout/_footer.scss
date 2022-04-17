@@ -1,0 +1,33 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  // justify-self:end
+  width: 100vw;
+  // padding-left: 5rem ;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // flex-direction: column;
+  // background-color: var(--color-g-d-1);
+  // padding: 2rem 3rem 0;
+  z-index: 10000;
+  // min-height: 18vh;
+  // // testing
+  // min-height: 50vh;
+
+  // &__icon {
+  //   width: 3rem;
+  //   height: 3rem;
+  //   margin: 2rem;
+  //   fill: var(--color-p);
+  // }
+margin-left:50%;
+
+  &__container{
+    // width: 50rem;
+    
+    // right: 0;
+
+    // transform: translateX(-50%);
+  }
+}

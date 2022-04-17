@@ -1,0 +1,273 @@
+.test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  width: 70%;
+  position: relative;
+  // height: 65rem;
+
+  @include respond(tab-port) {
+    width: 95%;
+    // height: 45vh;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    min-height: 35rem;
+    @include respond(tab-port) {
+      min-height: 40rem;
+    }
+  }
+
+  &__imgs {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    &:lang(en) {
+      flex-direction: row;
+    }
+    &:lang(ar) {
+      flex-direction: row-reverse;
+    }
+  }
+
+  &__img {
+    width: 13rem;
+    height: 13rem;
+    background-color: var(--color-g-l-1);
+    border-radius: 50%;
+    border: 1px solid white;
+    object-fit: cover;
+    object-position: top;
+    transition: all 0.3s;
+    filter: blur(1px);
+
+    @include respond(phone) {
+      width: 8rem;
+      height: 8rem;
+    }
+    @include respond(sm-phone) {
+      width: 6rem;
+      height: 6rem;
+    }
+
+    &--active {
+      filter: blur(0px);
+      @include respond(phone) {
+        width: 13rem;
+        height: 13rem;
+      }
+      @include respond(sm-phone) {
+        width: 10rem;
+        height: 10rem;
+      }
+    }
+  }
+
+  &__bubble-shad {
+    filter: drop-shadow(var(--shadow-dark-card));
+    width: 80%;
+    height: 60%;
+    min-height: 20rem;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    @include respond(phone) {
+      width: 85%;
+      height: 60%;
+      min-height: 32rem;
+    }
+    // @include respond(sm-phone) {
+    //   width: 100%;
+    //   height: 60%;
+    // }
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: var(--color-p-d);
+      transition: all 0.5s;
+      backface-visibility: hidden;
+      @include respond(tab-port) {
+        min-height: 40rem;
+      }
+    }
+
+    &--1::before {
+      clip-path: polygon(
+        0% 1%,
+        98% 1%,
+        99% 70%,
+        18% 69%,
+        10% 99%,
+        15% 69%,
+        0% 68%
+      );
+    }
+    &--2::before {
+      clip-path: polygon(
+        0% 1%,
+        100% 3%,
+        100% 73%,
+        35% 68%,
+        30% 98%,
+        32.5% 68%,
+        0% 65%
+      );
+    }
+    &--3::before {
+      clip-path: polygon(
+        0% 0%,
+        100% 0%,
+        100% 74%,
+        51.5% 69%,
+        50% 99%,
+        48.5% 69%,
+        0% 74%
+      );
+    }
+    &--4::before {
+      clip-path: polygon(
+        0% 3%,
+        100% 4%,
+        100% 67%,
+        64% 69%,
+        68% 99%,
+        61% 69%,
+        0 74%
+      );
+    }
+    &--5::before {
+      clip-path: polygon(
+        0% 0%,
+        100% 4%,
+        100% 67%,
+        84% 68%,
+        88% 100%,
+        81% 68%,
+        0 74%
+      );
+    }
+  }
+
+  &__bubble {
+    width: 100%;
+    height: 100%;
+    // background-color: var(--color-g-l-1);
+    color: var(--color-g-d-1);
+    transition: all 0.5s;
+    backface-visibility: hidden;
+
+    background-image: linear-gradient(
+        100deg,
+        rgba(var(--color-white-n), 1) 40%,
+        rgba(var(--color-p-l-n), 0.9)
+      ),
+      url(../img/testimonials-bg-shape-2.jpg);
+    background-repeat: no-repeat;
+    // background-position: 100% 70%;
+    background-size: cover;
+
+    @include respond(tab-port) {
+      min-height: 40rem;
+    }
+
+    &--1 {
+      clip-path: polygon(
+        2% 6%,
+        99% 3%,
+        100% 67%,
+        18% 64%,
+        10% 99%,
+        15% 64%,
+        2% 63%
+      );
+    }
+    &--2 {
+      clip-path: polygon(
+        1.5% 5%,
+        99.5% 0%,
+        99.5% 68%,
+        36% 67.5%,
+        30% 98%,
+        33% 67.5%,
+        1.5% 67%
+      );
+    }
+    &--3 {
+      clip-path: polygon(
+        0.5% 1%,
+        99.5% 1%,
+        99.5% 68%,
+        51.5% 65%,
+        50% 99%,
+        48.5% 65%,
+        0.5% 68%
+      );
+    }
+    &--4 {
+      clip-path: polygon(
+        1% 0%,
+        99% 1%,
+        99% 64%,
+        64% 65.5%,
+        68% 99%,
+        61% 65.5%,
+        1% 70%
+      );
+    }
+    &--5 {
+      clip-path: polygon(
+        2% 0%,
+        100% 9%,
+        98% 64%,
+        84% 65%,
+        88% 100%,
+        81% 65%,
+        0% 70%
+      );
+    }
+  }
+
+  &__content {
+    padding: 4rem 4rem;
+    height: 65%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    transition: all 1s;
+    backface-visibility: hidden;
+
+    &--active {
+      opacity: 1;
+      visibility: visible;
+      position: inherit;
+      left: 0;
+    }
+  }
+
+  &__icon {
+    width: 2rem;
+    height: 2rem;
+    &--stars {
+      display: flex;
+    }
+    &--star {
+      fill: rgb(255, 217, 0);
+    }
+  }
+
+  &__name {
+    color: var(--color-p);
+  }
+}

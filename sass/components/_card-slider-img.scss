@@ -1,0 +1,244 @@
+.card-container{
+  max-height: 100%;
+  max-width: 100%;
+  padding:  8rem 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+ }
+
+.card{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  // justify-content:space-between;
+  // justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  width: 22rem;
+  height: 33rem;
+  background: #d9e6ff;
+  border-radius: 1rem;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 1rem;
+
+  &__checkbox{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  }
+
+  &__content{
+    position: relative;
+    margin: .5rem;
+    padding: 0.5rem;
+    width: 20rem;
+    height: 10rem;
+    background: white;
+    border-radius: 1rem;
+  }
+
+  &__slider {
+      width: 20rem;
+      height: 20rem;
+      margin: 0 auto;
+      margin: .5rem;
+      position: relative;
+    
+      /* IN THE END */
+      overflow: hidden;
+    
+      &__btn {
+        position: absolute;
+        top: 50%;
+        z-index: 10;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.5);
+        font-family: inherit;
+        color: #538fff;
+        border-radius: 50%;
+        height: 5.5rem;
+        width: 5.5rem;
+        font-size: 2.5rem;
+        cursor: pointer;
+    
+        &--left {
+          left: 0;
+          transform: translate(-50%, -50%);
+          padding-left: 2rem;
+        }
+    
+        &--right {
+          right: 0;
+          transform: translate(50%, -50%);
+          padding-right: 2rem;
+        }
+      }
+    }
+    
+  &__slide {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    
+      /* THIS creates the animation! */
+      transition: transform 1s;
+    
+      & > img {
+        /* Only for images that have different size than slide */
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    
+  &__dots {
+      position: absolute;
+      bottom: 5%;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      background-color: rgba(255, 255, 255, 0.5);
+      padding: 0.5rem;
+      border-radius: 2rem;
+    
+      &__dot {
+        border: none;
+        background-color: #538fff;
+        opacity: 0.7;
+        height: 1rem;
+        width: 1rem;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: all 0.5s;
+        margin-right: 1.75rem;
+        
+    
+        /* Only necessary when overlying images */
+        /* box-shadow: 0 0.6rem 1.5rem rgba(0, 0, 0, 0.7); */
+    
+        &:last-child {
+          margin: 0;
+        }
+    
+        &--active {
+          /* background-color: #fff; */
+          background-color: #183a79;
+          opacity: 1;
+        }
+      }
+    }
+
+  &__btns{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: absolute;
+    padding: .5rem;
+    bottom: 0;
+    left: 0;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+
+  &__btn{
+    background-color: #183a79;
+    padding: .5rem 1rem;
+    color: #fff;
+    margin-left: 1rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: 1px solid #183a79;
+    border-radius: 2rem;
+
+    &:hover{
+      background-color: #538fff;
+      border: 1px solid #183a79;
+    }
+  }
+}
+
+
+.checkbox{
+  z-index: 5;
+
+  /* The container */
+  &__label {
+    display: block;
+    position: relative;
+    padding-left: 3.5rem;
+    margin-bottom: 1.2rem;
+    cursor: pointer;
+    font-size: 2.2rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default checkbox */
+  &__label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Create a custom checkbox */
+  &__mark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #fff;
+    // box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.8), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+  }
+
+  /* On mouse-over, add a grey background color */
+  &__label:hover input ~ &__mark {
+    background-color: #ccc;
+    border: 1px solid #538fff;
+  }
+
+  /* When the checkbox is checked, add a blue background */
+  &__label input:checked ~ &__mark {
+    background-color: #538fff;
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  &__mark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the checkmark when checked */
+  &__label input:checked ~ &__mark:after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  &__label &__mark:after {
+    left: .8rem;
+    top: .4rem;
+    width: .8rem;
+    height: 1.2rem;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}
+
+

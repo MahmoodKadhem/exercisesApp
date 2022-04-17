@@ -1,0 +1,105 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 7rem;
+  background-color: var(--color-g-l-1);
+  transition: all 0.2s;
+
+  &--sticky {
+    position: fixed;
+    top: -7rem;
+    left: 0;
+    width: 100%;
+    z-index: 101;
+
+    & .nav__logo-box {
+      height: 7rem;
+      padding: 0.1rem 1rem;
+
+      & .nav__logo {
+        width: 10rem;
+      }
+    }
+
+    &--show {
+      top: 0;
+    }
+  }
+
+  &__logo-box {
+    background-color: var(--color-p);
+    padding: 1rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+
+    &:lang(en) {
+      margin-left: 3rem;
+    }
+    &:lang(ar) {
+      margin-right: 3rem;
+    }
+  }
+
+  &__logo {
+    width: 15rem;
+  }
+
+  &__add {
+    display: flex;
+    justify-content: flex-end;
+    color: var(--color-p);
+    padding: 1rem 0;
+    flex-grow: 0.2;
+
+    &-link:not(:last-child):lang(en) {
+      border-right: 1px solid var(--color-p);
+    }
+    &-link:not(:last-child):lang(ar) {
+      border-left: 1px solid var(--color-p);
+    }
+
+    &__card {
+      display: flex;
+      justify-content: stretch;
+      align-items: stretch;
+      height: 100%;
+
+      &--img {
+        width: 3rem;
+        height: 100%;
+        margin: 0 1.5rem;
+      }
+
+      &--icon {
+        width: 100%;
+        height: 100%;
+        fill: var(--color-p);
+      }
+
+      &--content {
+        &:lang(en) {
+          margin-right: 1rem;
+        }
+        &:lang(ar) {
+          margin-left: 1rem;
+        }
+
+        @include respond(tab-port) {
+          display: none;
+        }
+      }
+
+      &--title {
+        height: 50%;
+      }
+
+      &--text {
+        height: 50%;
+      }
+    }
+  }
+}

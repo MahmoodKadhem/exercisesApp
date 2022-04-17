@@ -1,0 +1,237 @@
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("/assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+
+
+body {
+  font-family:  "Tahoma","Trebuchet MS" ,"Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+
+  // &:lang(ar) {
+  //   font-family: "Scheherazade", serif;
+  //   line-height: 1.5;
+  // }
+}
+
+.h {
+  &-1,
+  &-2,
+  &-3,
+  &-4,
+  &-5,
+  &-6 {
+    font-family: "PlayfairDisplay","Georgia" ,"Didot","Times New Roman", serif;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  // &-1:lang(ar) {
+  //   font-family: "ae_Arab";
+  //   font-weight: normal;
+  //   font-style: normal;
+  //   text-transform: uppercase;
+  // }
+
+  // &-2:lang(ar),
+  // &-3:lang(ar),
+  // &-4:lang(ar),
+  // &-5:lang(ar),
+  // &-6:lang(ar) {
+  //   font-family: "Amiri", serif;
+  //   font-weight: normal;
+  //   font-style: normal;
+  //   line-height: 1.6;
+  // }
+}
+
+// a:lang(ar) {
+//   font-family: "Amiri", serif;
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+
+.h-1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: #003aa7;
+  text-shadow: 0 .2rem .3rem rgb(0 0 0 / 20%);
+  line-height: 1.2;
+}
+
+.h-2 {
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: #003aa7;
+  // text-shadow: 0 .2rem .3rem rgb(0 0 0 / 20%);
+  line-height: 1.2;
+}
+
+.p {
+  font-size: 1.6rem;
+
+  &--j {
+    text-transform: capitalize;
+    text-align: justify;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+  }
+
+  &--b{
+    font-weight: 700;
+  }
+
+  &--tags{
+    font-size: 1rem;
+    text-transform: capitalize;
+  }
+
+  // &-1__msg {
+  //   text-transform: capitalize;
+  //   margin-top: 1rem;
+  //   font-size: 3rem;
+  //   margin-bottom: 1rem;
+  //   animation: moveInTop 3s cubic-bezier(0.11, 0.1, 0.56, 1.03) 2s;
+  //   animation-fill-mode: backwards;
+  //   letter-spacing: 0.2rem;
+  //   @include text-gradiant-p;
+  //   backface-visibility: hidden;
+  // }
+
+  // &--color-p {
+  //   color: var(--color-p);
+  // }
+
+  // &--color-p-d {
+  //   color: var(--color-p-d);
+  // }
+}
+
+
+// .h-2 {
+//   font-size: 4rem;
+//   text-shadow: var(--shadow-dark);
+//   &:lang(ar) {
+//     font-size: 4.5rem;
+//   }
+
+//   &--l {
+//     color: var(--color-g-l-1);
+//     @include text-gradiant-l;
+//   }
+//   &--d {
+//     color: var(--color-p);
+//     @include text-gradiant-p;
+//   }
+// }
+
+// .h-3 {
+//   font-size: 3rem;
+
+//   &:lang(ar) {
+//     font-size: 3.5rem;
+//   }
+
+//   &--p {
+//     color: var(--color-p);
+//   }
+//   &--d {
+//     color: var(--color-p-d);
+//   }
+
+//   &--line {
+//     &:lang(en) {
+//       text-decoration: underline;
+//     }
+//     &:lang(ar) {
+//       text-decoration: underline;
+//       text-underline-offset: 1.5rem;
+//       margin-bottom: 1.5rem;
+//     }
+//   }
+// }
+
+// .h-4 {
+//   font-size: 2.5rem;
+//   &:lang(ar) {
+//     font-size: 3rem;
+//   }
+// }
+
+// .h-5 {
+//   font-size: 2rem;
+//   &:lang(ar) {
+//     font-size: 2.5rem;
+//   }
+
+//   &--p-d {
+//     color: var(--color-p-d);
+//   }
+// }
+
+// .h-6 {
+//   font-size: 1.6rem;
+//   &:lang(ar) {
+//     font-size: 2rem;
+//   }
+// }
+
+// blockquote::before {
+//   content: open-quote;
+//   font-size: 2em;
+//   display: inline-block;
+//   color: var(--color-p);
+// }
+
+// blockquote::after {
+//   content: close-quote;
+//   color: var(--color-p);
+// }
+
+// blockquote {
+//   quotes: "“" "”" "‘" "’";
+//   text-indent: -0.45em;
+//   line-height: 1.6em;
+// }
+
+// .quote-ar {
+//   quotes: "”" "“" "’" "‘";
+// }
+
+// /* If there's support, erase the indent and use the property instead */
+// @supports (hanging-punctuation: first) {
+//   blockquote {
+//     text-indent: 0;
+//     hanging-punctuation: first;
+//   }
+// }
+
+// .center-text{
+//   text-align: center;
+// }
+
+// .unorder_list{
+//   padding-left: 2rem;
+// }
+
+// .num{
+//   font-family: 'Inspiration', cursive;
+//   font-size: 10rem;
+//   font-weight: 300;
+//   margin-right: 1rem;
+//   position:relative;
+//   top:1rem;
+  
+//   &--p {
+//     color: var(--color-p);
+//   }
+//   &--d {
+//     color: var(--color-p-d);
+//   }
+// }

@@ -1,0 +1,39 @@
+// import partial files
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/card-slider-img";
+@import "components/filter-nav";
+@import "components/sidbar-message";
+// @import "components/button";
+// @import "components/services-box";
+// @import "components/team";
+// @import "components/testimonials";
+// @import "components/form";
+// @import "components/cases";
+// @import "components/composition";
+// @import "components/feature-box";
+// @import "components/cards";
+// @import "components/story";
+// @import "components/popup";
+// @import "components/glass";
+
+
+@import "layout/side-nav2";
+// @import "layout/header";
+// @import "layout/side-nav";
+// @import "layout/nav";
+// @import "layout/nav-menu";
+// @import "layout/footer";
+// @import "layout/main-container";
+
+@import "pages/home";
+// @import "pages/blog";
+// @import "pages/gallery";
+// @import "pages/article";

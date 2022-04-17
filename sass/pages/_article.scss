@@ -1,0 +1,145 @@
+.article {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    left: -99rem;
+    transition: all 0.6s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+
+  &--active{
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+    left: 0;
+  }
+  &__block {
+    display: block;
+    margin: 5rem 0 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    &--s {
+      flex-direction: row;
+
+      & .article__content {
+        padding-left: 5rem;
+      }
+    }
+    &--e {
+      flex-direction: row-reverse;
+      & .article__content {
+        padding-right: 5rem;
+      }
+    }
+    &--c {
+      flex-direction: column;
+      align-items: center;
+      & .article__content {
+        padding: 5rem;
+      }
+
+      & > img {
+        margin-bottom: 5rem;
+      }
+
+      & > div{
+        max-width: 100%;
+      }
+    }
+    @include respond(tab-port) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  // &__content--c {
+  //   padding: 0 5rem;
+  //   text-align: center;
+  //   @include respond(tab-port) {
+  //     padding: 0 10rem;
+  //   }
+  //   @include respond(tab-port) {
+  //     padding: 0 5rem;
+  //   }
+  // }
+
+  &__content{
+    width: 100%;
+    &--c {
+      padding: 0 5rem;
+      text-align: center;
+      @include respond(tab-port) {
+        padding: 0 10rem;
+      }
+      @include respond(tab-port) {
+        padding: 0 5rem;
+      }
+      @include respond(phone) {
+        padding: 0 2rem;
+      }
+      
+    }
+
+    &--s{
+      max-width: 40vw;
+      @include respond(tab-port) {
+        max-width: 100%;
+      }
+    }
+    
+    &--m{
+      max-width: 60vw;
+      @include respond(tab-port) {
+        max-width: 100%;
+      }
+    }
+
+    &--l{
+      max-width: 80%;
+      @include respond(tab-port) {
+        max-width: 100%;
+      }
+    }
+  }
+  
+  &__content &__title {
+    @include respond(tab-port) {
+      align-self: flex-start;
+    }
+  }
+  &__img {
+    &--l {
+      width: 60%;
+      margin-bottom: 3rem;
+    }
+
+    &--s {
+      max-width: 15vw;
+      margin-bottom: 0;
+      @include respond(tab-port) {
+        max-width: 60%;
+        margin-bottom: 3rem;
+      }
+      @include respond(Phone) {
+        max-width: 100%;
+        margin-bottom: 1rem;
+      }
+    }
+
+    &--m {
+      max-width: 25vw;
+      margin-bottom: 0;
+      @include respond(tab-port) {
+        max-width: 60%;
+        margin-bottom: 3rem;
+      }
+      @include respond(Phone) {
+        max-width: 100%;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

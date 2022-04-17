@@ -1,0 +1,189 @@
+.nav-menu {
+  position: relative;
+  width: 7rem;
+  height: 5rem;
+
+  &__container {
+    padding: 0 1rem;
+  }
+
+  &__btn {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--color-p);
+    cursor: pointer;
+    position: absolute;
+    z-index: 2000;
+
+    &--active {
+      position: fixed;
+
+      & .nav-menu__icon {
+        background-color: transparent;
+      }
+
+      & .nav-menu__icon::after {
+        top: 0;
+        transform: rotate(-135deg);
+      }
+
+      & .nav-menu__icon::before {
+        top: 0;
+        transform: rotate(135deg);
+      }
+
+      &:hover .nav-menu__icon::after {
+        width: 110%;
+        left: -2px;
+      }
+
+      &:hover .nav-menu__icon::before {
+        width: 110%;
+        left: -2px;
+      }
+    }
+  }
+
+  &__icon {
+    position: relative;
+    @include blockcenter;
+
+    &,
+    &::after,
+    &::before {
+      width: 3rem;
+      height: 2px;
+      background-color: var(--color-white);
+      display: inline-block;
+    }
+
+    &::after,
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      transition: all 0.2s;
+    }
+
+    &::after {
+      top: 0.8rem;
+    }
+
+    &::before {
+      top: -0.8rem;
+    }
+  }
+
+  &__btn:hover:not(.nav-menu__btn--active) &__icon::before {
+    top: -1rem;
+  }
+
+  &__btn:hover:not(.nav-menu__btn--active) &__icon::after {
+    top: 1rem;
+  }
+
+  &__background {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    position: absolute;
+    // right: 1.5rem;
+    margin: 0 0.5rem;
+    background-image: radial-gradient(var(--color-p-l), var(--color-p-d));
+    z-index: 1000;
+    transition: transform 0.8s cubic-bezier(0.83, 0, 0.17, 1);
+
+    &--active {
+      position: fixed;
+      transform: scale(85);
+      transform: scale(120);
+    }
+  }
+
+  &__nav {
+    z-index: -2;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    width: 0;
+    height: 100vh;
+    transition: all 0.8s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+    // fliping the traslating side with language
+    &:lang(ar) {
+      right: 0;
+      transform: translateX(0);
+    }
+    &:lang(en) {
+      left: 0;
+      transform: translateX(0);
+    }
+
+    &--active {
+      position: fixed;
+      opacity: 1;
+      width: 80%;
+      z-index: 1500;
+      // fliping the traslating side with language
+      &:lang(ar) {
+        right: 50%;
+        transform: translateX(50%);
+      }
+      &:lang(en) {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+
+  &__list {
+    position: fixed;
+    @include blockcenter;
+    list-style: none;
+    text-align: center;
+    width: 70%;
+    z-index: -1;
+  }
+
+  &__item {
+    margin: 1rem;
+  }
+
+  &__link {
+    &:link,
+    &:visited {
+      display: inline-block;
+      font-weight: 300;
+      padding: 1rem 2rem;
+      color: var(--color-white);
+      text-decoration: none;
+      text-transform: uppercase;
+      background-image: linear-gradient(
+        120deg,
+        transparent 50%,
+        var(--color-white) 50%
+      );
+      background-size: 250%;
+      transition: all 0.4s;
+      &:lang(en) {
+        font-size: 3rem;
+      }
+      &:lang(ar) {
+        font-size: 4rem;
+      }
+    }
+
+    &:hover,
+    &:active {
+      background-position: 100%;
+      color: var(--color-p);
+      transform: translateX(1rem);
+    }
+
+    // span {
+    //   margin-right: 1.5rem;
+    //   display: inline-block;
+    // }
+  }
+}

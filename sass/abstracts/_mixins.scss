@@ -1,0 +1,115 @@
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// abscenter
+@mixin blockcenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// media query manager
+/*
+0-600px         --> phone
+600px - 900px   --> Tablet portrait
+900px - 1200px  --> Tablet landscape
+1200px -1800px  --> normal style
+1800px - +      --> Big desktop
+
+ORDER: base + typography > general layout + grid > page layout > components
+
+$breakpoint argument choices
+- phone
+- tab-port
+- tab-land
+- big-desk
+*/
+
+@mixin respond($breakpoint) {
+  // in media quary rem and em is relative to the default browser font size 16px not the one we spicified. always use em for media quaries
+  @if $breakpoint == sm-phone {
+    // if someone try to print the page the media don't apply
+    @media only screen and (max-width: 23.25em) {
+      @content;
+    } // 600px  / 16px = em
+  }
+  @if $breakpoint == phone {
+    // if someone try to print the page the media don't apply
+    @media only screen and (max-width: 37.5em) {
+      @content;
+    } // 600px  / 16px = em
+  }
+  @if $breakpoint == tab-port {
+    @media only screen and (max-width: 56.25em) {
+      @content;
+    } // 900px  / 16px = em
+  }
+  @if $breakpoint == less-1000 {
+    @media only screen and (max-width: 62.5em) {
+      @content;
+    } // 1000px  / 16px = em
+  }
+
+  @if $breakpoint == tab-land {
+    @media only screen and (max-width: 75em) {
+      @content;
+    } // 1200px / 16px = em
+  }
+
+  @if $breakpoint == big-desk {
+    @media only screen and (min-width: 112.5em) {
+      @content;
+    } // 1800px / 16px = em
+  }
+  @if $breakpoint == long-screen {
+    @media only screen and (min-height: 62.5em) {
+      @content;
+    } // 1800px / 16px = em
+  }
+}
+
+// @mixin text-gradiant-p {
+//   &:lang(en) {
+//     @supports (background-clip: text) or (-webkit-background-clip: text) {
+//       background-image: linear-gradient(
+//         to right,
+//         var(--color-p-d),
+//         var(--color-p)
+//       );
+//       -webkit-background-clip: text;
+//       background-clip: text;
+//       color: transparent;
+//     }
+//   }
+//   &:lang(ar) {
+//     @supports (background-clip: text) or (-webkit-background-clip: text) {
+//       background-image: linear-gradient(
+//         to left,
+//         var(--color-p-d),
+//         var(--color-p)
+//       );
+//       -webkit-background-clip: text;
+//       background-clip: text;
+//       color: transparent;
+//     }
+//   }
+// }
+
+// @mixin text-gradiant-l {
+//   @supports (background-clip: text) or (-webkit-background-clip: text) {
+//     background-image: linear-gradient(
+//       to right,
+//       var(--color-g-l-1),
+//       var(--color-p-l)
+//     );
+//     -webkit-background-clip: text;
+//     background-clip: text;
+//     color: transparent;
+//   }
+// }

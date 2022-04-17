@@ -1,0 +1,115 @@
+// .story {
+//   width: 75%;
+//   margin: 0 auto;
+//   box-shadow: 0 3rem 6rem rgba($color-black, 0.1);
+//   background-color: rgba($color-white, 0.6);
+//   border-radius: 3px;
+//   padding: 6rem;
+//   padding-left: 9rem;
+//   font-size: $default-font-size;
+//   transform: skewX(-12deg);
+
+//   @include respond(tab-port) {
+//     // width < 900
+//     width: 100%;
+//     padding: 4rem;
+//     padding-left: 7rem;
+//   }
+
+//   @include respond(phone) {
+//     // width < 900
+//     transform: skewX(0);
+//   }
+
+//   &__shape {
+//     width: 15rem;
+//     height: 15rem;
+//     float: left;
+//     border-radius: 50%;
+//     // the best way to add spaces is not to miss with margin only use transform
+//     transform: translateX(-3rem) skewX(12deg);
+//     position: relative;
+//     // to fix the wird artifacts on the border
+//     overflow: hidden;
+
+//     &::after {
+//       content: "";
+//       position: absolute;
+//       display: inline-block;
+//       top: 0;
+//       left: 0;
+//       width: 100%;
+//       height: 100%;
+//       border-radius: 50%;
+//       background-color: rgba($color-black, 0);
+//     }
+
+//     @supports (clip-path: circle()) or (-webkit-clip-path: circle()) {
+//       // to make the TEXT curve on the CIRCLE SHAPE
+//       // in order for this to work the element must be floated and defined dimentions width and height
+//       // however it only works in safari and chrome
+//       // in safari it only work with the -webkit prefix
+//       -webkit-shape-outside: circle(50% at 50% 50%);
+//       // in chrome it works like this
+//       shape-outside: circle(50% at 50% 50%);
+//       // to add the circle clip
+//       -webkit-clip-path: circle(50% at 50% 50%);
+//       clip-path: circle(50% at 50% 50%);
+//       border-radius: none;
+//     }
+
+//     @include respond(phone) {
+//       // width < 900
+//       transform: translateX(-3rem) skewX(0);
+//     }
+//   }
+
+//   &__img {
+//     height: 98%;
+//     transform: translateX(-4rem) scale(1.4);
+//     transition: all 0.5s;
+//     // to fix the transform deformaty
+//     backface-visibility: hidden;
+//   }
+
+//   &__text {
+//     transform: skewX(12deg);
+//     @include respond(phone) {
+//       // width < 900
+//       transform: skewX(0);
+//     }
+//   }
+
+//   &__caption {
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, 20%);
+//     color: $color-white;
+//     text-transform: uppercase;
+//     font-size: 1.7rem;
+//     text-align: center;
+//     opacity: 0;
+//     backface-visibility: hidden;
+//     transition: all 0.5s;
+//   }
+
+//   &:hover &__caption {
+//     transform: translate(-50%, -50%);
+//     opacity: 1;
+//   }
+
+//   &:hover &__img {
+//     transform: translateX(-4rem) scale(1);
+
+//     @supports (filter: blur() brightness()) {
+//       filter: blur(3px) brightness(80%);
+//     }
+//   }
+//   &:hover &__shape::after {
+//     background-color: rgba($color-black, 0.1);
+//     @supports (filter: blur() brightness()) {
+//       background-color: rgba($color-black, 0);
+//     }
+//   }
+// }

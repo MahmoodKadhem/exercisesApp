@@ -1,0 +1,37 @@
+.cases{
+    margin: 5rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    width: 100%;
+    
+    &__card{
+        margin: 4rem;
+        display: flex;
+        flex-direction: column;
+        width: 40rem;
+        background-color: var(--color-p-l);
+        padding: 1rem;
+        border-radius: 1rem;
+
+        @include respond(sm-phone) {
+            // width < 900
+            margin: 4rem auto;
+            
+        width: 35rem;
+          }
+    }
+    &__img{
+        width: 100%;
+        overflow: hidden;
+        // border-radius: 1rem;
+        & > img{
+            width: 100%;
+        }
+    }
+
+    &__discription{
+        color: var(--color-g-l-1);
+    }
+}

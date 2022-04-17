@@ -1,0 +1,194 @@
+// primary-color : #538fff;
+// primary-light: #d9e6ff;
+// primary-Dark: #183a79;
+// light gray: #E4E9F7;
+// transition: all .6s;
+
+.sidebar{
+    position: fixed;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9e6ff;
+    margin: .5vh;
+    min-height: 99vh;
+    width: 2rem;
+    min-width: 2rem;
+    transition: all .4s;
+    z-index: 100;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    &--active {
+        min-width: 25rem;
+        transition: all .6s;
+        
+        & .sidebar__btn--toggle::after {
+            content: ">";
+        }
+
+        & .sidebar__content{
+            opacity: 1;
+            left:53%;
+            transform: translateX(-50%);
+            transition: all .6s;
+            transition-delay: .1s;
+        }
+  
+        // & .side-nav__item {
+        //     // margin: 1rem;
+        // }
+  
+        // & .side-nav__link {
+        //     padding: 1rem 2rem;
+        // }
+  
+        // & .side-nav__title {
+        //     visibility:visible;
+        //     opacity: 1;
+        //     transition: all .2s;
+        //     transition-delay: 0.4s;
+        //     display:inline-block;
+        // }
+  
+        // & .side-nav__separator{
+        //     border-radius: 15rem;
+        //     min-width: 80%;
+        //     transition: all .1s ease-out;
+        // }
+        
+        // & .side-nav__link--title{
+        //     visibility:visible;
+        //     opacity: 1;
+        //     transition: opacity .2s;
+        //     transition-delay: 0.4s;
+        //     display:inline-block;
+        // }
+  
+    }
+
+    // &__btn--text{
+    //     position: absolute;
+    //     top: 16rem;
+    //     left: -2.4rem;
+    //     transform: rotate(90deg);
+    //     font-size: 1.6rem;
+    //     z-index: 1000;
+    //     color: #183a79;
+    // }
+
+    &__btn--toggle{
+        position: absolute;
+        top: 50%;
+        left: .5rem;
+        transform: translateY(-50%);
+        font-size: 2rem;
+        border: 0;
+        color: #183a79;
+        background-color: #d9e6ff;
+        border-left: 2px solid #183a79;
+        border-right: 2px solid #183a79;
+        height: 20rem;
+        width: 1rem;
+        transition: all .4s;
+
+        &::after{
+            content: "<";
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: -.3rem;
+            background-color: #d9e6ff;
+            width: 1.2rem;
+        }
+
+        &:hover{
+            color: #538fff;
+            border-left: 2px solid #538fff;
+            border-right: 2px solid #538fff;
+            height: 21rem;
+        }
+    }
+
+    &__btn--send{
+        width: 100%;
+        background-color: #183a79;
+        color: #fff;
+        font-size: 1.6rem;
+        border: 0 ;
+        border-radius: 2rem;
+        padding: .5rem 1rem;
+        text-transform: capitalize;
+        text-align: center;
+        text-decoration: none;
+        border: 1px solid #183a79;
+
+        &:hover{
+        background-color: #538fff;
+        border: 1px solid #183a79;
+        }
+        
+    }
+
+    &__content{
+        position: absolute;
+        opacity: 0;
+        left:10rem;
+        width: 22rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all .4s;
+    }
+
+    &__selected{
+        width: 100%;
+        height: 50vh;
+        background-color: #fff;
+        border: 1px solid #cccccc;
+        overflow-y:auto;
+        margin-bottom: 1rem;
+        padding: 1rem 0.5rem;
+        font-size: 1.2rem;
+
+        & ul{
+            // width: 100%;
+
+            & li{
+                border: 1px solid #cccccc;
+                padding-left: 0.5rem;
+                margin-bottom: .5rem;
+                & button{
+                    border: none;
+                    background-color: #fff;
+                    color: #cccccc;
+                    margin: 0;
+                    margin-right: .5rem;
+                    padding-right: .5rem;
+                    border-right: 1px solid #000000;
+
+                    &:hover{
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+
+    &__text{
+        align-self: start;
+    }
+
+    &__input{
+        background-color: #fff;
+        border: 1px solid #cccccc;
+        padding: 3px;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+
+}

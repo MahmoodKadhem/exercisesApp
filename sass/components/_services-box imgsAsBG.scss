@@ -1,0 +1,125 @@
+.services {
+  &__container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: left;
+    max-width: 130rem;
+  }
+
+  &-box {
+    box-shadow: var(--shadow-dark);
+    min-width: 30rem;
+    max-width: 40rem;
+    flex-basis: auto;
+    flex-grow: 1;
+    height: 22rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+    margin: 0 2rem 2rem;
+    background-color: var(--color-white);
+    @include respond(tab-land) {
+      height: 30rem;
+    }
+
+    &__img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 50%;
+      width: 100%;
+      background-position: center;
+      background-size: cover;
+      overflow: hidden;
+      border-radius: 1rem;
+      @include respond(tab-land) {
+        overflow: visible;
+      }
+
+      &--1 {
+        background-image: url(../img/services-cosmetic.jpg);
+      }
+      &--2 {
+        background-image: url(../img/services-root-canal.jpg);
+      }
+      &--3 {
+        background-image: url(../img/services-gum-treatment.png);
+      }
+      &--4 {
+        background-image: url(../img/services-Invisalign.jpg);
+      }
+      &--5 {
+        background-image: url(../img/services-Implants.webp);
+      }
+      &--6 {
+        background-image: url(../img/services-filling.jpg);
+      }
+      &--7 {
+        background-image: url(../img/services-check-ups.jpg);
+      }
+      &--8 {
+        background-image: url(../img/services-crowns-and-bridges.jpg);
+      }
+      &--9 {
+        background-image: url(../img/services-dentures.jpg);
+      }
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 1rem;
+      width: 100%;
+      position: absolute;
+      height: 100%;
+      transform: translateY(70%);
+      bottom: 0;
+      background-image: radial-gradient(
+        rgba(var(--color-white-n), 0.8),
+        rgba(var(--color-white-n), 0.9)
+      );
+      color: var(--color-p-d);
+      transition: all 1s;
+      backface-visibility: hidden;
+      @include respond(tab-land) {
+        // transform: translateY(10);
+        // justify-content: flex-start;
+        justify-content: space-between;
+        height: 100%;
+      }
+    }
+
+    &__abs {
+      opacity: 0;
+      @include respond(tab-land) {
+        opacity: 1;
+      }
+    }
+
+    &__btn {
+      opacity: 0;
+      align-self: flex-end;
+      @include respond(tab-land) {
+        opacity: 1;
+      }
+    }
+
+    &:hover &__content {
+      height: 100%;
+      transform: translateY(0);
+    }
+
+    &:hover &__abs {
+      opacity: 1;
+    }
+
+    &:hover &__btn {
+      opacity: 1;
+    }
+  }
+}

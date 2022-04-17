@@ -1,0 +1,33 @@
+.main {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  &__container {
+    width: 80%;
+    margin: auto;
+    padding: 10rem 0;
+    @include respond(tab-port) {
+      width: 90%;
+    }
+  }
+
+  &__partition {
+    display: flex;
+    align-items: stretch;
+    // disabled justify to fix the cases layout
+    // justify-content: space-between;
+  }
+
+  &__part-container {
+    padding: 3rem;
+    // to fix the cases full width
+    width: 100%;
+    @include respond(tab-port) {
+      // width: 90%;
+      // padding: 1rem;
+    }
+  }
+}

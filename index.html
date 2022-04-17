@@ -4,18 +4,277 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ora Centre</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Playfair+Display:wght@400;700;900&family=Inspiration&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="public/css/style_static.css" />
+    <title>Exercise App</title>
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="assets/css/amsify.select.css" />
+    <link rel="stylesheet" href="sass/main.css" />
   </head>
   <body>
+      <div class="container">
+          
+        <nav id="sideNav" class="side-nav">
+            <button id="sideNavBtn" class="side-nav__btn">
+                <span class="side-nav__icon">&nbsp;</span>
+            </button>
+            <div class="side-nav__header">
+                <svg class="side-nav__logo">
+                    <use
+                    xlink:href="assets/img/icomoon/symbol-defs.svg#icon-logo"
+                    ></use>
+                </svg>
+                <div class="side-nav__title">
+                    <h1 class="h-1">Exercise App</h1>
+                    <p>Physiotherapy Department</p>
+                </div>
+            </div>
+            <hr class="side-nav__separator">
     
+            
+    
+            <ul class="side-nav__list">
+                <li class="side-nav__item">
+                    <a class="side-nav__link side-nav__link--active">
+                        <svg class="side-nav__link--icon">
+                            <use
+                            xlink:href="assets/img/icomoon/symbol-defs.svg#icon-exe-icon"
+                            ></use>
+                        </svg>
+                        <span id="exercises" class="h-2 side-nav__link--title">Exercises</span>
+                    </a>
+                </li>
+    
+                <li class="side-nav__item">
+                    <a class="side-nav__link">
+                        <svg class="side-nav__link--icon">
+                            <use
+                            xlink:href="assets/img/icomoon/symbol-defs.svg#icon-ortho-icon"
+                            ></use>
+                        </svg>
+                        <span id="ortho" class="h-2 side-nav__link--title">Orthopedic</span>
+                    </a>
+                </li>
+    
+                <li class="side-nav__item">
+                    <a class="side-nav__link">
+                        <svg class="side-nav__link--icon">
+                            <use
+                            xlink:href="assets/img/icomoon/symbol-defs.svg#icon-neuro-icon"
+                            ></use>
+                        </svg>
+                        <span id="neuro" class="h-2 side-nav__link--title">Neurology</span>
+                    </a>
+                </li>
+    
+                <li class="side-nav__item">
+                    <a class="side-nav__link">
+                        <svg class="side-nav__link--icon">
+                            <use
+                            xlink:href="assets/img/icomoon/symbol-defs.svg#icon-pedia-icon"
+                            ></use>
+                        </svg>
+                        <span id="pedia" class="h-2 side-nav__link--title">Pediatric</span>
+                    </a>
+                </li>
+    
+                <li class="side-nav__item">
+                    <a class="side-nav__link">
+                        <svg class="side-nav__link--icon">
+                            <use
+                            xlink:href="assets/img/icomoon/symbol-defs.svg#icon-wh-icon"
+                            ></use>
+                        </svg>
+                        <span id="womenHealth" class="h-2 side-nav__link--title">Women-Health</span>
+                    </a>
+                </li>
+    
+                <li class="side-nav__item">
+                    <a class="side-nav__link">
+                        <svg class="side-nav__link--icon">
+                            <use
+                            xlink:href="assets/img/icomoon/symbol-defs.svg#icon-other-icon"
+                            ></use>
+                        </svg>
+                        <span id="others" class="h-2 side-nav__link--title">Others</span>
+                        
+                    </a>
+                </li>
+    
+            </ul>
+    
+        </nav>
+    
+        <section class="main">
 
-    <script src="public/script/master.js"></script>
+            <div class="filter-nav">
+                <div class="filter-nav__container">
+                    
+                    <select id="exercisesGif" name="country" multiple searchable>
+                    <option value="">Select body region</option>
+                    <optgroup label="head">
+                        <option value="1">face</option>
+                        <option value="2">Afghanistan</option>
+                        <option value="3">Bangladesh</option>
+                        <option value="4">Nepal</option>
+                        <option value="5">Sri Lanka</option>
+                    </optgroup>
+                    <optgroup label="America">
+                        <option value="6">USA</option>
+                        <option value="7">Canada</option>
+                        <option value="8">West Indies</option>
+                        <option value="9">Chile</option>
+                        <option value="10">Argentina</option>
+                    </optgroup>
+                    <optgroup label="Africa">
+                        <option value="11">South Africa</option>
+                        <option value="12">Nigeria</option>
+                        <option value="13">Algeria</option>
+                        <option value="14">Somalia</option>
+                        <option value="15">Sudan</option>
+                    </optgroup>
+                    </select>
+                    
+                    <button class="filter-nav__btn">search</button>
+                    <!-- <button class="filter-nav__btn">clear</button> -->
+                </div>
+            </div>
+
+            <div class="card-container">
+                
+                <!-- card 2 -->
+                <div class="card">
+                    <div class="checkbox card__checkbox">
+                        <label id="title" class="checkbox__label">
+                            <input name="title" type="checkbox">
+                            <span class="checkbox__mark"></span>
+                        </label>
+                    </div>
+                    <div class="card__slider">
+                        <div class="card__slide slide--3">
+                        <img src="Exercises Daigram/Exercises Images/Lower limb/Foot and Ankle/Strengthening/Ankle DF with Theraband.gif" alt="img-1" />
+                        </div>
+                        <div class="card__slide slide--1">
+                        <img src="Exercises Daigram/Exercises Images/Lower limb/Foot and Ankle/Strengthening/Ankle Eversion with Theraband 1.gif" alt="img-1" />
+                        </div>
+                        <div class="card__slide slide--2">
+                        <img src="Exercises Daigram/Exercises Images/Lower limb/Foot and Ankle/Strengthening/Ankle Heel Raises Standing.gif" alt="img-1" />
+                        </div>
+                        <div class="card__slide slide--3">
+                        <img src="Exercises Daigram/Exercises Images/Lower limb/Foot and Ankle/Strengthening/Ankle Inversion with Theraband 1.gif" alt="img-1" />
+                        </div>
+                        <button class="card__slider__btn card__slider__btn--left">&lt;</button>
+                        <button class="card__slider__btn card__slider__btn--right">&gt;</button>
+                        <div class="card__dots"></div>
+                    </div>
+                    <div class="card__content">
+                        <h3 class="h-3">The title of the exercises</h3>
+                        <p class="p--j"><span class="p--b">Tags:</span> ACL, PCL, knee, hamstring, shoulder, head, knees, toes</p>
+                        
+                        
+                        <div class="card__btns">
+                            <a target="_blank" class="card__btn" href="Exercises Daigram/Exercises Images/Lower limb/Foot and Ankle/Strengthening/Ankle DF with Theraband.gif">open file</a>
+                            <a class="card__btn" href="Exercises Daigram/Exercises Images/Lower limb/Foot and Ankle/Strengthening/Ankle DF with Theraband.gif">magnify</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="sidebar">
+            <!-- <span class="sidebar__btn--text">WhatsApp</span> -->
+            <button id="sidebarBtn" class="sidebar__btn--toggle"></button>
+            <div class="sidebar__content">
+                <span class="p sidebar__text">Selected items list</span>
+                <div class="sidebar__selected">
+                    <ul>
+                        <li>
+                            <button>X</button>
+                            <span>shoulder adduction exercises this is a long title</span> 
+                        </li>
+                        <li>
+                            <button>X</button>
+                            <span>shoulder adduction exercises</span> 
+                        </li>
+                        <li>
+                            <button>X</button>
+                            <span>shoulder adduction exercises</span> 
+                        </li>
+                        <li>
+                            <button>X</button>
+                            <span>shoulder adduction exercises</span> 
+                        </li>
+                        <li>
+                            <button>X</button>
+                            <span>shoulder adduction exercises this is a long title</span> 
+                        </li>
+                        <li>
+                            <button>X</button>
+                            <span>shoulder adduction exercises</span> 
+                        </li>
+                        <li>
+                            <button>X</button>
+                            <span>shoulder adduction exercises</span> 
+                        </li>
+                        <li>
+                            <button>X</button>
+                            <span>shoulder adduction exercises</span> 
+                        </li>
+                        <li>
+                            <button>X</button>
+                            <span>shoulder adduction exercises this is a long title</span> 
+                        </li>
+                        <li>
+                            <button>X</button>
+                            <span>shoulder adduction exercises</span> 
+                        </li>
+                        <li>
+                            <button>X</button>
+                            <span>shoulder adduction exercises</span> 
+                        </li>
+                        <li>
+                            <button>X</button>
+                            <span>shoulder adduction exercises</span> 
+                        </li>
+                    </ul>
+                    
+                </div>
+
+                <label class="p sidebar__text" for="mobileNum">Patient whatsapp number</label>
+                <input class="p sidebar__input" id="mobileNum" type="text" placeholder="e.g. 323198**">
+                <a class="sidebar__btn--send" target="_blank" href="https://wa.me/97333321124/?text=shorturl.at/glzQ9%0ashorturl.at/glzQ9%0ashorturl.at/glzQ9">send</a>
+                <!-- new line = %0a -->
+            </div>
+        </section>
+      </div>
+
+
+      
+    <script type="text/javascript" src="data-index.json"></script>
+    <!-- polyfil svg use -->
+    <script src="assets/script/svgxuse.min.js"></script>
+    <!-- jquery -->
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+    <script src="assets/script/jquery.amsifyselect.js"></script>
+    <script src="assets/script/master.js"></script>
+    
+    <script>
+        $('select').amsifySelect({
+            type : 'amsify',
+            // classes: {
+            //     clear : '',
+            //     close : ''
+            // },
+            // labelLimit: 3,
+            // limit: 10,
+            // searchable :true,
+        });
+    </script>
+    
   </body>
 </html>

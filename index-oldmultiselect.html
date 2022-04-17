@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise App</title>
+    <!--Fonts-->
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com" />-->
+    <!--<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />-->
+    <!--<link-->
+    <!--  href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Playfair+Display:wght@400;700;900&family=Inspiration&display=swap"-->
+    <!--  rel="stylesheet"-->
+    <!--/>-->
+
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- <link rel="stylesheet" href="assets/css/multi-select.css" /> -->
+    <link rel="stylesheet" href="sass/main.css" />
+  </head>
+  <body>
+      <div class="container">
+          
+        <nav id="sideNav" class="side-nav">
+            <button id="sideNavBtn" class="side-nav__btn">
+                <span class="side-nav__icon">&nbsp;</span>
+            </button>
+            <div class="side-nav__header">
+                <svg class="side-nav__logo">
+                    <use
+                    xlink:href="assets/img/icomoon/symbol-defs.svg#icon-logo"
+                    ></use>
+                </svg>
+                <div class="side-nav__title">
+                    <h1 class="h-1">Exercise App</h1>
+                    <p>Physiotherapy Department</p>
+                </div>
+            </div>
+            <hr class="side-nav__separator">
+    
+            
+    
+            <ul class="side-nav__list">
+                <li class="side-nav__item">
+                    <a class="side-nav__link">
+                        <svg class="side-nav__link--icon">
+                            <use
+                            xlink:href="assets/img/icomoon/symbol-defs.svg#icon-exe-icon"
+                            ></use>
+                        </svg>
+                        <span id="exercises" class="h-2 side-nav__link--title">Exercises</span>
+                    </a>
+                </li>
+    
+                <li class="side-nav__item">
+                    <a class="side-nav__link">
+                        <svg class="side-nav__link--icon">
+                            <use
+                            xlink:href="assets/img/icomoon/symbol-defs.svg#icon-ortho-icon"
+                            ></use>
+                        </svg>
+                        <span id="ortho" class="h-2 side-nav__link--title">Orthopedic</span>
+                    </a>
+                </li>
+    
+                <li class="side-nav__item">
+                    <a class="side-nav__link">
+                        <svg class="side-nav__link--icon">
+                            <use
+                            xlink:href="assets/img/icomoon/symbol-defs.svg#icon-neuro-icon"
+                            ></use>
+                        </svg>
+                        <span id="neuro" class="h-2 side-nav__link--title">Neurology</span>
+                    </a>
+                </li>
+    
+                <li class="side-nav__item">
+                    <a class="side-nav__link">
+                        <svg class="side-nav__link--icon">
+                            <use
+                            xlink:href="assets/img/icomoon/symbol-defs.svg#icon-pedia-icon"
+                            ></use>
+                        </svg>
+                        <span id="pedia" class="h-2 side-nav__link--title">Pediatric</span>
+                    </a>
+                </li>
+    
+                <li class="side-nav__item">
+                    <a class="side-nav__link">
+                        <svg class="side-nav__link--icon">
+                            <use
+                            xlink:href="assets/img/icomoon/symbol-defs.svg#icon-wh-icon"
+                            ></use>
+                        </svg>
+                        <span id="womenHealth" class="h-2 side-nav__link--title">Women-Health</span>
+                    </a>
+                </li>
+    
+                <li class="side-nav__item">
+                    <a class="side-nav__link">
+                        <svg class="side-nav__link--icon">
+                            <use
+                            xlink:href="assets/img/icomoon/symbol-defs.svg#icon-other-icon"
+                            ></use>
+                        </svg>
+                        <span id="others" class="h-2 side-nav__link--title">Others</span>
+                        
+                    </a>
+                </li>
+    
+            </ul>
+    
+    
+            <!-- <li class="side-nav__item">
+                <button class="side-nav__btn">
+                  <span class="side-nav__icon">&nbsp;</span>
+                </button>
+              </li> -->
+            
+            <!-- <button id="exercises" class="navbar__btn" onclick="dropDown(exercises)">Exercises<i class="arrow down"></i></button>
+            <button id="ortopedic" class="navbar__btn" onclick="dropDown(ortopedic)">Ortopedic<i class="arrow down"></i></button>
+            <button id="neurology" class="navbar__btn" onclick="dropDown(neurology)">Neurology<i class="arrow down"></i></button>
+            <button id="pediatric" class="navbar__btn" onclick="dropDown(pediatric)">Pediatric<i class="arrow down"></i></button>
+            <button id="womenHealth" class="navbar__btn" onclick="dropDown(womenHealth)">Women Health<i class="arrow down"></i></button>
+            <button id="others" class="navbar__btn" onclick="dropDown(others)">Others<i class="arrow down"></i></button>
+            <input type="text" class="navbar__searchBox">
+            <button id="search" class="navbar__btn">Search</button> -->
+        </nav>
+    
+        <section class="main">
+
+            <div class="filter-nav">
+                <div class="filter-nav__container">
+                    <select id="exercisesList">
+                        <option value="blc">Balance</option>
+                        <option value="face">Face</option>
+                        <option value="neck">Neck</option>
+                        <option value="shoulder">Shoulder</option>
+                        <option value="elbow">Elbow</option>
+                        <option value="wristFingers">Wrist & Fingers</option>
+                      </select>
+    
+                      <button class="filter-nav__btn">search</button>
+                      <!-- <button class="filter-nav__btn">clear</button> -->
+                </div>
+            </div>
+
+            <dic class="card-container">
+                <!-- card 1 -->
+                <div class="card">
+                    <div class="card__slider">
+                        <div class="card__slide slide--3">
+                        <img src="Exercises Daigram/Exercises Images/Lower limb/Foot and Ankle/Strengthening/Ankle DF with Theraband.gif" alt="img-1" />
+                        </div>
+                        <div class="card__slide slide--1">
+                        <img src="Exercises Daigram/Exercises Images/Lower limb/Foot and Ankle/Strengthening/Ankle Eversion with Theraband 1.gif" alt="img-1" />
+                        </div>
+                        <div class="card__slide slide--2">
+                        <img src="Exercises Daigram/Exercises Images/Lower limb/Foot and Ankle/Strengthening/Ankle Heel Raises Standing.gif" alt="img-1" />
+                        </div>
+                        <div class="card__slide slide--3">
+                        <img src="Exercises Daigram/Exercises Images/Lower limb/Foot and Ankle/Strengthening/Ankle Inversion with Theraband 1.gif" alt="img-1" />
+                        </div>
+                        <button class="card__slider__btn card__slider__btn--left">&lt;</button>
+                        <button class="card__slider__btn card__slider__btn--right">&gt;</button>
+                        <div class="card__dots"></div>
+                    </div>
+                    <div class="card__content">
+                        <h3 class="h-3">The title of the exercises</h3>
+                        <p class="p--j"><span class="p-1__msg">Tags:</span> ACL, PCL, knee, hamstring, shoulder, head, knees, toes</p>
+                    </div>
+                </div>
+                
+                <!-- card 2 -->
+                <div class="card">
+                    <div class="card__slider">
+                        <div class="card__slide slide--3">
+                        <img src="Exercises Daigram/Exercises Images/Lower limb/Foot and Ankle/Strengthening/Ankle DF with Theraband.gif" alt="img-1" />
+                        </div>
+                        <div class="card__slide slide--1">
+                        <img src="Exercises Daigram/Exercises Images/Lower limb/Foot and Ankle/Strengthening/Ankle Eversion with Theraband 1.gif" alt="img-1" />
+                        </div>
+                        <div class="card__slide slide--2">
+                        <img src="Exercises Daigram/Exercises Images/Lower limb/Foot and Ankle/Strengthening/Ankle Heel Raises Standing.gif" alt="img-1" />
+                        </div>
+                        <div class="card__slide slide--3">
+                        <img src="Exercises Daigram/Exercises Images/Lower limb/Foot and Ankle/Strengthening/Ankle Inversion with Theraband 1.gif" alt="img-1" />
+                        </div>
+                        <button class="card__slider__btn card__slider__btn--left">&lt;</button>
+                        <button class="card__slider__btn card__slider__btn--right">&gt;</button>
+                        <div class="card__dots"></div>
+                    </div>
+                    <div class="card__content">
+                        <h3 class="h-3">The title of the exercises</h3>
+                        <p class="p--j"><span class="p--b">Tags:</span> ACL, PCL, knee, hamstring, shoulder, head, knees, toes</p>
+                    </div>
+                </div>
+            </dic>
+             
+        </section>
+      </div>
+
+
+
+
+    <script src="assets/script/multi-select-min.js" type="text/javascript"></script>
+    <script src="assets/script/svgxuse.min.js"></script>
+    <script src="assets/script/master.js"></script>
+    <script type="text/javascript">
+        const multiSelect = new IconicMultiSelect({
+          select: "#exercisesList",
+        //   data: [
+        //     { text: "Balance", value: "blc" , imageUrl: "assets/img/test/face2.jpg", location: "New York, USA"},
+        //     { text: "Face ", value: "face"},
+        //     { text: "Neck", value: "neck"},
+        //     { text: "Shoulder", value: "shoulder"},
+        //     { text: "Elbow", value: "elbow"},
+        //     { text: "Wrist & Fingers", value: "wristFingers"},
+        //     { text: "elbow", value: "elbow"},
+        //     { text: "elbow", value: "elbow"},
+        //     { text: "elbow", value: "elbow"},
+        //     ],
+        // valueField: "value",
+        // textField: "text",
+        // tagTemplate:
+        //     '<div class="demo-tag-template"><span class="demo-tag-template__img" style="background-image: url(/${imageUrl});"></span> ${text}</div>',
+        // itemTemplate:
+        //     '<div class="demo-template"><span class="demo-template__img" style="background-image: url(/${imageUrl});"></span> ${text} - ${location}</div>',
+        placeholder: "Select a body part...",
+        });
+      
+        multiSelect.init();
+      </script>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+.gallery {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  width: 100%;
+  flex-wrap: wrap;
+
+
+  &__card{
+    // height: 20rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 22vw;
+    position: relative;
+    background-color: var(--color-p-l);
+    padding: 2px;
+    border: 3px solid var(--color-p-d);
+    border-radius: 2rem;
+    box-shadow: var(--shadow-dark-card);
+    margin-bottom: 5rem;
+    overflow: hidden;
+
+    @include respond(tab-port) {
+      width: 40%;
+    }
+
+    @include respond(phone) {
+      width: 90%;
+    }
+  }
+
+  &__img-btn{ 
+    border-radius: 2rem;
+    width: 100%;
+    overflow: hidden;
+
+    &:hover:not(.img-btn-fscreen--active) > img{
+      transform: scale(1.2);
+    }
+  }
+
+  &__img{
+    transition: transform .3s ease-out;
+    
+  }
+  
+  
+  &__date{
+    padding: 0 1rem;
+    font-size: 1.4rem;
+    color: var(--color-g-l-1);
+  }
+
+  &__description{
+    padding: 0 1rem 1rem;
+    line-height: 1;
+    color: var(--color-p-d);
+    color: var(--color-g-d-1);
+  }
+}

@@ -316,7 +316,7 @@ body {
 
 @font-face {
   font-family: "PlayfairDisplay";
-  src: url("./assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf");
+  src: url("../assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf");
 }
 body {
   font-family: "Tahoma", "Trebuchet MS", "Arial", sans-serif;

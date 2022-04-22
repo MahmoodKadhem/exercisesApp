@@ -24,6 +24,10 @@
   &--active {
       min-width: 25rem;
       transition: all .6s;
+
+      // @include respond() {
+      //   justify-content: center;
+      // }
       
       & .side-nav__btn {
           margin-right: 2rem;

@@ -5,7 +5,7 @@
 // transition: all .6s;
 
 .side-nav {
-  position: relative;
+  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -16,7 +16,7 @@
   width: 7rem;
   min-width: 7rem;
   transition: all .4s;
-  z-index: 1;
+  z-index: 100;
   border-radius: 1rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -58,87 +58,28 @@
           display:inline-block;
       }
 
+      & .side-nav__footer--title {
+          visibility:visible;
+          opacity: 1;
+          transition: all .2s;
+          transition-delay: 0.4s;
+          display:inline-block;
+      }
+
   }
 
   &__btn{
       position: absolute;
       top: 6rem;
       left: 4.5rem;
-      width: 3rem;
-      height: 3rem;
-      border: none;
-      border-radius: 50%;
-      background-color: #538fff;
-      cursor: pointer;
       margin: 1rem;
       z-index: 2;
-      transition: all .3s;
+      transition: all .4s;
   
       &--active {
-          left: 22.5rem;
-
-        & .side-nav__icon {
-          background-color: transparent;
-        }
-  
-        & .side-nav__icon::after {
-          top: 0;
-          transform: rotate(-135deg);
-        }
-  
-        & .side-nav__icon::before {
-          top: 0;
-          transform: rotate(135deg);
-        }
-  
-        &:hover .side-nav__icon::after {
-          width: 110%;
-          left: -1px;
-        }
-  
-        &:hover .side-nav__icon::before {
-          width: 110%;
-          left: -1px;
-        }
+        left: 22.5rem;
+        transition: all .6s;
       }
-  }
-
-  &__icon {
-      position: relative;
-      @include blockcenter;
-  
-      &,
-      &::after,
-      &::before {
-        width: 2rem;
-        height: 2px;
-        background-color: #d9e6ff;
-        display: inline-block;
-      }
-  
-      &::after,
-      &::before {
-        content: "";
-        position: absolute;
-        left: 0;
-        transition: all 0.2s;
-      }
-  
-      &::after {
-        top: 0.6rem;
-      }
-  
-      &::before {
-        top: -0.6rem;
-      }
-    }
-  
-  &__btn:hover:not(.side-nav__btn--active) &__icon::before {
-  top: -.8rem;
-  }
-
-  &__btn:hover:not(.side-nav__btn--active) &__icon::after {
-  top: .8rem;
   }
 
   &__header{
@@ -268,6 +209,66 @@
       transition-delay: 0;
     }
     
+  }
+
+  &__footer{
+    // position: fixed;
+    // width: 100%;
+    // height: 100%;
+    min-height: 6rem;
+    bottom: .5rem;
+    left: .5rem;
+    color: rgb(131, 131, 131);
+
+    &--logo{ 
+      position: absolute;
+      bottom: 2rem;
+      left: 1rem;
+      width: 5rem;
+      height: 5rem;
+      display: flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+
+      & img{
+        width: inherit;
+        height: inherit;
+      }
+      & span{
+        width: 100%;
+        font-size: 1.2rem;
+        text-align: center;
+      }
+    }
+
+    &--title{
+      position: absolute;
+      bottom: 1rem;
+      left: 6.5rem;
+      visibility: hidden;
+      opacity: 0;
+      transition: all .1s;
+      transition-delay: 0;
+      // display: flex;
+      // flex-direction:column;
+      // justify-content: center;
+      // align-items: center;
+
+      & img{
+        height: 4.5rem;
+        margin: auto;
+      }
+      & span{
+        // position: absolute;
+        // left: -3.5rem;
+        // bottom: -1.5rem;
+        display: block;
+        width: 15rem;
+        font-size: 1.2rem;
+        text-align: left;
+      }
+    }
   }
 
 }

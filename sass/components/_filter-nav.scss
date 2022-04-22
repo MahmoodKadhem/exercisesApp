@@ -8,9 +8,10 @@
     position: absolute;
     top: 0;
     left: 50%;
+    opacity: 1;
     transform: translateX(-50%);
     background-color: #d9e6ff;
-    width: 50%;
+    width: 90%;
     max-width: 60rem;
     min-width: 30rem;
     border-bottom-left-radius: 1rem;
@@ -18,17 +19,40 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 1rem;
     z-index: 50;
+    transition: all .4s;
+
+    &--hide{
+        top:-50rem;
+        opacity: 0;
+    }
 
     &__container{
+        width: 100%;
         display: flex;
-        align-items: stretch;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        @include respond(phone) {
+            justify-content: center;
+          }
+    }
+
+    &__selectbox{
+        position: relative;
+        // max-width: 30rem;
+        width: 25rem;
+        
+        flex-basis: auto;
+        flex-grow: 1;
+        
+        @include respond(phone) {
+            width: 30rem;
+          }
     }
 
     &__btn{
         width: 10rem;
-        max-height: 100%;
-        margin-left: 1rem;
-        // background-color: #538fff;
         background-color: #183a79;
         color: #fff;
         font-size: 1.6rem;

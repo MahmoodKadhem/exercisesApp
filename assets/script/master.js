@@ -39,6 +39,8 @@
 
 
 
+
+
 /////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////
 ////////////////////////// data handler /////////////////////////////
@@ -46,15 +48,13 @@
 /////////////////////////////////////////////////////////////////////
 
 let messageList = {
-  "closeEyes":"url her",
-  "fullMouth":"url her"
 }
-let listID = 1
 
-creatCard(data.exercisesGif.face.angry)
+const selectedData = data.exercisesGif.face;
+// console.log(selectedData);
+selectedData.forEach(entry => creatCard(entry));
 
-/////////////////////////////////////////////////////////////////////
-///////////////////////// card loader////////////////////////////////
+// creating a card based on given data
 function creatCard(data){
   const cardContainer = document.querySelector(".card-container");
   const cardEle = document.createElement('div');
@@ -66,14 +66,37 @@ function creatCard(data){
   const cardBtns = document.createElement('div');
   const openBtn = document.createElement('a');
   const qrBtn = document.createElement('button');
-  
+  const langBtn = document.createElement('label');
+
+  // if messageList containes the card data check the checkbox 
+  let checkboxStatus = checkcheckboxStatus(data.id);
+
   // checkbox element
   checkbox.classList.add('checkbox','card__checkbox');
-  checkbox.innerHTML = `<label id="${data.title}" class="checkbox__label">
-    <input name="${data.title}" type="checkbox">
+  checkbox.innerHTML = `<label id="card${data.id}" class="checkbox__label">
+    <input name="card${data.id}" type="checkbox" ${checkboxStatus}>
     <span class="checkbox__mark"></span>
   </label>`
+
+  // check if the data is arabic or english or both
+  let langStatus;
+  if(!data.araQRCode){
+    langStatus = "disabled";
+  } else if (!data.engQRCode) {
+    langStatus = "checked disabled";
+  }
+
+  // lang checkbox element
+  langBtn.classList.add('switch-btn__switch', 'switch-btn__switch--card');
+  langBtn.innerHTML = `<input id="lang${data.id}" type="checkbox" ${!langStatus ? '' : langStatus}>
+  <span class="switch-btn__slider switch-btn__round"></span>
+  <div class="switch-btn__labels">
+      <span class="switch-btn__label--1">Ara</span>
+      <span class="switch-btn__label--2">Eng</span>
+  </div>`
  
+  langBtn.querySelector('input').addEventListener('click', (e) => langBtnEventListener(e,data));
+
   // add classes to the created elements
   cardEle.classList.add('card');
   sliderEle.classList.add('card__slider');
@@ -81,19 +104,34 @@ function creatCard(data){
   titleEle.classList.add('h-3');
   tagsEle.classList.add('p--tags');
   cardBtns.classList.add('card__btns');
-  openBtn.classList.add('card__btn');
-  qrBtn.classList.add('card__btn');
+  openBtn.classList.add('btn', 'card__btn');
+  qrBtn.classList.add('btn', 'card__btn');
 
   // create the imgs elements for each image in the array
-  data.imgurls.forEach(function(img){
-    let counter = 1
+  data.imgurls.forEach(function(img,i){
     const slideEle = document.createElement('div');
     slideEle.classList.add('card__slide');
     const imgEle = document.createElement('img');
     imgEle.src = img;
-    imgEle.alt = data.title + counter
-    counter = counter + 1
+    imgEle.alt = data.title + i;
     slideEle.appendChild(imgEle);
+    const zoomBtn = document.createElement('a');
+  
+    zoomBtn.classList.add('card__zoom');
+    // zoom button innter html
+    zoomBtn.innerHTML = 
+    `<svg class="card__zoom--icon">
+      <use
+      xlink:href="assets/img/icomoon/symbol-defs.svg#icon-screen-full"
+      ></use>
+    </svg>`
+    // add the event listener to the btn
+    createFullScreenImgEle(zoomBtn, data.bigImgs[i]);
+    
+    // append the zoom button to the slider element
+    slideEle.appendChild(zoomBtn);
+
+
     sliderEle.appendChild(slideEle);
   });
 
@@ -113,7 +151,11 @@ function creatCard(data){
     sliderEle.appendChild(lbtn);
     sliderEle.appendChild(rbtn);
     sliderEle.appendChild(dots);
+
+    // activate the slider function
+    activateSlider(sliderEle);
   }
+
 
   // create the content title and tages
   titleEle.textContent = data.title
@@ -121,12 +163,11 @@ function creatCard(data){
   
   // card btns text content
   openBtn.textContent = "open file";
+  openBtn.target = "_blank"
   qrBtn.textContent = "QR code";
 
-  // add the btns urls
-  openBtn.href= data.dir
-
   // append the card btns to the btns element
+  cardBtns.appendChild(langBtn);
   cardBtns.appendChild(openBtn);
   cardBtns.appendChild(qrBtn);
 
@@ -141,31 +182,34 @@ function creatCard(data){
   cardEle.appendChild(contentEle);
 
   cardEle.dataset.obj = JSON.stringify(data);
-  
+  cardEle.id = data.id
 
   // append the card element to the card container
   cardContainer.appendChild(cardEle);
-
-  ////////////// activate card functions ///////////////
 
   // checkbox function
   checkbox.querySelector("input").addEventListener("click",(e) => checkboxhandler(e))
 
   // create the QR code image
-  if (data.qrCode){
-    createQRCodeEle(qrBtn, data.qrCode);
-  } else{
+  if (!data.araQRCode && !data.engQRCode){
     qrBtn.disabled = true;
     qrBtn.classList.add('card__btn--disabled');
+  } else if (!data.araQRCode){
+    createFullScreenImgEle(qrBtn, data.engQRCode);
+  } else {
+    createFullScreenImgEle(qrBtn, data.araQRCode);
   }
 
-  activateSlider(sliderEle);
+  // add the btns urls
+  if(!data.araDir){
+    openBtn.href= data.engDir;
+  } else {
+    openBtn.href= data.araDir;
+  }
 
 }
 
-/////////////////////////////////////////////////////////////////////
-////////////////////// activate slider for the created cards ///////////////////////////////////////
-
+// activate slider for the created card images
 function activateSlider(slider) {
   var slides = Array.prototype.slice.call(slider.querySelectorAll(".card__slide"), 0);
   var btnLeft = slider.querySelector(".card__slider__btn--left");
@@ -335,14 +379,9 @@ function activateSlider(slider) {
   });
 };
 
-/////////////////////////////////////////////////////////////////////////
-//////////// build andshow the qr code when the btn is clicked /////////
-
-function createQRCodeEle(ele, img){
-  // console.log(ele, img);
-  // ele.addEventListener("click", function(){
+// build and show the qr code when the btn is clicked 
+function createFullScreenImgEle(ele, img){
   ele.addEventListener("click", function(){
-
       const qrContainer = document.createElement('div');
       const qrImg = document.createElement('img');
       const qrBtn = document.createElement('button');
@@ -353,40 +392,80 @@ function createQRCodeEle(ele, img){
 
       qrImg.src = img;
       qrBtn.textContent = "X";
-      qrBtn.addEventListener("click",()=> removeTheQRcode());
+      qrBtn.addEventListener("click",()=> removeTheFullScreenEle());
       qrContainer.appendChild(qrImg);
       qrContainer.appendChild(qrBtn);
       document.querySelector(".card-container").appendChild(qrContainer);
-      
   })
 }
 
-//////////////////////////////////////////////////////////////////////////
-//////////////////// close the qr code when shown ////////////////////////
+// change the dir and qrcode based on the lang switch.
+function langBtnEventListener(e, data){
+  // const value = e.target.checked;
+  const lang = e.target.checked? "eng" : "ara";
+  const cardCheckbox = e.target.closest('.card').querySelector('.checkbox').querySelector('input');
+  const btnsEle = e.target.closest('.card__btns');
+  const openBtn = btnsEle.querySelector('a');
+  const qrCodeBtn = btnsEle.querySelector('button');
 
-function removeTheQRcode(){
+  if (lang === "eng"){
+    openBtn.href = data.engDir;
+    resetEventOnQRBtn(qrCodeBtn, data.engQRCode);
+  } else {
+    openBtn.href = data.araDir;
+    resetEventOnQRBtn(qrCodeBtn, data.araQRCode);
+  }
+
+  if(cardCheckbox.checked){
+    checkboxLangSwetchHandler(cardCheckbox,lang);
+  } 
+}
+
+// clear the event listener on the QR button by cloning and replacing it.
+function resetEventOnQRBtn(ele,img){
+  const new_ele = ele.cloneNode(true);
+  ele.parentNode.replaceChild(new_ele, ele);
+  createFullScreenImgEle(new_ele, img);
+}
+
+// close the full screen image when shown 
+function removeTheFullScreenEle(){
   document.querySelector(".qr__container").remove();
 }
 
-//////////////////////////////////////////////////////////////////////////
-//////////////////////// handling the check box //////////////////////////
-//////////////////////////////////////////////////////////////////////////
-
+// handling the check box 
 function checkboxhandler(e){
   const checkbox = e.target.checked;
-  const dataObj = JSON. parse(e.target.closest(".card").dataset.obj);
+  const card = e.target.closest(".card")
+  const dataObj = JSON.parse(card.dataset.obj);
   const listID = "li" + dataObj.id
+  const lang = card.querySelector(`#lang${dataObj.id}`).checked? "eng" : "ara";
+  
   if (checkbox === true){
-    selectedItem(dataObj)
+    selectedItem(dataObj,lang)
   } else {
     deSelectedItem(dataObj.id,listID)
   }
 }
 
+// when loading the cards check if the checkbox is checked
+function checkcheckboxStatus(id){
+  if (id in messageList) {
+    return "checked"
+  } else {
+     return ""
+  }
+}
+
+// hadling swetching the language
+function checkboxLangSwetchHandler(input,lang){
+  const dataObj = JSON. parse(input.closest(".card").dataset.obj);
+  replaceLangLinks(dataObj,lang)
+}
+
 // add and remove the items from the messageList
-function selectedItem(dataObj){
-  // add title and url to messageList
-  messageList[dataObj.id] = dataObj.link;
+function selectedItem(dataObj,lang){
+  replaceLangLinks(dataObj,lang)
   // add the items from the side bar list
   const item = document.createElement('li');
   const btn = document.createElement('button');
@@ -404,30 +483,111 @@ function selectedItem(dataObj){
 
   // pupulate data
   populateMessageData();
+  console.log(messageList);
 }
 
 function deSelectedItem(id,listID){
-  console.log(id);
-  console.log(listID);
   // remove id and url to messageList
   delete messageList[id];
   document.getElementById(listID).remove();
+  const card =  document.getElementById(id)
+  // if the  card element is found uncheck it
+  if (card) {
+    card.querySelector('input').checked = false;
+  }
   // pupulate data
   populateMessageData();
 }
 
-
-// add and remove the items from the side bar list
-
-
-function populateMessageData(){
-
-  console.log(messageList);
-  
-  console.log(Object.values(messageList));
-  console.log(Object.keys(messageList));
-
+// replace the links in the messageList object
+function replaceLangLinks(dataObj,lang){
+  let link
+  // add title and url to messageList
+  if (lang === "ara"){
+    link = dataObj.araLink
+  } else {
+    link = dataObj.engLink
+  }
+  messageList[dataObj.id] = link;
+  // console.log(messageList);
 }
+
+// create the message and enable the whatsApp send ntm
+function populateMessageData(){
+  let links = Object.values(messageList).join('%0a')
+  let mobile = document.getElementById("mobileNum").value;
+  let message = `https://wa.me/973${mobile}/?text=${links}`
+  const anchore = document.querySelector('#sendMessageBtn');
+  
+
+  if (Object.keys(messageList).length !== 0 && mobile.length == 8){
+    anchore.href = message;
+    anchore.classList.remove('sidebar__btn--disabled')
+    anchore.removeEventListener('click',preventClick);
+
+  } else {
+    anchore.classList.add('sidebar__btn--disabled')
+    anchore.addEventListener('click',preventClick);
+  }
+}
+
+// prevent send messages before selection
+function preventClick(e){
+  e.preventDefault()
+}
+
+populateMessageData()
+
+// filter navgation
+function filterSearch(){
+  console.log(document.querySelector('#filterSelectBox').value);
+  clearCanvas();
+}
+
+// deleting all cards and selected items elements
+function clearCanvas(){
+  const cards = document.querySelectorAll('.card');
+  cards.forEach( card => card.remove())
+  document.querySelector('#filterSelectBox').reset();
+}
+
+// handling populate list and data
+function populateData(e){
+  let target = e.target.closest('a');
+  let targetID = target.id;
+  let selectBoxData = creatingLists(targetID);
+
+  // deactivate the other links
+  document.querySelectorAll('.side-nav__link').forEach(link => link.classList.remove('side-nav__link--active'));
+  
+  // activate the selected link
+  target.classList.add('side-nav__link--active');
+
+  // remove everything in the canvas
+  clearCanvas();
+
+  // toggle the filter-box is needed
+  if (selectBoxData){
+    // show the filter-box and create the list
+    document.querySelector('.filter-nav').classList.remove('filter-nav--hide');
+    document.querySelector('#filterSelectBox').setOptions(selectBoxData);
+  } else {
+    // hide the filter-box
+    document.querySelector('.filter-nav').classList.add('filter-nav--hide');
+    // show all the available cards
+    data[targetID].forEach(entry => creatCard(entry));
+  }
+}
+
+// only accept numbner in the mobile imput
+function onlyNumberKey(evt) {
+  // Only ASCII character in that range allowed
+  var ASCIICode = (evt.which) ? evt.which : evt.keyCode
+  if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57))
+      return false;
+  return true;
+}
+
 
 /////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////
@@ -444,9 +604,16 @@ if (sideNavMenu) {
   sideNavBtn.addEventListener("click", function (e) {
     e.preventDefault();
     sideNavBtn.classList.toggle("side-nav__btn--active");
+    sideNavBtn.classList.toggle("x-btn__btn--active");
     sideNavMenu.classList.toggle("side-nav--active");
   });
 }
+
+const sideNavLink = document.querySelectorAll('.side-nav__link')
+
+sideNavLink.forEach( link => {
+  link.addEventListener('click', populateData);
+})
 
 
 /////////////////////////////////////////////////////////////////////

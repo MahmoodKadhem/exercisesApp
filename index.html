@@ -8,15 +8,15 @@
     <!----===== Boxicons CSS ===== -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
-    <link rel="stylesheet" href="assets/css/amsify.select.css" />
+    <link rel="stylesheet" href="assets/css/virtual-select.min.css" />
     <link rel="stylesheet" href="sass/main.css" />
   </head>
   <body>
       <div class="container">
           
         <nav id="sideNav" class="side-nav">
-            <button id="sideNavBtn" class="side-nav__btn">
-                <span class="side-nav__icon">&nbsp;</span>
+            <button id="sideNavBtn" class="x-btn__btn side-nav__btn">
+                <span class="x-btn__icon side-nav__icon">&nbsp;</span>
             </button>
             <div class="side-nav__header">
                 <svg class="side-nav__logo">
@@ -35,73 +35,84 @@
     
             <ul class="side-nav__list">
                 <li class="side-nav__item">
-                    <a class="side-nav__link side-nav__link--active">
+                    <a id="exercisesGif" class="side-nav__link side-nav__link--active">
                         <svg class="side-nav__link--icon">
                             <use
                             xlink:href="assets/img/icomoon/symbol-defs.svg#icon-exe-icon"
                             ></use>
                         </svg>
-                        <span id="exercises" class="h-2 side-nav__link--title">Exercises</span>
+                        <span class="h-2 side-nav__link--title">Exercises</span>
                     </a>
                 </li>
     
                 <li class="side-nav__item">
-                    <a class="side-nav__link">
+                    <a id="ortho" class="side-nav__link">
                         <svg class="side-nav__link--icon">
                             <use
                             xlink:href="assets/img/icomoon/symbol-defs.svg#icon-ortho-icon"
                             ></use>
                         </svg>
-                        <span id="ortho" class="h-2 side-nav__link--title">Orthopedic</span>
+                        <span class="h-2 side-nav__link--title">Orthopedic</span>
                     </a>
                 </li>
     
                 <li class="side-nav__item">
-                    <a class="side-nav__link">
+                    <a id="neuro" class="side-nav__link">
                         <svg class="side-nav__link--icon">
                             <use
                             xlink:href="assets/img/icomoon/symbol-defs.svg#icon-neuro-icon"
                             ></use>
                         </svg>
-                        <span id="neuro" class="h-2 side-nav__link--title">Neurology</span>
+                        <span class="h-2 side-nav__link--title">Neurology</span>
                     </a>
                 </li>
     
                 <li class="side-nav__item">
-                    <a class="side-nav__link">
+                    <a id="pedia" class="side-nav__link">
                         <svg class="side-nav__link--icon">
                             <use
                             xlink:href="assets/img/icomoon/symbol-defs.svg#icon-pedia-icon"
                             ></use>
                         </svg>
-                        <span id="pedia" class="h-2 side-nav__link--title">Pediatric</span>
+                        <span class="h-2 side-nav__link--title">Pediatric</span>
                     </a>
                 </li>
     
                 <li class="side-nav__item">
-                    <a class="side-nav__link">
+                    <a id="womenHealth" class="side-nav__link">
                         <svg class="side-nav__link--icon">
                             <use
                             xlink:href="assets/img/icomoon/symbol-defs.svg#icon-wh-icon"
                             ></use>
                         </svg>
-                        <span id="womenHealth" class="h-2 side-nav__link--title">Women-Health</span>
+                        <span class="h-2 side-nav__link--title">Women-Health</span>
                     </a>
                 </li>
     
                 <li class="side-nav__item">
-                    <a class="side-nav__link">
+                    <a id="others" class="side-nav__link">
                         <svg class="side-nav__link--icon">
                             <use
                             xlink:href="assets/img/icomoon/symbol-defs.svg#icon-other-icon"
                             ></use>
                         </svg>
-                        <span id="others" class="h-2 side-nav__link--title">Others</span>
+                        <span class="h-2 side-nav__link--title">Others</span>
                         
                     </a>
                 </li>
     
             </ul>
+
+            <div class="side-nav__footer">
+                <div class="side-nav__footer--logo">
+                    <img src="assets/img/bhLogo.png" alt="Bahrain Logo">
+                    <span>Copyright</span> 
+                </div>
+                <div class="side-nav__footer--title">
+                    <img src="assets/img/mohLogo.png" alt="MOH">
+                    <span>©2022 - Mahmood Kadhem</span> 
+                </div>
+            </div>
     
         </nav>
     
@@ -109,41 +120,29 @@
 
             <div class="filter-nav">
                 <div class="filter-nav__container">
-                    
-                    <select id="exercisesGif" name="country" multiple searchable>
-                    <option value="">Select body region</option>
-                    <optgroup label="head">
-                        <option value="1">face</option>
-                        <option value="2">Afghanistan</option>
-                        <option value="3">Bangladesh</option>
-                        <option value="4">Nepal</option>
-                        <option value="5">Sri Lanka</option>
-                    </optgroup>
-                    <optgroup label="America">
-                        <option value="6">USA</option>
-                        <option value="7">Canada</option>
-                        <option value="8">West Indies</option>
-                        <option value="9">Chile</option>
-                        <option value="10">Argentina</option>
-                    </optgroup>
-                    <optgroup label="Africa">
-                        <option value="11">South Africa</option>
-                        <option value="12">Nigeria</option>
-                        <option value="13">Algeria</option>
-                        <option value="14">Somalia</option>
-                        <option value="15">Sudan</option>
-                    </optgroup>
-                    </select>
-                    
-                    <button class="filter-nav__btn">search</button>
+                    <div class="filter-nav__selectbox">
+                        <div id="filterSelectBox"></div>
+                    </div>
+                    <div class="filter-nav__radio">
+                        <label class="switch-btn__switch switch-btn__switch--filter">
+                            <input type="checkbox" disabled>
+                            <span class="switch-btn__slider switch-btn__round"></span>
+                            <div class="switch-btn__labels">
+                                <span class="switch-btn__label--1">Body Part</span>
+                                <span class="switch-btn__label--2">Diagnosis</span>
+                            </div>
+                        </label>
+                        
+                    </div>
+                    <button class="btn filter-nav__btn" onclick="filterSearch()">search</button>
                     <!-- <button class="filter-nav__btn">clear</button> -->
                 </div>
             </div>
 
             <div class="card-container">
                 
-                <!-- card 2 -->
-                <div class="card">
+                <!-- card -->
+                <!-- <div class="card">
                     <div class="checkbox card__checkbox">
                         <label id="title" class="checkbox__label">
                             <input name="title" type="checkbox">
@@ -152,20 +151,29 @@
                     </div>
                     <div class="card__slider">
                         <div class="card__slide slide--3">
-                        <img src="Exercises Daigram/Exercises Images/Lower limb/Foot and Ankle/Strengthening/Ankle DF with Theraband.gif" alt="img-1" />
+                        <img src="Exercises Daigram/Exercises Images/09-Foot/Strengthening/Ankle DF with Theraband.gif" alt="img-1" />
+                        <a class="card__zoom">
+                            <svg class="card__zoom--icon">
+                                <use
+                                xlink:href="assets/img/icomoon/symbol-defs.svg#icon-screen-full"
+                                ></use>
+                            </svg>
+                        </a>
                         </div>
                         <div class="card__slide slide--1">
-                        <img src="Exercises Daigram/Exercises Images/Lower limb/Foot and Ankle/Strengthening/Ankle Eversion with Theraband 1.gif" alt="img-1" />
+                        <img src="Exercises Daigram/Exercises Images/09-Foot/Strengthening/Ankle Eversion with Theraband 1.gif" alt="img-1" />
                         </div>
                         <div class="card__slide slide--2">
-                        <img src="Exercises Daigram/Exercises Images/Lower limb/Foot and Ankle/Strengthening/Ankle Heel Raises Standing.gif" alt="img-1" />
+                        <img src="Exercises Daigram/Exercises Images/09-Foot/Strengthening/Ankle Heel Raises Standing.gif" alt="img-1" />
                         </div>
                         <div class="card__slide slide--3">
-                        <img src="Exercises Daigram/Exercises Images/Lower limb/Foot and Ankle/Strengthening/Ankle Inversion with Theraband 1.gif" alt="img-1" />
+                        <img src="Exercises Daigram/Exercises Images/09-Foot/Strengthening/Ankle Inversion with Theraband 1.gif" alt="img-1" />
                         </div>
                         <button class="card__slider__btn card__slider__btn--left">&lt;</button>
                         <button class="card__slider__btn card__slider__btn--right">&gt;</button>
                         <div class="card__dots"></div>
+                        
+                        
                     </div>
                     <div class="card__content">
                         <h3 class="h-3">The title of the exercises</h3>
@@ -173,11 +181,20 @@
                         
                         
                         <div class="card__btns">
-                            <a target="_blank" class="card__btn" href="Exercises Daigram/Exercises Images/Lower limb/Foot and Ankle/Strengthening/Ankle DF with Theraband.gif">open file</a>
-                            <a class="card__btn" href="Exercises Daigram/Exercises Images/Lower limb/Foot and Ankle/Strengthening/Ankle DF with Theraband.gif">QR code</a>
+                            <label class="switch-btn__switch switch-btn__switch--card">
+                                <input type="checkbox">
+                                <span class="switch-btn__slider switch-btn__round"></span>
+                                <div class="switch-btn__labels">
+                                    <span class="switch-btn__label--1">Ara</span>
+                                    <span class="switch-btn__label--2">Eng</span>
+                                </div>
+                            </label>
+                            <a target="_blank" class="btn card__btn" href="Exercises Daigram/Exercises Images/09-Foot/Strengthening/Ankle DF with Theraband.gif">open file</a>
+                            <a class="btn card__btn" href="Exercises Daigram/Exercises Images/09-Foot/Strengthening/Ankle DF with Theraband.gif">QR code</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
+                
             </div>
 
         </section>
@@ -190,61 +207,15 @@
                 <span class="p sidebar__text">Selected items list</span>
                 <div class="sidebar__selected">
                     <ul id="sideBarList">
-                        <!-- <li>
-                            <button>X</button>
-                            shoulder adduction exercises this is a long title
-                        </li>
-                        <li>
-                            <button>X</button>
-                            <span>shoulder adduction exercises</span> 
-                        </li>
-                        <li>
-                            <button>X</button>
-                            <span>shoulder adduction exercises</span> 
-                        </li>
-                        <li>
-                            <button>X</button>
-                            <span>shoulder adduction exercises</span> 
-                        </li>
-                        <li>
-                            <button>X</button>
-                            <span>shoulder adduction exercises this is a long title</span> 
-                        </li>
-                        <li>
-                            <button>X</button>
-                            <span>shoulder adduction exercises</span> 
-                        </li>
-                        <li>
-                            <button>X</button>
-                            <span>shoulder adduction exercises</span> 
-                        </li>
-                        <li>
-                            <button>X</button>
-                            <span>shoulder adduction exercises</span> 
-                        </li>
-                        <li>
-                            <button>X</button>
-                            <span>shoulder adduction exercises this is a long title</span> 
-                        </li>
-                        <li>
-                            <button>X</button>
-                            <span>shoulder adduction exercises</span> 
-                        </li>
-                        <li>
-                            <button>X</button>
-                            <span>shoulder adduction exercises</span> 
-                        </li>
-                        <li>
-                            <button>X</button>
-                            <span>shoulder adduction exercises</span> 
-                        </li> -->
+                       
                     </ul>
-                    
                 </div>
 
                 <label class="p sidebar__text" for="mobileNum">Patient whatsapp number</label>
-                <input class="p sidebar__input" id="mobileNum" type="text" placeholder="e.g. 323198**">
-                <a class="sidebar__btn--send" target="_blank" href="https://wa.me/97333321124/?text=shorturl.at/glzQ9%0ashorturl.at/glzQ9%0ashorturl.at/glzQ9">send</a>
+                <input class="p sidebar__input" id="mobileNum" onkeypress="return onlyNumberKey(event)" onkeyup="populateMessageData()" autocomplete="off" type="tel" minlength="8" maxlength="8" placeholder="e.g. 323198**">
+                <!-- <a id="sendMessageBtn" class="sidebar__btn--send sidebar__btn--send--disabled" target="_blank" href="https://wa.me/97333321124/?text=shorturl.at/glzQ9%0ashorturl.at/glzQ9%0ashorturl.at/glzQ9">send</a> -->
+                
+                <a id="sendMessageBtn" class="sidebar__btn--send sidebar__btn--disabled" target="_blank" href="">send</a>
                 <!-- new line = %0a -->
             </div>
         </section>
@@ -256,23 +227,26 @@
     <!-- polyfil svg use -->
     <script src="assets/script/svgxuse.min.js"></script>
     <!-- jquery -->
-    <script
-    src="https://code.jquery.com/jquery-3.6.0.js"
-    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-    crossorigin="anonymous"></script>
-    <script src="assets/script/jquery.amsifyselect.js"></script>
+    <script src="assets/script/virtual-select.min.js"></script>
     <script src="assets/script/master.js"></script>
     
     <script>
-        $('select').amsifySelect({
-            type : 'amsify',
-            // classes: {
-            //     clear : '',
-            //     close : ''
-            // },
-            // labelLimit: 3,
-            // limit: 10,
-            // searchable :true,
+
+        VirtualSelect.init({
+            ele: '#filterSelectBox',
+            options: creatingLists('exercisesGif'),
+            multiple: true,
+            search: true,
+            placeholder: 'Select Body Region',
+            // optionsCount: 5,
+            showValueAsTags: false,
+            // dropboxWidth: '30rem',
+            // tooltipAlignment: 'center',
+            // tooltipMaxWidth: '50rem',
+            showDropboxAsPopup: true,
+            popupDropboxBreakpoint: '280px',
+            useGroupValue: true,
+            markSearchResults: true,
         });
     </script>
     

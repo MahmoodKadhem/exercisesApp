@@ -110,6 +110,18 @@
             border-right: 2px solid #538fff;
             height: 21rem;
         }
+
+        
+        &:active{
+            color: #00606d;;
+            border-left: 2px solid #00606d;;
+            border-right: 2px solid #00606d;;
+            height: 21rem;
+            }
+    }
+
+    &__form{
+        width: 100%;
     }
 
     &__btn--send{
@@ -129,7 +141,39 @@
         background-color: #538fff;
         border: 1px solid #183a79;
         }
+
+        &:active{
+        background-color: #00606d;
+        border: 1px solid #000;
+        }
         
+        // &:disabled{
+        //     background-color: #818181;
+        //     color: rgb(196, 196, 196);
+        //     border: 1px solid #3d3d3d;
+        //     cursor:default;
+        // }
+    }
+
+    &__btn--disabled{
+        background-color: #818181;
+        color: rgb(196, 196, 196);
+        border: 1px solid #3d3d3d;
+        cursor:default;
+
+        &:hover{
+            background-color: #818181;
+            color: rgb(196, 196, 196);
+            border: 1px solid #3d3d3d;
+            cursor:default;
+        }
+    
+        &:active{
+            background-color: #818181;
+            color: rgb(196, 196, 196);
+            border: 1px solid #3d3d3d;
+            cursor:default;
+        }
     }
 
     &__content{

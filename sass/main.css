@@ -1032,8 +1032,7 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
   align-items: center;
   background-color: #d9e6ff;
   margin: 0.5vh;
-  min-height: 99vh;
-  height: calc(100vh - (100vh - 100%));
+  min-height: calc(100vh - (100vh - 100%));
   width: 7rem;
   min-width: 7rem;
   transition: all 0.4s;

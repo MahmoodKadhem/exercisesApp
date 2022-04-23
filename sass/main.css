@@ -297,12 +297,6 @@ html {
     font-size: 50%;
   }
 }
-@media only screen and (max-width: 37.5em) {
-  html {
-    font-size: 40%;
-  }
-}
-
 body {
   overflow: hidden;
   min-height: 100vh;
@@ -322,9 +316,10 @@ body {
   font-family: "Tahoma", "Trebuchet MS", "Arial", sans-serif;
   font-weight: 400;
   line-height: 1.7;
+  font-size: 1.6rem;
 }
 
-.h-1, .h-2, .h-3, .h-4, .h-5, .h-6 {
+.h-1, .h-2, .h-4, .h-5, .h-6 {
   font-family: "PlayfairDisplay", "Georgia", "Didot", "Times New Roman", serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -345,23 +340,18 @@ body {
   line-height: 1.2;
 }
 
+.h-3 {
+  font-family: "Times New Roman", Times, serif;
+}
+
 .p {
   font-size: 1.6rem;
-}
-.p--j {
-  text-transform: capitalize;
-  text-align: justify;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-      hyphens: auto;
 }
 .p--b {
   font-weight: 700;
 }
 .p--tags {
-  font-size: inherit;
+  font-size: 1rem;
   text-transform: capitalize;
 }
 
@@ -392,8 +382,8 @@ body {
 }
 
 .x-btn__btn {
-  width: 3rem;
-  height: 3rem;
+  width: 5rem;
+  height: 5rem;
   border: none;
   border-radius: 50%;
   background-color: #538fff;
@@ -426,8 +416,8 @@ body {
   transform: translate(-50%, -50%);
 }
 .x-btn__icon, .x-btn__icon::after, .x-btn__icon::before {
-  width: 2rem;
-  height: 2px;
+  width: 3rem;
+  height: 3px;
   background-color: #d9e6ff;
   display: inline-block;
 }
@@ -438,16 +428,16 @@ body {
   transition: all 0.2s;
 }
 .x-btn__icon::after {
-  top: 0.6rem;
+  top: 0.8rem;
 }
 .x-btn__icon::before {
-  top: -0.6rem;
-}
-.x-btn__btn:hover:not(.side-nav__btn--active) .x-btn__icon::before {
   top: -0.8rem;
 }
+.x-btn__btn:hover:not(.side-nav__btn--active) .x-btn__icon::before {
+  top: -1rem;
+}
 .x-btn__btn:hover:not(.side-nav__btn--active) .x-btn__icon::after {
-  top: 0.8rem;
+  top: 1rem;
 }
 
 .switch-btn {
@@ -460,8 +450,7 @@ body {
   height: 3.3rem;
 }
 .switch-btn__switch--filter {
-  margin-left: 1rem;
-  margin-right: 7rem;
+  margin-right: 7.5rem;
 }
 .switch-btn__switch--card {
   margin-right: 4rem;
@@ -504,8 +493,8 @@ body {
   position: absolute;
   top: 0;
   left: 2.5rem;
-  width: 6rem;
-  font-size: 1.2rem;
+  width: 3rem;
+  font-size: 1.3rem;
   line-height: 1.6rem;
   font-weight: 700;
   color: #a3a3a3;
@@ -545,7 +534,7 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
+  align-items: stretch;
   transition: all 0.6s;
 }
 @media only screen and (max-width: 37.5em) {
@@ -561,7 +550,6 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
   justify-content: center;
   align-items: center;
   width: 22rem;
-  height: 33rem;
   background: #d9e6ff;
   border-radius: 1rem;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -578,12 +566,20 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
 }
 .card__content {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   margin: 0.5rem;
   padding: 0.5rem;
   width: 20rem;
-  height: 10rem;
+  min-height: 10rem;
   background: white;
   border-radius: 1rem;
+  justify-self: stretch;
+  flex-grow: 1;
+}
+.card__content .p--tags {
+  flex-grow: 1;
 }
 .card__slider {
   width: 20rem;
@@ -672,17 +668,18 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  position: absolute;
+  justify-self: flex-end;
+  align-items: center;
   padding: 0.5rem;
-  margin-left: 0;
-  bottom: 0;
-  left: 0;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
 .card__btn {
-  font-size: 1rem;
+  font-size: 1.3rem;
+  width: 6rem;
   margin-left: 0rem;
+  text-align: center;
+  height: 100%;
 }
 .card__zoom {
   position: absolute;
@@ -865,6 +862,9 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
   background-color: #538fff;
   border: 1px solid #183a79;
 }
+.filter-nav__radio .switch-btn__labels {
+  width: 7rem;
+}
 
 .sidebar {
   position: fixed;
@@ -874,8 +874,9 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
   justify-content: center;
   align-items: center;
   background-color: #d9e6ff;
-  margin: 0.5vh;
-  min-height: 99vh;
+  background-color: rgba(217, 230, 255, 0.9);
+  margin: 0.5vh 0;
+  min-height: calc(99vh - (99vh - 99%));
   width: 2rem;
   min-width: 2rem;
   transition: all 0.4s;
@@ -1030,14 +1031,14 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: #d9e6ff;
-  margin: 0.5vh;
-  min-height: calc(100vh - (100vh - 100%));
+  background-color: rgba(217, 230, 255, 0.9);
+  margin: 0.5vh 0;
+  min-height: calc(99vh - (99vh - 99%));
   width: 7rem;
   min-width: 7rem;
   transition: all 0.4s;
   z-index: 100;
-  border-radius: 1rem;
+  border-radius: 0 1rem 1rem 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .side-nav--active {
@@ -1059,7 +1060,7 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
 }
 .side-nav--active .side-nav__separator {
   border-radius: 15rem;
-  min-width: 80%;
+  min-width: 70%;
   transition: all 0.1s ease-out;
 }
 .side-nav--active .side-nav__link--title {
@@ -1078,18 +1079,18 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
 }
 .side-nav__btn {
   position: absolute;
-  top: 6rem;
-  left: 4.5rem;
+  top: 6.5rem;
+  left: 3.5rem;
   margin: 1rem;
   z-index: 2;
   transition: all 0.4s;
 }
 .side-nav__btn--active {
-  left: 22.5rem;
+  left: 21.5rem;
   transition: all 0.6s;
 }
 .side-nav__header {
-  min-height: 6.4rem;
+  min-height: 7.7rem;
   margin: 1rem;
 }
 .side-nav__logo {
@@ -1117,9 +1118,10 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
   font-size: 1.3rem;
 }
 .side-nav__separator {
-  border: 2px solid #183a79;
+  border: 0;
+  border-top: 4px solid #183a79;
   border-radius: 15rem;
-  min-width: 30%;
+  min-width: 20%;
   transition: all 0.4s;
   margin-bottom: 6rem;
 }
@@ -1249,7 +1251,7 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
 }
 
 .main {
-  min-height: 100vh;
+  min-height: calc(100vh - (100vh - 100%));
   width: 100%;
   margin-left: 7rem;
   margin-right: 3rem;

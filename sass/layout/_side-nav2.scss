@@ -10,24 +10,19 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: #d9e6ff;
-  margin: .5vh;
-  // min-height: 99vh;
-  min-height: calc(100vh - calc(100vh - 100%));
+  background-color: rgba(217, 230, 255, 0.9);
+  margin: .5vh 0;
+  min-height: calc(99vh - calc(99vh - 99%));
   width: 7rem;
   min-width: 7rem;
   transition: all .4s;
   z-index: 100;
-  border-radius: 1rem;
+  border-radius: 0 1rem 1rem 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   &--active {
       min-width: 25rem;
       transition: all .6s;
-
-      // @include respond() {
-      //   justify-content: center;
-      // }
       
       & .side-nav__btn {
           margin-right: 2rem;
@@ -51,7 +46,7 @@
 
       & .side-nav__separator{
           border-radius: 15rem;
-          min-width: 80%;
+          min-width: 70%;
           transition: all .1s ease-out;
       }
       
@@ -75,20 +70,20 @@
 
   &__btn{
       position: absolute;
-      top: 6rem;
-      left: 4.5rem;
+      top: 6.5rem;
+      left: 3.5rem;
       margin: 1rem;
       z-index: 2;
       transition: all .4s;
   
       &--active {
-        left: 22.5rem;
+        left: 21.5rem;
         transition: all .6s;
       }
   }
 
   &__header{
-      min-height: 6.4rem;
+      min-height: 7.7rem;
       margin: 1rem;
   }
 
@@ -121,9 +116,10 @@
   }
 
   &__separator{
-    border: 2px solid #183a79;
+    border: 0;
+    border-top: 4px solid #183a79;
     border-radius: 15rem;
-    min-width: 30%;
+    min-width: 20%;
     transition: all .4s;
     margin-bottom: 6rem;
   }

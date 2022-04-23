@@ -30,8 +30,8 @@
 .x-btn {
 
   &__btn{
-    width: 3rem;
-    height: 3rem;
+    width: 5rem;
+    height: 5rem;
     border: none;
     border-radius: 50%;
     background-color: #538fff;
@@ -71,8 +71,8 @@
       &,
       &::after,
       &::before {
-        width: 2rem;
-        height: 2px;
+        width: 3rem;
+        height: 3px;
         background-color: #d9e6ff;
         display: inline-block;
       }
@@ -86,20 +86,20 @@
       }
 
       &::after {
-        top: 0.6rem;
+        top: .8rem;
       }
 
       &::before {
-        top: -0.6rem;
+        top: -.8rem;
       }
     }
 
   &__btn:hover:not(.side-nav__btn--active) &__icon::before {
-  top: -.8rem;
+  top: -1rem;
   }
 
   &__btn:hover:not(.side-nav__btn--active) &__icon::after {
-  top: .8rem;
+  top: 1rem;
   }
 }
 
@@ -114,8 +114,8 @@
     // margin-right: 7rem;
 
     &--filter{
-      margin-left: 1rem;
-      margin-right: 7rem;
+      // margin-left: 1rem;
+      margin-right: 7.5rem;
     }
 
     &--card{
@@ -170,8 +170,8 @@
     position: absolute;
     top: 0;
     left: 2.5rem;
-    width: 6rem;
-    font-size: 1.2rem;
+    width: 3rem;
+    font-size: 1.3rem;
     line-height: 1.6rem;
     font-weight: 700;
     color: #a3a3a3;

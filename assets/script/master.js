@@ -162,9 +162,9 @@ function creatCard(data){
   tagsEle.innerHTML = '<span class="p--b">Tags: </span>' + data.tags.join(', ');
   
   // card btns text content
-  openBtn.textContent = "open file";
+  openBtn.textContent = "open";
   openBtn.target = "_blank"
-  qrBtn.textContent = "QR code";
+  qrBtn.textContent = "QR";
 
   // append the card btns to the btns element
   cardBtns.appendChild(langBtn);
@@ -598,17 +598,22 @@ function onlyNumberKey(evt) {
 
 const sideNavMenu = document.querySelector(".side-nav");
 
-if (sideNavMenu) {
-  const sideNavBtn = document.querySelector(".side-nav__btn");
+const sideNavBtn = document.querySelector(".side-nav__btn");
 
-  sideNavBtn.addEventListener("click", function (e) {
-    e.preventDefault();
-    sideNavBtn.classList.toggle("side-nav__btn--active");
-    sideNavBtn.classList.toggle("x-btn__btn--active");
-    sideNavMenu.classList.toggle("side-nav--active");
-  });
-}
+sideNavBtn.addEventListener("click", function (e) {
+  e.preventDefault();
+  sideNavBtn.classList.toggle("side-nav__btn--active");
+  sideNavBtn.classList.toggle("x-btn__btn--active");
+  sideNavMenu.classList.toggle("side-nav--active");
+});
 
+sideNavMenu.addEventListener("focusout", function(e){
+  sideNavBtn.classList.remove("side-nav__btn--active");
+  sideNavBtn.classList.remove("x-btn__btn--active");
+  sideNavMenu.classList.remove("side-nav--active");
+});
+
+// links function
 const sideNavLink = document.querySelectorAll('.side-nav__link')
 
 sideNavLink.forEach( link => {
@@ -631,6 +636,9 @@ if (sideBarMenu) {
   });
 }
 
+sideBarMenu.addEventListener("focusout", function(e){
+  sideBarMenu.classList.remove("sidebar--active");
+});
 
 //////////////////////////////////////////////////////////////////////
 ////////////// just for testing the card slider //////////////////////

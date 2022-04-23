@@ -65,6 +65,7 @@
 html {
   // this defines what 1 rem is not so much typography
   font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+  // font-size: 80%; // 1rem = 10px, 10px/16px = 62.5%
   // scroll-behavior: smooth;
   overflow-x: hidden;
   box-sizing: border-box;
@@ -72,11 +73,13 @@ html {
   @include respond(big-desk) {
     // width > 1800
     font-size: 80%; //1rem = 12px, 12px/16px = 75%
+    // font-size: 100%; //1rem = 12px, 12px/16px = 75%
   }
 
   @include respond(tab-land) {
     // width < 1200
     font-size: 56.25%; //1rem = 9px, 9px/16px = 56.25%
+    // font-size: 62.5%; //1rem = 9px, 9px/16px = 56.25%
   }
 
   // @include respond(less-1000) {
@@ -87,11 +90,13 @@ html {
   @include respond(tab-port) {
     // width < 900
     font-size: 50%; //1rem = 8px, 8px/16px = 50%
+    // font-size: 56.25%; //1rem = 8px, 8px/16px = 50%
   }
 
   @include respond(phone) {
     // width < 600
-    font-size: 40%; //1rem = 8px, 8px/16px = 50%
+    // font-size: 40%; //1rem = 8px, 8px/16px = 50%
+    // font-size: 50%; //1rem = 8px, 8px/16px = 50%
   }
 }
 

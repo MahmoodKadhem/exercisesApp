@@ -9,7 +9,7 @@
 }
 
 .main{
-  min-height: 100vh;
+  min-height: calc(100vh - calc(100vh - 100%));
   // max-width: 100%;
   width: 100%;
   // padding: 3rem;

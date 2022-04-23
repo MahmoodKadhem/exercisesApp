@@ -67,6 +67,12 @@
         border: 1px solid #183a79;
         }
     }
+
+    &__radio{
+        & .switch-btn__labels{
+            width: 7rem;
+        }
+    }
 }
 
 

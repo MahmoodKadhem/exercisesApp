@@ -12,8 +12,9 @@
     justify-content: center;
     align-items: center;
     background-color: #d9e6ff;
-    margin: .5vh;
-    min-height: 99vh;
+    background-color: rgba(217, 230, 255, 0.9);
+    margin: .5vh 0;
+    min-height: calc(99vh - calc(99vh - 99%));
     width: 2rem;
     min-width: 2rem;
     transition: all .4s;

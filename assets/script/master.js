@@ -80,9 +80,9 @@ function creatCard(data){
 
   // check if the data is arabic or english or both
   let langStatus;
-  if(!data.araQRCode){
+  if(!data.araDir){
     langStatus = "disabled";
-  } else if (!data.engQRCode) {
+  } else if (!data.engDir) {
     langStatus = "checked disabled";
   }
 
@@ -217,7 +217,23 @@ function fullscreenSlider(btn){
     const slider = btn.closest('.card__slider');
     slider.classList.add('card__slider--fullscreen');
     creatCloseBtn(slider,returnSliderEle)
+    switchImages(slider);
   });
+}
+
+// change the slider images from thum to big
+function switchImages(ele){
+  if (ele.classList.contains('card__slider--fullscreen')){
+    ele.querySelectorAll('img').forEach(img => {
+      const newSrc = img.src.replace('Thumbnail','Big');
+      img.src = newSrc;
+    });
+  } else {
+    ele.querySelectorAll('img').forEach(img => {
+      const newSrc = img.src.replace('Big','Thumbnail');
+      img.src = newSrc;
+    });
+  }
 }
 
 // return the slider from full screen
@@ -225,6 +241,7 @@ function returnSliderEle(){
   const ele = document.querySelector('.card__slider--fullscreen');
   ele.classList.remove('card__slider--fullscreen');
   ele.querySelector('.qr__btn').remove();
+  switchImages(ele);
 }
 
 // create a close btn 
@@ -441,7 +458,7 @@ function langBtnEventListener(e, data){
   }
 
   if(cardCheckbox.checked){
-    checkboxLangSwetchHandler(cardCheckbox,lang);
+    checkboxLangSwitchHandler(cardCheckbox,lang);
   } 
 }
 
@@ -481,8 +498,8 @@ function checkcheckboxStatus(id){
   }
 }
 
-// hadling swetching the language
-function checkboxLangSwetchHandler(input,lang){
+// hadling switching the language
+function checkboxLangSwitchHandler(input,lang){
   const dataObj = JSON. parse(input.closest(".card").dataset.obj);
   replaceLangLinks(dataObj,lang)
 }
@@ -507,7 +524,6 @@ function selectedItem(dataObj,lang){
 
   // pupulate data
   populateMessageData();
-  console.log(messageList);
 }
 
 function deSelectedItem(id,listID){

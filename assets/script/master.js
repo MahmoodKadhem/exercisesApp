@@ -115,23 +115,6 @@ function creatCard(data){
     imgEle.src = img;
     imgEle.alt = data.title + i;
     slideEle.appendChild(imgEle);
-    const zoomBtn = document.createElement('a');
-  
-    zoomBtn.classList.add('card__zoom');
-    // zoom button innter html
-    zoomBtn.innerHTML = 
-    `<svg class="card__zoom--icon">
-      <use
-      xlink:href="assets/img/icomoon/symbol-defs.svg#icon-screen-full"
-      ></use>
-    </svg>`
-    // add the event listener to the btn
-    createFullScreenImgEle(zoomBtn, data.bigImgs[i]);
-    
-    // append the zoom button to the slider element
-    slideEle.appendChild(zoomBtn);
-
-
     sliderEle.appendChild(slideEle);
   });
 
@@ -155,6 +138,24 @@ function creatCard(data){
     // activate the slider function
     activateSlider(sliderEle);
   }
+
+  // the zoom btn handler
+  const zoomBtn = document.createElement('a');
+  
+  zoomBtn.classList.add('card__zoom');
+  // zoom button innter html
+  zoomBtn.innerHTML = 
+  `<svg class="card__zoom--icon">
+    <use
+    xlink:href="assets/img/icomoon/symbol-defs.svg#icon-screen-full"
+    ></use>
+  </svg>`
+  // add the event listener to the btn
+  fullscreenSlider(zoomBtn);
+  
+  // append the zoom button to the slider element
+  sliderEle.appendChild(zoomBtn);
+
 
 
   // create the content title and tages
@@ -207,6 +208,32 @@ function creatCard(data){
     openBtn.href= data.araDir;
   }
 
+}
+
+// make the slider fullscreen
+function fullscreenSlider(btn){
+  btn.addEventListener('click', function(e){
+    const btn = e.target;
+    const slider = btn.closest('.card__slider');
+    slider.classList.add('card__slider--fullscreen');
+    creatCloseBtn(slider,returnSliderEle)
+  });
+}
+
+// return the slider from full screen
+function returnSliderEle(){
+  const ele = document.querySelector('.card__slider--fullscreen');
+  ele.classList.remove('card__slider--fullscreen');
+  ele.querySelector('.qr__btn').remove();
+}
+
+// create a close btn 
+function creatCloseBtn(Container,callback){
+  const closeBtn = document.createElement('button');
+  closeBtn.classList.add('qr__btn');
+  closeBtn.textContent = "X";
+  closeBtn.addEventListener("click", callback);
+  Container.appendChild(closeBtn);
 }
 
 // activate slider for the created card images
@@ -384,17 +411,14 @@ function createFullScreenImgEle(ele, img){
   ele.addEventListener("click", function(){
       const qrContainer = document.createElement('div');
       const qrImg = document.createElement('img');
-      const qrBtn = document.createElement('button');
 
       qrContainer.classList.add('qr__container');
       qrImg.classList.add('qr__img');
-      qrBtn.classList.add('qr__btn');
 
       qrImg.src = img;
-      qrBtn.textContent = "X";
-      qrBtn.addEventListener("click",()=> removeTheFullScreenEle());
       qrContainer.appendChild(qrImg);
-      qrContainer.appendChild(qrBtn);
+
+      creatCloseBtn(qrContainer, removeTheFullScreenEle)
       document.querySelector(".card-container").appendChild(qrContainer);
   })
 }

@@ -61,12 +61,36 @@
   &__slider {
       width: 20rem;
       height: 20rem;
-      margin: 0 auto;
       margin: .5rem;
       position: relative;
-    
       /* IN THE END */
       overflow: hidden;
+
+      &--fullscreen{
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        // bottom: 0;
+        left: 0;
+        // right: 0;
+        background-color: rgba(0, 0, 0, 0.9);
+        z-index: 150;
+
+        & .card__slide img{
+          max-width: 100%;
+          max-height: 100%;
+          height: auto;
+          width: auto;
+        }
+
+        & .card__zoom{
+          display: none;
+        }
+      }
     
       &__btn {
         position: absolute;

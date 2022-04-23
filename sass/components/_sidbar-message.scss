@@ -15,8 +15,8 @@
     background-color: rgba(217, 230, 255, 0.9);
     margin: .5vh 0;
     min-height: calc(99vh - calc(99vh - 99%));
-    width: 2rem;
-    min-width: 2rem;
+    width: 3rem;
+    min-width: 3rem;
     transition: all .4s;
     z-index: 100;
     border-radius: 1rem 0 0 1rem;
@@ -26,8 +26,16 @@
         min-width: 25rem;
         transition: all .6s;
         
+        & .sidebar__btn--toggle {
+            left: .5rem;
+            transition: all .6s;
+            transition-delay: .1s;
+        }
+        
         & .sidebar__btn--toggle::after {
             content: ">";
+            transition: all .6s;
+            transition-delay: .1s;
         }
 
         & .sidebar__content{
@@ -83,16 +91,17 @@
     &__btn--toggle{
         position: absolute;
         top: 50%;
-        left: .5rem;
+        left: .8rem;
         transform: translateY(-50%);
         font-size: 2rem;
         border: 0;
         color: #183a79;
         background-color: #d9e6ff;
-        border-left: 2px solid #183a79;
-        border-right: 2px solid #183a79;
+        border-left: 3px solid #183a79;
+        border-right: 3px solid #183a79;
+        border-radius: 10rem;
         height: 20rem;
-        width: 1rem;
+        width: 1.5rem;
         transition: all .4s;
 
         &::after{
@@ -100,9 +109,11 @@
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
-            left: -.3rem;
+            left: -0.5rem;
             background-color: #d9e6ff;
-            width: 1.2rem;
+            width: 1.9rem;
+            font-size: 2.5rem;
+            transition: all .4s;
         }
 
         &:hover{

@@ -777,10 +777,12 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
   height: 100vh;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.9);
   z-index: 150;
 }
 .qr__img {
+  max-width: 100%;
+  max-height: 100%;
   -webkit-animation: zoomOutMeddle cubic-bezier(0.11, -1.5, 0.56, 1.03) 0.6s;
           animation: zoomOutMeddle cubic-bezier(0.11, -1.5, 0.56, 1.03) 0.6s;
   -webkit-animation-fill-mode: backwards;
@@ -878,8 +880,8 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
   background-color: rgba(217, 230, 255, 0.9);
   margin: 0.5vh 0;
   min-height: calc(99vh - (99vh - 99%));
-  width: 3rem;
-  min-width: 3rem;
+  width: 4rem;
+  min-width: 4rem;
   transition: all 0.4s;
   z-index: 100;
   border-radius: 1rem 0 0 1rem;

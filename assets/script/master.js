@@ -108,7 +108,7 @@ function creatCard(data){
   qrBtn.classList.add('btn', 'card__btn');
 
   // create the imgs elements for each image in the array
-  data.imgurls.forEach(function(img,i){
+  data.tumbUrl.forEach(function(img,i){
     const slideEle = document.createElement('div');
     slideEle.classList.add('card__slide');
     const imgEle = document.createElement('img');
@@ -136,7 +136,7 @@ function creatCard(data){
   });
 
   // create the slider navigation btns
-  if (data.imgurls.length > 1){
+  if (data.tumbUrl.length > 1){
     const lbtn = document.createElement('button');
     const rbtn = document.createElement('button');
     const dots = document.createElement('div');

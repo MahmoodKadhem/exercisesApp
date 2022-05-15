@@ -597,8 +597,8 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  top: 0;
-  left: 0;
+  top: -5px;
+  left: -5px;
   background-color: rgba(0, 0, 0, 0.9);
   z-index: 150;
 }

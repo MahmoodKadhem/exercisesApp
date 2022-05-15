@@ -37,7 +37,49 @@
 //   fetch("../../data-index.json").then(function(response){return response.json()}).then(function(data) { index=data; } );
 // }
 
+/////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////
+//////////////////// creating lists dynamicly ///////////////////////
+/////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////
 
+// creating the Lists
+function creatingLists(category){
+  const list = data[category];
+  const isListArray = list instanceof Array;
+
+  if (!isListArray){
+     let dataList =[];
+
+     Object.entries(list).forEach(entry => {
+        let entryObj = {};
+        let subData = entry[1];
+        let haveOptions = subData instanceof Array;
+        entryObj.label = entry[0];
+        entryObj.value = entry[0];
+        
+        if (!haveOptions) {
+           let options = creatingOptionList(subData);
+           entryObj.options = options;
+        }
+
+        dataList.push(entryObj);
+     });
+     return dataList;
+  }
+}
+
+// creating the sub List options
+function creatingOptionList(data){
+  let subDataList =[]
+  Object.entries(data).forEach(entry => {
+     let entryObj = {};
+     entryObj.label = entry[0];
+     entryObj.value = entry[0];
+     subDataList.push(entryObj);
+  });
+  return subDataList
+}
 
 
 
@@ -81,9 +123,9 @@ function creatCard(data){
   // check if the data is arabic or english or both
   let langStatus;
   if(!data.araDir){
-    langStatus = "disabled";
-  } else if (!data.engDir) {
     langStatus = "checked disabled";
+  } else if (!data.engDir) {
+    langStatus = "disabled";
   }
 
   // lang checkbox element

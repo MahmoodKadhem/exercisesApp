@@ -1,50 +1,379 @@
+// {
+//    "id": "test",
+//    "title":"test",
+//    "tumbUrl":[test],
+//    "bigImgs":[test],
+//    "araQRCode":test,
+//    "engQRCode":test,
+//    "tags":[ "test", "test", "test"],
+//    "araDir": test,
+//    "engDir": test,
+//    "araLink":"test",
+//    "engLink":"test"
+//    },
+
+//////////////////////////////////////////////////////////////////////////
+///////////////////////////// exercises gifs /////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+
+
+const gifFace01 = {
+   "id": "face01",
+   "title":"Angry Face",
+   "tumbUrl":["./assets/img/testingImgs/Angry-Thumbnail.gif"],
+   "bigImgs":["./assets/img/testingImgs/Angry-big.gif"],
+   "tags":[ "Facial Palsy", "Bell's Palsy", "Face", "Seventh Cranial Nerve" , "Eye", "Mouth"],
+   "araDir": "./assets/img/testingImgs/Angry-big.gif",
+   "araLink":"google.com/ara",
+}
+
+//////////////////////////////////////////////////////////////////////////
+////////////////////////////////// Ortho /////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////////////////////
+////////////////////////////////// Neuro /////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+
+const neuro = [
+   {
+   "id": "N001",
+   "title":"Adapted LSVT BIG",
+   "tumbUrl":[
+      "./docs/Neuro/Thumbnail/01-Adapted_LSVT_BIG_-_Eng-1.jpg",
+      "./docs/Neuro/Thumbnail/01-Adapted_LSVT_BIG_-_Eng-2.jpg",
+      "./docs/Neuro/Thumbnail/01-Adapted_LSVT_BIG_-_Eng-3.jpg",
+      "./docs/Neuro/Thumbnail/01-Adapted_LSVT_BIG_-_Eng-4.jpg",
+      "./docs/Neuro/Thumbnail/01-Adapted_LSVT_BIG_-_Eng-5.jpg",
+      "./docs/Neuro/Thumbnail/01-Adapted_LSVT_BIG_-_Eng-6.jpg",
+      "./docs/Neuro/Thumbnail/01-Adapted_LSVT_BIG_-_Eng-7.jpg",
+      "./docs/Neuro/Thumbnail/01-Adapted_LSVT_BIG_-_Eng-8.jpg",
+      "./docs/Neuro/Thumbnail/01-Adapted_LSVT_BIG_-_Eng-9.jpg",
+      "./docs/Neuro/Thumbnail/01-Adapted_LSVT_BIG_-_Eng-10.jpg",
+      "./docs/Neuro/Thumbnail/01-Adapted_LSVT_BIG_-_Ara-1.jpg",
+      "./docs/Neuro/Thumbnail/01-Adapted_LSVT_BIG_-_Ara-2.jpg",
+      "./docs/Neuro/Thumbnail/01-Adapted_LSVT_BIG_-_Ara-3.jpg",
+      "./docs/Neuro/Thumbnail/01-Adapted_LSVT_BIG_-_Ara-4.jpg",
+      "./docs/Neuro/Thumbnail/01-Adapted_LSVT_BIG_-_Ara-5.jpg",
+      "./docs/Neuro/Thumbnail/01-Adapted_LSVT_BIG_-_Ara-6.jpg",
+      "./docs/Neuro/Thumbnail/01-Adapted_LSVT_BIG_-_Ara-7.jpg",
+      "./docs/Neuro/Thumbnail/01-Adapted_LSVT_BIG_-_Ara-8.jpg",
+      "./docs/Neuro/Thumbnail/01-Adapted_LSVT_BIG_-_Ara-9.jpg",
+      "./docs/Neuro/Thumbnail/01-Adapted_LSVT_BIG_-_Ara-10.jpg"
+   ],
+   "bigImgs":[
+      "./docs/Neuro/Big/01-Adapted_LSVT_BIG_-_Eng-1.jpg",
+      "./docs/Neuro/Big/01-Adapted_LSVT_BIG_-_Eng-2.jpg",
+      "./docs/Neuro/Big/01-Adapted_LSVT_BIG_-_Eng-3.jpg",
+      "./docs/Neuro/Big/01-Adapted_LSVT_BIG_-_Eng-4.jpg",
+      "./docs/Neuro/Big/01-Adapted_LSVT_BIG_-_Eng-5.jpg",
+      "./docs/Neuro/Big/01-Adapted_LSVT_BIG_-_Eng-6.jpg",
+      "./docs/Neuro/Big/01-Adapted_LSVT_BIG_-_Eng-7.jpg",
+      "./docs/Neuro/Big/01-Adapted_LSVT_BIG_-_Eng-8.jpg",
+      "./docs/Neuro/Big/01-Adapted_LSVT_BIG_-_Eng-9.jpg",
+      "./docs/Neuro/Big/01-Adapted_LSVT_BIG_-_Eng-10.jpg",
+      "./docs/Neuro/Big/01-Adapted_LSVT_BIG_-_Ara-1.jpg",
+      "./docs/Neuro/Big/01-Adapted_LSVT_BIG_-_Ara-2.jpg",
+      "./docs/Neuro/Big/01-Adapted_LSVT_BIG_-_Ara-3.jpg",
+      "./docs/Neuro/Big/01-Adapted_LSVT_BIG_-_Ara-4.jpg",
+      "./docs/Neuro/Big/01-Adapted_LSVT_BIG_-_Ara-5.jpg",
+      "./docs/Neuro/Big/01-Adapted_LSVT_BIG_-_Ara-6.jpg",
+      "./docs/Neuro/Big/01-Adapted_LSVT_BIG_-_Ara-7.jpg",
+      "./docs/Neuro/Big/01-Adapted_LSVT_BIG_-_Ara-8.jpg",
+      "./docs/Neuro/Big/01-Adapted_LSVT_BIG_-_Ara-9.jpg",
+      "./docs/Neuro/Big/01-Adapted_LSVT_BIG_-_Ara-10.jpg"
+   ],
+   "araQRCode":"./docs/Neuro/QRcode/01-Adapted_LSVT_BIG_-_Ara.jpg",
+   "engQRCode":"./docs/Neuro/QRcode/01-Adapted_LSVT_BIG_-_Eng.jpg",
+   "tags":[ "Parkinson's", "mobility", "posture", "Sitting Balance", "Standing Balance", "Dynamic Balance"],
+   "araDir": "./docs/Neuro/01-Adapted_LSVT_BIG_-_Ara.pdf",
+   "engDir": "./docs/Neuro/01-Adapted_LSVT_BIG_-_Eng.pdf",
+   "araLink":"https://drive.google.com/file/d/1E4A2Q4zrT_BJPLDxV3f9itlW0hrT5u7j/view?usp=sharing",
+   "engLink":"https://drive.google.com/file/d/1c2hxY1mS9WNqLH8rx3CY50WLdmc33ZVT/view?usp=sharing"
+   },
+
+   {
+   "id": "N002",
+   "title":"Balance Exercises",
+   "tumbUrl":[
+      "./docs/Neuro/Thumbnail/02-Balance_Exercises_-_Eng-1.jpg",
+      "./docs/Neuro/Thumbnail/02-Balance_Exercises_-_Eng-2.jpg",
+      "./docs/Neuro/Thumbnail/02-Balance_Exercises_-_Eng-3.jpg",
+      "./docs/Neuro/Thumbnail/02-Balance_Exercises_-_Eng-4.jpg",
+      "./docs/Neuro/Thumbnail/02-Balance_Exercises_-_Eng-5.jpg",
+      "./docs/Neuro/Thumbnail/02-Balance_Exercises_-_Ara-1.jpg",
+      "./docs/Neuro/Thumbnail/02-Balance_Exercises_-_Ara-2.jpg",
+      "./docs/Neuro/Thumbnail/02-Balance_Exercises_-_Ara-3.jpg",
+      "./docs/Neuro/Thumbnail/02-Balance_Exercises_-_Ara-4.jpg",
+   ],
+   "bigImgs":[
+      "./docs/Neuro/Big/02-Balance_Exercises_-_Eng-1.jpg",
+      "./docs/Neuro/Big/02-Balance_Exercises_-_Eng-2.jpg",
+      "./docs/Neuro/Big/02-Balance_Exercises_-_Eng-3.jpg",
+      "./docs/Neuro/Big/02-Balance_Exercises_-_Eng-4.jpg",
+      "./docs/Neuro/Big/02-Balance_Exercises_-_Eng-5.jpg",
+      "./docs/Neuro/Big/02-Balance_Exercises_-_Ara-1.jpg",
+      "./docs/Neuro/Big/02-Balance_Exercises_-_Ara-2.jpg",
+      "./docs/Neuro/Big/02-Balance_Exercises_-_Ara-3.jpg",
+      "./docs/Neuro/Big/02-Balance_Exercises_-_Ara-4.jpg",
+   ],
+   "araQRCode":"./docs/Neuro/QRcode/02-Balance_Exercises_-_Ara.jpg",
+   "engQRCode":"./docs/Neuro/QRcode/02-Balance_Exercises_-_Eng.jpg",
+   "tags":["Geriatric", "Stroke", "Vertigo", "Multiple Sclerosis", "Standing Balance", "Dynamic Balance"],
+   "araDir": "./docs/Neuro/02-Balance_Exercises_-_Eng.pdf",
+   "engDir": "./docs/Neuro/02-Balance_Exercises_-_Ara.pdf",
+   "araLink":"https://drive.google.com/file/d/1r_qlyzI4OEgqmaaZmL03DUe6BgPQfX-B/view?usp=sharing",
+   "engLink":"https://drive.google.com/open?id=1Ow_ariiMFRdv2HEHJDanCQ9EMwRPEjAK"
+   },
+
+   {
+   "id": "N003",
+   "title":"FAQs for Multiple Sclerosis",
+   "tumbUrl":[
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Ara-1.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Ara-2.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Ara-3.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Ara-4.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Ara-5.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Ara-6.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Ara-7.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Ara-8.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Ara-9.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Ara-10.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Ara-11.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Ara-12.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Ara-13.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Ara-14.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Ara-15.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Ara-16.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Ara-17.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Ara-18.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Ara-19.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Ara-20.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Ara-21.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Ara-22.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Ara-23.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Eng-1.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Eng-2.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Eng-3.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Eng-4.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Eng-5.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Eng-6.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Eng-7.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Eng-8.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Eng-9.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Eng-10.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Eng-11.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Eng-12.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Eng-13.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Eng-14.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Eng-15.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Eng-16.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Eng-17.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Eng-18.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Eng-19.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Eng-20.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Eng-21.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Eng-22.jpg",
+      "./docs/Neuro/Thumbnail/03-FAQs_for_Multiple_Sclerosis_-_Eng-23.jpg",
+   ],
+   "bigImgs":[
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Ara-1.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Ara-2.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Ara-3.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Ara-4.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Ara-5.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Ara-6.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Ara-7.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Ara-8.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Ara-9.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Ara-10.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Ara-11.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Ara-12.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Ara-13.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Ara-14.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Ara-15.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Ara-16.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Ara-17.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Ara-18.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Ara-19.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Ara-20.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Ara-21.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Ara-22.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Ara-23.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Eng-1.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Eng-2.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Eng-3.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Eng-4.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Eng-5.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Eng-6.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Eng-7.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Eng-8.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Eng-9.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Eng-10.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Eng-11.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Eng-12.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Eng-13.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Eng-14.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Eng-15.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Eng-16.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Eng-17.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Eng-18.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Eng-19.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Eng-20.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Eng-21.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Eng-22.jpg",
+      "./docs/Neuro/Big/03-FAQs_for_Multiple_Sclerosis_-_Eng-23.jpg",
+   ],
+   "araQRCode":"./docs/Neuro/QRcode/03-FAQs_for_Multiple_Sclerosis_-_Ara.jpg",
+   "engQRCode":"./docs/Neuro/QRcode/03-FAQs_for_Multiple_Sclerosis_-_Eng.jpg",
+   "tags":[ "Multiple Sclerosis", "Back pain", "Neck pain", "Foot drop", "Fatigue", "Depression", "Incontinence"],
+   "araDir": "./docs/Neuro/03-FAQs_for_Multiple_Sclerosis_-_Ara.pdf",
+   "engDir": "./docs/Neuro/03-FAQs_for_Multiple_Sclerosis_-_Eng.pdf",
+   "araLink":"https://drive.google.com/file/d/1U30rUEbux-WF55AJ_cknqS2WgtsL9eT1/view?usp=sharing",
+   "engLink":"https://drive.google.com/file/d/1BPv_OQ2kE9D-MDdoYra9PFYH5C2TLlp8/view?usp=sharing"
+   },
+
+   {
+   "id": "N004",
+   "title":"Parkinson's Disease",
+   "tumbUrl":[
+      "./docs/Neuro/Thumbnail/04-Parkinson's_Disease_-_Ara-1.jpg",
+      "./docs/Neuro/Thumbnail/04-Parkinson's_Disease_-_Ara-2.jpg",
+      "./docs/Neuro/Thumbnail/04-Parkinson's_Disease_-_Eng-1.jpg",
+      "./docs/Neuro/Thumbnail/04-Parkinson's_Disease_-_Eng-2.jpg",
+   ],
+   "bigImgs":[
+      "./docs/Neuro/Big/04-Parkinson's_Disease_-_Ara-1.jpg",
+      "./docs/Neuro/Big/04-Parkinson's_Disease_-_Ara-2.jpg",
+      "./docs/Neuro/Big/04-Parkinson's_Disease_-_Eng-1.jpg",
+      "./docs/Neuro/Big/04-Parkinson's_Disease_-_Eng-2.jpg",
+   ],
+   "araQRCode":"./docs/Neuro/QRcode/04-Parkinson's_Disease_-_Ara.jpg",
+   "engQRCode":"./docs/Neuro/QRcode/04-Parkinson's_Disease_-_Eng.jpg",
+   "tags":[ "Parkinson's"],
+   "araDir": "./docs/Neuro/04-Parkinson's_Disease_-_Ara.pdf",
+   "engDir": "./docs/Neuro/04-Parkinson's_Disease_-_Eng.pdf",
+   "araLink":"https://drive.google.com/file/d/1tuzfgvvAMPNFv9MWVar_WEGfgykCypJr/view?usp=sharing",
+   "engLink":"https://drive.google.com/file/d/115bJ6uNemwr9XHHl4gZCh8D5qm50chZs/view?usp=sharing"
+   },
+
+   {
+   "id": "N005",
+   "title":"Stroke",
+   "tumbUrl":[
+      "./docs/Neuro/Thumbnail/05-Stroke_-_Ara-1.jpg",
+      "./docs/Neuro/Thumbnail/05-Stroke_-_Ara-2.jpg",
+      "./docs/Neuro/Thumbnail/05-Stroke_-_Eng-1.jpg",
+      "./docs/Neuro/Thumbnail/05-Stroke_-_Eng-2.jpg",
+   ],
+   "bigImgs":[
+      "./docs/Neuro/Big/05-Stroke_-_Ara-1.jpg",
+      "./docs/Neuro/Big/05-Stroke_-_Ara-2.jpg",
+      "./docs/Neuro/Big/05-Stroke_-_Eng-1.jpg",
+      "./docs/Neuro/Big/05-Stroke_-_Eng-2.jpg",
+   ],
+   "araQRCode":"./docs/Neuro/QRcode/05-Stroke_-_Ara.jpg",
+   "engQRCode":"./docs/Neuro/QRcode/05-Stroke_-_Eng.jpg",
+   "tags":[ "Stroke", "upper limp Exercises", "Lower limp Exercises"],
+   "araDir": "./docs/Neuro/05-Stroke_-_Ara.pdf",
+   "engDir": "./docs/Neuro/05-Stroke_-_Eng.pdf",
+   "araLink":"https://drive.google.com/file/d/1jseSr6UuO6BTIZ-9JG3fWggqVp2AQMSm/view?usp=sharing",
+   "engLink":"https://drive.google.com/file/d/11prHMLW04TT467huo_xNpJl8rLaKgo9y/view?usp=sharing"
+   },
+
+   {
+   "id": "N006",
+   "title":"Stroke Rehab - Advanced Lower Extermities Exercises",
+   "tumbUrl":[
+      "./docs/Neuro/Thumbnail/06-Stroke_Rehab_-_Advanced_Lower_Extermities_Exercises_-_Eng-1.jpg",
+      "./docs/Neuro/Thumbnail/06-Stroke_Rehab_-_Advanced_Lower_Extermities_Exercises_-_Eng-2.jpg",
+      "./docs/Neuro/Thumbnail/06-Stroke_Rehab_-_Advanced_Lower_Extermities_Exercises_-_Eng-3.jpg",
+   ],
+   "bigImgs":[
+      "./docs/Neuro/Big/06-Stroke_Rehab_-_Advanced_Lower_Extermities_Exercises_-_Eng-1.jpg",
+      "./docs/Neuro/Big/06-Stroke_Rehab_-_Advanced_Lower_Extermities_Exercises_-_Eng-2.jpg",
+      "./docs/Neuro/Big/06-Stroke_Rehab_-_Advanced_Lower_Extermities_Exercises_-_Eng-3.jpg",
+   ],
+   "engQRCode":"./docs/Neuro/QRcode/06-Stroke_Rehab_-_Advanced_Lower_Extermities_Exercises_-_Eng.jpg",
+   "tags":[ "Stroke", "Lower Extermities Exercises", "Bridging", "Clam Exercise", "Crawling Stretch", "Four-Point Kneeling", "Superman Pose", "Seated Push Up", "Heel Raise", "Side Stepping"],
+   "engDir": "./docs/Neuro/06-Stroke_Rehab_-_Advanced_Lower_Extermities_Exercises_-_Eng.pdf",
+   "engLink":"https://drive.google.com/file/d/1Ur_M6RH3afffbDlbouuVd5pP4hSSdpxU/view?usp=sharing"
+   },
+
+   {
+   "id": "N007",
+   "title":"Stroke Rehab - Advanced Upper Extermities Exercises",
+   "tumbUrl":[
+      "./docs/Neuro/Thumbnail/07-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Ara-1.jpg",
+      "./docs/Neuro/Thumbnail/07-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Ara-2.jpg",
+      "./docs/Neuro/Thumbnail/07-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Ara-3.jpg",
+      "./docs/Neuro/Thumbnail/07-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Eng-1.jpg",
+      "./docs/Neuro/Thumbnail/07-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Eng-2.jpg",
+      "./docs/Neuro/Thumbnail/07-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Eng-3.jpg",
+   ],
+   "bigImgs":[
+      "./docs/Neuro/Big/07-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Ara-1.jpg",
+      "./docs/Neuro/Big/07-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Ara-2.jpg",
+      "./docs/Neuro/Big/07-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Ara-3.jpg",
+      "./docs/Neuro/Big/07-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Eng-1.jpg",
+      "./docs/Neuro/Big/07-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Eng-2.jpg",
+      "./docs/Neuro/Big/07-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Eng-3.jpg",
+   ],
+   "araQRCode":"./docs/Neuro/QRcode/07-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Ara.jpg",
+   "engQRCode":"./docs/Neuro/QRcode/07-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Eng.jpg",
+   "tags":[ "Stroke", "Upper Extermities", "Wall slide", "Shoulder Exercises", "Elbow curl", "Wrist curl", "Wrist extension", "Fingers Exercises"],
+   "araDir": "./docs/Neuro/07-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Ara.pdf",
+   "engDir": "./docs/Neuro/07-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Eng.pdf",
+   "araLink":"https://drive.google.com/file/d/1SIU3kL3Xq7-hY1Z6aEfGubUami-Tvclb/view?usp=sharing",
+   "engLink":"https://drive.google.com/file/d/10A2lBvch80S5rJc6OQs60iCW2imb9jjt/view?usp=sharing"
+   },
+
+   {
+   "id": "N008",
+   "title":"Vestibular rehabilitation",
+   "tumbUrl":[
+      "./docs/Neuro/Thumbnail/08-Vestibular_rehabilitation_-_Ara-1.jpg",
+      "./docs/Neuro/Thumbnail/08-Vestibular_rehabilitation_-_Ara-2.jpg",
+      "./docs/Neuro/Thumbnail/08-Vestibular_rehabilitation_-_Ara-3.jpg",
+      "./docs/Neuro/Thumbnail/08-Vestibular_rehabilitation_-_Ara-4.jpg",
+   ],
+   "bigImgs":[
+      "./docs/Neuro/Big/08-Vestibular_rehabilitation_-_Ara-1.jpg",
+      "./docs/Neuro/Big/08-Vestibular_rehabilitation_-_Ara-2.jpg",
+      "./docs/Neuro/Big/08-Vestibular_rehabilitation_-_Ara-3.jpg",
+      "./docs/Neuro/Big/08-Vestibular_rehabilitation_-_Ara-4.jpg",
+   ],
+   "araQRCode":"./docs/Neuro/QRcode/08-Vestibular_rehabilitation_-_Ara.jpg",
+   "tags":[ "Vestibular", "Eye Exercises", "Neck ROM", "Shoulder ROM", "Back ROM", "Sitting Balance", "Standing Balance", "Dynamic Balance"],
+   "araDir": "./docs/Neuro/08-Vestibular_rehabilitation_-_Ara.pdf",
+   "araLink":"https://drive.google.com/file/d/1LXdGWOo-4H1KM1Xh0sUG6PeGHa-Elyfp/view?usp=sharing",
+   },
+
+]
+
+
+//////////////////////////////////////////////////////////////////////////
+////////////////////////////////// Pedia /////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+
+
+
+//////////////////////////////////////////////////////////////////////////
+////////////////////////////// Women Health //////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+
+
+
+//////////////////////////////////////////////////////////////////////////
+////////////////////////////////// Other /////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+
 const data = {
    "exercisesGif":{
       "face":[
-         // {
-         //    "id": "face01",
-         //    "title":"Angry Face",
-         //    "tumbUrl":["./Exercises Daigram/Exercises Images/01-Face/Angry.gif","./Exercises Daigram/Exercises Images/01-Face/Close eyes.gif","./Exercises Daigram/Exercises Images/01-Face/Angry.gif"],
-         //    "bigImgs":["./Exercises Daigram/Exercises Images/01-Face/Angry.gif","./Exercises Daigram/Exercises Images/01-Face/Close eyes.gif","./Exercises Daigram/Exercises Images/01-Face/Angry.gif"],
-         //    "tags":[ "Facial Palsy", "Bell's Palsy", "Face", "Seventh Cranial Nerve" , "Eye", "Mouth"],
-         //    "araDir": "./Exercises Daigram/Exercises Images/01-Face/Angry.gif",
-         //    "araLink":"google.com/ara",
-         // },
-         // {
-         //    "id": "02",
-         //    "title":"Close Eyes",
-         //    "tumbUrl":["./Exercises Daigram/Exercises Images/01-Face/Close eyes.gif"],
-         //    "bigImgs":["./Exercises Daigram/Exercises Images/01-Face/Close eyes.gif"],
-         //    // "araQRCode":"./Exercises Daigram/Exercises Images/01-Face/Angry.gif",
-         //    "engQRCode":"./Exercises Daigram/Exercises Images/01-Face/Close eyes.gif",
-         //    "tags":[ "fascial palsy", "face", "eye"],
-         //    // "araDir": "./Exercises Daigram/Exercises Images/01-Face/Angry.gif",
-         //    "engDir": "./Exercises Daigram/Exercises Images/01-Face/Close eyes.gif",
-         //    "araLink":"yahoo.com/ara",
-         //    "engLink":"yahoo.com/eng"
-         // },
-         // {
-         //    "id": "03",
-         //    "title":"Full Mouth",
-         //    "tumbUrl":["./Exercises Daigram/Exercises Images/01-Face/Close eyes.gif"],
-         //    "bigImgs":["./Exercises Daigram/Exercises Images/01-Face/Close eyes.gif"],
-         //    "araQRCode":"./Exercises Daigram/Exercises Images/01-Face/Angry.gif",
-         //    // "engQRCode":"./Exercises Daigram/Exercises Images/01-Face/Close eyes.gif",
-         //    "tags":[ "fascial palsy", "face", "eye"],
-         //    "araDir": "./Exercises Daigram/Exercises Images/01-Face/Angry.gif",
-         //    // "engDir": "./Exercises Daigram/Exercises Images/01-Face/Close eyes.gif",
-         //    "araLink":"gmail.com/ara",
-         //    "engLink":"gmail.com/eng"
-         // },
-         {
-            "id": "face01",
-            "title":"Angry Face",
-            "tumbUrl":["./assets/img/testingImgs/Angry-Thumbnail.gif"],
-            "bigImgs":["./assets/img/testingImgs/Angry-big.gif"],
-            "tags":[ "Facial Palsy", "Bell's Palsy", "Face", "Seventh Cranial Nerve" , "Eye", "Mouth"],
-            "araDir": "./assets/img/testingImgs/Angry-big.gif",
-            "araLink":"google.com/ara",
-         },
+         gifFace01,
          {
             "id": "02",
             "title":"Close Eyes",
@@ -142,13 +471,14 @@ const data = {
    "ortho":{
       "face":[
          {
-            "id": "face01",
-            "title":"Angry Face",
-            "tumbUrl":["./Exercises Daigram/Exercises Images/06-Trunk/Trunk Stability/BACK EXERCISES WITH ELASTIC BAND- ARABIC- QR.jpg"],
-            "tags":[ "Facial Palsy", "Bell's Palsy", "Face", "Seventh Cranial Nerve" , "Eye", "Mouth"],
-            "araDir": "./Exercises Daigram/Exercises Images/06-Trunk/Trunk Stability/BACK EXERCISES WITH ELASTIC BAND- ARABIC- QR.jpg",
-            "araLink":"google.com/ara",
-         },
+   "id": "face01",
+   "title":"Angry Face",
+   "tumbUrl":["./assets/img/testingImgs/Angry-Thumbnail.gif"],
+   "bigImgs":["./assets/img/testingImgs/Angry-big.gif"],
+   "tags":[ "Facial Palsy", "Bell's Palsy", "Face", "Seventh Cranial Nerve" , "Eye", "Mouth"],
+   "araDir": "./assets/img/testingImgs/Angry-big.gif",
+   "araLink":"google.com/ara",
+},
          {
             "id": "02",
             "title":"Close Eyes",
@@ -183,173 +513,9 @@ const data = {
       "knee":[],
       "foot":[],
    },
-   "neuro":[
-      {
-         "id": "face01",
-         "title":"Angry Face",
-         "tumbUrl":["./Exercises Daigram/Exercises Images/01-Face/Angry.gif","./Exercises Daigram/Exercises Images/01-Face/Close eyes.gif","./Exercises Daigram/Exercises Images/01-Face/Angry.gif"],
-         "bigImgs":["./Exercises Daigram/Exercises Images/01-Face/Angry.gif","./Exercises Daigram/Exercises Images/01-Face/Close eyes.gif","./Exercises Daigram/Exercises Images/01-Face/Angry.gif"],
-         "tags":[ "Facial Palsy", "Bell's Palsy", "Face", "Seventh Cranial Nerve" , "Eye", "Mouth"],
-         "araDir": "./Exercises Daigram/Exercises Images/01-Face/Angry.gif",
-         "araLink":"google.com/ara",
-      },
-      {
-         "id": "02",
-         "title":"Close Eyes",
-         "tumbUrl":["./Exercises Daigram/Exercises Images/01-Face/Close eyes.gif"],
-         "bigImgs":["./Exercises Daigram/Exercises Images/01-Face/Close eyes.gif"],
-         // "araQRCode":"./Exercises Daigram/Exercises Images/01-Face/Angry.gif",
-         "engQRCode":"./Exercises Daigram/Exercises Images/01-Face/Close eyes.gif",
-         "tags":[ "fascial palsy", "face", "eye"],
-         // "araDir": "./Exercises Daigram/Exercises Images/01-Face/Angry.gif",
-         "engDir": "./Exercises Daigram/Exercises Images/01-Face/Close eyes.gif",
-         "araLink":"yahoo.com/ara",
-         "engLink":"yahoo.com/eng"
-      },
-      {
-         "id": "03",
-         "title":"Full Mouth",
-         "tumbUrl":["./Exercises Daigram/Exercises Images/01-Face/Close eyes.gif"],
-         "bigImgs":["./Exercises Daigram/Exercises Images/01-Face/Close eyes.gif"],
-         "araQRCode":"./Exercises Daigram/Exercises Images/01-Face/Angry.gif",
-         // "engQRCode":"./Exercises Daigram/Exercises Images/01-Face/Close eyes.gif",
-         "tags":[ "fascial palsy", "face", "eye"],
-         "araDir": "./Exercises Daigram/Exercises Images/01-Face/Angry.gif",
-         // "engDir": "./Exercises Daigram/Exercises Images/01-Face/Close eyes.gif",
-         "araLink":"gmail.com/ara",
-         "engLink":"gmail.com/eng"
-      }
-   ],
+   neuro,
    "pedia":[],
    "womenHealth":[],
    "others":{}
 }
 
-// creating the Lists
-function creatingLists(category){
-   const list = data[category];
-   const isListArray = list instanceof Array;
-
-   if (!isListArray){
-      let dataList =[];
-
-      Object.entries(list).forEach(entry => {
-         let entryObj = {};
-         let subData = entry[1];
-         let haveOptions = subData instanceof Array;
-         entryObj.label = entry[0];
-         entryObj.value = entry[0];
-         
-         if (!haveOptions) {
-            let options = creatingOptionList(subData);
-            entryObj.options = options;
-         }
-
-         dataList.push(entryObj);
-      });
-      return dataList;
-   }
-}
-
-// creating the sub List options
-function creatingOptionList(data){
-   let subDataList =[]
-   Object.entries(data).forEach(entry => {
-      let entryObj = {};
-      entryObj.label = entry[0];
-      entryObj.value = entry[0];
-      subDataList.push(entryObj);
-   });
-   return subDataList
-}
-
-// const exercisesGifList = [
-//    { label: 'Face', value: 'face', options:[] },
-//    { label: 'Neck', value: 'neck', options:[
-//       { label: 'Neck-AROM', value: 'neck-AROM'},
-//       { label: 'Neck-Isometric', value: 'neck-Isometric'},
-//       { label: 'Neck-Strengthening', value: 'neck-Strengthening'},
-//       { label: 'Neck-Stretching', value: 'neck-Stretching'},
-//       ] },
-//    { label: 'Shoulder', value: 'shoulder', options:[
-//       { label: 'Shoulder-AAROM', value: 'shoulder-AAROM'},
-//       { label: 'Shoulder-AROM', value: 'shoulder-AROM'},
-//       { label: 'Shoulder-Isometric', value: 'shoulder-Isometric'},
-//       { label: 'Shoulder-Strengthening', value: 'shoulder-Strengthening'},
-//       { label: 'Shoulder-Stretching', value: 'shoulder-Stretching'},
-//       { label: 'Shoulder-Swiss-Ball', value: 'shoulder-Swiss-Ball'},
-//       ] },
-//    { label: 'Elbow', value: 'elbow', options:[
-//       { label: 'Elbow-AROM', value: 'elbow-AROM'},
-//       { label: 'Elbow-Strengthening', value: 'elbow-Strengthening'},
-//       { label: 'Elbow-Swiss-Ball', value: 'elbow-Swiss-Ball'},
-//       ] },
-//    { label: 'Hand', value: 'hand', options:[
-//       { label: 'Hand-AROM', value: 'hand-AROM'},
-//       { label: 'Hand-Strengthening', value: 'hand-Strengthening'},
-//       { label: 'Hand-Stretching', value: 'hand-Stretching'},
-//       ] },
-//    { label: 'Trunk', value: 'trunk', options:[
-//       { label: 'Trunk-Stability', value: 'trunk-Stability'},
-//       { label: 'Trunk-Stretching', value: 'trunk-Stretching'},
-//       { label: 'Trunk-Swiss-Ball', value: 'trunk-Swiss-Ball'},
-//       ] },
-//    { label: 'Hip', value: 'hip', options:[
-//       { label: 'Hip-AROM', value: 'hip-AROM'},
-//       { label: 'Hip-Isometric', value: 'hip-Isometric'},
-//       { label: 'Hip-Strengthening', value: 'hip-Strengthening'},
-//       { label: 'Hip-Stretching', value: 'hip-Stretching'},
-//       { label: 'Hip-Theraband', value: 'hip-Theraband'},
-//       ] },
-//    { label: 'Knee', value: 'knee', options:[
-//       { label: 'Knee-AROM', value: 'knee-AROM'},
-//       { label: 'Knee-Isometric', value: 'knee-Isometric'},
-//       { label: 'Knee-Strengthening', value: 'knee-Strengthening'},
-//       { label: 'Knee-Stretching', value: 'knee-Stretching'},
-//       { label: 'Knee-Theraband', value: 'knee-Theraband'},
-//       ] },
-//    { label: 'Foot', value: 'foot', options:[
-//       { label: 'Foot-AROM', value: 'foot-AROM'},
-//       { label: 'Foot-Isometric', value: 'foot-Isometric'},
-//       { label: 'Foot-Strengthening', value: 'foot-Strengthening'},
-//       { label: 'Foot-Stretching', value: 'foot-Stretching'},
-//       { label: 'Foot-Other', value: 'foot-Other'},
-//       ] },
-//    { label: 'Balance', value: 'balance', options:[] },
-//    { label: 'Swiss-Ball', value: 'swiss-Ball', options:[] },
-//    { label: 'Women-Health', value: 'women-Health', options:[] },
-// ];
-
-// const orthoList = [
-//    { label: 'Face', value: 'face'},
-//    { label: 'Neck', value: 'neck'},
-//    { label: 'Shoulder', value: 'shoulder'},
-//    { label: 'Elbow', value: 'elbow'},
-//    { label: 'Hand', value: 'hand'},
-//    { label: 'Trunk', value: 'trunk'},
-//    { label: 'Hip', value: 'hip'},
-//    { label: 'Knee', value: 'knee'},
-//    { label: 'Foot', value: 'foot'},
-// ];
-
-// myOptions = [
-//    { label: 'Options 1', value: '1', alias: 'custom label for search' },
-//    { label: 'Options 2', value: '2', description: 'custom description for label', customData: '' },
-//    { label: 'Options 3', value: '3' },
-//    { label: 'Options 100000', value: '100000' },
-// ],
-
-
-// card data
-// {
-//    "id": "01",
-//    "title":"angry face",
-//    "tumbUrl":["./Exercises Daigram/Exercises Images/01-Face/Angry.gif","./Exercises Daigram/Exercises Images/01-Face/Close eyes.gif"],
-//    "araQRCode":"./Exercises Daigram/Exercises Images/01-Face/Angry.gif",
-//    "engQRCode":"./Exercises Daigram/Exercises Images/01-Face/Close eyes.gif",
-//    "tags":[ "ACL", "PCL", "knee", "hamstring", "shoulder", "head", "knees", "toes"],
-//    "araDir": "./Exercises Daigram/Exercises Images/01-Face/Angry.gif",
-//    "engDir": "./Exercises Daigram/Exercises Images/01-Face/Close eyes.gif",
-//    "araLink":"google.com/ara",
-//    "engLink":"google.com/eng",
-// },

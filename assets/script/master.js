@@ -115,10 +115,21 @@ function creatCard(data){
 
   // checkbox element
   checkbox.classList.add('checkbox','card__checkbox');
+
+  //////////////////////////////////////////////////////
+  // test if i can remove the checkbox id from the name
+
+  // checkbox.innerHTML = `<label id="card${data.id}" class="checkbox__label">
+  //   <input name="card${data.id}" type="checkbox" ${checkboxStatus}>
+  //   <span class="checkbox__mark"></span>
+  // </label>`
+
   checkbox.innerHTML = `<label id="card${data.id}" class="checkbox__label">
-    <input name="card${data.id}" type="checkbox" ${checkboxStatus}>
+    <input name="card" type="checkbox" ${checkboxStatus}>
     <span class="checkbox__mark"></span>
   </label>`
+   //////////////////////////////////////////////////////
+
 
   // check if the data is arabic or english or both
   let langStatus;
@@ -581,45 +592,6 @@ function deSelectedItem(id,listID){
   populateMessageData();
 }
 
-// replace the links in the messageList object
-function replaceLangLinks(dataObj,lang){
-  let link
-  // add title and url to messageList
-  if (lang === "ara"){
-    link = dataObj.araLink
-  } else {
-    link = dataObj.engLink
-  }
-  messageList[dataObj.id] = link;
-  // console.log(messageList);
-}
-
-// create the message and enable the whatsApp send ntm
-function populateMessageData(){
-  let links = Object.values(messageList).join('%0a')
-  let mobile = document.getElementById("mobileNum").value;
-  let message = `https://wa.me/973${mobile}/?text=${links}`
-  const anchore = document.querySelector('#sendMessageBtn');
-  
-
-  if (Object.keys(messageList).length !== 0 && mobile.length == 8){
-    anchore.href = message;
-    anchore.classList.remove('sidebar__btn--disabled')
-    anchore.removeEventListener('click',preventClick);
-
-  } else {
-    anchore.classList.add('sidebar__btn--disabled')
-    anchore.addEventListener('click',preventClick);
-  }
-}
-
-// prevent send messages before selection
-function preventClick(e){
-  e.preventDefault()
-}
-
-populateMessageData()
-
 // filter navgation
 function filterSearch(){
   console.log(document.querySelector('#filterSelectBox').value);
@@ -670,6 +642,58 @@ function onlyNumberKey(evt) {
   return true;
 }
 
+// replace the links in the messageList object
+function replaceLangLinks(dataObj,lang){
+  let link
+  // add title and url to messageList
+  if (lang === "ara"){
+    link = dataObj.araLink
+  } else {
+    link = dataObj.engLink
+  }
+  messageList[dataObj.id] = link;
+  // console.log(messageList);
+}
+
+// create the message and enable the whatsApp send ntm
+function populateMessageData(){
+  // let links = Object.values(messageList).join('%0a');
+  let links = Object.entries(messageList).map(x=>x.join(": ")).join("%0a");
+  let mobile = document.getElementById("mobileNum").value;
+  let message = `https://wa.me/973${mobile}/?text=${links}`
+  const anchore = document.querySelector('#sendMessageBtn');
+  
+
+  if (Object.keys(messageList).length !== 0 && mobile.length == 8){
+    anchore.href = message;
+    anchore.classList.remove('sidebar__btn--disabled')
+    anchore.removeEventListener('click',preventClick);
+
+  } else {
+    anchore.classList.add('sidebar__btn--disabled')
+    anchore.addEventListener('click',preventClick);
+  }
+}
+
+// prevent send messages before selection
+function preventClick(e){
+  e.preventDefault()
+}
+
+function clearMessageList(){
+  messageList = {};
+  const checkedBoxes = document.querySelectorAll('input[name="card"]:checked');
+  const sideBarList = document.getElementById('sideBarList');
+  const MobileInput = document.getElementById('mobileNum');
+  checkedBoxes.forEach(checkbox => checkbox.checked = false);
+  sideBarList.innerHTML = '';
+  MobileInput.value = '';
+  sideBarMenu.classList.remove("sidebar--active");
+  populateMessageData();
+}
+
+populateMessageData()
+
 
 /////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////
@@ -718,181 +742,9 @@ if (sideBarMenu) {
   });
 }
 
-sideBarMenu.addEventListener("focusout", function(e){
-  sideBarMenu.classList.remove("sidebar--active");
+document.addEventListener('click', function(event) {
+  const closestDivIsNotNull = event.target.closest('div')
+  if(sideBarMenu.classList.contains("sidebar--active") && !event.target.isEqualNode(sideBarMenu) && !sideBarMenu.contains(event.target) && closestDivIsNotNull ){
+    sideBarMenu.classList.remove("sidebar--active");
+  }
 });
-
-//////////////////////////////////////////////////////////////////////
-////////////// just for testing the card slider //////////////////////
-/////delete this code because it's going to be dynamiclly created/////
-function testingSlider(){
-  
-  const sliderContainers = document.querySelectorAll(".card__slider");
-
-  sliderContainers.forEach(slider => {
-      const slides = slider.querySelectorAll(".card__slide");
-      const btnLeft = slider.querySelector(".card__slider__btn--left");
-      const btnRight = slider.querySelector(".card__slider__btn--right");
-      const dotContainer = slider.querySelector(".card__dots");
-      let curSlide = 0,
-          startPos = 0,
-          currentTranslate = 0,
-          prevTranslate = 0,
-          animationID = 0,
-          isDragging = false;
-      const maxSlide = slides.length;
-
-      // ///////////////touch screen slider//////////
-
-      // remove the left click
-      window.oncontextmenu = function (event) {
-          event.preventDefault();
-          event.stopPropagation();
-          return false;
-      };
-
-      // creating the dots Functions
-      const createDots = function () {
-          slides.forEach(function (_, i) {
-          dotContainer.insertAdjacentHTML(
-              "beforeend",
-              '<button class="card__dots__dot" data-slide="' +  i + '"></button>'
-          );
-          });
-      };
-
-      const activateDot = function (slide) {
-          slider
-            .querySelectorAll(".card__dots__dot")
-            .forEach(function(dot){dot.classList.remove("card__dots__dot--active")});
-      
-          slider
-            .querySelector('.card__dots__dot[data-slide="' + slide + '"]')
-            .classList.add("card__dots__dot--active");
-        };
-
-      const goToSlide = function (slide, translate = 0) {
-          slides.forEach(
-              (s, i) =>
-              (s.style.transform = `translateX(${translate + 100 * (i - slide)}%)`)
-          );
-      };
-
-      // Next slide
-      const nextSlide = function () {
-          if (curSlide === maxSlide - 1) {
-          curSlide = 0;
-          } else {
-          curSlide++;
-          }
-
-          goToSlide(curSlide);
-          activateDot(curSlide);
-      };
-
-      const prevSlide = function () {
-          if (curSlide === 0) {
-            curSlide = maxSlide - 1;
-          } else {
-            curSlide--;
-          }
-          goToSlide(curSlide);
-          activateDot(curSlide);
-        };
-      
-      const init = function () {
-      goToSlide(0);
-      createDots();
-
-      activateDot(0);
-      };
-      init();
-      
-      // Event handlers
-      btnRight.addEventListener("click", nextSlide);
-      btnLeft.addEventListener("click", prevSlide);
-
-      slider.addEventListener("keydown", function (e) {
-      if (e.key === "ArrowLeft") prevSlide();
-      e.key === "ArrowRight" && nextSlide();
-      });
-
-      dotContainer.addEventListener("click", function (e) {
-          if (e.target.classList.contains("card__dots__dot")) {
-            const { slide } = e.target.dataset;
-            goToSlide(slide);
-            activateDot(slide);
-          }
-        });
-      
-      // ///touch screen slider functions
-      const touchStart = function (event, index) {
-      isDragging = true;
-      curSlide = index;
-      startPos = getPositionX(event);
-      animationID = requestAnimationFrame(animation);
-      };
-
-      const touchEnd = function () {
-      isDragging = false;
-      cancelAnimationFrame(animationID);
-      const movedBy = currentTranslate - prevTranslate;
-      console.log(movedBy);
-      if (movedBy < -80) {
-          nextSlide();
-      } else if (movedBy > 80) {
-          prevSlide();
-      }
-      setPositionByIndex();
-      };
-
-      const touchMove = function (event) {
-      if (isDragging) {
-          const currentPosition = getPositionX(event);
-          const Translate = prevTranslate + currentPosition - startPos;
-          if (Translate < 100 && Translate > -100) {
-          currentTranslate = Translate;
-          } else if (Translate > 100) {
-          currentTranslate = 100;
-          } else if (Translate < -100) {
-          currentTranslate = -100;
-          }
-      }
-      };
-
-      const getPositionX = function (event) {
-      return event.touches[0].clientX;
-      };
-
-      const animation = function () {
-      setCardPosition();
-      if (isDragging) {
-          requestAnimationFrame(animation);
-      }
-      };
-
-      const setCardPosition = function () {
-      goToSlide(curSlide, currentTranslate);
-      activateDot(curSlide);
-      };
-
-      const setPositionByIndex = function () {
-      goToSlide(curSlide);
-      activateDot(curSlide);
-      currentTranslate = 0;
-      prevTranslate = currentTranslate;
-      setCardPosition();
-      };
-
-      // remove the drag effect on the team section
-      
-      slider.querySelectorAll("img").forEach((img, i) => {
-        img.addEventListener("dragstart", (e) => e.preventDefault());
-        img.addEventListener("touchstart", (e) => touchStart(e, i));
-        img.addEventListener("touchend", touchEnd);
-        img.addEventListener("touchmove", (e) => touchMove(e, i));
-        });
-
-  });
-}
-// testingSlider()

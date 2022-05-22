@@ -603,8 +603,8 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
   z-index: 150;
 }
 .card__slider--fullscreen .card__slide img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 95%;
+  max-height: 95%;
   height: auto;
   width: auto;
 }

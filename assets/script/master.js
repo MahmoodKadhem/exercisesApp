@@ -594,8 +594,18 @@ function deSelectedItem(id,listID){
 
 // filter navgation
 function filterSearch(){
-  console.log(document.querySelector('#filterSelectBox').value);
+  const selectedData = document.querySelector('#filterSelectBox').value;
+  const active = document.querySelector(".side-nav__link--active").id;
+  const title = data[active];
+  // console.log(title);
+  // console.log(selectedData);
+  
   clearCanvas();
+  selectedData.forEach(select => {
+    // console.log(select);
+    const subtite = title[select];
+    subtite.forEach(entry => creatCard(entry));
+  })
 }
 
 // deleting all cards and selected items elements
@@ -719,6 +729,13 @@ sideNavMenu.addEventListener("focusout", function(e){
   sideNavMenu.classList.remove("side-nav--active");
 });
 
+sideNavMenu.addEventListener("touchstart", function(){
+
+});
+sideNavMenu.addEventListener("touchstart", function(){
+
+});
+
 // links function
 const sideNavLink = document.querySelectorAll('.side-nav__link')
 
@@ -748,3 +765,5 @@ document.addEventListener('click', function(event) {
     sideBarMenu.classList.remove("sidebar--active");
   }
 });
+
+

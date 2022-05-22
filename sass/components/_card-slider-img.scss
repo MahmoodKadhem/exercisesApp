@@ -74,15 +74,15 @@
         width: 100vw;
         height: 100vh;
         top: -5px;
-        // bottom: 0;
+        // bottom: -5px;
         left: -5px;
-        // right: 0;
+        // right: -5px;
         background-color: rgba(0, 0, 0, 0.9);
         z-index: 150;
 
         & .card__slide img{
-          max-width: 100%;
-          max-height: 100%;
+          max-width: 95%;
+          max-height: 95%;
           height: auto;
           width: auto;
         }

@@ -59,7 +59,7 @@ function creatingLists(category){
         entryObj.value = entry[0];
         
         if (!haveOptions) {
-           let options = creatingOptionList(subData);
+           let options = creatingOptionList(subData, entry[0]);
            entryObj.options = options;
         }
 
@@ -70,12 +70,12 @@ function creatingLists(category){
 }
 
 // creating the sub List options
-function creatingOptionList(data){
+function creatingOptionList(data,title){
   let subDataList =[]
   Object.entries(data).forEach(entry => {
      let entryObj = {};
-     entryObj.label = entry[0];
-     entryObj.value = entry[0];
+     entryObj.label = title + " " + entry[0];
+     entryObj.value = title + "->" + entry[0];
      subDataList.push(entryObj);
   });
   return subDataList
@@ -92,9 +92,11 @@ function creatingOptionList(data){
 let messageList = {
 }
 
-const selectedData = data.exercisesGif.face;
+///////////// Testing code delete it //////////////////////
+// const selectedData = data.exercisesGif.face;
 // console.log(selectedData);
-selectedData.forEach(entry => creatCard(entry));
+// selectedData.forEach(entry => creatCard(entry));
+///////////////////////////////////////////////////////////
 
 // creating a card based on given data
 function creatCard(data){
@@ -594,18 +596,49 @@ function deSelectedItem(id,listID){
 
 // filter navgation
 function filterSearch(){
+  let createdIDs = [];
   const selectedData = document.querySelector('#filterSelectBox').value;
   const active = document.querySelector(".side-nav__link--active").id;
-  const title = data[active];
-  // console.log(title);
-  // console.log(selectedData);
-  
+  const mainCategory = data[active];
   clearCanvas();
-  selectedData.forEach(select => {
-    // console.log(select);
-    const subtite = title[select];
-    subtite.forEach(entry => creatCard(entry));
-  })
+
+
+  selectedData.forEach(selected => {
+    if (selected.includes("->")) {
+      const path = selected.split("->");
+      // split the text
+      const title = mainCategory[path[0]]
+      const SubTitle = title[path[1]]
+      SubTitle.forEach(entry =>{
+        if(createdIDs.includes(entry.id)) return
+        creatCard(entry)
+        createdIDs.push(entry.id)
+      });
+    } else {
+      const title = mainCategory[selected];
+      // check if it is object or array
+      if (title instanceof Array) {
+        // if its an array just creat the cards
+        title.forEach(entry => {
+          if(createdIDs.includes(entry.id)) return
+          creatCard(entry)
+          createdIDs.push(entry.id)
+        })
+      } else {
+        // if its an object collect the keys and creat cards for each object key
+        const subTitles = Object.keys(title);
+        subTitles.forEach( key => {
+          title[key].forEach(entry => {
+            if(createdIDs.includes(entry.id)) return
+            creatCard(entry)
+            createdIDs.push(entry.id)
+          });
+        })
+      }
+    }
+  });
+
+  console.log(createdIDs);
 }
 
 // deleting all cards and selected items elements

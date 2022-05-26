@@ -107,50 +107,20 @@ function creatCard(data){
   const contentEle = document.createElement('div');
   const titleEle = document.createElement('h3');
   const tagsEle = document.createElement('p');
-  const cardBtns = document.createElement('div');
-  const openBtn = document.createElement('a');
-  const qrBtn = document.createElement('button');
-  const langBtn = document.createElement('label');
 
   // if messageList containes the card data check the checkbox 
   let checkboxStatus = checkcheckboxStatus(data.id);
 
   // checkbox element
   checkbox.classList.add('checkbox','card__checkbox');
-
-  //////////////////////////////////////////////////////
-  // test if i can remove the checkbox id from the name
-
-  // checkbox.innerHTML = `<label id="card${data.id}" class="checkbox__label">
-  //   <input name="card${data.id}" type="checkbox" ${checkboxStatus}>
-  //   <span class="checkbox__mark"></span>
-  // </label>`
-
   checkbox.innerHTML = `<label id="card${data.id}" class="checkbox__label">
     <input name="card" type="checkbox" ${checkboxStatus}>
     <span class="checkbox__mark"></span>
   </label>`
-   //////////////////////////////////////////////////////
 
-
-  // check if the data is arabic or english or both
-  let langStatus;
-  if(!data.araDir){
-    langStatus = "checked disabled";
-  } else if (!data.engDir) {
-    langStatus = "disabled";
-  }
-
-  // lang checkbox element
-  langBtn.classList.add('switch-btn__switch', 'switch-btn__switch--card');
-  langBtn.innerHTML = `<input id="lang${data.id}" type="checkbox" ${!langStatus ? '' : langStatus}>
-  <span class="switch-btn__slider switch-btn__round"></span>
-  <div class="switch-btn__labels">
-      <span class="switch-btn__label--1">Ara</span>
-      <span class="switch-btn__label--2">Eng</span>
-  </div>`
- 
-  langBtn.querySelector('input').addEventListener('click', (e) => langBtnEventListener(e,data));
+  // checkbox function
+  checkbox.querySelector("input").addEventListener("click",(e) => checkboxhandler(e))
+  //////////////////////////////////////////////////////
 
   // add classes to the created elements
   cardEle.classList.add('card');
@@ -158,9 +128,7 @@ function creatCard(data){
   contentEle.classList.add('card__content');
   titleEle.classList.add('h-3');
   tagsEle.classList.add('p--tags');
-  cardBtns.classList.add('card__btns');
-  openBtn.classList.add('btn', 'card__btn');
-  qrBtn.classList.add('btn', 'card__btn');
+
 
   // create the imgs elements for each image in the array
   data.tumbUrl.forEach(function(img,i){
@@ -211,26 +179,76 @@ function creatCard(data){
   // append the zoom button to the slider element
   sliderEle.appendChild(zoomBtn);
 
-
-
   // create the content title and tages
   titleEle.textContent = data.title
   tagsEle.innerHTML = '<span class="p--b">Tags: </span>' + data.tags.join(', ');
   
-  // card btns text content
-  openBtn.textContent = "open";
-  openBtn.target = "_blank"
-  qrBtn.textContent = "QR";
+   // add the title and tages to the content element
+   contentEle.appendChild(titleEle);
+   contentEle.appendChild(tagsEle);
 
-  // append the card btns to the btns element
-  cardBtns.appendChild(langBtn);
-  cardBtns.appendChild(openBtn);
-  cardBtns.appendChild(qrBtn);
+  //////////////////////////////////////////////////////
+  // if there is a Dir then create the Btns element
+  if(data.araDir || data.engDir){
+    // create the elements
+    const cardBtns = document.createElement('div');
+    const openBtn = document.createElement('a');
+    const qrBtn = document.createElement('button');
+    const langBtn = document.createElement('label');
 
-  // add the title and tages to the content element
-  contentEle.appendChild(titleEle);
-  contentEle.appendChild(tagsEle);
-  contentEle.appendChild(cardBtns);
+    cardBtns.classList.add('card__btns');
+    openBtn.classList.add('btn', 'card__btn');
+    qrBtn.classList.add('btn', 'card__btn');
+
+    // check if the data is arabic or english or both
+    let langStatus;
+    if(!data.araLink){
+      langStatus = "checked disabled";
+    } else if (!data.engLink) {
+      langStatus = "disabled";
+    } 
+
+    // creat the lang checkbox element
+    langBtn.classList.add('switch-btn__switch', 'switch-btn__switch--card');
+    langBtn.innerHTML = `<input id="lang${data.id}" type="checkbox" ${!langStatus ? '' : langStatus}>
+    <span class="switch-btn__slider switch-btn__round"></span>
+    <div class="switch-btn__labels">
+        <span class="switch-btn__label--1">Ara</span>
+        <span class="switch-btn__label--2">Eng</span>
+    </div>`
+
+    langBtn.querySelector('input').addEventListener('click', (e) => langBtnEventListener(e,data));
+  
+    // card btns text content
+    openBtn.textContent = "open";
+    openBtn.target = "_blank"
+    qrBtn.textContent = "QR";
+
+    // append the card btns to the btns element
+    cardBtns.appendChild(langBtn);
+    cardBtns.appendChild(openBtn);
+    cardBtns.appendChild(qrBtn);
+
+    contentEle.appendChild(cardBtns);
+
+      // create the QR code image
+    if (!data.araQRCode && !data.engQRCode){
+      qrBtn.disabled = true;
+      qrBtn.classList.add('card__btn--disabled');
+    } else if (!data.araQRCode){
+      createFullScreenImgEle(qrBtn, data.engQRCode);
+    } else {
+      createFullScreenImgEle(qrBtn, data.araQRCode);
+    }
+
+    // add the btns urls
+    if(!data.araDir){
+      openBtn.href= data.engDir;
+    } else {
+      openBtn.href= data.araDir;
+    }
+  }
+  
 
   // append all elements to the card element
   cardEle.appendChild(checkbox);
@@ -242,27 +260,6 @@ function creatCard(data){
 
   // append the card element to the card container
   cardContainer.appendChild(cardEle);
-
-  // checkbox function
-  checkbox.querySelector("input").addEventListener("click",(e) => checkboxhandler(e))
-
-  // create the QR code image
-  if (!data.araQRCode && !data.engQRCode){
-    qrBtn.disabled = true;
-    qrBtn.classList.add('card__btn--disabled');
-  } else if (!data.araQRCode){
-    createFullScreenImgEle(qrBtn, data.engQRCode);
-  } else {
-    createFullScreenImgEle(qrBtn, data.araQRCode);
-  }
-
-  // add the btns urls
-  if(!data.araDir){
-    openBtn.href= data.engDir;
-  } else {
-    openBtn.href= data.araDir;
-  }
-
 }
 
 // make the slider fullscreen
@@ -534,9 +531,15 @@ function checkboxhandler(e){
   const checkbox = e.target.checked;
   const card = e.target.closest(".card")
   const dataObj = JSON.parse(card.dataset.obj);
-  const listID = "li" + dataObj.id
-  const lang = card.querySelector(`#lang${dataObj.id}`).checked? "eng" : "ara";
-  
+  const listID = "li" + dataObj.id;
+  const haveLang = card.querySelector(`#lang${dataObj.id}`);
+  let lang
+  if(haveLang){
+    lang = haveLang.checked? "eng" : "ara";
+  } else{
+    lang = "";
+  }
+
   if (checkbox === true){
     selectedItem(dataObj,lang)
   } else {
@@ -691,11 +694,13 @@ function replaceLangLinks(dataObj,lang){
   // add title and url to messageList
   if (lang === "ara"){
     link = dataObj.araLink
-  } else {
+  } else if (lang === "eng"){
     link = dataObj.engLink
+  } else {
+    link = dataObj.link
   }
   messageList[dataObj.id] = link;
-  // console.log(messageList);
+  console.log(messageList);
 }
 
 // create the message and enable the whatsApp send ntm

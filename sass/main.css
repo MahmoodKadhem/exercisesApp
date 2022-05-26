@@ -354,6 +354,10 @@ body {
 .p--tags {
   font-size: 1rem;
   text-transform: capitalize;
+  background-color: rgb(231, 231, 231);
+  border-radius: 0.5rem;
+  padding: 0 0.5rem;
+  color: rgb(119, 119, 119);
 }
 
 .btn {
@@ -555,6 +559,7 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
   border-radius: 1rem;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 1rem;
+  padding: 0.5rem;
   -webkit-animation: moveInBottom cubic-bezier(0.11, -1.5, 0.56, 1.03) 0.6s;
           animation: moveInBottom cubic-bezier(0.11, -1.5, 0.56, 1.03) 0.6s;
   -webkit-animation-fill-mode: backwards;
@@ -562,8 +567,8 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
 }
 .card__checkbox {
   position: absolute;
-  top: 1rem;
-  left: 1rem;
+  top: 0.5rem;
+  left: 0.5rem;
 }
 .card__content {
   position: relative;
@@ -573,7 +578,6 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
   margin: 0.5rem;
   padding: 0.5rem;
   width: 20rem;
-  min-height: 10rem;
   background: white;
   border-radius: 1rem;
   justify-self: stretch;

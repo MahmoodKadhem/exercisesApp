@@ -653,6 +653,7 @@ function clearCanvas(){
 
 // handling populate list and data
 function populateData(e){
+  console.log(e);
   let target = e.target.closest('a');
   let targetID = target.id;
   let selectBoxData = creatingLists(targetID);
@@ -665,18 +666,31 @@ function populateData(e){
 
   // remove everything in the canvas
   clearCanvas();
-
-  // toggle the filter-box is needed
+  let arr = []
+  // toggle the filter-box is needed and get the cards
   if (selectBoxData){
     // show the filter-box and create the list
     document.querySelector('.filter-nav').classList.remove('filter-nav--hide');
     document.querySelector('#filterSelectBox').setOptions(selectBoxData);
+
+    const targetedData = Object.values(data[targetID])
+    targetedData.forEach(entry => {
+      if(entry instanceof Array){
+        // if entry is an array push them in the arr
+        entry.forEach(e => arr.push(e));
+      } else {
+        // if entry is an object flat get the values then push them in the arr
+        const objArr = Object.values(entry).flat();
+        objArr.forEach(e=> arr.push(e));
+      }
+    });
   } else {
     // hide the filter-box
     document.querySelector('.filter-nav').classList.add('filter-nav--hide');
-    // show all the available cards
-    data[targetID].forEach(entry => creatCard(entry));
+    arr = data[targetID]
   }
+  // show all the available cards
+  arr.forEach(entry => creatCard(entry));
 }
 
 // only accept numbner in the mobile imput
@@ -700,7 +714,6 @@ function replaceLangLinks(dataObj,lang){
     link = dataObj.link
   }
   messageList[dataObj.id] = link;
-  console.log(messageList);
 }
 
 // create the message and enable the whatsApp send ntm

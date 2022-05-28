@@ -1488,7 +1488,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        var width = parseInt(size[0], 10),
 	            height = parseInt(size[1], 10),
 	            background = this._brandColors[this.pick(this._brandNames())],
-	            foreground = '#FFF',
+	            foreground = 'var(--white-color)',
 	            text_height = 14,
 	            font = 'sans-serif';
 
@@ -1886,7 +1886,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        nicer: '#01FF70'
 	    },
 	    yellow: {
-	        value: '#ffff00',
+	        value: 'var(--white-color)f00',
 	        nicer: '#FFDC00'
 	    },
 	    orange: {
@@ -1911,7 +1911,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    },
 	    silver: {
 	        value: '#c0c0c0',
-	        nicer: '#DDDDDD'
+	        nicer: 'var(--l-gray-2)DDD'
 	    },
 	    gray: {
 	        value: '#808080',
@@ -1922,8 +1922,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	        nicer: '#111111'
 	    },
 	    white: {
-	        value: '#FFFFFF',
-	        nicer: '#FFFFFF'
+	        value: 'var(--white-color)',
+	        nicer: 'var(--white-color)'
 	    }
 	}
 

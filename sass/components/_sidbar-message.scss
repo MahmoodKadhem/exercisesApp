@@ -1,7 +1,7 @@
-// primary-color : #538fff;
-// primary-light: #d9e6ff;
-// primary-Dark: #183a79;
-// light gray: #E4E9F7;
+// p-color : var(--p-shiny-color);
+// primary-light: var(--p-major-color-n);
+// primary-Dark: var(--p-dark-color);
+// light gray: var(--bg-color);
 // transition: all .6s;
 
 .sidebar{
@@ -11,8 +11,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #d9e6ff;
-    background-color: rgba(217, 230, 255, 0.9);
+    background-color: var(--p-major-color-n);
+    background-color: var(--p-major-color-o);
     margin: .5vh 0;
     min-height: calc(99vh - calc(99vh - 99%));
     width: 4rem;
@@ -85,7 +85,7 @@
     //     transform: rotate(90deg);
     //     font-size: 1.6rem;
     //     z-index: 1000;
-    //     color: #183a79;
+    //     color: var(--p-dark-color);
     // }
 
     &__btn--toggle{
@@ -95,10 +95,10 @@
         transform: translateY(-50%);
         font-size: 2rem;
         border: 0;
-        color: #183a79;
-        background-color: #d9e6ff;
-        border-left: 3px solid #183a79;
-        border-right: 3px solid #183a79;
+        color: var(--p-shiny-color);
+        background-color: var(--p-major-color-n);
+        border-left: 3px solid var(--p-shiny-color);
+        border-right: 3px solid var(--p-shiny-color);
         border-radius: 10rem;
         height: 20rem;
         width: 1.5rem;
@@ -110,17 +110,21 @@
             top: 50%;
             transform: translateY(-50%);
             left: -0.5rem;
-            background-color: #d9e6ff;
+            background-color: var(--p-major-color-n);
             width: 1.9rem;
             font-size: 2.5rem;
             transition: all .4s;
         }
 
         &:hover{
-            color: #538fff;
-            border-left: 2px solid #538fff;
-            border-right: 2px solid #538fff;
-            height: 21rem;
+            color: var(--p-shiny-color);
+            border-left: 3px solid var(--p-shiny-color);
+            border-right: 3px solid var(--p-shiny-color);
+            height: 22rem;
+
+            &::after{
+            font-size: 3rem;
+            }
         }
 
         
@@ -138,8 +142,8 @@
 
     &__btn--send{
         width: 100%;
-        background-color: #183a79;
-        color: #fff;
+        background-color: var(--p-dark-color);
+        color: var(--white-color);
         font-size: 1.6rem;
         border: 0 ;
         border-radius: 2rem;
@@ -147,11 +151,11 @@
         text-transform: capitalize;
         text-align: center;
         text-decoration: none;
-        border: 1px solid #183a79;
+        border: 1px solid var(--p-dark-color);
 
         &:hover{
-        background-color: #538fff;
-        border: 1px solid #183a79;
+        background-color: var(--p-shiny-color);
+        border: 1px solid var(--p-dark-color);
         }
 
         &:active{
@@ -203,8 +207,8 @@
     &__selected{
         width: 100%;
         height: 50vh;
-        background-color: #fff;
-        border: 1px solid #cccccc;
+        background-color: var(--white-color);
+        border: 1px solid var(--l-gray-3);
         overflow-y:auto;
         margin-bottom: 1rem;
         padding: 1rem 0.5rem;
@@ -214,13 +218,13 @@
             // width: 100%;
 
             & li{
-                border: 1px solid #cccccc;
+                border: 1px solid var(--l-gray-3);
                 padding-left: 0.5rem;
                 margin-bottom: .5rem;
                 & button{
                     border: none;
-                    background-color: #fff;
-                    color: #cccccc;
+                    background-color: var(--white-color);
+                    color: var(--l-gray-3);
                     margin: 0;
                     margin-right: .5rem;
                     padding-right: .5rem;
@@ -239,8 +243,8 @@
     }
 
     &__input{
-        background-color: #fff;
-        border: 1px solid #cccccc;
+        background-color: var(--white-color);
+        border: 1px solid var(--l-gray-3);
         padding: 3px;
         width: 100%;
         margin-bottom: 1rem;

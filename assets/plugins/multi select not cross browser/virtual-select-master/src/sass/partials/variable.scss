@@ -1,10 +1,10 @@
 $primaryColor: #512da8;
-$primaryBg: #fff;
+$primaryBg: var(--white-color);
 $fontColor: #333;
 $fontColorLight: #666;
 $errorColor: #b00020;
-$borderColor: #ddd;
-$focusColor: #ccc;
+$borderColor: var(--l-gray-2);
+$focusColor: var(--l-gray-3);
 $selectedColor: #eee;
 $arrowColor: #111;
 $checkboxColor: #888;

@@ -15,7 +15,7 @@
     border: none;
     background-color: rgba(255, 255, 255, 0.5);
     font-family: inherit;
-    color: #538fff;
+    color: var(--p-shiny-color);
     border-radius: 50%;
     height: 5.5rem;
     width: 5.5rem;
@@ -68,7 +68,7 @@
 
   &__dot {
     border: none;
-    background-color: #538fff;
+    background-color: var(--p-shiny-color);
     opacity: 0.7;
     height: 1rem;
     width: 1rem;
@@ -86,8 +86,8 @@
     }
 
     &--active {
-      /* background-color: #fff; */
-      background-color: #183a79;
+      /* background-color: var(--white-color); */
+      background-color: var(--p-dark-color);
       opacity: 1;
     }
   }

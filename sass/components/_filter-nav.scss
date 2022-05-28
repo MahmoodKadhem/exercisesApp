@@ -1,16 +1,17 @@
-// primary-color : #538fff;
-// primary-light: #d9e6ff;
-// primary-Dark: #183a79;
-// light gray: #E4E9F7;
+// p-color : var(--p-shiny-color);
+// primary-light: var(--p-major-color-n);
+// primary-Dark: var(--p-dark-color);
+// light gray: var(--bg-color);
 // transition: all .6s;
 
 .filter-nav{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 50%;
     opacity: 1;
     transform: translateX(-50%);
-    background-color: #d9e6ff;
+    background-color: var(--p-major-color-n);
+    background-color: var(--p-major-color-o);
     width: 90%;
     max-width: 60rem;
     min-width: 30rem;
@@ -20,10 +21,19 @@
     padding: 1rem;
     z-index: 50;
     transition: all .4s;
+    & ~ .card-container{
+        padding: 8rem 3rem;
+    }
+
+    
 
     &--hide{
         top:-50rem;
         opacity: 0;
+
+        & ~ .card-container{
+            padding: 3rem 3rem;
+        }
     }
 
     &__container{
@@ -53,18 +63,18 @@
 
     &__btn{
         width: 10rem;
-        background-color: #183a79;
-        color: #fff;
+        background-color: var(--p-dark-color);
+        color: var(--white-color);
         font-size: 1.6rem;
         border: 0 ;
         border-radius: 2rem;
         padding: .5rem 1rem;
         text-transform: capitalize;
-        border: 1px solid #183a79;
+        border: 1px solid var(--p-dark-color);
 
         &:hover{
-        background-color: #538fff;
-        border: 1px solid #183a79;
+        background-color: var(--p-shiny-color);
+        border: 1px solid var(--p-dark-color);
         }
     }
 
@@ -81,7 +91,7 @@
 //         -webkit-box-align: center;
 //         -ms-flex-align: center;
 //             align-items: center;
-//         background-color: #fff;
+//         background-color: var(--white-color);
 //         border-radius: 2px;
 //         -webkit-box-shadow: 0 1px 3px 0 #d1d1d2, 0 0 0 1px #d1d1d2;
 //                 box-shadow: 0 1px 3px 0 #d1d1d2, 0 0 0 1px #d1d1d2;
@@ -177,7 +187,7 @@
 
 //         & ul li.multiselect__options--selected {
 //             background-color: #ff6358;
-//             color: #fff;
+//             color: var(--white-color);
 //         }
 
 //         & ul li.multiselect__options--selected:hover {
@@ -196,7 +206,7 @@
 //     &__selected {
 //         background-color: #656565;
 //         border-radius: 2px;
-//         color: #fff;
+//         color: var(--white-color);
 //         margin-bottom: 4px;
 //         margin-right: 4px;
 //         padding: 4px 8px;

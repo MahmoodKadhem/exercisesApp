@@ -96,7 +96,7 @@ Dropdown 会根据这个JSON来渲染 `select > option`
 | input|搜索框模板|HTML|`<input type="text" maxLength="20" placeholder="搜索关键词或ID">`|
 | data|数据源|Array|`[]`|
 | searchable|是否可开启搜索|Boolean|`true`|
-| searchNoData|无数据模板|HTML|`<li style="color:#ddd">查无数据，换个词儿试试 /(ㄒoㄒ)/~~</li>`|
+| searchNoData|无数据模板|HTML|`<li style="color:var(--l-gray-2)">查无数据，换个词儿试试 /(ㄒoㄒ)/~~</li>`|
 | choice|选择后回调函数|Function| `function(){}`|
 | init|插件初始化后回调函数|Function| `function(){}`|
 | extendProps|扩展自定义字段 `data-*`,字段名必须在`data`中存在，否则无效 **不建议扩展太多字段，会有性能影响**|Array| `['prop1','prop2']`|

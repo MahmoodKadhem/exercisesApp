@@ -57,7 +57,7 @@ body {
   font-weight: 900;
   // font-size: 2.5rem;
   font-size: 2.5rem;
-  color: #003aa7;
+  color: var(--p-dark-color);
   text-shadow: 0 .2rem .3rem rgba(0, 0, 0, 20%);
   line-height: 1.2;
 }
@@ -66,14 +66,14 @@ body {
   font-weight: 700;
   // font-size: 2.2rem;
   font-size: 2.2rem;
-  color: #003aa7;
+  color: var(--p-dark-color);
   // text-shadow: 0 .2rem .3rem rgb(0 0 0 / 20%);
   line-height: 1.2;
 }
 
 .h-3{
   font-family: 'Times New Roman', Times, serif;
-  
+  color: var(--p-dark-color);
 }
 
 .p {
@@ -97,10 +97,10 @@ body {
     // display: none;
     font-size: 1rem;
     text-transform: capitalize;
-    background-color: rgb(231, 231, 231);
+    background-color: var(--l-gray-1);
     border-radius: .5rem;
     padding: 0 .5rem;
-    color: rgb(119, 119, 119);
+    color: var(--d-gray-1)
   }
 
   // &-1__msg {

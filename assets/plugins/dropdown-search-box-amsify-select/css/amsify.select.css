@@ -1,7 +1,7 @@
 .amsify-selection-area
 .amsify-selection-label-default {
 	cursor: pointer;
-    border: 1px solid #cccccc;
+    border: 1px solid var(--l-gray-3);
     min-height: 20px;
     padding: 8px 5px;
 }
@@ -9,7 +9,7 @@
 .amsify-selection-area
 .amsify-selection-label-material {
 	cursor: pointer;
-    border: 1px solid #cccccc;
+    border: 1px solid var(--l-gray-3);
     min-height: 36px;
     padding: 5px 5px;
 }
@@ -34,7 +34,7 @@
 .amsify-selection-area .amsify-selection-list {
 	display: none;
 	position: absolute;
-	background: white;
+	background: var(--white-color);
 	border: 1px solid #dedede;
 	z-index: 1;
 }
@@ -95,7 +95,7 @@ li.amsify-list-item:hover {
 ul.amsify-list
 li.amsify-list-item:active {
 	background: #717171;
-    color: white;
+    color: var(--white-color);
     -moz-box-shadow:    inset 0 0 10px #000000;
     -webkit-box-shadow: inset 0 0 10px #000000;
     box-shadow:         inset 0 0 10px #000000;

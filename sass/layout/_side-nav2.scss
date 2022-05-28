@@ -1,7 +1,7 @@
-// primary-color : #538fff;
-// primary-light: #d9e6ff;
-// primary-Dark: #183a79;
-// light gray: #E4E9F7;
+// p-color : var(--p-shiny-color);
+// primary-light: var(--p-major-color-n);
+// primary-Dark: var(--p-dark-color);
+// light gray: var(--bg-color);
 // transition: all .6s;
 
 .side-nav {
@@ -10,7 +10,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: rgba(217, 230, 255, 0.9);
+  background-color: var(--p-major-color-o);
   margin: .5vh 0;
   min-height: calc(99vh - calc(99vh - 99%));
   width: 7rem;
@@ -93,8 +93,8 @@
       left: 1rem;
       width: 5rem;
       height: 5rem;
-      fill: white;
-      background-color: #538fff;
+      fill: var(--p-major-color-n);
+      background-color: var(--p-dark-color);
       border-radius: 10%;
       padding: 5px;
       
@@ -117,7 +117,7 @@
 
   &__separator{
     border: 0;
-    border-top: 4px solid #183a79;
+    border-top: 4px solid var(--p-dark-color);
     border-radius: 15rem;
     min-width: 20%;
     transition: all .4s;
@@ -147,7 +147,7 @@
     justify-content: center;
     font-size: 2rem;
     font-weight: 300;
-    color: #183a79;
+    color: var(--p-dark-color);
     text-decoration: none;
     text-transform: uppercase;
     transition: all 0.4s;
@@ -157,7 +157,7 @@
     background-image: linear-gradient(
       120deg,
       transparent 50%,
-      #538fff 50%
+      var(--p-shiny-color) 50%
     );
     background-size: 250%;
 
@@ -165,28 +165,28 @@
     &:hover,
     &:active {
       // background-position: 100%;
-      color: #538fff;
+      color: var(--p-shiny-color);
       background-position: 100%;
       transform: translateX(1rem);
       
 
       & .side-nav__link--icon,
       & .side-nav__link--title  {
-        fill: #ffffff;
-        color: #ffffff;
+        fill: var(--p-major-color-n);
+        color: var(--p-major-color-n);
       }
     }
 
     &--active {
       background-position: 100%;
       transform: translateX(1rem);
-      color: #ffffff;
+      color: var(--p-major-color-n);
 
       & .side-nav__link--icon {
-        fill: #ffffff;
+        fill: var(--p-major-color-n);
       }
       & .side-nav__link--title {
-        color: #ffffff;
+        color: var(--p-major-color-n);
       }
     }
 
@@ -196,7 +196,7 @@
       left: 1rem;
       width: 4rem;
       height: 4rem;
-      fill: #183a79;
+      fill: var(--p-dark-color);
     }
 
     &--title {

@@ -7,20 +7,27 @@
 .filter-nav{
     position: fixed;
     top: 0;
-    left: 50%;
+    left: 53.5%;
     opacity: 1;
     transform: translateX(-50%);
     background-color: var(--p-major-color-n);
     background-color: var(--p-major-color-o);
-    width: 90%;
-    max-width: 60rem;
-    min-width: 30rem;
+    // width: 60rem;
+    // max-width: 60rem;
+    min-width: 60rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 1rem;
     z-index: 50;
     transition: all .4s;
+    @include respond(tab-port) {
+        min-width: 50rem;
+      }
+    @include respond(phone) {
+        min-width: 25rem;
+      }
+
     & ~ .card-container{
         padding: 8rem 3rem;
     }
@@ -39,20 +46,20 @@
     &__container{
         width: 100%;
         display: flex;
-        flex-wrap: wrap;
+        // flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
-        gap: 1rem;
+        // gap: 1rem;
         @include respond(phone) {
-            justify-content: center;
+            // justify-content: center;
+            // flex-wrap: wrap;
           }
     }
 
     &__selectbox{
         position: relative;
         // max-width: 30rem;
-        width: 25rem;
-        
+        width: 30rem;
         flex-basis: auto;
         flex-grow: 1;
         
@@ -63,22 +70,34 @@
 
     &__btn{
         width: 10rem;
+        height: 4rem;
         background-color: var(--p-dark-color);
         color: var(--white-color);
         font-size: 1.6rem;
         border: 0 ;
         border-radius: 2rem;
-        padding: .5rem 1rem;
         text-transform: capitalize;
         border: 1px solid var(--p-dark-color);
+        @include respond(tab-port) {
+            width: 4rem;
+          }
 
         &:hover{
         background-color: var(--p-shiny-color);
         border: 1px solid var(--p-dark-color);
         }
+
+        &::before{
+            content: "Search";
+            // padding: .5rem 1rem;
+            @include respond(tab-port) {
+                content: "Go";
+              }
+        }
     }
 
     &__radio{
+        display: none;
         & .switch-btn__labels{
             width: 7rem;
         }

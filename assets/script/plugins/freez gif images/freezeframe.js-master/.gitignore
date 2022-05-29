@@ -1,7 +1,0 @@
-.DS_Store
-.archived
-node_modules
-build
-coverage
-.coveralls.yml
-lerna-debug.log

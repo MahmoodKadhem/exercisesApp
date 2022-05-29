@@ -35,7 +35,7 @@ const exercisesGif = {
          {
             "id": "GfFc001",
             "title":"Angry",
-            "tumbUrl":["./docs/Gifs/01-Face/Big/Angry.gif"],
+            "tumbUrl":["./docs/Gifs/01-Face/Thumbnail/Angry.gif"],
             "bigImgs":["./docs/Gifs/01-Face/Big/Angry.gif"],
             "tags":[ "facial palsy", "Bell's Palsy", "Face Exe"],
             "link":"https://www.dropbox.com/s/ccx42s4k4n7b9u2/Angry.gif?raw=1",
@@ -43,7 +43,7 @@ const exercisesGif = {
          {
             "id": "GfFc002",
             "title":"Close eyes",
-            "tumbUrl":["./docs/Gifs/01-Face/Thumnails/Close_eyes.gif"],
+            "tumbUrl":["./docs/Gifs/01-Face/Thumbnail/Close_eyes.gif"],
             "bigImgs":["./docs/Gifs/01-Face/Big/Close_eyes.gif"],
             "tags":[ "facial palsy", "Bell's Palsy", "Face Exe"],
             "link":"https://www.dropbox.com/s/l4cytgul9yo18ji/Close_eyes.gif?raw=1",
@@ -51,7 +51,7 @@ const exercisesGif = {
          {
             "id": "GfFc003",
             "title":"Full mouth",
-            "tumbUrl":["./docs/Gifs/01-Face/Thumnails/Full_mouth.gif"],
+            "tumbUrl":["./docs/Gifs/01-Face/Thumbnail/Full_mouth.gif"],
             "bigImgs":["./docs/Gifs/01-Face/Big/Full_mouth.gif"],
             "tags":[ "facial palsy", "Bell's Palsy", "Face Exe"],
             "link":"https://www.dropbox.com/s/bk68sggjewoeayf/Full_mouth.gif?raw=1",
@@ -59,7 +59,7 @@ const exercisesGif = {
          {
             "id": "GfFc004",
             "title":"Neck Contraction",
-            "tumbUrl":["./docs/Gifs/01-Face/Thumnails/Neck_Contraction.gif"],
+            "tumbUrl":["./docs/Gifs/01-Face/Thumbnail/Neck_Contraction.gif"],
             "bigImgs":["./docs/Gifs/01-Face/Big/Neck_Contraction.gif"],
             "tags":[ "facial palsy", "Bell's Palsy", "Face Exe"],
             "link":"https://www.dropbox.com/s/plrlfh88a27lo1f/Neck_Contraction.gif?raw=1",
@@ -67,7 +67,7 @@ const exercisesGif = {
          {
             "id": "GfFc005",
             "title":"Pout",
-            "tumbUrl":["./docs/Gifs/01-Face/Thumnails/Pout.gif"],
+            "tumbUrl":["./docs/Gifs/01-Face/Thumbnail/Pout.gif"],
             "bigImgs":["./docs/Gifs/01-Face/Big/Pout.gif"],
             "tags":[ "facial palsy", "Bell's Palsy", "Face Exe"],
             "link":"https://www.dropbox.com/s/tdlfnbatz203t4w/Pout.gif?raw=1",
@@ -75,7 +75,7 @@ const exercisesGif = {
          {
             "id": "GfFc006",
             "title":"Raise eyebrows",
-            "tumbUrl":["./docs/Gifs/01-Face/Thumnails/Raise_eyebrows.gif"],
+            "tumbUrl":["./docs/Gifs/01-Face/Thumbnail/Raise_eyebrows.gif"],
             "bigImgs":["./docs/Gifs/01-Face/Big/Raise_eyebrows.gif"],
             "tags":[ "facial palsy", "Bell's Palsy", "Face Exe"],
             "link":"https://www.dropbox.com/s/hphfaxfn8kasrsy/Raise_eyebrows.gif?raw=1",
@@ -83,7 +83,7 @@ const exercisesGif = {
          {
             "id": "GfFc007",
             "title":"Sad",
-            "tumbUrl":["./docs/Gifs/01-Face/Thumnails/Sad.gif"],
+            "tumbUrl":["./docs/Gifs/01-Face/Thumbnail/Sad.gif"],
             "bigImgs":["./docs/Gifs/01-Face/Big/Sad.gif"],
             "tags":[ "facial palsy", "Bell's Palsy", "Face Exe"],
             "link":"https://www.dropbox.com/s/76qb0wcr56lzwuo/Sad.gif?raw=1",
@@ -91,7 +91,7 @@ const exercisesGif = {
          {
             "id": "GfFc008",
             "title":"Smile",
-            "tumbUrl":["./docs/Gifs/01-Face/Thumnails/Smile.gif"],
+            "tumbUrl":["./docs/Gifs/01-Face/Thumbnail/Smile.gif"],
             "bigImgs":["./docs/Gifs/01-Face/Big/Smile.gif"],
             "tags":[ "facial palsy", "Bell's Palsy", "Face Exe"],
             "link":"https://www.dropbox.com/s/xnrkk6ymxw70zwg/Smile.gif?raw=1",
@@ -99,7 +99,7 @@ const exercisesGif = {
          {
             "id": "GfFc009",
             "title":"Teethy smile",
-            "tumbUrl":["./docs/Gifs/01-Face/Thumnails/Teethy_smile.gif"],
+            "tumbUrl":["./docs/Gifs/01-Face/Thumbnail/Teethy_smile.gif"],
             "bigImgs":["./docs/Gifs/01-Face/Big/Teethy_smile.gif"],
             "tags":[ "facial palsy", "Bell's Palsy", "Face Exe"],
             "link":"https://www.dropbox.com/s/9bitnupp944gzal/Teethy_smile.gif?raw=1",
@@ -107,7 +107,7 @@ const exercisesGif = {
          {
             "id": "GfFc010",
             "title":"Whistle",
-            "tumbUrl":["./docs/Gifs/01-Face/Thumnails/Whistle.gif"],
+            "tumbUrl":["./docs/Gifs/01-Face/Thumbnail/Whistle.gif"],
             "bigImgs":["./docs/Gifs/01-Face/Big/Whistle.gif"],
             "tags":[ "facial palsy", "Bell's Palsy", "Face Exe"],
             "link":"https://www.dropbox.com/s/fm36n9j4zj17va4/Whistle.gif?raw=1",
@@ -115,7 +115,7 @@ const exercisesGif = {
          {
             "id": "GfFc011",
             "title":"Wink",
-            "tumbUrl":["./docs/Gifs/01-Face/Thumnails/Wink.gif"],
+            "tumbUrl":["./docs/Gifs/01-Face/Thumbnail/Wink.gif"],
             "bigImgs":["./docs/Gifs/01-Face/Big/Wink.gif"],
             "tags":[ "facial palsy", "Bell's Palsy", "Face Exe"],
             "link":"https://www.dropbox.com/s/nceaco21aovq41z/Wink.gif?raw=1",
@@ -128,7 +128,7 @@ const exercisesGif = {
          {
             "id": "GfNkAr001",
             "title":"Neck AROM Extension",
-            "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumnails/Neck_AROM_Extension.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Neck_AROM_Extension.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/AROM/Big/Neck_AROM_Extension.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
             "link":"https://www.dropbox.com/s/ifnwy1phuhvfpxl/Neck_AROM_Extension.gif?raw=1",
@@ -136,7 +136,7 @@ const exercisesGif = {
          {
             "id": "GfNkAr002",
             "title":"Neck AROM FlexExt",
-            "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumnails/Neck_AROM_FlexExt.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Neck_AROM_FlexExt.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/AROM/Big/Neck_AROM_FlexExt.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
             "link":"https://www.dropbox.com/s/38dc45f8ewwl31y/Neck_AROM_FlexExt.gif?raw=1",
@@ -144,7 +144,7 @@ const exercisesGif = {
          {
             "id": "GfNkAr003",
             "title":"Neck AROM Flexion",
-            "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumnails/Neck_AROM_Flexion.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Neck_AROM_Flexion.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/AROM/Big/Neck_AROM_Flexion.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
             "link":"https://www.dropbox.com/s/utezlzvh5objo3u/Neck_AROM_Flexion.gif?raw=1",
@@ -152,7 +152,7 @@ const exercisesGif = {
          {
             "id": "GfNkAr004",
             "title":"Neck AROM Roations",
-            "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumnails/Neck_AROM_Roations.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Neck_AROM_Roations.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/AROM/Big/Neck_AROM_Roations.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
             "link":"https://www.dropbox.com/s/i84uubqszsl5mlx/Neck_AROM_Roations.gif?raw=1",
@@ -160,7 +160,7 @@ const exercisesGif = {
          {
             "id": "GfNkAr005",
             "title":"Neck AROM Sidebending",
-            "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumnails/Neck_AROM_Sidebending.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Neck_AROM_Sidebending.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/AROM/Big/Neck_AROM_Sidebending.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
             "link":"https://www.dropbox.com/s/sj326nps5ym72jd/Neck_AROM_Sidebending_in_Sidelying.gif?raw=1",
@@ -168,7 +168,7 @@ const exercisesGif = {
          {
             "id": "GfNkAr006",
             "title":"Neck AROM Sidebending in Sidelying",
-            "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumnails/Neck_AROM_Sidebending_in_Sidelying.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Neck_AROM_Sidebending_in_Sidelying.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/AROM/Big/Neck_AROM_Sidebending_in_Sidelying.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
             "link":"https://www.dropbox.com/s/sx7g8g57yhjjko0/Neck_AROM_Sidebending.gif?raw=1",
@@ -176,7 +176,7 @@ const exercisesGif = {
          {
             "id": "GfNkAr007",
             "title":"Neckv Chinv Tuckv In",
-            "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumnails/Neck_Chin_Tuck_In.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Neck_Chin_Tuck_In.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/AROM/Big/Neck_Chin_Tuck_In.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
             "link":"https://www.dropbox.com/s/9hfd7k81yojz7du/Neck_Chin_Tuck_In.gif?raw=1",
@@ -184,7 +184,7 @@ const exercisesGif = {
          {
             "id": "GfNkAr008",
             "title":"Shoulder Shrugs",
-            "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumnails/Shoulder_Shrugs.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Shoulder_Shrugs.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/AROM/Big/Shoulder_Shrugs.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
             "link":"https://www.dropbox.com/s/z4ra72l5llu58s3/Shoulder_Shrugs.gif?raw=1",
@@ -195,7 +195,7 @@ const exercisesGif = {
          {
             "id": "GfNkIs001",
             "title":"testTitle",
-            "tumbUrl":["./docs/Gifs/02-Neck/Isometrics/Thumnails/Inst_Neck_Iso_Extension.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/Isometrics/Thumbnail/Inst_Neck_Iso_Extension.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Isometrics/Big/Inst_Neck_Iso_Extension.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
             "link":"https://www.dropbox.com/s/cn46g31u57d2mg5/Inst_Neck_Iso_Extension.gif?raw=1",
@@ -203,7 +203,7 @@ const exercisesGif = {
          {
             "id": "GfNkIs002",
             "title":"testTitle",
-            "tumbUrl":["./docs/Gifs/02-Neck/Isometrics/Thumnails/Inst_Neck_Iso_Flexion.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/Isometrics/Thumbnail/Inst_Neck_Iso_Flexion.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Isometrics/Big/Inst_Neck_Iso_Flexion.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
             "link":"https://www.dropbox.com/s/xq91x37ndvqzz15/Inst_Neck_Iso_Flexion.gif?raw=1",
@@ -211,7 +211,7 @@ const exercisesGif = {
          {
             "id": "GfNkIs003",
             "title":"testTitle",
-            "tumbUrl":["./docs/Gifs/02-Neck/Isometrics/Thumnails/Inst_Neck_Iso_Rotation.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/Isometrics/Thumbnail/Inst_Neck_Iso_Rotation.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Isometrics/Big/Inst_Neck_Iso_Rotation.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
             "link":"https://www.dropbox.com/s/abii2yfindu15ha/Inst_Neck_Iso_Rotation.gif?raw=1",
@@ -219,7 +219,7 @@ const exercisesGif = {
          {
             "id": "GfNkIs004",
             "title":"testTitle",
-            "tumbUrl":["./docs/Gifs/02-Neck/Isometrics/Thumnails/Inst_Neck_Iso_Sidebending.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/Isometrics/Thumbnail/Inst_Neck_Iso_Sidebending.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Isometrics/Big/Inst_Neck_Iso_Sidebending.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
             "link":"https://www.dropbox.com/s/asm3zdx5vfdnhdh/Inst_Neck_Iso_Sidebending.gif?raw=1",
@@ -230,7 +230,7 @@ const exercisesGif = {
          {
             "id": "GfNkOt001",
             "title":"Inst Neck Mulligan Extension",
-            "tumbUrl":["./docs/Gifs/02-Neck/Others/Thumnails/Inst_Neck_Mulligan_Extension.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/Others/Thumbnail/Inst_Neck_Mulligan_Extension.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Others/Big/Inst_Neck_Mulligan_Extension.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Mulligan"],
             "link":"https://www.dropbox.com/s/yhauqp1kd9zwhhn/Inst_Neck_Mulligan_Extension.gif?raw=1",
@@ -238,7 +238,7 @@ const exercisesGif = {
          {
             "id": "GfNkOt002",
             "title":"Inst Neck Mulligan Rotation",
-            "tumbUrl":["./docs/Gifs/02-Neck/Others/Thumnails/Inst_Neck_Mulligan_Rotation.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/Others/Thumbnail/Inst_Neck_Mulligan_Rotation.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Others/Big/Inst_Neck_Mulligan_Rotation.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Mulligan"],
             "link":"https://www.dropbox.com/s/n7qnjt410iur2a9/Inst_Neck_Mulligan_Rotation.gif?raw=1",
@@ -246,7 +246,7 @@ const exercisesGif = {
          {
             "id": "GfNkOt003",
             "title":"Inst Neck Soft Tissue Release",
-            "tumbUrl":["./docs/Gifs/02-Neck/Others/Thumnails/Inst_Neck_Soft_Tissue_Release.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/Others/Thumbnail/Inst_Neck_Soft_Tissue_Release.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Others/Big/Inst_Neck_Soft_Tissue_Release.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Soft Tissue Release"],
             "link":"https://www.dropbox.com/s/hsas6j29udte1at/Inst_Neck_Soft_Tissue_Release.gif?raw=1",
@@ -257,7 +257,7 @@ const exercisesGif = {
          {
             "id": "GfNkSr001",
             "title":"Inst Neck Side Bending Sidelying",
-            "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumnails/Inst_Neck_Side_Bending_Sidelying.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Inst_Neck_Side_Bending_Sidelying.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Strengthening/Big/Inst_Neck_Side_Bending_Sidelying.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Strenthening"],
             "link":"https://www.dropbox.com/s/y4afwj16b8ae4xg/Inst_Neck_Side_Bending_Sidelying.gif?raw=1",
@@ -265,7 +265,7 @@ const exercisesGif = {
          {
             "id": "GfNkSr002",
             "title":"Inst Neck Tuck In",
-            "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumnails/Inst_Neck_Tuck_In.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Inst_Neck_Tuck_In.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Strengthening/Big/Inst_Neck_Tuck_In.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Strenthening"],
             "link":"https://www.dropbox.com/s/cixbrb7oko9tfzl/Inst_Neck_Tuck_In_Flexion_Quadruped.gif?raw=1",
@@ -273,7 +273,7 @@ const exercisesGif = {
          {
             "id": "GfNkSr003",
             "title":"Inst Neck Tuck In Flexion",
-            "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumnails/Inst_Neck_Tuck_In_Flexion.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Inst_Neck_Tuck_In_Flexion.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Strengthening/Big/Inst_Neck_Tuck_In_Flexion.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Strenthening"],
             "link":"https://www.dropbox.com/s/ligszlh8oew3i7w/Inst_Neck_Tuck_In_Flexion.gif?raw=1",
@@ -281,7 +281,7 @@ const exercisesGif = {
          {
             "id": "GfNkSr004",
             "title":"Inst Neck Tuck In Flexion Quadruped",
-            "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumnails/Inst_Neck_Tuck_In_Flexion_Quadruped.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Inst_Neck_Tuck_In_Flexion_Quadruped.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Strengthening/Big/Inst_Neck_Tuck_In_Flexion_Quadruped.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Strenthening"],
             "link":"https://www.dropbox.com/s/poy801gehgh7k8z/Inst_Neck_Tuck_In_Plank.gif?raw=1",
@@ -289,7 +289,7 @@ const exercisesGif = {
          {
             "id": "GfNkSr005",
             "title":"Inst Neck Tuck In Plank",
-            "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumnails/Inst_Neck_Tuck_In_Plank.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Inst_Neck_Tuck_In_Plank.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Strengthening/Big/Inst_Neck_Tuck_In_Plank.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Strenthening"],
             "link":"https://www.dropbox.com/s/2fmave1uim5sdey/Inst_Neck_Tuck_In_Quadruped.gif?raw=1",
@@ -297,7 +297,7 @@ const exercisesGif = {
          {
             "id": "GfNkSr006",
             "title":"Inst Neck Tuck In Quadruped",
-            "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumnails/Inst_Neck_Tuck_In_Quadruped.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Inst_Neck_Tuck_In_Quadruped.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Strengthening/Big/Inst_Neck_Tuck_In_Quadruped.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Strenthening"],
             "link":"https://www.dropbox.com/s/qolu0o92w5jg4hu/Inst_Neck_Tuck_In_Supine.gif?raw=1",
@@ -305,7 +305,7 @@ const exercisesGif = {
          {
             "id": "GfNkSr007",
             "title":"Inst Neck Tuck In Supine",
-            "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumnails/Inst_Neck_Tuck_In_Supine.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Inst_Neck_Tuck_In_Supine.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Strengthening/Big/Inst_Neck_Tuck_In_Supine.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Strenthening"],
             "link":"https://www.dropbox.com/s/fg3j3taodwaoz5g/Inst_Neck_Tuck_In.gif?raw=1",
@@ -313,7 +313,7 @@ const exercisesGif = {
          {
             "id": "GfNkSr008",
             "title":"Neck Tuck In Extension",
-            "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumnails/Neck_Tuck_In_Extension.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Neck_Tuck_In_Extension.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Strengthening/Big/Neck_Tuck_In_Extension.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Strenthening"],
             "link":"https://www.dropbox.com/s/eerldxp14u1dbej/Neck_Tuck_In_Extension.gif?raw=1",
@@ -324,7 +324,7 @@ const exercisesGif = {
          {
             "id": "GfNkSh001",
             "title":"Inst Neck Chest Opener",
-            "tumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumnails/Inst_Neck_Chest_Opener.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumbnail/Inst_Neck_Chest_Opener.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Stretchings/Big/Inst_Neck_Chest_Opener.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Stretchings"],
             "link":"https://www.dropbox.com/s/qdw76j6ddayhnx1/Inst_Neck_Chest_Opener.gif?raw=1",
@@ -332,7 +332,7 @@ const exercisesGif = {
          {
             "id": "GfNkSh002",
             "title":"Inst Neck Extensors Stretch1",
-            "tumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumnails/Inst_Neck_Extensors_Stretch1.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumbnail/Inst_Neck_Extensors_Stretch1.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Stretchings/Big/Inst_Neck_Extensors_Stretch1.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Stretchings"],
             "link":"https://www.dropbox.com/s/4sw5ux3mze15gtg/Inst_Neck_Extensors_Stretch1.gif?raw=1",
@@ -340,7 +340,7 @@ const exercisesGif = {
          {
             "id": "GfNkSh003",
             "title":"Inst Neck Forced Fist Flexion",
-            "tumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumnails/Inst_Neck_Forced_Fist_Flexion.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumbnail/Inst_Neck_Forced_Fist_Flexion.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Stretchings/Big/Inst_Neck_Forced_Fist_Flexion.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Stretchings"],
             "link":"https://www.dropbox.com/s/a33wjtqcru09v8a/Inst_Neck_Forced_Fist_Flexion.gif?raw=1",
@@ -348,7 +348,7 @@ const exercisesGif = {
          {
             "id": "GfNkSh004",
             "title":"Inst Neck SCM Stretch",
-            "tumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumnails/Inst_Neck_SCM_Stretch.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumbnail/Inst_Neck_SCM_Stretch.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Stretchings/Big/Inst_Neck_SCM_Stretch.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Stretchings"],
             "link":"https://www.dropbox.com/s/9oop2e7nyrd8ja6/Inst_Neck_SCM_Stretch.gif?raw=1",
@@ -356,7 +356,7 @@ const exercisesGif = {
          {
             "id": "GfNkSh005",
             "title":"Inst Neck SCM Stretch1",
-            "tumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumnails/Inst_Neck_SCM_Stretch1.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumbnail/Inst_Neck_SCM_Stretch1.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Stretchings/Big/Inst_Neck_SCM_Stretch1.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Stretchings"],
             "link":"https://www.dropbox.com/s/vc7gp3b76m3lgu5/Inst_Neck_SCM_Stretch1.gif?raw=1",
@@ -364,7 +364,7 @@ const exercisesGif = {
          {
             "id": "GfNkSh006",
             "title":"Inst Neck SCM Stretch2",
-            "tumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumnails/Inst_Neck_SCM_Stretch2.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumbnail/Inst_Neck_SCM_Stretch2.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Stretchings/Big/Inst_Neck_SCM_Stretch2.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Stretchings"],
             "link":"https://www.dropbox.com/s/lon28r6xzh9gdx3/Inst_Neck_SCM_Stretch2.gif?raw=1",
@@ -372,7 +372,7 @@ const exercisesGif = {
          {
             "id": "GfNkSh007",
             "title":"Inst Neck Upper Trap",
-            "tumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumnails/Inst_Neck_Upper_Trap.gif"],
+            "tumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumbnail/Inst_Neck_Upper_Trap.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Stretchings/Big/Inst_Neck_Upper_Trap.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Stretchings"],
             "link":"https://www.dropbox.com/s/2uuc5xn2zrn4jjm/Inst_Neck_Upper_Trap.gif?raw=1",
@@ -385,7 +385,7 @@ const exercisesGif = {
          {
             "id": "GfShAA001",
             "title":"Sholder Stick Flexion",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumnails/Sholder_Stick_Flexion.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Sholder_Stick_Flexion.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Sholder_Stick_Flexion.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -402,7 +402,7 @@ const exercisesGif = {
          {
             "id": "GfShAA002",
             "title":"Shoulder AAROM Circumduction Anti Clockwise",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumnails/Shoulder_AAROM_Circumduction_Anti_Clockwise.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_AAROM_Circumduction_Anti_Clockwise.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Shoulder_AAROM_Circumduction_Anti_Clockwise.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -419,7 +419,7 @@ const exercisesGif = {
          {
             "id": "GfShAA003",
             "title":"Shoulder AAROM Circumduction Clockwise",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumnails/Shoulder_AAROM_Circumduction_Clockwise.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_AAROM_Circumduction_Clockwise.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Shoulder_AAROM_Circumduction_Clockwise.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -436,7 +436,7 @@ const exercisesGif = {
          {
             "id": "GfShAA004",
             "title":"Shoulder AAROM Flexion",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumnails/Shoulder_AAROM_Flexion.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_AAROM_Flexion.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Shoulder_AAROM_Flexion.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -453,7 +453,7 @@ const exercisesGif = {
          {
             "id": "GfShAA005",
             "title":"Shoulder AAROM flexion in standing",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumnails/Shoulder_AAROM_flexion_in_standing.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_AAROM_flexion_in_standing.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Shoulder_AAROM_flexion_in_standing.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -470,7 +470,7 @@ const exercisesGif = {
          {
             "id": "GfShAA006",
             "title":"Shoulder AAROM flexion in supine",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumnails/Shoulder_AAROM_flexion_in_supine.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_AAROM_flexion_in_supine.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Shoulder_AAROM_flexion_in_supine.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -487,7 +487,7 @@ const exercisesGif = {
          {
             "id": "GfShAA007",
             "title":"Shoulder AAROM Forward Flexion",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumnails/Shoulder_AAROM_Forward_Flexion.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_AAROM_Forward_Flexion.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Shoulder_AAROM_Forward_Flexion.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -504,7 +504,7 @@ const exercisesGif = {
          {
             "id": "GfShAA008",
             "title":"Shoulder Forward Backward",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumnails/Shoulder_Forward_Backward.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_Forward_Backward.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Shoulder_Forward_Backward.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -521,7 +521,7 @@ const exercisesGif = {
          {
             "id": "GfShAA009",
             "title":"Shoulder Pendulum Anti clockwise",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumnails/Shoulder_Pendulum_Anti_clockwise.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_Pendulum_Anti_clockwise.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Shoulder_Pendulum_Anti_clockwise.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -538,7 +538,7 @@ const exercisesGif = {
          {
             "id": "GfShAA010",
             "title":"Shoulder Pendulum Clockwise",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumnails/Shoulder_Pendulum_Clockwise.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_Pendulum_Clockwise.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Shoulder_Pendulum_Clockwise.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -555,7 +555,7 @@ const exercisesGif = {
          {
             "id": "GfShAA011",
             "title":"Shoulder Sideways",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumnails/Shoulder_Sideways.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_Sideways.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Shoulder_Sideways.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -572,7 +572,7 @@ const exercisesGif = {
          {
             "id": "GfShAA012",
             "title":"Shoulder Stick Abduction",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumnails/Shoulder_Stick_Abduction.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_Stick_Abduction.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Shoulder_Stick_Abduction.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -589,7 +589,7 @@ const exercisesGif = {
          {
             "id": "GfShAA013",
             "title":"Shoulder Stick Extension",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumnails/Shoulder_Stick_Extension.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_Stick_Extension.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Shoulder_Stick_Extension.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -606,7 +606,7 @@ const exercisesGif = {
          {
             "id": "GfShAA014",
             "title":"Shoulder Stick IR&ER",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumnails/Shoulder_Stick_IR&ER.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_Stick_IR&ER.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Shoulder_Stick_IR&ER.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -626,7 +626,7 @@ const exercisesGif = {
          {
             "id": "GfShAr001",
             "title":"Shoulder Abduction",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AROM/Thumnails/Shoulder_Abduction.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/AROM/Thumbnail/Shoulder_Abduction.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/AROM/Big/Shoulder_Abduction.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -643,7 +643,7 @@ const exercisesGif = {
          {
             "id": "GfShAr002",
             "title":"Shoulder ER",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AROM/Thumnails/Shoulder_ER.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/AROM/Thumbnail/Shoulder_ER.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/AROM/Big/Shoulder_ER.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -660,7 +660,7 @@ const exercisesGif = {
          {
             "id": "GfShAr003",
             "title":"Shoulder Extension",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AROM/Thumnails/Shoulder_Extension.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/AROM/Thumbnail/Shoulder_Extension.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/AROM/Big/Shoulder_Extension.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -677,7 +677,7 @@ const exercisesGif = {
          {
             "id": "GfShAr004",
             "title":"Shoulder Flexion",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AROM/Thumnails/Shoulder_Flexion.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/AROM/Thumbnail/Shoulder_Flexion.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/AROM/Big/Shoulder_Flexion.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -694,7 +694,7 @@ const exercisesGif = {
          {
             "id": "GfShAr005",
             "title":"Shoulder Rolls Backward",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AROM/Thumnails/Shoulder_Rolls_Backward.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/AROM/Thumbnail/Shoulder_Rolls_Backward.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/AROM/Big/Shoulder_Rolls_Backward.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -711,7 +711,7 @@ const exercisesGif = {
          {
             "id": "GfShAr006",
             "title":"Shoulder Rolls Forward",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AROM/Thumnails/Shoulder_Rolls_Forward.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/AROM/Thumbnail/Shoulder_Rolls_Forward.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/AROM/Big/Shoulder_Rolls_Forward.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -731,7 +731,7 @@ const exercisesGif = {
          {
             "id": "GfShIs001",
             "title":"Shoulder Iso Abduction",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Isometrics/Thumnails/Shoulder_Iso_Abduction.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Isometrics/Thumbnail/Shoulder_Iso_Abduction.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Isometrics/Big/Shoulder_Iso_Abduction.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -746,7 +746,7 @@ const exercisesGif = {
          {
             "id": "GfShIs002",
             "title":"Shoulder Iso Adduction",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Isometrics/Thumnails/Shoulder_Iso_Adduction.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Isometrics/Thumbnail/Shoulder_Iso_Adduction.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Isometrics/Big/Shoulder_Iso_Adduction.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -761,7 +761,7 @@ const exercisesGif = {
          {
             "id": "GfShIs003",
             "title":"Shoulder Iso ER",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Isometrics/Thumnails/Shoulder_Iso_ER.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Isometrics/Thumbnail/Shoulder_Iso_ER.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Isometrics/Big/Shoulder_Iso_ER.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -776,7 +776,7 @@ const exercisesGif = {
          {
             "id": "GfShIs004",
             "title":"Shoulder Iso Extension",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Isometrics/Thumnails/Shoulder_Iso_Extension.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Isometrics/Thumbnail/Shoulder_Iso_Extension.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Isometrics/Big/Shoulder_Iso_Extension.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -791,7 +791,7 @@ const exercisesGif = {
          {
             "id": "GfShIs005",
             "title":"Shoulder Iso Flexion",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Isometrics/Thumnails/Shoulder_Iso_Flexion.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Isometrics/Thumbnail/Shoulder_Iso_Flexion.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Isometrics/Big/Shoulder_Iso_Flexion.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -809,7 +809,7 @@ const exercisesGif = {
          {
             "id": "GfShSb001",
             "title":"Mini Band Clocks",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumnails/Mini_Band_Clocks.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Mini_Band_Clocks.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stability/Big/Mini_Band_Clocks.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -824,7 +824,7 @@ const exercisesGif = {
          {
             "id": "GfShSb002",
             "title":"Mini Band Crawls",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumnails/Mini_Band_Crawls.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Mini_Band_Crawls.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stability/Big/Mini_Band_Crawls.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -839,7 +839,7 @@ const exercisesGif = {
          {
             "id": "GfShSb003",
             "title":"Scapular Retraction",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumnails/Scapular_Retraction.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Scapular_Retraction.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stability/Big/Scapular_Retraction.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -854,7 +854,7 @@ const exercisesGif = {
          {
             "id": "GfShSb004",
             "title":"Stability 1",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumnails/Stability_1.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_1.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stability/Big/Stability_1.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -869,7 +869,7 @@ const exercisesGif = {
          {
             "id": "GfShSb005",
             "title":"Stability 2",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumnails/Stability_2.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_2.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stability/Big/Stability_2.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -884,7 +884,7 @@ const exercisesGif = {
          {
             "id": "GfShSb006",
             "title":"Stability 3",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumnails/Stability_3.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_3.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stability/Big/Stability_3.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -899,7 +899,7 @@ const exercisesGif = {
          {
             "id": "GfShSb007",
             "title":"Stability 4",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumnails/Stability_4.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_4.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stability/Big/Stability_4.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -914,7 +914,7 @@ const exercisesGif = {
          {
             "id": "GfShSb008",
             "title":"Stability Circular motion",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumnails/Stability_Circular_motion.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_Circular_motion.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stability/Big/Stability_Circular_motion.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -929,7 +929,7 @@ const exercisesGif = {
          {
             "id": "GfShSb009",
             "title":"Stability Unilateral Circular Motion",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumnails/Stability_Unilateral_Circular_Motion.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_Unilateral_Circular_Motion.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stability/Big/Stability_Unilateral_Circular_Motion.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -944,7 +944,7 @@ const exercisesGif = {
          {
             "id": "GfShSb010",
             "title":"Stability Up&Down",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumnails/Stability_Up&Down.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_Up&Down.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stability/Big/Stability_Up&Down.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -959,7 +959,7 @@ const exercisesGif = {
          {
             "id": "GfShSb011",
             "title":"Stability with Swiss Ball Plank",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumnails/Stability_with_Swiss_Ball_Plank.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_with_Swiss_Ball_Plank.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stability/Big/Stability_with_Swiss_Ball_Plank.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -974,7 +974,7 @@ const exercisesGif = {
          {
             "id": "GfShSb012",
             "title":"Stability with Swiss Ball Plus Movement",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumnails/Stability_with_Swiss_Ball_Plus_Movement.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_with_Swiss_Ball_Plus_Movement.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stability/Big/Stability_with_Swiss_Ball_Plus_Movement.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -989,7 +989,7 @@ const exercisesGif = {
          {
             "id": "GfShSb013",
             "title":"Wall Slide and Y Lift",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumnails/Wall_Slide_and_Y_Lift.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Wall_Slide_and_Y_Lift.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stability/Big/Wall_Slide_and_Y_Lift.gif"],
             "tags":[ "shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -1007,7 +1007,7 @@ const exercisesGif = {
          {
             "id": "GfShSr001",
             "title":"Shoulder Stren Abduction",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumnails/Shoulder_Stren_Abduction.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Abduction.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_Abduction.gif"],
             "tags":["shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -1022,7 +1022,7 @@ const exercisesGif = {
          {
             "id": "GfShSr002",
             "title":"Shoulder Stren Bil ER",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumnails/Shoulder_Stren_Bil_ER.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Bil_ER.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_Bil_ER.gif"],
             "tags":["shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -1037,7 +1037,7 @@ const exercisesGif = {
          {
             "id": "GfShSr003",
             "title":"Shoulder Stren Bil Extension",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumnails/Shoulder_Stren_Bil_Extension.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Bil_Extension.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_Bil_Extension.gif"],
             "tags":["shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -1052,7 +1052,7 @@ const exercisesGif = {
          {
             "id": "GfShSr004",
             "title":"Shoulder Stren Bil Flexion",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumnails/Shoulder_Stren_Bil_Flexion.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Bil_Flexion.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_Bil_Flexion.gif"],
             "tags":["shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -1067,7 +1067,7 @@ const exercisesGif = {
          {
             "id": "GfShSr005",
             "title":"Shoulder Stren ER",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumnails/Shoulder_Stren_ER.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_ER.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_ER.gif"],
             "tags":["shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -1082,7 +1082,7 @@ const exercisesGif = {
          {
             "id": "GfShSr006",
             "title":"Shoulder Stren ER in Sidelying",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumnails/Shoulder_Stren_ER_in_Sidelying.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_ER_in_Sidelying.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_ER_in_Sidelying.gif"],
             "tags":["shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -1097,7 +1097,7 @@ const exercisesGif = {
          {
             "id": "GfShSr007",
             "title":"Shoulder Stren Extension w Extended Elbow",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumnails/Shoulder_Stren_Extension_w_Extended_Elbow.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Extension_w_Extended_Elbow.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_Extension_w_Extended_Elbow.gif"],
             "tags":["shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -1112,7 +1112,7 @@ const exercisesGif = {
          {
             "id": "GfShSr008",
             "title":"Shoulder Stren Extension w Flexed Elbow",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumnails/Shoulder_Stren_Extension_w_Flexed_Elbow.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Extension_w_Flexed_Elbow.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_Extension_w_Flexed_Elbow.gif"],
             "tags":["shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -1127,7 +1127,7 @@ const exercisesGif = {
          {
             "id": "GfShSr009",
             "title":"Shoulder Stren Extension with Dumble",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumnails/Shoulder_Stren_Extension_with_Dumble.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Extension_with_Dumble.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_Extension_with_Dumble.gif"],
             "tags":["shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -1142,7 +1142,7 @@ const exercisesGif = {
          {
             "id": "GfShSr010",
             "title":"Shoulder Stren Flexion",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumnails/Shoulder_Stren_Flexion.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Flexion.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_Flexion.gif"],
             "tags":["shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -1157,7 +1157,7 @@ const exercisesGif = {
          {
             "id": "GfShSr011",
             "title":"Shoulder Stren Flexion w Flexed Elbow",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumnails/Shoulder_Stren_Flexion_w_Flexed_Elbow.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Flexion_w_Flexed_Elbow.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_Flexion_w_Flexed_Elbow.gif"],
             "tags":["shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -1172,7 +1172,7 @@ const exercisesGif = {
          {
             "id": "GfShSr012",
             "title":"Shoulder Stren IR",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumnails/Shoulder_Stren_IR.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_IR.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_IR.gif"],
             "tags":["shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -1187,7 +1187,7 @@ const exercisesGif = {
          {
             "id": "GfShSr013",
             "title":"Shoulder Stren Oblique movement",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumnails/Shoulder_Stren_Oblique_movement.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Oblique_movement.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_Oblique_movement.gif"],
             "tags":["shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -1202,7 +1202,7 @@ const exercisesGif = {
          {
             "id": "GfShSr014",
             "title":"Shoulder Stren Wall Pushup 1",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumnails/Shoulder_Stren_Wall_Pushup_1.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Wall_Pushup_1.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_Wall_Pushup_1.gif"],
             "tags":["shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -1217,7 +1217,7 @@ const exercisesGif = {
          {
             "id": "GfShSr015",
             "title":"Shoulder Stren Wall Pushup 2",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumnails/Shoulder_Stren_Wall_Pushup_2.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Wall_Pushup_2.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_Wall_Pushup_2.gif"],
             "tags":["shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -1235,7 +1235,7 @@ const exercisesGif = {
          {
             "id": "GfShrSh001",
             "title":"Biceps Stretch 2",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumnails/Biceps_Stretch_2.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumbnail/Biceps_Stretch_2.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stretching/Big/Biceps_Stretch_2.gif"],
             "tags":["shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -1250,7 +1250,7 @@ const exercisesGif = {
          {
             "id": "GfShrSh002",
             "title":"gifntext gif(6)",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumnails/gifntext_gif(6).gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumbnail/gifntext_gif(6).gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stretching/Big/gifntext_gif(6).gif"],
             "tags":["shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -1265,7 +1265,7 @@ const exercisesGif = {
          {
             "id": "GfShrSh003",
             "title":"Pectoralis Stretch 1",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumnails/Pectoralis_Stretch_1.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumbnail/Pectoralis_Stretch_1.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stretching/Big/Pectoralis_Stretch_1.gif"],
             "tags":["shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -1280,7 +1280,7 @@ const exercisesGif = {
          {
             "id": "GfShrSh004",
             "title":"Pectoralis Stretch 2",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumnails/Pectoralis_Stretch_2.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumbnail/Pectoralis_Stretch_2.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stretching/Big/Pectoralis_Stretch_2.gif"],
             "tags":["shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -1295,7 +1295,7 @@ const exercisesGif = {
          {
             "id": "GfShrSh005",
             "title":"Pectoralis Stretch 3",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumnails/Pectoralis_Stretch_3.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumbnail/Pectoralis_Stretch_3.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stretching/Big/Pectoralis_Stretch_3.gif"],
             "tags":["shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -1310,7 +1310,7 @@ const exercisesGif = {
          {
             "id": "GfShrSh006",
             "title":"Shoulder Pectoralis Stretch",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumnails/Shoulder_Pectoralis_Stretch.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumbnail/Shoulder_Pectoralis_Stretch.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stretching/Big/Shoulder_Pectoralis_Stretch.gif"],
             "tags":["shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -1325,7 +1325,7 @@ const exercisesGif = {
          {
             "id": "GfShrSh007",
             "title":"Shoulder Posterior Stretch",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumnails/Shoulder_Posterior_Stretch.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumbnail/Shoulder_Posterior_Stretch.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stretching/Big/Shoulder_Posterior_Stretch.gif"],
             "tags":["shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -1340,7 +1340,7 @@ const exercisesGif = {
          {
             "id": "GfShrSh008",
             "title":"Shoulder Triceps Stretch",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumnails/Shoulder_Triceps_Stretch.gif"],
+            "tumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumbnail/Shoulder_Triceps_Stretch.gif"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stretching/Big/Shoulder_Triceps_Stretch.gif"],
             "tags":["shoulder pain", 
                      "Supraspinatus Tendinitis", 
@@ -3955,7 +3955,7 @@ const exercisesGif = {
          "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAAzAT7aIPTearmq_xxwXY1ya/Upper_Trunk_Rotation.gif?raw=1",
       },
    ],
-}
+};
 
 //////////////////////////////////////////////////////////////////////////
 ////////////////////////////////// Ortho /////////////////////////////////
@@ -5539,7 +5539,7 @@ const ortho = {
          "araLink":"https://drive.google.com/open?id=1PNIE_3LcmyinbKkhWUaz8zfC9niJwIEg",
       },
    ],
-}
+};
 
 //////////////////////////////////////////////////////////////////////////
 ////////////////////////////////// Neuro /////////////////////////////////
@@ -5860,7 +5860,7 @@ const neuro = [
    "araLink":"https://drive.google.com/file/d/1LXdGWOo-4H1KM1Xh0sUG6PeGHa-Elyfp/view?usp=sharing",
    },
 
-]
+];
 
 
 //////////////////////////////////////////////////////////////////////////
@@ -6048,7 +6048,7 @@ const pedia = [
       "engDir": "./docs/Pedia/007-W-Sitting_-_Eng.pdf",
       "engLink":"https://drive.google.com/file/d/1NsAkIIYtxQULHxnxnjMfP2TfXjN3pI2K/view?usp=sharing"
    },
-]
+];
 
 //////////////////////////////////////////////////////////////////////////
 ////////////////////////////// Women Health //////////////////////////////
@@ -6435,7 +6435,7 @@ const womenHealth = [
       "araDir": "./docs/WH/015-Post_Mastectomy_Exercises_part_2_-_Ara.jpg",
       "araLink":"https://drive.google.com/file/d/1MiO_5WXB33Uy2EdrYJvOYQnmccHQG5Ct/view?usp=drivesdk",
    },
-]
+];
 
 //////////////////////////////////////////////////////////////////////////
 ////////////////////////////////// ToolKits /////////////////////////////////
@@ -6450,7 +6450,7 @@ const ToolKit = {
    "Lectures":[],
    "Posters":[],
    "Tools":[],
-}
+};
 
 //////////////////////////////////////////////////////////////////////////
 ////////////////////////////////// Other /////////////////////////////////
@@ -8146,7 +8146,7 @@ const others = {
          "araDir":"./docs/Other/Tools/010-Tele_Physio_Equipment_List_-_Ara.png",
       },
    ],
-}
+};
 
 
 //////////////////////////////////////////////////////////////////////////
@@ -8160,5 +8160,8 @@ const data = {
    "pedia": pedia,
    "womenHealth": womenHealth,
    "others":others,
-}
+};
+
+
+
 

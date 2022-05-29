@@ -266,34 +266,12 @@ $breakpoint argument choices
   }
 }
 :root {
-  --bg-color: #e4e9f7;
-  --white-color: #FFF;
-  --black-color: #000;
-  --p-shiny-color: #538fff;
-  --p-major-color-n: #d9e6ff;
-  --p-major-color-o: rgba(217, 230, 255, 0.902);
-  --p-dark-color: #183a79;
   --l-gray-1: rgb(240, 240, 240);
   --l-gray-2: rgb(221, 221, 221);
   --l-gray-3: rgb(199, 199, 199);
   --d-gray-1: rgb(163, 163, 163);
   --d-gray-2: rgb(129, 129, 129);
   --d-gray-3: rgb(61, 61, 61);
-  --bg-color: #eae0d5;
-  --white-color: #FFF;
-  --black-color: #0a0908;
-  --p-shiny-color: #22333b;
-  --p-major-color-n: rgb(198, 172, 143);
-  --p-major-color-o: rgba(198, 172, 143, 0.902);
-  --p-dark-color: #5e503f;
-  --bg-color: #fff;
-  --white-color: #FFF;
-  --black-color: #0a0908;
-  --p-shiny-color: #F66B0E;
-  --p-major-color-n: rgb(239, 239, 239);
-  --p-major-color-o: rgba(239, 239, 239, 0.902);
-  --p-dark-color: #112b3c;
-  --p-light-color: #EFEFEF;
   --bg-color: #ffffff;
   --white-color: #FFF;
   --black-color: #0a0908;
@@ -333,6 +311,12 @@ html {
     font-size: 50%;
   }
 }
+@media only screen and (max-width: 37.5em) {
+  html {
+    font-size: 40%;
+  }
+}
+
 body {
   overflow-x: hidden;
   overflow-y: auto;
@@ -601,7 +585,7 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
   background: var(--p-major-color-n);
   border-radius: 1rem;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 1rem;
+  margin: 2rem 2rem;
   padding: 0.5rem;
   -webkit-animation: moveInBottom cubic-bezier(0.11, -1.5, 0.56, 1.03) 0.6s;
           animation: moveInBottom cubic-bezier(0.11, -1.5, 0.56, 1.03) 0.6s;
@@ -875,20 +859,28 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
 .filter-nav {
   position: fixed;
   top: 0;
-  left: 50%;
+  left: 53.5%;
   opacity: 1;
   transform: translateX(-50%);
   background-color: var(--p-major-color-n);
   background-color: var(--p-major-color-o);
-  width: 90%;
-  max-width: 60rem;
-  min-width: 30rem;
+  min-width: 60rem;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 1rem;
   z-index: 50;
   transition: all 0.4s;
+}
+@media only screen and (max-width: 56.25em) {
+  .filter-nav {
+    min-width: 50rem;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .filter-nav {
+    min-width: 25rem;
+  }
 }
 .filter-nav ~ .card-container {
   padding: 8rem 3rem;
@@ -903,19 +895,12 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
 .filter-nav__container {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
-}
-@media only screen and (max-width: 37.5em) {
-  .filter-nav__container {
-    justify-content: center;
-  }
 }
 .filter-nav__selectbox {
   position: relative;
-  width: 25rem;
+  width: 30rem;
   flex-basis: auto;
   flex-grow: 1;
 }
@@ -926,18 +911,34 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
 }
 .filter-nav__btn {
   width: 10rem;
+  height: 4rem;
   background-color: var(--p-dark-color);
   color: var(--white-color);
   font-size: 1.6rem;
   border: 0;
   border-radius: 2rem;
-  padding: 0.5rem 1rem;
   text-transform: capitalize;
   border: 1px solid var(--p-dark-color);
+}
+@media only screen and (max-width: 56.25em) {
+  .filter-nav__btn {
+    width: 4rem;
+  }
 }
 .filter-nav__btn:hover {
   background-color: var(--p-shiny-color);
   border: 1px solid var(--p-dark-color);
+}
+.filter-nav__btn::before {
+  content: "Search";
+}
+@media only screen and (max-width: 56.25em) {
+  .filter-nav__btn::before {
+    content: "Go";
+  }
+}
+.filter-nav__radio {
+  display: none;
 }
 .filter-nav__radio .switch-btn__labels {
   width: 7rem;

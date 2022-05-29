@@ -1,13 +1,13 @@
 :root {
 
-    // /* ===== Colors ===== */
-    --bg-color: #e4e9f7;
-    --white-color: #FFF;
-    --black-color: #000;
-    --p-shiny-color: #538fff;
-    --p-major-color-n: #d9e6ff;
-    --p-major-color-o: rgba(217, 230, 255, 0.902);
-    --p-dark-color: #183a79;
+    // // /* ===== Colors ===== */
+    // --bg-color: #e4e9f7;
+    // --white-color: #FFF;
+    // --black-color: #000;
+    // --p-shiny-color: #538fff;
+    // --p-major-color-n: #d9e6ff;
+    // --p-major-color-o: rgba(217, 230, 255, 0.902);
+    // --p-dark-color: #183a79;
     // /* ===== grays ===== */
     --l-gray-1: rgb(240, 240, 240);
     --l-gray-2: rgb(221, 221, 221);
@@ -16,24 +16,24 @@
     --d-gray-2: rgb(129, 129, 129);
     --d-gray-3: rgb(61, 61, 61);
 
-    // color test 2
-    --bg-color: #eae0d5;
-    --white-color: #FFF;
-    --black-color: #0a0908;
-    --p-shiny-color: #22333b;
-    --p-major-color-n: rgb(198, 172, 143);
-    --p-major-color-o: rgba(198, 172, 143, 0.902);
-    --p-dark-color: #5e503f;
+    // // color test 2
+    // --bg-color: #eae0d5;
+    // --white-color: #FFF;
+    // --black-color: #0a0908;
+    // --p-shiny-color: #22333b;
+    // --p-major-color-n: rgb(198, 172, 143);
+    // --p-major-color-o: rgba(198, 172, 143, 0.902);
+    // --p-dark-color: #5e503f;
 
-    // color test 3
-    --bg-color: #fff;
-    --white-color: #FFF;
-    --black-color: #0a0908;
-    --p-shiny-color: #F66B0E;
-    --p-major-color-n: rgb(239, 239, 239);
-    --p-major-color-o: rgba(239, 239, 239, 0.902);
-    --p-dark-color: #112b3c;
-    --p-light-color: #EFEFEF;
+    // // color test 3
+    // --bg-color: #fff;
+    // --white-color: #FFF;
+    // --black-color: #0a0908;
+    // --p-shiny-color: #F66B0E;
+    // --p-major-color-n: rgb(239, 239, 239);
+    // --p-major-color-o: rgba(239, 239, 239, 0.902);
+    // --p-dark-color: #112b3c;
+    // --p-light-color: #EFEFEF;
 
     // color test 4
     --bg-color: #ffffff;
@@ -150,7 +150,7 @@ html {
 
   @include respond(phone) {
     // width < 600
-    // font-size: 40%; //1rem = 8px, 8px/16px = 50%
+    font-size: 40%; //1rem = 8px, 8px/16px = 50%
     // font-size: 50%; //1rem = 8px, 8px/16px = 50%
   }
 }

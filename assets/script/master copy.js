@@ -1,7 +1,6 @@
 "use strict";
-// parcal setup
+// webpack setup
 // const data = require('../../data-index.json');
-
 
 // if(module.hot){
 //   module.hot.accept();
@@ -195,7 +194,7 @@ function creatCard(data){
   zoomBtn.innerHTML = 
   `<svg class="card__zoom--icon">
     <use
-    xlink:href="#icon-screen-full"
+    xlink:href="assets/img/icomoon/symbol-defs.svg#icon-screen-full"
     ></use>
   </svg>`
   // add the event listener to the btn
@@ -847,7 +846,6 @@ document.addEventListener('click', function(event) {
 //////////////////////// starting the dropbox ///////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
-
 VirtualSelect.init({
     ele: '#filterSelectBox',
     // options: creatingLists('exercisesGif'),
@@ -860,7 +858,7 @@ VirtualSelect.init({
     // tooltipAlignment: 'center',
     // tooltipMaxWidth: '50rem',
     showDropboxAsPopup: true,
-    popupDropboxBreakpoint: '400px',
+    popupDropboxBreakpoint: '280px',
     useGroupValue: true,
     markSearchResults: true,
 });

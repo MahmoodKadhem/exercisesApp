@@ -78,6 +78,7 @@ function creatingLists(category){
 
      Object.entries(list).forEach(entry => {
         let entryObj = {};
+        let alias = [];
         let subData = entry[1];
         let haveOptions = subData instanceof Array;
         entryObj.label = entry[0];
@@ -86,6 +87,13 @@ function creatingLists(category){
         if (!haveOptions) {
            let options = creatingOptionList(subData, entry[0]);
            entryObj.options = options;
+        } else {
+          entry[1].forEach( e => {
+            e.tags.forEach( tag => {
+              if (!alias.includes(tag)) alias.push(tag);
+            })
+          })
+          entryObj.alias = alias;
         }
 
         dataList.push(entryObj);
@@ -98,9 +106,18 @@ function creatingLists(category){
 function creatingOptionList(data,title){
   let subDataList =[]
   Object.entries(data).forEach(entry => {
-     let entryObj = {};
-     entryObj.label = title + " " + entry[0];
-     entryObj.value = title + "->" + entry[0];
+    let entryObj = {};
+    let alias = [];
+    //  entryObj.label = title + " " + entry[0];
+    entryObj.label = entry[0];
+    entryObj.value = title + "->" + entry[0];
+    entry[1].forEach( e => {
+      e.tags.forEach( tag => {
+        if (!alias.includes(tag)) alias.push(tag);
+      })
+    })
+    entryObj.alias = alias;
+    entryObj.description = alias.toString();
      subDataList.push(entryObj);
   });
   return subDataList
@@ -666,7 +683,8 @@ function filterSearch(){
     }
   });
 
-  console.log(createdIDs);
+  //////////////////// get the search fild text ////////////////////
+  // console.log(document.querySelector(".vscomp-search-input").value);
 }
 
 // deleting all cards and selected items elements
@@ -678,7 +696,6 @@ function clearCanvas(){
 
 // handling populate list and data
 function populateData(e){
-  console.log(e);
   let target = e.target.closest('a');
   let targetID = target.id;
   let selectBoxData = creatingLists(targetID);
@@ -694,21 +711,22 @@ function populateData(e){
   let arr = []
   // toggle the filter-box is needed and get the cards
   if (selectBoxData){
-    // show the filter-box and create the list
+    // show the filter-box  
     document.querySelector('.filter-nav').classList.remove('filter-nav--hide');
     document.querySelector('#filterSelectBox').setOptions(selectBoxData);
 
-    const targetedData = Object.values(data[targetID])
-    targetedData.forEach(entry => {
-      if(entry instanceof Array){
-        // if entry is an array push them in the arr
-        entry.forEach(e => arr.push(e));
-      } else {
-        // if entry is an object flat get the values then push them in the arr
-        const objArr = Object.values(entry).flat();
-        objArr.forEach(e=> arr.push(e));
-      }
-    });
+    ////////////////////// create all the cards for each option
+    // const targetedData = Object.values(data[targetID])
+    // targetedData.forEach(entry => {
+    //   if(entry instanceof Array){
+    //     // if entry is an array push them in the arr
+    //     entry.forEach(e => arr.push(e));
+    //   } else {
+    //     // if entry is an object flat get the values then push them in the arr
+    //     const objArr = Object.values(entry).flat();
+    //     objArr.forEach(e=> arr.push(e));
+    //   }
+    // });
   } else {
     // hide the filter-box
     document.querySelector('.filter-nav').classList.add('filter-nav--hide');
@@ -859,8 +877,9 @@ VirtualSelect.init({
     // dropboxWidth: '30rem',
     // tooltipAlignment: 'center',
     // tooltipMaxWidth: '50rem',
-    showDropboxAsPopup: true,
-    popupDropboxBreakpoint: '400px',
+    showDropboxAsPopup: false,
+    // popupDropboxBreakpoint: '400px',
     useGroupValue: true,
     markSearchResults: true,
+    selectAllOnlyVisible:true,
 });

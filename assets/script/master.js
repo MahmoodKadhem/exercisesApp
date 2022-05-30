@@ -179,6 +179,8 @@ function creatCard(data){
     const imgEle = document.createElement('img');
     imgEle.src = img;
     imgEle.alt = data.title + i;
+    // imgEle.onerror =`this.onerror=null; this.src='${data["tumb-backup"]}'`
+    imgEle.onerror = function(){this.onerror=null; this.src=data["tumb-backup"]};
     slideEle.appendChild(imgEle);
     sliderEle.appendChild(slideEle);
   });

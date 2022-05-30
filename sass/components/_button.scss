@@ -93,6 +93,12 @@
         top: -.8rem;
       }
     }
+  
+  // &__btn:hover:not(.side-nav__btn--active) &__icon,
+  // &__btn:hover:not(.side-nav__btn--active) &__icon::before,
+  // &__btn:hover:not(.side-nav__btn--active) &__icon::after {
+  //   background-color: var(--p-dark-color);
+  //   }
 
   &__btn:hover:not(.side-nav__btn--active) &__icon::before {
   top: -1rem;

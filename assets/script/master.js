@@ -957,7 +957,7 @@ VirtualSelect.init({
     // tooltipAlignment: 'center',
     // tooltipMaxWidth: '50rem',
     showDropboxAsPopRelease: false,
-    // popupDropboxBreakpoint: '400px',
+    popupDropboxBreakpoint: '250px',
     useGroupValue: true,
     markSearchResults: true,
     selectAllOnlyVisible:true,

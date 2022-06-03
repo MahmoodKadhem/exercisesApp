@@ -185,7 +185,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Neck_AROM_Sidebending.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/AROM/Big/Neck_AROM_Sidebending.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
-            "link":"https://www.dropbox.com/s/sj326nps5ym72jd/Neck_AROM_Sidebending_in_Sidelying.gif?raw=1",
+            "link":"https://www.dropbox.com/s/sx7g8g57yhjjko0/Neck_AROM_Sidebending.gif?raw=1",
          },
          {
             "id": "GfNkAr006",
@@ -193,11 +193,11 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Neck_AROM_Sidebending_in_Sidelying.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/AROM/Big/Neck_AROM_Sidebending_in_Sidelying.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
-            "link":"https://www.dropbox.com/s/sx7g8g57yhjjko0/Neck_AROM_Sidebending.gif?raw=1",
+            "link":"https://www.dropbox.com/s/sj326nps5ym72jd/Neck_AROM_Sidebending_in_Sidelying.gif?raw=1",
          },
          {
             "id": "GfNkAr007",
-            "title":"Neckv Chinv Tuckv In",
+            "title":"Neck Chin Tuckv In",
             "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Neck_Chin_Tuck_In.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/AROM/Big/Neck_Chin_Tuck_In.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
@@ -290,7 +290,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Inst_Neck_Tuck_In.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Strengthening/Big/Inst_Neck_Tuck_In.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Strenthening"],
-            "link":"https://www.dropbox.com/s/cixbrb7oko9tfzl/Inst_Neck_Tuck_In_Flexion_Quadruped.gif?raw=1",
+            "link":"https://www.dropbox.com/s/fg3j3taodwaoz5g/Inst_Neck_Tuck_In.gif?raw=1",
          },
          {
             "id": "GfNkSr003",
@@ -306,7 +306,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Inst_Neck_Tuck_In_Flexion_Quadruped.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Strengthening/Big/Inst_Neck_Tuck_In_Flexion_Quadruped.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Strenthening"],
-            "link":"https://www.dropbox.com/s/poy801gehgh7k8z/Inst_Neck_Tuck_In_Plank.gif?raw=1",
+            "link":"https://www.dropbox.com/s/cixbrb7oko9tfzl/Inst_Neck_Tuck_In_Flexion_Quadruped.gif?raw=1",
          },
          {
             "id": "GfNkSr005",
@@ -314,7 +314,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Inst_Neck_Tuck_In_Plank.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Strengthening/Big/Inst_Neck_Tuck_In_Plank.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Strenthening"],
-            "link":"https://www.dropbox.com/s/2fmave1uim5sdey/Inst_Neck_Tuck_In_Quadruped.gif?raw=1",
+            "link":"https://www.dropbox.com/s/poy801gehgh7k8z/Inst_Neck_Tuck_In_Plank.gif?raw=1",
          },
          {
             "id": "GfNkSr006",
@@ -322,7 +322,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Inst_Neck_Tuck_In_Quadruped.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Strengthening/Big/Inst_Neck_Tuck_In_Quadruped.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Strenthening"],
-            "link":"https://www.dropbox.com/s/qolu0o92w5jg4hu/Inst_Neck_Tuck_In_Supine.gif?raw=1",
+            "link":"https://www.dropbox.com/s/2fmave1uim5sdey/Inst_Neck_Tuck_In_Quadruped.gif?raw=1",
          },
          {
             "id": "GfNkSr007",
@@ -330,7 +330,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Inst_Neck_Tuck_In_Supine.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Strengthening/Big/Inst_Neck_Tuck_In_Supine.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Strenthening"],
-            "link":"https://www.dropbox.com/s/fg3j3taodwaoz5g/Inst_Neck_Tuck_In.gif?raw=1",
+            "link":"https://www.dropbox.com/s/qolu0o92w5jg4hu/Inst_Neck_Tuck_In_Supine.gif?raw=1",
          },
          {
             "id": "GfNkSr008",
@@ -470,7 +470,7 @@ const exercisesGif = {
                      "Scapular Dyskinesis", 
                      "Stroke", 
                      "Hemiplegia"],
-            "link":"https://www.dropbox.com/s/koyzbtgdi0mrohh/Shoulder_AAROM_flexion_in_standing.gif?raw=1",
+            "link":"https://www.dropbox.com/s/6uf95dhk016kab4/Shoulder_AAROM_Flexion.gif?raw=1",
          },
          {
             "id": "GfShAA005",
@@ -487,7 +487,7 @@ const exercisesGif = {
                      "Scapular Dyskinesis", 
                      "Stroke", 
                      "Hemiplegia"],
-            "link":"https://www.dropbox.com/s/30wknb8yru2skgz/Shoulder_AAROM_flexion_in_supine.gif?raw=1",
+            "link":"https://www.dropbox.com/s/koyzbtgdi0mrohh/Shoulder_AAROM_flexion_in_standing.gif?raw=1",
          },
          {
             "id": "GfShAA006",
@@ -504,7 +504,7 @@ const exercisesGif = {
                      "Scapular Dyskinesis", 
                      "Stroke", 
                      "Hemiplegia"],
-            "link":"https://www.dropbox.com/s/6uf95dhk016kab4/Shoulder_AAROM_Flexion.gif?raw=1",
+            "link":"https://www.dropbox.com/s/30wknb8yru2skgz/Shoulder_AAROM_flexion_in_supine.gif?raw=1",
          },
          {
             "id": "GfShAA007",
@@ -1099,7 +1099,7 @@ const exercisesGif = {
                      "Shoulder Impingement Syndrome",
                      "Shoulder Arthoroscopy",
                      "Scapular Dyskinesis", ],
-            "link":"https://www.dropbox.com/sh/fopyzg1bfbvxl37/AAAMzDhQIA_ThqG2a89fqWP6a/Shoulder_Stren_ER_in_Sidelying.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/fopyzg1bfbvxl37/AADa2a8Qsd7wPfD7lrD51TNCa/Shoulder_Stren_ER.gif?raw=1",
          },
          {
             "id": "GfShSr006",
@@ -1114,7 +1114,7 @@ const exercisesGif = {
                      "Shoulder Impingement Syndrome",
                      "Shoulder Arthoroscopy",
                      "Scapular Dyskinesis", ],
-            "link":"https://www.dropbox.com/sh/fopyzg1bfbvxl37/AADa2a8Qsd7wPfD7lrD51TNCa/Shoulder_Stren_ER.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/fopyzg1bfbvxl37/AAAMzDhQIA_ThqG2a89fqWP6a/Shoulder_Stren_ER_in_Sidelying.gif?raw=1",
          },
          {
             "id": "GfShSr007",
@@ -1174,7 +1174,7 @@ const exercisesGif = {
                      "Shoulder Impingement Syndrome",
                      "Shoulder Arthoroscopy",
                      "Scapular Dyskinesis", ],
-            "link":"https://www.dropbox.com/sh/fopyzg1bfbvxl37/AACfVHqJVnITKC3gqqxDXuvNa/Shoulder_Stren_Flexion_w_Flexed_Elbow.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/fopyzg1bfbvxl37/AADn-sXPBnxJ3yy87dVAQcida/Shoulder_Stren_Flexion.gif?raw=1",
          },
          {
             "id": "GfShSr011",
@@ -1189,7 +1189,7 @@ const exercisesGif = {
                      "Shoulder Impingement Syndrome",
                      "Shoulder Arthoroscopy",
                      "Scapular Dyskinesis", ],
-            "link":"https://www.dropbox.com/sh/fopyzg1bfbvxl37/AADn-sXPBnxJ3yy87dVAQcida/Shoulder_Stren_Flexion.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/fopyzg1bfbvxl37/AACfVHqJVnITKC3gqqxDXuvNa/Shoulder_Stren_Flexion_w_Flexed_Elbow.gif?raw=1",
          },
          {
             "id": "GfShSr012",
@@ -1778,7 +1778,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/bridging.gif"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/bridging.gif"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
-            "link":"https://www.dropbox.com/sh/2l2846zmvpbkcfa/AAA4UVh4ifv2IEeF8uPOPD1ba/bridging_one_leg.gif?raw=1Link",
+            "link":"https://www.dropbox.com/sh/2l2846zmvpbkcfa/AAA90qmcknsvJjUU6eZxAI7Ia/bridging.gif?raw=1",
          },
          {
             "id": "GfTrSb002",
@@ -1786,7 +1786,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/bridging_one_leg.gif"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/bridging_one_leg.gif"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
-            "link":"https://www.dropbox.com/sh/2l2846zmvpbkcfa/AAA90qmcknsvJjUU6eZxAI7Ia/bridging.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/2l2846zmvpbkcfa/AAA4UVh4ifv2IEeF8uPOPD1ba/bridging_one_leg.gif?raw=1Link",
          },
          {
             "id": "GfTrSb003",
@@ -1810,7 +1810,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/superman.gif"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/superman.gif"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
-            "link":"https://www.dropbox.com/sh/2l2846zmvpbkcfa/AAByQI8i1LDOV57o9I3adVVpa/superman_on_4.gif?raw=1Link",
+            "link":"https://www.dropbox.com/sh/2l2846zmvpbkcfa/AADPvq5uqdrW1K0493BggJgWa/superman.gif?raw=1",
          },
          {
             "id": "GfTrSb006",
@@ -1818,7 +1818,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/superman_on_4.gif"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/superman_on_4.gif"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
-            "link":"https://www.dropbox.com/sh/2l2846zmvpbkcfa/AADPvq5uqdrW1K0493BggJgWa/superman.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/2l2846zmvpbkcfa/AAByQI8i1LDOV57o9I3adVVpa/superman_on_4.gif?raw=1Link",
          },
          {
             "id": "GfTrSb007",
@@ -2277,7 +2277,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/07-Hip/AROM/Thumbnail/Hip_AROM_Flexion.gif"],
             "bigImgs":["./docs/Gifs/07-Hip/AROM/Big/Hip_AROM_Flexion.gif"],
             "tags":[ "TKR", "Total Hip Replacment", "Knee Pain", "Hip Pain"],
-            "link":"https://www.dropbox.com/sh/lecq27wekabd64o/AAA4h0iCIAKsxqf7HSnd_74Ya/Hip_AROM_Flexion_in_Sitting.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/lecq27wekabd64o/AADGEQLX6Zc2teflPznvl_n3a/Hip_AROM_Flexion.gif?raw=1",
          },
          {
             "id": "GfHpAr005",
@@ -2285,7 +2285,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/07-Hip/AROM/Thumbnail/Hip_AROM_Flexion_in_Sitting.gif"],
             "bigImgs":["./docs/Gifs/07-Hip/AROM/Big/Hip_AROM_Flexion_in_Sitting.gif"],
             "tags":[ "TKR", "Total Hip Replacment", "Knee Pain", "Hip Pain"],
-            "link":"https://www.dropbox.com/sh/lecq27wekabd64o/AAA22h9isRihkFId9WmmQ6zAa/Hip_AROM_Flexion_with_Flexed_knee.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/lecq27wekabd64o/AAA4h0iCIAKsxqf7HSnd_74Ya/Hip_AROM_Flexion_in_Sitting.gif?raw=1",
          },
          {
             "id": "GfHpAr006",
@@ -2293,7 +2293,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/07-Hip/AROM/Thumbnail/Hip_AROM_Flexion_with_Flexed_knee.gif"],
             "bigImgs":["./docs/Gifs/07-Hip/AROM/Big/Hip_AROM_Flexion_with_Flexed_knee.gif"],
             "tags":[ "TKR", "Total Hip Replacment", "Knee Pain", "Hip Pain"],
-            "link":"https://www.dropbox.com/sh/lecq27wekabd64o/AADGEQLX6Zc2teflPznvl_n3a/Hip_AROM_Flexion.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/lecq27wekabd64o/AAA22h9isRihkFId9WmmQ6zAa/Hip_AROM_Flexion_with_Flexed_knee.gif?raw=1",
          },
          {
             "id": "GfHpAr007",
@@ -2336,7 +2336,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Ball_Hip_Iso_Adduction.gif"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/Ball_Hip_Iso_Adduction.gif"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
-            "link":"https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AAAlEr3F2f-R1T5u2CsmBZHsa/Ball_Hip_Iso_Adduction_1.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AACEb6NttAbA2t2asaYsP3pra/Ball_Hip_Iso_Adduction.gif?raw=1",
          },
          {
             "id": "GfHpIs005",
@@ -2344,7 +2344,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Ball_Hip_Iso_Adduction_1.gif"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/Ball_Hip_Iso_Adduction_1.gif"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
-            "link":"https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AACEb6NttAbA2t2asaYsP3pra/Ball_Hip_Iso_Adduction.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AAAlEr3F2f-R1T5u2CsmBZHsa/Ball_Hip_Iso_Adduction_1.gif?raw=1",
          },
          {
             "id": "GfHpIs006",
@@ -2416,7 +2416,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/SLR.gif"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/SLR.gif"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
-            "link":"https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AAC_4Sz2sZG_8RNx0NeMSW9Aa/SLR_2.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AADo3ylwS6xbQ8-fZ5ryElALa/SLR.gif?raw=1",
          },
          {
             "id": "GfHpIs015",
@@ -2424,7 +2424,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/SLR_2.gif"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/SLR_2.gif"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
-            "link":"https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AADo3ylwS6xbQ8-fZ5ryElALa/SLR.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AAC_4Sz2sZG_8RNx0NeMSW9Aa/SLR_2.gif?raw=1",
          },
       ],
       "Strengthening":[
@@ -2460,7 +2460,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Forward_Lunges.gif"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Forward_Lunges.gif"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
-            "link":"https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AACAWCmB6Iqz-HPVm3mkPDB4a/Forward_Lunges_1.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AACaukB8RNXP_Weqj6DVJSeUa/Forward_Lunges.gif?raw=1",
          },
          {
             "id": "GfHpSr005",
@@ -2468,7 +2468,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Forward_Lunges_1.gif"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Forward_Lunges_1.gif"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
-            "link":"https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AACaukB8RNXP_Weqj6DVJSeUa/Forward_Lunges.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AACAWCmB6Iqz-HPVm3mkPDB4a/Forward_Lunges_1.gif?raw=1",
          },
          {
             "id": "GfHpSr006",
@@ -2524,7 +2524,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Sit_to_Stand.gif"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Sit_to_Stand.gif"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
-            "link":"https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AAA1-LJgCJ3LbkK0dJOvjuqZa/sit_to_stand_2.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AAB5DbZkGrJDUkRxGpwSxiVMa/Sit_to_Stand.gif?raw=1",
          },
          {
             "id": "GfHpSr013",
@@ -2532,7 +2532,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/sit_to_stand_2.gif"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/sit_to_stand_2.gif"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
-            "link":"https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AAB5DbZkGrJDUkRxGpwSxiVMa/Sit_to_Stand.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AAA1-LJgCJ3LbkK0dJOvjuqZa/sit_to_stand_2.gif?raw=1",
          },
          {
             "id": "GfHpSr014",
@@ -3448,7 +3448,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Feet_Together.gif"],
          "bigImgs":["./docs/Gifs/10-Balance Exercises/Big/Feet_Together.gif"],
          "tags":[ "Stroke", "ACL", "Knee Pain"],
-         "link":"https://www.dropbox.com/sh/sl0regdmc83kki6/AAAlaZBZqNktCao_hHY9CLtba/Feet_Together_on_Pillow.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/sl0regdmc83kki6/AACAKG61uaHi7jsDJdpGiAo0a/Feet_Together.gif?raw=1",
       },
       {
          "id": "GfBlc002",
@@ -3456,7 +3456,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Feet_Together_on_Pillow.gif"],
          "bigImgs":["./docs/Gifs/10-Balance Exercises/Big/Feet_Together_on_Pillow.gif"],
          "tags":[ "Stroke", "ACL", "Knee Pain"],
-         "link":"https://www.dropbox.com/sh/sl0regdmc83kki6/AACAKG61uaHi7jsDJdpGiAo0a/Feet_Together.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/sl0regdmc83kki6/AAAlaZBZqNktCao_hHY9CLtba/Feet_Together_on_Pillow.gif?raw=1",
       },
       {
          "id": "GfBlc003",
@@ -3464,7 +3464,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Semitandem.gif"],
          "bigImgs":["./docs/Gifs/10-Balance Exercises/Big/Semitandem.gif"],
          "tags":[ "Stroke", "ACL", "Knee Pain"],
-         "link":"https://www.dropbox.com/sh/sl0regdmc83kki6/AADvKr1M2UwAx8IBPZ7up07za/Semitandem_on_pillow.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/sl0regdmc83kki6/AABnVBHjikoapDaYzNRM-zt-a/Semitandem.gif?raw=1",
       },
       {
          "id": "GfBlc004",
@@ -3472,7 +3472,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Semitandem_on_pillow.gif"],
          "bigImgs":["./docs/Gifs/10-Balance Exercises/Big/Semitandem_on_pillow.gif"],
          "tags":[ "Stroke", "ACL", "Knee Pain"],
-         "link":"https://www.dropbox.com/sh/sl0regdmc83kki6/AABnVBHjikoapDaYzNRM-zt-a/Semitandem.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/sl0regdmc83kki6/AADvKr1M2UwAx8IBPZ7up07za/Semitandem_on_pillow.gif?raw=1",
       },
       {
          "id": "GfBlc005",
@@ -3480,7 +3480,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Tandem.gif"],
          "bigImgs":["./docs/Gifs/10-Balance Exercises/Big/Tandem.gif"],
          "tags":[ "Stroke", "ACL", "Knee Pain"],
-         "link":"https://www.dropbox.com/sh/sl0regdmc83kki6/AABNQiTiJqrrYqszK9QfEjIEa/Tandem_on_pillow.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/sl0regdmc83kki6/AADY7GEv_NAUXVCQeKKIUpFIa/Tandem.gif?raw=1",
       },
       {
          "id": "GfBlc006",
@@ -3488,7 +3488,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Tandem_on_pillow.gif"],
          "bigImgs":["./docs/Gifs/10-Balance Exercises/Big/Tandem_on_pillow.gif"],
          "tags":[ "Stroke", "ACL", "Knee Pain"],
-         "link":"https://www.dropbox.com/sh/sl0regdmc83kki6/AADY7GEv_NAUXVCQeKKIUpFIa/Tandem.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/sl0regdmc83kki6/AABNQiTiJqrrYqszK9QfEjIEa/Tandem_on_pillow.gif?raw=1",
       },
       {
          "id": "GfBlc007",
@@ -3496,7 +3496,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Unilateral_Stance.gif"],
          "bigImgs":["./docs/Gifs/10-Balance Exercises/Big/Unilateral_Stance.gif"],
          "tags":[ "Stroke", "ACL", "Knee Pain"],
-         "link":"https://www.dropbox.com/sh/sl0regdmc83kki6/AAAavdtB06mcVwr_7sFmjJv_a/Unilateral_Stance_1.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/sl0regdmc83kki6/AAD_T17U8AsfcLd8pjpOgoSwa/Unilateral_Stance.gif?raw=1",
       },
       {
          "id": "GfBlc008",
@@ -3504,7 +3504,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Unilateral_Stance_1.gif"],
          "bigImgs":["./docs/Gifs/10-Balance Exercises/Big/Unilateral_Stance_1.gif"],
          "tags":[ "Stroke", "ACL", "Knee Pain"],
-         "link":"https://www.dropbox.com/sh/sl0regdmc83kki6/AADUYCM2hSbaYxAbmYMrH6Jea/Unilateral_Stance_2.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/sl0regdmc83kki6/AAAavdtB06mcVwr_7sFmjJv_a/Unilateral_Stance_1.gif?raw=1",
       },
       {
          "id": "GfBlc009",
@@ -3512,7 +3512,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Unilateral_Stance_2.gif"],
          "bigImgs":["./docs/Gifs/10-Balance Exercises/Big/Unilateral_Stance_2.gif"],
          "tags":[ "Stroke", "ACL", "Knee Pain"],
-         "link":"https://www.dropbox.com/sh/sl0regdmc83kki6/AACUegjNiSiYIY2-9DYb2iN3a/Unilateral_Stance_one_side.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/sl0regdmc83kki6/AADUYCM2hSbaYxAbmYMrH6Jea/Unilateral_Stance_2.gif?raw=1",
       },
       {
          "id": "GfBlc010",
@@ -3520,7 +3520,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Unilateral_Stance_one_side.gif"],
          "bigImgs":["./docs/Gifs/10-Balance Exercises/Big/Unilateral_Stance_one_side.gif"],
          "tags":[ "Stroke", "ACL", "Knee Pain"],
-         "link":"https://www.dropbox.com/sh/sl0regdmc83kki6/AAD_T17U8AsfcLd8pjpOgoSwa/Unilateral_Stance.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/sl0regdmc83kki6/AACUegjNiSiYIY2-9DYb2iN3a/Unilateral_Stance_one_side.gif?raw=1",
       },
    ],
    "Swiss Ball Exercises":[
@@ -3547,7 +3547,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Bridge.gif"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/Ball_Bridge.gif"],
          "tags":[ "Swiss Ball Exe"],
-         "link":"https://www.dropbox.com/sh/mqu8pxn7oya75lz/AADaTAf90oUDEd5DTxe8YXcHa/Ball_Bridge_from_Flex.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/mqu8pxn7oya75lz/AACjLgf7KUUYK3lqY4Oaf1Qua/Ball_Bridge.gif?raw=1",
       },
       {
          "id": "GfSws004",
@@ -3555,7 +3555,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Bridge_from_Flex.gif"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/Ball_Bridge_from_Flex.gif"],
          "tags":[ "Swiss Ball Exe"],
-         "link":"https://www.dropbox.com/sh/mqu8pxn7oya75lz/AACjLgf7KUUYK3lqY4Oaf1Qua/Ball_Bridge.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/mqu8pxn7oya75lz/AADaTAf90oUDEd5DTxe8YXcHa/Ball_Bridge_from_Flex.gif?raw=1",
       },
       {
          "id": "GfSws005",
@@ -3619,7 +3619,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Squeeze.gif"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/Ball_Squeeze.gif"],
          "tags":[ "Swiss Ball Exe"],
-         "link":"https://www.dropbox.com/sh/mqu8pxn7oya75lz/AAAOFZBosbAW159zh9Cp2stTa/Ball_Squeeze_in_Sitting_1.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/mqu8pxn7oya75lz/AABfS7Ftk0ZjgF_OhcE5mbFwa/Ball_Squeeze.gif?raw=1",
       },
       {
          "id": "GfSws013",
@@ -3627,7 +3627,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Squeeze_in_Sitting_1.gif"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/Ball_Squeeze_in_Sitting_1.gif"],
          "tags":[ "Swiss Ball Exe"],
-         "link":"https://www.dropbox.com/sh/mqu8pxn7oya75lz/AAAJ4kSqdpkttdZ2cZvTMnRya/Ball_Squeeze_in_Sitting_2.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/mqu8pxn7oya75lz/AAAOFZBosbAW159zh9Cp2stTa/Ball_Squeeze_in_Sitting_1.gif?raw=1",
       },
       {
          "id": "GfSws014",
@@ -3635,7 +3635,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Squeeze_in_Sitting_2.gif"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/Ball_Squeeze_in_Sitting_2.gif"],
          "tags":[ "Swiss Ball Exe"],
-         "link":"https://www.dropbox.com/sh/mqu8pxn7oya75lz/AABfS7Ftk0ZjgF_OhcE5mbFwa/Ball_Squeeze.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/mqu8pxn7oya75lz/AAAJ4kSqdpkttdZ2cZvTMnRya/Ball_Squeeze_in_Sitting_2.gif?raw=1",
       },
       {
          "id": "GfSws015",
@@ -3691,7 +3691,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/SB_Shoulder_Flexion.gif"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/SB_Shoulder_Flexion.gif"],
          "tags":[ "Swiss Ball Exe"],
-         "link":"https://www.dropbox.com/sh/mqu8pxn7oya75lz/AAAXPIItJgk2WKU5QSZuF2Kia/SB_Shoulder_Flexion_with_Ball.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/mqu8pxn7oya75lz/AAA56skoFo5LT4hF7RRnvvlxa/SB_Shoulder_Flexion.gif?raw=1",
       },
       {
          "id": "GfSws022",
@@ -3699,7 +3699,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/SB_Shoulder_Flexion_with_Ball.gif"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/SB_Shoulder_Flexion_with_Ball.gif"],
          "tags":[ "Swiss Ball Exe"],
-         "link":"https://www.dropbox.com/sh/mqu8pxn7oya75lz/AAA56skoFo5LT4hF7RRnvvlxa/SB_Shoulder_Flexion.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/mqu8pxn7oya75lz/AAAXPIItJgk2WKU5QSZuF2Kia/SB_Shoulder_Flexion_with_Ball.gif?raw=1",
       },
       {
          "id": "GfSws023",
@@ -3750,7 +3750,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Bridge.gif"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Bridge.gif"],
          "tags":[ "Women Health"],
-         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AABeSRcIV825q8Ais0PFwLCLa/Bridge_1.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AACpwtmOV0t7gDMQPNgAsuUFa/Bridge.gif?raw=1",
       },
       {
          "id": "GfWh003",
@@ -3758,7 +3758,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Bridge_1.gif"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Bridge_1.gif"],
          "tags":[ "Women Health"],
-         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAB7SJQVtG7RBrakm05CQFlNa/Bridge_2.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AABeSRcIV825q8Ais0PFwLCLa/Bridge_1.gif?raw=1",
       },
       {
          "id": "GfWh004",
@@ -3766,7 +3766,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Bridge_2.gif"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Bridge_2.gif"],
          "tags":[ "Women Health"],
-         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AADSOIKBtAEqeMECNxj3dL2Sa/Bridge_and__SLR_2.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAB7SJQVtG7RBrakm05CQFlNa/Bridge_2.gif?raw=1",
       },
       {
          "id": "GfWh005",
@@ -3806,7 +3806,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Bridge_and_SLR_2.gif"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Bridge_and_SLR_2.gif"],
          "tags":[ "Women Health"],
-         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AACpwtmOV0t7gDMQPNgAsuUFa/Bridge.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AADSOIKBtAEqeMECNxj3dL2Sa/Bridge_and__SLR_2.gif?raw=1",
       },
       {
          "id": "GfWh010",
@@ -3854,7 +3854,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Pelvic_Tilt.gif"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Pelvic_Tilt.gif"],
          "tags":[ "Women Health"],
-         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AADOfBWNHLq45Yhac6bxPByda/Pelvic_Tilt_1.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAB9lMdKMwCVAEoa6DRCNbOBa/Pelvic_Tilt.gif?raw=1",
       },
       {
          "id": "GfWh016",
@@ -3862,7 +3862,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Pelvic_Tilt_1.gif"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Pelvic_Tilt_1.gif"],
          "tags":[ "Women Health"],
-         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AACpQA06Smway-AWQp3zHfkXa/Pelvic_Tilt_2.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AADOfBWNHLq45Yhac6bxPByda/Pelvic_Tilt_1.gif?raw=1",
       },
       {
          "id": "GfWh017",
@@ -3870,7 +3870,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Pelvic_Tilt_2.gif"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Pelvic_Tilt_2.gif"],
          "tags":[ "Women Health"],
-         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAD9W5AoszWeAFdXGt0DjTiCa/Pelvic_Tilt_3.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AACpQA06Smway-AWQp3zHfkXa/Pelvic_Tilt_2.gif?raw=1",
       },
       {
          "id": "GfWh018",
@@ -3878,7 +3878,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Pelvic_Tilt_3.gif"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Pelvic_Tilt_3.gif"],
          "tags":[ "Women Health"],
-         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAB9lMdKMwCVAEoa6DRCNbOBa/Pelvic_Tilt.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAD9W5AoszWeAFdXGt0DjTiCa/Pelvic_Tilt_3.gif?raw=1",
       },
       {
          "id": "GfWh019",
@@ -3910,7 +3910,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Squat.gif"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Squat.gif"],
          "tags":[ "Women Health"],
-         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAAhlpRpfWVlUtB3AatE0Zs-a/Squat_with_Chest_Opening.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AACsBNNsogvdWyO_Dknphdu5a/Squat.gif?raw=1",
       },
       {
          "id": "GfWh023",
@@ -3918,7 +3918,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Squat_with_Chest_Opening.gif"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Squat_with_Chest_Opening.gif"],
          "tags":[ "Women Health"],
-         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAB3N09SWXIjl_gUH3skW0yJa/Squat_with_Rotation.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAAhlpRpfWVlUtB3AatE0Zs-a/Squat_with_Chest_Opening.gif?raw=1",
       },
       {
          "id": "GfWh024",
@@ -3926,7 +3926,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Squat_with_Rotation.gif"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Squat_with_Rotation.gif"],
          "tags":[ "Women Health"],
-         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AACsBNNsogvdWyO_Dknphdu5a/Squat.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAB3N09SWXIjl_gUH3skW0yJa/Squat_with_Rotation.gif?raw=1",
       },
       {
          "id": "GfWh025",
@@ -3942,7 +3942,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Swiss_Ball_Leg_Lift.gif"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Swiss_Ball_Leg_Lift.gif"],
          "tags":[ "Women Health"],
-         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AADNZU9ouRfVFiOU6WFMhfZDa/Swiss_Ball_Leg_Lift_with_Resistance.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAB5PtR1hhadHtcWBjGrSziGa/Swiss_Ball_Leg_Lift.gif?raw=1",
       },
       {
          "id": "GfWh027",
@@ -3950,7 +3950,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Swiss_Ball_Leg_Lift_with_Resistance.gif"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Swiss_Ball_Leg_Lift_with_Resistance.gif"],
          "tags":[ "Women Health"],
-         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAB5PtR1hhadHtcWBjGrSziGa/Swiss_Ball_Leg_Lift.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AADNZU9ouRfVFiOU6WFMhfZDa/Swiss_Ball_Leg_Lift_with_Resistance.gif?raw=1",
       },
       {
          "id": "GfWh028",
@@ -3958,7 +3958,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Unilateral_Bridge.gif"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Unilateral_Bridge.gif"],
          "tags":[ "Women Health"],
-         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAB_kz2tQFo0U0SlMoGX2CPya/Unilateral_Bridge_3.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AADDIFrYVgJSJRpAQn1IOwMta/Unilateral_Bridge.gif?raw=1",
       },
       {
          "id": "GfWh029",
@@ -3966,7 +3966,7 @@ const exercisesGif = {
          "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Unilateral_Bridge_3.gif"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Unilateral_Bridge_3.gif"],
          "tags":[ "Women Health"],
-         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AADDIFrYVgJSJRpAQn1IOwMta/Unilateral_Bridge.gif?raw=1",
+         "link":"https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAB_kz2tQFo0U0SlMoGX2CPya/Unilateral_Bridge_3.gif?raw=1",
       },
       {
          "id": "GfWh030",

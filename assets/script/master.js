@@ -156,7 +156,7 @@ function creatCard(data){
   // checkbox element
   checkbox.classList.add('checkbox','card__checkbox');
   checkbox.innerHTML = `<label id="card${data.id}" class="checkbox__label">
-    <input name="card" type="checkbox" ${checkboxStatus}>
+    <input name="card_checkbox" type="checkbox" ${checkboxStatus}>
     <span class="checkbox__mark"></span>
   </label>`
 
@@ -179,6 +179,7 @@ function creatCard(data){
     const imgEle = document.createElement('img');
     imgEle.src = img;
     imgEle.alt = data.title + i;
+    imgEle.onclick = imgClickCheckBox;
     // imgEle.onerror =`this.onerror=null; this.src='${data["tumb-backup"]}'`
     imgEle.onerror = function(){this.onerror=null; this.src=data["tumb-backup"]};
     slideEle.appendChild(imgEle);
@@ -358,7 +359,7 @@ function activateSlider(slider) {
   var curSlide = 0,
     startPos = 0,
     currentTranslate = 0,
-    prevTranslate = 0,
+    preranslate = 0,
     animationID = 0,
     isDragging = false;
   var maxSlide = slides.length; // ///////////////touch screen slider//////////
@@ -431,7 +432,7 @@ function activateSlider(slider) {
 
   btnRight.addEventListener("click", nextSlide);
   btnLeft.addEventListener("click", prevSlide);
-  slider.addEventListener("keydown", function (e) {
+  slider.addEventListener("keyTouch", function (e) {
     if (e.key === "ArrowLeft") prevSlide();
     e.key === "ArrowRight" && nextSlide();
   });
@@ -453,7 +454,7 @@ function activateSlider(slider) {
   var touchEnd = function touchEnd() {
     isDragging = false;
     cancelAnimationFrame(animationID);
-    var movedBy = currentTranslate - prevTranslate;
+    var movedBy = currentTranslate - preranslate;
     console.log(movedBy);
 
     if (movedBy < -80) {
@@ -468,7 +469,7 @@ function activateSlider(slider) {
   var touchMove = function touchMove(event) {
     if (isDragging) {
       var currentPosition = getPositionX(event);
-      var Translate = prevTranslate + currentPosition - startPos;
+      var Translate = preranslate + currentPosition - startPos;
 
       if (Translate < 100 && Translate > -100) {
         currentTranslate = Translate;
@@ -501,7 +502,7 @@ function activateSlider(slider) {
     goToSlide(curSlide);
     activateDot(curSlide);
     currentTranslate = 0;
-    prevTranslate = currentTranslate;
+    preranslate = currentTranslate;
     setCardPosition();
   }; // remove the drag effect on the team section
 
@@ -570,10 +571,22 @@ function removeTheFullScreenEle(){
   document.querySelector(".qr__container").remove();
 }
 
+// when clicking on image check the checkbox if not full screen
+function imgClickCheckBox(e){
+  const card = e.target.closest('.card');
+  const cardSlider = card.querySelector('.card__slider');
+  const cardSize = cardSlider.classList.contains('card__slider--fullscreen');
+  const checkbox = card.querySelector('input[name="card_checkbox"]');
+  if (!cardSize) checkbox.checked = !checkbox.checked
+  checkboxhandler(e);
+  // console.log(cardSize);
+}
+
 // handling the check box 
 function checkboxhandler(e){
-  const checkbox = e.target.checked;
-  const card = e.target.closest(".card")
+  let checkbox = e.target.checked;
+  if(!checkbox) checkbox = e.target.closest(".card").querySelector('input[name="card_checkbox"]').checked;
+  const card = e.target.closest(".card");
   const dataObj = JSON.parse(card.dataset.obj);
   const listID = "li" + dataObj.id;
   const haveLang = card.querySelector(`#lang${dataObj.id}`);
@@ -739,9 +752,9 @@ function populateData(e){
 }
 
 // only accept numbner in the mobile imput
-function onlyNumberKey(evt) {
+function onlyNumberKey(e) {
   // Only ASCII character in that range allowed
-  var ASCIICode = (evt.which) ? evt.which : evt.keyCode
+  var ASCIICode = (e.which) ? e.which : e.keyCode
   if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57))
       return false;
   return true;
@@ -819,18 +832,56 @@ sideNavBtn.addEventListener("click", function (e) {
   sideNavMenu.classList.toggle("side-nav--active");
 });
 
+// function showSideNav(e){
+// }
+
 sideNavMenu.addEventListener("focusout", function(e){
   sideNavBtn.classList.remove("side-nav__btn--active");
   sideNavBtn.classList.remove("x-btn__btn--active");
   sideNavMenu.classList.remove("side-nav--active");
 });
 
-sideNavMenu.addEventListener("touchstart", function(){
+sideNavMenu.addEventListener('touchstart', handleTouchStart, false);  
+sideNavMenu.addEventListener('touchmove', handleTouchMoveSideNav, false);
 
-});
-sideNavMenu.addEventListener("touchstart", function(){
+let xTouch = null;
+let yTouch = null;
 
-});
+function getTouches(e) {
+  return e.touches;
+}                                                     
+                                                                         
+function handleTouchStart(e) {
+    const firstTouch = getTouches(e)[0];                                      
+    xTouch = firstTouch.clientX;                                      
+    yTouch = firstTouch.clientY;                                      
+};                                                
+                                                                         
+function handleTouchMoveSideNav(e) {
+    if ( ! xTouch ) {
+        return;
+    }
+
+    var xRelease = e.touches[0].clientX;
+
+    var xDiff = xTouch - xRelease;
+    
+    if ( xDiff > 8 ) {
+        /* Left swipe */
+        sideNavBtn.classList.remove("side-nav__btn--active");
+        sideNavBtn.classList.remove("x-btn__btn--active");
+        sideNavMenu.classList.remove("side-nav--active"); 
+    } else if ( xDiff < -8 ) {
+        /* Right swipe */
+        sideNavBtn.classList.add("side-nav__btn--active");
+        sideNavBtn.classList.add("x-btn__btn--active");
+        sideNavMenu.classList.add("side-nav--active"); 
+    }                       
+
+    /* reset values */
+    xTouch = null;
+    yTouch = null;                                             
+};
 
 // links function
 const sideNavLink = document.querySelectorAll('.side-nav__link')
@@ -862,6 +913,32 @@ document.addEventListener('click', function(event) {
   }
 });
 
+sideBarMenu.addEventListener('touchstart', handleTouchStart, false);  
+sideBarMenu.addEventListener('touchmove', handleTouchMoveSideBar, false);
+                                                                                                  
+                                                                         
+function handleTouchMoveSideBar(e) {
+    if ( ! xTouch ) {
+        return;
+    }
+
+    var xRelease = e.touches[0].clientX;
+
+    var xDiff = xTouch - xRelease;
+    
+    if ( xDiff > 8 ) {
+        /* Left swipe */
+        sideBarMenu.classList.add("sidebar--active");
+    } else if ( xDiff < -8 ) {
+        /* Right swipe */
+        sideBarMenu.classList.remove("sidebar--active");
+    }                       
+
+    /* reset values */
+    xTouch = null;
+    yTouch = null;                                             
+};
+
 
 /////////////////////////////////////////////////////////////////////////
 //////////////////////// starting the dropbox ///////////////////////////
@@ -879,7 +956,7 @@ VirtualSelect.init({
     // dropboxWidth: '30rem',
     // tooltipAlignment: 'center',
     // tooltipMaxWidth: '50rem',
-    showDropboxAsPopup: false,
+    showDropboxAsPopRelease: false,
     // popupDropboxBreakpoint: '400px',
     useGroupValue: true,
     markSearchResults: true,

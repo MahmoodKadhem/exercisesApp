@@ -1208,7 +1208,7 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
   border-radius: 15rem;
   min-width: 20%;
   transition: all 0.4s;
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
 }
 .side-nav__list {
   list-style: none;
@@ -1341,6 +1341,7 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
   display: flex;
   align-items: stretch;
   width: 100vw;
+  max-height: 100vh;
 }
 @media only screen and (max-width: 56.25em) {
   .container {
@@ -1349,10 +1350,11 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
 }
 
 .main {
-  min-height: calc(100vh - (100vh - 100%));
+  min-height: 100vh;
   width: 100%;
+  overflow-y: auto;
   margin-left: 7rem;
-  margin-right: 3rem;
+  margin-right: 4rem;
   position: relative;
   display: flex;
   flex-direction: column;

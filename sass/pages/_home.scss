@@ -2,6 +2,7 @@
   display: flex;
   align-items: stretch;
   width: 100vw;
+  max-height: 100vh;
 
   @include respond(tab-port) {
     margin: 0;
@@ -9,11 +10,13 @@
 }
 
 .main{
-  min-height: calc(100vh - calc(100vh - 100%));
+  // min-height: calc(100vh - calc(100vh - 100%));
+  min-height: 100vh;
   width: 100%;
+  overflow-y:auto; 
   // padding: 3rem;
   margin-left: 7rem;
-  margin-right: 3rem;
+  margin-right: 4rem;
   position: relative;
   display: flex;
   flex-direction: column;

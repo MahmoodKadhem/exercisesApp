@@ -635,7 +635,7 @@ function selectedItem(dataObj,lang){
   item.appendChild(btn);
   item.appendChild(title);
 
-  document.querySelector("#sideBarList").appendChild(item);
+  document.querySelector("#sideBarList").prepend(item);
 
   // pupulate data
   populateMessageData();
@@ -797,11 +797,17 @@ function populateMessageData(){
 // prevent send messages before selection
 function preventClick(e){
   e.preventDefault()
+  const num = document.querySelector('#mobileNum').value;
+  if (num.length === 0) return alert('Please enter a mobile number!');
+  if (num.length < 8) return alert('Mobile number should be 8 digits!');
+  if (Object.keys(messageList).length === 0 ) return alert('No cards have been selected!');
 }
 
 function clearMessageList(){
+  const num = document.querySelector('#mobileNum').value;
+  if(num.length !== 8 || Object.keys(messageList).length === 0) return
   messageList = {};
-  const checkedBoxes = document.querySelectorAll('input[name="card"]:checked');
+  const checkedBoxes = document.querySelectorAll('input[name="card_checkbox"]:checked');
   const sideBarList = document.getElementById('sideBarList');
   const MobileInput = document.getElementById('mobileNum');
   checkedBoxes.forEach(checkbox => checkbox.checked = false);

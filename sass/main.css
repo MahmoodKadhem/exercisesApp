@@ -1099,6 +1099,15 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
 .sidebar__selected ul li button:hover {
   color: #000000;
 }
+.sidebar__selected ul li ~ .sidebar__no-select {
+  display: none;
+}
+.sidebar__selected ul .sidebar__no-select {
+  color: rgb(255, 0, 0);
+  border: 1px solid red;
+  text-align: center;
+  font-size: 2rem;
+}
 .sidebar__text {
   align-self: start;
 }

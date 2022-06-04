@@ -234,6 +234,17 @@
                         color: #000000;
                     }
                 }
+
+                & ~ .sidebar__no-select{
+                    display: none;
+                }
+            }
+
+            & .sidebar__no-select{
+                color: rgb(255, 0, 0);
+                border: 1px solid red;
+                text-align: center;
+                font-size: 2rem;
             }
         }
     }

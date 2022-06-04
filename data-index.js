@@ -216,7 +216,7 @@ const exercisesGif = {
          // ID = GfNkIs000
          {
             "id": "GfNkIs001",
-            "title":"testTitle",
+            "title":"Inst Neck Iso Extension",
             "tumbUrl":["./docs/Gifs/02-Neck/Isometrics/Thumbnail/Inst_Neck_Iso_Extension.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Isometrics/Big/Inst_Neck_Iso_Extension.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
@@ -224,7 +224,7 @@ const exercisesGif = {
          },
          {
             "id": "GfNkIs002",
-            "title":"testTitle",
+            "title":"Inst Neck Iso Flexion",
             "tumbUrl":["./docs/Gifs/02-Neck/Isometrics/Thumbnail/Inst_Neck_Iso_Flexion.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Isometrics/Big/Inst_Neck_Iso_Flexion.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
@@ -232,7 +232,7 @@ const exercisesGif = {
          },
          {
             "id": "GfNkIs003",
-            "title":"testTitle",
+            "title":"Inst Neck Iso Rotation",
             "tumbUrl":["./docs/Gifs/02-Neck/Isometrics/Thumbnail/Inst_Neck_Iso_Rotation.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Isometrics/Big/Inst_Neck_Iso_Rotation.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
@@ -240,7 +240,7 @@ const exercisesGif = {
          },
          {
             "id": "GfNkIs004",
-            "title":"testTitle",
+            "title":"Inst Neck Iso Sidebending",
             "tumbUrl":["./docs/Gifs/02-Neck/Isometrics/Thumbnail/Inst_Neck_Iso_Sidebending.gif"],
             "bigImgs":["./docs/Gifs/02-Neck/Isometrics/Big/Inst_Neck_Iso_Sidebending.gif"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
@@ -2032,14 +2032,6 @@ const exercisesGif = {
             "link":"https://www.dropbox.com/sh/myrz2yr0ynuybsm/AABqbnYkU9qC8c9x-E0cHcDQa/flexion_stretch.gif?raw=1",
          },
          {
-            "id": "GfTrSh003",
-            "title":"General Back Exercises Ara",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/General_Back_Exercises_Ara.gif"],
-            "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/General_Back_Exercises_Ara.gif"],
-            "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
-            "link":"https://www.dropbox.com/sh/myrz2yr0ynuybsm/AAAVQvKN5EIOuYSMM-U5Yjqwa/General_Back_Exercises_Ara.jpg?raw=1",
-         },
-         {
             "id": "GfTrSh004",
             "title":"knee to opps",
             "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/knee_to_opps.gif"],
@@ -2714,7 +2706,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/08-Knee/AROM/Thumbnail/Knee_AROM_Flexion_in_Standing.gif"],
             "bigImgs":["./docs/Gifs/08-Knee/AROM/Big/Knee_AROM_Flexion_in_Standing.gif"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
-            "link":"https://www.dropbox.com/sh/jqble6zuknsztvd/AADC1XqwZTytfPBLAljUohXVa/Knee_AROM_Flexion_in_Standing_1.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/jqble6zuknsztvd/AAA51TmY0jBJ11XxfmApvtSYa/Knee_AROM_Flexion_in_Standing.gif?raw=1",
          },
          {
             "id": "GfKnAr003",
@@ -2722,7 +2714,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/08-Knee/AROM/Thumbnail/Knee_AROM_Flexion_in_Standing_1.gif"],
             "bigImgs":["./docs/Gifs/08-Knee/AROM/Big/Knee_AROM_Flexion_in_Standing_1.gif"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
-            "link":"https://www.dropbox.com/sh/jqble6zuknsztvd/AAA51TmY0jBJ11XxfmApvtSYa/Knee_AROM_Flexion_in_Standing.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/jqble6zuknsztvd/AADC1XqwZTytfPBLAljUohXVa/Knee_AROM_Flexion_in_Standing_1.gif?raw=1",
          },
          {
             "id": "GfKnAr004",
@@ -2774,7 +2766,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Ball_Hip_Iso_Adduction.gif"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/Ball_Hip_Iso_Adduction.gif"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
-            "link":"https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AAAlEr3F2f-R1T5u2CsmBZHsa/Ball_Hip_Iso_Adduction_1.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AACEb6NttAbA2t2asaYsP3pra/Ball_Hip_Iso_Adduction.gif?raw=1",
          },
          {
             "id": "GfHpIs005",
@@ -2782,7 +2774,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Ball_Hip_Iso_Adduction_1.gif"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/Ball_Hip_Iso_Adduction_1.gif"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
-            "link":"https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AACEb6NttAbA2t2asaYsP3pra/Ball_Hip_Iso_Adduction.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AAAlEr3F2f-R1T5u2CsmBZHsa/Ball_Hip_Iso_Adduction_1.gif?raw=1",
          },
          {
             "id": "GfHpIs006",
@@ -2854,7 +2846,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/SLR.gif"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/SLR.gif"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
-            "link":"https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AAC_4Sz2sZG_8RNx0NeMSW9Aa/SLR_2.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AADo3ylwS6xbQ8-fZ5ryElALa/SLR.gif?raw=1",
          },
          {
             "id": "GfHpIs015",
@@ -2862,7 +2854,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/SLR_2.gif"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/SLR_2.gif"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
-            "link":"https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AADo3ylwS6xbQ8-fZ5ryElALa/SLR.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AAC_4Sz2sZG_8RNx0NeMSW9Aa/SLR_2.gif?raw=1",
          },
       ],
       "Strengthening":[
@@ -2898,7 +2890,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Forward_Lunges.gif"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Forward_Lunges.gif"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
-            "link":"https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AACAWCmB6Iqz-HPVm3mkPDB4a/Forward_Lunges_1.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AACaukB8RNXP_Weqj6DVJSeUa/Forward_Lunges.gif?raw=1",
          },
          {
             "id": "GfHpSr005",
@@ -2906,7 +2898,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Forward_Lunges_1.gif"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Forward_Lunges_1.gif"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
-            "link":"https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AACaukB8RNXP_Weqj6DVJSeUa/Forward_Lunges.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AACAWCmB6Iqz-HPVm3mkPDB4a/Forward_Lunges_1.gif?raw=1",
          },
          {
             "id": "GfHpSr006",
@@ -2962,7 +2954,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Sit_to_Stand.gif"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Sit_to_Stand.gif"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
-            "link":"https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AAA1-LJgCJ3LbkK0dJOvjuqZa/sit_to_stand_2.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AAB5DbZkGrJDUkRxGpwSxiVMa/Sit_to_Stand.gif?raw=1",
          },
          {
             "id": "GfHpSr013",
@@ -2970,7 +2962,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/sit_to_stand_2.gif"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/sit_to_stand_2.gif"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
-            "link":"https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AAB5DbZkGrJDUkRxGpwSxiVMa/Sit_to_Stand.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AAA1-LJgCJ3LbkK0dJOvjuqZa/sit_to_stand_2.gif?raw=1",
          },
          {
             "id": "GfHpSr014",
@@ -3246,7 +3238,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/09-Foot/Others/Thumbnail/Ankle_Ball_Rolling_1.gif"],
             "bigImgs":["./docs/Gifs/09-Foot/Others/Big/Ankle_Ball_Rolling_1.gif"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
-            "link":"testLink",
+            "link":"https://www.dropbox.com/sh/t72fq97x5ol3h7n/AAAVHfBNbLP5nNflNTaqkPgJa/Ankle_Ball_Rolling_1.gif?raw=1",
          },
          {
             "id": "GfFtOt002",
@@ -3254,7 +3246,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/09-Foot/Others/Thumbnail/Ankle_Ball_Rolling_2.gif"],
             "bigImgs":["./docs/Gifs/09-Foot/Others/Big/Ankle_Ball_Rolling_2.gif"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
-            "link":"testLink",
+            "link":"https://www.dropbox.com/sh/t72fq97x5ol3h7n/AAD5I8dihqr2XUJvq6M1kcZqa/Ankle_Ball_Rolling_2.gif?raw=1",
          },
          {
             "id": "GfFtOt003",
@@ -3262,7 +3254,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/09-Foot/Others/Thumbnail/Ankle_Frozen_Can_Exercise.gif"],
             "bigImgs":["./docs/Gifs/09-Foot/Others/Big/Ankle_Frozen_Can_Exercise.gif"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
-            "link":"testLink",
+            "link":"https://www.dropbox.com/sh/t72fq97x5ol3h7n/AABL7GFpcG03jk7dAwcLY17Na/Ankle_Frozen_Can_Exercise.gif?raw=1",
          },
          {
             "id": "GfFtOt004",
@@ -3270,7 +3262,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/09-Foot/Others/Thumbnail/Ankle_Heel_Walking.gif"],
             "bigImgs":["./docs/Gifs/09-Foot/Others/Big/Ankle_Heel_Walking.gif"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
-            "link":"testLink",
+            "link":"https://www.dropbox.com/sh/t72fq97x5ol3h7n/AAAKzKofzBDhl4tYBSilWE5Qa/Ankle_Heel_Walking.gif?raw=1",
          },
          {
             "id": "GfFtOt005",
@@ -3278,7 +3270,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/09-Foot/Others/Thumbnail/Ankle_Toe_Walking.gif"],
             "bigImgs":["./docs/Gifs/09-Foot/Others/Big/Ankle_Toe_Walking.gif"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
-            "link":"testLink",
+            "link":"https://www.dropbox.com/sh/t72fq97x5ol3h7n/AACkJsoQfkcr1oqeVHu3j9zla/Ankle_Toe_Walking.gif?raw=1",
          },
       ],
       "Strengthening":[
@@ -3385,7 +3377,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Unilateral_Stand_on_Toes.gif"],
             "bigImgs":["./docs/Gifs/09-Foot/Strengthening/Big/Unilateral_Stand_on_Toes.gif"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
-            "link":"https://www.dropbox.com/sh/1kqw2dx8egxde23/AAAnwinE8lqCyleDw869SjSRa/Unilateral_Stand_on_Toes_and_Squat.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/1kqw2dx8egxde23/AACvzV1sFNXQarWqc0f2gbDya/Unilateral_Stand_on_Toes.gif?raw=1",
          },
          {
             "id": "GfFtSr014",
@@ -3393,7 +3385,7 @@ const exercisesGif = {
             "tumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Unilateral_Stand_on_Toes_and_Squat.gif"],
             "bigImgs":["./docs/Gifs/09-Foot/Strengthening/Big/Unilateral_Stand_on_Toes_and_Squat.gif"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
-            "link":"https://www.dropbox.com/sh/1kqw2dx8egxde23/AACvzV1sFNXQarWqc0f2gbDya/Unilateral_Stand_on_Toes.gif?raw=1",
+            "link":"https://www.dropbox.com/sh/1kqw2dx8egxde23/AAAnwinE8lqCyleDw869SjSRa/Unilateral_Stand_on_Toes_and_Squat.gif?raw=1",
          },
       ],
       "Stretchings":[
@@ -4966,7 +4958,7 @@ const ortho = {
             "./docs/Ortho/06-Back/Big/018-Low_Back_Pain_Exercises_-_Ara.jpg",
          ],
          "araQRCode":"./docs/Ortho/06-Back/QRcode/018-Low_Back_Pain_Exercises_-_Ara.jpg",
-         "tags":[ "test", "test", "test"],
+         "tags":[ "LBP", "Back Strengthening Exe", "Back Stretching Exe"],
          "araDir": "./docs/Ortho/06-Back/018-Low_Back_Pain_Exercises_-_Ara.jpg",
          "araLink":"https://drive.google.com/open?id=1PoRVC_C6AwIFaiKfaw1cDvzEVWv6Y9F8",
       },
@@ -5976,7 +5968,7 @@ const pedia = [
          "./docs/Pedia/Big/004-Sever's_Disease_-_Eng-2.jpg",
       ],
       "engQRCode":"./docs/Pedia/QRcode/004-Sever's_Disease_-_Eng.jpg",
-      "tags":[ "Sever's Disease", "Calf Stretch Exe", "test", "test"],
+      "tags":[ "pediatric", "Sever's Disease", "Calf Stretch Exe"],
       "engDir": "./docs/Pedia/004-Sever's_Disease_-_Eng.pdf",
       "engLink":"https://drive.google.com/file/d/1trHOk5mk1cRoUXt7u8t4IIQAw5t1NmDR/view?usp=sharing"
    },
@@ -6066,7 +6058,7 @@ const pedia = [
          "./docs/Pedia/Big/007-W-Sitting_-_Eng-2.jpg",
       ],
       "engQRCode":"./docs/Pedia/QRcode/007-W-Sitting_-_Eng.jpg",
-      "tags":[ "test", "test", "test"],
+      "tags":[ "pediatric"],
       "engDir": "./docs/Pedia/007-W-Sitting_-_Eng.pdf",
       "engLink":"https://drive.google.com/file/d/1NsAkIIYtxQULHxnxnjMfP2TfXjN3pI2K/view?usp=sharing"
    },
@@ -6649,7 +6641,7 @@ const others = {
       },
       {
          "id": "Erg005",
-         "title":"test",
+         "title":"sport shoes",
          "tumbUrl":[
             "./docs/Other/Ergonomics/Thumbnail/005-sport_shoes-_Ara.jpg",
          ],
@@ -6657,7 +6649,7 @@ const others = {
             "./docs/Other/Ergonomics/Big/005-sport_shoes-_Ara.jpg",
          ],
          "araQRCode":"./docs/Other/Ergonomics/QRcode/005-sport_shoes-_Ara.jpg",
-         "tags":[ "test", "test", "test"],
+         "tags":[ "Foot", "Foot Pain", "Shoes", "Sport Shoes"],
          "araDir": "./docs/Other/Ergonomics/005-sport_shoes-_Ara.jpg",
          "araLink":"https://qrgo.page.link/2Eh5J",
       },

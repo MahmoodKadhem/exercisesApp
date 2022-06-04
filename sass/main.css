@@ -554,6 +554,7 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
 }
 
 .card-container {
+  position: relative;
   max-height: 100%;
   max-width: 100%;
   width: 100%;
@@ -848,6 +849,22 @@ input:checked ~ .switch-btn__labels > .switch-btn__label--2 {
 }
 .qr__btn:hover {
   background-color: var(--p-shiny-color);
+}
+
+.info-card {
+  position: fixed;
+}
+.info-card--nav {
+  top: 10%;
+  left: 8rem;
+}
+.info-card--filter {
+  top: 0;
+}
+.info-card--bar {
+  top: 48%;
+  right: 5rem;
+  transform: translateY(-50%);
 }
 
 .filter-nav {

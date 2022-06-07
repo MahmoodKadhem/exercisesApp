@@ -179,8 +179,7 @@ function creatCard(data){
     imgEle.src = img;
     imgEle.alt = data.title + i;
     imgEle.onclick = imgClickCheckBox;
-    // imgEle.onerror =`this.onerror=null; this.src='${data["tumb-backup"]}'`
-    imgEle.onerror = function(){this.onerror=null; this.src=data["tumb-backup"]};
+    imgEle.onerror = function(){this.onerror=null; this.src=data["tumbBackup"]};
     slideEle.appendChild(imgEle);
     sliderEle.appendChild(slideEle);
   });
@@ -319,16 +318,42 @@ function fullscreenSlider(btn){
 
 // change the slider images from thum to big
 function switchImages(ele){
+  let obj =JSON.parse(ele.closest(".card").dataset.obj)
+  // check whether local image is used or online.
+  const currentUrl = ele.querySelector('img').src;
+  const thumbUrl = obj.tumbUrl[0].slice(1);
+  const bigUrl = obj.bigImgs[0].slice(1);
+  // console.log(currentUrl);
+  // console.log(thumbUrl);
+  // console.log(bigUrl);
+  // console.log(obj.bigBackup[0]);
+  // console.log(obj.tumbBackup[0]);
+
+  
+  
+  // if (ele.classList.contains('card__slider--fullscreen')){
+  //   ele.querySelectorAll('img').forEach((img,i) => img.src = obj.bigImgs[i]);
+  // } else {
+  //   ele.querySelectorAll('img').forEach(img => img.src = obj.tumbUrl[i]);
+  // }
+
+
   if (ele.classList.contains('card__slider--fullscreen')){
-    ele.querySelectorAll('img').forEach(img => {
-      const newSrc = img.src.replace('Thumbnail','Big');
-      img.src = newSrc;
-    });
+    // if local or online
+    if (currentUrl.includes(thumbUrl)) {
+      ele.querySelectorAll('img').forEach((img,i) => img.src = obj.bigImgs[i]);
+    }
+    else {
+      ele.querySelectorAll('img').forEach((img,i) => img.src = obj.bigBackup[i]);
+    }
   } else {
-    ele.querySelectorAll('img').forEach(img => {
-      const newSrc = img.src.replace('Big','Thumbnail');
-      img.src = newSrc;
-    });
+    if (currentUrl.includes(bigUrl)) {
+      console.log("local thumb");
+      ele.querySelectorAll('img').forEach((img,i) => img.src = obj.tumbUrl[i]);
+    }
+    else {
+      ele.querySelectorAll('img').forEach((img,i) => img.src = obj.tumbBackup[i]);
+    }
   }
 }
 
@@ -802,15 +827,19 @@ function preventClick(e){
   if (Object.keys(messageList).length === 0 ) return alert('No cards have been selected!');
 }
 
-function clearMessageList(){
+function checkBeforeSending(){
   const num = document.querySelector('#mobileNum').value;
   if(num.length !== 8 || Object.keys(messageList).length === 0) return
+  clearMessageList()
+}
+
+function clearMessageList(){
   messageList = {};
   const checkedBoxes = document.querySelectorAll('input[name="card_checkbox"]:checked');
   const sideBarList = document.getElementById('sideBarList');
   const MobileInput = document.getElementById('mobileNum');
   checkedBoxes.forEach(checkbox => checkbox.checked = false);
-  sideBarList.innerHTML = '';
+  sideBarList.innerHTML = '<li class="sidebar__no-select">Nothing Selected</li>';
   MobileInput.value = '';
   sideBarMenu.classList.remove("sidebar--active");
   populateMessageData();
@@ -818,7 +847,9 @@ function clearMessageList(){
 
 populateMessageData()
 
-
+document.querySelector('#clearBtn').addEventListener('click', ()=> {
+  clearMessageList()
+});
 /////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////
 ///////////////////////// side navigation////////////////////////////

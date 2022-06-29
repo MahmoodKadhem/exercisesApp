@@ -179,7 +179,6 @@ function creatCard(data){
     imgEle.src = img;
     imgEle.alt = data.title + i;
     imgEle.onclick = imgClickCheckBox;
-    // working on error
     imgEle.onerror = function(){this.onerror=null; this.src=data.thumbBackup[i]};
     slideEle.appendChild(imgEle);
     sliderEle.appendChild(slideEle);

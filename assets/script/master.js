@@ -139,31 +139,6 @@ let messageList = {
 // selectedData.forEach(entry => creatCard(entry));
 ///////////////////////////////////////////////////////////
 
-
-
-
-// const imgFile = './docs/Gifs/01-Face/Thumbnail/Angry.gif';
-// let docFile
-// // window.addEventListener("load", event => {
-// //     fetch(new Request(imgFile, {method: 'HEAD', mode: 'no-cors'}))
-// //     .then(function() {
-// //         alert('success');
-// //         docFile = true
-// //     })
-// //     .catch(function() {
-// //         alert('failure');
-// //         docFile = false
-// //     });
-// // });
- 
-// window.addEventListener("load", event => {
-//     var image = new Image();
-//     image.src = imgFile;
- 
-//     image.addEventListener('load', () => docFile = true);
-//     image.addEventListener('error', () => docFile = false);
-// });
-
 // creating a card based on given data
 function creatCard(data){
   const cardContainer = document.querySelector(".card-container");
@@ -201,19 +176,11 @@ function creatCard(data){
     const slideEle = document.createElement('div');
     slideEle.classList.add('card__slide');
     const imgEle = document.createElement('img');
-    // // USAGE
-    // checkIfImageExists(img, (exists) => {
-    //   if (exists) {
-    //     imgEle.src = img;
-    //   } else {
-    //     imgEle.src = data["thumbBackup"];
-    //   }
-    // });
     imgEle.src = img;
     imgEle.alt = data.title + i;
     imgEle.onclick = imgClickCheckBox;
     // working on error
-    imgEle.onerror = function(){this.onerror=null; this.src=data["thumbBackup"]};
+    imgEle.onerror = function(){this.onerror=null; this.src=data.thumbBackup[i]};
     slideEle.appendChild(imgEle);
     sliderEle.appendChild(slideEle);
   });

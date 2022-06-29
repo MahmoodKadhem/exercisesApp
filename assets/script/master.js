@@ -830,6 +830,8 @@ function preventClick(e){
 function checkBeforeSending(){
   const num = document.querySelector('#mobileNum').value;
   if(num.length !== 8 || Object.keys(messageList).length === 0) return
+  // testing collecting data
+  // download(num, 'json.txt', 'text/plain');
   clearMessageList()
 }
 
@@ -850,6 +852,26 @@ populateMessageData()
 document.querySelector('#clearBtn').addEventListener('click', ()=> {
   clearMessageList()
 });
+
+
+//////////////////////////Testing save to local file/////////////////
+/////////////////////////////////////////////////////////////////////
+
+////////////////////////////save as a download not applicable////////
+function download(content, fileName, contentType) {
+  var a = document.createElement("a");
+  var file = new Blob([content], {type: contentType});
+  a.href = URL.createObjectURL(file);
+  a.download = fileName;
+  a.click();
+}
+
+//////////////////////////how to update a json file javascript////////
+
+
+
+
+
 /////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////
 ///////////////////////// side navigation////////////////////////////

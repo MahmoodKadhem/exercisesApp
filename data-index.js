@@ -1,9 +1,9 @@
 // {
       //    "id": "GfHdAr00i",
       //    "title":"testTitle",
-      //    "tumbUrl":[testThumb],
+      //    "thumbUrl":[testThumb],
       //    "bigImgs":[testBig],
-      //    "tumbBackup":[],
+      //    "thumbBackup":[],
       //    "bigBackup":[],
       //    "tags":[ "test", "test", "test"],
       //    "araLink":"testLink",
@@ -14,11 +14,11 @@
 // {
       //    "id": "OrFt001",
       //    "title":"test",
-      //    "tumbUrl":[test],
+      //    "thumbUrl":[test],
       //    "bigImgs":[test],
       //    "araQRCode":test,
       //    "engQRCode":test,
-      //    "tumbBackup":[],
+      //    "thumbBackup":[],
       //    "bigBackup":[],
       //    "tags":[ "test", "test", "test"],
       //    "araDir": test,
@@ -39,8 +39,8 @@ const exercisesGif = {
          {
             "id": "GfFc001",
             "title":"Angry",
-            "tumbUrl":["./docs/Gifs/01-Face/Thumbnail/Angry.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/o1hwod4tv53k93l/AADMu5yQCFa93EgR1_JjUk-4a/Angry.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/01-Face/Thumbnail/Angry.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/o1hwod4tv53k93l/AADMu5yQCFa93EgR1_JjUk-4a/Angry.gif?raw=1"],
             "bigImgs":["./docs/Gifs/01-Face/Big/Angry.gif"],
             "bigBackup":["https://www.dropbox.com/s/ccx42s4k4n7b9u2/Angry.gif?raw=1"],
             "tags":[ "facial palsy", "Bell's Palsy", "Face Exe"],
@@ -49,8 +49,8 @@ const exercisesGif = {
          {
             "id": "GfFc002",
             "title":"Close eyes",
-            "tumbUrl":["./docs/Gifs/01-Face/Thumbnail/Close_eyes.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/o1hwod4tv53k93l/AADqiStNsvEWtwDPkPP1e_gZa/Close_eyes.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/01-Face/Thumbnail/Close_eyes.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/o1hwod4tv53k93l/AADqiStNsvEWtwDPkPP1e_gZa/Close_eyes.gif?raw=1"],
             "bigImgs":["./docs/Gifs/01-Face/Big/Close_eyes.gif"],
             "bigBackup":["https://www.dropbox.com/s/l4cytgul9yo18ji/Close_eyes.gif?raw=1"],
             "tags":[ "facial palsy", "Bell's Palsy", "Face Exe"],
@@ -59,8 +59,8 @@ const exercisesGif = {
          {
             "id": "GfFc003",
             "title":"Full mouth",
-            "tumbUrl":["./docs/Gifs/01-Face/Thumbnail/Full_mouth.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/o1hwod4tv53k93l/AAANUBBubc8EXYx8tIFGoqwHa/Full_mouth.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/01-Face/Thumbnail/Full_mouth.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/o1hwod4tv53k93l/AAANUBBubc8EXYx8tIFGoqwHa/Full_mouth.gif?raw=1"],
             "bigImgs":["./docs/Gifs/01-Face/Big/Full_mouth.gif"],
             "bigBackup":["https://www.dropbox.com/s/bk68sggjewoeayf/Full_mouth.gif?raw=1"],
             "tags":[ "facial palsy", "Bell's Palsy", "Face Exe"],
@@ -69,8 +69,8 @@ const exercisesGif = {
          {
             "id": "GfFc004",
             "title":"Neck Contraction",
-            "tumbUrl":["./docs/Gifs/01-Face/Thumbnail/Neck_Contraction.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/o1hwod4tv53k93l/AACkUwGsMAn1a9F-ThiIWuSga/Neck_Contraction.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/01-Face/Thumbnail/Neck_Contraction.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/o1hwod4tv53k93l/AACkUwGsMAn1a9F-ThiIWuSga/Neck_Contraction.gif?raw=1"],
             "bigImgs":["./docs/Gifs/01-Face/Big/Neck_Contraction.gif"],
             "bigBackup":["https://www.dropbox.com/s/plrlfh88a27lo1f/Neck_Contraction.gif?raw=1"],
             "tags":[ "facial palsy", "Bell's Palsy", "Face Exe"],
@@ -79,8 +79,8 @@ const exercisesGif = {
          {
             "id": "GfFc005",
             "title":"Pout",
-            "tumbUrl":["./docs/Gifs/01-Face/Thumbnail/Pout.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/o1hwod4tv53k93l/AACsrTUZXjZ_ZUAuz-YllstSa/Pout.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/01-Face/Thumbnail/Pout.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/o1hwod4tv53k93l/AACsrTUZXjZ_ZUAuz-YllstSa/Pout.gif?raw=1"],
             "bigImgs":["./docs/Gifs/01-Face/Big/Pout.gif"],
             "bigBackup":["https://www.dropbox.com/s/tdlfnbatz203t4w/Pout.gif?raw=1"],
             "tags":[ "facial palsy", "Bell's Palsy", "Face Exe"],
@@ -89,8 +89,8 @@ const exercisesGif = {
          {
             "id": "GfFc006",
             "title":"Raise eyebrows",
-            "tumbUrl":["./docs/Gifs/01-Face/Thumbnail/Raise_eyebrows.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/o1hwod4tv53k93l/AABFSX6MxxkFG4Jz47Eiv8nWa/Raise_eyebrows.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/01-Face/Thumbnail/Raise_eyebrows.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/o1hwod4tv53k93l/AABFSX6MxxkFG4Jz47Eiv8nWa/Raise_eyebrows.gif?raw=1"],
             "bigImgs":["./docs/Gifs/01-Face/Big/Raise_eyebrows.gif"],
             "bigBackup":["https://www.dropbox.com/s/hphfaxfn8kasrsy/Raise_eyebrows.gif?raw=1"],
             "tags":[ "facial palsy", "Bell's Palsy", "Face Exe"],
@@ -99,8 +99,8 @@ const exercisesGif = {
          {
             "id": "GfFc007",
             "title":"Sad",
-            "tumbUrl":["./docs/Gifs/01-Face/Thumbnail/Sad.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/o1hwod4tv53k93l/AADYM3mikBaKFnE9UwzD9HWIa/Sad.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/01-Face/Thumbnail/Sad.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/o1hwod4tv53k93l/AADYM3mikBaKFnE9UwzD9HWIa/Sad.gif?raw=1"],
             "bigImgs":["./docs/Gifs/01-Face/Big/Sad.gif"],
             "bigBackup":["https://www.dropbox.com/s/76qb0wcr56lzwuo/Sad.gif?raw=1"],
             "tags":[ "facial palsy", "Bell's Palsy", "Face Exe"],
@@ -109,8 +109,8 @@ const exercisesGif = {
          {
             "id": "GfFc008",
             "title":"Smile",
-            "tumbUrl":["./docs/Gifs/01-Face/Thumbnail/Smile.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/o1hwod4tv53k93l/AAB-2v4W5F-6CPJbPmAKfh4xa/Smile.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/01-Face/Thumbnail/Smile.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/o1hwod4tv53k93l/AAB-2v4W5F-6CPJbPmAKfh4xa/Smile.gif?raw=1"],
             "bigImgs":["./docs/Gifs/01-Face/Big/Smile.gif"],
             "bigBackup":["https://www.dropbox.com/s/xnrkk6ymxw70zwg/Smile.gif?raw=1"],
             "tags":[ "facial palsy", "Bell's Palsy", "Face Exe"],
@@ -119,8 +119,8 @@ const exercisesGif = {
          {
             "id": "GfFc009",
             "title":"Teethy smile",
-            "tumbUrl":["./docs/Gifs/01-Face/Thumbnail/Teethy_smile.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/o1hwod4tv53k93l/AABTPRC5jFKAg-pbuJTBN9Hra/Teethy_smile.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/01-Face/Thumbnail/Teethy_smile.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/o1hwod4tv53k93l/AABTPRC5jFKAg-pbuJTBN9Hra/Teethy_smile.gif?raw=1"],
             "bigImgs":["./docs/Gifs/01-Face/Big/Teethy_smile.gif"],
             "bigBackup":["https://www.dropbox.com/s/9bitnupp944gzal/Teethy_smile.gif?raw=1"],
             "tags":[ "facial palsy", "Bell's Palsy", "Face Exe"],
@@ -129,8 +129,8 @@ const exercisesGif = {
          {
             "id": "GfFc010",
             "title":"Whistle",
-            "tumbUrl":["./docs/Gifs/01-Face/Thumbnail/Whistle.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/o1hwod4tv53k93l/AAANX485f68m8n2MOpF39dTxa/Whistle.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/01-Face/Thumbnail/Whistle.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/o1hwod4tv53k93l/AAANX485f68m8n2MOpF39dTxa/Whistle.gif?raw=1"],
             "bigImgs":["./docs/Gifs/01-Face/Big/Whistle.gif"],
             "bigBackup":["https://www.dropbox.com/s/fm36n9j4zj17va4/Whistle.gif?raw=1"],
             "tags":[ "facial palsy", "Bell's Palsy", "Face Exe"],
@@ -139,8 +139,8 @@ const exercisesGif = {
          {
             "id": "GfFc011",
             "title":"Wink",
-            "tumbUrl":["./docs/Gifs/01-Face/Thumbnail/Wink.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/o1hwod4tv53k93l/AACN4467CSqEeM3CjBmn0fzaa/Wink.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/01-Face/Thumbnail/Wink.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/o1hwod4tv53k93l/AACN4467CSqEeM3CjBmn0fzaa/Wink.gif?raw=1"],
             "bigImgs":["./docs/Gifs/01-Face/Big/Wink.gif"],
             "bigBackup":["https://www.dropbox.com/s/nceaco21aovq41z/Wink.gif?raw=1"],
             "tags":[ "facial palsy", "Bell's Palsy", "Face Exe"],
@@ -154,8 +154,8 @@ const exercisesGif = {
          {
             "id": "GfNkAr001",
             "title":"Neck AROM Extension",
-            "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Neck_AROM_Extension.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/a9neuvefg2capqs/AACWYDeMa4pbtp1kgg8XMNIXa/Neck_AROM_Extension.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Neck_AROM_Extension.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/a9neuvefg2capqs/AACWYDeMa4pbtp1kgg8XMNIXa/Neck_AROM_Extension.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/AROM/Big/Neck_AROM_Extension.gif"],
             "bigBackup":["https://www.dropbox.com/s/ifnwy1phuhvfpxl/Neck_AROM_Extension.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
@@ -164,8 +164,8 @@ const exercisesGif = {
          {
             "id": "GfNkAr002",
             "title":"Neck AROM FlexExt",
-            "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Neck_AROM_FlexExt.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/a9neuvefg2capqs/AADeYrQbaoyhoVHSMpVfvg9ea/Neck_AROM_FlexExt.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Neck_AROM_FlexExt.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/a9neuvefg2capqs/AADeYrQbaoyhoVHSMpVfvg9ea/Neck_AROM_FlexExt.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/AROM/Big/Neck_AROM_FlexExt.gif"],
             "bigBackup":["https://www.dropbox.com/s/38dc45f8ewwl31y/Neck_AROM_FlexExt.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
@@ -174,8 +174,8 @@ const exercisesGif = {
          {
             "id": "GfNkAr003",
             "title":"Neck AROM Flexion",
-            "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Neck_AROM_Flexion.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/a9neuvefg2capqs/AAB6Koh9K89ZiF9wNiSI86d9a/Neck_AROM_Flexion.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Neck_AROM_Flexion.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/a9neuvefg2capqs/AAB6Koh9K89ZiF9wNiSI86d9a/Neck_AROM_Flexion.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/AROM/Big/Neck_AROM_Flexion.gif"],
             "bigBackup":["https://www.dropbox.com/s/utezlzvh5objo3u/Neck_AROM_Flexion.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
@@ -184,8 +184,8 @@ const exercisesGif = {
          {
             "id": "GfNkAr004",
             "title":"Neck AROM Roations",
-            "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Neck_AROM_Roations.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/a9neuvefg2capqs/AAAq2uk60uYnO6MV5nhZlGvta/Neck_AROM_Roations.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Neck_AROM_Roations.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/a9neuvefg2capqs/AAAq2uk60uYnO6MV5nhZlGvta/Neck_AROM_Roations.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/AROM/Big/Neck_AROM_Roations.gif"],
             "bigBackup":["https://www.dropbox.com/s/i84uubqszsl5mlx/Neck_AROM_Roations.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
@@ -194,8 +194,8 @@ const exercisesGif = {
          {
             "id": "GfNkAr005",
             "title":"Neck AROM Sidebending",
-            "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Neck_AROM_Sidebending.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/a9neuvefg2capqs/AABPcaueDER7NduVvybYHCbea/Neck_AROM_Sidebending_in_Sidelying.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Neck_AROM_Sidebending.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/a9neuvefg2capqs/AABPcaueDER7NduVvybYHCbea/Neck_AROM_Sidebending_in_Sidelying.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/AROM/Big/Neck_AROM_Sidebending.gif"],
             "bigBackup":["https://www.dropbox.com/s/sx7g8g57yhjjko0/Neck_AROM_Sidebending.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
@@ -204,8 +204,8 @@ const exercisesGif = {
          {
             "id": "GfNkAr006",
             "title":"Neck AROM Sidebending in Sidelying",
-            "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Neck_AROM_Sidebending_in_Sidelying.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/a9neuvefg2capqs/AAB0MsmTZMjsugxhp7YqGOlqa/Neck_AROM_Sidebending.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Neck_AROM_Sidebending_in_Sidelying.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/a9neuvefg2capqs/AAB0MsmTZMjsugxhp7YqGOlqa/Neck_AROM_Sidebending.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/AROM/Big/Neck_AROM_Sidebending_in_Sidelying.gif"],
             "bigBackup":["https://www.dropbox.com/s/sj326nps5ym72jd/Neck_AROM_Sidebending_in_Sidelying.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
@@ -214,8 +214,8 @@ const exercisesGif = {
          {
             "id": "GfNkAr007",
             "title":"Neck Chin Tuckv In",
-            "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Neck_Chin_Tuck_In.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/a9neuvefg2capqs/AACcHZNUHUXUMnM_qeqMi5Lva/Neck_Chin_Tuck_In.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Neck_Chin_Tuck_In.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/a9neuvefg2capqs/AACcHZNUHUXUMnM_qeqMi5Lva/Neck_Chin_Tuck_In.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/AROM/Big/Neck_Chin_Tuck_In.gif"],
             "bigBackup":["https://www.dropbox.com/s/9hfd7k81yojz7du/Neck_Chin_Tuck_In.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
@@ -224,8 +224,8 @@ const exercisesGif = {
          {
             "id": "GfNkAr008",
             "title":"Shoulder Shrugs",
-            "tumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Shoulder_Shrugs.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/a9neuvefg2capqs/AABmGYkK12pU44z1Yo2N8oN5a/Shoulder_Shrugs.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/AROM/Thumbnail/Shoulder_Shrugs.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/a9neuvefg2capqs/AABmGYkK12pU44z1Yo2N8oN5a/Shoulder_Shrugs.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/AROM/Big/Shoulder_Shrugs.gif"],
             "bigBackup":["https://www.dropbox.com/s/z4ra72l5llu58s3/Shoulder_Shrugs.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
@@ -237,8 +237,8 @@ const exercisesGif = {
          {
             "id": "GfNkIs001",
             "title":"Inst Neck Iso Extension",
-            "tumbUrl":["./docs/Gifs/02-Neck/Isometrics/Thumbnail/Inst_Neck_Iso_Extension.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/pjd2tjgjsq0a2b6/AAADGAXpBJ3ApP7sAFbAvAsVa/Inst_Neck_Iso_Extension.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/Isometrics/Thumbnail/Inst_Neck_Iso_Extension.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/pjd2tjgjsq0a2b6/AAADGAXpBJ3ApP7sAFbAvAsVa/Inst_Neck_Iso_Extension.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/Isometrics/Big/Inst_Neck_Iso_Extension.gif"],
             "bigBackup":["https://www.dropbox.com/s/cn46g31u57d2mg5/Inst_Neck_Iso_Extension.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
@@ -247,8 +247,8 @@ const exercisesGif = {
          {
             "id": "GfNkIs002",
             "title":"Inst Neck Iso Flexion",
-            "tumbUrl":["./docs/Gifs/02-Neck/Isometrics/Thumbnail/Inst_Neck_Iso_Flexion.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/pjd2tjgjsq0a2b6/AAA8sH7NF_keLvJS-j2cW2KSa/Inst_Neck_Iso_Flexion.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/Isometrics/Thumbnail/Inst_Neck_Iso_Flexion.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/pjd2tjgjsq0a2b6/AAA8sH7NF_keLvJS-j2cW2KSa/Inst_Neck_Iso_Flexion.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/Isometrics/Big/Inst_Neck_Iso_Flexion.gif"],
             "bigBackup":["https://www.dropbox.com/s/xq91x37ndvqzz15/Inst_Neck_Iso_Flexion.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
@@ -257,8 +257,8 @@ const exercisesGif = {
          {
             "id": "GfNkIs003",
             "title":"Inst Neck Iso Rotation",
-            "tumbUrl":["./docs/Gifs/02-Neck/Isometrics/Thumbnail/Inst_Neck_Iso_Rotation.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/pjd2tjgjsq0a2b6/AADHFXb4FPkAtBw6btx66amja/Inst_Neck_Iso_Rotation.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/Isometrics/Thumbnail/Inst_Neck_Iso_Rotation.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/pjd2tjgjsq0a2b6/AADHFXb4FPkAtBw6btx66amja/Inst_Neck_Iso_Rotation.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/Isometrics/Big/Inst_Neck_Iso_Rotation.gif"],
             "bigBackup":["https://www.dropbox.com/s/abii2yfindu15ha/Inst_Neck_Iso_Rotation.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
@@ -267,8 +267,8 @@ const exercisesGif = {
          {
             "id": "GfNkIs004",
             "title":"Inst Neck Iso Sidebending",
-            "tumbUrl":["./docs/Gifs/02-Neck/Isometrics/Thumbnail/Inst_Neck_Iso_Sidebending.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/pjd2tjgjsq0a2b6/AAA0TQHVISXw3hYGeugIWH9Ga/Inst_Neck_Iso_Sidebending.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/Isometrics/Thumbnail/Inst_Neck_Iso_Sidebending.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/pjd2tjgjsq0a2b6/AAA0TQHVISXw3hYGeugIWH9Ga/Inst_Neck_Iso_Sidebending.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/Isometrics/Big/Inst_Neck_Iso_Sidebending.gif"],
             "bigBackup":["https://www.dropbox.com/s/asm3zdx5vfdnhdh/Inst_Neck_Iso_Sidebending.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm"],
@@ -280,8 +280,8 @@ const exercisesGif = {
          {
             "id": "GfNkOt001",
             "title":"Inst Neck Mulligan Extension",
-            "tumbUrl":["./docs/Gifs/02-Neck/Others/Thumbnail/Inst_Neck_Mulligan_Extension.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/1xh9nm0clr6ricz/AAC37mkuEsyh6ztds_AMoGqda/Inst_Neck_Mulligan_Extension.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/Others/Thumbnail/Inst_Neck_Mulligan_Extension.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/1xh9nm0clr6ricz/AAC37mkuEsyh6ztds_AMoGqda/Inst_Neck_Mulligan_Extension.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/Others/Big/Inst_Neck_Mulligan_Extension.gif"],
             "bigBackup":["https://www.dropbox.com/s/yhauqp1kd9zwhhn/Inst_Neck_Mulligan_Extension.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Mulligan"],
@@ -290,8 +290,8 @@ const exercisesGif = {
          {
             "id": "GfNkOt002",
             "title":"Inst Neck Mulligan Rotation",
-            "tumbUrl":["./docs/Gifs/02-Neck/Others/Thumbnail/Inst_Neck_Mulligan_Rotation.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/1xh9nm0clr6ricz/AAD71pxf1uSKA2ns2xOu_cxka/Inst_Neck_Mulligan_Rotation.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/Others/Thumbnail/Inst_Neck_Mulligan_Rotation.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/1xh9nm0clr6ricz/AAD71pxf1uSKA2ns2xOu_cxka/Inst_Neck_Mulligan_Rotation.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/Others/Big/Inst_Neck_Mulligan_Rotation.gif"],
             "bigBackup":["https://www.dropbox.com/s/n7qnjt410iur2a9/Inst_Neck_Mulligan_Rotation.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Mulligan"],
@@ -300,8 +300,8 @@ const exercisesGif = {
          {
             "id": "GfNkOt003",
             "title":"Inst Neck Soft Tissue Release",
-            "tumbUrl":["./docs/Gifs/02-Neck/Others/Thumbnail/Inst_Neck_Soft_Tissue_Release.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/1xh9nm0clr6ricz/AAD3a_P848BOYQ-6PPR8hqfUa/Inst_Neck_Soft_Tissue_Release.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/Others/Thumbnail/Inst_Neck_Soft_Tissue_Release.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/1xh9nm0clr6ricz/AAD3a_P848BOYQ-6PPR8hqfUa/Inst_Neck_Soft_Tissue_Release.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/Others/Big/Inst_Neck_Soft_Tissue_Release.gif"],
             "bigBackup":["https://www.dropbox.com/s/hsas6j29udte1at/Inst_Neck_Soft_Tissue_Release.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Soft Tissue Release"],
@@ -313,8 +313,8 @@ const exercisesGif = {
          {
             "id": "GfNkSr001",
             "title":"Inst Neck Side Bending Sidelying",
-            "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Inst_Neck_Side_Bending_Sidelying.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/z837rt8q84h0nzv/AACLGabstGpay-cxKuctCcj2a/Inst_Neck_Side_Bending_Sidelying.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Inst_Neck_Side_Bending_Sidelying.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/z837rt8q84h0nzv/AACLGabstGpay-cxKuctCcj2a/Inst_Neck_Side_Bending_Sidelying.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/Strengthening/Big/Inst_Neck_Side_Bending_Sidelying.gif"],
             "bigBackup":["https://www.dropbox.com/s/y4afwj16b8ae4xg/Inst_Neck_Side_Bending_Sidelying.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Strenthening"],
@@ -323,8 +323,8 @@ const exercisesGif = {
          {
             "id": "GfNkSr002",
             "title":"Inst Neck Tuck In",
-            "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Inst_Neck_Tuck_In.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/z837rt8q84h0nzv/AAALPKeogIWBrgHCpyafWHuEa/Inst_Neck_Tuck_In.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Inst_Neck_Tuck_In.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/z837rt8q84h0nzv/AAALPKeogIWBrgHCpyafWHuEa/Inst_Neck_Tuck_In.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/Strengthening/Big/Inst_Neck_Tuck_In.gif"],
             "bigBackup":["https://www.dropbox.com/s/fg3j3taodwaoz5g/Inst_Neck_Tuck_In.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Strenthening"],
@@ -333,8 +333,8 @@ const exercisesGif = {
          {
             "id": "GfNkSr003",
             "title":"Inst Neck Tuck In Flexion",
-            "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Inst_Neck_Tuck_In_Flexion.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/z837rt8q84h0nzv/AAAbZhZ6vZy0Z2IjH-eXnPsIa/Inst_Neck_Tuck_In_Flexion.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Inst_Neck_Tuck_In_Flexion.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/z837rt8q84h0nzv/AAAbZhZ6vZy0Z2IjH-eXnPsIa/Inst_Neck_Tuck_In_Flexion.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/Strengthening/Big/Inst_Neck_Tuck_In_Flexion.gif"],
             "bigBackup":["https://www.dropbox.com/s/ligszlh8oew3i7w/Inst_Neck_Tuck_In_Flexion.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Strenthening"],
@@ -343,8 +343,8 @@ const exercisesGif = {
          {
             "id": "GfNkSr004",
             "title":"Inst Neck Tuck In Flexion Quadruped",
-            "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Inst_Neck_Tuck_In_Flexion_Quadruped.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/z837rt8q84h0nzv/AADzmuXHzlUqvIzHhac8TwK3a/Inst_Neck_Tuck_In_Flexion_Quadruped.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Inst_Neck_Tuck_In_Flexion_Quadruped.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/z837rt8q84h0nzv/AADzmuXHzlUqvIzHhac8TwK3a/Inst_Neck_Tuck_In_Flexion_Quadruped.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/Strengthening/Big/Inst_Neck_Tuck_In_Flexion_Quadruped.gif"],
             "bigBackup":["https://www.dropbox.com/s/cixbrb7oko9tfzl/Inst_Neck_Tuck_In_Flexion_Quadruped.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Strenthening"],
@@ -353,8 +353,8 @@ const exercisesGif = {
          {
             "id": "GfNkSr005",
             "title":"Inst Neck Tuck In Plank",
-            "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Inst_Neck_Tuck_In_Plank.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/z837rt8q84h0nzv/AABTEzbSGiJ9knkfmb9cofq-a/Inst_Neck_Tuck_In_Plank.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Inst_Neck_Tuck_In_Plank.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/z837rt8q84h0nzv/AABTEzbSGiJ9knkfmb9cofq-a/Inst_Neck_Tuck_In_Plank.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/Strengthening/Big/Inst_Neck_Tuck_In_Plank.gif"],
             "bigBackup":["https://www.dropbox.com/s/poy801gehgh7k8z/Inst_Neck_Tuck_In_Plank.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Strenthening"],
@@ -363,8 +363,8 @@ const exercisesGif = {
          {
             "id": "GfNkSr006",
             "title":"Inst Neck Tuck In Quadruped",
-            "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Inst_Neck_Tuck_In_Quadruped.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/z837rt8q84h0nzv/AADeSs2K2tX0b36mCuS8vd78a/Inst_Neck_Tuck_In_Quadruped.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Inst_Neck_Tuck_In_Quadruped.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/z837rt8q84h0nzv/AADeSs2K2tX0b36mCuS8vd78a/Inst_Neck_Tuck_In_Quadruped.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/Strengthening/Big/Inst_Neck_Tuck_In_Quadruped.gif"],
             "bigBackup":["https://www.dropbox.com/s/2fmave1uim5sdey/Inst_Neck_Tuck_In_Quadruped.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Strenthening"],
@@ -373,8 +373,8 @@ const exercisesGif = {
          {
             "id": "GfNkSr007",
             "title":"Inst Neck Tuck In Supine",
-            "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Inst_Neck_Tuck_In_Supine.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/z837rt8q84h0nzv/AAAFf9BiqN4znZhSeu8ckS_Ra/Inst_Neck_Tuck_In_Supine.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Inst_Neck_Tuck_In_Supine.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/z837rt8q84h0nzv/AAAFf9BiqN4znZhSeu8ckS_Ra/Inst_Neck_Tuck_In_Supine.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/Strengthening/Big/Inst_Neck_Tuck_In_Supine.gif"],
             "bigBackup":["https://www.dropbox.com/s/qolu0o92w5jg4hu/Inst_Neck_Tuck_In_Supine.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Strenthening"],
@@ -383,8 +383,8 @@ const exercisesGif = {
          {
             "id": "GfNkSr008",
             "title":"Neck Tuck In Extension",
-            "tumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Neck_Tuck_In_Extension.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/z837rt8q84h0nzv/AACuVEBELpsvdiHEvXRrWE99a/Neck_Tuck_In_Extension.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/Strengthening/Thumbnail/Neck_Tuck_In_Extension.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/z837rt8q84h0nzv/AACuVEBELpsvdiHEvXRrWE99a/Neck_Tuck_In_Extension.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/Strengthening/Big/Neck_Tuck_In_Extension.gif"],
             "bigBackup":["https://www.dropbox.com/s/eerldxp14u1dbej/Neck_Tuck_In_Extension.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Strenthening"],
@@ -396,8 +396,8 @@ const exercisesGif = {
          {
             "id": "GfNkSh001",
             "title":"Inst Neck Chest Opener",
-            "tumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumbnail/Inst_Neck_Chest_Opener.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/iikdfxxqlybtare/AACmHzuklJorY-iHXOHWO8JAa/Inst_Neck_Chest_Opener.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumbnail/Inst_Neck_Chest_Opener.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/iikdfxxqlybtare/AACmHzuklJorY-iHXOHWO8JAa/Inst_Neck_Chest_Opener.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/Stretchings/Big/Inst_Neck_Chest_Opener.gif"],
             "bigBackup":["https://www.dropbox.com/s/qdw76j6ddayhnx1/Inst_Neck_Chest_Opener.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Stretchings"],
@@ -406,8 +406,8 @@ const exercisesGif = {
          {
             "id": "GfNkSh002",
             "title":"Inst Neck Extensors Stretch1",
-            "tumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumbnail/Inst_Neck_Extensors_Stretch1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/iikdfxxqlybtare/AAA77ckTxhrmy3KDl6lK0B5Ia/Inst_Neck_Extensors_Stretch1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumbnail/Inst_Neck_Extensors_Stretch1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/iikdfxxqlybtare/AAA77ckTxhrmy3KDl6lK0B5Ia/Inst_Neck_Extensors_Stretch1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/Stretchings/Big/Inst_Neck_Extensors_Stretch1.gif"],
             "bigBackup":["https://www.dropbox.com/s/4sw5ux3mze15gtg/Inst_Neck_Extensors_Stretch1.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Stretchings"],
@@ -416,8 +416,8 @@ const exercisesGif = {
          {
             "id": "GfNkSh003",
             "title":"Inst Neck Forced Fist Flexion",
-            "tumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumbnail/Inst_Neck_Forced_Fist_Flexion.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/iikdfxxqlybtare/AABsbw3vYCSvJ7jkGoG58E3sa/Inst_Neck_Forced_Fist_Flexion.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumbnail/Inst_Neck_Forced_Fist_Flexion.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/iikdfxxqlybtare/AABsbw3vYCSvJ7jkGoG58E3sa/Inst_Neck_Forced_Fist_Flexion.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/Stretchings/Big/Inst_Neck_Forced_Fist_Flexion.gif"],
             "bigBackup":["https://www.dropbox.com/s/a33wjtqcru09v8a/Inst_Neck_Forced_Fist_Flexion.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Stretchings"],
@@ -426,8 +426,8 @@ const exercisesGif = {
          {
             "id": "GfNkSh004",
             "title":"Inst Neck SCM Stretch",
-            "tumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumbnail/Inst_Neck_SCM_Stretch.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/iikdfxxqlybtare/AACOsdUJFRaHvFZ-WinjUHpga/Inst_Neck_SCM_Stretch.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumbnail/Inst_Neck_SCM_Stretch.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/iikdfxxqlybtare/AACOsdUJFRaHvFZ-WinjUHpga/Inst_Neck_SCM_Stretch.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/Stretchings/Big/Inst_Neck_SCM_Stretch.gif"],
             "bigBackup":["https://www.dropbox.com/s/9oop2e7nyrd8ja6/Inst_Neck_SCM_Stretch.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Stretchings"],
@@ -436,8 +436,8 @@ const exercisesGif = {
          {
             "id": "GfNkSh005",
             "title":"Inst Neck SCM Stretch1",
-            "tumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumbnail/Inst_Neck_SCM_Stretch1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/iikdfxxqlybtare/AAC9v818C72XqGsXiDSzzOmUa/Inst_Neck_SCM_Stretch1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumbnail/Inst_Neck_SCM_Stretch1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/iikdfxxqlybtare/AAC9v818C72XqGsXiDSzzOmUa/Inst_Neck_SCM_Stretch1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/Stretchings/Big/Inst_Neck_SCM_Stretch1.gif"],
             "bigBackup":["https://www.dropbox.com/s/vc7gp3b76m3lgu5/Inst_Neck_SCM_Stretch1.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Stretchings"],
@@ -446,8 +446,8 @@ const exercisesGif = {
          {
             "id": "GfNkSh006",
             "title":"Inst Neck SCM Stretch2",
-            "tumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumbnail/Inst_Neck_SCM_Stretch2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/iikdfxxqlybtare/AAApWPmsOcLSxmz8s5sZUioha/Inst_Neck_SCM_Stretch2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumbnail/Inst_Neck_SCM_Stretch2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/iikdfxxqlybtare/AAApWPmsOcLSxmz8s5sZUioha/Inst_Neck_SCM_Stretch2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/Stretchings/Big/Inst_Neck_SCM_Stretch2.gif"],
             "bigBackup":["https://www.dropbox.com/s/lon28r6xzh9gdx3/Inst_Neck_SCM_Stretch2.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Stretchings"],
@@ -456,8 +456,8 @@ const exercisesGif = {
          {
             "id": "GfNkSh007",
             "title":"Inst Neck Upper Trap",
-            "tumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumbnail/Inst_Neck_Upper_Trap.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/iikdfxxqlybtare/AABV3SLPXF8cHQ4dTAfwjW9ua/Inst_Neck_Upper_Trap.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/02-Neck/Stretchings/Thumbnail/Inst_Neck_Upper_Trap.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/iikdfxxqlybtare/AABV3SLPXF8cHQ4dTAfwjW9ua/Inst_Neck_Upper_Trap.gif?raw=1"],
             "bigImgs":["./docs/Gifs/02-Neck/Stretchings/Big/Inst_Neck_Upper_Trap.gif"],
             "bigBackup":["https://www.dropbox.com/s/2uuc5xn2zrn4jjm/Inst_Neck_Upper_Trap.gif?raw=1"],
             "tags":[ "Neck Pain", "Cervical disc", "Neck Spasm", "Neck Stretchings"],
@@ -471,8 +471,8 @@ const exercisesGif = {
          {
             "id": "GfShAA001",
             "title":"Sholder Stick Flexion",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Sholder_Stick_Flexion.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AACXyxhB8Jbjw4QjCTd0VSala/Sholder_Stick_Flexion.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Sholder_Stick_Flexion.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AACXyxhB8Jbjw4QjCTd0VSala/Sholder_Stick_Flexion.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Sholder_Stick_Flexion.gif"],
             "bigBackup":["https://www.dropbox.com/s/po6pqdsq0nq7bj1/Sholder_Stick_Flexion.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", "Stroke", "Hemiplegia"],
@@ -481,8 +481,8 @@ const exercisesGif = {
          {
             "id": "GfShAA002",
             "title":"Shoulder AAROM Circumduction Anti Clockwise",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_AAROM_Circumduction_Anti_Clockwise.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AABypZH0vP0UUoLm9IT4FgQma/Shoulder_AAROM_Circumduction_Anti_Clockwise.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_AAROM_Circumduction_Anti_Clockwise.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AABypZH0vP0UUoLm9IT4FgQma/Shoulder_AAROM_Circumduction_Anti_Clockwise.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Shoulder_AAROM_Circumduction_Anti_Clockwise.gif"],
             "bigBackup":["https://www.dropbox.com/s/9ck0u82u0t8cif8/Shoulder_AAROM_Circumduction_Anti_Clockwise.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", "Stroke", "Hemiplegia"],
@@ -491,8 +491,8 @@ const exercisesGif = {
          {
             "id": "GfShAA003",
             "title":"Shoulder AAROM Circumduction Clockwise",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_AAROM_Circumduction_Clockwise.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AABL7oiJDl_EAU94bgnF2BxXa/Shoulder_AAROM_Circumduction_Clockwise.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_AAROM_Circumduction_Clockwise.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AABL7oiJDl_EAU94bgnF2BxXa/Shoulder_AAROM_Circumduction_Clockwise.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Shoulder_AAROM_Circumduction_Clockwise.gif"],
             "bigBackup":["https://www.dropbox.com/s/kyqu55yn77nv3wt/Shoulder_AAROM_Circumduction_Clockwise.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", "Stroke", "Hemiplegia"],
@@ -501,8 +501,8 @@ const exercisesGif = {
          {
             "id": "GfShAA004",
             "title":"Shoulder AAROM Flexion",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_AAROM_Flexion.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AAAKhzPlRZNC4SuqDmgKTijNa/Shoulder_AAROM_Flexion.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_AAROM_Flexion.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AAAKhzPlRZNC4SuqDmgKTijNa/Shoulder_AAROM_Flexion.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Shoulder_AAROM_Flexion.gif"],
             "bigBackup":["https://www.dropbox.com/s/6uf95dhk016kab4/Shoulder_AAROM_Flexion.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", "Stroke", "Hemiplegia"],
@@ -511,8 +511,8 @@ const exercisesGif = {
          {
             "id": "GfShAA005",
             "title":"Shoulder AAROM flexion in standing",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_AAROM_flexion_in_standing.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AAD9KOnomEbX_R9Cn6gF-AMba/Shoulder_AAROM_flexion_in_standing.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_AAROM_flexion_in_standing.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AAD9KOnomEbX_R9Cn6gF-AMba/Shoulder_AAROM_flexion_in_standing.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Shoulder_AAROM_flexion_in_standing.gif"],
             "bigBackup":["https://www.dropbox.com/s/koyzbtgdi0mrohh/Shoulder_AAROM_flexion_in_standing.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", "Stroke", "Hemiplegia"],
@@ -521,8 +521,8 @@ const exercisesGif = {
          {
             "id": "GfShAA006",
             "title":"Shoulder AAROM flexion in supine",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_AAROM_flexion_in_supine.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AABzlErC_lXE3pL-SxP5Lp9Ga/Shoulder_AAROM_flexion_in_supine.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_AAROM_flexion_in_supine.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AABzlErC_lXE3pL-SxP5Lp9Ga/Shoulder_AAROM_flexion_in_supine.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Shoulder_AAROM_flexion_in_supine.gif"],
             "bigBackup":["https://www.dropbox.com/s/30wknb8yru2skgz/Shoulder_AAROM_flexion_in_supine.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", "Stroke", "Hemiplegia"],
@@ -531,8 +531,8 @@ const exercisesGif = {
          {
             "id": "GfShAA007",
             "title":"Shoulder AAROM Forward Flexion",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_AAROM_Forward_Flexion.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AACUEUoL3qXzrg2BQftVken9a/Shoulder_AAROM_Forward_Flexion.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_AAROM_Forward_Flexion.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AACUEUoL3qXzrg2BQftVken9a/Shoulder_AAROM_Forward_Flexion.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Shoulder_AAROM_Forward_Flexion.gif"],
             "bigBackup":["https://www.dropbox.com/s/oerzrpg580uoabk/Shoulder_AAROM_Forward_Flexion.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", "Stroke", "Hemiplegia"],
@@ -541,8 +541,8 @@ const exercisesGif = {
          {
             "id": "GfShAA008",
             "title":"Shoulder Forward Backward",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_Forward_Backward.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AAAhNZM_U96LsP9VwvUngmxwa/Shoulder_Forward_Backward.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_Forward_Backward.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AAAhNZM_U96LsP9VwvUngmxwa/Shoulder_Forward_Backward.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Shoulder_Forward_Backward.gif"],
             "bigBackup":["https://www.dropbox.com/s/7eoohzyr7vom2zq/Shoulder_Forward_Backward.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", "Stroke", "Hemiplegia"],
@@ -551,8 +551,8 @@ const exercisesGif = {
          {
             "id": "GfShAA009",
             "title":"Shoulder Pendulum Anti clockwise",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_Pendulum_Anti_clockwise.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AABZg9jZl3ZuoX6ZJpAk7VBPa/Shoulder_Pendulum_Anti_clockwise.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_Pendulum_Anti_clockwise.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AABZg9jZl3ZuoX6ZJpAk7VBPa/Shoulder_Pendulum_Anti_clockwise.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Shoulder_Pendulum_Anti_clockwise.gif"],
             "bigBackup":["https://www.dropbox.com/s/f07vkxlogclag9r/Shoulder_Pendulum_Anti_clockwise.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", "Stroke", "Hemiplegia"],
@@ -561,8 +561,8 @@ const exercisesGif = {
          {
             "id": "GfShAA010",
             "title":"Shoulder Pendulum Clockwise",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_Pendulum_Clockwise.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AACNHsWIgdv6-MKiDi81Oc4na/Shoulder_Pendulum_Clockwise.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_Pendulum_Clockwise.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AACNHsWIgdv6-MKiDi81Oc4na/Shoulder_Pendulum_Clockwise.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Shoulder_Pendulum_Clockwise.gif"],
             "bigBackup":["https://www.dropbox.com/s/0rp0gsy6rs491pm/Shoulder_Pendulum_Clockwise.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", "Stroke", "Hemiplegia"],
@@ -571,8 +571,8 @@ const exercisesGif = {
          {
             "id": "GfShAA011",
             "title":"Shoulder Sideways",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_Sideways.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AADXoNOY0uKE1ZYU26MlIgPHa/Shoulder_Sideways.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_Sideways.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AADXoNOY0uKE1ZYU26MlIgPHa/Shoulder_Sideways.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Shoulder_Sideways.gif"],
             "bigBackup":["https://www.dropbox.com/s/852fnmpwsnadwni/Shoulder_Sideways.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", "Stroke", "Hemiplegia"],
@@ -581,8 +581,8 @@ const exercisesGif = {
          {
             "id": "GfShAA012",
             "title":"Shoulder Stick Abduction",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_Stick_Abduction.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AAB7tiPSoZUcFPG2RX9aE6kKa/Shoulder_Stick_Abduction.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_Stick_Abduction.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AAB7tiPSoZUcFPG2RX9aE6kKa/Shoulder_Stick_Abduction.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Shoulder_Stick_Abduction.gif"],
             "bigBackup":["https://www.dropbox.com/s/6mbkob4q1kg0btg/Shoulder_Stick_Abduction.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", "Stroke", "Hemiplegia"],
@@ -591,8 +591,8 @@ const exercisesGif = {
          {
             "id": "GfShAA013",
             "title":"Shoulder Stick Extension",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_Stick_Extension.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AACpSL5FCTH-T-5vvunKIko-a/Shoulder_Stick_Extension.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_Stick_Extension.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AACpSL5FCTH-T-5vvunKIko-a/Shoulder_Stick_Extension.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Shoulder_Stick_Extension.gif"],
             "bigBackup":["https://www.dropbox.com/s/0pd64xwcvm08taf/Shoulder_Stick_Extension.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", "Stroke", "Hemiplegia"],
@@ -601,8 +601,8 @@ const exercisesGif = {
          {
             "id": "GfShAA014",
             "title":"Shoulder Stick IR&ER",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_Stick_IR&ER.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AADWVbucJYIYjVQC-p9ojKM6a/Shoulder_Stick_IR%26ER.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/AAROM/Thumbnail/Shoulder_Stick_IR&ER.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/teaxnu9k9l5qskz/AADWVbucJYIYjVQC-p9ojKM6a/Shoulder_Stick_IR%26ER.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/AAROM/Big/Shoulder_Stick_IR&ER.gif"],
             "bigBackup":["https://www.dropbox.com/s/f1i03vnvntfbzex/Shoulder_Stick_IR%26ER.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", "Stroke", "Hemiplegia"],
@@ -614,8 +614,8 @@ const exercisesGif = {
          {
             "id": "GfShAr001",
             "title":"Shoulder Abduction",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AROM/Thumbnail/Shoulder_Abduction.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/dsxzgjobvuswyqf/AAAbr_xe0Q4vYiPfBJWMhRWwa/Shoulder_Abduction.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/AROM/Thumbnail/Shoulder_Abduction.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/dsxzgjobvuswyqf/AAAbr_xe0Q4vYiPfBJWMhRWwa/Shoulder_Abduction.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/AROM/Big/Shoulder_Abduction.gif"],
             "bigBackup":["https://www.dropbox.com/s/yj87o5f0h6edfgb/Shoulder_Abduction.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", "Stroke", "Hemiplegia"],
@@ -624,8 +624,8 @@ const exercisesGif = {
          {
             "id": "GfShAr002",
             "title":"Shoulder ER",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AROM/Thumbnail/Shoulder_ER.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/dsxzgjobvuswyqf/AACntfG-yYt9Z5xJtKcYqvtWa/Shoulder_ER.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/AROM/Thumbnail/Shoulder_ER.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/dsxzgjobvuswyqf/AACntfG-yYt9Z5xJtKcYqvtWa/Shoulder_ER.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/AROM/Big/Shoulder_ER.gif"],
             "bigBackup":["https://www.dropbox.com/s/926xskf0rx77vtr/Shoulder_ER.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", "Stroke", "Hemiplegia"],
@@ -634,8 +634,8 @@ const exercisesGif = {
          {
             "id": "GfShAr003",
             "title":"Shoulder Extension",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AROM/Thumbnail/Shoulder_Extension.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/dsxzgjobvuswyqf/AABbUro6gbNIuITRgnxqpY10a/Shoulder_Extension.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/AROM/Thumbnail/Shoulder_Extension.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/dsxzgjobvuswyqf/AABbUro6gbNIuITRgnxqpY10a/Shoulder_Extension.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/AROM/Big/Shoulder_Extension.gif"],
             "bigBackup":["https://www.dropbox.com/s/z59kwbcusu34jh2/Shoulder_Extension.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", "Stroke", "Hemiplegia"],
@@ -644,8 +644,8 @@ const exercisesGif = {
          {
             "id": "GfShAr004",
             "title":"Shoulder Flexion",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AROM/Thumbnail/Shoulder_Flexion.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/dsxzgjobvuswyqf/AAA5H7DkNgJFzzsKmPYGAbNGa/Shoulder_Flexion.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/AROM/Thumbnail/Shoulder_Flexion.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/dsxzgjobvuswyqf/AAA5H7DkNgJFzzsKmPYGAbNGa/Shoulder_Flexion.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/AROM/Big/Shoulder_Flexion.gif"],
             "bigBackup":["https://www.dropbox.com/s/v7ec7rirdscq4gj/Shoulder_Flexion.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", "Stroke", "Hemiplegia"],
@@ -654,8 +654,8 @@ const exercisesGif = {
          {
             "id": "GfShAr005",
             "title":"Shoulder Rolls Backward",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AROM/Thumbnail/Shoulder_Rolls_Backward.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/dsxzgjobvuswyqf/AAD8iIzVv_RCxnm9ObwzQL9Ya/Shoulder_Rolls_Backward.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/AROM/Thumbnail/Shoulder_Rolls_Backward.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/dsxzgjobvuswyqf/AAD8iIzVv_RCxnm9ObwzQL9Ya/Shoulder_Rolls_Backward.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/AROM/Big/Shoulder_Rolls_Backward.gif"],
             "bigBackup":["https://www.dropbox.com/s/swqld4lpqwafnw3/Shoulder_Rolls_Backward.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", "Stroke", "Hemiplegia"],
@@ -664,8 +664,8 @@ const exercisesGif = {
          {
             "id": "GfShAr006",
             "title":"Shoulder Rolls Forward",
-            "tumbUrl":["./docs/Gifs/03-shoulder/AROM/Thumbnail/Shoulder_Rolls_Forward.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/dsxzgjobvuswyqf/AABifXpvbUNU447TbwhBgDcKa/Shoulder_Rolls_Forward.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/AROM/Thumbnail/Shoulder_Rolls_Forward.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/dsxzgjobvuswyqf/AABifXpvbUNU447TbwhBgDcKa/Shoulder_Rolls_Forward.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/AROM/Big/Shoulder_Rolls_Forward.gif"],
             "bigBackup":["https://www.dropbox.com/s/cu5m27fp122nih3/Shoulder_Rolls_Forward.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", "Stroke", "Hemiplegia"],
@@ -677,8 +677,8 @@ const exercisesGif = {
          {
             "id": "GfShIs001",
             "title":"Shoulder Iso Abduction",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Isometrics/Thumbnail/Shoulder_Iso_Abduction.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/uyu045xe8yfpqv6/AABnaZ6cjQes6-heuKGJi1VWa/Shoulder_Iso_Abduction.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Isometrics/Thumbnail/Shoulder_Iso_Abduction.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/uyu045xe8yfpqv6/AABnaZ6cjQes6-heuKGJi1VWa/Shoulder_Iso_Abduction.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Isometrics/Big/Shoulder_Iso_Abduction.gif"],
             "bigBackup":["https://www.dropbox.com/sh/ii2948odg2se98j/AABI8o2B82vhCSP7E__ZCQ1Ca/Shoulder_Iso_Abduction.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -687,8 +687,8 @@ const exercisesGif = {
          {
             "id": "GfShIs002",
             "title":"Shoulder Iso Adduction",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Isometrics/Thumbnail/Shoulder_Iso_Adduction.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/uyu045xe8yfpqv6/AAAxMKQLR8wgcDQlb_Syod45a/Shoulder_Iso_Adduction.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Isometrics/Thumbnail/Shoulder_Iso_Adduction.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/uyu045xe8yfpqv6/AAAxMKQLR8wgcDQlb_Syod45a/Shoulder_Iso_Adduction.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Isometrics/Big/Shoulder_Iso_Adduction.gif"],
             "bigBackup":["https://www.dropbox.com/sh/ii2948odg2se98j/AAC_ly4rGbV4RicxiwrQ1Kufa/Shoulder_Iso_Adduction.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -697,8 +697,8 @@ const exercisesGif = {
          {
             "id": "GfShIs003",
             "title":"Shoulder Iso ER",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Isometrics/Thumbnail/Shoulder_Iso_ER.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/uyu045xe8yfpqv6/AAAzlBDkuEKHWZ2aq-3ymvjra/Shoulder_Iso_ER.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Isometrics/Thumbnail/Shoulder_Iso_ER.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/uyu045xe8yfpqv6/AAAzlBDkuEKHWZ2aq-3ymvjra/Shoulder_Iso_ER.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Isometrics/Big/Shoulder_Iso_ER.gif"],
             "bigBackup":["https://www.dropbox.com/sh/ii2948odg2se98j/AACl_TE0GNJkpNgf_2RfXVu3a/Shoulder_Iso_ER.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -707,8 +707,8 @@ const exercisesGif = {
          {
             "id": "GfShIs004",
             "title":"Shoulder Iso Extension",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Isometrics/Thumbnail/Shoulder_Iso_Extension.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/uyu045xe8yfpqv6/AABntAKWYEM_AFnT0qdkBCRja/Shoulder_Iso_Extension.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Isometrics/Thumbnail/Shoulder_Iso_Extension.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/uyu045xe8yfpqv6/AABntAKWYEM_AFnT0qdkBCRja/Shoulder_Iso_Extension.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Isometrics/Big/Shoulder_Iso_Extension.gif"],
             "bigBackup":["https://www.dropbox.com/sh/ii2948odg2se98j/AAC9V1gNLEr3V4nS2RiITxt7a/Shoulder_Iso_Extension.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -717,8 +717,8 @@ const exercisesGif = {
          {
             "id": "GfShIs005",
             "title":"Shoulder Iso Flexion",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Isometrics/Thumbnail/Shoulder_Iso_Flexion.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/uyu045xe8yfpqv6/AADTKfAku5OXzO1RussmHlnNa/Shoulder_Iso_Flexion.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Isometrics/Thumbnail/Shoulder_Iso_Flexion.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/uyu045xe8yfpqv6/AADTKfAku5OXzO1RussmHlnNa/Shoulder_Iso_Flexion.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Isometrics/Big/Shoulder_Iso_Flexion.gif"],
             "bigBackup":["https://www.dropbox.com/sh/ii2948odg2se98j/AAANYLmA9a1W734jGZsOL8s_a/Shoulder_Iso_Flexion.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -730,8 +730,8 @@ const exercisesGif = {
          {
             "id": "GfShSb001",
             "title":"Mini Band Clocks",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Mini_Band_Clocks.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/r5clgxbcx119xbh/AAChxYwDnfECknTHa7txMOIga/Mini_Band_Clocks.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Mini_Band_Clocks.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/r5clgxbcx119xbh/AAChxYwDnfECknTHa7txMOIga/Mini_Band_Clocks.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stability/Big/Mini_Band_Clocks.gif"],
             "bigBackup":["https://www.dropbox.com/sh/n7ym94b2nnkrhkx/AAC26UaVRB2db-DwbNcR7Jzea/Mini_Band_Clocks.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -740,8 +740,8 @@ const exercisesGif = {
          {
             "id": "GfShSb002",
             "title":"Mini Band Crawls",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Mini_Band_Crawls.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/r5clgxbcx119xbh/AADLAQZBc3rITkgRrf7usUoZa/Mini_Band_Crawls.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Mini_Band_Crawls.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/r5clgxbcx119xbh/AADLAQZBc3rITkgRrf7usUoZa/Mini_Band_Crawls.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stability/Big/Mini_Band_Crawls.gif"],
             "bigBackup":["https://www.dropbox.com/sh/n7ym94b2nnkrhkx/AAAc1cj28RSQJ0XnwHOsnAr_a/Mini_Band_Crawls.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -750,8 +750,8 @@ const exercisesGif = {
          {
             "id": "GfShSb003",
             "title":"Scapular Retraction",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Scapular_Retraction.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/r5clgxbcx119xbh/AACrdxRRkI3tL2Y1Wxm6s6w9a/Scapular_Retraction.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Scapular_Retraction.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/r5clgxbcx119xbh/AACrdxRRkI3tL2Y1Wxm6s6w9a/Scapular_Retraction.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stability/Big/Scapular_Retraction.gif"],
             "bigBackup":["https://www.dropbox.com/sh/n7ym94b2nnkrhkx/AACQf9iNTWpHm9wbPf7rGLrxa/Scapular_Retraction.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -760,8 +760,8 @@ const exercisesGif = {
          {
             "id": "GfShSb004",
             "title":"Stability 1",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/r5clgxbcx119xbh/AABl8T0fl9ucirFefrPlAvxya/Stability_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/r5clgxbcx119xbh/AABl8T0fl9ucirFefrPlAvxya/Stability_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stability/Big/Stability_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/n7ym94b2nnkrhkx/AAAT5SSPR2xcXm9b8sZ3LLGBa/Stability_1.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -770,8 +770,8 @@ const exercisesGif = {
          {
             "id": "GfShSb005",
             "title":"Stability 2",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/r5clgxbcx119xbh/AADUCUvnMfAdkOylc5sae4gta/Stability_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/r5clgxbcx119xbh/AADUCUvnMfAdkOylc5sae4gta/Stability_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stability/Big/Stability_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/n7ym94b2nnkrhkx/AACQjkw85TaQ5TFKozucOwjya/Stability_2.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -780,8 +780,8 @@ const exercisesGif = {
          {
             "id": "GfShSb006",
             "title":"Stability 3",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_3.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/r5clgxbcx119xbh/AAD0VW5JdGlVwtrMpdBQGGgGa/Stability_3.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_3.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/r5clgxbcx119xbh/AAD0VW5JdGlVwtrMpdBQGGgGa/Stability_3.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stability/Big/Stability_3.gif"],
             "bigBackup":["https://www.dropbox.com/sh/n7ym94b2nnkrhkx/AABu1x3yoCZKS7lJG8yVXRA0a/Stability_3.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -790,8 +790,8 @@ const exercisesGif = {
          {
             "id": "GfShSb007",
             "title":"Stability 4",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_4.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/r5clgxbcx119xbh/AACA2H34IwGDyLzy6jVqu91wa/Stability_4.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_4.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/r5clgxbcx119xbh/AACA2H34IwGDyLzy6jVqu91wa/Stability_4.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stability/Big/Stability_4.gif"],
             "bigBackup":["https://www.dropbox.com/sh/n7ym94b2nnkrhkx/AAAkWZmAvTL2bpZMhy2qSjJFa/Stability_4.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -800,8 +800,8 @@ const exercisesGif = {
          {
             "id": "GfShSb008",
             "title":"Stability Circular motion",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_Circular_motion.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/r5clgxbcx119xbh/AAC5EhqotWCpwbANNstKsngna/Stability_Circular_motion.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_Circular_motion.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/r5clgxbcx119xbh/AAC5EhqotWCpwbANNstKsngna/Stability_Circular_motion.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stability/Big/Stability_Circular_motion.gif"],
             "bigBackup":["https://www.dropbox.com/sh/n7ym94b2nnkrhkx/AAB0fFB--UcvOQLG6AlDRR63a/Stability_Circular_motion.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -810,8 +810,8 @@ const exercisesGif = {
          {
             "id": "GfShSb009",
             "title":"Stability Unilateral Circular Motion",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_Unilateral_Circular_Motion.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/r5clgxbcx119xbh/AABd41iGPtg51-Yzvg_Jj9Mna/Stability_Unilateral_Circular_Motion.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_Unilateral_Circular_Motion.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/r5clgxbcx119xbh/AABd41iGPtg51-Yzvg_Jj9Mna/Stability_Unilateral_Circular_Motion.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stability/Big/Stability_Unilateral_Circular_Motion.gif"],
             "bigBackup":["https://www.dropbox.com/sh/n7ym94b2nnkrhkx/AAD9dp56oeTS2ne02pCFSh2Da/Stability_Unilateral_Circular_Motion.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -820,8 +820,8 @@ const exercisesGif = {
          {
             "id": "GfShSb010",
             "title":"Stability Up&Down",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_Up&Down.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/r5clgxbcx119xbh/AADo8Mug9GtS4JHrGVAehQbLa/Stability_Up%26Down.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_Up&Down.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/r5clgxbcx119xbh/AADo8Mug9GtS4JHrGVAehQbLa/Stability_Up%26Down.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stability/Big/Stability_Up&Down.gif"],
             "bigBackup":["https://www.dropbox.com/sh/n7ym94b2nnkrhkx/AABuneiggLWnYBiOVEawLLtya/Stability_Up%26Down.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -830,8 +830,8 @@ const exercisesGif = {
          {
             "id": "GfShSb011",
             "title":"Stability with Swiss Ball Plank",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_with_Swiss_Ball_Plank.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/r5clgxbcx119xbh/AACyQzAyL4wGUviubxYNfoHAa/Stability_with_Swiss_Ball_Plank.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_with_Swiss_Ball_Plank.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/r5clgxbcx119xbh/AACyQzAyL4wGUviubxYNfoHAa/Stability_with_Swiss_Ball_Plank.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stability/Big/Stability_with_Swiss_Ball_Plank.gif"],
             "bigBackup":["https://www.dropbox.com/sh/n7ym94b2nnkrhkx/AAAVoVXfdHqueRC-M_0OuT99a/Stability_with_Swiss_Ball_Plank.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -840,8 +840,8 @@ const exercisesGif = {
          {
             "id": "GfShSb012",
             "title":"Stability with Swiss Ball Plus Movement",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_with_Swiss_Ball_Plus_Movement.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/r5clgxbcx119xbh/AADosF9IUc4bYhVjlMI5to39a/Stability_with_Swiss_Ball_Plus_Movement.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Stability_with_Swiss_Ball_Plus_Movement.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/r5clgxbcx119xbh/AADosF9IUc4bYhVjlMI5to39a/Stability_with_Swiss_Ball_Plus_Movement.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stability/Big/Stability_with_Swiss_Ball_Plus_Movement.gif"],
             "bigBackup":["https://www.dropbox.com/sh/n7ym94b2nnkrhkx/AAAyA0ZINkceXWYKrVUXjH5Va/Stability_with_Swiss_Ball_Plus_Movement.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -850,8 +850,8 @@ const exercisesGif = {
          {
             "id": "GfShSb013",
             "title":"Wall Slide and Y Lift",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Wall_Slide_and_Y_Lift.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/r5clgxbcx119xbh/AACEYck2F1LA4k6U8YCjRgKoa/Wall_Slide_and_Y_Lift.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Stability/Thumbnail/Wall_Slide_and_Y_Lift.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/r5clgxbcx119xbh/AACEYck2F1LA4k6U8YCjRgKoa/Wall_Slide_and_Y_Lift.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stability/Big/Wall_Slide_and_Y_Lift.gif"],
             "bigBackup":["https://www.dropbox.com/sh/n7ym94b2nnkrhkx/AACgEuaK_W0mPg3e3xIxT6dpa/Wall_Slide_and_Y_Lift.gif?raw=1"],
             "tags":[ "shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 2)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -863,8 +863,8 @@ const exercisesGif = {
          {
             "id": "GfShSr001",
             "title":"Shoulder Stren Abduction",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Abduction.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AABx045EW_bRAIHZFnCMGUu5a/Shoulder_Stren_Abduction.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Abduction.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AABx045EW_bRAIHZFnCMGUu5a/Shoulder_Stren_Abduction.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_Abduction.gif"],
             "bigBackup":["https://www.dropbox.com/sh/fopyzg1bfbvxl37/AACx1Kq5-oSjQWFTJ5xew08Ga/Shoulder_Stren_Abduction.gif?raw=1"],
             "tags":["shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 3)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -873,8 +873,8 @@ const exercisesGif = {
          {
             "id": "GfShSr002",
             "title":"Shoulder Stren Bil ER",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Bil_ER.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AAC492rrEh59Xlldw7-Vq2nFa/Shoulder_Stren_Bil_ER.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Bil_ER.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AAC492rrEh59Xlldw7-Vq2nFa/Shoulder_Stren_Bil_ER.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_Bil_ER.gif"],
             "bigBackup":["https://www.dropbox.com/sh/fopyzg1bfbvxl37/AACvLLgbvwhPaRNS7ze_PZ2Pa/Shoulder_Stren_Bil_ER.gif?raw=1"],
             "tags":["shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 3)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -883,8 +883,8 @@ const exercisesGif = {
          {
             "id": "GfShSr003",
             "title":"Shoulder Stren Bil Extension",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Bil_Extension.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AAD_UHFrdUECmzEAQ6y2W8AUa/Shoulder_Stren_Bil_Extension.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Bil_Extension.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AAD_UHFrdUECmzEAQ6y2W8AUa/Shoulder_Stren_Bil_Extension.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_Bil_Extension.gif"],
             "bigBackup":["https://www.dropbox.com/sh/fopyzg1bfbvxl37/AAAUgxlcPy0MsyeUMYQjKvURa/Shoulder_Stren_Bil_Extension.gif?raw=1"],
             "tags":["shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 3)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -893,8 +893,8 @@ const exercisesGif = {
          {
             "id": "GfShSr004",
             "title":"Shoulder Stren Bil Flexion",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Bil_Flexion.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AAB_WCR7SeukYGDzHAN3TQzLa/Shoulder_Stren_Bil_Flexion.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Bil_Flexion.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AAB_WCR7SeukYGDzHAN3TQzLa/Shoulder_Stren_Bil_Flexion.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_Bil_Flexion.gif"],
             "bigBackup":["https://www.dropbox.com/sh/fopyzg1bfbvxl37/AAB5OWqMd_7GG6pCSqZ11GMra/Shoulder_Stren_Bil_Flexion.gif?raw=1"],
             "tags":["shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 3)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -903,8 +903,8 @@ const exercisesGif = {
          {
             "id": "GfShSr005",
             "title":"Shoulder Stren ER",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_ER.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AAD-Z5KlkyaontlDI-iMS7g4a/Shoulder_Stren_ER.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_ER.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AAD-Z5KlkyaontlDI-iMS7g4a/Shoulder_Stren_ER.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_ER.gif"],
             "bigBackup":["https://www.dropbox.com/sh/fopyzg1bfbvxl37/AADa2a8Qsd7wPfD7lrD51TNCa/Shoulder_Stren_ER.gif?raw=1"],
             "tags":["shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 3)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -913,8 +913,8 @@ const exercisesGif = {
          {
             "id": "GfShSr006",
             "title":"Shoulder Stren ER in Sidelying",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_ER_in_Sidelying.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AABHDQffwrwTQ7iSfHGdPDaJa/Shoulder_Stren_ER_in_Sidelying.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_ER_in_Sidelying.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AABHDQffwrwTQ7iSfHGdPDaJa/Shoulder_Stren_ER_in_Sidelying.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_ER_in_Sidelying.gif"],
             "bigBackup":["https://www.dropbox.com/sh/fopyzg1bfbvxl37/AAAMzDhQIA_ThqG2a89fqWP6a/Shoulder_Stren_ER_in_Sidelying.gif?raw=1"],
             "tags":["shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 3)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -923,8 +923,8 @@ const exercisesGif = {
          {
             "id": "GfShSr007",
             "title":"Shoulder Stren Extension w Extended Elbow",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Extension_w_Extended_Elbow.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AADLCf4j-F5zYX7kjNcbLsQ5a/Shoulder_Stren_Extension_w_Extended_Elbow.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Extension_w_Extended_Elbow.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AADLCf4j-F5zYX7kjNcbLsQ5a/Shoulder_Stren_Extension_w_Extended_Elbow.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_Extension_w_Extended_Elbow.gif"],
             "bigBackup":["https://www.dropbox.com/sh/fopyzg1bfbvxl37/AABhA1lTQnf81b6F9Q43S1lSa/Shoulder_Stren_Extension_w_Extended_Elbow.gif?raw=1"],
             "tags":["shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 3)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -933,8 +933,8 @@ const exercisesGif = {
          {
             "id": "GfShSr008",
             "title":"Shoulder Stren Extension w Flexed Elbow",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Extension_w_Flexed_Elbow.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AABD8BOza7aF2Q0dk-vZ18ZPa/Shoulder_Stren_Extension_w_Flexed_Elbow.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Extension_w_Flexed_Elbow.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AABD8BOza7aF2Q0dk-vZ18ZPa/Shoulder_Stren_Extension_w_Flexed_Elbow.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_Extension_w_Flexed_Elbow.gif"],
             "bigBackup":["https://www.dropbox.com/sh/fopyzg1bfbvxl37/AAC8X_YmhPpwxeBy5HS2WXEaa/Shoulder_Stren_Extension_w_Flexed_Elbow.gif?raw=1"],
             "tags":["shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 3)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -943,8 +943,8 @@ const exercisesGif = {
          {
             "id": "GfShSr009",
             "title":"Shoulder Stren Extension with Dumble",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Extension_with_Dumble.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AADmEjISHS0TrkY7mAdfcn-2a/Shoulder_Stren_Extension_with_Dumble.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Extension_with_Dumble.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AADmEjISHS0TrkY7mAdfcn-2a/Shoulder_Stren_Extension_with_Dumble.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_Extension_with_Dumble.gif"],
             "bigBackup":["https://www.dropbox.com/sh/fopyzg1bfbvxl37/AADk0N1WwO9NBilNpeTERk3Ua/Shoulder_Stren_Extension_with_Dumble.gif?raw=1"],
             "tags":["shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 3)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -953,8 +953,8 @@ const exercisesGif = {
          {
             "id": "GfShSr010",
             "title":"Shoulder Stren Flexion",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Flexion.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AAA0-fz9euI_qs4CRfkr0dDJa/Shoulder_Stren_Flexion.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Flexion.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AAA0-fz9euI_qs4CRfkr0dDJa/Shoulder_Stren_Flexion.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_Flexion.gif"],
             "bigBackup":["https://www.dropbox.com/sh/fopyzg1bfbvxl37/AADn-sXPBnxJ3yy87dVAQcida/Shoulder_Stren_Flexion.gif?raw=1"],
             "tags":["shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 3)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -963,8 +963,8 @@ const exercisesGif = {
          {
             "id": "GfShSr011",
             "title":"Shoulder Stren Flexion w Flexed Elbow",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Flexion_w_Flexed_Elbow.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AAAq57WYTXhc7fQADaVir4psa/Shoulder_Stren_Flexion_w_Flexed_Elbow.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Flexion_w_Flexed_Elbow.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AAAq57WYTXhc7fQADaVir4psa/Shoulder_Stren_Flexion_w_Flexed_Elbow.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_Flexion_w_Flexed_Elbow.gif"],
             "bigBackup":["https://www.dropbox.com/sh/fopyzg1bfbvxl37/AACfVHqJVnITKC3gqqxDXuvNa/Shoulder_Stren_Flexion_w_Flexed_Elbow.gif?raw=1"],
             "tags":["shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 3)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -973,8 +973,8 @@ const exercisesGif = {
          {
             "id": "GfShSr012",
             "title":"Shoulder Stren IR",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_IR.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AABWwpOParj7ltxFPiz4VJqMa/Shoulder_Stren_IR.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_IR.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AABWwpOParj7ltxFPiz4VJqMa/Shoulder_Stren_IR.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_IR.gif"],
             "bigBackup":["https://www.dropbox.com/sh/fopyzg1bfbvxl37/AADwh_LDSiRfwOn4bYrvPvzaa/Shoulder_Stren_IR.gif?raw=1"],
             "tags":["shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 3)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -983,8 +983,8 @@ const exercisesGif = {
          {
             "id": "GfShSr013",
             "title":"Shoulder Stren Oblique movement",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Oblique_movement.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AADleQ-LjgE5MPc7CTpzm_GCa/Shoulder_Stren_Oblique_movement.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Oblique_movement.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AADleQ-LjgE5MPc7CTpzm_GCa/Shoulder_Stren_Oblique_movement.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_Oblique_movement.gif"],
             "bigBackup":["https://www.dropbox.com/sh/fopyzg1bfbvxl37/AABncI23VBJ8sgbCrb4uZaQCa/Shoulder_Stren_Oblique_movement.gif?raw=1"],
             "tags":["shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 3)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -993,8 +993,8 @@ const exercisesGif = {
          {
             "id": "GfShSr014",
             "title":"Shoulder Stren Wall Pushup 1",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Wall_Pushup_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AACkWbg6nT-20Ho9UPjUnb0ua/Shoulder_Stren_Wall_Pushup_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Wall_Pushup_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AACkWbg6nT-20Ho9UPjUnb0ua/Shoulder_Stren_Wall_Pushup_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_Wall_Pushup_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/fopyzg1bfbvxl37/AADhv4I_vziEUWtUrWg8b2Mea/Shoulder_Stren_Wall_Pushup_1.gif?raw=1"],
             "tags":["shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 3)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -1003,8 +1003,8 @@ const exercisesGif = {
          {
             "id": "GfShSr015",
             "title":"Shoulder Stren Wall Pushup 2",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Wall_Pushup_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AACxH4wy0mg_8qWpMt9sJGzma/Shoulder_Stren_Wall_Pushup_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Strengthening/Thumbnail/Shoulder_Stren_Wall_Pushup_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/px4divlxcwgkrko/AACxH4wy0mg_8qWpMt9sJGzma/Shoulder_Stren_Wall_Pushup_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Strengthening/Big/Shoulder_Stren_Wall_Pushup_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/fopyzg1bfbvxl37/AACxDcaFtw4wa1IH2HP4QLQOa/Shoulder_Stren_Wall_Pushup_2.gif?raw=1"],
             "tags":["shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 3)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -1016,8 +1016,8 @@ const exercisesGif = {
          {
             "id": "GfShrSh001",
             "title":"Biceps Stretch 2",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumbnail/Biceps_Stretch_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/zk9bpzo0wt144nd/AABR11GecPQbvW8e0gcX-Sgea/Biceps_Stretch_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumbnail/Biceps_Stretch_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/zk9bpzo0wt144nd/AABR11GecPQbvW8e0gcX-Sgea/Biceps_Stretch_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stretching/Big/Biceps_Stretch_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/oc0mdf37aaulgni/AAATY-q_d6npo86s6CoeUwm0a/Biceps_Stretch_2.gif?raw=1"],
             "tags":["shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 3)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -1026,8 +1026,8 @@ const exercisesGif = {
          {
             "id": "GfShrSh002",
             "title":"gifntext gif(6)",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumbnail/gifntext_gif(6).gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/zk9bpzo0wt144nd/AAC-GuIvGrz0UnEaCGOxsMi4a/gifntext_gif%286%29.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumbnail/gifntext_gif(6).gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/zk9bpzo0wt144nd/AAC-GuIvGrz0UnEaCGOxsMi4a/gifntext_gif%286%29.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stretching/Big/gifntext_gif(6).gif"],
             "bigBackup":["https://www.dropbox.com/sh/oc0mdf37aaulgni/AAC7YnFF0IK0QbD9JEYvLTD7a/gifntext_gif%286%29.gif?raw=1"],
             "tags":["shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 3)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -1036,8 +1036,8 @@ const exercisesGif = {
          {
             "id": "GfShrSh003",
             "title":"Pectoralis Stretch 1",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumbnail/Pectoralis_Stretch_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/zk9bpzo0wt144nd/AAD_Ge1x_l1LcuQ0_QM9LqjVa/Pectoralis_Stretch_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumbnail/Pectoralis_Stretch_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/zk9bpzo0wt144nd/AAD_Ge1x_l1LcuQ0_QM9LqjVa/Pectoralis_Stretch_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stretching/Big/Pectoralis_Stretch_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/oc0mdf37aaulgni/AACveoIduCgf4O4PDI1InEN2a/Pectoralis_Stretch_1.gif?raw=1"],
             "tags":["shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 3)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -1046,8 +1046,8 @@ const exercisesGif = {
          {
             "id": "GfShrSh004",
             "title":"Pectoralis Stretch 2",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumbnail/Pectoralis_Stretch_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/zk9bpzo0wt144nd/AAC5_fo8VqK53r2aUwdp3QEwa/Pectoralis_Stretch_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumbnail/Pectoralis_Stretch_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/zk9bpzo0wt144nd/AAC5_fo8VqK53r2aUwdp3QEwa/Pectoralis_Stretch_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stretching/Big/Pectoralis_Stretch_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/oc0mdf37aaulgni/AAB7WSg5Yi1kPsZFrCx5VrAka/Pectoralis_Stretch_2.gif?raw=1"],
             "tags":["shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 3)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -1056,8 +1056,8 @@ const exercisesGif = {
          {
             "id": "GfShrSh005",
             "title":"Pectoralis Stretch 3",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumbnail/Pectoralis_Stretch_3.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/zk9bpzo0wt144nd/AADZIvrldE3GgJWXqrpsYZC2a/Pectoralis_Stretch_3.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumbnail/Pectoralis_Stretch_3.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/zk9bpzo0wt144nd/AADZIvrldE3GgJWXqrpsYZC2a/Pectoralis_Stretch_3.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stretching/Big/Pectoralis_Stretch_3.gif"],
             "bigBackup":["https://www.dropbox.com/sh/oc0mdf37aaulgni/AADzPHmSext7uLzqXyeEQCjca/Pectoralis_Stretch_3.gif?raw=1"],
             "tags":["shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 3)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -1066,8 +1066,8 @@ const exercisesGif = {
          {
             "id": "GfShrSh006",
             "title":"Shoulder Pectoralis Stretch",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumbnail/Shoulder_Pectoralis_Stretch.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/zk9bpzo0wt144nd/AAB82XXjxuqIRBY2kA3cHIZYa/Shoulder_Pectoralis_Stretch.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumbnail/Shoulder_Pectoralis_Stretch.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/zk9bpzo0wt144nd/AAB82XXjxuqIRBY2kA3cHIZYa/Shoulder_Pectoralis_Stretch.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stretching/Big/Shoulder_Pectoralis_Stretch.gif"],
             "bigBackup":["https://www.dropbox.com/sh/oc0mdf37aaulgni/AADAiT8KY2BNt18fr3ZsLm2da/Shoulder_Pectoralis_Stretch.gif?raw=1"],
             "tags":["shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 3)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -1076,8 +1076,8 @@ const exercisesGif = {
          {
             "id": "GfShrSh007",
             "title":"Shoulder Posterior Stretch",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumbnail/Shoulder_Posterior_Stretch.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/zk9bpzo0wt144nd/AADhBxfIOXFO0wv6zT86eKiNa/Shoulder_Posterior_Stretch.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumbnail/Shoulder_Posterior_Stretch.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/zk9bpzo0wt144nd/AADhBxfIOXFO0wv6zT86eKiNa/Shoulder_Posterior_Stretch.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stretching/Big/Shoulder_Posterior_Stretch.gif"],
             "bigBackup":["https://www.dropbox.com/sh/oc0mdf37aaulgni/AAAqQd4MlhjHFQc89ElKiJsya/Shoulder_Posterior_Stretch.gif?raw=1"],
             "tags":["shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 3)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -1086,8 +1086,8 @@ const exercisesGif = {
          {
             "id": "GfShrSh008",
             "title":"Shoulder Triceps Stretch",
-            "tumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumbnail/Shoulder_Triceps_Stretch.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/zk9bpzo0wt144nd/AADa-rw5dqLS8semHedkcBrfa/Shoulder_Triceps_Stretch.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/03-shoulder/Stretching/Thumbnail/Shoulder_Triceps_Stretch.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/zk9bpzo0wt144nd/AADa-rw5dqLS8semHedkcBrfa/Shoulder_Triceps_Stretch.gif?raw=1"],
             "bigImgs":["./docs/Gifs/03-shoulder/Stretching/Big/Shoulder_Triceps_Stretch.gif"],
             "bigBackup":["https://www.dropbox.com/sh/oc0mdf37aaulgni/AABskdtxiUwGs-zo5COfc22da/Shoulder_Triceps_Stretch.gif?raw=1"],
             "tags":["shoulder pain", "Supraspinatus Tendinitis", "Frozen Shoulder", "Adhesive Capsulitis", "Subacromial Decompression (phase 3)","Shoulder Impingement Syndrome","Shoulder Arthoroscopy","Scapular Dyskinesis", ],
@@ -1104,8 +1104,8 @@ const exercisesGif = {
          {
             "id": "GfElAr001",
             "title":"Elbow ROM Flexion",
-            "tumbUrl":["./docs/Gifs/04-Elbow/AROM/Thumbnail/Elbow_ROM_Flexion.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/p2tyywripelmak6/AAB7fouCg-0tfR4lY1jL46wja/Elbow_ROM_Flexion.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/04-Elbow/AROM/Thumbnail/Elbow_ROM_Flexion.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/p2tyywripelmak6/AAB7fouCg-0tfR4lY1jL46wja/Elbow_ROM_Flexion.gif?raw=1"],
             "bigImgs":["./docs/Gifs/04-Elbow/AROM/Big/Elbow_ROM_Flexion.gif"],
             "bigBackup":["https://www.dropbox.com/sh/lrv9pdcqfp5fuco/AADf0K-ufFFg69Vl3ggWMjYDa/Elbow_ROM_Flexion.gif?raw=1"],
             "tags":[ "Radius Fracture","Ulnar Fracture", "Tennis Elbow", "Hemiplegia", "Golfer Elbow", "Humerus Fracture"],
@@ -1114,8 +1114,8 @@ const exercisesGif = {
          {
             "id": "GfElAr002",
             "title":"Elbow ROM Pronation",
-            "tumbUrl":["./docs/Gifs/04-Elbow/AROM/Thumbnail/Elbow_ROM_Pronation.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/p2tyywripelmak6/AACzV-0BPnQVBREvfgMLM2VSa/Elbow_ROM_Pronation.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/04-Elbow/AROM/Thumbnail/Elbow_ROM_Pronation.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/p2tyywripelmak6/AACzV-0BPnQVBREvfgMLM2VSa/Elbow_ROM_Pronation.gif?raw=1"],
             "bigImgs":["./docs/Gifs/04-Elbow/AROM/Big/Elbow_ROM_Pronation.gif"],
             "bigBackup":["https://www.dropbox.com/sh/lrv9pdcqfp5fuco/AACvFlcMvSY9vtQAYruUTnX5a/Elbow_ROM_Pronation.gif?raw=1"],
             "tags":[ "Radius Fracture","Ulnar Fracture", "Tennis Elbow", "Hemiplegia", "Golfer Elbow", "Humerus Fracture"],
@@ -1124,8 +1124,8 @@ const exercisesGif = {
          {
             "id": "GfElAr003",
             "title":"Elbow ROM Supination",
-            "tumbUrl":["./docs/Gifs/04-Elbow/AROM/Thumbnail/Elbow_ROM_Supination.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/p2tyywripelmak6/AAD130tB-Y6NDCSGz3WF6idUa/Elbow_ROM_Supination.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/04-Elbow/AROM/Thumbnail/Elbow_ROM_Supination.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/p2tyywripelmak6/AAD130tB-Y6NDCSGz3WF6idUa/Elbow_ROM_Supination.gif?raw=1"],
             "bigImgs":["./docs/Gifs/04-Elbow/AROM/Big/Elbow_ROM_Supination.gif"],
             "bigBackup":["https://www.dropbox.com/sh/lrv9pdcqfp5fuco/AABlTv8xIuKck_xAkW63Y7wca/Elbow_ROM_Supination.gif?raw=1"],
             "tags":[ "Radius Fracture","Ulnar Fracture", "Tennis Elbow", "Hemiplegia", "Golfer Elbow", "Humerus Fracture"],
@@ -1134,8 +1134,8 @@ const exercisesGif = {
          {
             "id": "GfElAr004",
             "title":"Elbow ROM SupPronation",
-            "tumbUrl":["./docs/Gifs/04-Elbow/AROM/Thumbnail/Elbow_ROM_SupPronation.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/p2tyywripelmak6/AAD7lCNNP08oITAjhBAqi4Zza/Elbow_ROM_SupPronation.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/04-Elbow/AROM/Thumbnail/Elbow_ROM_SupPronation.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/p2tyywripelmak6/AAD7lCNNP08oITAjhBAqi4Zza/Elbow_ROM_SupPronation.gif?raw=1"],
             "bigImgs":["./docs/Gifs/04-Elbow/AROM/Big/Elbow_ROM_SupPronation.gif"],
             "bigBackup":["https://www.dropbox.com/sh/lrv9pdcqfp5fuco/AADKd8F6rjgeAytB3C6XmyWoa/Elbow_ROM_SupPronation.gif?raw=1"],
             "tags":[ "Radius Fracture","Ulnar Fracture", "Tennis Elbow", "Hemiplegia", "Golfer Elbow", "Humerus Fracture"],
@@ -1147,8 +1147,8 @@ const exercisesGif = {
          {
             "id": "GfShrs001",
             "title":"Elbow Stren Extension",
-            "tumbUrl":["./docs/Gifs/04-Elbow/Strengthening/Thumbnail/Elbow_Stren_Extension.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/qy1nsew8da75jl2/AADJDZYsfUwSOUgBOkT6vqbBa/Elbow_Stren_Extension.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/04-Elbow/Strengthening/Thumbnail/Elbow_Stren_Extension.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/qy1nsew8da75jl2/AADJDZYsfUwSOUgBOkT6vqbBa/Elbow_Stren_Extension.gif?raw=1"],
             "bigImgs":["./docs/Gifs/04-Elbow/Strengthening/Big/Elbow_Stren_Extension.gif"],
             "bigBackup":["https://www.dropbox.com/sh/svoindt2izu3czw/AADt4oWcdKcZ_pAFN4sysxO9a/Elbow_Stren_Extension.gif?raw=1"],
             "tags":[ "Radius Fracture","Ulnar Fracture", "Tennis Elbow", "Hemiplegia", "Golfer Elbow", "Humerus Fracture"],
@@ -1157,8 +1157,8 @@ const exercisesGif = {
          {
             "id": "GfShrs002",
             "title":"Elbow Stren Flexion 1",
-            "tumbUrl":["./docs/Gifs/04-Elbow/Strengthening/Thumbnail/Elbow_Stren_Flexion_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/qy1nsew8da75jl2/AABH-ApdcqWM-CzPcPpZvNqka/Elbow_Stren_Flexion_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/04-Elbow/Strengthening/Thumbnail/Elbow_Stren_Flexion_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/qy1nsew8da75jl2/AABH-ApdcqWM-CzPcPpZvNqka/Elbow_Stren_Flexion_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/04-Elbow/Strengthening/Big/Elbow_Stren_Flexion_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/svoindt2izu3czw/AAD34rqk9r9NAfsxyYUCJhcra/Elbow_Stren_Flexion_1.gif?raw=1"],
             "tags":[ "Radius Fracture","Ulnar Fracture", "Tennis Elbow", "Hemiplegia", "Golfer Elbow", "Humerus Fracture"],
@@ -1167,8 +1167,8 @@ const exercisesGif = {
          {
             "id": "GfShrs003",
             "title":"Elbow Stren Flexion 2",
-            "tumbUrl":["./docs/Gifs/04-Elbow/Strengthening/Thumbnail/Elbow_Stren_Flexion_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/qy1nsew8da75jl2/AABo-4slpWriUKOVSOo8ej0Na/Elbow_Stren_Flexion_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/04-Elbow/Strengthening/Thumbnail/Elbow_Stren_Flexion_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/qy1nsew8da75jl2/AABo-4slpWriUKOVSOo8ej0Na/Elbow_Stren_Flexion_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/04-Elbow/Strengthening/Big/Elbow_Stren_Flexion_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/svoindt2izu3czw/AACvVULC6y8eZlb-ogzax75Sa/Elbow_Stren_Flexion_2.gif?raw=1"],
             "tags":[ "Radius Fracture","Ulnar Fracture", "Tennis Elbow", "Hemiplegia", "Golfer Elbow", "Humerus Fracture"],
@@ -1177,8 +1177,8 @@ const exercisesGif = {
          {
             "id": "GfShrs004",
             "title":"Elbow Stren Flexion 3",
-            "tumbUrl":["./docs/Gifs/04-Elbow/Strengthening/Thumbnail/Elbow_Stren_Flexion_3.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/qy1nsew8da75jl2/AAC7j2przj6g2OYqc8f-Y__Ha/Elbow_Stren_Flexion_3.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/04-Elbow/Strengthening/Thumbnail/Elbow_Stren_Flexion_3.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/qy1nsew8da75jl2/AAC7j2przj6g2OYqc8f-Y__Ha/Elbow_Stren_Flexion_3.gif?raw=1"],
             "bigImgs":["./docs/Gifs/04-Elbow/Strengthening/Big/Elbow_Stren_Flexion_3.gif"],
             "bigBackup":["https://www.dropbox.com/sh/svoindt2izu3czw/AADiEkaAC8Og4V9EZvpNSTSMa/Elbow_Stren_Flexion_3.gif?raw=1"],
             "tags":[ "Radius Fracture","Ulnar Fracture", "Tennis Elbow", "Hemiplegia", "Golfer Elbow", "Humerus Fracture"],
@@ -1195,8 +1195,8 @@ const exercisesGif = {
          {
             "id": "GfHdAr001",
             "title":"Fingers ROM Abduction",
-            "tumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Fingers_ROM_Abduction.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AACFCf93i53MWjAgHKzzdXa5a/Fingers_ROM_Abduction.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Fingers_ROM_Abduction.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AACFCf93i53MWjAgHKzzdXa5a/Fingers_ROM_Abduction.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/AROM/Big/Fingers_ROM_Abduction.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wk62ysmtga9lb1d/AADmpIaiZqs-E_6OsCXpoxDba/Fingers_ROM_Abduction.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Finger Fracture", "Hand Fracture", "Trigger Finger", "Dupuytren's Contracture"],
@@ -1205,8 +1205,8 @@ const exercisesGif = {
          {
             "id": "GfHdAr002",
             "title":"Fingers ROM Clawing",
-            "tumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Fingers_ROM_Clawing.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AACKqZ2ogtc4tDPAxSsgC1EEa/Fingers_ROM_Clawing.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Fingers_ROM_Clawing.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AACKqZ2ogtc4tDPAxSsgC1EEa/Fingers_ROM_Clawing.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/AROM/Big/Fingers_ROM_Clawing.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wk62ysmtga9lb1d/AABsOR6bqp5IJ2pVQHKVck29a/Fingers_ROM_Clawing.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Finger Fracture", "Hand Fracture", "Trigger Finger", "Dupuytren's Contracture"],
@@ -1215,8 +1215,8 @@ const exercisesGif = {
          {
             "id": "GfHdAr003",
             "title":"Fingers ROM Extesnion",
-            "tumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Fingers_ROM_Extesnion.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AAB0xhSEBRe2ikPuMwUeikQGa/Fingers_ROM_Extesnion.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Fingers_ROM_Extesnion.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AAB0xhSEBRe2ikPuMwUeikQGa/Fingers_ROM_Extesnion.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/AROM/Big/Fingers_ROM_Extesnion.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wk62ysmtga9lb1d/AAAe0mj67-tuoL0UwvrKSeE-a/Fingers_ROM_Extesnion.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Finger Fracture", "Hand Fracture", "Trigger Finger", "Dupuytren's Contracture"],
@@ -1225,8 +1225,8 @@ const exercisesGif = {
          {
             "id": "GfHdAr004",
             "title":"Fingers ROM Fist",
-            "tumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Fingers_ROM_Fist.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AAD_BJA4K7Wt77yOBO3T6kHna/Fingers_ROM_Fist.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Fingers_ROM_Fist.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AAD_BJA4K7Wt77yOBO3T6kHna/Fingers_ROM_Fist.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/AROM/Big/Fingers_ROM_Fist.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wk62ysmtga9lb1d/AACd6dP926MwV2JBeFuHaHVta/Fingers_ROM_Fist.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Finger Fracture", "Hand Fracture", "Trigger Finger", "Dupuytren's Contracture"],
@@ -1235,8 +1235,8 @@ const exercisesGif = {
          {
             "id": "GfHdAr005",
             "title":"Fingers ROM Flexion",
-            "tumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Fingers_ROM_Flexion.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AACEmXxQ9zj_B1TyGx-30NF2a/Fingers_ROM_Flexion.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Fingers_ROM_Flexion.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AACEmXxQ9zj_B1TyGx-30NF2a/Fingers_ROM_Flexion.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/AROM/Big/Fingers_ROM_Flexion.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wk62ysmtga9lb1d/AAC99jTeNOV15xylpZd5CiM6a/Fingers_ROM_Flexion.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Finger Fracture", "Hand Fracture", "Trigger Finger", "Dupuytren's Contracture"],
@@ -1245,8 +1245,8 @@ const exercisesGif = {
          {
             "id": "GfHdAr006",
             "title":"Thumb ROM Abduction",
-            "tumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Thumb_ROM_Abduction.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AADtjBoHG3jb532L96II1cefa/Thumb_ROM_Abduction.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Thumb_ROM_Abduction.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AADtjBoHG3jb532L96II1cefa/Thumb_ROM_Abduction.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/AROM/Big/Thumb_ROM_Abduction.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wk62ysmtga9lb1d/AAAYvOqEL4_6mKchvxRv_Q5Ja/Thumb_ROM_Abduction.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Finger Fracture", "Hand Fracture", "Trigger Finger", "Dupuytren's Contracture"],
@@ -1255,8 +1255,8 @@ const exercisesGif = {
          {
             "id": "GfHdAr007",
             "title":"Thumbs ROM Flexion",
-            "tumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Thumbs_ROM_Flexion.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AAA4TjyR2a2zEGHpplkgxQOma/Thumbs_ROM_Flexion.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Thumbs_ROM_Flexion.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AAA4TjyR2a2zEGHpplkgxQOma/Thumbs_ROM_Flexion.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/AROM/Big/Thumbs_ROM_Flexion.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wk62ysmtga9lb1d/AADIvvxNXB7ydzijFxBPMC97a/Thumbs_ROM_Flexion.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Finger Fracture", "Hand Fracture", "Trigger Finger", "Dupuytren's Contracture"],
@@ -1265,8 +1265,8 @@ const exercisesGif = {
          {
             "id": "GfHdAr008",
             "title":"Thumbs ROM Opposition",
-            "tumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Thumbs_ROM_Opposition.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AAAnsKc8-AZW0MLWx5isBZY6a/Thumbs_ROM_Opposition.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Thumbs_ROM_Opposition.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AAAnsKc8-AZW0MLWx5isBZY6a/Thumbs_ROM_Opposition.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/AROM/Big/Thumbs_ROM_Opposition.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wk62ysmtga9lb1d/AABRx8IjijfBXKBJMZD-ypj9a/Thumbs_ROM_Opposition.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Finger Fracture", "Hand Fracture", "Trigger Finger", "Dupuytren's Contracture"],
@@ -1275,8 +1275,8 @@ const exercisesGif = {
          {
             "id": "GfHdAr009",
             "title":"Wrist RadiUlnar Deviation",
-            "tumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_RadiUlnar_Deviation.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AACfnzeqhCCV8U2ynbFsKCL2a/Wrist_RadiUlnar_Deviation.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_RadiUlnar_Deviation.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AACfnzeqhCCV8U2ynbFsKCL2a/Wrist_RadiUlnar_Deviation.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/AROM/Big/Wrist_RadiUlnar_Deviation.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wk62ysmtga9lb1d/AAB6PMTrhFhOVIPCyMefjI4Ya/Wrist_RadiUlnar_Deviation.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Finger Fracture", "Hand Fracture", "Trigger Finger", "Dupuytren's Contracture"],
@@ -1285,8 +1285,8 @@ const exercisesGif = {
          {
             "id": "GfHdAr010",
             "title":"Wrist ROM Anticlockwise Circumduction",
-            "tumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_ROM_Anticlockwise_Circumduction.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AAC9xd3tm7inf31Lr2pUM_vva/Wrist_ROM_Anticlockwise_Circumduction.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_ROM_Anticlockwise_Circumduction.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AAC9xd3tm7inf31Lr2pUM_vva/Wrist_ROM_Anticlockwise_Circumduction.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/AROM/Big/Wrist_ROM_Anticlockwise_Circumduction.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wk62ysmtga9lb1d/AADvglIkKgBrPw9nBv6bwbada/Wrist_ROM_Anticlockwise_Circumduction.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Hand Fracture", "Radial Fracture", "Ulnar Fracture", "Wrist Pain"],
@@ -1295,8 +1295,8 @@ const exercisesGif = {
          {
             "id": "GfHdAr011",
             "title":"Wrist ROM Clockwise Circumduction",
-            "tumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_ROM_Clockwise_Circumduction.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AABClul6AcGuo6ZIU2Kfa6rqa/Wrist_ROM_Clockwise_Circumduction.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_ROM_Clockwise_Circumduction.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AABClul6AcGuo6ZIU2Kfa6rqa/Wrist_ROM_Clockwise_Circumduction.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/AROM/Big/Wrist_ROM_Clockwise_Circumduction.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wk62ysmtga9lb1d/AABhxhahL5cbAlQwQHuDXpxPa/Wrist_ROM_Clockwise_Circumduction.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Hand Fracture", "Radial Fracture", "Ulnar Fracture", "Wrist Pain"],
@@ -1305,8 +1305,8 @@ const exercisesGif = {
          {
             "id": "GfHdAr012",
             "title":"Wrist ROM Deviations",
-            "tumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_ROM_Deviations.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AADXgafrkKnENsIs1R5HRXSaa/Wrist_ROM_Deviations.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_ROM_Deviations.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AADXgafrkKnENsIs1R5HRXSaa/Wrist_ROM_Deviations.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/AROM/Big/Wrist_ROM_Deviations.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wk62ysmtga9lb1d/AAA3iNSoRuPnuJ1vVE9wqXACa/Wrist_ROM_Deviations.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Hand Fracture", "Radial Fracture", "Ulnar Fracture", "Wrist Pain"],
@@ -1315,8 +1315,8 @@ const exercisesGif = {
          {
             "id": "GfHdAr013",
             "title":"Wrist ROM Extension 1",
-            "tumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_ROM_Extension_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AADF2PamJAbD91_am0_jGksDa/Wrist_ROM_Extension_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_ROM_Extension_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AADF2PamJAbD91_am0_jGksDa/Wrist_ROM_Extension_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/AROM/Big/Wrist_ROM_Extension_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wk62ysmtga9lb1d/AAApxzlapn9-snk70P0PT8-La/Wrist_ROM_Extension_1.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Hand Fracture", "Radial Fracture", "Ulnar Fracture", "Wrist Pain"],
@@ -1325,8 +1325,8 @@ const exercisesGif = {
          {
             "id": "GfHdAr014",
             "title":"Wrist ROM Extension 2",
-            "tumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_ROM_Extension_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AAD1tgSqT-wVY-6Vk7YSVoFRa/Wrist_ROM_Extension_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_ROM_Extension_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AAD1tgSqT-wVY-6Vk7YSVoFRa/Wrist_ROM_Extension_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/AROM/Big/Wrist_ROM_Extension_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wk62ysmtga9lb1d/AADtJpBgYRr-yEBOSxDfSYmya/Wrist_ROM_Extension_2.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Hand Fracture", "Radial Fracture", "Ulnar Fracture", "Wrist Pain"],
@@ -1335,8 +1335,8 @@ const exercisesGif = {
          {
             "id": "GfHdAr015",
             "title":"Wrist ROM FlexExtension 1",
-            "tumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_ROM_FlexExtension_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AAAh_FsCtuJMuzm6NDD6JHzKa/Wrist_ROM_FlexExtension_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_ROM_FlexExtension_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AAAh_FsCtuJMuzm6NDD6JHzKa/Wrist_ROM_FlexExtension_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/AROM/Big/Wrist_ROM_FlexExtension_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wk62ysmtga9lb1d/AADjZGCUwSJGpfMyrmc3IRmGa/Wrist_ROM_FlexExtension_1.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Hand Fracture", "Radial Fracture", "Ulnar Fracture", "Wrist Pain"],
@@ -1345,8 +1345,8 @@ const exercisesGif = {
          {
             "id": "GfHdAr016",
             "title":"Wrist ROM FlexExtension 2",
-            "tumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_ROM_FlexExtension_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AABHoRGvds9bz2ZWAoerlkopa/Wrist_ROM_FlexExtension_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_ROM_FlexExtension_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AABHoRGvds9bz2ZWAoerlkopa/Wrist_ROM_FlexExtension_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/AROM/Big/Wrist_ROM_FlexExtension_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wk62ysmtga9lb1d/AACZ21X8yfu9CkZYardC26J8a/Wrist_ROM_FlexExtension_2.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Hand Fracture", "Radial Fracture", "Ulnar Fracture", "Wrist Pain"],
@@ -1355,8 +1355,8 @@ const exercisesGif = {
          {
             "id": "GfHdAr017",
             "title":"Wrist ROM Flexion 1",
-            "tumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_ROM_Flexion_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AACvOG3gGqFOhTkQBwIkauQ4a/Wrist_ROM_Flexion_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_ROM_Flexion_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AACvOG3gGqFOhTkQBwIkauQ4a/Wrist_ROM_Flexion_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/AROM/Big/Wrist_ROM_Flexion_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wk62ysmtga9lb1d/AACxLhxdCBb1DxZFvX7zUpmja/Wrist_ROM_Flexion_1.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Hand Fracture", "Radial Fracture", "Ulnar Fracture", "Wrist Pain"],
@@ -1365,8 +1365,8 @@ const exercisesGif = {
          {
             "id": "GfHdAr018",
             "title":"Wrist ROM Flexion 2",
-            "tumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_ROM_Flexion_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AABkWGDLo5R2WyzVz2xi8NNSa/Wrist_ROM_Flexion_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_ROM_Flexion_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AABkWGDLo5R2WyzVz2xi8NNSa/Wrist_ROM_Flexion_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/AROM/Big/Wrist_ROM_Flexion_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wk62ysmtga9lb1d/AACIliNbSr9CoZFtX5KL3CL6a/Wrist_ROM_Flexion_2.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Hand Fracture", "Radial Fracture", "Ulnar Fracture", "Wrist Pain"],
@@ -1375,8 +1375,8 @@ const exercisesGif = {
          {
             "id": "GfHdAr019",
             "title":"Wrist ROM Loaded Flexion",
-            "tumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_ROM_Loaded_Flexion.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AAA0EKe58pq9L8Mf7TKY2fzza/Wrist_ROM_Loaded_Flexion.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_ROM_Loaded_Flexion.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AAA0EKe58pq9L8Mf7TKY2fzza/Wrist_ROM_Loaded_Flexion.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/AROM/Big/Wrist_ROM_Loaded_Flexion.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wk62ysmtga9lb1d/AAD83RV9C4YIqoSAcF51Wbyca/Wrist_ROM_Loaded_Flexion.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Hand Fracture", "Radial Fracture", "Ulnar Fracture", "Wrist Pain"],
@@ -1385,8 +1385,8 @@ const exercisesGif = {
          {
             "id": "GfHdAr020",
             "title":"Wrist ROM Radial Deviation",
-            "tumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_ROM_Radial_Deviation.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AACQaPMCoH7nuq1MC2lPrtt6a/Wrist_ROM_Radial_Deviation.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_ROM_Radial_Deviation.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AACQaPMCoH7nuq1MC2lPrtt6a/Wrist_ROM_Radial_Deviation.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/AROM/Big/Wrist_ROM_Radial_Deviation.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wk62ysmtga9lb1d/AAD9ru0rbxFDGG0VI5bf4Y5Ka/Wrist_ROM_Radial_Deviation.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Hand Fracture", "Radial Fracture", "Ulnar Fracture", "Wrist Pain"],
@@ -1395,8 +1395,8 @@ const exercisesGif = {
          {
             "id": "GfHdAr021",
             "title":"Wrist ROM Ulnar Deviation",
-            "tumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_ROM_Ulnar_Deviation.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AAC60G2_VGne8LTsHCgNZ0d_a/Wrist_ROM_Ulnar_Deviation.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_ROM_Ulnar_Deviation.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AAC60G2_VGne8LTsHCgNZ0d_a/Wrist_ROM_Ulnar_Deviation.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/AROM/Big/Wrist_ROM_Ulnar_Deviation.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wk62ysmtga9lb1d/AAAf33KnSSHrkKe5eYl-sEr_a/Wrist_ROM_Ulnar_Deviation.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Hand Fracture", "Radial Fracture", "Ulnar Fracture", "Wrist Pain"],
@@ -1405,8 +1405,8 @@ const exercisesGif = {
          {
             "id": "GfHdAr022",
             "title":"Wrist Towel Squeeze",
-            "tumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_Towel_Squeeze.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AAAiOTt8Jb95SZZQ-YGmsDMya/Wrist_Towel_Squeeze.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/AROM/Thumbnail/Wrist_Towel_Squeeze.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/4cie7a2mfuug9kw/AAAiOTt8Jb95SZZQ-YGmsDMya/Wrist_Towel_Squeeze.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/AROM/Big/Wrist_Towel_Squeeze.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wk62ysmtga9lb1d/AACPyjDorTD3g4FuFAvYsv0Ba/Wrist_Towel_Squeeze.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Hand Fracture", "Radial Fracture", "Ulnar Fracture", "Wrist Pain"],
@@ -1418,8 +1418,8 @@ const exercisesGif = {
          {
             "id": "GfHdSr001",
             "title":"Fingers Stren Band",
-            "tumbUrl":["./docs/Gifs/05-Hand/Strengthening/Thumbnail/Fingers_Stren_Band.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/konaei87bca8d3i/AAAAX67YkPEFHtBQda0_2hp9a/Fingers_Stren_Band.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/Strengthening/Thumbnail/Fingers_Stren_Band.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/konaei87bca8d3i/AAAAX67YkPEFHtBQda0_2hp9a/Fingers_Stren_Band.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/Strengthening/Big/Fingers_Stren_Band.gif"],
             "bigBackup":["https://www.dropbox.com/sh/qkwvpem4sogc7do/AAA7R9c780PfR0EIeSFsn43ua/Fingers_Stren_Band.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Finger Fracture", "Hand Fracture", "Trigger Finger", "Dupuytren's Contracture"],
@@ -1428,8 +1428,8 @@ const exercisesGif = {
          {
             "id": "GfHdSr002",
             "title":"Fingers Stren Stress Ball 1",
-            "tumbUrl":["./docs/Gifs/05-Hand/Strengthening/Thumbnail/Fingers_Stren_Stress_Ball_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/konaei87bca8d3i/AAC9_GHYDDjiWhM-7C0kyarva/Fingers_Stren_Stress_Ball_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/Strengthening/Thumbnail/Fingers_Stren_Stress_Ball_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/konaei87bca8d3i/AAC9_GHYDDjiWhM-7C0kyarva/Fingers_Stren_Stress_Ball_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/Strengthening/Big/Fingers_Stren_Stress_Ball_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/qkwvpem4sogc7do/AADHlXGQLq1i-DCZGOdz8ksha/Fingers_Stren_Stress_Ball_1.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Finger Fracture", "Hand Fracture", "Trigger Finger", "Dupuytren's Contracture"],
@@ -1438,8 +1438,8 @@ const exercisesGif = {
          {
             "id": "GfHdSr003",
             "title":"Fingers Stren Stress Ball 2",
-            "tumbUrl":["./docs/Gifs/05-Hand/Strengthening/Thumbnail/Fingers_Stren_Stress_Ball_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/konaei87bca8d3i/AACQQ53CqSmUo8sCWji7Ew7Va/Fingers_Stren_Stress_Ball_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/Strengthening/Thumbnail/Fingers_Stren_Stress_Ball_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/konaei87bca8d3i/AACQQ53CqSmUo8sCWji7Ew7Va/Fingers_Stren_Stress_Ball_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/Strengthening/Big/Fingers_Stren_Stress_Ball_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/qkwvpem4sogc7do/AAAjH2KVILOIjVrQ4ppSG9VKa/Fingers_Stren_Stress_Ball_2.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Finger Fracture", "Hand Fracture", "Trigger Finger", "Dupuytren's Contracture"],
@@ -1448,8 +1448,8 @@ const exercisesGif = {
          {
             "id": "GfHdSr004",
             "title":"Thumb Stren Stress Ball",
-            "tumbUrl":["./docs/Gifs/05-Hand/Strengthening/Thumbnail/Thumb_Stren_Stress_Ball.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/konaei87bca8d3i/AABV34jEkNqGwyenKtwnCGIDa/Thumb_Stren_Stress_Ball.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/Strengthening/Thumbnail/Thumb_Stren_Stress_Ball.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/konaei87bca8d3i/AABV34jEkNqGwyenKtwnCGIDa/Thumb_Stren_Stress_Ball.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/Strengthening/Big/Thumb_Stren_Stress_Ball.gif"],
             "bigBackup":["https://www.dropbox.com/sh/qkwvpem4sogc7do/AAC4Xi8_T_W0bLgmVAh8SMFia/Thumb_Stren_Stress_Ball.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Finger Fracture", "Hand Fracture", "Trigger Finger", "Dupuytren's Contracture"],
@@ -1458,8 +1458,8 @@ const exercisesGif = {
          {
             "id": "GfHdSr005",
             "title":"Wrist Stren Extension 1",
-            "tumbUrl":["./docs/Gifs/05-Hand/Strengthening/Thumbnail/Wrist_Stren_Extension_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/konaei87bca8d3i/AAAikhvIC0C4IBxUgYZap-Sja/Wrist_Stren_Extension_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/Strengthening/Thumbnail/Wrist_Stren_Extension_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/konaei87bca8d3i/AAAikhvIC0C4IBxUgYZap-Sja/Wrist_Stren_Extension_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/Strengthening/Big/Wrist_Stren_Extension_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/qkwvpem4sogc7do/AACCVDxaf9utW23wcywnWUjna/Wrist_Stren_Extension_1.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Hand Fracture", "Radial Fracture", "Ulnar Fracture", "Wrist Pain"],
@@ -1468,8 +1468,8 @@ const exercisesGif = {
          {
             "id": "GfHdSr006",
             "title":"Wrist Stren Extension 2",
-            "tumbUrl":["./docs/Gifs/05-Hand/Strengthening/Thumbnail/Wrist_Stren_Extension_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/konaei87bca8d3i/AAAYeF8RBsr_QWIxQwlbj6ipa/Wrist_Stren_Extension_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/Strengthening/Thumbnail/Wrist_Stren_Extension_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/konaei87bca8d3i/AAAYeF8RBsr_QWIxQwlbj6ipa/Wrist_Stren_Extension_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/Strengthening/Big/Wrist_Stren_Extension_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/qkwvpem4sogc7do/AADtIOxXDmP_5Ai474_4t91Ka/Wrist_Stren_Extension_2.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Hand Fracture", "Radial Fracture", "Ulnar Fracture", "Wrist Pain"],
@@ -1478,8 +1478,8 @@ const exercisesGif = {
          {
             "id": "GfHdSr007",
             "title":"Wrist Stren FlexExtension 1",
-            "tumbUrl":["./docs/Gifs/05-Hand/Strengthening/Thumbnail/Wrist_Stren_FlexExtension_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/konaei87bca8d3i/AAAXygPZ9BjMUdH_eZnv9kLda/Wrist_Stren_FlexExtension_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/Strengthening/Thumbnail/Wrist_Stren_FlexExtension_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/konaei87bca8d3i/AAAXygPZ9BjMUdH_eZnv9kLda/Wrist_Stren_FlexExtension_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/Strengthening/Big/Wrist_Stren_FlexExtension_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/qkwvpem4sogc7do/AADhA505Lumh-rRrsfZjfIHFa/Wrist_Stren_FlexExtension_1.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Hand Fracture", "Radial Fracture", "Ulnar Fracture", "Wrist Pain"],
@@ -1488,8 +1488,8 @@ const exercisesGif = {
          {
             "id": "GfHdSr008",
             "title":"Wrist Stren Flexion 1",
-            "tumbUrl":["./docs/Gifs/05-Hand/Strengthening/Thumbnail/Wrist_Stren_Flexion_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/konaei87bca8d3i/AADBucDtJz-ZEIjnCrGOhlzya/Wrist_Stren_Flexion_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/Strengthening/Thumbnail/Wrist_Stren_Flexion_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/konaei87bca8d3i/AADBucDtJz-ZEIjnCrGOhlzya/Wrist_Stren_Flexion_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/Strengthening/Big/Wrist_Stren_Flexion_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/qkwvpem4sogc7do/AABZD1catV5VeNz53Xlm-ZcNa/Wrist_Stren_Flexion_1.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Hand Fracture", "Radial Fracture", "Ulnar Fracture", "Wrist Pain"],
@@ -1498,8 +1498,8 @@ const exercisesGif = {
          {
             "id": "GfHdSr009",
             "title":"Wrist Stren Flexion 2",
-            "tumbUrl":["./docs/Gifs/05-Hand/Strengthening/Thumbnail/Wrist_Stren_Flexion_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/konaei87bca8d3i/AADOcR7G1jVo68GSlNwLx4pRa/Wrist_Stren_Flexion_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/Strengthening/Thumbnail/Wrist_Stren_Flexion_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/konaei87bca8d3i/AADOcR7G1jVo68GSlNwLx4pRa/Wrist_Stren_Flexion_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/Strengthening/Big/Wrist_Stren_Flexion_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/qkwvpem4sogc7do/AADzr5RsHt_KjZhZkO2FxeRia/Wrist_Stren_Flexion_2.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Hand Fracture", "Radial Fracture", "Ulnar Fracture", "Wrist Pain"],
@@ -1508,8 +1508,8 @@ const exercisesGif = {
          {
             "id": "GfHdSr010",
             "title":"Wrist Stren Radial Deviation",
-            "tumbUrl":["./docs/Gifs/05-Hand/Strengthening/Thumbnail/Wrist_Stren_Radial_Deviation.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/konaei87bca8d3i/AABKfB7M6gLrZ26nqgju1empa/Wrist_Stren_Radial_Deviation.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/Strengthening/Thumbnail/Wrist_Stren_Radial_Deviation.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/konaei87bca8d3i/AABKfB7M6gLrZ26nqgju1empa/Wrist_Stren_Radial_Deviation.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/Strengthening/Big/Wrist_Stren_Radial_Deviation.gif"],
             "bigBackup":["https://www.dropbox.com/sh/qkwvpem4sogc7do/AADmbL_onzNgOG5_9hd49_z5a/Wrist_Stren_Radial_Deviation.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Hand Fracture", "Radial Fracture", "Ulnar Fracture", "Wrist Pain"],
@@ -1518,8 +1518,8 @@ const exercisesGif = {
          {
             "id": "GfHdSr011",
             "title":"Wrist Stren RadiUlnar Deviation",
-            "tumbUrl":["./docs/Gifs/05-Hand/Strengthening/Thumbnail/Wrist_Stren_RadiUlnar_Deviation.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/konaei87bca8d3i/AABEzrkiwGd_Wy3uDSl5688xa/Wrist_Stren_RadiUlnar_Deviation.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/Strengthening/Thumbnail/Wrist_Stren_RadiUlnar_Deviation.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/konaei87bca8d3i/AABEzrkiwGd_Wy3uDSl5688xa/Wrist_Stren_RadiUlnar_Deviation.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/Strengthening/Big/Wrist_Stren_RadiUlnar_Deviation.gif"],
             "bigBackup":["https://www.dropbox.com/sh/qkwvpem4sogc7do/AACHQQ1ia-QSOg-pEwX6kq0Da/Wrist_Stren_RadiUlnar_Deviation.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Hand Fracture", "Radial Fracture", "Ulnar Fracture", "Wrist Pain"],
@@ -1528,8 +1528,8 @@ const exercisesGif = {
          {
             "id": "GfHdSr012",
             "title":"Wrist Stren Ulnar Deviation",
-            "tumbUrl":["./docs/Gifs/05-Hand/Strengthening/Thumbnail/Wrist_Stren_Ulnar_Deviation.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/konaei87bca8d3i/AAAgiNqBW10FB-5GXESP1PQ1a/Wrist_Stren_Ulnar_Deviation.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/Strengthening/Thumbnail/Wrist_Stren_Ulnar_Deviation.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/konaei87bca8d3i/AAAgiNqBW10FB-5GXESP1PQ1a/Wrist_Stren_Ulnar_Deviation.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/Strengthening/Big/Wrist_Stren_Ulnar_Deviation.gif"],
             "bigBackup":["https://www.dropbox.com/sh/qkwvpem4sogc7do/AAA6gT3T73S9eSpYNHCj0o7la/Wrist_Stren_Ulnar_Deviation.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Hand Fracture", "Radial Fracture", "Ulnar Fracture", "Wrist Pain"],
@@ -1538,8 +1538,8 @@ const exercisesGif = {
          {
             "id": "GfHdSr013",
             "title":"Wrsit Stren FlexExtension",
-            "tumbUrl":["./docs/Gifs/05-Hand/Strengthening/Thumbnail/Wrsit_Stren_FlexExtension.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/konaei87bca8d3i/AAAtFEdIE49ntLU7LAcfUIbKa/Wrsit_Stren_FlexExtension.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/Strengthening/Thumbnail/Wrsit_Stren_FlexExtension.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/konaei87bca8d3i/AAAtFEdIE49ntLU7LAcfUIbKa/Wrsit_Stren_FlexExtension.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/Strengthening/Big/Wrsit_Stren_FlexExtension.gif"],
             "bigBackup":["https://www.dropbox.com/sh/qkwvpem4sogc7do/AAB9ShtIzSMtFzyrWQTWv9hEa/Wrsit_Stren_FlexExtension.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Hand Fracture", "Radial Fracture", "Ulnar Fracture", "Wrist Pain"],
@@ -1551,8 +1551,8 @@ const exercisesGif = {
          {
             "id": "GfHdSh001",
             "title":"Wrist and Fingers Extensors Stretch",
-            "tumbUrl":["./docs/Gifs/05-Hand/Stretchings/Thumbnail/Wrist_and_Fingers_Extensors_Stretch.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/9ww351bdkfo1wjc/AACNa2x0EvCyaipnKKtQiz2ia/Wrist_and_Fingers_Extensors_Stretch.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/Stretchings/Thumbnail/Wrist_and_Fingers_Extensors_Stretch.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/9ww351bdkfo1wjc/AACNa2x0EvCyaipnKKtQiz2ia/Wrist_and_Fingers_Extensors_Stretch.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/Stretchings/Big/Wrist_and_Fingers_Extensors_Stretch.gif"],
             "bigBackup":["https://www.dropbox.com/sh/ei30tkqwaqgbhye/AAAQeXFe9A2EKMVUL3dbPSNxa/Wrist_and_Fingers_Extensors_Stretch.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Finger Fracture", "Hand Fracture","Radial Fracture", "Ulnar Fracture", "Wrist Pain", "Trigger Finger", "Dupuytren's Contracture"],
@@ -1561,8 +1561,8 @@ const exercisesGif = {
          {
             "id": "GfHdSh002",
             "title":"Wrist and Fingers Flexors Stretch 1",
-            "tumbUrl":["./docs/Gifs/05-Hand/Stretchings/Thumbnail/Wrist_and_Fingers_Flexors_Stretch_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/9ww351bdkfo1wjc/AAAbpSoH4NJBrQtBk0i1NXl6a/Wrist_and_Fingers_Flexors_Stretch_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/Stretchings/Thumbnail/Wrist_and_Fingers_Flexors_Stretch_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/9ww351bdkfo1wjc/AAAbpSoH4NJBrQtBk0i1NXl6a/Wrist_and_Fingers_Flexors_Stretch_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/Stretchings/Big/Wrist_and_Fingers_Flexors_Stretch_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/ei30tkqwaqgbhye/AADsIljoMNAtSp0KcfHAAQJqa/Wrist_and_Fingers_Flexors_Stretch_1.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Finger Fracture", "Hand Fracture","Radial Fracture", "Ulnar Fracture", "Wrist Pain", "Trigger Finger", "Dupuytren's Contracture"],
@@ -1571,8 +1571,8 @@ const exercisesGif = {
          {
             "id": "GfHdSh003",
             "title":"Wrist and Fingers Flexors Stretch 2",
-            "tumbUrl":["./docs/Gifs/05-Hand/Stretchings/Thumbnail/Wrist_and_Fingers_Flexors_Stretch_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/9ww351bdkfo1wjc/AAARLSSw8HodkABaznAHfAbAa/Wrist_and_Fingers_Flexors_Stretch_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/05-Hand/Stretchings/Thumbnail/Wrist_and_Fingers_Flexors_Stretch_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/9ww351bdkfo1wjc/AAARLSSw8HodkABaznAHfAbAa/Wrist_and_Fingers_Flexors_Stretch_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/05-Hand/Stretchings/Big/Wrist_and_Fingers_Flexors_Stretch_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/ei30tkqwaqgbhye/AADXvcbFXNiJ3WWW1S2EbXzma/Wrist_and_Fingers_Flexors_Stretch_2.gif?raw=1"],
             "tags":[ "CTS", "Carpal Tunnel Syndrome", "Finger Fracture", "Hand Fracture","Radial Fracture", "Ulnar Fracture", "Wrist Pain", "Trigger Finger", "Dupuytren's Contracture"],
@@ -1586,8 +1586,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb001",
             "title":"bridging",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/bridging.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AAAVUnGbVbrdL4Q01zN2dVT0a/bridging.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/bridging.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AAAVUnGbVbrdL4Q01zN2dVT0a/bridging.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/bridging.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AAA90qmcknsvJjUU6eZxAI7Ia/bridging.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1596,8 +1596,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb002",
             "title":"bridging one leg",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/bridging_one_leg.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AAAs65DitH89Ic3zs0wASdDta/bridging_one_leg.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/bridging_one_leg.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AAAs65DitH89Ic3zs0wASdDta/bridging_one_leg.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/bridging_one_leg.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AAA4UVh4ifv2IEeF8uPOPD1ba/bridging_one_leg.gif?raw=1Link"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1606,8 +1606,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb003",
             "title":"diaphram activation",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/diaphram_activation.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AABvoXRRiKa8Av4leEawsu6Da/diaphram_activation.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/diaphram_activation.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AABvoXRRiKa8Av4leEawsu6Da/diaphram_activation.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/diaphram_activation.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AACVGywFIeCNHXZFug_DhHGaa/diaphram_activation.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1616,8 +1616,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb004",
             "title":"stablity on 4",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/stablity_on_4.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AAAh3piPl2vy9W5Mw8ONXpBya/stablity_on_4.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/stablity_on_4.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AAAh3piPl2vy9W5Mw8ONXpBya/stablity_on_4.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/stablity_on_4.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AACm9JxX4JVDrXzuWMUacWcya/stablity_on_4.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1626,8 +1626,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb005",
             "title":"superman",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/superman.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AADmEiuCLL48hvb77B-LOlBJa/superman.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/superman.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AADmEiuCLL48hvb77B-LOlBJa/superman.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/superman.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AADPvq5uqdrW1K0493BggJgWa/superman.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1636,8 +1636,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb006",
             "title":"superman on 4",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/superman_on_4.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AADfR9FVJNnpveb2OVWt5MC3a/superman_on_4.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/superman_on_4.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AADfR9FVJNnpveb2OVWt5MC3a/superman_on_4.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/superman_on_4.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AAByQI8i1LDOV57o9I3adVVpa/superman_on_4.gif?raw=1Link"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1646,8 +1646,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb007",
             "title":"Trunk Abdominals",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Abdominals.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AAAo-pGfDXmmKF8BvTDvmohDa/Trunk_Abdominals.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Abdominals.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AAAo-pGfDXmmKF8BvTDvmohDa/Trunk_Abdominals.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/Trunk_Abdominals.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AADQtVzx_GlTyfFeVzTAWg25a/Trunk_Abdominals.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1656,8 +1656,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb008",
             "title":"Trunk Arms and Legs Lifts",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Arms_and_Legs_Lifts.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AABo1VLx2k1E6uJNw7xRsgnpa/Trunk_Arms_and_Legs_Lifts.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Arms_and_Legs_Lifts.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AABo1VLx2k1E6uJNw7xRsgnpa/Trunk_Arms_and_Legs_Lifts.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/Trunk_Arms_and_Legs_Lifts.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AAA0xeGS3VtID2piiorayn2ca/Trunk_Arms_and_Legs_Lifts.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1666,8 +1666,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb009",
             "title":"Trunk Bridging",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Bridging.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AACE7za0NmnO16uzSNGMzCw_a/Trunk_Bridging.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Bridging.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AACE7za0NmnO16uzSNGMzCw_a/Trunk_Bridging.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/Trunk_Bridging.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AABuaNNFgbsZAWvrMnHt8gnfa/Trunk_Bridging.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1676,8 +1676,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb010",
             "title":"Trunk Cat and Camel",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Cat_and_Camel.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AAAkGdFHr0gCcSEJ8Lo4xrSAa/Trunk_Cat_and_Camel.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Cat_and_Camel.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AAAkGdFHr0gCcSEJ8Lo4xrSAa/Trunk_Cat_and_Camel.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/Trunk_Cat_and_Camel.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AADlYNQWzbYvknTnVjAaE7rsa/Trunk_Cat_and_Camel.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1686,8 +1686,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb011",
             "title":"Trunk Dead Bug",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Dead_Bug.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AAC4e5vuh6bM7RSRiP396C3Ma/Trunk_Dead_Bug.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Dead_Bug.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AAC4e5vuh6bM7RSRiP396C3Ma/Trunk_Dead_Bug.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/Trunk_Dead_Bug.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AABVC0bVFF9yRsWKlWn4bkDLa/Trunk_Dead_Bug.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1696,8 +1696,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb012",
             "title":"Trunk Extension 1",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Extension_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AADGaXQS6scJyrUXKu-NUn_Ga/Trunk_Extension_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Extension_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AADGaXQS6scJyrUXKu-NUn_Ga/Trunk_Extension_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/Trunk_Extension_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AAC-NcqCygI2EFVduLUgMSVOa/Trunk_Extension_1.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1706,8 +1706,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb013",
             "title":"Trunk Extension 2",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Extension_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AAC1vrkAkE8ov9o0-jync6Uia/Trunk_Extension_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Extension_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AAC1vrkAkE8ov9o0-jync6Uia/Trunk_Extension_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/Trunk_Extension_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AAAkXYIaoXG8RlV4rnixVL5va/Trunk_Extension_2.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1716,8 +1716,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb014",
             "title":"Trunk Extension 3",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Extension_3.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AADoA_A17ruatsG7swbGqQhna/Trunk_Extension_3.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Extension_3.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AADoA_A17ruatsG7swbGqQhna/Trunk_Extension_3.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/Trunk_Extension_3.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AABjXY2iinncwQ_53He4Ub3ga/Trunk_Extension_3.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1726,8 +1726,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb015",
             "title":"Trunk Extension 4",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Extension_4.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AABg0bbBR3aPxzQZ1qOrMZEwa/Trunk_Extension_4.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Extension_4.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AABg0bbBR3aPxzQZ1qOrMZEwa/Trunk_Extension_4.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/Trunk_Extension_4.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AAA_dnt8-Ia6dWQax4cj4XyUa/Trunk_Extension_4.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1736,8 +1736,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb016",
             "title":"Trunk Extension 5",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Extension_5.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AABgMbM4FkuDzG812p9IhqwHa/Trunk_Extension_5.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Extension_5.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AABgMbM4FkuDzG812p9IhqwHa/Trunk_Extension_5.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/Trunk_Extension_5.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AADlCFdi31Ux8wxlt8Sq7oDna/Trunk_Extension_5.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1746,8 +1746,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb017",
             "title":"Trunk Extension with Shoulder Extension",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Extension_with_Shoulder_Extension.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AADTUVkEf-TlYdh3GmFjpsHfa/Trunk_Extension_with_Shoulder_Extension.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Extension_with_Shoulder_Extension.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AADTUVkEf-TlYdh3GmFjpsHfa/Trunk_Extension_with_Shoulder_Extension.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/Trunk_Extension_with_Shoulder_Extension.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AAAYSOGDRu8lV9bQXftDKCWXa/Trunk_Extension_with_Shoulder_Extension.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1756,8 +1756,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb018",
             "title":"Trunk Pelvic Tilt 1",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Pelvic_Tilt_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AAAu2A9eiHewGNvAIOSlecBxa/Trunk_Pelvic_Tilt_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Pelvic_Tilt_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AAAu2A9eiHewGNvAIOSlecBxa/Trunk_Pelvic_Tilt_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/Trunk_Pelvic_Tilt_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AAASyIA4IPXGX1E7fpf-aciwa/Trunk_Pelvic_Tilt_1.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1766,8 +1766,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb019",
             "title":"Trunk Pelvic Tilt 2",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Pelvic_Tilt_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AADQTQH-Bc7Cnf1ze90WnHeIa/Trunk_Pelvic_Tilt_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Pelvic_Tilt_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AADQTQH-Bc7Cnf1ze90WnHeIa/Trunk_Pelvic_Tilt_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/Trunk_Pelvic_Tilt_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AAC6IzabEBvWCTXvp5YAUIfya/Trunk_Pelvic_Tilt_2.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1776,8 +1776,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb020",
             "title":"Trunk Plank 1",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Plank_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AAAmr7oV18F4Al0BDYhkxRTma/Trunk_Plank_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Plank_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AAAmr7oV18F4Al0BDYhkxRTma/Trunk_Plank_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/Trunk_Plank_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AACuaX_P5F7voWwVX8wPopZQa/Trunk_Plank_1.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1786,8 +1786,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb021",
             "title":"Trunk Plank 2",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Plank_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AAByCHz_P9Z_mbPZUq1qYKFUa/Trunk_Plank_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Plank_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AAByCHz_P9Z_mbPZUq1qYKFUa/Trunk_Plank_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/Trunk_Plank_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AADL_lX_3i5XI0QfxlL9LoxEa/Trunk_Plank_2.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1796,8 +1796,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb022",
             "title":"Trunk Prone Alternative Arms and Legs",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Prone_Alternative_Arms_and_Legs.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AABmzRgKPLehvaXNj-IHAWIQa/Trunk_Prone_Alternative_Arms_and_Legs.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Prone_Alternative_Arms_and_Legs.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AABmzRgKPLehvaXNj-IHAWIQa/Trunk_Prone_Alternative_Arms_and_Legs.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/Trunk_Prone_Alternative_Arms_and_Legs.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AAAzpUw4DXY_VDLJa1_3yNLba/Trunk_Prone_Alternative_Arms_and_Legs.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1806,8 +1806,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb023",
             "title":"Trunk Quadruped Alternative Lifts",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Quadruped_Alternative_Lifts.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AAB29Q0eEbuIiDpB0jsx17RLa/Trunk_Quadruped_Alternative_Lifts.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Quadruped_Alternative_Lifts.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AAB29Q0eEbuIiDpB0jsx17RLa/Trunk_Quadruped_Alternative_Lifts.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/Trunk_Quadruped_Alternative_Lifts.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AABhc47qGsGGEuG79pCl9bNsa/Trunk_Quadruped_Alternative_Lifts.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1816,8 +1816,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb024",
             "title":"Trunk Quadruped Arm Lifts",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Quadruped_Arm_Lifts.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AABILsinvfKYCOTsZX8x2Sd1a/Trunk_Quadruped_Arm_Lifts.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Quadruped_Arm_Lifts.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AABILsinvfKYCOTsZX8x2Sd1a/Trunk_Quadruped_Arm_Lifts.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/Trunk_Quadruped_Arm_Lifts.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AAAYhlw1ZvWWBDixMy66rZR2a/Trunk_Quadruped_Arm_Lifts.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1826,8 +1826,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb025",
             "title":"Trunk Quadruped Knees Lifts",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Quadruped_Knees_Lifts.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AADZqn82EKKj5PvmrTuWa3xCa/Trunk_Quadruped_Knees_Lifts.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Quadruped_Knees_Lifts.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AADZqn82EKKj5PvmrTuWa3xCa/Trunk_Quadruped_Knees_Lifts.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/Trunk_Quadruped_Knees_Lifts.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AABdf9fdtxg-4KJiicX_mjAKa/Trunk_Quadruped_Knees_Lifts.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1836,8 +1836,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb026",
             "title":"Trunk Quadruped Leg Lifts",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Quadruped_Leg_Lifts.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AADiyTPEySsvtwcSmSxnUJ4Ua/Trunk_Quadruped_Leg_Lifts.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Quadruped_Leg_Lifts.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AADiyTPEySsvtwcSmSxnUJ4Ua/Trunk_Quadruped_Leg_Lifts.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/Trunk_Quadruped_Leg_Lifts.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AAA5xddY64eecv9XXzPozCFJa/Trunk_Quadruped_Leg_Lifts.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1846,8 +1846,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb027",
             "title":"Trunk Reverse Plank",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Reverse_Plank.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AACIZrUZvkm1T2EinTMlLFFEa/Trunk_Reverse_Plank.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Reverse_Plank.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AACIZrUZvkm1T2EinTMlLFFEa/Trunk_Reverse_Plank.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/Trunk_Reverse_Plank.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AACCKusdN_qoy8Q155y_Yzd-a/Trunk_Reverse_Plank.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1856,8 +1856,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb028",
             "title":"Trunk Side Plank",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Side_Plank.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AACeXv79Y8KZKQdhbENJgQkOa/Trunk_Side_Plank.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Side_Plank.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AACeXv79Y8KZKQdhbENJgQkOa/Trunk_Side_Plank.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/Trunk_Side_Plank.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AAA2dyrFvjF8FO2ltvpsJpCRa/Trunk_Side_Plank.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1866,8 +1866,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb029",
             "title":"Trunk Thoracic Mobility",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Thoracic_Mobility.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AAC7bkn3PvjrJ9t4y2dcPNt0a/Trunk_Thoracic_Mobility.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Thoracic_Mobility.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AAC7bkn3PvjrJ9t4y2dcPNt0a/Trunk_Thoracic_Mobility.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/Trunk_Thoracic_Mobility.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AAD_oa62HHopk4H8sxOuBtX7a/Trunk_Thoracic_Mobility.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1876,8 +1876,8 @@ const exercisesGif = {
          {
             "id": "GfTrSb030",
             "title":"Trunk Uni Bridging",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Uni_Bridging.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AAAjYSzngkgymROZxbhpNgsva/Trunk_Uni_Bridging.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stability/Thumbnail/Trunk_Uni_Bridging.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/6m07js7akbz61go/AAAjYSzngkgymROZxbhpNgsva/Trunk_Uni_Bridging.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stability/Big/Trunk_Uni_Bridging.gif"],
             "bigBackup":["https://www.dropbox.com/sh/2l2846zmvpbkcfa/AADdDUVLnCiQ-zYOAfI5Jw3na/Trunk_Uni_Bridging.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1889,8 +1889,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh001",
             "title":"bil knee to chest stretch",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/bil_knee_to_chest_stretch.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AABTkhthK3QDpQUwlDdL0Gefa/bil_knee_to_chest_stretch.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/bil_knee_to_chest_stretch.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AABTkhthK3QDpQUwlDdL0Gefa/bil_knee_to_chest_stretch.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/bil_knee_to_chest_stretch.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AAC2Dr2uOKiJ1eY20rlHTUjNa/bil_knee_to_chest_stretch.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1899,8 +1899,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh002",
             "title":"flexion stretch",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/flexion_stretch.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AAAqQP6ZvcJybOO7-zNFPCd5a/flexion_stretch.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/flexion_stretch.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AAAqQP6ZvcJybOO7-zNFPCd5a/flexion_stretch.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/flexion_stretch.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AABqbnYkU9qC8c9x-E0cHcDQa/flexion_stretch.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1909,8 +1909,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh004",
             "title":"knee to opps",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/knee_to_opps.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AAAp8ioJrsZBHPZt91FjHr6ka/knee_to_opps.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/knee_to_opps.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AAAp8ioJrsZBHPZt91FjHr6ka/knee_to_opps.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/knee_to_opps.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AABSqH__oplsecNYil1BJqTQa/knee_to_opps._shoulder_stretch.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1919,8 +1919,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh005",
             "title":"performis stretch",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/performis_stretch.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AADHPWn6zr3C6yo2J2SlBDrja/performis_stretch.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/performis_stretch.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AADHPWn6zr3C6yo2J2SlBDrja/performis_stretch.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/performis_stretch.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AADJbk2b5GlX5QbfPD0ykIl5a/performis_stretch.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1929,8 +1929,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh006",
             "title":"sciatic nerve glide",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/sciatic_nerve_glide.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AABOn8-AeDGsHTWcNY7tgUlGa/sciatic_nerve_glide.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/sciatic_nerve_glide.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AABOn8-AeDGsHTWcNY7tgUlGa/sciatic_nerve_glide.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/sciatic_nerve_glide.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AAB7OoH1fuXIFzwLtJ2QXog7a/sciatic_nerve_glide.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1939,8 +1939,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh007",
             "title":"Trunk Bil Sidebending  Stretch 3",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Bil_Sidebending__Stretch_3.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AAAgvrICDdaEqezxBkoEyCQia/Trunk_Bil_Sidebending__Stretch_3.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Bil_Sidebending__Stretch_3.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AAAgvrICDdaEqezxBkoEyCQia/Trunk_Bil_Sidebending__Stretch_3.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/Trunk_Bil_Sidebending__Stretch_3.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AADD67lkqJK8oHkroI-sQWQva/Trunk_Bil_Sidebending__Stretch_3.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1949,8 +1949,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh008",
             "title":"Trunk Bil Sidebending Stretch 1",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Bil_Sidebending_Stretch_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AAA0rzJQlQ4p879ufORMRTVCa/Trunk_Bil_Sidebending_Stretch_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Bil_Sidebending_Stretch_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AAA0rzJQlQ4p879ufORMRTVCa/Trunk_Bil_Sidebending_Stretch_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/Trunk_Bil_Sidebending_Stretch_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AAA4c8Ft1mubHs13KpEnkl4_a/Trunk_Bil_Sidebending_Stretch_1.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1959,8 +1959,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh009",
             "title":"Trunk Bil Sidebending Stretch 2",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Bil_Sidebending_Stretch_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AABc85xYajlUfZplWmxwMjP6a/Trunk_Bil_Sidebending_Stretch_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Bil_Sidebending_Stretch_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AABc85xYajlUfZplWmxwMjP6a/Trunk_Bil_Sidebending_Stretch_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/Trunk_Bil_Sidebending_Stretch_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AADOZiAuam50AYaOqy3UWnkGa/Trunk_Bil_Sidebending_Stretch_2.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1969,8 +1969,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh010",
             "title":"Trunk BL Legs Stretch",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_BL_Legs_Stretch.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AAB8D89feFC-ypSHQvDNng8Fa/Trunk_BL_Legs_Stretch.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_BL_Legs_Stretch.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AAB8D89feFC-ypSHQvDNng8Fa/Trunk_BL_Legs_Stretch.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/Trunk_BL_Legs_Stretch.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AADlBx_HgrmlfTr6xb8Fp1TZa/Trunk_BL_Legs_Stretch.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1979,8 +1979,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh011",
             "title":"Trunk Calf and Hams Stretch",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Calf_and_Hams_Stretch.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AAAUPeGaV2Uaz0bV66IsbaIVa/Trunk_Calf_and_Hams_Stretch.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Calf_and_Hams_Stretch.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AAAUPeGaV2Uaz0bV66IsbaIVa/Trunk_Calf_and_Hams_Stretch.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/Trunk_Calf_and_Hams_Stretch.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AACm5tL-NOZ5BtlFg08dIdsDa/Trunk_Calf_and_Hams_Stretch.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1989,8 +1989,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh012",
             "title":"Trunk Calf Stretch",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Calf_Stretch.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AACEameRYZVyU-BEQxP9VwGKa/Trunk_Calf_Stretch.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Calf_Stretch.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AACEameRYZVyU-BEQxP9VwGKa/Trunk_Calf_Stretch.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/Trunk_Calf_Stretch.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AABc9_fNShwaOUQCHKrwZ9CQa/Trunk_Calf_Stretch.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -1999,8 +1999,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh013",
             "title":"Trunk Child Pose Stretch",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Child_Pose_Stretch.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AAB6lviq3o4VwfiQIYgKF7c0a/Trunk_Child_Pose_Stretch.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Child_Pose_Stretch.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AAB6lviq3o4VwfiQIYgKF7c0a/Trunk_Child_Pose_Stretch.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/Trunk_Child_Pose_Stretch.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AAAdp3fO9N7P9WUE9-VXOVsva/Trunk_Child_Pose_Stretch.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -2009,8 +2009,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh014",
             "title":"Trunk Hamstring Stretch 1",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Hamstring_Stretch_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AABZp9Z6n2D9LygUi_6r0VJ9a/Trunk_Hamstring_Stretch_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Hamstring_Stretch_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AABZp9Z6n2D9LygUi_6r0VJ9a/Trunk_Hamstring_Stretch_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/Trunk_Hamstring_Stretch_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AADlwGB4azBPyc5Z_XXyqZa_a/Trunk_Hamstring_Stretch_1.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -2019,8 +2019,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh015",
             "title":"Trunk Hamstring Stretch 2",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Hamstring_Stretch_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AABIK4LC1VBFAyhzjBymolTza/Trunk_Hamstring_Stretch_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Hamstring_Stretch_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AABIK4LC1VBFAyhzjBymolTza/Trunk_Hamstring_Stretch_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/Trunk_Hamstring_Stretch_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AADVn3YvQnWao_R--ZyPnYBDa/Trunk_Hamstring_Stretch_2.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -2029,8 +2029,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh016",
             "title":"Trunk Hamstring Stretch 3",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Hamstring_Stretch_3.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AABvvNL8W63I7FxXhFjDtGPOa/Trunk_Hamstring_Stretch_3.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Hamstring_Stretch_3.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AABvvNL8W63I7FxXhFjDtGPOa/Trunk_Hamstring_Stretch_3.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/Trunk_Hamstring_Stretch_3.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AAC0yVNVty_tKCg9V-M-VmECa/Trunk_Hamstring_Stretch_3.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -2039,8 +2039,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh017",
             "title":"Trunk Inverted V",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Inverted_V.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AACGl2JOiQ4yu1sS35riE90Sa/Trunk_Inverted_V.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Inverted_V.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AACGl2JOiQ4yu1sS35riE90Sa/Trunk_Inverted_V.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/Trunk_Inverted_V.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AADlT4EFEIY9DbzVSg_f4Coka/Trunk_Inverted_V.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -2049,8 +2049,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh018",
             "title":"Trunk Lower Rotation Stretch",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Lower_Rotation_Stretch.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AADIwMDb0BvKKVjrbDeboJKVa/Trunk_Lower_Rotation_Stretch.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Lower_Rotation_Stretch.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AADIwMDb0BvKKVjrbDeboJKVa/Trunk_Lower_Rotation_Stretch.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/Trunk_Lower_Rotation_Stretch.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AACoFkQQGsS1EkwJahNyNttZa/Trunk_Lower_Rotation_Stretch.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -2059,8 +2059,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh019",
             "title":"Trunk Lt Sidebending Stretch  2",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Lt_Sidebending_Stretch__2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AADysZWU5OaWSBT5Y62cKqGxa/Trunk_Lt_Sidebending_Stretch__2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Lt_Sidebending_Stretch__2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AADysZWU5OaWSBT5Y62cKqGxa/Trunk_Lt_Sidebending_Stretch__2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/Trunk_Lt_Sidebending_Stretch__2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AABYwQrNjugZguaN4XBksnyEa/Trunk_Lt_Sidebending_Stretch__2.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -2069,8 +2069,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh020",
             "title":"Trunk Lt Sidebending Stretch 1",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Lt_Sidebending_Stretch_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AACaR1WbirtbibwI_Yzrpd9ka/Trunk_Lt_Sidebending_Stretch_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Lt_Sidebending_Stretch_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AACaR1WbirtbibwI_Yzrpd9ka/Trunk_Lt_Sidebending_Stretch_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/Trunk_Lt_Sidebending_Stretch_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AADT2pV-lTpBmcq1N7Emeh0Ha/Trunk_Lt_Sidebending_Stretch_1.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -2079,8 +2079,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh021",
             "title":"Trunk Piriformis Stretch",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Piriformis_Stretch.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AACxGk2CRVFFX0_dw5uZpmvca/Trunk_Piriformis_Stretch.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Piriformis_Stretch.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AACxGk2CRVFFX0_dw5uZpmvca/Trunk_Piriformis_Stretch.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/Trunk_Piriformis_Stretch.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AAC_2z9ZPQdFzchQp-kiZl94a/Trunk_Piriformis_Stretch.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -2089,8 +2089,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh022",
             "title":"Trunk Rhomboids",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Rhomboids.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AACiCvXIH0RDpyGf6__JpyO0a/Trunk_Rhomboids.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Rhomboids.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AACiCvXIH0RDpyGf6__JpyO0a/Trunk_Rhomboids.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/Trunk_Rhomboids.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AABBBxquz1YpueG68PBSFUgda/Trunk_Rhomboids.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -2099,8 +2099,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh023",
             "title":"Trunk Rt Sidebending 1",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Rt_Sidebending_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AABr36rQh7TphZsosy3Uw-xma/Trunk_Rt_Sidebending_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Rt_Sidebending_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AABr36rQh7TphZsosy3Uw-xma/Trunk_Rt_Sidebending_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/Trunk_Rt_Sidebending_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AACFmvldwfvK9vMWW_YZfDyZa/Trunk_Rt_Sidebending_1.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -2109,8 +2109,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh024",
             "title":"Trunk Rt Sidebending 2",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Rt_Sidebending_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AACUxDtCNF7BHfv-CbXKgoFaa/Trunk_Rt_Sidebending_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Rt_Sidebending_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AACUxDtCNF7BHfv-CbXKgoFaa/Trunk_Rt_Sidebending_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/Trunk_Rt_Sidebending_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AADIuvSKbsmNWjj1R_p1fKTRa/Trunk_Rt_Sidebending_2.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -2119,8 +2119,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh025",
             "title":"Trunk Single Leg Stretch 1",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Single_Leg_Stretch_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AACuQUPTREBRgIpzOJ2VdbNka/Trunk_Single_Leg_Stretch_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Single_Leg_Stretch_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AACuQUPTREBRgIpzOJ2VdbNka/Trunk_Single_Leg_Stretch_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/Trunk_Single_Leg_Stretch_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AAB9pk0n8u71Mv14U0jHdPzqa/Trunk_Single_Leg_Stretch_1.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -2129,8 +2129,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh026",
             "title":"Trunk Single Leg Stretch 2",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Single_Leg_Stretch_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AABl_Ehi60t0puHLzXY4Grofa/Trunk_Single_Leg_Stretch_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Single_Leg_Stretch_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AABl_Ehi60t0puHLzXY4Grofa/Trunk_Single_Leg_Stretch_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/Trunk_Single_Leg_Stretch_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AADv9aSZ2CR1lfV5yJByfDBGa/Trunk_Single_Leg_Stretch_2.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -2139,8 +2139,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh027",
             "title":"Trunk Upper Rotation Stretch",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Upper_Rotation_Stretch.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AACNZUq_6KpdnLoz-BY_wYYRa/Trunk_Upper_Rotation_Stretch.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Trunk_Upper_Rotation_Stretch.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AACNZUq_6KpdnLoz-BY_wYYRa/Trunk_Upper_Rotation_Stretch.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/Trunk_Upper_Rotation_Stretch.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AADJtC9RHG-dnmUKxB8E36OKa/Trunk_Upper_Rotation_Stretch.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -2149,8 +2149,8 @@ const exercisesGif = {
          {
             "id": "GfTrSh028",
             "title":"Upper Trunk Stretch",
-            "tumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Upper_Trunk_Stretch.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AABlDPmAKhHK1-chh9hMI73ka/Upper_Trunk_Stretch.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/06-Trunk/Stretchings/Thumbnail/Upper_Trunk_Stretch.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ug8dd3co0oh93z4/AABlDPmAKhHK1-chh9hMI73ka/Upper_Trunk_Stretch.gif?raw=1"],
             "bigImgs":["./docs/Gifs/06-Trunk/Stretchings/Big/Upper_Trunk_Stretch.gif"],
             "bigBackup":["https://www.dropbox.com/sh/myrz2yr0ynuybsm/AADb9O2s9gpAWsrBji8I9ybWa/Upper_Trunk_Stretch.gif?raw=1"],
             "tags":[ "LBP", "Degenarative Disc", "Lumbar Discectomy", "Lumbar Fusion", "Sciatica"],
@@ -2167,8 +2167,8 @@ const exercisesGif = {
          {
             "id": "GfHpAr001",
             "title":"Hip AROM Abduction",
-            "tumbUrl":["./docs/Gifs/07-Hip/AROM/Thumbnail/Hip_AROM_Abduction.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/18fgdjxvkb3likc/AABUjB6kJ1KX13u_4IJhOFtga/Hip_AROM_Abduction.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/AROM/Thumbnail/Hip_AROM_Abduction.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/18fgdjxvkb3likc/AABUjB6kJ1KX13u_4IJhOFtga/Hip_AROM_Abduction.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/AROM/Big/Hip_AROM_Abduction.gif"],
             "bigBackup":["https://www.dropbox.com/sh/lecq27wekabd64o/AAA5x1EFnvoDv1eVrpY44jlva/Hip_AROM_Abduction.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2177,8 +2177,8 @@ const exercisesGif = {
          {
             "id": "GfHpAr002",
             "title":"Hip AROM Adduction",
-            "tumbUrl":["./docs/Gifs/07-Hip/AROM/Thumbnail/Hip_AROM_Adduction.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/18fgdjxvkb3likc/AADz-tsBX6KKwM9SgvAKZTD4a/Hip_AROM_Adduction.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/AROM/Thumbnail/Hip_AROM_Adduction.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/18fgdjxvkb3likc/AADz-tsBX6KKwM9SgvAKZTD4a/Hip_AROM_Adduction.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/AROM/Big/Hip_AROM_Adduction.gif"],
             "bigBackup":["https://www.dropbox.com/sh/lecq27wekabd64o/AADUyexV4rT8OCLMnaO75JGea/Hip_AROM_Adduction.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2187,8 +2187,8 @@ const exercisesGif = {
          {
             "id": "GfHpAr003",
             "title":"Hip AROM Extension",
-            "tumbUrl":["./docs/Gifs/07-Hip/AROM/Thumbnail/Hip_AROM_Extension.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/18fgdjxvkb3likc/AAC8-U7W2r6BJ_jmLyLCZVoVa/Hip_AROM_Extension.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/AROM/Thumbnail/Hip_AROM_Extension.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/18fgdjxvkb3likc/AAC8-U7W2r6BJ_jmLyLCZVoVa/Hip_AROM_Extension.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/AROM/Big/Hip_AROM_Extension.gif"],
             "bigBackup":["https://www.dropbox.com/sh/lecq27wekabd64o/AACvDG6qJV4YOZAm3cDfo6mGa/Hip_AROM_Extension.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2197,8 +2197,8 @@ const exercisesGif = {
          {
             "id": "GfHpAr004",
             "title":"Hip AROM Flexion",
-            "tumbUrl":["./docs/Gifs/07-Hip/AROM/Thumbnail/Hip_AROM_Flexion.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/18fgdjxvkb3likc/AAD0EwBTciyTYwmmzGCyzdhGa/Hip_AROM_Flexion.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/AROM/Thumbnail/Hip_AROM_Flexion.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/18fgdjxvkb3likc/AAD0EwBTciyTYwmmzGCyzdhGa/Hip_AROM_Flexion.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/AROM/Big/Hip_AROM_Flexion.gif"],
             "bigBackup":["https://www.dropbox.com/sh/lecq27wekabd64o/AADGEQLX6Zc2teflPznvl_n3a/Hip_AROM_Flexion.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2207,8 +2207,8 @@ const exercisesGif = {
          {
             "id": "GfHpAr005",
             "title":"Hip AROM Flexion in Sitting",
-            "tumbUrl":["./docs/Gifs/07-Hip/AROM/Thumbnail/Hip_AROM_Flexion_in_Sitting.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/18fgdjxvkb3likc/AAAGjD1JIYsiiZftIGMs2arka/Hip_AROM_Flexion_in_Sitting.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/AROM/Thumbnail/Hip_AROM_Flexion_in_Sitting.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/18fgdjxvkb3likc/AAAGjD1JIYsiiZftIGMs2arka/Hip_AROM_Flexion_in_Sitting.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/AROM/Big/Hip_AROM_Flexion_in_Sitting.gif"],
             "bigBackup":["https://www.dropbox.com/sh/lecq27wekabd64o/AAA4h0iCIAKsxqf7HSnd_74Ya/Hip_AROM_Flexion_in_Sitting.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2217,8 +2217,8 @@ const exercisesGif = {
          {
             "id": "GfHpAr006",
             "title":"Hip AROM Flexion with Flexed knee",
-            "tumbUrl":["./docs/Gifs/07-Hip/AROM/Thumbnail/Hip_AROM_Flexion_with_Flexed_knee.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/18fgdjxvkb3likc/AADQL-GeTt6-4p4phvFWZc8Wa/Hip_AROM_Flexion_with_Flexed_knee.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/AROM/Thumbnail/Hip_AROM_Flexion_with_Flexed_knee.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/18fgdjxvkb3likc/AADQL-GeTt6-4p4phvFWZc8Wa/Hip_AROM_Flexion_with_Flexed_knee.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/AROM/Big/Hip_AROM_Flexion_with_Flexed_knee.gif"],
             "bigBackup":["https://www.dropbox.com/sh/lecq27wekabd64o/AAA22h9isRihkFId9WmmQ6zAa/Hip_AROM_Flexion_with_Flexed_knee.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2227,8 +2227,8 @@ const exercisesGif = {
          {
             "id": "GfHpAr007",
             "title":"Hip AROM IR and ER",
-            "tumbUrl":["./docs/Gifs/07-Hip/AROM/Thumbnail/Hip_AROM_IR_and_ER.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/18fgdjxvkb3likc/AACBJAzYFFYOfPx-CQ3GfpTXa/Hip_AROM_IR_and_ER.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/AROM/Thumbnail/Hip_AROM_IR_and_ER.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/18fgdjxvkb3likc/AACBJAzYFFYOfPx-CQ3GfpTXa/Hip_AROM_IR_and_ER.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/AROM/Big/Hip_AROM_IR_and_ER.gif"],
             "bigBackup":["https://www.dropbox.com/sh/lecq27wekabd64o/AAAGPBIOjBPOpFl5YKEvP7ixa/Hip_AROM_IR_and_ER.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2240,8 +2240,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs001",
             "title":"Abd SLR",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Abd_SLR.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AABhyUCEVSgTwA88iVo5Ql-da/Abd_SLR.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Abd_SLR.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AABhyUCEVSgTwA88iVo5Ql-da/Abd_SLR.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/Abd_SLR.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AAAmuQcqboBFjTr1i3zN1W0na/Abd_SLR.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2250,8 +2250,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs002",
             "title":"adductor squeez",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/adductor_squeez.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AACSJ-GS_-007iF6zuZDs3upa/adductor_squeez.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/adductor_squeez.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AACSJ-GS_-007iF6zuZDs3upa/adductor_squeez.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/adductor_squeez.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AABuBXSLzwmknQHniyodiWzIa/adductor_squeez.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2260,8 +2260,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs003",
             "title":"Ball Hip Iso Abduction",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Ball_Hip_Iso_Abduction.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AABIeJWsWThlb7TtGvKDOzasa/Ball_Hip_Iso_Abduction.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Ball_Hip_Iso_Abduction.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AABIeJWsWThlb7TtGvKDOzasa/Ball_Hip_Iso_Abduction.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/Ball_Hip_Iso_Abduction.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AADaQqRAR3OYPMe1WMC3kgH9a/Ball_Hip_Iso_Abduction.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2270,8 +2270,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs004",
             "title":"Ball Hip Iso Adduction",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Ball_Hip_Iso_Adduction.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AABOA1d1E9dzDoJ2KlLWxzIGa/Ball_Hip_Iso_Adduction.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Ball_Hip_Iso_Adduction.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AABOA1d1E9dzDoJ2KlLWxzIGa/Ball_Hip_Iso_Adduction.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/Ball_Hip_Iso_Adduction.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AACEb6NttAbA2t2asaYsP3pra/Ball_Hip_Iso_Adduction.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2280,8 +2280,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs005",
             "title":"Ball Hip Iso Adduction 1",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Ball_Hip_Iso_Adduction_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AAB7FW2CEHCG0aiv_vbNc0iua/Ball_Hip_Iso_Adduction_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Ball_Hip_Iso_Adduction_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AAB7FW2CEHCG0aiv_vbNc0iua/Ball_Hip_Iso_Adduction_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/Ball_Hip_Iso_Adduction_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AAAlEr3F2f-R1T5u2CsmBZHsa/Ball_Hip_Iso_Adduction_1.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2290,8 +2290,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs006",
             "title":"Ball Squeeze LE",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Ball_Squeeze_LE.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AACrWpd57urjhs15_IkTX3jLa/Ball_Squeeze_LE.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Ball_Squeeze_LE.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AACrWpd57urjhs15_IkTX3jLa/Ball_Squeeze_LE.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/Ball_Squeeze_LE.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AADgVEIW-yy1QxRMCO_4d1Hva/Ball_Squeeze_LE.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2300,8 +2300,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs007",
             "title":"Hip Adduction 1",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Hip_Adduction_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AACKls4OchIBYbay2rTIj-sva/Hip_Adduction_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Hip_Adduction_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AACKls4OchIBYbay2rTIj-sva/Hip_Adduction_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/Hip_Adduction_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AABJwNo92GuvBFQ-Fcxe86kna/Hip_Adduction_1.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2310,8 +2310,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs008",
             "title":"Hip Adduction 2",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Hip_Adduction_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AADggZ3ahO4A3SjZdSarkl2xa/Hip_Adduction_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Hip_Adduction_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AADggZ3ahO4A3SjZdSarkl2xa/Hip_Adduction_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/Hip_Adduction_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AAB6Y7jCFaBqxxvGSa9-TIX_a/Hip_Adduction_2.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2320,8 +2320,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs009",
             "title":"Hip Extension with Extended Knee",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Hip_Extension_with_Extended_Knee.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AAD0EaUUVqoRciLq745V22CGa/Hip_Extension_with_Extended_Knee.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Hip_Extension_with_Extended_Knee.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AAD0EaUUVqoRciLq745V22CGa/Hip_Extension_with_Extended_Knee.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/Hip_Extension_with_Extended_Knee.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AACFsKDS9cvKOnVW3SFNYsJva/Hip_Extension_with_Extended_Knee.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2330,8 +2330,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs010",
             "title":"Hip Extension with Flexed knee",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Hip_Extension_with_Flexed_knee.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AAB0KmWaay7UdYVzj2neU-B3a/Hip_Extension_with_Flexed_knee.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Hip_Extension_with_Flexed_knee.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AAB0KmWaay7UdYVzj2neU-B3a/Hip_Extension_with_Flexed_knee.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/Hip_Extension_with_Flexed_knee.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AAAFLj3ke9QV8l6KzNlHfGMLa/Hip_Extension_with_Flexed_knee.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2340,8 +2340,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs011",
             "title":"hip flexion",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/hip_flexion.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AABzZPyIkOGbfIL16Is5YjpWa/hip_flexion.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/hip_flexion.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AABzZPyIkOGbfIL16Is5YjpWa/hip_flexion.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/hip_flexion.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AACzCTLNj6mMLeegqGV_1WvSa/hip_flexion.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2350,8 +2350,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs012",
             "title":"Lateral SLR",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Lateral_SLR.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AAArvbcpGCBaMcHsCQRGU4l3a/Lateral_SLR.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Lateral_SLR.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AAArvbcpGCBaMcHsCQRGU4l3a/Lateral_SLR.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/Lateral_SLR.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AACgejtCoVbM0Ur70WxpAdkja/Lateral_SLR.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2360,8 +2360,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs013",
             "title":"Quads Isometrics",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Quads_Isometrics.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AABRujWDSbYQp6K_HfVsF56Ia/Quads_Isometrics.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Quads_Isometrics.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AABRujWDSbYQp6K_HfVsF56Ia/Quads_Isometrics.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/Quads_Isometrics.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AAAdvb9RaSqrbHZybsi23q-Aa/Quads_Isometrics.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2370,8 +2370,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs014",
             "title":"SLR",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/SLR.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AABr4LR53xznhSL5fGE-XMt5a/SLR.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/SLR.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AABr4LR53xznhSL5fGE-XMt5a/SLR.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/SLR.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AADo3ylwS6xbQ8-fZ5ryElALa/SLR.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2380,8 +2380,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs015",
             "title":"SLR 2",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/SLR_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AAC3Ftt2nOYeaJdViXQ7PowWa/SLR_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/SLR_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AAC3Ftt2nOYeaJdViXQ7PowWa/SLR_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/SLR_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AAC_4Sz2sZG_8RNx0NeMSW9Aa/SLR_2.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2394,8 +2394,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr001",
             "title":"Bulgarian Squat 1",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Bulgarian_Squat_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAApw-qrg-9NN9TSTkA75-BAa/Bulgarian_Squat_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Bulgarian_Squat_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAApw-qrg-9NN9TSTkA75-BAa/Bulgarian_Squat_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Bulgarian_Squat_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AADzN09GYekcsCIwC8v4TFe-a/Bulgarian_Squat_1.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2404,8 +2404,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr002",
             "title":"Bulgarian Squats 2",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Bulgarian_Squats_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AADp2-Ol9GG1RRQ752W_Ebn1a/Bulgarian_Squats_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Bulgarian_Squats_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AADp2-Ol9GG1RRQ752W_Ebn1a/Bulgarian_Squats_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Bulgarian_Squats_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AAAw1gdMdHlrkcuN80SXquaTa/Bulgarian_Squats_2.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2414,8 +2414,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr003",
             "title":"Clam Shell",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Clam_Shell.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAAnOMKafIkY8HQUYTFNgrspa/Clam_Shell.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Clam_Shell.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAAnOMKafIkY8HQUYTFNgrspa/Clam_Shell.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Clam_Shell.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AACKbL3vACyDygWqiCHbqQD8a/Clam_Shell.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2424,8 +2424,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr004",
             "title":"Forward Lunges",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Forward_Lunges.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAB8z95KG4YbYi5xGFpOd2mNa/Forward_Lunges.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Forward_Lunges.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAB8z95KG4YbYi5xGFpOd2mNa/Forward_Lunges.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Forward_Lunges.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AACaukB8RNXP_Weqj6DVJSeUa/Forward_Lunges.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2434,8 +2434,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr005",
             "title":"Forward Lunges 1",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Forward_Lunges_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAD1FsuW46OXUnIWTGt9Ijeua/Forward_Lunges_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Forward_Lunges_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAD1FsuW46OXUnIWTGt9Ijeua/Forward_Lunges_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Forward_Lunges_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AACAWCmB6Iqz-HPVm3mkPDB4a/Forward_Lunges_1.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2444,8 +2444,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr006",
             "title":"Hip Flexion",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Hip_Flexion.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AADRfWG5NXN6utM0WcGY2LmVa/Hip_Flexion.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Hip_Flexion.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AADRfWG5NXN6utM0WcGY2LmVa/Hip_Flexion.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Hip_Flexion.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AACf2FaaBl_wlPhZlX4BGIMia/Hip_Flexion.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2454,8 +2454,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr007",
             "title":"Knee Extension",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Knee_Extension.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AACIPm8RbrChfCk8zDZXjPnRa/Knee_Extension.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Knee_Extension.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AACIPm8RbrChfCk8zDZXjPnRa/Knee_Extension.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Knee_Extension.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AACaplLZoUilFP-St5Qk95R8a/Knee_Extension.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2464,8 +2464,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr008",
             "title":"Lateral Lunges 1",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Lateral_Lunges_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAD5p40Q8tTZG93NxlI2Nbeia/Lateral_Lunges_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Lateral_Lunges_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAD5p40Q8tTZG93NxlI2Nbeia/Lateral_Lunges_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Lateral_Lunges_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AABRrYIDmW1UEtbwE7QE1k7ja/Lateral_Lunges_1.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2474,8 +2474,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr009",
             "title":"Lateral Lunges 2",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Lateral_Lunges_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AADNg_Dzz-3LN0gl_d8PC9rUa/Lateral_Lunges_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Lateral_Lunges_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AADNg_Dzz-3LN0gl_d8PC9rUa/Lateral_Lunges_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Lateral_Lunges_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AAAUBD5KjZfURwp4NV3L8Csua/Lateral_Lunges_2.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2484,8 +2484,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr010",
             "title":"Long arc",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Long_arc.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AADwauFApXJ7Lai8ox0vpSFna/Long_arc.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Long_arc.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AADwauFApXJ7Lai8ox0vpSFna/Long_arc.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Long_arc.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AACM91XME_I4lHBtYFGzCwb8a/Long_arc.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2494,8 +2494,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr011",
             "title":"lunges",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/lunges.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAAMrpT9Se4wG9DgNdz75mlta/lunges.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/lunges.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAAMrpT9Se4wG9DgNdz75mlta/lunges.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/lunges.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AADiqKB_l0zUQJ1FL4hfAlSka/lunges.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2504,8 +2504,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr012",
             "title":"Sit to Stand",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Sit_to_Stand.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAAK896dQRmt0xiuaOt65EtOa/Sit_to_Stand.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Sit_to_Stand.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAAK896dQRmt0xiuaOt65EtOa/Sit_to_Stand.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Sit_to_Stand.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AAB5DbZkGrJDUkRxGpwSxiVMa/Sit_to_Stand.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2514,8 +2514,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr013",
             "title":"sit to stand 2",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/sit_to_stand_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAAXb4Ib6An2zHnzTLi02CBQa/sit_to_stand_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/sit_to_stand_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAAXb4Ib6An2zHnzTLi02CBQa/sit_to_stand_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/sit_to_stand_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AAA1-LJgCJ3LbkK0dJOvjuqZa/sit_to_stand_2.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2524,8 +2524,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr014",
             "title":"Squats 1",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Squats_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AACNzTysHqR6nfA5uQQbtNlSa/Squats_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Squats_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AACNzTysHqR6nfA5uQQbtNlSa/Squats_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Squats_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AAApP5ZCMtCOnEvsBcKXpRQga/Squats_1.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2534,8 +2534,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr015",
             "title":"Squats 2",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Squats_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AACjVx85FjDjmRM9wYZizeePa/Squats_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Squats_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AACjVx85FjDjmRM9wYZizeePa/Squats_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Squats_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AACU0yunClZk0rvn9cW7s_1ha/Squats_2.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2544,8 +2544,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr016",
             "title":"Squats with Ball Squeeze",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Squats_with_Ball_Squeeze.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AACZd4vMtzkWkfEhtD9IpQrca/Squats_with_Ball_Squeeze.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Squats_with_Ball_Squeeze.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AACZd4vMtzkWkfEhtD9IpQrca/Squats_with_Ball_Squeeze.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Squats_with_Ball_Squeeze.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AAAcvmYOQ_mNfelf5T0qqHtTa/Squats_with_Ball_Squeeze.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2554,8 +2554,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr017",
             "title":"Squats with Knee Extension",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Squats_with_Knee_Extension.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AADO53f-os5iNoeklPrcO66Ea/Squats_with_Knee_Extension.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Squats_with_Knee_Extension.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AADO53f-os5iNoeklPrcO66Ea/Squats_with_Knee_Extension.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Squats_with_Knee_Extension.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AADXITXam6QTuMr72NFJSD9ta/Squats_with_Knee_Extension.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2564,8 +2564,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr018",
             "title":"Squats with Swiss Ball",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Squats_with_Swiss_Ball.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AABb5LFSj5QHaoocAqjC3j9na/Squats_with_Swiss_Ball.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Squats_with_Swiss_Ball.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AABb5LFSj5QHaoocAqjC3j9na/Squats_with_Swiss_Ball.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Squats_with_Swiss_Ball.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AAD6qw5GQ0sXT6OiDVr2wmRWa/Squats_with_Swiss_Ball.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2574,8 +2574,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr019",
             "title":"Wall Squat",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Wall_Squat.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AADqlBzgY3yB5yK3XTylsl1Pa/Wall_Squat.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Wall_Squat.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AADqlBzgY3yB5yK3XTylsl1Pa/Wall_Squat.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Wall_Squat.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AABRcPEFKwUeHdSlbLt5HvmFa/Wall_Squat.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2587,8 +2587,8 @@ const exercisesGif = {
          {
             "id": "GfHpSh001",
             "title":"Hip Extnsors Stretch From Standing",
-            "tumbUrl":["./docs/Gifs/07-Hip/Stretching/Thumbnail/Hip_Extnsors_Stretch_From_Standing.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/0rnn7m14qacpovx/AABa2VyFqrmgHdRuaSoImKMEa/Hip_Extnsors_Stretch_From_Standing.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Stretching/Thumbnail/Hip_Extnsors_Stretch_From_Standing.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/0rnn7m14qacpovx/AABa2VyFqrmgHdRuaSoImKMEa/Hip_Extnsors_Stretch_From_Standing.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Stretching/Big/Hip_Extnsors_Stretch_From_Standing.gif"],
             "bigBackup":["https://www.dropbox.com/sh/27gerb311cf1x54/AACEas2MZQ41jQIG5DP6o1_Qa/Hip_Extnsors_Stretch_From_Standing.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2597,8 +2597,8 @@ const exercisesGif = {
          {
             "id": "GfHpSh002",
             "title":"Quads Stretch from Standing",
-            "tumbUrl":["./docs/Gifs/07-Hip/Stretching/Thumbnail/Quads_Stretch_from_Standing.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/0rnn7m14qacpovx/AAChKCf5cuEQbtuq4pj0TeVIa/Quads_Stretch_from_Standing.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Stretching/Thumbnail/Quads_Stretch_from_Standing.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/0rnn7m14qacpovx/AAChKCf5cuEQbtuq4pj0TeVIa/Quads_Stretch_from_Standing.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Stretching/Big/Quads_Stretch_from_Standing.gif"],
             "bigBackup":["https://www.dropbox.com/sh/27gerb311cf1x54/AAAcU9k4YBdg_-39JrxdwhKKa/Quads_Stretch_from_Standing.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2607,8 +2607,8 @@ const exercisesGif = {
          {
             "id": "GfHpSh003",
             "title":"Quads Stretching",
-            "tumbUrl":["./docs/Gifs/07-Hip/Stretching/Thumbnail/Quads_Stretching.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/0rnn7m14qacpovx/AACas2pYTbpF9Ka912T7mtNWa/Quads_Stretching.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Stretching/Thumbnail/Quads_Stretching.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/0rnn7m14qacpovx/AACas2pYTbpF9Ka912T7mtNWa/Quads_Stretching.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Stretching/Big/Quads_Stretching.gif"],
             "bigBackup":["https://www.dropbox.com/sh/27gerb311cf1x54/AAAjGwnWRwm2pjxKUDu5IoMHa/Quads_Stretching.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2623,8 +2623,8 @@ const exercisesGif = {
          {
             "id": "GfHpTr001",
             "title":"Clam Shell with Theraband",
-            "tumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Clam_Shell_with_Theraband.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AABLnA6qjxQEqpB2c2CENhGwa/Clam_Shell_with_Theraband.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Clam_Shell_with_Theraband.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AABLnA6qjxQEqpB2c2CENhGwa/Clam_Shell_with_Theraband.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Theraband/Big/Clam_Shell_with_Theraband.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wn58zpa3h1zje37/AABSYazzYd237OtlHMzJ-a2da/Clam_Shell_with_Theraband.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2633,8 +2633,8 @@ const exercisesGif = {
          {
             "id": "GfHpTr002",
             "title":"Hip Abduction with Theraband",
-            "tumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Abduction_with_Theraband.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AAC-TA38d3sm9tjIIla-jPpra/Hip_Abduction_with_Theraband.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Abduction_with_Theraband.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AAC-TA38d3sm9tjIIla-jPpra/Hip_Abduction_with_Theraband.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Theraband/Big/Hip_Abduction_with_Theraband.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wn58zpa3h1zje37/AAB005hHhtET13y6YnXmt5yOa/Hip_Abduction_with_Theraband.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2643,8 +2643,8 @@ const exercisesGif = {
          {
             "id": "GfHpTr003",
             "title":"Hip Extension with Theraband",
-            "tumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Extension_with_Theraband.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AAC40DJWWuJFwl0VFX4PJfNPa/Hip_Extension_with_Theraband.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Extension_with_Theraband.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AAC40DJWWuJFwl0VFX4PJfNPa/Hip_Extension_with_Theraband.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Theraband/Big/Hip_Extension_with_Theraband.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wn58zpa3h1zje37/AADV1ZbDYaQ3Kshq6gpWprBVa/Hip_Extension_with_Theraband.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2653,8 +2653,8 @@ const exercisesGif = {
          {
             "id": "GfHpTr004",
             "title":"Hip Flexion with Theraband",
-            "tumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Flexion_with_Theraband.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AACC-XPMwhVnjw4Ar_rl0alBa/Hip_Flexion_with_Theraband.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Flexion_with_Theraband.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AACC-XPMwhVnjw4Ar_rl0alBa/Hip_Flexion_with_Theraband.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Theraband/Big/Hip_Flexion_with_Theraband.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wn58zpa3h1zje37/AADNz0gNoMMJryUCSE5afXA5a/Hip_Flexion_with_Theraband.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2663,8 +2663,8 @@ const exercisesGif = {
          {
             "id": "GfHpTr005",
             "title":"Hip Stren Abduction in Standing",
-            "tumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Stren_Abduction_in_Standing.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AAA5X8etnU0uvyhyF9ezWVPBa/Hip_Stren_Abduction_in_Standing.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Stren_Abduction_in_Standing.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AAA5X8etnU0uvyhyF9ezWVPBa/Hip_Stren_Abduction_in_Standing.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Theraband/Big/Hip_Stren_Abduction_in_Standing.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wn58zpa3h1zje37/AAA2shmTvRCpNyj4vA7NAtFTa/Hip_Stren_Abduction_in_Standing.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2673,8 +2673,8 @@ const exercisesGif = {
          {
             "id": "GfHpTr006",
             "title":"Hip Stren Adduction in Standing",
-            "tumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Stren_Adduction_in_Standing.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AADgLHlXVpYX26DH6Drk15i9a/Hip_Stren_Adduction_in_Standing.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Stren_Adduction_in_Standing.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AADgLHlXVpYX26DH6Drk15i9a/Hip_Stren_Adduction_in_Standing.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Theraband/Big/Hip_Stren_Adduction_in_Standing.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wn58zpa3h1zje37/AAAhaiLkzANV2jcKyn-MpksWa/Hip_Stren_Adduction_in_Standing.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2683,8 +2683,8 @@ const exercisesGif = {
          {
             "id": "GfHpTr007",
             "title":"Hip Stren Extension in Standing",
-            "tumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Stren_Extension_in_Standing.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AACD-TE-4poXOSY38NAuQtUGa/Hip_Stren_Extension_in_Standing.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Stren_Extension_in_Standing.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AACD-TE-4poXOSY38NAuQtUGa/Hip_Stren_Extension_in_Standing.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Theraband/Big/Hip_Stren_Extension_in_Standing.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wn58zpa3h1zje37/AACaLiGJ-psmldW6TOyZSXsda/Hip_Stren_Extension_in_Standing.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2693,8 +2693,8 @@ const exercisesGif = {
          {
             "id": "GfHpTr008",
             "title":"Hip Stren Flexion in Standing",
-            "tumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Stren_Flexion_in_Standing.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AAByy0nGa35-wwI7YHTLUa2Ka/Hip_Stren_Flexion_in_Standing.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Stren_Flexion_in_Standing.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AAByy0nGa35-wwI7YHTLUa2Ka/Hip_Stren_Flexion_in_Standing.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Theraband/Big/Hip_Stren_Flexion_in_Standing.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wn58zpa3h1zje37/AAACYLI9QQJugx6Uq0tueYHTa/Hip_Stren_Flexion_in_Standing.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2703,8 +2703,8 @@ const exercisesGif = {
          {
             "id": "GfHpTr009",
             "title":"Knee Flexion with Theraband",
-            "tumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Knee_Flexion_with_Theraband.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AAC1mvyQIKzBGC2WaBrcZ9gda/Knee_Flexion_with_Theraband.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Knee_Flexion_with_Theraband.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AAC1mvyQIKzBGC2WaBrcZ9gda/Knee_Flexion_with_Theraband.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Theraband/Big/Knee_Flexion_with_Theraband.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wn58zpa3h1zje37/AABA26rDzC4VtkUsSx1qfXRSa/Knee_Flexion_with_Theraband.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2713,8 +2713,8 @@ const exercisesGif = {
          {
             "id": "GfHpTr010",
             "title":"SLR with Theraband",
-            "tumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/SLR_with_Theraband.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AACgFq-z24VlHB2ir079SJw9a/SLR_with_Theraband.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/SLR_with_Theraband.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AACgFq-z24VlHB2ir079SJw9a/SLR_with_Theraband.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Theraband/Big/SLR_with_Theraband.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wn58zpa3h1zje37/AAAcW0SY5XRXzlZ9vmrZIiQxa/SLR_with_Theraband.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2728,8 +2728,8 @@ const exercisesGif = {
          {
             "id": "GfKnAr001",
             "title":"Knee AROM Flexion in Prone",
-            "tumbUrl":["./docs/Gifs/08-Knee/AROM/Thumbnail/Knee_AROM_Flexion_in_Prone.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/3vjtt30f59ddnkf/AADZ09QB50EcT6dwwlo_qWiSa/Knee_AROM_Flexion_in_Prone.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/08-Knee/AROM/Thumbnail/Knee_AROM_Flexion_in_Prone.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/3vjtt30f59ddnkf/AADZ09QB50EcT6dwwlo_qWiSa/Knee_AROM_Flexion_in_Prone.gif?raw=1"],
             "bigImgs":["./docs/Gifs/08-Knee/AROM/Big/Knee_AROM_Flexion_in_Prone.gif"],
             "bigBackup":["https://www.dropbox.com/sh/jqble6zuknsztvd/AACTwp4rbon7yZmRwh0kWT5xa/Knee_AROM_Flexion_in_Prone.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2738,8 +2738,8 @@ const exercisesGif = {
          {
             "id": "GfKnAr002",
             "title":"Knee AROM Flexion in Standing",
-            "tumbUrl":["./docs/Gifs/08-Knee/AROM/Thumbnail/Knee_AROM_Flexion_in_Standing.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/3vjtt30f59ddnkf/AACVYhCp0ym7WDDUXtFZIMpYa/Knee_AROM_Flexion_in_Standing.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/08-Knee/AROM/Thumbnail/Knee_AROM_Flexion_in_Standing.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/3vjtt30f59ddnkf/AACVYhCp0ym7WDDUXtFZIMpYa/Knee_AROM_Flexion_in_Standing.gif?raw=1"],
             "bigImgs":["./docs/Gifs/08-Knee/AROM/Big/Knee_AROM_Flexion_in_Standing.gif"],
             "bigBackup":["https://www.dropbox.com/sh/jqble6zuknsztvd/AAA51TmY0jBJ11XxfmApvtSYa/Knee_AROM_Flexion_in_Standing.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2748,8 +2748,8 @@ const exercisesGif = {
          {
             "id": "GfKnAr003",
             "title":"Knee AROM Flexion in Standing 1",
-            "tumbUrl":["./docs/Gifs/08-Knee/AROM/Thumbnail/Knee_AROM_Flexion_in_Standing_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/3vjtt30f59ddnkf/AACtZnnFCtInvJ0AEE9LbKwSa/Knee_AROM_Flexion_in_Standing_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/08-Knee/AROM/Thumbnail/Knee_AROM_Flexion_in_Standing_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/3vjtt30f59ddnkf/AACtZnnFCtInvJ0AEE9LbKwSa/Knee_AROM_Flexion_in_Standing_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/08-Knee/AROM/Big/Knee_AROM_Flexion_in_Standing_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/jqble6zuknsztvd/AADC1XqwZTytfPBLAljUohXVa/Knee_AROM_Flexion_in_Standing_1.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2758,8 +2758,8 @@ const exercisesGif = {
          {
             "id": "GfKnAr004",
             "title":"Knee AROM for Elderly",
-            "tumbUrl":["./docs/Gifs/08-Knee/AROM/Thumbnail/Knee_AROM_for_Elderly.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/3vjtt30f59ddnkf/AADfFN65vnvorJBbA8R2FqQpa/Knee_AROM_for_Elderly.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/08-Knee/AROM/Thumbnail/Knee_AROM_for_Elderly.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/3vjtt30f59ddnkf/AADfFN65vnvorJBbA8R2FqQpa/Knee_AROM_for_Elderly.gif?raw=1"],
             "bigImgs":["./docs/Gifs/08-Knee/AROM/Big/Knee_AROM_for_Elderly.gif"],
             "bigBackup":["https://www.dropbox.com/sh/jqble6zuknsztvd/AADyN31-E5tc1coQRxYd5ioLa/Knee_AROM_for_Elderly.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2768,8 +2768,8 @@ const exercisesGif = {
          {
             "id": "GfKnAr005",
             "title":"Knees AROM Flexion in Supine",
-            "tumbUrl":["./docs/Gifs/08-Knee/AROM/Thumbnail/Knees_AROM_Flexion_in_Supine.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/3vjtt30f59ddnkf/AABGnvX3LPrS6uyRCpiYDbFYa/Knees_AROM_Flexion_in_Supine.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/08-Knee/AROM/Thumbnail/Knees_AROM_Flexion_in_Supine.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/3vjtt30f59ddnkf/AABGnvX3LPrS6uyRCpiYDbFYa/Knees_AROM_Flexion_in_Supine.gif?raw=1"],
             "bigImgs":["./docs/Gifs/08-Knee/AROM/Big/Knees_AROM_Flexion_in_Supine.gif"],
             "bigBackup":["https://www.dropbox.com/sh/jqble6zuknsztvd/AAB_pKqrxU1CuzCHEHTEXnnXa/Knees_AROM_Flexion_in_Supine.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2781,8 +2781,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs001",
             "title":"Abd SLR",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Abd_SLR.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AABhyUCEVSgTwA88iVo5Ql-da/Abd_SLR.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Abd_SLR.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AABhyUCEVSgTwA88iVo5Ql-da/Abd_SLR.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/Abd_SLR.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AAAmuQcqboBFjTr1i3zN1W0na/Abd_SLR.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2791,8 +2791,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs002",
             "title":"adductor squeez",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/adductor_squeez.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AACSJ-GS_-007iF6zuZDs3upa/adductor_squeez.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/adductor_squeez.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AACSJ-GS_-007iF6zuZDs3upa/adductor_squeez.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/adductor_squeez.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AABuBXSLzwmknQHniyodiWzIa/adductor_squeez.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2801,8 +2801,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs003",
             "title":"Ball Hip Iso Abduction",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Ball_Hip_Iso_Abduction.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AABIeJWsWThlb7TtGvKDOzasa/Ball_Hip_Iso_Abduction.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Ball_Hip_Iso_Abduction.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AABIeJWsWThlb7TtGvKDOzasa/Ball_Hip_Iso_Abduction.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/Ball_Hip_Iso_Abduction.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AADaQqRAR3OYPMe1WMC3kgH9a/Ball_Hip_Iso_Abduction.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2811,8 +2811,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs004",
             "title":"Ball Hip Iso Adduction",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Ball_Hip_Iso_Adduction.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AABOA1d1E9dzDoJ2KlLWxzIGa/Ball_Hip_Iso_Adduction.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Ball_Hip_Iso_Adduction.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AABOA1d1E9dzDoJ2KlLWxzIGa/Ball_Hip_Iso_Adduction.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/Ball_Hip_Iso_Adduction.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AACEb6NttAbA2t2asaYsP3pra/Ball_Hip_Iso_Adduction.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2821,8 +2821,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs005",
             "title":"Ball Hip Iso Adduction 1",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Ball_Hip_Iso_Adduction_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AAB7FW2CEHCG0aiv_vbNc0iua/Ball_Hip_Iso_Adduction_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Ball_Hip_Iso_Adduction_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AAB7FW2CEHCG0aiv_vbNc0iua/Ball_Hip_Iso_Adduction_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/Ball_Hip_Iso_Adduction_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AAAlEr3F2f-R1T5u2CsmBZHsa/Ball_Hip_Iso_Adduction_1.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2831,8 +2831,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs006",
             "title":"Ball Squeeze LE",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Ball_Squeeze_LE.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AACrWpd57urjhs15_IkTX3jLa/Ball_Squeeze_LE.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Ball_Squeeze_LE.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AACrWpd57urjhs15_IkTX3jLa/Ball_Squeeze_LE.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/Ball_Squeeze_LE.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AADgVEIW-yy1QxRMCO_4d1Hva/Ball_Squeeze_LE.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2841,8 +2841,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs007",
             "title":"Hip Adduction 1",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Hip_Adduction_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AACKls4OchIBYbay2rTIj-sva/Hip_Adduction_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Hip_Adduction_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AACKls4OchIBYbay2rTIj-sva/Hip_Adduction_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/Hip_Adduction_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AABJwNo92GuvBFQ-Fcxe86kna/Hip_Adduction_1.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2851,8 +2851,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs008",
             "title":"Hip Adduction 2",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Hip_Adduction_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AADggZ3ahO4A3SjZdSarkl2xa/Hip_Adduction_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Hip_Adduction_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AADggZ3ahO4A3SjZdSarkl2xa/Hip_Adduction_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/Hip_Adduction_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AAB6Y7jCFaBqxxvGSa9-TIX_a/Hip_Adduction_2.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2861,8 +2861,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs009",
             "title":"Hip Extension with Extended Knee",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Hip_Extension_with_Extended_Knee.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AAD0EaUUVqoRciLq745V22CGa/Hip_Extension_with_Extended_Knee.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Hip_Extension_with_Extended_Knee.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AAD0EaUUVqoRciLq745V22CGa/Hip_Extension_with_Extended_Knee.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/Hip_Extension_with_Extended_Knee.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AACFsKDS9cvKOnVW3SFNYsJva/Hip_Extension_with_Extended_Knee.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2871,8 +2871,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs010",
             "title":"Hip Extension with Flexed knee",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Hip_Extension_with_Flexed_knee.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AAB0KmWaay7UdYVzj2neU-B3a/Hip_Extension_with_Flexed_knee.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Hip_Extension_with_Flexed_knee.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AAB0KmWaay7UdYVzj2neU-B3a/Hip_Extension_with_Flexed_knee.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/Hip_Extension_with_Flexed_knee.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AAAFLj3ke9QV8l6KzNlHfGMLa/Hip_Extension_with_Flexed_knee.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2881,8 +2881,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs011",
             "title":"hip flexion",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/hip_flexion.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AABzZPyIkOGbfIL16Is5YjpWa/hip_flexion.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/hip_flexion.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AABzZPyIkOGbfIL16Is5YjpWa/hip_flexion.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/hip_flexion.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AACzCTLNj6mMLeegqGV_1WvSa/hip_flexion.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2891,8 +2891,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs012",
             "title":"Lateral SLR",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Lateral_SLR.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AAArvbcpGCBaMcHsCQRGU4l3a/Lateral_SLR.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Lateral_SLR.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AAArvbcpGCBaMcHsCQRGU4l3a/Lateral_SLR.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/Lateral_SLR.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AACgejtCoVbM0Ur70WxpAdkja/Lateral_SLR.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2901,8 +2901,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs013",
             "title":"Quads Isometrics",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Quads_Isometrics.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AABRujWDSbYQp6K_HfVsF56Ia/Quads_Isometrics.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/Quads_Isometrics.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AABRujWDSbYQp6K_HfVsF56Ia/Quads_Isometrics.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/Quads_Isometrics.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AAAdvb9RaSqrbHZybsi23q-Aa/Quads_Isometrics.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2911,8 +2911,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs014",
             "title":"SLR",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/SLR.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AABr4LR53xznhSL5fGE-XMt5a/SLR.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/SLR.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AABr4LR53xznhSL5fGE-XMt5a/SLR.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/SLR.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AADo3ylwS6xbQ8-fZ5ryElALa/SLR.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2921,8 +2921,8 @@ const exercisesGif = {
          {
             "id": "GfHpIs015",
             "title":"SLR 2",
-            "tumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/SLR_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AAC3Ftt2nOYeaJdViXQ7PowWa/SLR_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Isometric/Thumbnail/SLR_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/cgqnnxen2xda1qh/AAC3Ftt2nOYeaJdViXQ7PowWa/SLR_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Isometric/Big/SLR_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/z0t28ruxy8gkd5c/AAC_4Sz2sZG_8RNx0NeMSW9Aa/SLR_2.gif?raw=1"],
             "tags":[ "TKR", "Total Hip Replacment", "Hip Pain", "Knee Pain", "Knee O.A.", "Hip O.A."],
@@ -2935,8 +2935,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr001",
             "title":"Bulgarian Squat 1",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Bulgarian_Squat_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAApw-qrg-9NN9TSTkA75-BAa/Bulgarian_Squat_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Bulgarian_Squat_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAApw-qrg-9NN9TSTkA75-BAa/Bulgarian_Squat_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Bulgarian_Squat_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AADzN09GYekcsCIwC8v4TFe-a/Bulgarian_Squat_1.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2945,8 +2945,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr002",
             "title":"Bulgarian Squats 2",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Bulgarian_Squats_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AADp2-Ol9GG1RRQ752W_Ebn1a/Bulgarian_Squats_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Bulgarian_Squats_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AADp2-Ol9GG1RRQ752W_Ebn1a/Bulgarian_Squats_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Bulgarian_Squats_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AAAw1gdMdHlrkcuN80SXquaTa/Bulgarian_Squats_2.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2955,8 +2955,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr003",
             "title":"Clam Shell",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Clam_Shell.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAAnOMKafIkY8HQUYTFNgrspa/Clam_Shell.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Clam_Shell.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAAnOMKafIkY8HQUYTFNgrspa/Clam_Shell.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Clam_Shell.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AACKbL3vACyDygWqiCHbqQD8a/Clam_Shell.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2965,8 +2965,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr004",
             "title":"Forward Lunges",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Forward_Lunges.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAB8z95KG4YbYi5xGFpOd2mNa/Forward_Lunges.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Forward_Lunges.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAB8z95KG4YbYi5xGFpOd2mNa/Forward_Lunges.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Forward_Lunges.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AACaukB8RNXP_Weqj6DVJSeUa/Forward_Lunges.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2975,8 +2975,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr005",
             "title":"Forward Lunges 1",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Forward_Lunges_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAD1FsuW46OXUnIWTGt9Ijeua/Forward_Lunges_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Forward_Lunges_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAD1FsuW46OXUnIWTGt9Ijeua/Forward_Lunges_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Forward_Lunges_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AACAWCmB6Iqz-HPVm3mkPDB4a/Forward_Lunges_1.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2985,8 +2985,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr006",
             "title":"Hip Flexion",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Hip_Flexion.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AADRfWG5NXN6utM0WcGY2LmVa/Hip_Flexion.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Hip_Flexion.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AADRfWG5NXN6utM0WcGY2LmVa/Hip_Flexion.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Hip_Flexion.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AACf2FaaBl_wlPhZlX4BGIMia/Hip_Flexion.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -2995,8 +2995,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr007",
             "title":"Knee Extension",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Knee_Extension.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AACIPm8RbrChfCk8zDZXjPnRa/Knee_Extension.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Knee_Extension.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AACIPm8RbrChfCk8zDZXjPnRa/Knee_Extension.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Knee_Extension.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AACaplLZoUilFP-St5Qk95R8a/Knee_Extension.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -3005,8 +3005,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr008",
             "title":"Lateral Lunges 1",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Lateral_Lunges_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAD5p40Q8tTZG93NxlI2Nbeia/Lateral_Lunges_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Lateral_Lunges_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAD5p40Q8tTZG93NxlI2Nbeia/Lateral_Lunges_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Lateral_Lunges_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AABRrYIDmW1UEtbwE7QE1k7ja/Lateral_Lunges_1.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -3015,8 +3015,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr009",
             "title":"Lateral Lunges 2",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Lateral_Lunges_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AADNg_Dzz-3LN0gl_d8PC9rUa/Lateral_Lunges_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Lateral_Lunges_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AADNg_Dzz-3LN0gl_d8PC9rUa/Lateral_Lunges_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Lateral_Lunges_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AAAUBD5KjZfURwp4NV3L8Csua/Lateral_Lunges_2.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -3025,8 +3025,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr010",
             "title":"Long arc",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Long_arc.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AADwauFApXJ7Lai8ox0vpSFna/Long_arc.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Long_arc.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AADwauFApXJ7Lai8ox0vpSFna/Long_arc.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Long_arc.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AACM91XME_I4lHBtYFGzCwb8a/Long_arc.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -3035,8 +3035,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr011",
             "title":"lunges",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/lunges.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAAMrpT9Se4wG9DgNdz75mlta/lunges.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/lunges.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAAMrpT9Se4wG9DgNdz75mlta/lunges.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/lunges.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AADiqKB_l0zUQJ1FL4hfAlSka/lunges.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -3045,8 +3045,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr012",
             "title":"Sit to Stand",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Sit_to_Stand.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAAK896dQRmt0xiuaOt65EtOa/Sit_to_Stand.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Sit_to_Stand.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAAK896dQRmt0xiuaOt65EtOa/Sit_to_Stand.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Sit_to_Stand.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AAB5DbZkGrJDUkRxGpwSxiVMa/Sit_to_Stand.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -3055,8 +3055,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr013",
             "title":"sit to stand 2",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/sit_to_stand_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAAXb4Ib6An2zHnzTLi02CBQa/sit_to_stand_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/sit_to_stand_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AAAXb4Ib6An2zHnzTLi02CBQa/sit_to_stand_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/sit_to_stand_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AAA1-LJgCJ3LbkK0dJOvjuqZa/sit_to_stand_2.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -3065,8 +3065,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr014",
             "title":"Squats 1",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Squats_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AACNzTysHqR6nfA5uQQbtNlSa/Squats_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Squats_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AACNzTysHqR6nfA5uQQbtNlSa/Squats_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Squats_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AAApP5ZCMtCOnEvsBcKXpRQga/Squats_1.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -3075,8 +3075,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr015",
             "title":"Squats 2",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Squats_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AACjVx85FjDjmRM9wYZizeePa/Squats_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Squats_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AACjVx85FjDjmRM9wYZizeePa/Squats_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Squats_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AACU0yunClZk0rvn9cW7s_1ha/Squats_2.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -3085,8 +3085,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr016",
             "title":"Squats with Ball Squeeze",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Squats_with_Ball_Squeeze.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AACZd4vMtzkWkfEhtD9IpQrca/Squats_with_Ball_Squeeze.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Squats_with_Ball_Squeeze.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AACZd4vMtzkWkfEhtD9IpQrca/Squats_with_Ball_Squeeze.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Squats_with_Ball_Squeeze.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AAAcvmYOQ_mNfelf5T0qqHtTa/Squats_with_Ball_Squeeze.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -3095,8 +3095,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr017",
             "title":"Squats with Knee Extension",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Squats_with_Knee_Extension.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AADO53f-os5iNoeklPrcO66Ea/Squats_with_Knee_Extension.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Squats_with_Knee_Extension.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AADO53f-os5iNoeklPrcO66Ea/Squats_with_Knee_Extension.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Squats_with_Knee_Extension.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AADXITXam6QTuMr72NFJSD9ta/Squats_with_Knee_Extension.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -3105,8 +3105,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr018",
             "title":"Squats with Swiss Ball",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Squats_with_Swiss_Ball.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AABb5LFSj5QHaoocAqjC3j9na/Squats_with_Swiss_Ball.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Squats_with_Swiss_Ball.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AABb5LFSj5QHaoocAqjC3j9na/Squats_with_Swiss_Ball.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Squats_with_Swiss_Ball.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AAD6qw5GQ0sXT6OiDVr2wmRWa/Squats_with_Swiss_Ball.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -3115,8 +3115,8 @@ const exercisesGif = {
          {
             "id": "GfHpSr019",
             "title":"Wall Squat",
-            "tumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Wall_Squat.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AADqlBzgY3yB5yK3XTylsl1Pa/Wall_Squat.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Strengthening/Thumbnail/Wall_Squat.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/684cv2r39u478lv/AADqlBzgY3yB5yK3XTylsl1Pa/Wall_Squat.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Strengthening/Big/Wall_Squat.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kvx25jcyrwcdnbb/AABRcPEFKwUeHdSlbLt5HvmFa/Wall_Squat.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -3128,8 +3128,8 @@ const exercisesGif = {
          {
             "id": "GfHpSh001",
             "title":"Hip Extnsors Stretch From Standing",
-            "tumbUrl":["./docs/Gifs/07-Hip/Stretching/Thumbnail/Hip_Extnsors_Stretch_From_Standing.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/0rnn7m14qacpovx/AABa2VyFqrmgHdRuaSoImKMEa/Hip_Extnsors_Stretch_From_Standing.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Stretching/Thumbnail/Hip_Extnsors_Stretch_From_Standing.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/0rnn7m14qacpovx/AABa2VyFqrmgHdRuaSoImKMEa/Hip_Extnsors_Stretch_From_Standing.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Stretching/Big/Hip_Extnsors_Stretch_From_Standing.gif"],
             "bigBackup":["https://www.dropbox.com/sh/27gerb311cf1x54/AACEas2MZQ41jQIG5DP6o1_Qa/Hip_Extnsors_Stretch_From_Standing.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -3138,8 +3138,8 @@ const exercisesGif = {
          {
             "id": "GfHpSh002",
             "title":"Quads Stretch from Standing",
-            "tumbUrl":["./docs/Gifs/07-Hip/Stretching/Thumbnail/Quads_Stretch_from_Standing.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/0rnn7m14qacpovx/AAChKCf5cuEQbtuq4pj0TeVIa/Quads_Stretch_from_Standing.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Stretching/Thumbnail/Quads_Stretch_from_Standing.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/0rnn7m14qacpovx/AAChKCf5cuEQbtuq4pj0TeVIa/Quads_Stretch_from_Standing.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Stretching/Big/Quads_Stretch_from_Standing.gif"],
             "bigBackup":["https://www.dropbox.com/sh/27gerb311cf1x54/AAAcU9k4YBdg_-39JrxdwhKKa/Quads_Stretch_from_Standing.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -3148,8 +3148,8 @@ const exercisesGif = {
          {
             "id": "GfHpSh003",
             "title":"Quads Stretching",
-            "tumbUrl":["./docs/Gifs/07-Hip/Stretching/Thumbnail/Quads_Stretching.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/0rnn7m14qacpovx/AACas2pYTbpF9Ka912T7mtNWa/Quads_Stretching.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Stretching/Thumbnail/Quads_Stretching.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/0rnn7m14qacpovx/AACas2pYTbpF9Ka912T7mtNWa/Quads_Stretching.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Stretching/Big/Quads_Stretching.gif"],
             "bigBackup":["https://www.dropbox.com/sh/27gerb311cf1x54/AAAjGwnWRwm2pjxKUDu5IoMHa/Quads_Stretching.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -3164,8 +3164,8 @@ const exercisesGif = {
          {
             "id": "GfHpTr001",
             "title":"Clam Shell with Theraband",
-            "tumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Clam_Shell_with_Theraband.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AABLnA6qjxQEqpB2c2CENhGwa/Clam_Shell_with_Theraband.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Clam_Shell_with_Theraband.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AABLnA6qjxQEqpB2c2CENhGwa/Clam_Shell_with_Theraband.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Theraband/Big/Clam_Shell_with_Theraband.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wn58zpa3h1zje37/AABSYazzYd237OtlHMzJ-a2da/Clam_Shell_with_Theraband.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -3174,8 +3174,8 @@ const exercisesGif = {
          {
             "id": "GfHpTr002",
             "title":"Hip Abduction with Theraband",
-            "tumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Abduction_with_Theraband.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AAC-TA38d3sm9tjIIla-jPpra/Hip_Abduction_with_Theraband.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Abduction_with_Theraband.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AAC-TA38d3sm9tjIIla-jPpra/Hip_Abduction_with_Theraband.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Theraband/Big/Hip_Abduction_with_Theraband.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wn58zpa3h1zje37/AAB005hHhtET13y6YnXmt5yOa/Hip_Abduction_with_Theraband.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -3184,8 +3184,8 @@ const exercisesGif = {
          {
             "id": "GfHpTr003",
             "title":"Hip Extension with Theraband",
-            "tumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Extension_with_Theraband.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AAC40DJWWuJFwl0VFX4PJfNPa/Hip_Extension_with_Theraband.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Extension_with_Theraband.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AAC40DJWWuJFwl0VFX4PJfNPa/Hip_Extension_with_Theraband.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Theraband/Big/Hip_Extension_with_Theraband.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wn58zpa3h1zje37/AADV1ZbDYaQ3Kshq6gpWprBVa/Hip_Extension_with_Theraband.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -3194,8 +3194,8 @@ const exercisesGif = {
          {
             "id": "GfHpTr004",
             "title":"Hip Flexion with Theraband",
-            "tumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Flexion_with_Theraband.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AACC-XPMwhVnjw4Ar_rl0alBa/Hip_Flexion_with_Theraband.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Flexion_with_Theraband.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AACC-XPMwhVnjw4Ar_rl0alBa/Hip_Flexion_with_Theraband.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Theraband/Big/Hip_Flexion_with_Theraband.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wn58zpa3h1zje37/AADNz0gNoMMJryUCSE5afXA5a/Hip_Flexion_with_Theraband.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -3204,8 +3204,8 @@ const exercisesGif = {
          {
             "id": "GfHpTr005",
             "title":"Hip Stren Abduction in Standing",
-            "tumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Stren_Abduction_in_Standing.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AAA5X8etnU0uvyhyF9ezWVPBa/Hip_Stren_Abduction_in_Standing.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Stren_Abduction_in_Standing.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AAA5X8etnU0uvyhyF9ezWVPBa/Hip_Stren_Abduction_in_Standing.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Theraband/Big/Hip_Stren_Abduction_in_Standing.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wn58zpa3h1zje37/AAA2shmTvRCpNyj4vA7NAtFTa/Hip_Stren_Abduction_in_Standing.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -3214,8 +3214,8 @@ const exercisesGif = {
          {
             "id": "GfHpTr006",
             "title":"Hip Stren Adduction in Standing",
-            "tumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Stren_Adduction_in_Standing.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AADgLHlXVpYX26DH6Drk15i9a/Hip_Stren_Adduction_in_Standing.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Stren_Adduction_in_Standing.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AADgLHlXVpYX26DH6Drk15i9a/Hip_Stren_Adduction_in_Standing.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Theraband/Big/Hip_Stren_Adduction_in_Standing.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wn58zpa3h1zje37/AAAhaiLkzANV2jcKyn-MpksWa/Hip_Stren_Adduction_in_Standing.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -3224,8 +3224,8 @@ const exercisesGif = {
          {
             "id": "GfHpTr007",
             "title":"Hip Stren Extension in Standing",
-            "tumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Stren_Extension_in_Standing.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AACD-TE-4poXOSY38NAuQtUGa/Hip_Stren_Extension_in_Standing.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Stren_Extension_in_Standing.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AACD-TE-4poXOSY38NAuQtUGa/Hip_Stren_Extension_in_Standing.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Theraband/Big/Hip_Stren_Extension_in_Standing.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wn58zpa3h1zje37/AACaLiGJ-psmldW6TOyZSXsda/Hip_Stren_Extension_in_Standing.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -3234,8 +3234,8 @@ const exercisesGif = {
          {
             "id": "GfHpTr008",
             "title":"Hip Stren Flexion in Standing",
-            "tumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Stren_Flexion_in_Standing.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AAByy0nGa35-wwI7YHTLUa2Ka/Hip_Stren_Flexion_in_Standing.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Hip_Stren_Flexion_in_Standing.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AAByy0nGa35-wwI7YHTLUa2Ka/Hip_Stren_Flexion_in_Standing.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Theraband/Big/Hip_Stren_Flexion_in_Standing.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wn58zpa3h1zje37/AAACYLI9QQJugx6Uq0tueYHTa/Hip_Stren_Flexion_in_Standing.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -3244,8 +3244,8 @@ const exercisesGif = {
          {
             "id": "GfHpTr009",
             "title":"Knee Flexion with Theraband",
-            "tumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Knee_Flexion_with_Theraband.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AAC1mvyQIKzBGC2WaBrcZ9gda/Knee_Flexion_with_Theraband.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/Knee_Flexion_with_Theraband.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AAC1mvyQIKzBGC2WaBrcZ9gda/Knee_Flexion_with_Theraband.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Theraband/Big/Knee_Flexion_with_Theraband.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wn58zpa3h1zje37/AABA26rDzC4VtkUsSx1qfXRSa/Knee_Flexion_with_Theraband.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -3254,8 +3254,8 @@ const exercisesGif = {
          {
             "id": "GfHpTr010",
             "title":"SLR with Theraband",
-            "tumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/SLR_with_Theraband.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AACgFq-z24VlHB2ir079SJw9a/SLR_with_Theraband.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/07-Hip/Theraband/Thumbnail/SLR_with_Theraband.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/ma34abhcwd7tzq9/AACgFq-z24VlHB2ir079SJw9a/SLR_with_Theraband.gif?raw=1"],
             "bigImgs":["./docs/Gifs/07-Hip/Theraband/Big/SLR_with_Theraband.gif"],
             "bigBackup":["https://www.dropbox.com/sh/wn58zpa3h1zje37/AAAcW0SY5XRXzlZ9vmrZIiQxa/SLR_with_Theraband.gif?raw=1"],
             "tags":[ "Knee O.A.", "Hip O.A.", "TKR", "Hip Replacment", "Knee Pain", "Hip Pain"],
@@ -3269,8 +3269,8 @@ const exercisesGif = {
          {
             "id": "GfFtAr001",
             "title":"Ankle Big Toe Raise",
-            "tumbUrl":["./docs/Gifs/09-Foot/AROM/Thumbnail/Ankle_Big_Toe_Raise.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/nkj64n00pe6dhpp/AAD2lSEGjE-x8gDUa1Tne0THa/Ankle_Big_Toe_Raise.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/AROM/Thumbnail/Ankle_Big_Toe_Raise.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/nkj64n00pe6dhpp/AAD2lSEGjE-x8gDUa1Tne0THa/Ankle_Big_Toe_Raise.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/AROM/Big/Ankle_Big_Toe_Raise.gif"],
             "bigBackup":["https://www.dropbox.com/sh/ztkz7lg5xp4fdwp/AAC2PE2Q67Lu-1tEUM_-IUmda/Ankle_Big_Toe_Raise.gif?raw=1"],
             "tags":[ "Plantar Fasciitis", "Ankle Sprain", "Ankle Pain"],
@@ -3279,8 +3279,8 @@ const exercisesGif = {
          {
             "id": "GfFtAr002",
             "title":"Ankle Circumduction Anticlockwise",
-            "tumbUrl":["./docs/Gifs/09-Foot/AROM/Thumbnail/Ankle_Circumduction_Anticlockwise.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/nkj64n00pe6dhpp/AACTbDDGYBUQyWumBNtmlZWZa/Ankle_Circumduction_Anticlockwise.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/AROM/Thumbnail/Ankle_Circumduction_Anticlockwise.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/nkj64n00pe6dhpp/AACTbDDGYBUQyWumBNtmlZWZa/Ankle_Circumduction_Anticlockwise.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/AROM/Big/Ankle_Circumduction_Anticlockwise.gif"],
             "bigBackup":["https://www.dropbox.com/sh/ztkz7lg5xp4fdwp/AAByKhMuoCi4DYL7QmXy5MAba/Ankle_Circumduction_Anticlockwise.gif?raw=1"],
             "tags":[ "Plantar Fasciitis", "Ankle Sprain", "Ankle Pain"],
@@ -3289,8 +3289,8 @@ const exercisesGif = {
          {
             "id": "GfFtAr003",
             "title":"Ankle Circumduction Clockwise",
-            "tumbUrl":["./docs/Gifs/09-Foot/AROM/Thumbnail/Ankle_Circumduction_Clockwise.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/nkj64n00pe6dhpp/AABkKTdN-HnuPiCccQU8_fB4a/Ankle_Circumduction_Clockwise.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/AROM/Thumbnail/Ankle_Circumduction_Clockwise.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/nkj64n00pe6dhpp/AABkKTdN-HnuPiCccQU8_fB4a/Ankle_Circumduction_Clockwise.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/AROM/Big/Ankle_Circumduction_Clockwise.gif"],
             "bigBackup":["https://www.dropbox.com/sh/ztkz7lg5xp4fdwp/AABG8QaBmiO7vPmj-zY4huv-a/Ankle_Circumduction_Clockwise.gif?raw=1"],
             "tags":[ "Plantar Fasciitis", "Ankle Sprain", "Ankle Pain"],
@@ -3299,8 +3299,8 @@ const exercisesGif = {
          {
             "id": "GfFtAr004",
             "title":"Ankle Heel Raises",
-            "tumbUrl":["./docs/Gifs/09-Foot/AROM/Thumbnail/Ankle_Heel_Raises.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/nkj64n00pe6dhpp/AAALv1egWKOglv8PJfdo9S34a/Ankle_Heel_Raises.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/AROM/Thumbnail/Ankle_Heel_Raises.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/nkj64n00pe6dhpp/AAALv1egWKOglv8PJfdo9S34a/Ankle_Heel_Raises.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/AROM/Big/Ankle_Heel_Raises.gif"],
             "bigBackup":["https://www.dropbox.com/sh/ztkz7lg5xp4fdwp/AAAY7wXsO76Ax-mE2N6ha-pHa/Ankle_Heel_Raises.gif?raw=1"],
             "tags":[ "Plantar Fasciitis", "Ankle Sprain", "Ankle Pain"],
@@ -3309,8 +3309,8 @@ const exercisesGif = {
          {
             "id": "GfFtAr005",
             "title":"Ankle Inversion Eversion",
-            "tumbUrl":["./docs/Gifs/09-Foot/AROM/Thumbnail/Ankle_Inversion_Eversion.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/nkj64n00pe6dhpp/AABrQsSVJFsUaGpHOayvYYxxa/Ankle_Inversion_Eversion.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/AROM/Thumbnail/Ankle_Inversion_Eversion.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/nkj64n00pe6dhpp/AABrQsSVJFsUaGpHOayvYYxxa/Ankle_Inversion_Eversion.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/AROM/Big/Ankle_Inversion_Eversion.gif"],
             "bigBackup":["https://www.dropbox.com/sh/ztkz7lg5xp4fdwp/AAAFBX9vG8YnoLDFF8DM7SEka/Ankle_Inversion_Eversion.gif?raw=1"],
             "tags":[ "Plantar Fasciitis", "Ankle Sprain", "Ankle Pain"],
@@ -3319,8 +3319,8 @@ const exercisesGif = {
          {
             "id": "GfFtAr006",
             "title":"Ankle PF and DF",
-            "tumbUrl":["./docs/Gifs/09-Foot/AROM/Thumbnail/Ankle_PF_and_DF.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/nkj64n00pe6dhpp/AAA82xF9iucBs6rfWurlw0Gva/Ankle_PF_and_DF.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/AROM/Thumbnail/Ankle_PF_and_DF.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/nkj64n00pe6dhpp/AAA82xF9iucBs6rfWurlw0Gva/Ankle_PF_and_DF.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/AROM/Big/Ankle_PF_and_DF.gif"],
             "bigBackup":["https://www.dropbox.com/sh/ztkz7lg5xp4fdwp/AABxX3O_Yrhka-H4STo86j1ha/Ankle_PF_and_DF.gif?raw=1"],
             "tags":[ "Plantar Fasciitis", "Ankle Sprain", "Ankle Pain"],
@@ -3329,8 +3329,8 @@ const exercisesGif = {
          {
             "id": "GfFtAr007",
             "title":"Ankle Toe Raises",
-            "tumbUrl":["./docs/Gifs/09-Foot/AROM/Thumbnail/Ankle_Toe_Raises.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/nkj64n00pe6dhpp/AACb97rcmlpDyCtyPIo-oMjka/Ankle_Toe_Raises.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/AROM/Thumbnail/Ankle_Toe_Raises.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/nkj64n00pe6dhpp/AACb97rcmlpDyCtyPIo-oMjka/Ankle_Toe_Raises.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/AROM/Big/Ankle_Toe_Raises.gif"],
             "bigBackup":["https://www.dropbox.com/sh/ztkz7lg5xp4fdwp/AACB4ZEi0Qg46ISQxvFLuo2Da/Ankle_Toe_Raises.gif?raw=1"],
             "tags":[ "Plantar Fasciitis", "Ankle Sprain", "Ankle Pain"],
@@ -3339,8 +3339,8 @@ const exercisesGif = {
          {
             "id": "GfFtAr008",
             "title":"Ankle Toes Abduction",
-            "tumbUrl":["./docs/Gifs/09-Foot/AROM/Thumbnail/Ankle_Toes_Abduction.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/nkj64n00pe6dhpp/AADTVJlinHidBnrjmOR0UxZ8a/Ankle_Toes_Abduction.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/AROM/Thumbnail/Ankle_Toes_Abduction.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/nkj64n00pe6dhpp/AADTVJlinHidBnrjmOR0UxZ8a/Ankle_Toes_Abduction.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/AROM/Big/Ankle_Toes_Abduction.gif"],
             "bigBackup":["https://www.dropbox.com/sh/ztkz7lg5xp4fdwp/AADUNuZ5nPXLLC4Ge_pCMhK2a/Ankle_Toes_Abduction.gif?raw=1"],
             "tags":[ "Plantar Fasciitis", "Ankle Sprain", "Ankle Pain"],
@@ -3349,8 +3349,8 @@ const exercisesGif = {
          {
             "id": "GfFtAr009",
             "title":"Ankle Toes Curl",
-            "tumbUrl":["./docs/Gifs/09-Foot/AROM/Thumbnail/Ankle_Toes_Curl.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/nkj64n00pe6dhpp/AADXl3lCb6EmNgStRml4_0wQa/Ankle_Toes_Curl.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/AROM/Thumbnail/Ankle_Toes_Curl.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/nkj64n00pe6dhpp/AADXl3lCb6EmNgStRml4_0wQa/Ankle_Toes_Curl.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/AROM/Big/Ankle_Toes_Curl.gif"],
             "bigBackup":["https://www.dropbox.com/sh/ztkz7lg5xp4fdwp/AAAIQaZZvLWsPL5HvC04XRY0a/Ankle_Toes_Curl.gif?raw=1"],
             "tags":[ "Plantar Fasciitis", "Ankle Sprain", "Ankle Pain"],
@@ -3359,8 +3359,8 @@ const exercisesGif = {
          {
             "id": "GfFtAr010",
             "title":"Ankle Toes Heel and Toes Raises",
-            "tumbUrl":["./docs/Gifs/09-Foot/AROM/Thumbnail/Ankle_Toes_Heel_and_Toes_Raises.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/nkj64n00pe6dhpp/AAD8kZsSQHxb2shWz8bJA6g3a/Ankle_Toes_Heel_and_Toes_Raises.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/AROM/Thumbnail/Ankle_Toes_Heel_and_Toes_Raises.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/nkj64n00pe6dhpp/AAD8kZsSQHxb2shWz8bJA6g3a/Ankle_Toes_Heel_and_Toes_Raises.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/AROM/Big/Ankle_Toes_Heel_and_Toes_Raises.gif"],
             "bigBackup":["https://www.dropbox.com/sh/ztkz7lg5xp4fdwp/AACNoxUVpYsttzEELr2VQYBca/Ankle_Toes_Heel_and_Toes_Raises.gif?raw=1"],
             "tags":[ "Plantar Fasciitis", "Ankle Sprain", "Ankle Pain"],
@@ -3372,8 +3372,8 @@ const exercisesGif = {
          {
             "id": "GfFtIs001",
             "title":"Ankle Iso Eversion",
-            "tumbUrl":["./docs/Gifs/09-Foot/Isometrics/Thumbnail/Ankle_Iso_Eversion.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/f8im0llwzzhbk38/AADfkdPwzm6-ScFbFe067VAea/Ankle_Iso_Eversion.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/Isometrics/Thumbnail/Ankle_Iso_Eversion.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/f8im0llwzzhbk38/AADfkdPwzm6-ScFbFe067VAea/Ankle_Iso_Eversion.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/Isometrics/Big/Ankle_Iso_Eversion.gif"],
             "bigBackup":["https://www.dropbox.com/sh/t1c50pervtzu3ym/AAD2aNPhIclMxxq97gW6hl6fa/Ankle_Iso_Eversion.gif?raw=1"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
@@ -3382,8 +3382,8 @@ const exercisesGif = {
          {
             "id": "GfFtIs002",
             "title":"Ankle Iso Inversion",
-            "tumbUrl":["./docs/Gifs/09-Foot/Isometrics/Thumbnail/Ankle_Iso_Inversion.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/f8im0llwzzhbk38/AABl6xR4fdiq2OBt16fJt4aha/Ankle_Iso_Inversion.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/Isometrics/Thumbnail/Ankle_Iso_Inversion.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/f8im0llwzzhbk38/AABl6xR4fdiq2OBt16fJt4aha/Ankle_Iso_Inversion.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/Isometrics/Big/Ankle_Iso_Inversion.gif"],
             "bigBackup":["https://www.dropbox.com/sh/t1c50pervtzu3ym/AADsB5EsVZq4dh3Xx6PqPRMna/Ankle_Iso_Inversion.gif?raw=1"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
@@ -3395,8 +3395,8 @@ const exercisesGif = {
          {
             "id": "GfFtOt001",
             "title":"Ankle Ball Rolling 1",
-            "tumbUrl":["./docs/Gifs/09-Foot/Others/Thumbnail/Ankle_Ball_Rolling_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/1kbtf16cmchnr8m/AAAb2cRi3njB-PWkNrkydseoa/Ankle_Ball_Rolling_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/Others/Thumbnail/Ankle_Ball_Rolling_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/1kbtf16cmchnr8m/AAAb2cRi3njB-PWkNrkydseoa/Ankle_Ball_Rolling_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/Others/Big/Ankle_Ball_Rolling_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/t72fq97x5ol3h7n/AAAVHfBNbLP5nNflNTaqkPgJa/Ankle_Ball_Rolling_1.gif?raw=1"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
@@ -3405,8 +3405,8 @@ const exercisesGif = {
          {
             "id": "GfFtOt002",
             "title":"Ankle Ball Rolling 2",
-            "tumbUrl":["./docs/Gifs/09-Foot/Others/Thumbnail/Ankle_Ball_Rolling_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/1kbtf16cmchnr8m/AACGEYMNQ6P4nCzotgTNwvWva/Ankle_Ball_Rolling_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/Others/Thumbnail/Ankle_Ball_Rolling_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/1kbtf16cmchnr8m/AACGEYMNQ6P4nCzotgTNwvWva/Ankle_Ball_Rolling_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/Others/Big/Ankle_Ball_Rolling_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/t72fq97x5ol3h7n/AAD5I8dihqr2XUJvq6M1kcZqa/Ankle_Ball_Rolling_2.gif?raw=1"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
@@ -3415,8 +3415,8 @@ const exercisesGif = {
          {
             "id": "GfFtOt003",
             "title":"Ankle Frozen Can Exercise",
-            "tumbUrl":["./docs/Gifs/09-Foot/Others/Thumbnail/Ankle_Frozen_Can_Exercise.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/1kbtf16cmchnr8m/AACgjmCw7YdW5YRULRvFkHjTa/Ankle_Frozen_Can_Exercise.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/Others/Thumbnail/Ankle_Frozen_Can_Exercise.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/1kbtf16cmchnr8m/AACgjmCw7YdW5YRULRvFkHjTa/Ankle_Frozen_Can_Exercise.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/Others/Big/Ankle_Frozen_Can_Exercise.gif"],
             "bigBackup":["https://www.dropbox.com/sh/t72fq97x5ol3h7n/AABL7GFpcG03jk7dAwcLY17Na/Ankle_Frozen_Can_Exercise.gif?raw=1"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
@@ -3425,8 +3425,8 @@ const exercisesGif = {
          {
             "id": "GfFtOt004",
             "title":"Ankle Heel Walking",
-            "tumbUrl":["./docs/Gifs/09-Foot/Others/Thumbnail/Ankle_Heel_Walking.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/1kbtf16cmchnr8m/AAChnwWr37brjSjHCB4mGoDFa/Ankle_Heel_Walking.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/Others/Thumbnail/Ankle_Heel_Walking.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/1kbtf16cmchnr8m/AAChnwWr37brjSjHCB4mGoDFa/Ankle_Heel_Walking.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/Others/Big/Ankle_Heel_Walking.gif"],
             "bigBackup":["https://www.dropbox.com/sh/t72fq97x5ol3h7n/AAAKzKofzBDhl4tYBSilWE5Qa/Ankle_Heel_Walking.gif?raw=1"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
@@ -3435,8 +3435,8 @@ const exercisesGif = {
          {
             "id": "GfFtOt005",
             "title":"Ankle Toe Walking",
-            "tumbUrl":["./docs/Gifs/09-Foot/Others/Thumbnail/Ankle_Toe_Walking.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/1kbtf16cmchnr8m/AACJxCCSoOyiLzLCiIMSGIXRa/Ankle_Toe_Walking.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/Others/Thumbnail/Ankle_Toe_Walking.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/1kbtf16cmchnr8m/AACJxCCSoOyiLzLCiIMSGIXRa/Ankle_Toe_Walking.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/Others/Big/Ankle_Toe_Walking.gif"],
             "bigBackup":["https://www.dropbox.com/sh/t72fq97x5ol3h7n/AACkJsoQfkcr1oqeVHu3j9zla/Ankle_Toe_Walking.gif?raw=1"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
@@ -3448,8 +3448,8 @@ const exercisesGif = {
          {
             "id": "GfFtSr001",
             "title":"Ankle DF with Theraband",
-            "tumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Ankle_DF_with_Theraband.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AADCLMAqTuSQiGMH_T5HuPKqa/Ankle_DF_with_Theraband.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Ankle_DF_with_Theraband.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AADCLMAqTuSQiGMH_T5HuPKqa/Ankle_DF_with_Theraband.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/Strengthening/Big/Ankle_DF_with_Theraband.gif"],
             "bigBackup":["https://www.dropbox.com/sh/1kqw2dx8egxde23/AADk9OLa799l0tUVNlhobs8wa/Ankle_DF_with_Theraband.gif?raw=1"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
@@ -3458,8 +3458,8 @@ const exercisesGif = {
          {
             "id": "GfFtSr002",
             "title":"Ankle Eversion with Theraband 1",
-            "tumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Ankle_Eversion_with_Theraband_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AAAxFVKNb8aKhBxqa3k0vfiIa/Ankle_Eversion_with_Theraband_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Ankle_Eversion_with_Theraband_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AAAxFVKNb8aKhBxqa3k0vfiIa/Ankle_Eversion_with_Theraband_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/Strengthening/Big/Ankle_Eversion_with_Theraband_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/1kqw2dx8egxde23/AABK-OFSpXFz1h7XgC5NKAUFa/Ankle_Eversion_with_Theraband_1.gif?raw=1"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
@@ -3468,8 +3468,8 @@ const exercisesGif = {
          {
             "id": "GfFtSr003",
             "title":"Ankle Eversion with Theraband 2",
-            "tumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Ankle_Eversion_with_Theraband_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AACiJHCvk9uRM3Htz4MTAlPia/Ankle_Eversion_with_Theraband_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Ankle_Eversion_with_Theraband_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AACiJHCvk9uRM3Htz4MTAlPia/Ankle_Eversion_with_Theraband_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/Strengthening/Big/Ankle_Eversion_with_Theraband_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/1kqw2dx8egxde23/AABW20mo20QlXTScxWTtrg2ja/Ankle_Eversion_with_Theraband_2.gif?raw=1"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
@@ -3478,8 +3478,8 @@ const exercisesGif = {
          {
             "id": "GfFtSr004",
             "title":"Ankle Heel Raises Standing",
-            "tumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Ankle_Heel_Raises_Standing.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AABuXGMufGdomgMfd7r4fj-ha/Ankle_Heel_Raises_Standing.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Ankle_Heel_Raises_Standing.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AABuXGMufGdomgMfd7r4fj-ha/Ankle_Heel_Raises_Standing.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/Strengthening/Big/Ankle_Heel_Raises_Standing.gif"],
             "bigBackup":["https://www.dropbox.com/sh/1kqw2dx8egxde23/AAALG9Hv6QCDPG3DTUV1HeBoa/Ankle_Heel_Raises_Standing.gif?raw=1"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
@@ -3488,8 +3488,8 @@ const exercisesGif = {
          {
             "id": "GfFtSr005",
             "title":"Ankle Inversion with Theraband 1",
-            "tumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Ankle_Inversion_with_Theraband_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AAC2bs6lXevijn2Mz_ZwrDo3a/Ankle_Inversion_with_Theraband_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Ankle_Inversion_with_Theraband_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AAC2bs6lXevijn2Mz_ZwrDo3a/Ankle_Inversion_with_Theraband_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/Strengthening/Big/Ankle_Inversion_with_Theraband_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/1kqw2dx8egxde23/AADmebNJk3Bw43F_6iCtoZUIa/Ankle_Inversion_with_Theraband_1.gif?raw=1"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
@@ -3498,8 +3498,8 @@ const exercisesGif = {
          {
             "id": "GfFtSr006",
             "title":"Ankle Inversion with Theraband 2",
-            "tumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Ankle_Inversion_with_Theraband_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AADgowVIsOQ-jSCjeObCdhQia/Ankle_Inversion_with_Theraband_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Ankle_Inversion_with_Theraband_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AADgowVIsOQ-jSCjeObCdhQia/Ankle_Inversion_with_Theraband_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/Strengthening/Big/Ankle_Inversion_with_Theraband_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/1kqw2dx8egxde23/AAAN3DakHQHymeUPpV9PsUCxa/Ankle_Inversion_with_Theraband_2.gif?raw=1"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
@@ -3508,8 +3508,8 @@ const exercisesGif = {
          {
             "id": "GfFtSr007",
             "title":"Ankle PF with Theraband",
-            "tumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Ankle_PF_with_Theraband.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AADWP5NSuxlUIVLS0iYAipGAa/Ankle_PF_with_Theraband.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Ankle_PF_with_Theraband.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AADWP5NSuxlUIVLS0iYAipGAa/Ankle_PF_with_Theraband.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/Strengthening/Big/Ankle_PF_with_Theraband.gif"],
             "bigBackup":["https://www.dropbox.com/sh/1kqw2dx8egxde23/AAD3dE87ltJZjrV5n0jCSMV5a/Ankle_PF_with_Theraband.gif?raw=1"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
@@ -3518,8 +3518,8 @@ const exercisesGif = {
          {
             "id": "GfFtSr008",
             "title":"Standing on Heels 1",
-            "tumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Standing_on_Heels_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AAA1AXKmh_lEpT76ZIzllxWAa/Standing_on_Heels_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Standing_on_Heels_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AAA1AXKmh_lEpT76ZIzllxWAa/Standing_on_Heels_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/Strengthening/Big/Standing_on_Heels_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/1kqw2dx8egxde23/AABGqtLA-7acMhtuixf4fip8a/Standing_on_Heels_1.gif?raw=1"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
@@ -3528,8 +3528,8 @@ const exercisesGif = {
          {
             "id": "GfFtSr009",
             "title":"Standing on Heels 2",
-            "tumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Standing_on_Heels_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AABummIuzxsa8dWIrqZmidcKa/Standing_on_Heels_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Standing_on_Heels_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AABummIuzxsa8dWIrqZmidcKa/Standing_on_Heels_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/Strengthening/Big/Standing_on_Heels_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/1kqw2dx8egxde23/AAAGPMo5IGf33YYApPjNf6J2a/Standing_on_Heels_2.gif?raw=1"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
@@ -3538,8 +3538,8 @@ const exercisesGif = {
          {
             "id": "GfFtSr010",
             "title":"Standing on Toes 1",
-            "tumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Standing_on_Toes_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AADWzrKlCcGcvvUrVaxJOwnUa/Standing_on_Toes_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Standing_on_Toes_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AADWzrKlCcGcvvUrVaxJOwnUa/Standing_on_Toes_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/Strengthening/Big/Standing_on_Toes_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/1kqw2dx8egxde23/AAA3C0t_ls5Be1VTkETh0_TXa/Standing_on_Toes_1.gif?raw=1"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
@@ -3548,8 +3548,8 @@ const exercisesGif = {
          {
             "id": "GfFtSr011",
             "title":"Standing on Toes 2",
-            "tumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Standing_on_Toes_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AAAMVWE9TSywGdor0qS0x5ssa/Standing_on_Toes_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Standing_on_Toes_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AAAMVWE9TSywGdor0qS0x5ssa/Standing_on_Toes_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/Strengthening/Big/Standing_on_Toes_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/1kqw2dx8egxde23/AAAz_IU9TP6apFUdRMrY6ALba/Standing_on_Toes_2.gif?raw=1"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
@@ -3558,8 +3558,8 @@ const exercisesGif = {
          {
             "id": "GfFtSr012",
             "title":"Standing on Toes and Squat",
-            "tumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Standing_on_Toes_and_Squat.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AAAK--_k5OqqOmg39hl5NcQwa/Standing_on_Toes_and_Squat.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Standing_on_Toes_and_Squat.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AAAK--_k5OqqOmg39hl5NcQwa/Standing_on_Toes_and_Squat.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/Strengthening/Big/Standing_on_Toes_and_Squat.gif"],
             "bigBackup":["https://www.dropbox.com/sh/1kqw2dx8egxde23/AABdV-GLZ42Ivfrva7hs8Zs7a/Standing_on_Toes_and_Squat.gif?raw=1"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
@@ -3568,8 +3568,8 @@ const exercisesGif = {
          {
             "id": "GfFtSr013",
             "title":"Unilateral Stand on Toes",
-            "tumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Unilateral_Stand_on_Toes.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AAANoUt8DYyYlYCY_MgMVt3ia/Unilateral_Stand_on_Toes.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Unilateral_Stand_on_Toes.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AAANoUt8DYyYlYCY_MgMVt3ia/Unilateral_Stand_on_Toes.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/Strengthening/Big/Unilateral_Stand_on_Toes.gif"],
             "bigBackup":["https://www.dropbox.com/sh/1kqw2dx8egxde23/AACvzV1sFNXQarWqc0f2gbDya/Unilateral_Stand_on_Toes.gif?raw=1"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
@@ -3578,8 +3578,8 @@ const exercisesGif = {
          {
             "id": "GfFtSr014",
             "title":"Unilateral Stand on Toes and Squat",
-            "tumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Unilateral_Stand_on_Toes_and_Squat.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AAABM6s98okBb-Y4daGaeLBDa/Unilateral_Stand_on_Toes_and_Squat.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/Strengthening/Thumbnail/Unilateral_Stand_on_Toes_and_Squat.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/5mn3wo1feaxv186/AAABM6s98okBb-Y4daGaeLBDa/Unilateral_Stand_on_Toes_and_Squat.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/Strengthening/Big/Unilateral_Stand_on_Toes_and_Squat.gif"],
             "bigBackup":["https://www.dropbox.com/sh/1kqw2dx8egxde23/AAAnwinE8lqCyleDw869SjSRa/Unilateral_Stand_on_Toes_and_Squat.gif?raw=1"],
             "tags":[ "Ankle Sprain", "Ankle Pain"],
@@ -3591,8 +3591,8 @@ const exercisesGif = {
          {
             "id": "GfFtSh001",
             "title":"Ankle Bil Calf Stretch",
-            "tumbUrl":["./docs/Gifs/09-Foot/Stretchings/Thumbnail/Ankle_Bil_Calf_Stretch.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/z66lj44wt6ggnlf/AAByetyFy0JfK19ZsVGpRKhOa/Ankle_Bil_Calf_Stretch.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/Stretchings/Thumbnail/Ankle_Bil_Calf_Stretch.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/z66lj44wt6ggnlf/AAByetyFy0JfK19ZsVGpRKhOa/Ankle_Bil_Calf_Stretch.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/Stretchings/Big/Ankle_Bil_Calf_Stretch.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kzthz8qv6zxellg/AAAUaJe0bQZ4rYiNxjI51Uaaa/Ankle_Bil_Calf_Stretch.gif?raw=1"],
             "tags":[ "Plantar Fasciitis", "Ankle Sprain", "Ankle Pain"],
@@ -3601,8 +3601,8 @@ const exercisesGif = {
          {
             "id": "GfFtSh002",
             "title":"Ankle Calf Stretch 1",
-            "tumbUrl":["./docs/Gifs/09-Foot/Stretchings/Thumbnail/Ankle_Calf_Stretch_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/z66lj44wt6ggnlf/AACcn4cMDIxgo6d2lTVPRPN7a/Ankle_Calf_Stretch_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/Stretchings/Thumbnail/Ankle_Calf_Stretch_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/z66lj44wt6ggnlf/AACcn4cMDIxgo6d2lTVPRPN7a/Ankle_Calf_Stretch_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/Stretchings/Big/Ankle_Calf_Stretch_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kzthz8qv6zxellg/AADzP57iNSxBuRfhQOk5uruca/Ankle_Calf_Stretch_1.gif?raw=1"],
             "tags":[ "Plantar Fasciitis", "Ankle Sprain", "Ankle Pain"],
@@ -3611,8 +3611,8 @@ const exercisesGif = {
          {
             "id": "GfFtSh003",
             "title":"Ankle Calf Stretch 2",
-            "tumbUrl":["./docs/Gifs/09-Foot/Stretchings/Thumbnail/Ankle_Calf_Stretch_2.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/z66lj44wt6ggnlf/AABg9ivBqbFuLlj0cgh_s2AWa/Ankle_Calf_Stretch_2.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/Stretchings/Thumbnail/Ankle_Calf_Stretch_2.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/z66lj44wt6ggnlf/AABg9ivBqbFuLlj0cgh_s2AWa/Ankle_Calf_Stretch_2.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/Stretchings/Big/Ankle_Calf_Stretch_2.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kzthz8qv6zxellg/AACXeJDu35znj_aJkwrOAqYua/Ankle_Calf_Stretch_2.gif?raw=1"],
             "tags":[ "Plantar Fasciitis", "Ankle Sprain", "Ankle Pain"],
@@ -3621,8 +3621,8 @@ const exercisesGif = {
          {
             "id": "GfFtSh004",
             "title":"Ankle Uni Calf Stretch 1",
-            "tumbUrl":["./docs/Gifs/09-Foot/Stretchings/Thumbnail/Ankle_Uni_Calf_Stretch_1.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/z66lj44wt6ggnlf/AAAqlwsHTAClN8xjwvCCfYFoa/Ankle_Uni_Calf_Stretch_1.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/Stretchings/Thumbnail/Ankle_Uni_Calf_Stretch_1.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/z66lj44wt6ggnlf/AAAqlwsHTAClN8xjwvCCfYFoa/Ankle_Uni_Calf_Stretch_1.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/Stretchings/Big/Ankle_Uni_Calf_Stretch_1.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kzthz8qv6zxellg/AADopta9U_UC2nTJpb_agfHBa/Ankle_Uni_Calf_Stretch_1.gif?raw=1"],
             "tags":[ "Plantar Fasciitis", "Ankle Sprain", "Ankle Pain"],
@@ -3631,8 +3631,8 @@ const exercisesGif = {
          {
             "id": "GfFtSh005",
             "title":"Plantar Fascia Stretch",
-            "tumbUrl":["./docs/Gifs/09-Foot/Stretchings/Thumbnail/Plantar_Fascia_Stretch.gif"],
-            "tumbBackup":["https://www.dropbox.com/sh/z66lj44wt6ggnlf/AACyFsla9a-RZ3X3K48bseBra/Plantar_Fascia_Stretch.gif?raw=1"],
+            "thumbUrl":["./docs/Gifs/09-Foot/Stretchings/Thumbnail/Plantar_Fascia_Stretch.gif"],
+            "thumbBackup":["https://www.dropbox.com/sh/z66lj44wt6ggnlf/AACyFsla9a-RZ3X3K48bseBra/Plantar_Fascia_Stretch.gif?raw=1"],
             "bigImgs":["./docs/Gifs/09-Foot/Stretchings/Big/Plantar_Fascia_Stretch.gif"],
             "bigBackup":["https://www.dropbox.com/sh/kzthz8qv6zxellg/AADKx04WOrzhQMykAflc_66fa/Plantar_Fascia_Stretch.gif?raw=1"],
             "tags":[ "Plantar Fasciitis", "Ankle Sprain", "Ankle Pain"],
@@ -3645,8 +3645,8 @@ const exercisesGif = {
       {
          "id": "GfBlc001",
          "title":"Feet Together",
-         "tumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Feet_Together.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/djwenk0cdzzjyvc/AAD6l2Vk4E6T6w7UrzRmhm7Na/Feet_Together.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Feet_Together.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/djwenk0cdzzjyvc/AAD6l2Vk4E6T6w7UrzRmhm7Na/Feet_Together.gif?raw=1"],
          "bigImgs":["./docs/Gifs/10-Balance Exercises/Big/Feet_Together.gif"],
          "bigBackup":["https://www.dropbox.com/sh/sl0regdmc83kki6/AACAKG61uaHi7jsDJdpGiAo0a/Feet_Together.gif?raw=1"],
          "tags":[ "Stroke", "ACL", "Knee Pain"],
@@ -3655,8 +3655,8 @@ const exercisesGif = {
       {
          "id": "GfBlc002",
          "title":"Feet Together on Pillow",
-         "tumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Feet_Together_on_Pillow.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/djwenk0cdzzjyvc/AAC11RvIvWTnex4zBZH1nSLma/Feet_Together_on_Pillow.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Feet_Together_on_Pillow.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/djwenk0cdzzjyvc/AAC11RvIvWTnex4zBZH1nSLma/Feet_Together_on_Pillow.gif?raw=1"],
          "bigImgs":["./docs/Gifs/10-Balance Exercises/Big/Feet_Together_on_Pillow.gif"],
          "bigBackup":["https://www.dropbox.com/sh/sl0regdmc83kki6/AAAlaZBZqNktCao_hHY9CLtba/Feet_Together_on_Pillow.gif?raw=1"],
          "tags":[ "Stroke", "ACL", "Knee Pain"],
@@ -3665,8 +3665,8 @@ const exercisesGif = {
       {
          "id": "GfBlc003",
          "title":"Semitandem",
-         "tumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Semitandem.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/djwenk0cdzzjyvc/AADd5EuoEmKiAkotN_6hXFXba/Semitandem.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Semitandem.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/djwenk0cdzzjyvc/AADd5EuoEmKiAkotN_6hXFXba/Semitandem.gif?raw=1"],
          "bigImgs":["./docs/Gifs/10-Balance Exercises/Big/Semitandem.gif"],
          "bigBackup":["https://www.dropbox.com/sh/sl0regdmc83kki6/AABnVBHjikoapDaYzNRM-zt-a/Semitandem.gif?raw=1"],
          "tags":[ "Stroke", "ACL", "Knee Pain"],
@@ -3675,8 +3675,8 @@ const exercisesGif = {
       {
          "id": "GfBlc004",
          "title":"Semitandem on pillow",
-         "tumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Semitandem_on_pillow.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/djwenk0cdzzjyvc/AABTTFXuqLXs_EL3yQBRLUAUa/Semitandem_on_pillow.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Semitandem_on_pillow.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/djwenk0cdzzjyvc/AABTTFXuqLXs_EL3yQBRLUAUa/Semitandem_on_pillow.gif?raw=1"],
          "bigImgs":["./docs/Gifs/10-Balance Exercises/Big/Semitandem_on_pillow.gif"],
          "bigBackup":["https://www.dropbox.com/sh/sl0regdmc83kki6/AADvKr1M2UwAx8IBPZ7up07za/Semitandem_on_pillow.gif?raw=1"],
          "tags":[ "Stroke", "ACL", "Knee Pain"],
@@ -3685,8 +3685,8 @@ const exercisesGif = {
       {
          "id": "GfBlc005",
          "title":"Tandem",
-         "tumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Tandem.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/djwenk0cdzzjyvc/AABRO8bFtbF30MYEPiW47E58a/Tandem.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Tandem.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/djwenk0cdzzjyvc/AABRO8bFtbF30MYEPiW47E58a/Tandem.gif?raw=1"],
          "bigImgs":["./docs/Gifs/10-Balance Exercises/Big/Tandem.gif"],
          "bigBackup":["https://www.dropbox.com/sh/sl0regdmc83kki6/AADY7GEv_NAUXVCQeKKIUpFIa/Tandem.gif?raw=1"],
          "tags":[ "Stroke", "ACL", "Knee Pain"],
@@ -3695,8 +3695,8 @@ const exercisesGif = {
       {
          "id": "GfBlc006",
          "title":"Tandem on pillow",
-         "tumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Tandem_on_pillow.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/djwenk0cdzzjyvc/AADk_psdZv93mduJ865f8_Gza/Tandem_on_pillow.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Tandem_on_pillow.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/djwenk0cdzzjyvc/AADk_psdZv93mduJ865f8_Gza/Tandem_on_pillow.gif?raw=1"],
          "bigImgs":["./docs/Gifs/10-Balance Exercises/Big/Tandem_on_pillow.gif"],
          "bigBackup":["https://www.dropbox.com/sh/sl0regdmc83kki6/AABNQiTiJqrrYqszK9QfEjIEa/Tandem_on_pillow.gif?raw=1"],
          "tags":[ "Stroke", "ACL", "Knee Pain"],
@@ -3705,8 +3705,8 @@ const exercisesGif = {
       {
          "id": "GfBlc007",
          "title":"Unilateral Stance",
-         "tumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Unilateral_Stance.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/djwenk0cdzzjyvc/AAANyXke8HZ7zaoHvsqYMmyVa/Unilateral_Stance.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Unilateral_Stance.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/djwenk0cdzzjyvc/AAANyXke8HZ7zaoHvsqYMmyVa/Unilateral_Stance.gif?raw=1"],
          "bigImgs":["./docs/Gifs/10-Balance Exercises/Big/Unilateral_Stance.gif"],
          "bigBackup":["https://www.dropbox.com/sh/sl0regdmc83kki6/AAD_T17U8AsfcLd8pjpOgoSwa/Unilateral_Stance.gif?raw=1"],
          "tags":[ "Stroke", "ACL", "Knee Pain"],
@@ -3715,8 +3715,8 @@ const exercisesGif = {
       {
          "id": "GfBlc008",
          "title":"Unilateral Stance 1",
-         "tumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Unilateral_Stance_1.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/djwenk0cdzzjyvc/AAAp_-D7StZ4Lp7S1NIzfGOga/Unilateral_Stance_1.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Unilateral_Stance_1.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/djwenk0cdzzjyvc/AAAp_-D7StZ4Lp7S1NIzfGOga/Unilateral_Stance_1.gif?raw=1"],
          "bigImgs":["./docs/Gifs/10-Balance Exercises/Big/Unilateral_Stance_1.gif"],
          "bigBackup":["https://www.dropbox.com/sh/sl0regdmc83kki6/AAAavdtB06mcVwr_7sFmjJv_a/Unilateral_Stance_1.gif?raw=1"],
          "tags":[ "Stroke", "ACL", "Knee Pain"],
@@ -3725,8 +3725,8 @@ const exercisesGif = {
       {
          "id": "GfBlc009",
          "title":"Unilateral Stance 2",
-         "tumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Unilateral_Stance_2.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/djwenk0cdzzjyvc/AADgomdJhEwnQSMXNK8NGqOXa/Unilateral_Stance_2.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Unilateral_Stance_2.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/djwenk0cdzzjyvc/AADgomdJhEwnQSMXNK8NGqOXa/Unilateral_Stance_2.gif?raw=1"],
          "bigImgs":["./docs/Gifs/10-Balance Exercises/Big/Unilateral_Stance_2.gif"],
          "bigBackup":["https://www.dropbox.com/sh/sl0regdmc83kki6/AADUYCM2hSbaYxAbmYMrH6Jea/Unilateral_Stance_2.gif?raw=1"],
          "tags":[ "Stroke", "ACL", "Knee Pain"],
@@ -3735,8 +3735,8 @@ const exercisesGif = {
       {
          "id": "GfBlc010",
          "title":"Unilateral Stance one side",
-         "tumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Unilateral_Stance_one_side.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/djwenk0cdzzjyvc/AADHKuoXs02nPb1MG76Us_rUa/Unilateral_Stance_one_side.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/10-Balance Exercises/Thumbnail/Unilateral_Stance_one_side.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/djwenk0cdzzjyvc/AADHKuoXs02nPb1MG76Us_rUa/Unilateral_Stance_one_side.gif?raw=1"],
          "bigImgs":["./docs/Gifs/10-Balance Exercises/Big/Unilateral_Stance_one_side.gif"],
          "bigBackup":["https://www.dropbox.com/sh/sl0regdmc83kki6/AACUegjNiSiYIY2-9DYb2iN3a/Unilateral_Stance_one_side.gif?raw=1"],
          "tags":[ "Stroke", "ACL", "Knee Pain"],
@@ -3748,8 +3748,8 @@ const exercisesGif = {
       {
          "id": "GfSws001",
          "title":"Ball Ankle Squeeze",
-         "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Ankle_Squeeze.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AABvglgymbRcIeuUdQyya593a/Ball_Ankle_Squeeze.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Ankle_Squeeze.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AABvglgymbRcIeuUdQyya593a/Ball_Ankle_Squeeze.gif?raw=1"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/Ball_Ankle_Squeeze.gif"],
          "bigBackup":["https://www.dropbox.com/sh/mqu8pxn7oya75lz/AABMRTyJpnNB317D1Otwa6DIa/Ball_Ankle_Squeeze.gif?raw=1"],
          "tags":[ "Swiss Ball Exe"],
@@ -3758,8 +3758,8 @@ const exercisesGif = {
       {
          "id": "GfSws002",
          "title":"Ball Bil SLR",
-         "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Bil_SLR.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AACP8UMmv3TjRCATjxbUIAKYa/Ball_Bil_SLR.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Bil_SLR.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AACP8UMmv3TjRCATjxbUIAKYa/Ball_Bil_SLR.gif?raw=1"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/Ball_Bil_SLR.gif"],
          "bigBackup":["https://www.dropbox.com/sh/mqu8pxn7oya75lz/AADvl6u35jqFYCJNmydzapFga/Ball_Bil_SLR.gif?raw=1"],
          "tags":[ "Swiss Ball Exe"],
@@ -3768,8 +3768,8 @@ const exercisesGif = {
       {
          "id": "GfSws003",
          "title":"Ball Bridge",
-         "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Bridge.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AACJRdwVPiRHgqZGNRYno7bAa/Ball_Bridge.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Bridge.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AACJRdwVPiRHgqZGNRYno7bAa/Ball_Bridge.gif?raw=1"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/Ball_Bridge.gif"],
          "bigBackup":["https://www.dropbox.com/sh/mqu8pxn7oya75lz/AACjLgf7KUUYK3lqY4Oaf1Qua/Ball_Bridge.gif?raw=1"],
          "tags":[ "Swiss Ball Exe"],
@@ -3778,8 +3778,8 @@ const exercisesGif = {
       {
          "id": "GfSws004",
          "title":"Ball Bridge from Flex",
-         "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Bridge_from_Flex.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AABVOnYsvZArkS02cuUTHTaFa/Ball_Bridge_from_Flex.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Bridge_from_Flex.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AABVOnYsvZArkS02cuUTHTaFa/Ball_Bridge_from_Flex.gif?raw=1"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/Ball_Bridge_from_Flex.gif"],
          "bigBackup":["https://www.dropbox.com/sh/mqu8pxn7oya75lz/AADaTAf90oUDEd5DTxe8YXcHa/Ball_Bridge_from_Flex.gif?raw=1"],
          "tags":[ "Swiss Ball Exe"],
@@ -3788,8 +3788,8 @@ const exercisesGif = {
       {
          "id": "GfSws005",
          "title":"Ball Combined Flex Hams Press",
-         "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Combined_Flex_Hams_Press.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AADQGgHDquyEjsf34qF1cWg5a/Ball_Combined_Flex_Hams_Press.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Combined_Flex_Hams_Press.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AADQGgHDquyEjsf34qF1cWg5a/Ball_Combined_Flex_Hams_Press.gif?raw=1"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/Ball_Combined_Flex_Hams_Press.gif"],
          "bigBackup":["https://www.dropbox.com/sh/mqu8pxn7oya75lz/AADhYQw5GcNCpZs4RMfJe62ba/Ball_Combined_Flex_Hams_Press.gif?raw=1"],
          "tags":[ "Swiss Ball Exe"],
@@ -3798,8 +3798,8 @@ const exercisesGif = {
       {
          "id": "GfSws006",
          "title":"Ball Extended Hams Press",
-         "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Extended_Hams_Press.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AAD1KJ7Dhp7GjY6kNjQoBCuua/Ball_Extended_Hams_Press.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Extended_Hams_Press.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AAD1KJ7Dhp7GjY6kNjQoBCuua/Ball_Extended_Hams_Press.gif?raw=1"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/Ball_Extended_Hams_Press.gif"],
          "bigBackup":["https://www.dropbox.com/sh/mqu8pxn7oya75lz/AABZGX7iqoqIf_-Vg9xfOo4Xa/Ball_Extended_Hams_Press.gif?raw=1"],
          "tags":[ "Swiss Ball Exe"],
@@ -3808,8 +3808,8 @@ const exercisesGif = {
       {
          "id": "GfSws007",
          "title":"Ball Forward Bending",
-         "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Forward_Bending.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AABxboSjndz3pbgZcvWho6XAa/Ball_Forward_Bending.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Forward_Bending.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AABxboSjndz3pbgZcvWho6XAa/Ball_Forward_Bending.gif?raw=1"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/Ball_Forward_Bending.gif"],
          "bigBackup":["https://www.dropbox.com/sh/mqu8pxn7oya75lz/AACYRK0hzTwU-2JTYKUp6chwa/Ball_Forward_Bending.gif?raw=1"],
          "tags":[ "Swiss Ball Exe"],
@@ -3818,8 +3818,8 @@ const exercisesGif = {
       {
          "id": "GfSws008",
          "title":"Ball Hams Press",
-         "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Hams_Press.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AADn6ZFUxiPhGGtSLtagbnKza/Ball_Hams_Press.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Hams_Press.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AADn6ZFUxiPhGGtSLtagbnKza/Ball_Hams_Press.gif?raw=1"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/Ball_Hams_Press.gif"],
          "bigBackup":["https://www.dropbox.com/sh/mqu8pxn7oya75lz/AACP6lnXwBuCJH4d8ntStYgZa/Ball_Hams_Press.gif?raw=1"],
          "tags":[ "Swiss Ball Exe"],
@@ -3828,8 +3828,8 @@ const exercisesGif = {
       {
          "id": "GfSws009",
          "title":"Ball Leg Raises 1",
-         "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Leg_Raises_1.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AABX_7z_QK75h4OiD7xXoBpPa/Ball_Leg_Raises_1.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Leg_Raises_1.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AABX_7z_QK75h4OiD7xXoBpPa/Ball_Leg_Raises_1.gif?raw=1"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/Ball_Leg_Raises_1.gif"],
          "bigBackup":["https://www.dropbox.com/sh/mqu8pxn7oya75lz/AADkMaWmsEhJQw0ML9H1XPzEa/Ball_Leg_Raises_1.gif?raw=1"],
          "tags":[ "Swiss Ball Exe"],
@@ -3838,8 +3838,8 @@ const exercisesGif = {
       {
          "id": "GfSws010",
          "title":"Ball Leg Raises 2",
-         "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Leg_Raises_2.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AACT_mAwNeVHR5usYV60LRGAa/Ball_Leg_Raises_2.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Leg_Raises_2.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AACT_mAwNeVHR5usYV60LRGAa/Ball_Leg_Raises_2.gif?raw=1"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/Ball_Leg_Raises_2.gif"],
          "bigBackup":["https://www.dropbox.com/sh/mqu8pxn7oya75lz/AAAp56majSCRUVPEM7bOlrLia/Ball_Leg_Raises_2.gif?raw=1"],
          "tags":[ "Swiss Ball Exe"],
@@ -3848,8 +3848,8 @@ const exercisesGif = {
       {
          "id": "GfSws011",
          "title":"Ball SLR",
-         "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_SLR.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AADV-netMvf70oMcPk0vjiNXa/Ball_SLR.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_SLR.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AADV-netMvf70oMcPk0vjiNXa/Ball_SLR.gif?raw=1"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/Ball_SLR.gif"],
          "bigBackup":["https://www.dropbox.com/sh/mqu8pxn7oya75lz/AAAseRvf7rLIq9LBLgrhjhjRa/Ball_SLR.gif?raw=1"],
          "tags":[ "Swiss Ball Exe"],
@@ -3858,8 +3858,8 @@ const exercisesGif = {
       {
          "id": "GfSws012",
          "title":"Ball Squeeze",
-         "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Squeeze.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AACf08vIcX8qFOmAcQdblUFZa/Ball_Squeeze.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Squeeze.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AACf08vIcX8qFOmAcQdblUFZa/Ball_Squeeze.gif?raw=1"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/Ball_Squeeze.gif"],
          "bigBackup":["https://www.dropbox.com/sh/mqu8pxn7oya75lz/AABfS7Ftk0ZjgF_OhcE5mbFwa/Ball_Squeeze.gif?raw=1"],
          "tags":[ "Swiss Ball Exe"],
@@ -3868,8 +3868,8 @@ const exercisesGif = {
       {
          "id": "GfSws013",
          "title":"Ball Squeeze in Sitting 1",
-         "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Squeeze_in_Sitting_1.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AABiD8h7sKi-c6jWfIbhTwWMa/Ball_Squeeze_in_Sitting_1.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Squeeze_in_Sitting_1.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AABiD8h7sKi-c6jWfIbhTwWMa/Ball_Squeeze_in_Sitting_1.gif?raw=1"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/Ball_Squeeze_in_Sitting_1.gif"],
          "bigBackup":["https://www.dropbox.com/sh/mqu8pxn7oya75lz/AAAOFZBosbAW159zh9Cp2stTa/Ball_Squeeze_in_Sitting_1.gif?raw=1"],
          "tags":[ "Swiss Ball Exe"],
@@ -3878,8 +3878,8 @@ const exercisesGif = {
       {
          "id": "GfSws014",
          "title":"Ball Squeeze in Sitting 2",
-         "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Squeeze_in_Sitting_2.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AADGFwiWAVPRbFoM9yxZrXyha/Ball_Squeeze_in_Sitting_2.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Squeeze_in_Sitting_2.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AADGFwiWAVPRbFoM9yxZrXyha/Ball_Squeeze_in_Sitting_2.gif?raw=1"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/Ball_Squeeze_in_Sitting_2.gif"],
          "bigBackup":["https://www.dropbox.com/sh/mqu8pxn7oya75lz/AAAJ4kSqdpkttdZ2cZvTMnRya/Ball_Squeeze_in_Sitting_2.gif?raw=1"],
          "tags":[ "Swiss Ball Exe"],
@@ -3888,8 +3888,8 @@ const exercisesGif = {
       {
          "id": "GfSws015",
          "title":"Ball Squeeze1",
-         "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Squeeze1.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AAA6598Ls_o-41PvsCZCbamKa/Ball_Squeeze1.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Squeeze1.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AAA6598Ls_o-41PvsCZCbamKa/Ball_Squeeze1.gif?raw=1"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/Ball_Squeeze1.gif"],
          "bigBackup":["https://www.dropbox.com/sh/mqu8pxn7oya75lz/AACZGw_H5LSdemfnQxF-bSw7a/Ball_Squeeze1.gif?raw=1"],
          "tags":[ "Swiss Ball Exe"],
@@ -3898,8 +3898,8 @@ const exercisesGif = {
       {
          "id": "GfSws016",
          "title":"Ball Uni Bridge SLR",
-         "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Uni_Bridge_SLR.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AACcWMTlhanPmz1VUep-i7KAa/Ball_Uni_Bridge_SLR.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Ball_Uni_Bridge_SLR.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AACcWMTlhanPmz1VUep-i7KAa/Ball_Uni_Bridge_SLR.gif?raw=1"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/Ball_Uni_Bridge_SLR.gif"],
          "bigBackup":["https://www.dropbox.com/sh/mqu8pxn7oya75lz/AAAcTi3tDa7sNDdzYXpquiWsa/Ball_Uni_Bridge_SLR.gif?raw=1"],
          "tags":[ "Swiss Ball Exe"],
@@ -3908,8 +3908,8 @@ const exercisesGif = {
       {
          "id": "GfSws017",
          "title":"SB Boxing",
-         "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/SB_Boxing.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AACwZmrMvSrOQUP3GMw6qucma/SB_Boxing.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/SB_Boxing.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AACwZmrMvSrOQUP3GMw6qucma/SB_Boxing.gif?raw=1"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/SB_Boxing.gif"],
          "bigBackup":["https://www.dropbox.com/sh/mqu8pxn7oya75lz/AAADJYdcZeowIt9Qby84fd-la/SB_Boxing.gif?raw=1"],
          "tags":[ "Swiss Ball Exe"],
@@ -3918,8 +3918,8 @@ const exercisesGif = {
       {
          "id": "GfSws018",
          "title":"SB Elbow Flexion 1",
-         "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/SB_Elbow_Flexion_1.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AAATaWYNelhuY466uFxlhM_4a/SB_Elbow_Flexion_1.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/SB_Elbow_Flexion_1.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AAATaWYNelhuY466uFxlhM_4a/SB_Elbow_Flexion_1.gif?raw=1"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/SB_Elbow_Flexion_1.gif"],
          "bigBackup":["https://www.dropbox.com/sh/mqu8pxn7oya75lz/AAC1ZRzUrFIGVf_mPmSDV2-ma/SB_Elbow_Flexion_1.gif?raw=1"],
          "tags":[ "Swiss Ball Exe"],
@@ -3928,8 +3928,8 @@ const exercisesGif = {
       {
          "id": "GfSws019",
          "title":"SB Elbow Flexion 2",
-         "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/SB_Elbow_Flexion_2.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AACbG_cX8yr1iFnQLpL_vhV4a/SB_Elbow_Flexion_2.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/SB_Elbow_Flexion_2.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AACbG_cX8yr1iFnQLpL_vhV4a/SB_Elbow_Flexion_2.gif?raw=1"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/SB_Elbow_Flexion_2.gif"],
          "bigBackup":["https://www.dropbox.com/sh/mqu8pxn7oya75lz/AAAFc6z8Jr8wZYlUQU-PaCd8a/SB_Elbow_Flexion_2.gif?raw=1"],
          "tags":[ "Swiss Ball Exe"],
@@ -3938,8 +3938,8 @@ const exercisesGif = {
       {
          "id": "GfSws020",
          "title":"SB Shoulder Abduction",
-         "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/SB_Shoulder_Abduction.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AADDA7NvDXR1HSSFPOMQ4sdia/SB_Shoulder_Abduction.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/SB_Shoulder_Abduction.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AADDA7NvDXR1HSSFPOMQ4sdia/SB_Shoulder_Abduction.gif?raw=1"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/SB_Shoulder_Abduction.gif"],
          "bigBackup":["https://www.dropbox.com/sh/mqu8pxn7oya75lz/AAAQppXgvVTItci_gj2Mwt09a/SB_Shoulder_Abduction.gif?raw=1"],
          "tags":[ "Swiss Ball Exe"],
@@ -3948,8 +3948,8 @@ const exercisesGif = {
       {
          "id": "GfSws021",
          "title":"SB Shoulder Flexion",
-         "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/SB_Shoulder_Flexion.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AAAmdnf7VApT55YyZEwAZrNXa/SB_Shoulder_Flexion.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/SB_Shoulder_Flexion.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AAAmdnf7VApT55YyZEwAZrNXa/SB_Shoulder_Flexion.gif?raw=1"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/SB_Shoulder_Flexion.gif"],
          "bigBackup":["https://www.dropbox.com/sh/mqu8pxn7oya75lz/AAA56skoFo5LT4hF7RRnvvlxa/SB_Shoulder_Flexion.gif?raw=1"],
          "tags":[ "Swiss Ball Exe"],
@@ -3958,8 +3958,8 @@ const exercisesGif = {
       {
          "id": "GfSws022",
          "title":"SB Shoulder Flexion with Ball",
-         "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/SB_Shoulder_Flexion_with_Ball.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AADHkYdRlF8ZZH8XYa7rMCToa/SB_Shoulder_Flexion_with_Ball.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/SB_Shoulder_Flexion_with_Ball.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AADHkYdRlF8ZZH8XYa7rMCToa/SB_Shoulder_Flexion_with_Ball.gif?raw=1"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/SB_Shoulder_Flexion_with_Ball.gif"],
          "bigBackup":["https://www.dropbox.com/sh/mqu8pxn7oya75lz/AAAXPIItJgk2WKU5QSZuF2Kia/SB_Shoulder_Flexion_with_Ball.gif?raw=1"],
          "tags":[ "Swiss Ball Exe"],
@@ -3968,8 +3968,8 @@ const exercisesGif = {
       {
          "id": "GfSws023",
          "title":"Swiss Ball Alternative Arms & Leg Raises",
-         "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Swiss_Ball_Alternative_Arms_&_Leg_Raises.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AAD_s8ZzgJPaa4QuFvPwUDcma/Swiss_Ball_Alternative_Arms_%26_Leg_Raises.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Swiss_Ball_Alternative_Arms_&_Leg_Raises.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AAD_s8ZzgJPaa4QuFvPwUDcma/Swiss_Ball_Alternative_Arms_%26_Leg_Raises.gif?raw=1"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/Swiss_Ball_Alternative_Arms_&_Leg_Raises.gif"],
          "bigBackup":["https://www.dropbox.com/sh/mqu8pxn7oya75lz/AAA8LSvdTrACPDsySKZYVtMLa/Swiss_Ball_Alternative_Arms_%26_Leg_Raises.gif?raw=1"],
          "tags":[ "Swiss Ball Exe"],
@@ -3978,8 +3978,8 @@ const exercisesGif = {
       {
          "id": "GfSws024",
          "title":"Trunk Pelvic Tilt",
-         "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Trunk_Pelvic_Tilt.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AAD3v93zgRhV2yEBv68K0Uhga/Trunk_Pelvic_Tilt.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Trunk_Pelvic_Tilt.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AAD3v93zgRhV2yEBv68K0Uhga/Trunk_Pelvic_Tilt.gif?raw=1"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/Trunk_Pelvic_Tilt.gif"],
          "bigBackup":["https://www.dropbox.com/sh/mqu8pxn7oya75lz/AADWZ96oqLwbNO5CB3ldwqF2a/Trunk_Pelvic_Tilt.gif?raw=1"],
          "tags":[ "Swiss Ball Exe"],
@@ -3988,8 +3988,8 @@ const exercisesGif = {
       {
          "id": "GfSws025",
          "title":"Trunk Rotations",
-         "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Trunk_Rotations.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AADFu9mHYlY_sh3VAI0mYbaIa/Trunk_Rotations.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Trunk_Rotations.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AADFu9mHYlY_sh3VAI0mYbaIa/Trunk_Rotations.gif?raw=1"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/Trunk_Rotations.gif"],
          "bigBackup":["https://www.dropbox.com/sh/mqu8pxn7oya75lz/AACIHTHALekMMKJCoGKYh0Dea/Trunk_Rotations.gif?raw=1"],
          "tags":[ "Swiss Ball Exe"],
@@ -3998,8 +3998,8 @@ const exercisesGif = {
       {
          "id": "GfSws026",
          "title":"Trunk Sidebending",
-         "tumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Trunk_Sidebending.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AADkHrDnixfjP-UwDK4GkB4Za/Trunk_Sidebending.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/11-Swiss Ball Exercises/Thumbnail/Trunk_Sidebending.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/j4ohe77rveibgbn/AADkHrDnixfjP-UwDK4GkB4Za/Trunk_Sidebending.gif?raw=1"],
          "bigImgs":["./docs/Gifs/11-Swiss Ball Exercises/Big/Trunk_Sidebending.gif"],
          "bigBackup":["https://www.dropbox.com/sh/mqu8pxn7oya75lz/AACeXRW61SeM55djaP5cDWkea/Trunk_Sidebending.gif?raw=1"],
          "tags":[ "Swiss Ball Exe"],
@@ -4011,8 +4011,8 @@ const exercisesGif = {
       {
          "id": "GfWh001",
          "title":"Abdominal Breathing",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Abdominal_Breathing.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AAAzNIeU96pLghNO0jTdVVdsa/Abdominal_Breathing.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Abdominal_Breathing.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AAAzNIeU96pLghNO0jTdVVdsa/Abdominal_Breathing.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Abdominal_Breathing.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AABxQlZ9A7h1oSafuzJ6BB2ja/Abdominal_Breathing.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4021,8 +4021,8 @@ const exercisesGif = {
       {
          "id": "GfWh002",
          "title":"Bridge",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Bridge.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AAAUToP4b44Yzu7Sc4MDrFNVa/Bridge.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Bridge.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AAAUToP4b44Yzu7Sc4MDrFNVa/Bridge.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Bridge.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AACpwtmOV0t7gDMQPNgAsuUFa/Bridge.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4031,8 +4031,8 @@ const exercisesGif = {
       {
          "id": "GfWh003",
          "title":"Bridge 1",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Bridge_1.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AAAbif0rchpEQvt7tyBihNswa/Bridge_1.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Bridge_1.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AAAbif0rchpEQvt7tyBihNswa/Bridge_1.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Bridge_1.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AABeSRcIV825q8Ais0PFwLCLa/Bridge_1.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4041,8 +4041,8 @@ const exercisesGif = {
       {
          "id": "GfWh004",
          "title":"Bridge 2",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Bridge_2.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AAAF5t5-YTH-ouyDpOUfn9aaa/Bridge_2.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Bridge_2.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AAAF5t5-YTH-ouyDpOUfn9aaa/Bridge_2.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Bridge_2.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAB7SJQVtG7RBrakm05CQFlNa/Bridge_2.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4051,8 +4051,8 @@ const exercisesGif = {
       {
          "id": "GfWh005",
          "title":"Bridge and Alternative Abduction and Adduction",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Bridge_and_Alternative_Abduction_and_Adduction.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AACgCJ4XSzr4cOflWiHZ91uKa/Bridge_and_Alternative_Abduction_and_Adduction.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Bridge_and_Alternative_Abduction_and_Adduction.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AACgCJ4XSzr4cOflWiHZ91uKa/Bridge_and_Alternative_Abduction_and_Adduction.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Bridge_and_Alternative_Abduction_and_Adduction.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAAWqd5PyUoUTXkR5Zpuzod4a/Bridge_and_Alternative_Abduction_and_Adduction.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4061,8 +4061,8 @@ const exercisesGif = {
       {
          "id": "GfWh006",
          "title":"Bridge and alternative adduction and abduction1",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Bridge_and_alternative_adduction_and_abduction1.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AAC-9JBDi_UH-m8CQSl3E7zma/Bridge_and_alternative_adduction_and_abduction1.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Bridge_and_alternative_adduction_and_abduction1.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AAC-9JBDi_UH-m8CQSl3E7zma/Bridge_and_alternative_adduction_and_abduction1.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Bridge_and_alternative_adduction_and_abduction1.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAB-sz6sTL1_YRnVDQu_x52Ia/Bridge_and_alternative_adduction_and_abduction1.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4071,8 +4071,8 @@ const exercisesGif = {
       {
          "id": "GfWh007",
          "title":"Bridge and Resisted Abduction",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Bridge_and_Resisted_Abduction.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AAD1FwvCVGduDq-fQ378pVYGa/Bridge_and_Resisted_Abduction.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Bridge_and_Resisted_Abduction.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AAD1FwvCVGduDq-fQ378pVYGa/Bridge_and_Resisted_Abduction.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Bridge_and_Resisted_Abduction.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AADhZiafhHmXJvEfIcMyj3oSa/Bridge_and_Resisted_Abduction.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4081,8 +4081,8 @@ const exercisesGif = {
       {
          "id": "GfWh008",
          "title":"Bridge and SLR 1",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Bridge_and_SLR_1.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AAAavpbA18XgcY5Zdlf8Ond2a/Bridge_and_SLR_1.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Bridge_and_SLR_1.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AAAavpbA18XgcY5Zdlf8Ond2a/Bridge_and_SLR_1.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Bridge_and_SLR_1.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAAXx1miiy2V1bvGFdxZgFH6a/Bridge_and_SLR_1.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4091,8 +4091,8 @@ const exercisesGif = {
       {
          "id": "GfWh009",
          "title":"Bridge and SLR 2",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Bridge_and_SLR_2.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AABCSUhpj0Bdjrq9kSxexXG6a/Bridge_and_SLR_2.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Bridge_and_SLR_2.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AABCSUhpj0Bdjrq9kSxexXG6a/Bridge_and_SLR_2.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Bridge_and_SLR_2.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AADSOIKBtAEqeMECNxj3dL2Sa/Bridge_and__SLR_2.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4101,8 +4101,8 @@ const exercisesGif = {
       {
          "id": "GfWh010",
          "title":"Chest Press",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Chest_Press.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AABCK4zc-YpsHg1yPyw2RAqAa/Chest_Press.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Chest_Press.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AABCK4zc-YpsHg1yPyw2RAqAa/Chest_Press.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Chest_Press.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AACa1kWffBHuKURObZRAjMxHa/Chest_Press.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4111,8 +4111,8 @@ const exercisesGif = {
       {
          "id": "GfWh011",
          "title":"Forward Rolling",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Forward_Rolling.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AABB0u-LGW0vJt0nX7KxYqofa/Forward_Rolling.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Forward_Rolling.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AABB0u-LGW0vJt0nX7KxYqofa/Forward_Rolling.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Forward_Rolling.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AADuhUjHTziL67hDYqgUKtXia/Forward_Rolling.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4121,8 +4121,8 @@ const exercisesGif = {
       {
          "id": "GfWh012",
          "title":"Leg Down",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Leg_Down.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AACV3ZGt0dLT_9e9qadjIFgva/Leg_Down.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Leg_Down.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AACV3ZGt0dLT_9e9qadjIFgva/Leg_Down.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Leg_Down.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAB6rGYHEcdC_7IBsoGLgXuza/Leg_Down.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4131,8 +4131,8 @@ const exercisesGif = {
       {
          "id": "GfWh013",
          "title":"Leg Raise with Movement",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Leg_Raise_with_Movement.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AADjjTNvn5MRIpN3fHvkQ09xa/Leg_Raise_with_Movement.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Leg_Raise_with_Movement.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AADjjTNvn5MRIpN3fHvkQ09xa/Leg_Raise_with_Movement.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Leg_Raise_with_Movement.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AADtj85zQ6d56u7uEHp-LgBVa/Leg_Raise_with_Movement.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4141,8 +4141,8 @@ const exercisesGif = {
       {
          "id": "GfWh014",
          "title":"Pelvic Stability",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Pelvic_Stability.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AABSrfRu8ApIuY2W5j8rhDroa/Pelvic_Stability.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Pelvic_Stability.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AABSrfRu8ApIuY2W5j8rhDroa/Pelvic_Stability.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Pelvic_Stability.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AACXfXe8eLtYCky0eW7WJrDfa/Pelvic_Stability.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4151,8 +4151,8 @@ const exercisesGif = {
       {
          "id": "GfWh015",
          "title":"Pelvic Tilt",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Pelvic_Tilt.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AACPPtMNxbJ4qTcAep48j_u-a/Pelvic_Tilt.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Pelvic_Tilt.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AACPPtMNxbJ4qTcAep48j_u-a/Pelvic_Tilt.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Pelvic_Tilt.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAB9lMdKMwCVAEoa6DRCNbOBa/Pelvic_Tilt.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4161,8 +4161,8 @@ const exercisesGif = {
       {
          "id": "GfWh016",
          "title":"Pelvic Tilt 1",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Pelvic_Tilt_1.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AADPEaTULVP_w1iH2K-NkuJTa/Pelvic_Tilt_1.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Pelvic_Tilt_1.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AADPEaTULVP_w1iH2K-NkuJTa/Pelvic_Tilt_1.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Pelvic_Tilt_1.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AADOfBWNHLq45Yhac6bxPByda/Pelvic_Tilt_1.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4171,8 +4171,8 @@ const exercisesGif = {
       {
          "id": "GfWh017",
          "title":"Pelvic Tilt 2",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Pelvic_Tilt_2.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AACrbfKhJ1ykcLmXulfuDkWRa/Pelvic_Tilt_2.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Pelvic_Tilt_2.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AACrbfKhJ1ykcLmXulfuDkWRa/Pelvic_Tilt_2.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Pelvic_Tilt_2.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AACpQA06Smway-AWQp3zHfkXa/Pelvic_Tilt_2.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4181,8 +4181,8 @@ const exercisesGif = {
       {
          "id": "GfWh018",
          "title":"Pelvic Tilt 3",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Pelvic_Tilt_3.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AAB67bzOzDRb0T-CbANNTJwWa/Pelvic_Tilt_3.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Pelvic_Tilt_3.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AAB67bzOzDRb0T-CbANNTJwWa/Pelvic_Tilt_3.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Pelvic_Tilt_3.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAD9W5AoszWeAFdXGt0DjTiCa/Pelvic_Tilt_3.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4191,8 +4191,8 @@ const exercisesGif = {
       {
          "id": "GfWh019",
          "title":"Quadruped Leg Lift",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Quadruped_Leg_Lift.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AABRvnwUimjTMti-Vi2a6kqFa/Quadruped_Leg_Lift.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Quadruped_Leg_Lift.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AABRvnwUimjTMti-Vi2a6kqFa/Quadruped_Leg_Lift.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Quadruped_Leg_Lift.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AABADQGnxlhhmCH0h_ezn1Kxa/Quadruped_Leg_Lift.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4201,8 +4201,8 @@ const exercisesGif = {
       {
          "id": "GfWh020",
          "title":"Side Plank",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Side_Plank.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AAChNqbyEUPBjXcsXplVim9ia/Side_Plank.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Side_Plank.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AAChNqbyEUPBjXcsXplVim9ia/Side_Plank.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Side_Plank.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AADneRdgoeZOcm3irKCWyMeOa/Side_Plank.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4211,8 +4211,8 @@ const exercisesGif = {
       {
          "id": "GfWh021",
          "title":"Side Rolling 1",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Side_Rolling_1.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AABJq-c4_2BmtPmXVayJVwura/Side_Rolling_1.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Side_Rolling_1.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AABJq-c4_2BmtPmXVayJVwura/Side_Rolling_1.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Side_Rolling_1.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AADKWXuVKAtpq4RGWpbOJnkYa/Side_Rolling_1.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4221,8 +4221,8 @@ const exercisesGif = {
       {
          "id": "GfWh022",
          "title":"Squat",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Squat.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AABg-CT5Lpy42P6DNklBDIyka/Squat.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Squat.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AABg-CT5Lpy42P6DNklBDIyka/Squat.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Squat.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AACsBNNsogvdWyO_Dknphdu5a/Squat.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4231,8 +4231,8 @@ const exercisesGif = {
       {
          "id": "GfWh023",
          "title":"Squat with Chest Opening",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Squat_with_Chest_Opening.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AADAX1YDzPiYd5Qq0ySM3fzBa/Squat_with_Chest_Opening.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Squat_with_Chest_Opening.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AADAX1YDzPiYd5Qq0ySM3fzBa/Squat_with_Chest_Opening.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Squat_with_Chest_Opening.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAAhlpRpfWVlUtB3AatE0Zs-a/Squat_with_Chest_Opening.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4241,8 +4241,8 @@ const exercisesGif = {
       {
          "id": "GfWh024",
          "title":"Squat with Rotation",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Squat_with_Rotation.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AADTJDg8riDMGTpd_z3ffzpPa/Squat_with_Rotation.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Squat_with_Rotation.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AADTJDg8riDMGTpd_z3ffzpPa/Squat_with_Rotation.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Squat_with_Rotation.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAB3N09SWXIjl_gUH3skW0yJa/Squat_with_Rotation.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4251,8 +4251,8 @@ const exercisesGif = {
       {
          "id": "GfWh025",
          "title":"Superman",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Superman.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AABzVsX9E9Vb_M9PAR8EEd6Wa/Superman.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Superman.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AABzVsX9E9Vb_M9PAR8EEd6Wa/Superman.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Superman.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAC62bcXSIaBINU4htjjUEUXa/Superman.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4261,8 +4261,8 @@ const exercisesGif = {
       {
          "id": "GfWh026",
          "title":"Swiss Ball Leg Lift",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Swiss_Ball_Leg_Lift.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AABy04UDXzb0-G_y3dDgtYzAa/Swiss_Ball_Leg_Lift.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Swiss_Ball_Leg_Lift.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AABy04UDXzb0-G_y3dDgtYzAa/Swiss_Ball_Leg_Lift.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Swiss_Ball_Leg_Lift.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAB5PtR1hhadHtcWBjGrSziGa/Swiss_Ball_Leg_Lift.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4271,8 +4271,8 @@ const exercisesGif = {
       {
          "id": "GfWh027",
          "title":"Swiss Ball Leg Lift with Resistance",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Swiss_Ball_Leg_Lift_with_Resistance.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AAC34Q5reh1pi9dTjaNsD1poa/Swiss_Ball_Leg_Lift_with_Resistance.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Swiss_Ball_Leg_Lift_with_Resistance.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AAC34Q5reh1pi9dTjaNsD1poa/Swiss_Ball_Leg_Lift_with_Resistance.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Swiss_Ball_Leg_Lift_with_Resistance.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AADNZU9ouRfVFiOU6WFMhfZDa/Swiss_Ball_Leg_Lift_with_Resistance.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4281,8 +4281,8 @@ const exercisesGif = {
       {
          "id": "GfWh028",
          "title":"Unilateral Bridge",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Unilateral_Bridge.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AADdIhgJCw1_nX9Muv9JeLqea/Unilateral_Bridge.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Unilateral_Bridge.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AADdIhgJCw1_nX9Muv9JeLqea/Unilateral_Bridge.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Unilateral_Bridge.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AADDIFrYVgJSJRpAQn1IOwMta/Unilateral_Bridge.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4291,8 +4291,8 @@ const exercisesGif = {
       {
          "id": "GfWh029",
          "title":"Unilateral Bridge 3",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Unilateral_Bridge_3.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AACehBrIMYLomArL5lCPCE_Wa/Unilateral_Bridge_3.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Unilateral_Bridge_3.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AACehBrIMYLomArL5lCPCE_Wa/Unilateral_Bridge_3.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Unilateral_Bridge_3.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAB_kz2tQFo0U0SlMoGX2CPya/Unilateral_Bridge_3.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4301,8 +4301,8 @@ const exercisesGif = {
       {
          "id": "GfWh030",
          "title":"Upper Trunk Rotation",
-         "tumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Upper_Trunk_Rotation.gif"],
-         "tumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AAD4jpJmLh5lDSE4n8Bc-cQIa/Upper_Trunk_Rotation.gif?raw=1"],
+         "thumbUrl":["./docs/Gifs/12-Women Health/Thumbnail/Upper_Trunk_Rotation.gif"],
+         "thumbBackup":["https://www.dropbox.com/sh/kqwova2q8omr99p/AAD4jpJmLh5lDSE4n8Bc-cQIa/Upper_Trunk_Rotation.gif?raw=1"],
          "bigImgs":["./docs/Gifs/12-Women Health/Big/Upper_Trunk_Rotation.gif"],
          "bigBackup":["https://www.dropbox.com/sh/2nroc3d4ozfe8n8/AAAzAT7aIPTearmq_xxwXY1ya/Upper_Trunk_Rotation.gif?raw=1"],
          "tags":[ "Women Health"],
@@ -4320,7 +4320,7 @@ const ortho = {
       {
          "id": "OrHd001",
          "title":"Facial Palsy",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/01-Head/Thumbnail/001-Facial_Palsy_-_Ara-1.jpg",
             "./docs/Ortho/01-Head/Thumbnail/001-Facial_Palsy_-_Ara-2.jpg",
             "./docs/Ortho/01-Head/Thumbnail/001-Facial_Palsy_-_Ara-3.jpg",
@@ -4338,7 +4338,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/01-Head/QRcode/001-Facial_Palsy_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/01-Head/QRcode/001-Facial_Palsy_-_Eng.jpg",
-         "tumbBackup":[
+         "thumbBackup":[
             "https://www.dropbox.com/sh/b0vsuurqvte2iew/AACIq1f49Ic2P9c8qAE1WUjHa/001-Facial_Palsy_-_Ara-1.jpg?raw=1",
             "https://www.dropbox.com/sh/b0vsuurqvte2iew/AAAJEM64muGH8HJt5Tyh7Ktga/001-Facial_Palsy_-_Ara-2.jpg?raw=1",
             "https://www.dropbox.com/sh/b0vsuurqvte2iew/AADBrx3XJ1gqewdN24oyH7Uya/001-Facial_Palsy_-_Ara-3.jpg?raw=1",
@@ -4356,7 +4356,7 @@ const ortho = {
       {
          "id": "OrHd002",
          "title":"TMJ disorder",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/01-Head/Thumbnail/002-TMJ_disorder_-_Ara.jpg",
             "./docs/Ortho/01-Head/Thumbnail/002-TMJ_disorder_-_Eng-1.jpg",
             "./docs/Ortho/01-Head/Thumbnail/002-TMJ_disorder_-_Eng-2.jpg",
@@ -4368,7 +4368,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/01-Head/QRcode/002-TMJ_disorder_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/01-Head/QRcode/002-TMJ_disorder_-_Eng.jpg",
-         "tumbBackup":[
+         "thumbBackup":[
             "https://www.dropbox.com/sh/b0vsuurqvte2iew/AAAt4OpMVFmYLPIMtVTxzY6Za/002-TMJ_disorder_-_Ara.jpg?raw=1",
             "https://www.dropbox.com/sh/b0vsuurqvte2iew/AAA7zxxrQ6GTwQYRD2upV-TUa/002-TMJ_disorder_-_Eng-1.jpg?raw=1",
             "https://www.dropbox.com/sh/b0vsuurqvte2iew/AABjLqYTIiHgXJbSQAcB_YmRa/002-TMJ_disorder_-_Eng-2.jpg?raw=1",
@@ -4385,7 +4385,7 @@ const ortho = {
       {
          "id": "OrNk001",
          "title":"Whiplash Injury",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/02-Neck/Thumbnail/001-Whiplash_Injury_-_Ara-1.jpg",
             "./docs/Ortho/02-Neck/Thumbnail/001-Whiplash_Injury_-_Ara-2.jpg",
             "./docs/Ortho/02-Neck/Thumbnail/001-Whiplash_Injury_-_Ara-3.jpg",
@@ -4411,7 +4411,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/02-Neck/QRcode/001-Whiplash_Injury_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/02-Neck/QRcode/001-Whiplash_Injury_-_Eng.jpg",
-         "tumbBackup":[
+         "thumbBackup":[
             "https://www.dropbox.com/sh/wx4rzd3lnenodxn/AABNv2TO_NOMnXSF1t4rLTzLa/001-Whiplash_Injury_-_Ara-1.jpg?raw=1",
             "https://www.dropbox.com/sh/wx4rzd3lnenodxn/AABssY9PX_rBk6tWcO6Tn_5ha/001-Whiplash_Injury_-_Ara-2.jpg?raw=1",
             "https://www.dropbox.com/sh/wx4rzd3lnenodxn/AABr4_xLD78-9izI6Uu2qzEpa/001-Whiplash_Injury_-_Ara-3.jpg?raw=1",
@@ -4433,7 +4433,7 @@ const ortho = {
       {
          "id": "OrNk002",
          "title":"Cervical Pain",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/02-Neck/Thumbnail/002-Cervical_Pain_-_Ara-1.jpg",
             "./docs/Ortho/02-Neck/Thumbnail/002-Cervical_Pain_-_Ara-2.jpg",
             "./docs/Ortho/02-Neck/Thumbnail/002-Cervical_Pain_-_Ara-3.jpg",
@@ -4451,7 +4451,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/02-Neck/QRcode/002-Cervical_Pain_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/02-Neck/QRcode/002-Cervical_Pain_-_Eng.jpg",
-         "tumbBackup":[
+         "thumbBackup":[
             "https://www.dropbox.com/sh/wx4rzd3lnenodxn/AAAJlaJ5aZ-izvlV6pKuhEK8a/002-Cervical_Pain_-_Ara-1.jpg?raw=1",
             "https://www.dropbox.com/sh/wx4rzd3lnenodxn/AABYx_KvL2njEypJL2FGyhbVa/002-Cervical_Pain_-_Ara-2.jpg?raw=1",
             "https://www.dropbox.com/sh/wx4rzd3lnenodxn/AACXYAwdQiYZl-V5I5WYulF1a/002-Cervical_Pain_-_Ara-3.jpg?raw=1",
@@ -4469,7 +4469,7 @@ const ortho = {
       {
          "id": "OrNk003",
          "title":"Neck and Shoulder Stretches",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/02-Neck/Thumbnail/003-Neck_and_Shoulder_Stretches_-_Ara-1.jpg",
             "./docs/Ortho/02-Neck/Thumbnail/003-Neck_and_Shoulder_Stretches_-_Ara-2.jpg",
             "./docs/Ortho/02-Neck/Thumbnail/003-Neck_and_Shoulder_Stretches_-_Ara-3.jpg",
@@ -4495,9 +4495,9 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/02-Neck/QRcode/003-Neck_and_Shoulder_Stretches_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/02-Neck/QRcode/003-Neck_and_Shoulder_Stretches_-_Eng.jpg",
-         "tumbBackup":[
+         "thumbBackup":[
             "https://www.dropbox.com/sh/wx4rzd3lnenodxn/AAAmR86FmLAvysbeY8GlAin9a/003-Neck_and_Shoulder_Stretches_-_Ara-1.jpg?raw=1",
-            "https://www.dropbox.com/sh/wx4rzd3lnenodxn/AACjatUMbtK1vp5VdS6_JWara/003-Neck_and_Shoulder_Stretches_-_Ara-2.jpg?raw=1",
+            "https://www.dropbox.com/sh/wx4rzd3lnenodxn/AACjathumbtK1vp5VdS6_JWara/003-Neck_and_Shoulder_Stretches_-_Ara-2.jpg?raw=1",
             "https://www.dropbox.com/sh/wx4rzd3lnenodxn/AADx25akRzgzK-HpSViOFoVya/003-Neck_and_Shoulder_Stretches_-_Ara-3.jpg?raw=1",
             "https://www.dropbox.com/sh/wx4rzd3lnenodxn/AAB4Pz54w-G9JGLEWZ8EPV9sa/003-Neck_and_Shoulder_Stretches_-_Ara-4.jpg?raw=1",
             "https://www.dropbox.com/sh/wx4rzd3lnenodxn/AAAk4c66v7EO2NsY4DTCP4Rea/003-Neck_and_Shoulder_Stretches_-_Ara-5.jpg?raw=1",
@@ -4517,7 +4517,7 @@ const ortho = {
       {
          "id": "OrNk004",
          "title":"Neck Exercises",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/02-Neck/Thumbnail/004-Neck_Exercises_-_Ara-1.jpg",
             "./docs/Ortho/02-Neck/Thumbnail/004-Neck_Exercises_-_Ara-2.jpg",
          ],
@@ -4526,7 +4526,7 @@ const ortho = {
             "./docs/Ortho/02-Neck/Big/004-Neck_Exercises_-_Ara-2.jpg",
          ],
          "araQRCode":"./docs/Ortho/02-Neck/QRcode/004-Neck_Exercises_-_Ara.jpg",
-         "tumbBackup":[
+         "thumbBackup":[
             "https://www.dropbox.com/sh/wx4rzd3lnenodxn/AAD4dcGyCovjE6P1Ly7mIFH1a/004-Neck_Exercises_-_Ara-1.jpg?raw=1",
             "https://www.dropbox.com/sh/wx4rzd3lnenodxn/AAD6Vh7kqZXIX0xv12AvaD56a/004-Neck_Exercises_-_Ara-2.jpg?raw=1",
          ],
@@ -4538,14 +4538,14 @@ const ortho = {
       {
          "id": "OrNk005",
          "title":"General Neck and Shoulder Stretches",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/02-Neck/Thumbnail/005-General_Neck_and_Shoulder_Stretches_-_Ara.jpg",
          ],
          "bigImgs":[
             "./docs/Ortho/02-Neck/Big/005-General_Neck_and_Shoulder_Stretches_-_Ara.jpg",
          ],
          "araQRCode":"./docs/Ortho/02-Neck/QRcode/005-General_Neck_and_Shoulder_Stretches_-_Ara.jpg",
-         "tumbBackup":[
+         "thumbBackup":[
             "https://www.dropbox.com/sh/wx4rzd3lnenodxn/AACjmvq95hrCJvyQ_-KmB6n4a/005-General_Neck_and_Shoulder_Stretches_-_Ara.jpg?raw=1",
          ],
          "bigBackup":["https://www.dropbox.com/sh/xmcw4ceh86w9kn4/AAArh9JlFSWOk8Vdq2q8zJC2a/005-General_Neck_and_Shoulder_Stretches_-_Ara.jpg?raw=1",],
@@ -4558,7 +4558,7 @@ const ortho = {
       {
          "id": "OrSh001",
          "title":"Shoulder Impingement Syndrome",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/03-Shoulder/Thumbnail/001-Shoulder_Impingement_Syndrome_-_Ara-1.jpg",
             "./docs/Ortho/03-Shoulder/Thumbnail/001-Shoulder_Impingement_Syndrome_-_Ara-2.jpg",
             "./docs/Ortho/03-Shoulder/Thumbnail/001-Shoulder_Impingement_Syndrome_-_Ara-3.jpg",
@@ -4608,7 +4608,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/03-Shoulder/QRcode/001-Shoulder_Impingement_Syndrome_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/03-Shoulder/QRcode/001-Shoulder_Impingement_Syndrome_-_Eng.jpg",
-         "tumbBackup":[
+         "thumbBackup":[
             "https://www.dropbox.com/sh/yhsxhlqh1gdpcim/AABBZPp7cZvqdLb7YsU3te8ba/001-Shoulder_Impingement_Syndrome_-_Ara-1.jpg?raw=1",
             "https://www.dropbox.com/sh/yhsxhlqh1gdpcim/AABSCalKmL38zL8rm1EusKBMa/001-Shoulder_Impingement_Syndrome_-_Ara-2.jpg?raw=1",
             "https://www.dropbox.com/sh/yhsxhlqh1gdpcim/AADDQzaxOd4Sm7JU6fPhDC8qa/001-Shoulder_Impingement_Syndrome_-_Ara-3.jpg?raw=1",
@@ -4642,7 +4642,7 @@ const ortho = {
       {
          "id": "OrSh002",
          "title":"Shoulder Arthoroscopy",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/03-Shoulder/Thumbnail/002-Shoulder_Arthoroscopy_-_Ara-1.jpg",
             "./docs/Ortho/03-Shoulder/Thumbnail/002-Shoulder_Arthoroscopy_-_Ara-2.jpg",
             "./docs/Ortho/03-Shoulder/Thumbnail/002-Shoulder_Arthoroscopy_-_Ara-3.jpg",
@@ -4672,7 +4672,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/03-Shoulder/QRcode/002-Shoulder_Arthoroscopy_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/03-Shoulder/QRcode/002-Shoulder_Arthoroscopy_-_Eng.jpg",
-         "tumbBackup":[
+         "thumbBackup":[
             "https://www.dropbox.com/sh/yhsxhlqh1gdpcim/AAAT2BsO2Z8teVcgIdsamTZra/002-Shoulder_Arthoroscopy_-_Ara-1.jpg?raw=1",
             "https://www.dropbox.com/sh/yhsxhlqh1gdpcim/AACeIFvQd4jL7REi4WWRpoB3a/002-Shoulder_Arthoroscopy_-_Ara-2.jpg?raw=1",
             "https://www.dropbox.com/sh/yhsxhlqh1gdpcim/AAAGwbVC9NGKyTGqnU3InTiua/002-Shoulder_Arthoroscopy_-_Ara-3.jpg?raw=1",
@@ -4696,7 +4696,7 @@ const ortho = {
       {
          "id": "OrSh003",
          "title":"Shoulder Decompression",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/03-Shoulder/Thumbnail/003-Shoulder_Decompression_-_Ara-1.jpg",
             "./docs/Ortho/03-Shoulder/Thumbnail/003-Shoulder_Decompression_-_Ara-2.jpg",
             "./docs/Ortho/03-Shoulder/Thumbnail/003-Shoulder_Decompression_-_Ara-3.jpg",
@@ -4742,7 +4742,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/03-Shoulder/QRcode/003-Shoulder_Decompression_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/03-Shoulder/QRcode/003-Shoulder_Decompression_-_Eng.jpg",
-         "tumbBackup":[
+         "thumbBackup":[
             "https://www.dropbox.com/sh/yhsxhlqh1gdpcim/AACTW_puGN2RFuv1Ea5hrs3Ka/003-Shoulder_Decompression_-_Ara-1.jpg?raw=1",
             "https://www.dropbox.com/sh/yhsxhlqh1gdpcim/AABJpUaaM40kckAC7oZtuyuIa/003-Shoulder_Decompression_-_Ara-2.jpg?raw=1",
             "https://www.dropbox.com/sh/yhsxhlqh1gdpcim/AAD3Mx8QSV1_1NdFt42ILk4Ka/003-Shoulder_Decompression_-_Ara-3.jpg?raw=1",
@@ -4774,7 +4774,7 @@ const ortho = {
       {
          "id": "OrSh004",
          "title":"Scapular Dyskinesis",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/03-Shoulder/Thumbnail/004-Scapular_Dyskinesis_-_Ara-1.jpg",
             "./docs/Ortho/03-Shoulder/Thumbnail/004-Scapular_Dyskinesis_-_Ara-2.jpg",
             "./docs/Ortho/03-Shoulder/Thumbnail/004-Scapular_Dyskinesis_-_Ara-3.jpg",
@@ -4796,7 +4796,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/03-Shoulder/QRcode/004-Scapular_Dyskinesis_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/03-Shoulder/QRcode/004-Scapular_Dyskinesis_-_Eng.jpg",
-         "tumbBackup":[
+         "thumbBackup":[
             "https://www.dropbox.com/sh/yhsxhlqh1gdpcim/AACUep3huIQ-2msY7Ohk1bC0a/004-Scapular_Dyskinesis_-_Ara-1.jpg?raw=1",
             "https://www.dropbox.com/sh/yhsxhlqh1gdpcim/AABSeLINgbSmWT7nWWqZ1om3a/004-Scapular_Dyskinesis_-_Ara-2.jpg?raw=1",
             "https://www.dropbox.com/sh/yhsxhlqh1gdpcim/AADItBJU-ABPOqQoU5hEQNima/004-Scapular_Dyskinesis_-_Ara-3.jpg?raw=1",
@@ -4818,7 +4818,7 @@ const ortho = {
       {
          "id": "OrEl001",
          "title":"Tennis Elbow",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/04-Elbow/Thumbnail/001-Tennis_Elbow_-_Ara-1.jpg",
             "./docs/Ortho/04-Elbow/Thumbnail/001-Tennis_Elbow_-_Ara-2.jpg",
             "./docs/Ortho/04-Elbow/Thumbnail/001-Tennis_Elbow_-_Eng-1.jpg",
@@ -4832,7 +4832,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/04-Elbow/QRcode/001-Tennis_Elbow_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/04-Elbow/QRcode/001-Tennis_Elbow_-_Eng.jpg",
-         "tumbBackup":[
+         "thumbBackup":[
             "https://www.dropbox.com/sh/4m01b6nruhxh78q/AABqex8heO-4Hcg18VNwGH6Pa/001-Tennis_Elbow_-_Ara-1.jpg?raw=1",
             "https://www.dropbox.com/sh/4m01b6nruhxh78q/AACR-_bVLkraR2icebV7V_sya/001-Tennis_Elbow_-_Ara-2.jpg?raw=1",
             "https://www.dropbox.com/sh/4m01b6nruhxh78q/AABD7spEs1xsapOTEJC7CRKKa/001-Tennis_Elbow_-_Eng-1.jpg?raw=1",
@@ -4848,7 +4848,7 @@ const ortho = {
       {
          "id": "OrEl002",
          "title":"Golfer Elbow",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/04-Elbow/Thumbnail/002-Golfer_Elbow_-_Ara-1.jpg",
             "./docs/Ortho/04-Elbow/Thumbnail/002-Golfer_Elbow_-_Ara-2.jpg",
             "./docs/Ortho/04-Elbow/Thumbnail/002-Golfer_Elbow_-_Ara-3.jpg",
@@ -4876,7 +4876,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/04-Elbow/QRcode/002-Golfer_Elbow_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/04-Elbow/QRcode/002-Golfer_Elbow_-_Eng.jpg",
-         "tumbBackup":[
+         "thumbBackup":[
             "https://www.dropbox.com/sh/4m01b6nruhxh78q/AABCrY-FnRkBdlnX8wDa7xCXa/002-Golfer_Elbow_-_Ara-1.jpg?raw=1",
             "https://www.dropbox.com/sh/4m01b6nruhxh78q/AAA_E4AEJz8tqKj9w12sxT64a/002-Golfer_Elbow_-_Ara-2.jpg?raw=1",
             "https://www.dropbox.com/sh/4m01b6nruhxh78q/AACj_WY0kVVdH4ZaWXFOQB_Aa/002-Golfer_Elbow_-_Ara-3.jpg?raw=1",
@@ -4899,7 +4899,7 @@ const ortho = {
       {
          "id": "OrEl003",
          "title":"Golfer's_Elbow",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/04-Elbow/Thumbnail/003-Golfer's_Elbow_-_Eng_-1.jpg",
             "./docs/Ortho/04-Elbow/Thumbnail/003-Golfer's_Elbow_-_Eng_-2.jpg",
          ],
@@ -4908,7 +4908,7 @@ const ortho = {
             "./docs/Ortho/04-Elbow/Big/003-Golfer's_Elbow_-_Eng_-2.jpg",
          ],
          "engQRCode":"./docs/Ortho/04-Elbow/QRcode/003-Golfer's_Elbow_-_Eng.jpg",
-         "tumbBackup":[
+         "thumbBackup":[
             "https://www.dropbox.com/sh/4m01b6nruhxh78q/AADvdkW-C9ROrnkXzI2SRrU3a/003-Golfer%27s_Elbow_-_Eng_-1.jpg?raw=1",
             "https://www.dropbox.com/sh/4m01b6nruhxh78q/AAD341pH5XyURii5A8w9bfjPa/003-Golfer%27s_Elbow_-_Eng_-2.jpg?raw=1",
          ],
@@ -4920,14 +4920,14 @@ const ortho = {
       {
          "id": "OrEl004",
          "title":"Wrist Exercises With Elastic Band",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/04-Elbow/Thumbnail/004-Wrist_Exercises_With_Elastic_Band_-_Ara.jpg"
          ],
          "bigImgs":[
             "./docs/Ortho/04-Elbow/Big/004-Wrist_Exercises_With_Elastic_Band_-_Ara.jpg"
          ],
          "araQRCode":"./docs/Ortho/04-Elbow/QRcode/004-Wrist_Exercises_With_Elastic_Band_-_Ara.jpg",
-         "tumbBackup":[
+         "thumbBackup":[
             "https://www.dropbox.com/sh/4m01b6nruhxh78q/AACsi1dpBGqXtRwfXOoIgD66a/004-Wrist_Exercises_With_Elastic_Band_-_Ara.jpg?raw=1",
          ],
          "bigBackup":["https://www.dropbox.com/sh/gut3k4b7hishrtk/AAD7EaD1No7A6UwD4lVCJ98Ga/004-Wrist_Exercises_With_Elastic_Band_-_Ara.jpg?raw=1",],
@@ -4940,7 +4940,7 @@ const ortho = {
       {
          "id": "OrWf001",
          "title":"Carpal Tunnel Syndrome (CTS)",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/05-Wirst and finger/Thumbnail/001-Carpal_Tunnel_Syndrome_(CTS)_-_Ara-1.jpg",
             "./docs/Ortho/05-Wirst and finger/Thumbnail/001-Carpal_Tunnel_Syndrome_(CTS)_-_Ara-2.jpg",
             "./docs/Ortho/05-Wirst and finger/Thumbnail/001-Carpal_Tunnel_Syndrome_(CTS)_-_Ara-3.jpg",
@@ -4962,7 +4962,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/05-Wirst and finger/QRcode/001-Carpal_Tunnel_Syndrome_(CTS)_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/05-Wirst and finger/QRcode/001-Carpal_Tunnel_Syndrome_(CTS)_-_Eng.jpg",
-         "tumbBackup":[
+         "thumbBackup":[
             "https://www.dropbox.com/sh/guxlw2sqm7hyf06/AAD1OwU5OEGLMnSgY81BTxlLa/001-Carpal_Tunnel_Syndrome_%28CTS%29_-_Ara-1.jpg?raw=1",
             "https://www.dropbox.com/sh/guxlw2sqm7hyf06/AACO8sCVYiKMcVh7G34HUp3Ka/001-Carpal_Tunnel_Syndrome_%28CTS%29_-_Ara-2.jpg?raw=1",
             "https://www.dropbox.com/sh/guxlw2sqm7hyf06/AAC5zh-r6Jt2Cz8BJshrIv5ha/001-Carpal_Tunnel_Syndrome_%28CTS%29_-_Ara-3.jpg?raw=1",
@@ -4982,7 +4982,7 @@ const ortho = {
       {
          "id": "OrWf002",
          "title":"De Quervain's Tenosynovitis",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/05-Wirst and finger/Thumbnail/002-De_Quervain's_Tenosynovitis_-_Ara-1.jpg",
             "./docs/Ortho/05-Wirst and finger/Thumbnail/002-De_Quervain's_Tenosynovitis_-_Ara-2.jpg",
             "./docs/Ortho/05-Wirst and finger/Thumbnail/002-De_Quervain's_Tenosynovitis_-_Eng-1.jpg",
@@ -4996,7 +4996,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/05-Wirst and finger/QRcode/002-De_Quervain's_Tenosynovitis_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/05-Wirst and finger/QRcode/002-De_Quervain's_Tenosynovitis_-_Eng.jpg",
-         "tumbBackup":[
+         "thumbBackup":[
             "https://www.dropbox.com/sh/guxlw2sqm7hyf06/AAAWfSLTYLJqI054W65XlGCDa/002-De_Quervain%27s_Tenosynovitis_-_Ara-1.jpg?raw=1",
             "https://www.dropbox.com/sh/guxlw2sqm7hyf06/AABtNedwXBPgfg8kb0yKPKZNa/002-De_Quervain%27s_Tenosynovitis_-_Ara-2.jpg?raw=1",
             "https://www.dropbox.com/sh/guxlw2sqm7hyf06/AADaUAAEfYPbcRvkaDH5m37Ma/002-De_Quervain%27s_Tenosynovitis_-_Eng-1.jpg?raw=1",
@@ -5012,7 +5012,7 @@ const ortho = {
       {
          "id": "OrWf003",
          "title":"Trigger Finger",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/05-Wirst and finger/Thumbnail/003-Trigger_Finger_-_Ara-1.jpg",
             "./docs/Ortho/05-Wirst and finger/Thumbnail/003-Trigger_Finger_-_Ara-2.jpg",
             "./docs/Ortho/05-Wirst and finger/Thumbnail/003-Trigger_Finger_-_Eng-1.jpg",
@@ -5026,7 +5026,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/05-Wirst and finger/QRcode/003-Trigger_Finger_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/05-Wirst and finger/QRcode/003-Trigger_Finger_-_Eng.jpg",
-         "tumbBackup":[
+         "thumbBackup":[
             "https://www.dropbox.com/sh/guxlw2sqm7hyf06/AACnYaCEhLMB5pmQJvW5OA0ta/003-Trigger_Finger_-_Ara-1.jpg?raw=1",
             "https://www.dropbox.com/sh/guxlw2sqm7hyf06/AACNjWevMCDp2FM4myfhHcsba/003-Trigger_Finger_-_Ara-2.jpg?raw=1",
             "https://www.dropbox.com/sh/guxlw2sqm7hyf06/AAChbg2D4bp471V3PhodF8Ula/003-Trigger_Finger_-_Eng-1.jpg?raw=1",
@@ -5042,7 +5042,7 @@ const ortho = {
       {
          "id": "OrWf004",
          "title":"Distal Radius Fracture",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/05-Wirst and finger/Thumbnail/004-Distal_Radius_Fracture_-_Eng-1.jpg",
             "./docs/Ortho/05-Wirst and finger/Thumbnail/004-Distal_Radius_Fracture_-_Eng-2.jpg",
             "./docs/Ortho/05-Wirst and finger/Thumbnail/004-Distal_Radius_Fracture_-_Eng-3.jpg",
@@ -5065,7 +5065,7 @@ const ortho = {
             "./docs/Ortho/05-Wirst and finger/Big/004-Distal_Radius_Fracture_-_Eng-9.jpg",
          ],
          "engQRCode":"./docs/Ortho/05-Wirst and finger/QRcode/004-Distal_Radius_Fracture_-_Eng.jpg",
-         "tumbBackup":[
+         "thumbBackup":[
             "https://www.dropbox.com/sh/guxlw2sqm7hyf06/AAA4JE9kE8ianHef8iSl_PqHa/004-Distal_Radius_Fracture_-_Eng-1.jpg?raw=1",
             "https://www.dropbox.com/sh/guxlw2sqm7hyf06/AABNaHlm7bN8GccJYyutuvvma/004-Distal_Radius_Fracture_-_Eng-2.jpg?raw=1",
             "https://www.dropbox.com/sh/guxlw2sqm7hyf06/AACRF5bkIqBWZc8VhBs9d2AVa/004-Distal_Radius_Fracture_-_Eng-3.jpg?raw=1",
@@ -5084,14 +5084,14 @@ const ortho = {
       {
          "id": "OrWf005",
          "title":"Carpal Tunnel Syndrome (CTS) Exercises",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/05-Wirst and finger/Thumbnail/005-Carpal_Tunnel_Syndrome_(CTS)_Exercises_-_Ara.jpg"
          ],
          "bigImgs":[
             "./docs/Ortho/05-Wirst and finger/Big/005-Carpal_Tunnel_Syndrome_(CTS)_Exercises_-_Ara.jpg"
          ],
          "araQRCode":"./docs/Ortho/05-Wirst and finger/QRcode/005-Carpal_Tunnel_Syndrome_(CTS)_Exercises_-_Ara.jpg",
-         "tumbBackup":[
+         "thumbBackup":[
             "https://www.dropbox.com/sh/guxlw2sqm7hyf06/AAD6HjPgvj10L9Gt5JEunY-va/005-Carpal_Tunnel_Syndrome_%28CTS%29_Exercises_-_Ara.jpg?raw=1",
          ],
          "bigBackup":["https://www.dropbox.com/sh/1hvfm8xoz5xm72x/AACH9Me2xFvaIyjaPKuz2oHFa/005-Carpal_Tunnel_Syndrome_%28CTS%29_Exercises_-_Ara.jpg?raw=1",],
@@ -5104,7 +5104,7 @@ const ortho = {
       {
          "id": "OrBk001",
          "title":"Chronic LBP - Abdominal & Back Muscles Strengthening Exercises",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/06-Back/Thumbnail/001-Chronic_LBP_-_Abdominal_&_Back_Muscles_Strengthening_Exercises_-_Ara-1.jpg",
             "./docs/Ortho/06-Back/Thumbnail/001-Chronic_LBP_-_Abdominal_&_Back_Muscles_Strengthening_Exercises_-_Ara-2.jpg",
             "./docs/Ortho/06-Back/Thumbnail/001-Chronic_LBP_-_Abdominal_&_Back_Muscles_Strengthening_Exercises_-_Eng-1.jpg",
@@ -5118,7 +5118,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/06-Back/QRcode/001-Chronic_LBP_-_Abdominal_&_Back_Muscles_Strengthening_Exercises_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/06-Back/QRcode/001-Chronic_LBP_-_Abdominal_&_Back_Muscles_Strengthening_Exercises_-_Eng.jpg",
-         "tumbBackup":[
+         "thumbBackup":[
             "https://www.dropbox.com/sh/xm3zflv50esj8g2/AAACUX_aNN-yYf1WLVWY4cFYa/001-Chronic_LBP_-_Abdominal_%26_Back_Muscles_Strengthening_Exercises_-_Ara-1.jpg?raw=1",
             "https://www.dropbox.com/sh/xm3zflv50esj8g2/AADt_v67iFluTO1cIn9o-nrna/001-Chronic_LBP_-_Abdominal_%26_Back_Muscles_Strengthening_Exercises_-_Ara-2.jpg?raw=1",
             "https://www.dropbox.com/sh/xm3zflv50esj8g2/AAASOwIW2wg0abI_9OoyKATWa/001-Chronic_LBP_-_Abdominal_%26_Back_Muscles_Strengthening_Exercises_-_Eng-1.jpg?raw=1",
@@ -5134,7 +5134,7 @@ const ortho = {
       {
          "id": "OrBk002",
          "title":"Chronic LBP - Back stretching exercises",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/06-Back/Thumbnail/002-Chronic_LBP_-_Back_stretching__exercises_-_Ara.jpg",
             "./docs/Ortho/06-Back/Thumbnail/002-Chronic_LBP_-_Back_stretching__exercises_-_Eng.jpg",
          ],
@@ -5144,7 +5144,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/06-Back/QRcode/002-Chronic_LBP_-_Back_stretching__exercises_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/06-Back/QRcode/002-Chronic_LBP_-_Back_stretching__exercises_-_Eng.jpg",
-         "tumbBackup":[
+         "thumbBackup":[
             "https://www.dropbox.com/sh/xm3zflv50esj8g2/AAAIaDYHmLBF35jzhxSukFvoa/002-Chronic_LBP_-_Back_stretching__exercises_-_Ara.jpg?raw=1",
             "https://www.dropbox.com/sh/xm3zflv50esj8g2/AAA65YECEW4Vn0bZHB8pzPhOa/002-Chronic_LBP_-_Back_stretching__exercises_-_Eng.jpg?raw=1",
          ],
@@ -5158,7 +5158,7 @@ const ortho = {
       {
          "id": "OrBk003",
          "title":"Chronic LBP Leg muscle Stretching Exercises",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/06-Back/Thumbnail/003-Chronic_LBP_Leg_muscle_Stretching_Exercises_-_Ara.jpg",
             "./docs/Ortho/06-Back/Thumbnail/003-Chronic_LBP_Leg_muscle_Stretching_Exercises_-_Eng.jpg",
          ],
@@ -5168,7 +5168,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/06-Back/QRcode/003-Chronic_LBP_Leg_muscle_Stretching_Exercises_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/06-Back/QRcode/003-Chronic_LBP_Leg_muscle_Stretching_Exercises_-_Eng.jpg",
-         "tumbBackup":[
+         "thumbBackup":[
             "https://www.dropbox.com/sh/xm3zflv50esj8g2/AADNJaY8N6q3VnaUmSg1Ksk9a/003-Chronic_LBP_Leg_muscle_Stretching_Exercises_-_Ara.jpg?raw=1",
             "https://www.dropbox.com/sh/xm3zflv50esj8g2/AADiwEXBVYpeKQ3lu1IRmI33a/003-Chronic_LBP_Leg_muscle_Stretching_Exercises_-_Eng.jpg?raw=1",
          ],
@@ -5182,7 +5182,7 @@ const ortho = {
       {
          "id": "OrBk004",
          "title":"General Back Exercises",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/06-Back/Thumbnail/004-General_Back_Exercises_-_Ara.jpg",
             "./docs/Ortho/06-Back/Thumbnail/004-General_Back_Exercises_-_Eng.jpg",
          ],
@@ -5192,7 +5192,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/06-Back/QRcode/004-General_Back_Exercises_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/06-Back/QRcode/004-General_Back_Exercises_-_Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AABtFYQ1ZChvOpjRsRm2NeRza/004-General_Back_Exercises_-_Ara.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AABdC4EdATrGUGjfIHOEEmpoa/004-General_Back_Exercises_-_Eng.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AABtFYQ1ZChvOpjRsRm2NeRza/004-General_Back_Exercises_-_Ara.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AABdC4EdATrGUGjfIHOEEmpoa/004-General_Back_Exercises_-_Eng.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AABiuhnIYJ8VL4u4tmXua1c6a/004-General_Back_Exercises_-_Ara.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AABhHT91ldHpiKxLE4Mu62Jsa/004-General_Back_Exercises_-_Eng.jpg?raw=1",],
          "tags":[ "General Back Exercises", "LBP"],
          "araDir": "./docs/Ortho/06-Back/004-General_Back_Exercises_-_Ara.pdf",
@@ -5203,7 +5203,7 @@ const ortho = {
       {
          "id": "OrBk005",
          "title":"Post Lumber Discctomy",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/06-Back/Thumbnail/005-Post_Lumber_Discctomy_-_Ara-1.jpg",
             "./docs/Ortho/06-Back/Thumbnail/005-Post_Lumber_Discctomy_-_Ara-2.jpg",
             "./docs/Ortho/06-Back/Thumbnail/005-Post_Lumber_Discctomy_-_Ara-3.jpg",
@@ -5233,7 +5233,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/06-Back/QRcode/005-Post_Lumber_Discctomy_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/06-Back/QRcode/005-Post_Lumber_Discctomy_-_Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AACpdSv6yrW34j6FNoz3Im1Aa/005-Post_Lumber_Discctomy_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAAyvxg0oQ18mgO1MW5ALpada/005-Post_Lumber_Discctomy_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAD-o86uW0oHk5EZFVyr8Spba/005-Post_Lumber_Discctomy_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AABn3gMe446tyFQuONrsCk_pa/005-Post_Lumber_Discctomy_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AADyo-0CDD2pmKRUeC_W1peQa/005-Post_Lumber_Discctomy_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAAXkb4aEqriXjL4I2Kdn6VZa/005-Post_Lumber_Discctomy_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAC8MAKUaPxhVUQjfJ7O_pUla/005-Post_Lumber_Discctomy_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAADD1YtZgNtvv5_7w7YGeYwa/005-Post_Lumber_Discctomy_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AACOq5M0uL-cLb2iqfOK4Qfxa/005-Post_Lumber_Discctomy_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAAlbiTHTJGBEr2HWaQF9jnFa/005-Post_Lumber_Discctomy_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AABrBsCPSz1LkVea4gfAQC_Ma/005-Post_Lumber_Discctomy_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AACTU_psHY6Rdoav8OSAfD4Ja/005-Post_Lumber_Discctomy_-_Eng-6.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AACpdSv6yrW34j6FNoz3Im1Aa/005-Post_Lumber_Discctomy_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAAyvxg0oQ18mgO1MW5ALpada/005-Post_Lumber_Discctomy_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAD-o86uW0oHk5EZFVyr8Spba/005-Post_Lumber_Discctomy_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AABn3gMe446tyFQuONrsCk_pa/005-Post_Lumber_Discctomy_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AADyo-0CDD2pmKRUeC_W1peQa/005-Post_Lumber_Discctomy_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAAXkb4aEqriXjL4I2Kdn6VZa/005-Post_Lumber_Discctomy_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAC8MAKUaPxhVUQjfJ7O_pUla/005-Post_Lumber_Discctomy_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAADD1YtZgNtvv5_7w7YGeYwa/005-Post_Lumber_Discctomy_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AACOq5M0uL-cLb2iqfOK4Qfxa/005-Post_Lumber_Discctomy_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAAlbiTHTJGBEr2HWaQF9jnFa/005-Post_Lumber_Discctomy_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AABrBsCPSz1LkVea4gfAQC_Ma/005-Post_Lumber_Discctomy_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AACTU_psHY6Rdoav8OSAfD4Ja/005-Post_Lumber_Discctomy_-_Eng-6.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAAjB8fouJYC_4TN-L8B59_oa/005-Post_Lumber_Discctomy_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AADnoqtURFmmkL_L774tvKwCa/005-Post_Lumber_Discctomy_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AADgUmU9W7Xc8yQuVSTDGdWna/005-Post_Lumber_Discctomy_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAC4RDILc4gT6SKiWjAAI6xTa/005-Post_Lumber_Discctomy_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AADwwO8GZTx02tlhF6ppp5OHa/005-Post_Lumber_Discctomy_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAAbS4_PrJZEJz_FvdCiqP0aa/005-Post_Lumber_Discctomy_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AADtALqlHMSLM5pmmpsIWUtea/005-Post_Lumber_Discctomy_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAAZmhPlbbTUJmxDG-ABirqLa/005-Post_Lumber_Discctomy_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAC7yS-0lek0QoZHWLYj6oPGa/005-Post_Lumber_Discctomy_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AACPFXxPSEIKy9rm7-zhFDO_a/005-Post_Lumber_Discctomy_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AADFfnbGboJq8lWvBRm6CJdFa/005-Post_Lumber_Discctomy_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AACCPrmO6-mS7I8RCYQo1b-Ya/005-Post_Lumber_Discctomy_-_Eng-6.jpg?raw=1",],
          "tags":[ "Discctomy", "LBP", "Phase 1 ( 0 - 2 weeks)", "Phase 2 (2 to 6 weeks)", "Phase 3 (6 to 8 weeks)"],
          "araDir": "./docs/Ortho/06-Back/005-Post_Lumber_Discctomy_-_Ara.pdf",
@@ -5244,7 +5244,7 @@ const ortho = {
       {
          "id": "OrBk006",
          "title":"Scoliosis",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/06-Back/Thumbnail/006-Scoliosis_-_Ara-1.jpg",
             "./docs/Ortho/06-Back/Thumbnail/006-Scoliosis_-_Ara-2.jpg",
             "./docs/Ortho/06-Back/Thumbnail/006-Scoliosis_-_Ara-3.jpg",
@@ -5282,7 +5282,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/06-Back/QRcode/006-Scoliosis_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/06-Back/QRcode/006-Scoliosis_-_Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AABd5NrdaAcs6Yx9UXX9BqTIa/006-Scoliosis_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AACtjfewqXvkbwhliU7GfhUya/006-Scoliosis_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AACFaluU0BhPYVshBNwSH21Ja/006-Scoliosis_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAAw6TRzlUNoqLG8Fyc-hR-ga/006-Scoliosis_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAA3VtzIqI6SVoCnmqctUZ14a/006-Scoliosis_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AADZQtWLaoouO92jFBaNynona/006-Scoliosis_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAAgNx245uyfd4vgy5Vr4oewa/006-Scoliosis_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAB3zhqicRAMyMulS5xP2zXSa/006-Scoliosis_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAAVk4ITetxH8LrGhMozItv1a/006-Scoliosis_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AADpRtXn_bnCNCLfancpyrnva/006-Scoliosis_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AACGX72OR2ulNB1nt0KT44Eca/006-Scoliosis_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAA1tn3zX-fuxAaK1ZDpEJbea/006-Scoliosis_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AADAnOx2qpnJSH2TboYOkvkFa/006-Scoliosis_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAA2K7y6pgzUXR3YrNKa9BsHa/006-Scoliosis_-_Eng-6.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AABapDHI8FtS542ZwgyuiChca/006-Scoliosis_-_Eng-7.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AABnPpvfsWvy61KzH0UyrA7Wa/006-Scoliosis_-_Eng-8.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AABd5NrdaAcs6Yx9UXX9BqTIa/006-Scoliosis_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AACtjfewqXvkbwhliU7GfhUya/006-Scoliosis_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AACFaluU0BhPYVshBNwSH21Ja/006-Scoliosis_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAAw6TRzlUNoqLG8Fyc-hR-ga/006-Scoliosis_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAA3VtzIqI6SVoCnmqctUZ14a/006-Scoliosis_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AADZQtWLaoouO92jFBaNynona/006-Scoliosis_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAAgNx245uyfd4vgy5Vr4oewa/006-Scoliosis_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAB3zhqicRAMyMulS5xP2zXSa/006-Scoliosis_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAAVk4ITetxH8LrGhMozItv1a/006-Scoliosis_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AADpRtXn_bnCNCLfancpyrnva/006-Scoliosis_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AACGX72OR2ulNB1nt0KT44Eca/006-Scoliosis_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAA1tn3zX-fuxAaK1ZDpEJbea/006-Scoliosis_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AADAnOx2qpnJSH2TboYOkvkFa/006-Scoliosis_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAA2K7y6pgzUXR3YrNKa9BsHa/006-Scoliosis_-_Eng-6.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AABapDHI8FtS542ZwgyuiChca/006-Scoliosis_-_Eng-7.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AABnPpvfsWvy61KzH0UyrA7Wa/006-Scoliosis_-_Eng-8.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AADsyE7s2F3yWl0DjrPHso-1a/006-Scoliosis_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAB_Tq0sg8yKSp7tq575pb8Ga/006-Scoliosis_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AACy8hRM_Xk7Ugd5hJmAqYw8a/006-Scoliosis_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAA-J1wozQnr7a3H_9pbSmZ7a/006-Scoliosis_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AACQ0Kz8J8xCWuAWsQb8hofWa/006-Scoliosis_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAAqov44NdyBUeUL75PoAgSCa/006-Scoliosis_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAAgad5tlKHAWI4Fet252UUIa/006-Scoliosis_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAD4iMr-mYhdqeGBUhbxM8N7a/006-Scoliosis_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AACxtGAJ-nAbCnmeBZmM-olAa/006-Scoliosis_-_Eng_7.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAAn7Nv-7XdaVfvwfQ3Tdm1Fa/006-Scoliosis_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AADVhtFTGpBPaY7-UicTrmj2a/006-Scoliosis_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAAX39copxNG14EV7jU6OmPma/006-Scoliosis_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAC1HUXU2GT0ILu1tFFLEG0na/006-Scoliosis_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AADsfFLDfL5s9kIRGyGBddoMa/006-Scoliosis_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AACP2OcLXA33Kn7PXVrel-TMa/006-Scoliosis_-_Eng-6.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AADb5PCsZ8EYqg9OLb4pegiua/006-Scoliosis_-_Eng-8.jpg?raw=1",],
          "tags":[ "Scoliosis", "Stretching Exe", "Strengthening Exe"],
          "araDir": "./docs/Ortho/06-Back/006-Scoliosis_-_Ara.pdf",
@@ -5293,7 +5293,7 @@ const ortho = {
       {
          "id": "OrBk007",
          "title":"kyphosis",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/06-Back/Thumbnail/007-kyphosis_-Ara-1.jpg",
             "./docs/Ortho/06-Back/Thumbnail/007-kyphosis_-Ara-2.jpg",
             "./docs/Ortho/06-Back/Thumbnail/007-kyphosis_-Ara-3.jpg",
@@ -5315,7 +5315,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/06-Back/QRcode/007-kyphosis_-Ara.jpg",
          "engQRCode":"./docs/Ortho/06-Back/QRcode/007-kyphosis_-Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AABdwA2p_1pf2_nZZM8Mhc2Wa/007-kyphosis_-Ara-1.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAC0uy5ArKF9gUEKngb1QRZYa/007-kyphosis_-Ara-2.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AACx3eSqvB3MraDHHpvNEAXga/007-kyphosis_-Ara-3.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AABeRcvmTb5I2GhWtkWpYWjYa/007-kyphosis_-Ara-4.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AADL2PFrOj6sXE32wxPy8nkna/007-kyphosis_-Eng-1.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAB3zgW4G4rS9uOFNez16O7Za/007-kyphosis_-Eng-2.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AABPzPpgm8jl10THbjTGDZXAa/007-kyphosis_-Eng-3.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAAK6r-jHhCEmWQy1srvx20Oa/007-kyphosis_-Eng-4.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AABdwA2p_1pf2_nZZM8Mhc2Wa/007-kyphosis_-Ara-1.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAC0uy5ArKF9gUEKngb1QRZYa/007-kyphosis_-Ara-2.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AACx3eSqvB3MraDHHpvNEAXga/007-kyphosis_-Ara-3.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AABeRcvmTb5I2GhWtkWpYWjYa/007-kyphosis_-Ara-4.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AADL2PFrOj6sXE32wxPy8nkna/007-kyphosis_-Eng-1.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAB3zgW4G4rS9uOFNez16O7Za/007-kyphosis_-Eng-2.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AABPzPpgm8jl10THbjTGDZXAa/007-kyphosis_-Eng-3.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAAK6r-jHhCEmWQy1srvx20Oa/007-kyphosis_-Eng-4.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAA3BwcQKeLRf1kCM4cJz987a/007-kyphosis_-Ara-1.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAAdjzVh3bwG2N340XoGq07ca/007-kyphosis_-Ara-2.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AABQvMnIhTJ99QrKaySz_JQqa/007-kyphosis_-Ara-3.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AADZIQrctSKH7_Ij1haBC7Xja/007-kyphosis_-Ara-4.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AADz4Dmy2fAgd4A_Wn-A5hA-a/007-kyphosis_-Eng-1.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAAZsCa2FrlCOZ9kfVr422CYa/007-kyphosis_-Eng-2.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAAzLZUET51aj0UdXd-pruxya/007-kyphosis_-Eng-3.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAAVH8K81nSvEwAsj2XEPOyFa/007-kyphosis_-Eng-4.jpg?raw=1",],
          "tags":[ "kyphosis", "Stretching Exe", "Strengthening Exe"],
          "araDir": "./docs/Ortho/06-Back/007-kyphosis_-Ara.pdf",
@@ -5326,7 +5326,7 @@ const ortho = {
       {
          "id": "OrBk008",
          "title":"BACK STABILITY EXERCISES",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/06-Back/Thumbnail/008-BACK_STABILITY_EXERCISES_-_Ara.jpg",
             "./docs/Ortho/06-Back/Thumbnail/008-BACK_STABILITY_EXERCISES_-_Eng.jpg",
          ],
@@ -5336,7 +5336,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/06-Back/QRcode/008-BACK_STABILITY_EXERCISES_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/06-Back/QRcode/008-BACK_STABILITY_EXERCISES_-_Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AADFVMoBGn-GkEMn4zh2NwSca/008-BACK_STABILITY_EXERCISES_-_Ara.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AACN095Ba010U7Iel2KtXdHXa/008-BACK_STABILITY_EXERCISES_-_Eng.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AADFVMoBGn-GkEMn4zh2NwSca/008-BACK_STABILITY_EXERCISES_-_Ara.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AACN095Ba010U7Iel2KtXdHXa/008-BACK_STABILITY_EXERCISES_-_Eng.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AACu9kqOJ-TEnRrmmnvrDhm8a/008-BACK_STABILITY_EXERCISES_-_Ara.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAAGRnLFBIArJYMOZXZNNPqua/008-BACK_STABILITY_EXERCISES_-_Eng.jpg?raw=1",],
          "tags":[ "Back Stability Exe", "LBP"],
          "araDir": "./docs/Ortho/06-Back/008-BACK_STABILITY_EXERCISES_-_Ara.pdf",
@@ -5347,7 +5347,7 @@ const ortho = {
       {
          "id": "OrBk009",
          "title":"BACK STRENGTHENING EXERCISES",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/06-Back/Thumbnail/009-BACK_STRENGTHENING_EXERCISES_-_Ara.jpg",
             "./docs/Ortho/06-Back/Thumbnail/009-BACK_STRENGTHENING_EXERCISES_-_Eng.jpg",
          ],
@@ -5357,7 +5357,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/06-Back/QRcode/009-BACK_STRENGTHENING_EXERCISES_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/06-Back/QRcode/009-BACK_STRENGTHENING_EXERCISES_-_Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AADaGaK0YRH1EGup9Q5-_vVka/009-BACK_STRENGTHENING_EXERCISES_-_Ara.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAB24Y0ysu5zPIbP8KbYEu0na/009-BACK_STRENGTHENING_EXERCISES_-_Eng.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AADaGaK0YRH1EGup9Q5-_vVka/009-BACK_STRENGTHENING_EXERCISES_-_Ara.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAB24Y0ysu5zPIbP8KbYEu0na/009-BACK_STRENGTHENING_EXERCISES_-_Eng.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AABcQB_Xumv5czS0-QbxxgbOa/009-BACK_STRENGTHENING_EXERCISES_-_Ara.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AACuUF_lYvmu3zAdzv6wJRHra/009-BACK_STRENGTHENING_EXERCISES_-_Eng.jpg?raw=1",],
          "tags":[ "Back Strengthening Exe", "LBP"],
          "araDir": "./docs/Ortho/06-Back/009-BACK_STRENGTHENING_EXERCISES_-_Ara.pdf",
@@ -5368,7 +5368,7 @@ const ortho = {
       {
          "id": "OrBk010",
          "title":"Back Stretching Exercises",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/06-Back/Thumbnail/010-Back_Stretching_Exercises-_Ara.jpg",
             "./docs/Ortho/06-Back/Thumbnail/010-Back_Stretching_Exercises-_Eng.jpg",
          ],
@@ -5378,7 +5378,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/06-Back/QRcode/010-Back_Stretching_Exercises-_Ara.jpg",
          "engQRCode":"./docs/Ortho/06-Back/QRcode/010-Back_Stretching_Exercises-_Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AAB0fsgpPcD3veHiANhmu8BXa/010-Back_Stretching_Exercises-_Ara.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AABLAQXEWcCc0adxi2lvlFEaa/010-Back_Stretching_Exercises-_Eng.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AAB0fsgpPcD3veHiANhmu8BXa/010-Back_Stretching_Exercises-_Ara.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AABLAQXEWcCc0adxi2lvlFEaa/010-Back_Stretching_Exercises-_Eng.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAD_FS5OKxXcoCRNhsvpX2N3a/010-Back_Stretching_Exercises-_Ara.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AABqABl4p2PkeYO7iKMcd-mXa/010-Back_Stretching_Exercises-_Eng.jpg?raw=1",],
          "tags":[ "Back Stretching Exe", "LBP"],
          "araDir": "./docs/Ortho/06-Back/010-Back_Stretching_Exercises-_Ara.pdf",
@@ -5389,7 +5389,7 @@ const ortho = {
       {
          "id": "OrBk011",
          "title":"Subacute Back Exercises",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/06-Back/Thumbnail/011-Subacute_Back_Exercises-Ara.jpg",
             "./docs/Ortho/06-Back/Thumbnail/011-Subacute_Back_Exercises-Eng.jpg",
          ],
@@ -5399,7 +5399,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/06-Back/QRcode/011-Subacute_Back_Exercises-Ara.jpg",
          "engQRCode":"./docs/Ortho/06-Back/QRcode/011-Subacute_Back_Exercises-Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AABopq-ErFe9K0hYs3IFmQ5pa/011-Subacute_Back_Exercises-Ara.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AACUpnzgo6jHSSTtcRJ2TCIaa/011-Subacute_Back_Exercises-Eng.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AABopq-ErFe9K0hYs3IFmQ5pa/011-Subacute_Back_Exercises-Ara.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AACUpnzgo6jHSSTtcRJ2TCIaa/011-Subacute_Back_Exercises-Eng.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAAi8OTvL2csNJe_id4cQyMTa/011-Subacute_Back_Exercises-Ara.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AABkgDttROUNlwoXYnkFiHpza/011-Subacute_Back_Exercises-Eng.jpg?raw=1",],
          "tags":[ "Subacute Back Exercises", "LBP", "Back Strengthening Exe", "Back Stretching Exe"],
          "araDir": "./docs/Ortho/06-Back/011-Subacute_Back_Exercises-Ara.pdf",
@@ -5410,7 +5410,7 @@ const ortho = {
       {
          "id": "OrBk012",
          "title":"Low Back Exercises",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/06-Back/Thumbnail/012-Back-Low_Back_Exercises-_Ara-1.jpg",
             "./docs/Ortho/06-Back/Thumbnail/012-Back-Low_Back_Exercises-_Ara-2.jpg",
          ],
@@ -5419,7 +5419,7 @@ const ortho = {
             "./docs/Ortho/06-Back/Big/012-Back-Low_Back_Exercises-_Ara-2.jpg",
          ],
          "araQRCode":"./docs/Ortho/06-Back/QRcode/012-Back-Low_Back_Exercises-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AADkJNyop5SbAbMDdJN8b7fya/012-Back-Low_Back_Exercises-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAAmPlSYLEKUBJWXUlNyzySGa/012-Back-Low_Back_Exercises-_Ara-2.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AADkJNyop5SbAbMDdJN8b7fya/012-Back-Low_Back_Exercises-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAAmPlSYLEKUBJWXUlNyzySGa/012-Back-Low_Back_Exercises-_Ara-2.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAAaES_C_HfE-XCFovyIUsCga/012-Back-Low_Back_Exercises-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAA9ksRDCwgJc-4ir_-vnJEKa/012-Back-Low_Back_Exercises-_Ara-2.jpg?raw=1",],
          "tags":[ "LBP", "Back Strengthening Exe", "Back Stretching Exe"],
          "araDir": "./docs/Ortho/06-Back/012-Back-Low_Back_Exercises-_Ara.pdf",
@@ -5428,7 +5428,7 @@ const ortho = {
       {
          "id": "OrBk013",
          "title":"Back - Hip Stretches",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/06-Back/Thumbnail/013-Back-_Hip_Stretches_-_Ara-1.jpg",
             "./docs/Ortho/06-Back/Thumbnail/013-Back-_Hip_Stretches_-_Ara-2.jpg",
          ],
@@ -5437,7 +5437,7 @@ const ortho = {
             "./docs/Ortho/06-Back/Big/013-Back-_Hip_Stretches_-_Ara-2.jpg",
          ],
          "araQRCode":"./docs/Ortho/06-Back/QRcode/013-Back-_Hip_Stretches_-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AAC5K6KsQsPbg8oHsGMhYsQGa/013-Back-_Hip_Stretches_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AABEmPtYyJE5q84f3quj_igRa/013-Back-_Hip_Stretches_-_Ara-2.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AAC5K6KsQsPbg8oHsGMhYsQGa/013-Back-_Hip_Stretches_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AABEmPtYyJE5q84f3quj_igRa/013-Back-_Hip_Stretches_-_Ara-2.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AACR1d0e6LTSfmFnXIALYXQFa/013-Back-_Hip_Stretches_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAAii_NNPHGQZPbvbmguAr_Ua/013-Back-_Hip_Stretches_-_Ara-2.jpg?raw=1",],
          "tags":[ "LBP", "Hip Stretches"],
          "araDir": "./docs/Ortho/06-Back/013-Back-_Hip_Stretches_-_Ara.pdf",
@@ -5446,7 +5446,7 @@ const ortho = {
       {
          "id": "OrBk014",
          "title":"Back Pain Instructions",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/06-Back/Thumbnail/014-Back_Pain_Instructions_-_Ara-1.jpg",
             "./docs/Ortho/06-Back/Thumbnail/014-Back_Pain_Instructions_-_Ara-2.jpg",
             "./docs/Ortho/06-Back/Thumbnail/014-Back_Pain_Instructions_-_Ara-3.jpg",
@@ -5459,7 +5459,7 @@ const ortho = {
             "./docs/Ortho/06-Back/Big/014-Back_Pain_Instructions_-_Ara-4.jpg",
          ],
          "araQRCode":"./docs/Ortho/06-Back/QRcode/014-Back_Pain_Instructions_-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AABAtfjfKpKGgviWOTpVlVz3a/014-Back_Pain_Instructions_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AACN50L5yKyP3cliDutTRhOya/014-Back_Pain_Instructions_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AABh-YSHguyrplz6BZ5DMlyUa/014-Back_Pain_Instructions_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AACKnC6W23RVv8xHKdpx1YJ0a/014-Back_Pain_Instructions_-_Ara-4.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AABAtfjfKpKGgviWOTpVlVz3a/014-Back_Pain_Instructions_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AACN50L5yKyP3cliDutTRhOya/014-Back_Pain_Instructions_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AABh-YSHguyrplz6BZ5DMlyUa/014-Back_Pain_Instructions_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AACKnC6W23RVv8xHKdpx1YJ0a/014-Back_Pain_Instructions_-_Ara-4.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAA26PbymgOxYW9bOzgF_l4ya/014-Back_Pain_Instructions_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AACW6GwSlYtM6HzzbcL4u8Cxa/014-Back_Pain_Instructions_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AADhQjwocr1Mwp1J1ZKl_YUwa/014-Back_Pain_Instructions_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAAWfZDT8tY1p0pdKoPzynt4a/014-Back_Pain_Instructions_-_Ara-4.jpg?raw=1",],
          "tags":[ "LBP", "Back Ergonomics"],
          "araDir": "./docs/Ortho/06-Back/014-Back_Pain_Instructions_-_Ara.pdf",
@@ -5468,7 +5468,7 @@ const ortho = {
       {
          "id": "OrBk015",
          "title":"Sciatica Booklet",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/06-Back/Thumbnail/015-Sciatica_Booklet-_Ara-1.jpg",
             "./docs/Ortho/06-Back/Thumbnail/015-Sciatica_Booklet-_Ara-2.jpg",
             "./docs/Ortho/06-Back/Thumbnail/015-Sciatica_Booklet-_Ara-3.jpg",
@@ -5497,7 +5497,7 @@ const ortho = {
             "./docs/Ortho/06-Back/Big/015-Sciatica_Booklet-_Ara-12.jpg",
          ],
          "araQRCode":"./docs/Ortho/06-Back/QRcode/015-Sciatica_Booklet-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AAC1VxP97daC8ZV4nxFMJ4wma/015-Sciatica_Booklet-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AACn1GvXvFXnOj8ES6c1-NOma/015-Sciatica_Booklet-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAB7gNthkxD28GB_iF4BoiI0a/015-Sciatica_Booklet-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AACOyZFmTmRkArL1OgkcQ1xFa/015-Sciatica_Booklet-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAD7pemMpoFaDwwTxB4tCz9ba/015-Sciatica_Booklet-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AADIDNFn00kh7M8DLxcP-w1oa/015-Sciatica_Booklet-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAC6uI9UcMCHsdt6dwu4WHkea/015-Sciatica_Booklet-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AADMj3Tg56SCymsL-cRyUeGPa/015-Sciatica_Booklet-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAANI_XQobtAgwq6Ape6OOz2a/015-Sciatica_Booklet-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAAODi7y_AJRdaXORqX6BvPpa/015-Sciatica_Booklet-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AADTzGq4bmQpD09SsWA9VTdIa/015-Sciatica_Booklet-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AACEySa8-3qPEa_304RGI068a/015-Sciatica_Booklet-_Ara-12.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AAC1VxP97daC8ZV4nxFMJ4wma/015-Sciatica_Booklet-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AACn1GvXvFXnOj8ES6c1-NOma/015-Sciatica_Booklet-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAB7gNthkxD28GB_iF4BoiI0a/015-Sciatica_Booklet-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AACOyZFmTmRkArL1OgkcQ1xFa/015-Sciatica_Booklet-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAD7pemMpoFaDwwTxB4tCz9ba/015-Sciatica_Booklet-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AADIDNFn00kh7M8DLxcP-w1oa/015-Sciatica_Booklet-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAC6uI9UcMCHsdt6dwu4WHkea/015-Sciatica_Booklet-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AADMj3Tg56SCymsL-cRyUeGPa/015-Sciatica_Booklet-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAANI_XQobtAgwq6Ape6OOz2a/015-Sciatica_Booklet-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAAODi7y_AJRdaXORqX6BvPpa/015-Sciatica_Booklet-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AADTzGq4bmQpD09SsWA9VTdIa/015-Sciatica_Booklet-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AACEySa8-3qPEa_304RGI068a/015-Sciatica_Booklet-_Ara-12.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAB-Qic5EdYmwB-P7XJ9rfHza/015-Sciatica_Booklet-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAAAzdtq673DLxhBepVArh0Pa/015-Sciatica_Booklet-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AABy-1bnQIyCtR0LjlKIAoM9a/015-Sciatica_Booklet-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAAbEbcEW0O9S47RSd3HIwiya/015-Sciatica_Booklet-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAD2zKv1ah0HWSTmhDjxGuNFa/015-Sciatica_Booklet-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AACJ6-LaparM2F3NoOmQSSFxa/015-Sciatica_Booklet-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAAWn0WnW1OmiuYVXi8WGHxia/015-Sciatica_Booklet-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AACHVlJy1_6KK9ZOxcqs9rwga/015-Sciatica_Booklet-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AADp-H_zbKAdHkl1ShtxO4U5a/015-Sciatica_Booklet-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AABeJJK7pDY17ZHVCsNW52L9a/015-Sciatica_Booklet-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AADl8ajEqzhfS2EQaqkKCKPwa/015-Sciatica_Booklet-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AABEWp98xQWyuuqb_N3g2lkua/015-Sciatica_Booklet-_Ara-12.jpg?raw=1",],
          "tags":[ "Sciatica"],
          "araDir": "./docs/Ortho/06-Back/015-Sciatica_Booklet-_Ara.pdf",
@@ -5506,14 +5506,14 @@ const ortho = {
       {
          "id": "OrBk016",
          "title":"Back General Exercises",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/06-Back/Thumbnail/016-Back_General_Exercises_-_Ara.jpg",
          ],
          "bigImgs":[
             "./docs/Ortho/06-Back/Big/016-Back_General_Exercises_-_Ara.jpg",
          ],
          "araQRCode":"./docs/Ortho/06-Back/QRcode/016-Back_General_Exercises_-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AABBA4i7yG9lObtvMfQlh-vva/016-Back_General_Exercises_-_Ara.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AABBA4i7yG9lObtvMfQlh-vva/016-Back_General_Exercises_-_Ara.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AABxtpJWNlk7eYssIO0H5KYZa/016-Back_General_Exercises_-_Ara.jpg?raw=1",],
          "tags":[ "LBP", "Back Strengthening Exe", "Back Stretching Exe"],
          "araDir": "./docs/Ortho/06-Back/016-Back_General_Exercises_-_Ara.pdf",
@@ -5522,7 +5522,7 @@ const ortho = {
       {
          "id": "OrBk017",
          "title":"General Back Exercises",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/06-Back/Thumbnail/017-General_Back_Exercises_-_Ara-1.jpg",
             "./docs/Ortho/06-Back/Thumbnail/017-General_Back_Exercises_-_Ara-2.jpg",
          ],
@@ -5531,7 +5531,7 @@ const ortho = {
             "./docs/Ortho/06-Back/Big/017-General_Back_Exercises_-_Ara-2.jpg",
          ],
          "araQRCode":"./docs/Ortho/06-Back/QRcode/017-General_Back_Exercises_-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AAC53CGx0WD-V8vLhWAK7rn1a/017-General_Back_Exercises_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAAhSZ5vDMy2MqawQ1JDAcM2a/017-General_Back_Exercises_-_Ara-2.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AAC53CGx0WD-V8vLhWAK7rn1a/017-General_Back_Exercises_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/xm3zflv50esj8g2/AAAhSZ5vDMy2MqawQ1JDAcM2a/017-General_Back_Exercises_-_Ara-2.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AACI6GvSqi4azor8oUBRosS4a/017-General_Back_Exercises_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AADM1H8pCRVD6hZRImzavitka/017-General_Back_Exercises_-_Ara-2.jpg?raw=1",],
          "tags":[ "LBP", "Back Strengthening Exe", "Back Stretching Exe"],
          "araDir": "./docs/Ortho/06-Back/017-General_Back_Exercises_-_Ara.pdf",
@@ -5540,14 +5540,14 @@ const ortho = {
       {
          "id": "OrBk018",
          "title":"Low Back Pain Exercises",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/06-Back/Thumbnail/018-Low_Back_Pain_Exercises_-_Ara.jpg",
          ],
          "bigImgs":[
             "./docs/Ortho/06-Back/Big/018-Low_Back_Pain_Exercises_-_Ara.jpg",
          ],
          "araQRCode":"./docs/Ortho/06-Back/QRcode/018-Low_Back_Pain_Exercises_-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AABkk4Zr9yFT1ZEN9LDl2fN9a/018-Low_Back_Pain_Exercises_-_Ara.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/xm3zflv50esj8g2/AABkk4Zr9yFT1ZEN9LDl2fN9a/018-Low_Back_Pain_Exercises_-_Ara.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/mq8u1jl9wycl4w8/AAB2YgSTZZ554zTsB3DsDqnza/018-Low_Back_Pain_Exercises_-_Ara.jpg?raw=1",],
          "tags":[ "LBP", "Back Strengthening Exe", "Back Stretching Exe"],
          "araDir": "./docs/Ortho/06-Back/018-Low_Back_Pain_Exercises_-_Ara.jpg",
@@ -5558,7 +5558,7 @@ const ortho = {
       {
          "id": "OrHp001",
          "title":"GROIN PAIN IN ATHELETES",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/07-Hip/Thumbnail/001-GROIN_PAIN_IN_ATHELETES_-_Ara-1.jpg",
             "./docs/Ortho/07-Hip/Thumbnail/001-GROIN_PAIN_IN_ATHELETES_-_Ara-2.jpg",
             "./docs/Ortho/07-Hip/Thumbnail/001-GROIN_PAIN_IN_ATHELETES_-_Ara-3.jpg",
@@ -5580,7 +5580,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/07-Hip/QRcode/001-GROIN_PAIN_IN_ATHELETES_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/07-Hip/QRcode/001-GROIN_PAIN_IN_ATHELETES_-_Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AABEPblburBTlXE1hYwU5g26a/001-GROIN_PAIN_IN_ATHELETES_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AAD6bpWaSK3_Y5I9A9WgGsQVa/001-GROIN_PAIN_IN_ATHELETES_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AACFl5VAq6YbV5jMu1K8gp4Wa/001-GROIN_PAIN_IN_ATHELETES_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AADib3lAy8yzkOjjT77crf5sa/001-GROIN_PAIN_IN_ATHELETES_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AACJjEyLtkmSpdzRvLQOUcYha/001-GROIN_PAIN_IN_ATHELETES_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AADANLIK_hl16FjjYpAF0-Iya/001-GROIN_PAIN_IN_ATHELETES_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AACwlQchpxhlcFTrOgbs4ISTa/001-GROIN_PAIN_IN_ATHELETES_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AACWB5zNXRk1t1-9XIIamknVa/001-GROIN_PAIN_IN_ATHELETES_-_Eng-4.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AABEPblburBTlXE1hYwU5g26a/001-GROIN_PAIN_IN_ATHELETES_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AAD6bpWaSK3_Y5I9A9WgGsQVa/001-GROIN_PAIN_IN_ATHELETES_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AACFl5VAq6YbV5jMu1K8gp4Wa/001-GROIN_PAIN_IN_ATHELETES_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AADib3lAy8yzkOjjT77crf5sa/001-GROIN_PAIN_IN_ATHELETES_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AACJjEyLtkmSpdzRvLQOUcYha/001-GROIN_PAIN_IN_ATHELETES_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AADANLIK_hl16FjjYpAF0-Iya/001-GROIN_PAIN_IN_ATHELETES_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AACwlQchpxhlcFTrOgbs4ISTa/001-GROIN_PAIN_IN_ATHELETES_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AACWB5zNXRk1t1-9XIIamknVa/001-GROIN_PAIN_IN_ATHELETES_-_Eng-4.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AABE4BFJFBr5FAyQIuOHtLN8a/001-GROIN_PAIN_IN_ATHELETES_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AADVVG_EYwYx8z7J0s9dt2kca/001-GROIN_PAIN_IN_ATHELETES_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AACGVXKIv7Srs1N9RTd54SMia/001-GROIN_PAIN_IN_ATHELETES_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AACsMA5nKM1OFHNlYGq3zWsNa/001-GROIN_PAIN_IN_ATHELETES_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AAB4syobWa8AJuToc885TDGwa/001-GROIN_PAIN_IN_ATHELETES_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AAAwYGSECdHkSkxifNuyzbnca/001-GROIN_PAIN_IN_ATHELETES_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AAALC25iF8ZJsJD0dPec04Goa/001-GROIN_PAIN_IN_ATHELETES_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AABxj0h6EphSq4ORRrR5q3vha/001-GROIN_PAIN_IN_ATHELETES_-_Eng-4.jpg?raw=1",],
          "tags":[ "Groin Pain","Hip Adductor Muscle Strain" , "Prevention", "Rehabilitation"],
          "araDir": "./docs/Ortho/07-Hip/001-GROIN_PAIN_IN_ATHELETES_-_Ara.pdf",
@@ -5591,7 +5591,7 @@ const ortho = {
       {
          "id": "OrHp002",
          "title":"Femoroacetabular Impingement (FAI)",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/07-Hip/Thumbnail/002-FAI_-_Ara-1.jpg",
             "./docs/Ortho/07-Hip/Thumbnail/002-FAI_-_Ara-2.jpg",
             "./docs/Ortho/07-Hip/Thumbnail/002-FAI_-_Ara-3.jpg",
@@ -5613,7 +5613,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/07-Hip/QRcode/002-FAI_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/07-Hip/QRcode/002-FAI_-_Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AADBxIayE-Fe8viuWbtLPPC6a/002-FAI_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AAAwTZWkI-zbDH-qQzsbhUDxa/002-FAI_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AADvDbSAzTxJi2oZRJmSNIYDa/002-FAI_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AACug9Kux-HzijsWBQ6fchGPa/002-FAI_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AADQW8ayMT11HA_ZeOXY-76ba/002-FAI_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AAAEsuyyF4-ejKXMM5nWQfHGa/002-FAI_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AAAJwdtLsxdvftX4aoRByaZKa/002-FAI_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AADGvsG02uP9RrPIDa8mncEVa/002-FAI_-_Eng-4.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AADBxIayE-Fe8viuWbtLPPC6a/002-FAI_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AAAwTZWkI-zbDH-qQzsbhUDxa/002-FAI_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AADvDbSAzTxJi2oZRJmSNIYDa/002-FAI_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AACug9Kux-HzijsWBQ6fchGPa/002-FAI_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AADQW8ayMT11HA_ZeOXY-76ba/002-FAI_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AAAEsuyyF4-ejKXMM5nWQfHGa/002-FAI_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AAAJwdtLsxdvftX4aoRByaZKa/002-FAI_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AADGvsG02uP9RrPIDa8mncEVa/002-FAI_-_Eng-4.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AADVCe-iXiFlhYoYI8XGg_nIa/002-FAI_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AADkiCRvn3moij8knhMmGQxva/002-FAI_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AADQlXboU37op-TJo4pNiPFza/002-FAI_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AAA5-Ua6-NDOI3usX6wymYBga/002-FAI_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AAA-Vc1t9xWgsPPrl3DhNZuba/002-FAI_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AAAqaVi3FUYb_J_DYEmMbQrOa/002-FAI_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AABNtMIyK4Fv0zb4cZlFIwrKa/002-FAI_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AADcGTlCAXiFRbsQ7FRu4qAHa/002-FAI_-_Eng-4.jpg?raw=1",],
          "tags":[ "FAI", "Femoroacetabular Impingement", "Hip", "Hip mobilization", "Hip Strenthening Exe", "Hip Stretching Exe"],
          "araDir": "./docs/Ortho/07-Hip/002-FAI_-_Ara.pdf",
@@ -5624,7 +5624,7 @@ const ortho = {
       {
          "id": "OrHp003",
          "title":"Hip Pain",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/07-Hip/Thumbnail/003-Hip_Pain_-_Ara-1.jpg",
             "./docs/Ortho/07-Hip/Thumbnail/003-Hip_Pain_-_Ara-2.jpg",
             "./docs/Ortho/07-Hip/Thumbnail/003-Hip_Pain_-_Eng-1.jpg",
@@ -5638,7 +5638,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/07-Hip/QRcode/003-Hip_Pain_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/07-Hip/QRcode/003-Hip_Pain_-_Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AAD3nGRfl86cjZRImGu6zZFLa/003-Hip_Pain_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AADtPQgbLM1sWkmKKjLcvSuDa/003-Hip_Pain_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AABbku8r35b7QwIrVLPEGNq8a/003-Hip_Pain_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AAC66SCJBI_pLrh0b05fPuLMa/003-Hip_Pain_-_Eng-2.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AAD3nGRfl86cjZRImGu6zZFLa/003-Hip_Pain_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AADtPQgbLM1sWkmKKjLcvSuDa/003-Hip_Pain_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AABbku8r35b7QwIrVLPEGNq8a/003-Hip_Pain_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AAC66SCJBI_pLrh0b05fPuLMa/003-Hip_Pain_-_Eng-2.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AAAULY3epEpN3kWHrBrQudyia/003-Hip_Pain_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AACmzSmtXeWYsjJUhZw0NjVwa/003-Hip_Pain_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AAAakVIDDPq_bIMma4R_eBsCa/003-Hip_Pain_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AABkv3oX09hcxIES_GhB9K3ca/003-Hip_Pain_-_Eng-2.jpg?raw=1",],
          "tags":[ "Hip Pain", "Hip Strenthening Exe", "Hip Stretching Exe"],
          "araDir": "./docs/Ortho/07-Hip/003-Hip_Pain_-_Ara.pdf",
@@ -5649,7 +5649,7 @@ const ortho = {
       {
          "id": "OrHp004",
          "title":"Piriformis Syndrom",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/07-Hip/Thumbnail/004-Piriformis_Syndrom_-_Ara-1.jpg",
             "./docs/Ortho/07-Hip/Thumbnail/004-Piriformis_Syndrom_-_Ara-2.jpg",
             "./docs/Ortho/07-Hip/Thumbnail/004-Piriformis_Syndrom_-_Ara-3.jpg",
@@ -5675,7 +5675,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/07-Hip/QRcode/004-Piriformis_Syndrom_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/07-Hip/QRcode/004-Piriformis_Syndrom_-_Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AAB-8aUmsip6bOiylA2GyqSwa/004-Piriformis_Syndrom_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AAAzDNnRlK_GP3gn8cn_r1XPa/004-Piriformis_Syndrom_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AAD-YByqvN3EhVkauTc5-Kqea/004-Piriformis_Syndrom_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AAC-idL6wTzYno1o6H4Cy_B1a/004-Piriformis_Syndrom_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AABhpwqsRE55VdmRzFKJkzYZa/004-Piriformis_Syndrom_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AAAHh6AzuyoDI9HmsxAA7z0oa/004-Piriformis_Syndrom_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AABlZCOi-dNucR8LhV9K8INKa/004-Piriformis_Syndrom_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AAAID6n13DMl78IRAX4wjQO_a/004-Piriformis_Syndrom_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AADbx8LoV6P59N6RHRv7s16xa/004-Piriformis_Syndrom_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AABGK9pGxMy1Suqc1k_6NAyEa/004-Piriformis_Syndrom_-_Eng-5.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AAB-8aUmsip6bOiylA2GyqSwa/004-Piriformis_Syndrom_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AAAzDNnRlK_GP3gn8cn_r1XPa/004-Piriformis_Syndrom_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AAD-YByqvN3EhVkauTc5-Kqea/004-Piriformis_Syndrom_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AAC-idL6wTzYno1o6H4Cy_B1a/004-Piriformis_Syndrom_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AABhpwqsRE55VdmRzFKJkzYZa/004-Piriformis_Syndrom_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AAAHh6AzuyoDI9HmsxAA7z0oa/004-Piriformis_Syndrom_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AABlZCOi-dNucR8LhV9K8INKa/004-Piriformis_Syndrom_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AAAID6n13DMl78IRAX4wjQO_a/004-Piriformis_Syndrom_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AADbx8LoV6P59N6RHRv7s16xa/004-Piriformis_Syndrom_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AABGK9pGxMy1Suqc1k_6NAyEa/004-Piriformis_Syndrom_-_Eng-5.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AAAQFB-KzcJEr-q8yhJEqPBIa/004-Piriformis_Syndrom_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AAD_VIA-WMApXwwXGjfI7Sr8a/004-Piriformis_Syndrom_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AAAk1Zdy11gqMMiAhueqDLPCa/004-Piriformis_Syndrom_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AABizgqm1HbdNkLDO8WPMlWIa/004-Piriformis_Syndrom_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AABqVVjHgoJSzc7a1R9ujQzsa/004-Piriformis_Syndrom_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AADxWDXAL4XqpJ-XW9ayN-6Sa/004-Piriformis_Syndrom_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AAAI2N_FUcXb-An86hSeubVza/004-Piriformis_Syndrom_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AADw5aAwflfnG3WsrVo6jYwga/004-Piriformis_Syndrom_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AABgkbvw5eoLxjggruUIKgbWa/004-Piriformis_Syndrom_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AAAYp00QLDSqUpJHjdLhz0xta/004-Piriformis_Syndrom_-_Eng-5.jpg?raw=1",],
          "tags":[ "Piriformis Syndrom", "LBP", "Sciatica"],
          "araDir": "./docs/Ortho/07-Hip/004-Piriformis_Syndrom_-_Ara.pdf",
@@ -5686,7 +5686,7 @@ const ortho = {
       {
          "id": "OrHp005",
          "title":"Groin Adductor muscle Strain",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/07-Hip/Thumbnail/005-Groin_Adductor_muscle_Strain_-_Ara-1.jpg",
             "./docs/Ortho/07-Hip/Thumbnail/005-Groin_Adductor_muscle_Strain_-_Ara-2.jpg",
             "./docs/Ortho/07-Hip/Thumbnail/005-Groin_Adductor_muscle_Strain_-_Ara-3.jpg",
@@ -5697,7 +5697,7 @@ const ortho = {
             "./docs/Ortho/07-Hip/Big/005-Groin_Adductor_muscle_Strain_-_Ara-3.jpg",
          ],
          "araQRCode":"./docs/Ortho/07-Hip/QRcode/005-Groin_Adductor_muscle_Strain_-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AAATvN4fYA-OgpYzecdT5ubxa/005-Groin_Adductor_muscle_Strain_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AABco38z7kv9_-m7xYmNnLOqa/005-Groin_Adductor_muscle_Strain_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AABt3Agy1ed7BLicU5N0QWyta/005-Groin_Adductor_muscle_Strain_-_Ara-3.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AAATvN4fYA-OgpYzecdT5ubxa/005-Groin_Adductor_muscle_Strain_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AABco38z7kv9_-m7xYmNnLOqa/005-Groin_Adductor_muscle_Strain_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/g8f9fmn0tcsymsr/AABt3Agy1ed7BLicU5N0QWyta/005-Groin_Adductor_muscle_Strain_-_Ara-3.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AAAI0RmTB53ggT_gYqfrF_J6a/005-Groin_Adductor_muscle_Strain_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AACv8cW9LJT8FBK4RPGqc9rTa/005-Groin_Adductor_muscle_Strain_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/2zsj8ix9ibxswkq/AADXhEcLQMhEX6dTo6-xRqNFa/005-Groin_Adductor_muscle_Strain_-_Ara-3.jpg?raw=1",],
          "tags":[ "Groin Pain", "Hip Adductor muscle Strain"],
          "araDir": "./docs/Ortho/07-Hip/005-Groin_Adductor_muscle_Strain_-_Ara.pdf",
@@ -5708,7 +5708,7 @@ const ortho = {
       {
          "id": "OrKn001",
          "title":"Iliotibial Band Syndrome (ITB)",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/08-knee/Thumbnail/001-ITB_-Ara-1.jpg",
             "./docs/Ortho/08-knee/Thumbnail/001-ITB_-Ara-2.jpg",
             "./docs/Ortho/08-knee/Thumbnail/001-ITB_-Ara-3.jpg",
@@ -5730,7 +5730,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/08-knee/QRcode/001-ITB_-Ara.jpg",
          "engQRCode":"./docs/Ortho/08-knee/QRcode/001-ITB_-Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/czwr8njj9retgon/AABchhnedmlp6x86UHQDDHCua/001-ITB_-Ara-1.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AACbrKbfUdZ9X38Yo32W9XyJa/001-ITB_-Ara-2.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AADtS9Zn1dFXJZSk8nUEyOFEa/001-ITB_-Ara-3.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AACNPxvz6Fcr2Zw7KOcX2rh7a/001-ITB_-Ara-4.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AACey_gKqhg-TEMpOkQTIsGfa/001-ITB_-Eng-1.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAAhjH7S-GuIV3z0_6rT5Kfwa/001-ITB_-Eng-2.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAApwdrLZCvWvIuYK_6KZdPAa/001-ITB_-Eng-3.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AACJefYgTzYL-8uSo63157IHa/001-ITB_-Eng-4.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/czwr8njj9retgon/AABchhnedmlp6x86UHQDDHCua/001-ITB_-Ara-1.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AACbrKbfUdZ9X38Yo32W9XyJa/001-ITB_-Ara-2.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AADtS9Zn1dFXJZSk8nUEyOFEa/001-ITB_-Ara-3.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AACNPxvz6Fcr2Zw7KOcX2rh7a/001-ITB_-Ara-4.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AACey_gKqhg-TEMpOkQTIsGfa/001-ITB_-Eng-1.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAAhjH7S-GuIV3z0_6rT5Kfwa/001-ITB_-Eng-2.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAApwdrLZCvWvIuYK_6KZdPAa/001-ITB_-Eng-3.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AACJefYgTzYL-8uSo63157IHa/001-ITB_-Eng-4.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/dttyr8fhy64okrp/AAATK14EP15iXHu_70QhTahWa/001-ITB_-Ara-1.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AADfDNOVlRsLTiilxhyJP8B4a/001-ITB_-Ara-2.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AADsU7N74HxNYFRL9aG6t6moa/001-ITB_-Ara-3.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AADng8UItTXFkEknvkkeV3A_a/001-ITB_-Ara-4.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AACSrIsXh4-NjVoQUH2QTP66a/001-ITB_-Eng-1.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AAAvPMpT8vQR7vm9Cdm8S_j9a/001-ITB_-Eng-2.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AADtNTFTtfcBO9DIFaCW4tiqa/001-ITB_-Eng-3.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AACz6rmcb5mMxQ37m8e1hxhka/001-ITB_-Eng-4.jpg?raw=1",],
          "tags":[ "Iliotibial Band Syndrome", "ITB", "Hip Stretching Exe", "Hip Strenthening Exe", "Knee Stretching Exe", "Knee Strenthening Exe"],
          "araDir": "./docs/Ortho/08-knee/001-ITB_-Ara.pdf",
@@ -5741,7 +5741,7 @@ const ortho = {
       {
          "id": "OrKn002",
          "title":"Chondromalacia Patalla",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/08-knee/Thumbnail/002-Chondromalacia_Patalla_-_Ara-1.jpg",
             "./docs/Ortho/08-knee/Thumbnail/002-Chondromalacia_Patalla_-_Ara-2.jpg",
             "./docs/Ortho/08-knee/Thumbnail/002-Chondromalacia_Patalla_-_Ara-3.jpg",
@@ -5771,7 +5771,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/08-knee/QRcode/002-Chondromalacia_Patalla_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/08-knee/QRcode/002-Chondromalacia_Patalla_-_Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/czwr8njj9retgon/AADzwzFBpBb3u51R8GqIyyMqa/002-Chondromalacia_Patalla_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AACIO1Kyxu23hIVWcOmGl3cKa/002-Chondromalacia_Patalla_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAClpABwC4zZ0FZ230GumemAa/002-Chondromalacia_Patalla_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAA3N1YXL8a_yB16-AzT4LNQa/002-Chondromalacia_Patalla_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAC87eYau06R5TybnixFMTPWa/002-Chondromalacia_Patalla_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AABKXXNbDpwbeZEfrpIAtij3a/002-Chondromalacia_Patalla_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAC2titdtkoggY-uSQ1mUdjga/002-Chondromalacia_Patalla_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AADWp2j8ROG4crrILHkdug3ua/002-Chondromalacia_Patalla_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAAEoVPg1bHTpdcOGudcuhvZa/002-Chondromalacia_Patalla_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AADgp5g4qCe7hb1ekUo8GC0ya/002-Chondromalacia_Patalla_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AADQRQWyzDmXLggDIdToKxIta/002-Chondromalacia_Patalla_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AABX0RZYEgV30mdue9gWspTNa/002-Chondromalacia_Patalla_-_Eng-6.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/czwr8njj9retgon/AADzwzFBpBb3u51R8GqIyyMqa/002-Chondromalacia_Patalla_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AACIO1Kyxu23hIVWcOmGl3cKa/002-Chondromalacia_Patalla_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAClpABwC4zZ0FZ230GumemAa/002-Chondromalacia_Patalla_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAA3N1YXL8a_yB16-AzT4LNQa/002-Chondromalacia_Patalla_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAC87eYau06R5TybnixFMTPWa/002-Chondromalacia_Patalla_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AABKXXNbDpwbeZEfrpIAtij3a/002-Chondromalacia_Patalla_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAC2titdtkoggY-uSQ1mUdjga/002-Chondromalacia_Patalla_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AADWp2j8ROG4crrILHkdug3ua/002-Chondromalacia_Patalla_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAAEoVPg1bHTpdcOGudcuhvZa/002-Chondromalacia_Patalla_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AADgp5g4qCe7hb1ekUo8GC0ya/002-Chondromalacia_Patalla_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AADQRQWyzDmXLggDIdToKxIta/002-Chondromalacia_Patalla_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AABX0RZYEgV30mdue9gWspTNa/002-Chondromalacia_Patalla_-_Eng-6.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/dttyr8fhy64okrp/AADPtkkktPTzgt3pzECMHfTFa/002-Chondromalacia_Patalla_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AAAeBe3E0QiJtOjOngo37SOna/002-Chondromalacia_Patalla_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AABEBvtNZfvW-jQa9A_6iVcAa/002-Chondromalacia_Patalla_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AAB41YUcmVAxIugMcmBTNatUa/002-Chondromalacia_Patalla_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AACc_SLwfAPqLCNHD-JdABcIa/002-Chondromalacia_Patalla_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AAAkb2hFtoz8qahyPMNaT3Gba/002-Chondromalacia_Patalla_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AADHEghZSJMjdvjetiHEGZ4Fa/002-Chondromalacia_Patalla_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AADrobG0QrTTS6wVYd1mG0cUa/002-Chondromalacia_Patalla_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AADirV8BFFOcKETIw2YREMg7a/002-Chondromalacia_Patalla_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AADWDiCfazql2YkA_TfRiwe0a/002-Chondromalacia_Patalla_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AACE1qlSAVROXvxdHUfnNYQfa/002-Chondromalacia_Patalla_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AACUyFmWrCn1g7tmAiRuHEs5a/002-Chondromalacia_Patalla_-_Eng-6.jpg?raw=1",],
          "tags":[ "Chondromalacia Patalla", "Patellofemoral dysfunction", "Hip Stretching Exe", "Hip Strenthening Exe", "Knee Stretching Exe", "Knee Strenthening Exe"],
          "araDir": "./docs/Ortho/08-knee/002-Chondromalacia_Patalla_-_Ara.pdf",
@@ -5782,7 +5782,7 @@ const ortho = {
       {
          "id": "OrKn003",
          "title":"knee pain",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/08-knee/Thumbnail/003-knee_pain_-_Ara-1.jpg",
             "./docs/Ortho/08-knee/Thumbnail/003-knee_pain_-_Ara-2.jpg",
             "./docs/Ortho/08-knee/Thumbnail/003-knee_pain_-_Ara-3.jpg",
@@ -5800,7 +5800,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/08-knee/QRcode/003-knee_pain_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/08-knee/QRcode/003-knee_pain_-_Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/czwr8njj9retgon/AACEqAp2DVfEorDh6Rn5Dl3ta/003-knee_pain_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAB8YdzQ6ZymLbPZ3d2a6t1ca/003-knee_pain_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AACdehLZWb5ecO34VJWJCWbra/003-knee_pain_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AABgWwWYgj6j5VRSPFVFvlDza/003-knee_pain_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AACpI-7a1ffVcQRKwujxSmZ5a/003-knee_pain_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AACa0wJwTue5ruai4cKw_1UKa/003-knee_pain_-_Eng-3.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/czwr8njj9retgon/AACEqAp2DVfEorDh6Rn5Dl3ta/003-knee_pain_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAB8YdzQ6ZymLbPZ3d2a6t1ca/003-knee_pain_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AACdehLZWb5ecO34VJWJCWbra/003-knee_pain_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AABgWwWYgj6j5VRSPFVFvlDza/003-knee_pain_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AACpI-7a1ffVcQRKwujxSmZ5a/003-knee_pain_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AACa0wJwTue5ruai4cKw_1UKa/003-knee_pain_-_Eng-3.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/dttyr8fhy64okrp/AAC7GpcE9QgyYN3OkRlO2a6Qa/003-knee_pain_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AAAYaZZC5thot4K6WofbzNaea/003-knee_pain_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AABjCJl8MRqXQunf4KzeUKzMa/003-knee_pain_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AAAq96sxY913PkcrT0wlfIfla/003-knee_pain_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AACSDLV6fAFpTILBcCRurTvGa/003-knee_pain_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AAC5D5u2thESKAhHwYdb11EBa/003-knee_pain_-_Eng-3.jpg?raw=1",],
          "tags":[ "Knee Pain", "Knee ROM Exe", "Knee Strenthening Exe", "Hip Strenthening Exe"],
          "araDir": "./docs/Ortho/08-knee/003-knee_pain_-_Ara.pdf",
@@ -5811,7 +5811,7 @@ const ortho = {
       {
          "id": "OrKn004",
          "title":"Post TKR Rehabilitaiton Program",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/08-knee/Thumbnail/004-Post_TKR_Rehabilitaiton_Program_-_Ara-1.jpg",
             "./docs/Ortho/08-knee/Thumbnail/004-Post_TKR_Rehabilitaiton_Program_-_Ara-2.jpg",
             "./docs/Ortho/08-knee/Thumbnail/004-Post_TKR_Rehabilitaiton_Program_-_Ara-3.jpg",
@@ -5877,7 +5877,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/08-knee/QRcode/004-Post_TKR_Rehabilitaiton_Program_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/08-knee/QRcode/004-Post_TKR_Rehabilitaiton_Program_-_Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/czwr8njj9retgon/AAA09i3rjii4_W4cYDlhOSa3a/004-Post_TKR_Rehabilitaiton_Program_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAC10hQ2MbBAVZUCOP4voGYka/004-Post_TKR_Rehabilitaiton_Program_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AABVTeEwLN5eeS46Ube208aSa/004-Post_TKR_Rehabilitaiton_Program_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAAubPHkg2a2Sg7YnvBe2FWba/004-Post_TKR_Rehabilitaiton_Program_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAAvOfUMPV0eSKREt3NrNwuda/004-Post_TKR_Rehabilitaiton_Program_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AADEnueYvSUsD8r_APmqiGATa/004-Post_TKR_Rehabilitaiton_Program_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AABUJVanCv70IaWf7jFzg4JQa/004-Post_TKR_Rehabilitaiton_Program_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAC1vhjdElwpaa66RURP2EbYa/004-Post_TKR_Rehabilitaiton_Program_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAAIjUAClj7CxF--ESGpzWIBa/004-Post_TKR_Rehabilitaiton_Program_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAA1HQUNRb-putLPnCbQM4Zka/004-Post_TKR_Rehabilitaiton_Program_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AACpej-Uq6gqk8m9ph1lgz_Ba/004-Post_TKR_Rehabilitaiton_Program_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AABjF_fez5ybYvVK4mY_zZT3a/004-Post_TKR_Rehabilitaiton_Program_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AABO-xCgp7DEGZtdTBofqJfBa/004-Post_TKR_Rehabilitaiton_Program_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAD3p8cW2F35QZe_LY6-1QUBa/004-Post_TKR_Rehabilitaiton_Program_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAAozXRFqPStdnxXvQoo6cS4a/004-Post_TKR_Rehabilitaiton_Program_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AADPxciWRtOnThCCx4jRpGEpa/004-Post_TKR_Rehabilitaiton_Program_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAB-67EHXRDD99bs89n6jpV0a/004-Post_TKR_Rehabilitaiton_Program_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AADGz21_d2CpJub2HzY2J2PPa/004-Post_TKR_Rehabilitaiton_Program_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAC-syxcmsrqqES0FjqrMTPha/004-Post_TKR_Rehabilitaiton_Program_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAC5W2mpQbd2WrGgs3l1epP4a/004-Post_TKR_Rehabilitaiton_Program_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAAxMDNdGsFELnPdBmakcZ2sa/004-Post_TKR_Rehabilitaiton_Program_-_Eng-6.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAD5sLzSPyOyIiauq5mpsBv8a/004-Post_TKR_Rehabilitaiton_Program_-_Eng-7.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AACJm1im1_xTP8r682HXLbVwa/004-Post_TKR_Rehabilitaiton_Program_-_Eng-8.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AABFwwlGYqNE_elYKtn_pfGxa/004-Post_TKR_Rehabilitaiton_Program_-_Eng-9.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AADbHy2nwv4WFcrdtfL97atDa/004-Post_TKR_Rehabilitaiton_Program_-_Eng-10.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AADsmsEpJBp2WT08RENK6skRa/004-Post_TKR_Rehabilitaiton_Program_-_Eng-11.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AADQNl3vl0cYFXNh0ifTwQKxa/004-Post_TKR_Rehabilitaiton_Program_-_Eng-12.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAD9xo2qeCne74ejePjecyEVa/004-Post_TKR_Rehabilitaiton_Program_-_Eng-13.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AABkiiZm70epbPGcHb9r47Bwa/004-Post_TKR_Rehabilitaiton_Program_-_Eng-14.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AACmUf5S96Abh_RNhw3BS_aba/004-Post_TKR_Rehabilitaiton_Program_-_Eng-15.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/czwr8njj9retgon/AAA09i3rjii4_W4cYDlhOSa3a/004-Post_TKR_Rehabilitaiton_Program_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAC10hQ2MbBAVZUCOP4voGYka/004-Post_TKR_Rehabilitaiton_Program_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AABVTeEwLN5eeS46Ube208aSa/004-Post_TKR_Rehabilitaiton_Program_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAAubPHkg2a2Sg7YnvBe2FWba/004-Post_TKR_Rehabilitaiton_Program_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAAvOfUMPV0eSKREt3NrNwuda/004-Post_TKR_Rehabilitaiton_Program_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AADEnueYvSUsD8r_APmqiGATa/004-Post_TKR_Rehabilitaiton_Program_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AABUJVanCv70IaWf7jFzg4JQa/004-Post_TKR_Rehabilitaiton_Program_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAC1vhjdElwpaa66RURP2EbYa/004-Post_TKR_Rehabilitaiton_Program_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAAIjUAClj7CxF--ESGpzWIBa/004-Post_TKR_Rehabilitaiton_Program_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAA1HQUNRb-putLPnCbQM4Zka/004-Post_TKR_Rehabilitaiton_Program_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AACpej-Uq6gqk8m9ph1lgz_Ba/004-Post_TKR_Rehabilitaiton_Program_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AABjF_fez5ybYvVK4mY_zZT3a/004-Post_TKR_Rehabilitaiton_Program_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AABO-xCgp7DEGZtdTBofqJfBa/004-Post_TKR_Rehabilitaiton_Program_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAD3p8cW2F35QZe_LY6-1QUBa/004-Post_TKR_Rehabilitaiton_Program_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAAozXRFqPStdnxXvQoo6cS4a/004-Post_TKR_Rehabilitaiton_Program_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AADPxciWRtOnThCCx4jRpGEpa/004-Post_TKR_Rehabilitaiton_Program_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAB-67EHXRDD99bs89n6jpV0a/004-Post_TKR_Rehabilitaiton_Program_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AADGz21_d2CpJub2HzY2J2PPa/004-Post_TKR_Rehabilitaiton_Program_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAC-syxcmsrqqES0FjqrMTPha/004-Post_TKR_Rehabilitaiton_Program_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAC5W2mpQbd2WrGgs3l1epP4a/004-Post_TKR_Rehabilitaiton_Program_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAAxMDNdGsFELnPdBmakcZ2sa/004-Post_TKR_Rehabilitaiton_Program_-_Eng-6.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAD5sLzSPyOyIiauq5mpsBv8a/004-Post_TKR_Rehabilitaiton_Program_-_Eng-7.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AACJm1im1_xTP8r682HXLbVwa/004-Post_TKR_Rehabilitaiton_Program_-_Eng-8.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AABFwwlGYqNE_elYKtn_pfGxa/004-Post_TKR_Rehabilitaiton_Program_-_Eng-9.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AADbHy2nwv4WFcrdtfL97atDa/004-Post_TKR_Rehabilitaiton_Program_-_Eng-10.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AADsmsEpJBp2WT08RENK6skRa/004-Post_TKR_Rehabilitaiton_Program_-_Eng-11.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AADQNl3vl0cYFXNh0ifTwQKxa/004-Post_TKR_Rehabilitaiton_Program_-_Eng-12.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AAD9xo2qeCne74ejePjecyEVa/004-Post_TKR_Rehabilitaiton_Program_-_Eng-13.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AABkiiZm70epbPGcHb9r47Bwa/004-Post_TKR_Rehabilitaiton_Program_-_Eng-14.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AACmUf5S96Abh_RNhw3BS_aba/004-Post_TKR_Rehabilitaiton_Program_-_Eng-15.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/dttyr8fhy64okrp/AAAFCv6wGA6AxsBzcUBhb67Ra/004-Post_TKR_Rehabilitaiton_Program_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AABUfv2FCBFO9gLGvYfD3uOEa/004-Post_TKR_Rehabilitaiton_Program_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AABzbuN2hZH3pm-8FLMCSPyda/004-Post_TKR_Rehabilitaiton_Program_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AAAEo_H8YO0mRfgW2kMuxSGka/004-Post_TKR_Rehabilitaiton_Program_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AAD_K6DYgsETOYv2dxER3iIGa/004-Post_TKR_Rehabilitaiton_Program_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AADDNWDEOYdgiwVbLonEwpZWa/004-Post_TKR_Rehabilitaiton_Program_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AAD4O8fp1tZQUHAdkLxmsW25a/004-Post_TKR_Rehabilitaiton_Program_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AADyWD2Ng53cF93yjp4zM2UCa/004-Post_TKR_Rehabilitaiton_Program_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AACnUOJ5AsQkHRhQQ8laHEHCa/004-Post_TKR_Rehabilitaiton_Program_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AAAJzSp5btYPJSP_lz4boVlKa/004-Post_TKR_Rehabilitaiton_Program_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AADV8l9hKm0UY8qX0kd-TPVAa/004-Post_TKR_Rehabilitaiton_Program_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AABVVsZfYd7DLFTE30gcIN3wa/004-Post_TKR_Rehabilitaiton_Program_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AAA66OVZNMCrvJN6Y4CV2dGVa/004-Post_TKR_Rehabilitaiton_Program_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AAAvWYEE1BjNVACakX4vTGa7a/004-Post_TKR_Rehabilitaiton_Program_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AACE6sh5JnNhbjo1DirYcgKaa/004-Post_TKR_Rehabilitaiton_Program_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AADZXrVRIiPaI-sUeFXIJV4Ka/004-Post_TKR_Rehabilitaiton_Program_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AACn5_5xej_Q22B77CHum3BDa/004-Post_TKR_Rehabilitaiton_Program_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AADavlufj15hTEpVesi3fQ80a/004-Post_TKR_Rehabilitaiton_Program_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AAAbyIgc3vAjEd6OTzp3WDQra/004-Post_TKR_Rehabilitaiton_Program_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AADriGSa17WPi_USsCiFN9jka/004-Post_TKR_Rehabilitaiton_Program_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AAByT56TeuN65SO5l0FsBWY9a/004-Post_TKR_Rehabilitaiton_Program_-_Eng-6.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AAB1aCKBNtigJXn_NIwWdNlYa/004-Post_TKR_Rehabilitaiton_Program_-_Eng-7.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AACTNmB2wu6IYBIg7G4JjC-1a/004-Post_TKR_Rehabilitaiton_Program_-_Eng-8.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AAAFrtpuBgi1QCPnQXxlq3WQa/004-Post_TKR_Rehabilitaiton_Program_-_Eng-9.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AAAX9r-s6Dbu9BaxukUmnHGaa/004-Post_TKR_Rehabilitaiton_Program_-_Eng-10.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AADMBZiEaW9B3T7r3Ikpk4OTa/004-Post_TKR_Rehabilitaiton_Program_-_Eng-11.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AACog7eZJKxFhVytLiyTfOwna/004-Post_TKR_Rehabilitaiton_Program_-_Eng-12.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AADoVaYz_E23BrNZ-_lcXjPza/004-Post_TKR_Rehabilitaiton_Program_-_Eng-13.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AADlIG0I597u2OD_lzRMeDQGa/004-Post_TKR_Rehabilitaiton_Program_-_Eng-14.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AAB1xrr47M_9V1XPsIL_tq7Ka/004-Post_TKR_Rehabilitaiton_Program_-_Eng-15.jpg?raw=1",],
          "tags":[ "Total Knee Replacment", "TKR", "Knee strenthening Exe", "Knee ROM Exe", "Knee Isometric Exe"],
          "araDir": "./docs/Ortho/08-knee/004-Post_TKR_Rehabilitaiton_Program_-_Ara.pdf",
@@ -5888,14 +5888,14 @@ const ortho = {
       {
          "id": "OrKn005",
          "title":"General Knee Exercises",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/08-knee/Thumbnail/005-General_Knee_Exercises_-_Ara.jpg",
          ],
          "bigImgs":[
             "./docs/Ortho/08-knee/Big/005-General_Knee_Exercises_-_Ara.jpg",
          ],
          "araQRCode":"./docs/Ortho/08-knee/QRcode/005-General_Knee_Exercises_-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/czwr8njj9retgon/AAA8C0LJfL8BpFFQok7AUnE9a/005-General_Knee_Exercises_-_Ara.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/czwr8njj9retgon/AAA8C0LJfL8BpFFQok7AUnE9a/005-General_Knee_Exercises_-_Ara.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/dttyr8fhy64okrp/AABZ1wXqAixX6fb6lUKAHvgca/005-General_Knee_Exercises_-_Ara.jpg?raw=1",],
          "tags":[ "Knee strenthening Exe", "Knee ROM Exe", "Knee Isometric Exe"],
          "araDir": "./docs/Ortho/08-knee/005-General_Knee_Exercises_-_Ara.pdf",
@@ -5904,7 +5904,7 @@ const ortho = {
       {
          "id": "OrKn006",
          "title":"Lower Limb Exercises",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/08-knee/Thumbnail/006-Lower_Limb_Exercises_-_Ara-1.jpg",
             "./docs/Ortho/08-knee/Thumbnail/006-Lower_Limb_Exercises_-_Ara-2.jpg",
          ],
@@ -5913,7 +5913,7 @@ const ortho = {
             "./docs/Ortho/08-knee/Big/006-Lower_Limb_Exercises_-_Ara-2.jpg",
          ],
          "araQRCode":"./docs/Ortho/08-knee/QRcode/006-Lower_Limb_Exercises_-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/czwr8njj9retgon/AABnvv4BypzCfuflci-1Pfbwa/006-Lower_Limb_Exercises_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AABkNx_2D6RM3n_R_TilLpz6a/006-Lower_Limb_Exercises_-_Ara-2.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/czwr8njj9retgon/AABnvv4BypzCfuflci-1Pfbwa/006-Lower_Limb_Exercises_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/czwr8njj9retgon/AABkNx_2D6RM3n_R_TilLpz6a/006-Lower_Limb_Exercises_-_Ara-2.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/dttyr8fhy64okrp/AACVvb3XfhiWWvwZ9NjeD_Oqa/006-Lower_Limb_Exercises_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/dttyr8fhy64okrp/AADqNGbEKwQYsxwn7rpW2n47a/006-Lower_Limb_Exercises_-_Ara-2.jpg?raw=1",],
          "tags":[ "Knee strenthening Exe", "Knee Isometric Exe", "Hip strenthening Exe", "Hip Isometric Exe"],
          "araDir": "./docs/Ortho/08-knee/006-Lower_Limb_Exercises_-_Ara.pdf",
@@ -5924,7 +5924,7 @@ const ortho = {
       {
          "id": "OrFt001",
          "title":"Flat Foot",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/09-Foot/Thumbnail/001-flat_foot_-_Ara-1.jpg",
             "./docs/Ortho/09-Foot/Thumbnail/001-flat_foot_-_Ara-2.jpg",
             "./docs/Ortho/09-Foot/Thumbnail/001-flat_foot_-_Ara-3.jpg",
@@ -5950,7 +5950,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/09-Foot/QRcode/001-flat_foot_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/09-Foot/QRcode/001-flat_foot_-_Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AACUSoYeoC6gmrtv33K0P1-1a/001-flat_foot_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABTI7GFCcP1uxgx8iHP4gJda/001-flat_foot_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADqRwPCjsMF3mKJBGh3GDNka/001-flat_foot_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAAUcHJ6eV7mntnxWPnj480fa/001-flat_foot_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADAWEKsj-SEjEz5WYL-FPima/001-flat_foot_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABuDK04t0Qt62Dj-O_kUQxca/001-flat_foot_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAAGOZ2hkkGFDXXkVAFw8G8Ua/001-flat_foot_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADsgN3_yPxwyAkrvBglK2Ksa/001-flat_foot_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABQ6-eMNamPj_1RTuQuvwBfa/001-flat_foot_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADJTUY-yLGIYP30WRewXl3Pa/001-flat_foot_-_Eng-5.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AACUSoYeoC6gmrtv33K0P1-1a/001-flat_foot_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABTI7GFCcP1uxgx8iHP4gJda/001-flat_foot_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADqRwPCjsMF3mKJBGh3GDNka/001-flat_foot_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAAUcHJ6eV7mntnxWPnj480fa/001-flat_foot_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADAWEKsj-SEjEz5WYL-FPima/001-flat_foot_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABuDK04t0Qt62Dj-O_kUQxca/001-flat_foot_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAAGOZ2hkkGFDXXkVAFw8G8Ua/001-flat_foot_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADsgN3_yPxwyAkrvBglK2Ksa/001-flat_foot_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABQ6-eMNamPj_1RTuQuvwBfa/001-flat_foot_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADJTUY-yLGIYP30WRewXl3Pa/001-flat_foot_-_Eng-5.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/dlvrans05trop1i/AAB9z3c0z0s8GKPZrZaCS5-Va/001-flat_foot_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AADpd2zNijxYgyvjzXx2aIXPa/001-flat_foot_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AACJIso0YtLKUCtSbp2rPXTta/001-flat_foot_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AADzi3B3bNvqk1346n5uKv4xa/001-flat_foot_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AABrb0Hu8B4XvgAwxiyoq5Vwa/001-flat_foot_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AABXcaVg23fCGHwahn-qUPq_a/001-flat_foot_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AADArt1o5PtZ78kX-K2JPEU5a/001-flat_foot_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AACVD2qcPI1gbL9t7KfBS2O_a/001-flat_foot_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AABOnIBs61hRq_hT3XaLdAvXa/001-flat_foot_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AABazfgiPulp2K1T9EG6EcIHa/001-flat_foot_-_Eng-5.jpg?raw=1",],
          "tags":[ "Flat Foot","Ankle ROM Exe", "Ankle Stretching Exe", "Ankle Strenthening Exe","Toe Strenthening Exe"],
          "araDir": "./docs/Ortho/09-Foot/001-flat_foot_-_Ara.pdf",
@@ -5961,7 +5961,7 @@ const ortho = {
       {
          "id": "OrFt002",
          "title":"Hallux Valgus",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/09-Foot/Thumbnail/002-Hallux_Valgus_-_Ara-1.jpg",
             "./docs/Ortho/09-Foot/Thumbnail/002-Hallux_Valgus_-_Ara-2.jpg",
             "./docs/Ortho/09-Foot/Thumbnail/002-Hallux_Valgus_-_Eng-1.jpg",
@@ -5975,7 +5975,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/09-Foot/QRcode/002-Hallux_Valgus_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/09-Foot/QRcode/002-Hallux_Valgus_-_Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADz-k2eRB8H1vILqF3NTkdBa/002-Hallux_Valgus_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AACCLHKf0mUYEs4tnq3JAd-Da/002-Hallux_Valgus_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAAsBQrWDcN8zPQbyeCH6KCaa/002-Hallux_Valgus_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABVi40hUbIHO__qdgZWq9noa/002-Hallux_Valgus_-_Eng-2.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADz-k2eRB8H1vILqF3NTkdBa/002-Hallux_Valgus_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AACCLHKf0mUYEs4tnq3JAd-Da/002-Hallux_Valgus_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAAsBQrWDcN8zPQbyeCH6KCaa/002-Hallux_Valgus_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABVi40hUbIHO__qdgZWq9noa/002-Hallux_Valgus_-_Eng-2.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/dlvrans05trop1i/AAAHL1v_PmXgoLc-aN1uJYMka/002-Hallux_Valgus_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AABuAuTfVNBGaY_Jxw5nU9rja/002-Hallux_Valgus_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AABsRt6yq3jvFmqZ8gCXb2lpa/002-Hallux_Valgus_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AAC7klzlXt4WF7dLrg7jFfsIa/002-Hallux_Valgus_-_Eng-2.jpg?raw=1",],
          "tags":[ "Hallux Valgus", "Toe Strenthening Exe", "Ankle Strenthening Exe"],
          "araDir": "./docs/Ortho/09-Foot/002-Hallux_Valgus_-_Ara.pdf",
@@ -5986,7 +5986,7 @@ const ortho = {
       {
          "id": "OrFt003",
          "title":"Metatarsal Stress Fracture (MSF)",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/09-Foot/Thumbnail/003-Metatarsal_Stress_Fracture_(MSF)_-_Ara-1.jpg",
             "./docs/Ortho/09-Foot/Thumbnail/003-Metatarsal_Stress_Fracture_(MSF)_-_Ara-2.jpg",
             "./docs/Ortho/09-Foot/Thumbnail/003-Metatarsal_Stress_Fracture_(MSF)_-_Ara-3.jpg",
@@ -6016,7 +6016,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/09-Foot/QRcode/003-Metatarsal_Stress_Fracture_(MSF)_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/09-Foot/QRcode/003-Metatarsal_Stress_Fracture_(MSF)_-_Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADRba4GXsTSvz1Z7EbmdCXaa/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAAat0SbfNjWHqML1FPjzpDca/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAD7PbBitANR7FHgNigTTIv7a/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAB8lngiCfdwwD6K6K0rztP9a/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAC3nutTU_Il0y6kiSd0F7nBa/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABQFaiIAJfWQudH9wcC_h8Ma/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAAxE6bnbCvzqLAkc9Lau7-La/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAAL_HNk2hkgMzGvSB0XMHNra/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADDxDOOL4ZMc44pEoa9eTAqa/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABid2gWhTOT7rB85ild1yKHa/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAAFg6P4K9nl0FpRIznb74uZa/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AACmz8vpsPZEQQscpqmMrWyJa/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Eng-6.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADRba4GXsTSvz1Z7EbmdCXaa/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAAat0SbfNjWHqML1FPjzpDca/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAD7PbBitANR7FHgNigTTIv7a/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAB8lngiCfdwwD6K6K0rztP9a/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAC3nutTU_Il0y6kiSd0F7nBa/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABQFaiIAJfWQudH9wcC_h8Ma/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAAxE6bnbCvzqLAkc9Lau7-La/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAAL_HNk2hkgMzGvSB0XMHNra/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADDxDOOL4ZMc44pEoa9eTAqa/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABid2gWhTOT7rB85ild1yKHa/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAAFg6P4K9nl0FpRIznb74uZa/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AACmz8vpsPZEQQscpqmMrWyJa/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Eng-6.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/dlvrans05trop1i/AADpPd9AtgO27IuWDPDI8m2fa/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AABWVCrtX6X0YSOlamk_6Dkia/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AAAv5UexMTeWOJZJj8HQo6W9a/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AAAL64peDhw8idmTF9_v3nWia/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AAA9KjiRrsL9NXsiyUbwVt6Za/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AABEmIAjj0Oy9ryv9vIDBbJ5a/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AACIPLiJ3sRpY7RRxEWeROlua/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AAD97AmwGK0WmxAkPxgIZDWAa/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AAAwDNhmkrKSgcq8iT9zD16qa/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AACUfnyM3UwXgRyp1J4vIC_Ba/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AAB8rO3tq6XWdz2XbPgEvO0Wa/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AACkhqqvCRqmKCXKPeKWQAzKa/003-Metatarsal_Stress_Fracture_%28MSF%29_-_Eng-6.jpg?raw=1",],
          "tags":[ "Metatarsal Stress Fracture", "MSF", "Phase 1 (3 - 6 weeks)", "Phase 2 (6 - 8 weeks)", "Phase 3 (after 8 weeks)"],
          "araDir": "./docs/Ortho/09-Foot/003-Metatarsal_Stress_Fracture_(MSF)_-_Ara.pdf",
@@ -6027,7 +6027,7 @@ const ortho = {
       {
          "id": "OrFt004",
          "title":"Planter fasciitis",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/09-Foot/Thumbnail/004-Planter_fasciitis_-_Ara-1.jpg",
             "./docs/Ortho/09-Foot/Thumbnail/004-Planter_fasciitis_-_Ara-2.jpg",
             "./docs/Ortho/09-Foot/Thumbnail/004-Planter_fasciitis_-_Ara-3.jpg",
@@ -6057,7 +6057,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/09-Foot/QRcode/004-Planter_fasciitis_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/09-Foot/QRcode/004-Planter_fasciitis_-_Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADV6b3HeUX8QL0764xctbzAa/004-Planter_fasciitis_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABJWyHBncR6HOc7QwYnzR99a/004-Planter_fasciitis_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AACQ9zO0AEAvA3aLc3_CzLREa/004-Planter_fasciitis_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AACxZrtWCBbcBU-nP7pdCc59a/004-Planter_fasciitis_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABmsOpq_n5igaOmmxyUVHSIa/004-Planter_fasciitis_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAAS1089-h5OfTLYqvUCQKqZa/004-Planter_fasciitis_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAAdix_k2wOfRFck6v_5_lfHa/004-Planter_fasciitis_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADCNVUiJM_gt-zJD57tI1R7a/004-Planter_fasciitis_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAA_xzt7hIetqlXfSb7FEjXWa/004-Planter_fasciitis_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABT6qax9Z0aB2EAKritYzgEa/004-Planter_fasciitis_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAAMixun_jcpHlvQQH-IU9Ipa/004-Planter_fasciitis_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AACuBTfSyymT6_T2-U2S2Faca/004-Planter_fasciitis_-_Eng-6.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADV6b3HeUX8QL0764xctbzAa/004-Planter_fasciitis_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABJWyHBncR6HOc7QwYnzR99a/004-Planter_fasciitis_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AACQ9zO0AEAvA3aLc3_CzLREa/004-Planter_fasciitis_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AACxZrtWCBbcBU-nP7pdCc59a/004-Planter_fasciitis_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABmsOpq_n5igaOmmxyUVHSIa/004-Planter_fasciitis_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAAS1089-h5OfTLYqvUCQKqZa/004-Planter_fasciitis_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAAdix_k2wOfRFck6v_5_lfHa/004-Planter_fasciitis_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADCNVUiJM_gt-zJD57tI1R7a/004-Planter_fasciitis_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAA_xzt7hIetqlXfSb7FEjXWa/004-Planter_fasciitis_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABT6qax9Z0aB2EAKritYzgEa/004-Planter_fasciitis_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAAMixun_jcpHlvQQH-IU9Ipa/004-Planter_fasciitis_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AACuBTfSyymT6_T2-U2S2Faca/004-Planter_fasciitis_-_Eng-6.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/dlvrans05trop1i/AAALAqzUSFdgh8HHgy5DksHta/004-Planter_fasciitis_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AACwEfN-PEI675NOwoQo0cl5a/004-Planter_fasciitis_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AABdaVknYmjPQCE9KvEGTyU-a/004-Planter_fasciitis_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AADqJ6E8wIiCrydWWv-VEsWca/004-Planter_fasciitis_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AAASKzY_DZ_wxCHMyLWgJ6qSa/004-Planter_fasciitis_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AAAG4eBqg89sWjfU9dRRkTs3a/004-Planter_fasciitis_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AABU5Sq19aDuEA8CKZq_jEqca/004-Planter_fasciitis_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AADyGMH7uy-vqF2gHuvgdsTna/004-Planter_fasciitis_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AAAJTztMzhsAtCnbbwxKrrjKa/004-Planter_fasciitis_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AAADPRi-F27wbFngf_ANgZ1ka/004-Planter_fasciitis_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AACWYrPwZGUJMslX0CGhJ774a/004-Planter_fasciitis_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AABsHlZekfc7hMplW83hZhWWa/004-Planter_fasciitis_-_Eng-6.jpg?raw=1",],
          "tags":[ "Planter fasciitis", "Toe Strenthening Exe", "Ankle Strenthening Exe", "Toe Stretching Exe", "Ankle Stretching Exe", "Foot Soft Tissue Release"],
          "araDir": "./docs/Ortho/09-Foot/004-Planter_fasciitis_-_Ara.pdf",
@@ -6068,7 +6068,7 @@ const ortho = {
       {
          "id": "OrFt005",
          "title":"Shin Splints",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/09-Foot/Thumbnail/005-Shin_Splints-_Ara-1.jpg",
             "./docs/Ortho/09-Foot/Thumbnail/005-Shin_Splints-_Ara-2.jpg",
             "./docs/Ortho/09-Foot/Thumbnail/005-Shin_Splints-_Ara-3.jpg",
@@ -6086,7 +6086,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/09-Foot/QRcode/005-Shin_Splints-_Ara.jpg",
          "engQRCode":"./docs/Ortho/09-Foot/QRcode/005-Shin_Splints-_Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AACC7tms24yJ8q7MtJv3bZ7ka/005-Shin_Splints-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABUHxfQ9UYrRtpshKz6H2Lma/005-Shin_Splints-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABp_5F-ZCYmdXAts7ITffiRa/005-Shin_Splints-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AACQizllFKzQF5P_w-amO-CEa/005-Shin_Splints-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADPu7bsPtKoQ0JBrYbYjCjma/005-Shin_Splints-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADHb8OMzWCXny_OSdnvOqUsa/005-Shin_Splints-_Eng-3.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AACC7tms24yJ8q7MtJv3bZ7ka/005-Shin_Splints-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABUHxfQ9UYrRtpshKz6H2Lma/005-Shin_Splints-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABp_5F-ZCYmdXAts7ITffiRa/005-Shin_Splints-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AACQizllFKzQF5P_w-amO-CEa/005-Shin_Splints-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADPu7bsPtKoQ0JBrYbYjCjma/005-Shin_Splints-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADHb8OMzWCXny_OSdnvOqUsa/005-Shin_Splints-_Eng-3.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/dlvrans05trop1i/AABFxvBZpA88DywbHJJys3_ta/005-Shin_Splints-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AACjU4GS9izGjFFIIsx6LhKua/005-Shin_Splints-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AADl6XF91RXAeeRpL-SscqQea/005-Shin_Splints-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AAC4i1ddNpJKHUsIlAKT8EBga/005-Shin_Splints-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AAAMm73rXPxX2kIoafmbG7WVa/005-Shin_Splints-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AABHVX_jx79cuckd6OCCmJwxa/005-Shin_Splints-_Eng-3.jpg?raw=1",],
          "tags":[ "Shin Splints", "Ankle Strenthening Exe", "Ankle Stretching Exe", "Ankle Balance Exe"],
          "araDir": "./docs/Ortho/09-Foot/005-Shin_Splints-_Ara.pdf",
@@ -6097,7 +6097,7 @@ const ortho = {
       {
          "id": "OrFt006",
          "title":"Ankle Syndesmotic injury",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/09-Foot/Thumbnail/006-Ankle_Syndesmotic_injury_-_Ara-1.jpg",
             "./docs/Ortho/09-Foot/Thumbnail/006-Ankle_Syndesmotic_injury_-_Ara-2.jpg",
             "./docs/Ortho/09-Foot/Thumbnail/006-Ankle_Syndesmotic_injury_-_Ara-3.jpg",
@@ -6119,7 +6119,7 @@ const ortho = {
          ],
          "araQRCode":"./docs/Ortho/09-Foot/QRcode/006-Ankle_Syndesmotic_injury_-_Ara.jpg",
          "engQRCode":"./docs/Ortho/09-Foot/QRcode/006-Ankle_Syndesmotic_injury_-_Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABcSTOljjxbb90joW1-TaQWa/006-Ankle_Syndesmotic_injury_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADrfAYuHudzp-eD-Rsg05xSa/006-Ankle_Syndesmotic_injury_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABWcUlvqBL9JcMHRxe5uEDMa/006-Ankle_Syndesmotic_injury_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AACW5etXLT_DtHePuSmfBdQua/006-Ankle_Syndesmotic_injury_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAB7dOX-y2FMEmpXPfQilRmJa/006-Ankle_Syndesmotic_injury_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADmcMEZWdF2jY3rsMX-lyMCa/006-Ankle_Syndesmotic_injury_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAB3bQRyyuFqVO18Dcf5jrsAa/006-Ankle_Syndesmotic_injury_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AACqqE2R-o13KVdiDbfpbpcOa/006-Ankle_Syndesmotic_injury_-_Eng-4.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABcSTOljjxbb90joW1-TaQWa/006-Ankle_Syndesmotic_injury_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADrfAYuHudzp-eD-Rsg05xSa/006-Ankle_Syndesmotic_injury_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABWcUlvqBL9JcMHRxe5uEDMa/006-Ankle_Syndesmotic_injury_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AACW5etXLT_DtHePuSmfBdQua/006-Ankle_Syndesmotic_injury_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAB7dOX-y2FMEmpXPfQilRmJa/006-Ankle_Syndesmotic_injury_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADmcMEZWdF2jY3rsMX-lyMCa/006-Ankle_Syndesmotic_injury_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAB3bQRyyuFqVO18Dcf5jrsAa/006-Ankle_Syndesmotic_injury_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AACqqE2R-o13KVdiDbfpbpcOa/006-Ankle_Syndesmotic_injury_-_Eng-4.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/dlvrans05trop1i/AAAr2Uj3DwfazdR9N90lBQPLa/006-Ankle_Syndesmotic_injury_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AACQ4bsXIc3b8VHjQjbhWmGSa/006-Ankle_Syndesmotic_injury_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AABBP1papcRIUr4wni8plSVda/006-Ankle_Syndesmotic_injury_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AADQy0uUfOqXPG4gXaPcyIc6a/006-Ankle_Syndesmotic_injury_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AABanPdnomvztF_rF5PMsOmKa/006-Ankle_Syndesmotic_injury_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AAAVDqBna4m04lTuvCYD7x_Ka/006-Ankle_Syndesmotic_injury_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AAA96j0Nin_7IN6tFe29vYU5a/006-Ankle_Syndesmotic_injury_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AAB7k5-A-uTfSOzT1AO9jKx7a/006-Ankle_Syndesmotic_injury_-_Eng-4.jpg?raw=1",],
          "tags":[ "Ankle Syndesmotic injury", "Phase 1 (1-3 Days)", "Phase 2 (2-6 weeks)", "Phase 3 (6-8 weeks)"],
          "araDir": "./docs/Ortho/09-Foot/006-Ankle_Syndesmotic_injury_-_Ara.pdf",
@@ -6130,7 +6130,7 @@ const ortho = {
       {
          "id": "OrFt007",
          "title":"Morton's Neuroma",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/09-Foot/Thumbnail/007-Morton's_Neuroma_-_Eng-1.jpg",
             "./docs/Ortho/09-Foot/Thumbnail/007-Morton's_Neuroma_-_Eng-2.jpg",
             "./docs/Ortho/09-Foot/Thumbnail/007-Morton's_Neuroma_-_Eng-3.jpg",
@@ -6145,7 +6145,7 @@ const ortho = {
             "./docs/Ortho/09-Foot/Big/007-Morton's_Neuroma_-_Eng-5.jpg",
          ],
          "engQRCode":"./docs/Ortho/09-Foot/QRcode/007-Morton's_Neuroma_-_Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AACFTy5HSZdaTPAyvnlRTpGwa/007-Morton%27s_Neuroma_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAAN8ttC5v-fDAdlmzZId0Q8a/007-Morton%27s_Neuroma_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAC-AL2l82tZ-EErO1btbtyaa/007-Morton%27s_Neuroma_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABSUrPleihiKDmj8o_UXrE5a/007-Morton%27s_Neuroma_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADYwkuMvP5sNWQL9SROE1s_a/007-Morton%27s_Neuroma_-_Eng-5.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AACFTy5HSZdaTPAyvnlRTpGwa/007-Morton%27s_Neuroma_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAAN8ttC5v-fDAdlmzZId0Q8a/007-Morton%27s_Neuroma_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAC-AL2l82tZ-EErO1btbtyaa/007-Morton%27s_Neuroma_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AABSUrPleihiKDmj8o_UXrE5a/007-Morton%27s_Neuroma_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AADYwkuMvP5sNWQL9SROE1s_a/007-Morton%27s_Neuroma_-_Eng-5.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/dlvrans05trop1i/AAC1Qdd55GM2ruBXyXAYHDT4a/007-Morton%27s_Neuroma_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AABJAPcCuZa2YHaWlryC7Kqta/007-Morton%27s_Neuroma_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AAAXr8VTiZfFZoSGtgEr2GPha/007-Morton%27s_Neuroma_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AACvH-vgEZeQF2nrJwaJ4Idxa/007-Morton%27s_Neuroma_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/dlvrans05trop1i/AABD76M-k3K4r9Y2uxXgthXRa/007-Morton%27s_Neuroma_-_Eng-5.jpg?raw=1",],
          "tags":[ "Morton's Neuroma", "Toe Stretching Exe", "Toe Stranthening Exe", "Ankle Stretching Exe", "Ankle ROM Exe", "Ankle Balance Exe"],
          "engDir": "./docs/Ortho/09-Foot/007-Morton's_Neuroma_-_Eng.pdf",
@@ -6154,14 +6154,14 @@ const ortho = {
       {
          "id": "OrFt008",
          "title":"General foot and ankle exercsies",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/09-Foot/Thumbnail/008-General_foot_and_ankle_exercsies_-_Ara.jpg",
          ],
          "bigImgs":[
             "./docs/Ortho/09-Foot/Big/008-General_foot_and_ankle_exercsies_-_Ara.jpg",
          ],
          "araQRCode":"./docs/Ortho/09-Foot/QRcode/008-General_foot_and_ankle_exercsies_-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAAZPNyguaQv4JD9p0NBZCRna/008-General_foot_and_ankle_exercsies_-_Ara.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AAAZPNyguaQv4JD9p0NBZCRna/008-General_foot_and_ankle_exercsies_-_Ara.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/dlvrans05trop1i/AADJcZ2IexWGbYoyVC3J3Mxxa/008-General_foot_and_ankle_exercsies_-_Ara.jpg?raw=1",],
          "tags":[ "Ankle exercsies", "Foot exercsies"],
          "araDir": "./docs/Ortho/09-Foot/008-General_foot_and_ankle_exercsies_-_Ara.pdf",
@@ -6170,14 +6170,14 @@ const ortho = {
       {
          "id": "OrFt009",
          "title":"Planter fasciitis",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Ortho/09-Foot/Thumbnail/009-Planter_fascitis_-_Ara.jpg",
          ],
          "bigImgs":[
             "./docs/Ortho/09-Foot/Big/009-Planter_fascitis_-_Ara.jpg",
          ],
          "araQRCode":"./docs/Ortho/09-Foot/QRcode/009-Planter_fascitis_-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AACPdzdlDrzX2aXz6SkPZffla/009-Planter_fascitis_-_Ara.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/gi0fjzc3uij4t6p/AACPdzdlDrzX2aXz6SkPZffla/009-Planter_fascitis_-_Ara.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/dlvrans05trop1i/AAB0FPNZRVSXgUchK7Xlnd-oa/009-Planter_fascitis_-_Ara.jpg?raw=1",],
          "tags":[ "Planter fasciitis", "Toe Strenthening Exe", "Ankle Strenthening Exe", "Toe Stretching Exe", "Ankle Stretching Exe", "Foot Soft Tissue Release"],
          "araDir": "./docs/Ortho/09-Foot/009-Planter_fascitis_-_Ara.jpg",
@@ -6194,7 +6194,7 @@ const neuro = [
    {
    "id": "N001",
    "title":"Adapted LSVT BIG",
-   "tumbUrl":[
+   "thumbUrl":[
       "./docs/Neuro/Thumbnail/001-Adapted_LSVT_BIG_-_Ara-1.jpg",
       "./docs/Neuro/Thumbnail/001-Adapted_LSVT_BIG_-_Ara-2.jpg",
       "./docs/Neuro/Thumbnail/001-Adapted_LSVT_BIG_-_Ara-3.jpg",
@@ -6240,7 +6240,7 @@ const neuro = [
    ],
    "araQRCode":"./docs/Neuro/QRcode/001-Adapted_LSVT_BIG_-_Ara.jpg",
    "engQRCode":"./docs/Neuro/QRcode/001-Adapted_LSVT_BIG_-_Eng.jpg",
-   "tumbBackup":["https://www.dropbox.com/sh/1ordtul72y7dvw9/AABnOZQeGIcsMGg6iak_uhPoa/001-Adapted_LSVT_BIG_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAB2f6BlGIu1gNk8ZTRZ4mVua/001-Adapted_LSVT_BIG_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAB_53-Ph3PdfblMCssSXcq6a/001-Adapted_LSVT_BIG_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADNE2w4lkecDzcDbu2waMvMa/001-Adapted_LSVT_BIG_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAA4NIV4Nea4Ad1c8aVL4Rlma/001-Adapted_LSVT_BIG_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADuLwoRTe_ss3ZM0LEDB_a6a/001-Adapted_LSVT_BIG_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABSE7FNYYSSMUq1RXnxiv0Fa/001-Adapted_LSVT_BIG_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABsRIRLAm_AQdI0I6C-xyp6a/001-Adapted_LSVT_BIG_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAB5bDHKnVXE8bwXHONUaskba/001-Adapted_LSVT_BIG_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADT1Y-kP_Tfknfw1-tFLfZga/001-Adapted_LSVT_BIG_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABKjp5xtFt9zbTsv-jkp_nba/001-Adapted_LSVT_BIG_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAxpFFUdMsyZBK34UESAobsa/001-Adapted_LSVT_BIG_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABaDc7eT_QmlM7f94A8YZNya/001-Adapted_LSVT_BIG_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABBPrIUHpBqn65j1dWygpFCa/001-Adapted_LSVT_BIG_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABOoFpYiCg3ZcbrH9wfchXca/001-Adapted_LSVT_BIG_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADc7T7Mezc4F3dM29Rh-Ncca/001-Adapted_LSVT_BIG_-_Eng-6.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABziYgt1GQx--XbNTIv6AMza/001-Adapted_LSVT_BIG_-_Eng-7.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACB7OZS17IUUP2fL23mINtya/001-Adapted_LSVT_BIG_-_Eng-8.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAD1UAgF_t_DGIo3a1fez7baa/001-Adapted_LSVT_BIG_-_Eng-9.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABV-6apVvUAjgvb9f0SrptIa/001-Adapted_LSVT_BIG_-_Eng-10.jpg?raw=1",],
+   "thumbBackup":["https://www.dropbox.com/sh/1ordtul72y7dvw9/AABnOZQeGIcsMGg6iak_uhPoa/001-Adapted_LSVT_BIG_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAB2f6BlGIu1gNk8ZTRZ4mVua/001-Adapted_LSVT_BIG_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAB_53-Ph3PdfblMCssSXcq6a/001-Adapted_LSVT_BIG_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADNE2w4lkecDzcDbu2waMvMa/001-Adapted_LSVT_BIG_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAA4NIV4Nea4Ad1c8aVL4Rlma/001-Adapted_LSVT_BIG_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADuLwoRTe_ss3ZM0LEDB_a6a/001-Adapted_LSVT_BIG_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABSE7FNYYSSMUq1RXnxiv0Fa/001-Adapted_LSVT_BIG_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABsRIRLAm_AQdI0I6C-xyp6a/001-Adapted_LSVT_BIG_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAB5bDHKnVXE8bwXHONUaskba/001-Adapted_LSVT_BIG_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADT1Y-kP_Tfknfw1-tFLfZga/001-Adapted_LSVT_BIG_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABKjp5xtFt9zbTsv-jkp_nba/001-Adapted_LSVT_BIG_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAxpFFUdMsyZBK34UESAobsa/001-Adapted_LSVT_BIG_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABaDc7eT_QmlM7f94A8YZNya/001-Adapted_LSVT_BIG_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABBPrIUHpBqn65j1dWygpFCa/001-Adapted_LSVT_BIG_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABOoFpYiCg3ZcbrH9wfchXca/001-Adapted_LSVT_BIG_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADc7T7Mezc4F3dM29Rh-Ncca/001-Adapted_LSVT_BIG_-_Eng-6.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABziYgt1GQx--XbNTIv6AMza/001-Adapted_LSVT_BIG_-_Eng-7.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACB7OZS17IUUP2fL23mINtya/001-Adapted_LSVT_BIG_-_Eng-8.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAD1UAgF_t_DGIo3a1fez7baa/001-Adapted_LSVT_BIG_-_Eng-9.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABV-6apVvUAjgvb9f0SrptIa/001-Adapted_LSVT_BIG_-_Eng-10.jpg?raw=1",],
    "bigBackup":["https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AABfNeguEEAWe-jTwboURL0_a/001-Adapted_LSVT_BIG_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AABApORCiBjbq56FJOutbrwGa/001-Adapted_LSVT_BIG_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AADcMgeShuXWzqT7M8tq3KVMa/001-Adapted_LSVT_BIG_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AABvOG-S0Vpk8vI4ij1RrURKa/001-Adapted_LSVT_BIG_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AADISkyj9sGpKP2VuU_jee8da/001-Adapted_LSVT_BIG_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AACmAw1_6wa4QD8hXtHAU4GZa/001-Adapted_LSVT_BIG_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AADolqGDzzdJJINWEZgHZPwNa/001-Adapted_LSVT_BIG_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AADmLYsPCHhbvbQPig5k4Hqga/001-Adapted_LSVT_BIG_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AADpvoGTZcFLSCFMOVVBpFDoa/001-Adapted_LSVT_BIG_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAAcBmF7AE8spQxoQtlaIe28a/001-Adapted_LSVT_BIG_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAAHmf8bxBGOHjyDxrL1vLR5a/001-Adapted_LSVT_BIG_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAAW30XFlRFpRCrXFzmeEleBa/001-Adapted_LSVT_BIG_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAAbAKk6RvcMmEkFPD0z7Nwea/001-Adapted_LSVT_BIG_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AADydgtHrvmRSMHm60Zb-6DBa/001-Adapted_LSVT_BIG_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AABlXtiEzc5_Iwb7PsQfkiBJa/001-Adapted_LSVT_BIG_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AADVTx4tZfoPqaakgtuaOeq4a/001-Adapted_LSVT_BIG_-_Eng-6.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAAhxVuZgw5eck037VWgPgz4a/001-Adapted_LSVT_BIG_-_Eng-7.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AACDrKArTwZIiZeW-axF1mHUa/001-Adapted_LSVT_BIG_-_Eng-8.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AADwWCAP2IhMo8YyTvykntdXa/001-Adapted_LSVT_BIG_-_Eng-9.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAAQJ5NNyvh35O0Cg1PgBeJBa/001-Adapted_LSVT_BIG_-_Eng-10.jpg?raw=1",],
    "tags":[ "Parkinson's", "mobility", "posture", "Sitting Balance", "Standing Balance", "Dynamic Balance"],
    "araDir": "./docs/Neuro/001-Adapted_LSVT_BIG_-_Ara.pdf",
@@ -6252,7 +6252,7 @@ const neuro = [
    {
    "id": "N002",
    "title":"Balance Exercises",
-   "tumbUrl":[
+   "thumbUrl":[
       "./docs/Neuro/Thumbnail/002-Balance_Exercises_-_Ara-1.jpg",
       "./docs/Neuro/Thumbnail/002-Balance_Exercises_-_Ara-2.jpg",
       "./docs/Neuro/Thumbnail/002-Balance_Exercises_-_Ara-3.jpg",
@@ -6276,7 +6276,7 @@ const neuro = [
    ],
    "araQRCode":"./docs/Neuro/QRcode/002-Balance_Exercises_-_Ara.jpg",
    "engQRCode":"./docs/Neuro/QRcode/002-Balance_Exercises_-_Eng.jpg",
-   "tumbBackup":["https://www.dropbox.com/sh/1ordtul72y7dvw9/AACjLmrYgUMjb-_8m20zeogba/002-Balance_Exercises_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACmfgXFm24Mg9XSNp9FGopWa/002-Balance_Exercises_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAANfxW6EaplaLc1datWh0d2a/002-Balance_Exercises_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAApK_54LKXX1ynIcFRWhPjpa/002-Balance_Exercises_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAlCIXncPzj3kId1ZfPKz5za/002-Balance_Exercises_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADhL98bPRlQWFy5yAe2TZFDa/002-Balance_Exercises_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABn8bcVyMf2nJEfbT4K9znka/002-Balance_Exercises_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAzi45Mu025YfhBszZAlAXWa/002-Balance_Exercises_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACyN5Ib62ALILHshwzazT4Za/002-Balance_Exercises_-_Eng-5.jpg?raw=1",],
+   "thumbBackup":["https://www.dropbox.com/sh/1ordtul72y7dvw9/AACjLmrYgUMjb-_8m20zeogba/002-Balance_Exercises_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACmfgXFm24Mg9XSNp9FGopWa/002-Balance_Exercises_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAANfxW6EaplaLc1datWh0d2a/002-Balance_Exercises_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAApK_54LKXX1ynIcFRWhPjpa/002-Balance_Exercises_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAlCIXncPzj3kId1ZfPKz5za/002-Balance_Exercises_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADhL98bPRlQWFy5yAe2TZFDa/002-Balance_Exercises_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABn8bcVyMf2nJEfbT4K9znka/002-Balance_Exercises_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAzi45Mu025YfhBszZAlAXWa/002-Balance_Exercises_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACyN5Ib62ALILHshwzazT4Za/002-Balance_Exercises_-_Eng-5.jpg?raw=1",],
    "bigBackup":["https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AABQ_gJBnWfFoobFttcNqp5Sa/002-Balance_Exercises_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AABI9Tx0yfmcWr-tI1kK2ITpa/002-Balance_Exercises_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAAuYLW3-z9aBhA3nPc66Kf7a/002-Balance_Exercises_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAAKjlut66mQejH04P_DZ9zXa/002-Balance_Exercises_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAAvD0ICVYw0inwU_EA08Z5da/002-Balance_Exercises_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AACOmfq9LYbdU42WMD5v7K65a/002-Balance_Exercises_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AABNBNHL3cG0rl54Rxw9ER7na/002-Balance_Exercises_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAAURoMyfXK2dyW4vJSsINMya/002-Balance_Exercises_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAB4Gu6hAbPjyUaVTTNU5q3ta/002-Balance_Exercises_-_Eng-5.jpg?raw=1",],
    "tags":["Geriatric", "Stroke", "Vertigo", "Multiple Sclerosis", "Standing Balance", "Dynamic Balance"],
    "araDir": "./docs/Neuro/002-Balance_Exercises_-_Ara.pdf",
@@ -6288,7 +6288,7 @@ const neuro = [
    {
    "id": "N003",
    "title":"FAQs for Multiple Sclerosis",
-   "tumbUrl":[
+   "thumbUrl":[
       "./docs/Neuro/Thumbnail/003-FAQs_for_Multiple_Sclerosis_-_Ara-1.jpg",
       "./docs/Neuro/Thumbnail/003-FAQs_for_Multiple_Sclerosis_-_Ara-2.jpg",
       "./docs/Neuro/Thumbnail/003-FAQs_for_Multiple_Sclerosis_-_Ara-3.jpg",
@@ -6386,7 +6386,7 @@ const neuro = [
    ],
    "araQRCode":"./docs/Neuro/QRcode/003-FAQs_for_Multiple_Sclerosis_-_Ara.jpg",
    "engQRCode":"./docs/Neuro/QRcode/003-FAQs_for_Multiple_Sclerosis_-_Eng.jpg",
-   "tumbBackup":["https://www.dropbox.com/sh/1ordtul72y7dvw9/AACR6Jq-r9zZRv70eJGen32ga/003-FAQs_for_Multiple_Sclerosis_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABJXM_GKOALWrcN0jFwFQmYa/003-FAQs_for_Multiple_Sclerosis_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAJgI96cykrCMRA4_Gu-e6Ia/003-FAQs_for_Multiple_Sclerosis_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABDDRIVLR6GlW6P5GSkbTwea/003-FAQs_for_Multiple_Sclerosis_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADg4MyTiHiruwqtO8laqzjga/003-FAQs_for_Multiple_Sclerosis_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABETXwyJ9qtiC9eFy82CkHBa/003-FAQs_for_Multiple_Sclerosis_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADoRtZJeBi5ufCGC2j2CP0Ga/003-FAQs_for_Multiple_Sclerosis_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACxYS1xDPpYA9Iyk4vvfdyFa/003-FAQs_for_Multiple_Sclerosis_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABiFK52DG2uyiBm-KKa2inia/003-FAQs_for_Multiple_Sclerosis_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACJ9szJeHNtXuWj_VeIzFKOa/003-FAQs_for_Multiple_Sclerosis_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACkulxaT1Cn6cyGlO_navqea/003-FAQs_for_Multiple_Sclerosis_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADSYshgxElLg7kOWsFQH3IFa/003-FAQs_for_Multiple_Sclerosis_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACt0uN_7uMHgYpAQmpRhP1ya/003-FAQs_for_Multiple_Sclerosis_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADPq7WXIcvReVkBBD2AGgcla/003-FAQs_for_Multiple_Sclerosis_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACTkP4Zn3kCznYTYefcw9VEa/003-FAQs_for_Multiple_Sclerosis_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAA4QN1kW0riJjgq5TLkAhjla/003-FAQs_for_Multiple_Sclerosis_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABXfBgouiDBPrvHtNwmjfICa/003-FAQs_for_Multiple_Sclerosis_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABN9GexABRABsJWcOCz0quoa/003-FAQs_for_Multiple_Sclerosis_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADyigbpwZh7dS-BSd7zTxsta/003-FAQs_for_Multiple_Sclerosis_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACRZvtDAC9y6BVAqyCSobMva/003-FAQs_for_Multiple_Sclerosis_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAy8aapLg3sf_SYsCj1XNRXa/003-FAQs_for_Multiple_Sclerosis_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAi0tlRbMJCsVUx0BQJug1Qa/003-FAQs_for_Multiple_Sclerosis_-_Ara-22.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADWo3n1-fXycoGZRlSAr4Hqa/003-FAQs_for_Multiple_Sclerosis_-_Ara-23.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAATeizarErSneD4UH2WuXvYa/003-FAQs_for_Multiple_Sclerosis_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADaMysEmTzHIggdIJbPiWI8a/003-FAQs_for_Multiple_Sclerosis_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADh-iENKeBWUGPr1mR-BWnDa/003-FAQs_for_Multiple_Sclerosis_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAsFUy_g6x8ISKqLPBILemda/003-FAQs_for_Multiple_Sclerosis_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAC6a1rRiuqu5Xz1NF1cNwf0a/003-FAQs_for_Multiple_Sclerosis_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAMyknwyMKxY8iPqgU5XgIya/003-FAQs_for_Multiple_Sclerosis_-_Eng-6.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADjZJiN8qHt4H3iODFaPO7la/003-FAQs_for_Multiple_Sclerosis_-_Eng-7.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADgaXpOO5e-gcJ2vP-SHjgRa/003-FAQs_for_Multiple_Sclerosis_-_Eng-8.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABaPHdOuj3YP7bbnTho6w05a/003-FAQs_for_Multiple_Sclerosis_-_Eng-9.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACktfRnN73yP_QwlBTzxPMra/003-FAQs_for_Multiple_Sclerosis_-_Eng-10.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABfft6khVHUpxrzk9kE5JjKa/003-FAQs_for_Multiple_Sclerosis_-_Eng-11.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACIivCeRFCSOLvgujxFZ3Fsa/003-FAQs_for_Multiple_Sclerosis_-_Eng-12.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADA99fQG7_l_wZOCWSX1PDDa/003-FAQs_for_Multiple_Sclerosis_-_Eng-13.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABYUWCiVXyDjn-l8IgIOxcfa/003-FAQs_for_Multiple_Sclerosis_-_Eng-14.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADme3cYIF10t6lHDB6OYhO_a/003-FAQs_for_Multiple_Sclerosis_-_Eng-15.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAA0sJ0AarbD8R6WuierJRnCa/003-FAQs_for_Multiple_Sclerosis_-_Eng-16.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAau1xSPtiKUDKdpj8Sz1t-a/003-FAQs_for_Multiple_Sclerosis_-_Eng-17.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADuqmuR-PMmhr4LiBbmbLdra/003-FAQs_for_Multiple_Sclerosis_-_Eng-18.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADaxrSYnqTBo3RR7C-4JdI3a/003-FAQs_for_Multiple_Sclerosis_-_Eng-19.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABcM_t6pcEAyW6quMEqcut2a/003-FAQs_for_Multiple_Sclerosis_-_Eng-20.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABEDcupWyzI-StSYnxxK8Qna/003-FAQs_for_Multiple_Sclerosis_-_Eng-21.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACejVubmX-h5aD3qbs5zhiVa/003-FAQs_for_Multiple_Sclerosis_-_Eng-22.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAhIAMBaNxuKGLVg_Sk-kmia/003-FAQs_for_Multiple_Sclerosis_-_Eng-23.jpg?raw=1",],
+   "thumbBackup":["https://www.dropbox.com/sh/1ordtul72y7dvw9/AACR6Jq-r9zZRv70eJGen32ga/003-FAQs_for_Multiple_Sclerosis_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABJXM_GKOALWrcN0jFwFQmYa/003-FAQs_for_Multiple_Sclerosis_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAJgI96cykrCMRA4_Gu-e6Ia/003-FAQs_for_Multiple_Sclerosis_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABDDRIVLR6GlW6P5GSkbTwea/003-FAQs_for_Multiple_Sclerosis_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADg4MyTiHiruwqtO8laqzjga/003-FAQs_for_Multiple_Sclerosis_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABETXwyJ9qtiC9eFy82CkHBa/003-FAQs_for_Multiple_Sclerosis_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADoRtZJeBi5ufCGC2j2CP0Ga/003-FAQs_for_Multiple_Sclerosis_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACxYS1xDPpYA9Iyk4vvfdyFa/003-FAQs_for_Multiple_Sclerosis_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABiFK52DG2uyiBm-KKa2inia/003-FAQs_for_Multiple_Sclerosis_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACJ9szJeHNtXuWj_VeIzFKOa/003-FAQs_for_Multiple_Sclerosis_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACkulxaT1Cn6cyGlO_navqea/003-FAQs_for_Multiple_Sclerosis_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADSYshgxElLg7kOWsFQH3IFa/003-FAQs_for_Multiple_Sclerosis_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACt0uN_7uMHgYpAQmpRhP1ya/003-FAQs_for_Multiple_Sclerosis_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADPq7WXIcvReVkBBD2AGgcla/003-FAQs_for_Multiple_Sclerosis_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACTkP4Zn3kCznYTYefcw9VEa/003-FAQs_for_Multiple_Sclerosis_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAA4QN1kW0riJjgq5TLkAhjla/003-FAQs_for_Multiple_Sclerosis_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABXfBgouiDBPrvHtNwmjfICa/003-FAQs_for_Multiple_Sclerosis_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABN9GexABRABsJWcOCz0quoa/003-FAQs_for_Multiple_Sclerosis_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADyigbpwZh7dS-BSd7zTxsta/003-FAQs_for_Multiple_Sclerosis_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACRZvtDAC9y6BVAqyCSobMva/003-FAQs_for_Multiple_Sclerosis_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAy8aapLg3sf_SYsCj1XNRXa/003-FAQs_for_Multiple_Sclerosis_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAi0tlRbMJCsVUx0BQJug1Qa/003-FAQs_for_Multiple_Sclerosis_-_Ara-22.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADWo3n1-fXycoGZRlSAr4Hqa/003-FAQs_for_Multiple_Sclerosis_-_Ara-23.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAATeizarErSneD4UH2WuXvYa/003-FAQs_for_Multiple_Sclerosis_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADaMysEmTzHIggdIJbPiWI8a/003-FAQs_for_Multiple_Sclerosis_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADh-iENKeBWUGPr1mR-BWnDa/003-FAQs_for_Multiple_Sclerosis_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAsFUy_g6x8ISKqLPBILemda/003-FAQs_for_Multiple_Sclerosis_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAC6a1rRiuqu5Xz1NF1cNwf0a/003-FAQs_for_Multiple_Sclerosis_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAMyknwyMKxY8iPqgU5XgIya/003-FAQs_for_Multiple_Sclerosis_-_Eng-6.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADjZJiN8qHt4H3iODFaPO7la/003-FAQs_for_Multiple_Sclerosis_-_Eng-7.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADgaXpOO5e-gcJ2vP-SHjgRa/003-FAQs_for_Multiple_Sclerosis_-_Eng-8.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABaPHdOuj3YP7bbnTho6w05a/003-FAQs_for_Multiple_Sclerosis_-_Eng-9.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACktfRnN73yP_QwlBTzxPMra/003-FAQs_for_Multiple_Sclerosis_-_Eng-10.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABfft6khVHUpxrzk9kE5JjKa/003-FAQs_for_Multiple_Sclerosis_-_Eng-11.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACIivCeRFCSOLvgujxFZ3Fsa/003-FAQs_for_Multiple_Sclerosis_-_Eng-12.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADA99fQG7_l_wZOCWSX1PDDa/003-FAQs_for_Multiple_Sclerosis_-_Eng-13.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABYUWCiVXyDjn-l8IgIOxcfa/003-FAQs_for_Multiple_Sclerosis_-_Eng-14.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADme3cYIF10t6lHDB6OYhO_a/003-FAQs_for_Multiple_Sclerosis_-_Eng-15.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAA0sJ0AarbD8R6WuierJRnCa/003-FAQs_for_Multiple_Sclerosis_-_Eng-16.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAau1xSPtiKUDKdpj8Sz1t-a/003-FAQs_for_Multiple_Sclerosis_-_Eng-17.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADuqmuR-PMmhr4LiBbmbLdra/003-FAQs_for_Multiple_Sclerosis_-_Eng-18.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADaxrSYnqTBo3RR7C-4JdI3a/003-FAQs_for_Multiple_Sclerosis_-_Eng-19.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABcM_t6pcEAyW6quMEqcut2a/003-FAQs_for_Multiple_Sclerosis_-_Eng-20.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABEDcupWyzI-StSYnxxK8Qna/003-FAQs_for_Multiple_Sclerosis_-_Eng-21.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACejVubmX-h5aD3qbs5zhiVa/003-FAQs_for_Multiple_Sclerosis_-_Eng-22.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAhIAMBaNxuKGLVg_Sk-kmia/003-FAQs_for_Multiple_Sclerosis_-_Eng-23.jpg?raw=1",],
    "bigBackup":["https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AABSs3WFWa38L6oPBeDX386ua/003-FAQs_for_Multiple_Sclerosis_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAC_oj6H_dxdmlzsVWKYh-aFa/003-FAQs_for_Multiple_Sclerosis_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AABmxV-RKFLbQH1usIIfuR8ja/003-FAQs_for_Multiple_Sclerosis_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AABf--9r7BTj3i9LyOIzrHraa/003-FAQs_for_Multiple_Sclerosis_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAAuFg7_SsqnZqc5fBaJafQCa/003-FAQs_for_Multiple_Sclerosis_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AADvy0C9UNQEJPNLCh6SXwhXa/003-FAQs_for_Multiple_Sclerosis_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AADBLePDix6cJPUOLXeApQiNa/003-FAQs_for_Multiple_Sclerosis_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AABsOKW31YFW_3VI_9WvwQTPa/003-FAQs_for_Multiple_Sclerosis_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AABXfR5CPiKuevpiRJ57-ggla/003-FAQs_for_Multiple_Sclerosis_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AADGovvWSPmsJtY8koOhslTya/003-FAQs_for_Multiple_Sclerosis_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AABfFU--R5t6veiYaWrTxpPka/003-FAQs_for_Multiple_Sclerosis_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AABdGfBtjKZaksvMW9GfR2POa/003-FAQs_for_Multiple_Sclerosis_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAC4TMiRMaHw880Ec6AeaEk4a/003-FAQs_for_Multiple_Sclerosis_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAAJzNaUXfFQ-8-JroRkw5HNa/003-FAQs_for_Multiple_Sclerosis_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAC0keLqreucxRxIdvLitkMxa/003-FAQs_for_Multiple_Sclerosis_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AABABVpgaQeup5AupsHz0aCPa/003-FAQs_for_Multiple_Sclerosis_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AABl9u-mOXZYbBP7raOF47cZa/003-FAQs_for_Multiple_Sclerosis_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AABQnTqLT0qE-mBBEHAe5jWfa/003-FAQs_for_Multiple_Sclerosis_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAC4Hf0JyKX9IK7SEXZR2lWAa/003-FAQs_for_Multiple_Sclerosis_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AACsI5dbtwcvLDCGH2ASalmta/003-FAQs_for_Multiple_Sclerosis_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AACOmIL8MzISIHptjXJFu0KBa/003-FAQs_for_Multiple_Sclerosis_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AACrrPnLJv1hgyvxksDbhpZaa/003-FAQs_for_Multiple_Sclerosis_-_Ara-22.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAB0nGGm7dstT7J2oTEHqWU-a/003-FAQs_for_Multiple_Sclerosis_-_Ara-23.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAChsK-6VW5qV-bO8bG0m4yTa/003-FAQs_for_Multiple_Sclerosis_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAD5vt4Fa3iICM9ciaCstbaza/003-FAQs_for_Multiple_Sclerosis_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AACxfovEElOHK_SUZBsKYCJwa/003-FAQs_for_Multiple_Sclerosis_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AACm9JdDrXsoZj-CAsyxTZoIa/003-FAQs_for_Multiple_Sclerosis_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAAawwROinHQMBg7SHnIZ1aDa/003-FAQs_for_Multiple_Sclerosis_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AADOMqCb8_D9wMuaOYAnwrRJa/003-FAQs_for_Multiple_Sclerosis_-_Eng-6.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAChrCxpC9p-VIVjkTaVFwrFa/003-FAQs_for_Multiple_Sclerosis_-_Eng-7.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AACNaNKxMFGktgcUXzK9dclxa/003-FAQs_for_Multiple_Sclerosis_-_Eng-8.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAAUFB2KVEp4xKnXpmKcXWkMa/003-FAQs_for_Multiple_Sclerosis_-_Eng-9.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AADuNaIo5VUjC5tvArYqqOmOa/003-FAQs_for_Multiple_Sclerosis_-_Eng-10.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AADAJLpRUZCud5KQGMVNCsgua/003-FAQs_for_Multiple_Sclerosis_-_Eng-11.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAD8po5enCmIg_kdVgzRmLRca/003-FAQs_for_Multiple_Sclerosis_-_Eng-12.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAD-0xdnNym1UGdd8gf73dmqa/003-FAQs_for_Multiple_Sclerosis_-_Eng-13.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAB3rsyWUvDDr65yZ-2-Q1zWa/003-FAQs_for_Multiple_Sclerosis_-_Eng-14.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AADeG3m6wnI0AKLrX5FQ16lSa/003-FAQs_for_Multiple_Sclerosis_-_Eng-15.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAAzY1Z6PWfgaHScL0SujHyca/003-FAQs_for_Multiple_Sclerosis_-_Eng-16.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AADiRLI4SPRxc9rZi4274i_Ba/003-FAQs_for_Multiple_Sclerosis_-_Eng-17.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AACW5EHqhpvqLRfVRfHuOucqa/003-FAQs_for_Multiple_Sclerosis_-_Eng-18.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AABkbExIxDLAmW3uSZOdbTXxa/003-FAQs_for_Multiple_Sclerosis_-_Eng-19.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AABWffti62bK8hCvdWH5dCWBa/003-FAQs_for_Multiple_Sclerosis_-_Eng-20.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AACGJe4WDKnkZlEd2bdH5IeHa/003-FAQs_for_Multiple_Sclerosis_-_Eng-21.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AACqvEezkBXbaBTt5mig097xa/003-FAQs_for_Multiple_Sclerosis_-_Eng-22.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAAD5YH436FJRNXO2s6hH4MDa/003-FAQs_for_Multiple_Sclerosis_-_Eng-23.jpg?raw=1",],
    "tags":[ "Multiple Sclerosis", "Back pain", "Neck pain", "Foot drop", "Fatigue", "Depression", "Incontinence"],
    "araDir": "./docs/Neuro/003-FAQs_for_Multiple_Sclerosis_-_Ara.pdf",
@@ -6398,7 +6398,7 @@ const neuro = [
    {
    "id": "N004",
    "title":"Parkinson's Disease",
-   "tumbUrl":[
+   "thumbUrl":[
       "./docs/Neuro/Thumbnail/004-Parkinson's_Disease_-_Ara-1.jpg",
       "./docs/Neuro/Thumbnail/004-Parkinson's_Disease_-_Ara-2.jpg",
       "./docs/Neuro/Thumbnail/004-Parkinson's_Disease_-_Eng-1.jpg",
@@ -6412,7 +6412,7 @@ const neuro = [
    ],
    "araQRCode":"./docs/Neuro/QRcode/004-Parkinson's_Disease_-_Ara.jpg",
    "engQRCode":"./docs/Neuro/QRcode/004-Parkinson's_Disease_-_Eng.jpg",
-   "tumbBackup":["https://www.dropbox.com/sh/1ordtul72y7dvw9/AAA7FfUwm3Ujk8h1dTbxG004a/004-Parkinson%27s_Disease_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADzH8Wt370auQy4aJ7Tej0Oa/004-Parkinson%27s_Disease_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAjC3gk1HhTgHS5WXDE9qwoa/004-Parkinson%27s_Disease_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACij0NpsXNJdgvGJY_5u8Nca/004-Parkinson%27s_Disease_-_Eng-2.jpg?raw=1",],
+   "thumbBackup":["https://www.dropbox.com/sh/1ordtul72y7dvw9/AAA7FfUwm3Ujk8h1dTbxG004a/004-Parkinson%27s_Disease_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AADzH8Wt370auQy4aJ7Tej0Oa/004-Parkinson%27s_Disease_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAjC3gk1HhTgHS5WXDE9qwoa/004-Parkinson%27s_Disease_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACij0NpsXNJdgvGJY_5u8Nca/004-Parkinson%27s_Disease_-_Eng-2.jpg?raw=1",],
    "bigBackup":["https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAB98GuZr89RkP9a2_jWdnZea/004-Parkinson%27s_Disease_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAC_aDlgVi-UnkIF9c_V2SpXa/004-Parkinson%27s_Disease_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AADGdhHVw1nxXOlqndHvtZZwa/004-Parkinson%27s_Disease_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AACNbG36EO3pKEhn0J-aoTM-a/004-Parkinson%27s_Disease_-_Eng-2.jpg?raw=1",],
    "tags":[ "Parkinson's"],
    "araDir": "./docs/Neuro/004-Parkinson's_Disease_-_Ara.pdf",
@@ -6424,7 +6424,7 @@ const neuro = [
    {
    "id": "N005",
    "title":"Stroke",
-   "tumbUrl":[
+   "thumbUrl":[
       "./docs/Neuro/Thumbnail/005-Stroke_-_Ara-1.jpg",
       "./docs/Neuro/Thumbnail/005-Stroke_-_Ara-2.jpg",
       "./docs/Neuro/Thumbnail/005-Stroke_-_Eng-1.jpg",
@@ -6438,7 +6438,7 @@ const neuro = [
    ],
    "araQRCode":"./docs/Neuro/QRcode/005-Stroke_-_Ara.jpg",
    "engQRCode":"./docs/Neuro/QRcode/005-Stroke_-_Eng.jpg",
-   "tumbBackup":["https://www.dropbox.com/sh/1ordtul72y7dvw9/AADvBjpeerW0L1CZCbwfovvfa/005-Stroke_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAeRwYoZ7bawzVqm_hX7-ffa/005-Stroke_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACzth0tjQZgMAFRfqr1lKGba/005-Stroke_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABg7p3BK1IQXj4_9TWzpcJca/005-Stroke_-_Eng-2.jpg?raw=1",],
+   "thumbBackup":["https://www.dropbox.com/sh/1ordtul72y7dvw9/AADvBjpeerW0L1CZCbwfovvfa/005-Stroke_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAeRwYoZ7bawzVqm_hX7-ffa/005-Stroke_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACzth0tjQZgMAFRfqr1lKGba/005-Stroke_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABg7p3BK1IQXj4_9TWzpcJca/005-Stroke_-_Eng-2.jpg?raw=1",],
    "bigBackup":["https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAAnC7A6N5gr9e97fQFPemQva/005-Stroke_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAAe2771du7owtZhj3acj4w4a/005-Stroke_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AACRSWT9j5R6BH_4qmLCQjlta/005-Stroke_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AADcZ5ChBk7I0-NDoJlEFEb1a/005-Stroke_-_Eng-2.jpg?raw=1",],
    "tags":[ "Stroke", "upper limp Exercises", "Lower limp Exercises"],
    "araDir": "./docs/Neuro/005-Stroke_-_Ara.pdf",
@@ -6450,7 +6450,7 @@ const neuro = [
    {
    "id": "N006",
    "title":"Stroke Rehab - Advanced Lower Extermities Exercises",
-   "tumbUrl":[
+   "thumbUrl":[
       "./docs/Neuro/Thumbnail/006-Stroke_Rehab_-_Advanced_Lower_Extermities_Exercises_-_Eng-1.jpg",
       "./docs/Neuro/Thumbnail/006-Stroke_Rehab_-_Advanced_Lower_Extermities_Exercises_-_Eng-2.jpg",
       "./docs/Neuro/Thumbnail/006-Stroke_Rehab_-_Advanced_Lower_Extermities_Exercises_-_Eng-3.jpg",
@@ -6461,7 +6461,7 @@ const neuro = [
       "./docs/Neuro/Big/006-Stroke_Rehab_-_Advanced_Lower_Extermities_Exercises_-_Eng-3.jpg",
    ],
    "engQRCode":"./docs/Neuro/QRcode/006-Stroke_Rehab_-_Advanced_Lower_Extermities_Exercises_-_Eng.jpg",
-   "tumbBackup":["https://www.dropbox.com/sh/1ordtul72y7dvw9/AABuYgv5tMyH-9oIpxSHN1iQa/006-Stroke_Rehab_-_Advanced_Lower_Extermities_Exercises_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAUvQ6CiK37xaWecT34idHUa/006-Stroke_Rehab_-_Advanced_Lower_Extermities_Exercises_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAB_gsyas-tBvEHw172dIPwNa/006-Stroke_Rehab_-_Advanced_Lower_Extermities_Exercises_-_Eng-3.jpg?raw=1",],
+   "thumbBackup":["https://www.dropbox.com/sh/1ordtul72y7dvw9/AABuYgv5tMyH-9oIpxSHN1iQa/006-Stroke_Rehab_-_Advanced_Lower_Extermities_Exercises_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAUvQ6CiK37xaWecT34idHUa/006-Stroke_Rehab_-_Advanced_Lower_Extermities_Exercises_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAB_gsyas-tBvEHw172dIPwNa/006-Stroke_Rehab_-_Advanced_Lower_Extermities_Exercises_-_Eng-3.jpg?raw=1",],
    "bigBackup":["https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AADr9gSy0GWjJJ7zdPGF4TwLa/006-Stroke_Rehab_-_Advanced_Lower_Extermities_Exercises_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AADZxGqjyT7nqy9oeCp-YeIRa/006-Stroke_Rehab_-_Advanced_Lower_Extermities_Exercises_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAC8P_-QJR1JTt_qaP1Tngqja/006-Stroke_Rehab_-_Advanced_Lower_Extermities_Exercises_-_Eng-3.jpg?raw=1",],
    "tags":[ "Stroke", "Lower Extermities Exercises", "Bridging", "Clam Exercise", "Crawling Stretch", "Four-Point Kneeling", "Superman Pose", "Seated Push Up", "Heel Raise", "Side Stepping"],
    "engDir": "./docs/Neuro/006-Stroke_Rehab_-_Advanced_Lower_Extermities_Exercises_-_Eng.pdf",
@@ -6471,7 +6471,7 @@ const neuro = [
    {
    "id": "N007",
    "title":"Stroke Rehab - Advanced Upper Extermities Exercises",
-   "tumbUrl":[
+   "thumbUrl":[
       "./docs/Neuro/Thumbnail/007-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Ara-1.jpg",
       "./docs/Neuro/Thumbnail/007-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Ara-2.jpg",
       "./docs/Neuro/Thumbnail/007-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Ara-3.jpg",
@@ -6489,7 +6489,7 @@ const neuro = [
    ],
    "araQRCode":"./docs/Neuro/QRcode/007-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Ara.jpg",
    "engQRCode":"./docs/Neuro/QRcode/007-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Eng.jpg",
-   "tumbBackup":["https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAz-FhAkPRJZiDYPkvXKJJla/007-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAiCfEwWWepXcnBB0YQHCJya/007-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAJ11GJqEaxSb02H1I9KeLSa/007-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACmW4pXSiKtZydue5lABvnta/007-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAD6yx3Ccmc734H6fxnZPdjta/007-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAApOBzU5nVzvlJk3aYwMpVOa/007-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Eng-3.jpg?raw=1",],
+   "thumbBackup":["https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAz-FhAkPRJZiDYPkvXKJJla/007-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAiCfEwWWepXcnBB0YQHCJya/007-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAJ11GJqEaxSb02H1I9KeLSa/007-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AACmW4pXSiKtZydue5lABvnta/007-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAD6yx3Ccmc734H6fxnZPdjta/007-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAApOBzU5nVzvlJk3aYwMpVOa/007-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Eng-3.jpg?raw=1",],
    "bigBackup":["https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAAgMjfMpuDnY2SWQx4tGmrGa/007-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAA5LCHHPWaLSSYh6OJFkA4Aa/007-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AACzDXtu3rdHeRoLEeAHJ5CUa/007-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAAzaik-z7sLYvZFjAJiZHTRa/007-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AABDtLnT0AJh--9ZrtmJf-8ba/007-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AACmrvaxP2UJ-smQn_omKkLFa/007-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Eng-3.jpg?raw=1",],
    "tags":[ "Stroke", "Upper Extermities", "Wall slide", "Shoulder Exercises", "Elbow curl", "Wrist curl", "Wrist extension", "Fingers Exercises"],
    "araDir": "./docs/Neuro/007-Stroke_Rehab_-_Advanced_Upper_Extermities_Exercises_-_Ara.pdf",
@@ -6501,7 +6501,7 @@ const neuro = [
    {
    "id": "N008",
    "title":"Vestibular rehabilitation",
-   "tumbUrl":[
+   "thumbUrl":[
       "./docs/Neuro/Thumbnail/008-Vestibular_rehabilitation_-_Ara-1.jpg",
       "./docs/Neuro/Thumbnail/008-Vestibular_rehabilitation_-_Ara-2.jpg",
       "./docs/Neuro/Thumbnail/008-Vestibular_rehabilitation_-_Ara-3.jpg",
@@ -6514,7 +6514,7 @@ const neuro = [
       "./docs/Neuro/Big/008-Vestibular_rehabilitation_-_Ara-4.jpg",
    ],
    "araQRCode":"./docs/Neuro/QRcode/008-Vestibular_rehabilitation_-_Ara.jpg",
-   "tumbBackup":["https://www.dropbox.com/sh/1ordtul72y7dvw9/AAD8hPv1s3I-IfawEASRry5Aa/008-Vestibular_rehabilitation_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAANUIYTWQwd-6UetaojVcBSa/008-Vestibular_rehabilitation_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABQF0sCT_HHy9ejjOR1IjeZa/008-Vestibular_rehabilitation_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAwwFkwUxN_JPUOSSjQxbW4a/008-Vestibular_rehabilitation_-_Ara-4.jpg?raw=1",],
+   "thumbBackup":["https://www.dropbox.com/sh/1ordtul72y7dvw9/AAD8hPv1s3I-IfawEASRry5Aa/008-Vestibular_rehabilitation_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAANUIYTWQwd-6UetaojVcBSa/008-Vestibular_rehabilitation_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AABQF0sCT_HHy9ejjOR1IjeZa/008-Vestibular_rehabilitation_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/1ordtul72y7dvw9/AAAwwFkwUxN_JPUOSSjQxbW4a/008-Vestibular_rehabilitation_-_Ara-4.jpg?raw=1",],
    "bigBackup":["https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAA7LCHtSXj2rqncgPr6s0bba/008-Vestibular_rehabilitation_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AACZ_ciyYvKXLcaUSir87Xr1a/008-Vestibular_rehabilitation_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AAAua7QUPRnVpouxNhqC0tt1a/008-Vestibular_rehabilitation_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/tzg2n9cvnglfpcf/AACC0URXqISar824zrkDvjjxa/008-Vestibular_rehabilitation_-_Ara-4.jpg?raw=1",],
    "tags":[ "Vestibular", "Eye Exercises", "Neck ROM", "Shoulder ROM", "Back ROM", "Sitting Balance", "Standing Balance", "Dynamic Balance"],
    "araDir": "./docs/Neuro/008-Vestibular_rehabilitation_-_Ara.pdf",
@@ -6532,7 +6532,7 @@ const pedia = [
    {
       "id": "P001",
       "title":"Balance Exercises For Pediatrics",
-      "tumbUrl":[
+      "thumbUrl":[
          "./docs/Pedia/Thumbnail/001-Balance_Exercises_For_Pediatrics_-_Ara-1.jpg",
          "./docs/Pedia/Thumbnail/001-Balance_Exercises_For_Pediatrics_-_Ara-2.jpg",
          "./docs/Pedia/Thumbnail/001-Balance_Exercises_For_Pediatrics_-_Eng-1.jpg",
@@ -6546,7 +6546,7 @@ const pedia = [
       ],
       "araQRCode":"./docs/Pedia/QRcode/001-Balance_Exercises_For_Pediatrics_-_Ara.jpg",
       "engQRCode":"./docs/Pedia/QRcode/001-Balance_Exercises_For_Pediatrics_-_Eng.jpg",
-      "tumbBackup":["https://www.dropbox.com/sh/0gb35migsr1gjwr/AAB1d1UPJudJUguFFlD5_m1Ta/001-Balance_Exercises_For_Pediatrics_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AACKHmAEKIwiTDPIeOA0HrrAa/001-Balance_Exercises_For_Pediatrics_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AACiqudrE6Y1_oxHVFtMAmUba/001-Balance_Exercises_For_Pediatrics_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AABnsfBU287kTsL3SHD8xYeZa/001-Balance_Exercises_For_Pediatrics_-_Eng-2.jpg?raw=1",],
+      "thumbBackup":["https://www.dropbox.com/sh/0gb35migsr1gjwr/AAB1d1UPJudJUguFFlD5_m1Ta/001-Balance_Exercises_For_Pediatrics_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AACKHmAEKIwiTDPIeOA0HrrAa/001-Balance_Exercises_For_Pediatrics_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AACiqudrE6Y1_oxHVFtMAmUba/001-Balance_Exercises_For_Pediatrics_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AABnsfBU287kTsL3SHD8xYeZa/001-Balance_Exercises_For_Pediatrics_-_Eng-2.jpg?raw=1",],
       "bigBackup":["https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AADtHFMpZR2ubrPSlpoZurcia/001-Balance_Exercises_For_Pediatrics_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AAD-5AtUsT89pYQoxLvFOVZXa/001-Balance_Exercises_For_Pediatrics_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AACn08ayeb_ujeew3XO9_5l7a/001-Balance_Exercises_For_Pediatrics_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AADsrCeeUpTmr_FPFPApQFfEa/001-Balance_Exercises_For_Pediatrics_-_Eng-2.jpg?raw=1",],
       "tags":[ "Cerebral Palsy","Down Syndrome","Developmental Delay", "Balance"],
       "araDir": "./docs/Pedia/001-Balance_Exercises_For_Pediatrics_-_Ara.pdf",
@@ -6557,7 +6557,7 @@ const pedia = [
    {
       "id": "P002",
       "title":"Sensory Integration",
-      "tumbUrl":[
+      "thumbUrl":[
          "./docs/Pedia/Thumbnail/002-Sensory_Integration_-_Ara-1.jpg",
          "./docs/Pedia/Thumbnail/002-Sensory_Integration_-_Ara-2.jpg",
          "./docs/Pedia/Thumbnail/002-Sensory_Integration_-_Ara-3.jpg",
@@ -6579,7 +6579,7 @@ const pedia = [
       ],
       "araQRCode":"./docs/Pedia/QRcode/002-Sensory_Integration_-_Ara.jpg",
       "engQRCode":"./docs/Pedia/QRcode/002-Sensory_Integration_-_Eng.jpg",
-      "tumbBackup":["https://www.dropbox.com/sh/0gb35migsr1gjwr/AABqGPoVq7m5KklaHMbE1ye9a/002-Sensory_Integration_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AAARWVpKAg--WK-MniNYfHiHa/002-Sensory_Integration_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AACMUBEh9QAi33X2A3jQExsZa/002-Sensory_Integration_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AAAA2KWMT7Ow31zlpvniJ2cMa/002-Sensory_Integration_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AABrtK4G4iFOtC1OZDqzzHRua/002-Sensory_Integration_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AAC_9g5U9UAwbILdTuZwuLQ2a/002-Sensory_Integration_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AABZSfrqQe-NTMgPgXor0w9la/002-Sensory_Integration_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AACtOIfjJVn-sTqEGrMgGcsva/002-Sensory_Integration_-_Eng-4.jpg?raw=1",],
+      "thumbBackup":["https://www.dropbox.com/sh/0gb35migsr1gjwr/AABqGPoVq7m5KklaHMbE1ye9a/002-Sensory_Integration_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AAARWVpKAg--WK-MniNYfHiHa/002-Sensory_Integration_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AACMUBEh9QAi33X2A3jQExsZa/002-Sensory_Integration_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AAAA2KWMT7Ow31zlpvniJ2cMa/002-Sensory_Integration_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AABrtK4G4iFOtC1OZDqzzHRua/002-Sensory_Integration_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AAC_9g5U9UAwbILdTuZwuLQ2a/002-Sensory_Integration_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AABZSfrqQe-NTMgPgXor0w9la/002-Sensory_Integration_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AACtOIfjJVn-sTqEGrMgGcsva/002-Sensory_Integration_-_Eng-4.jpg?raw=1",],
       "bigBackup":["https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AAA9wQ-Ske1b-lHDD4u65Btka/002-Sensory_Integration_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AAChVkoaJnMMf3yYFtir4SNEa/002-Sensory_Integration_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AACf16rfJxuTjYYBwNyYOiHna/002-Sensory_Integration_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AACTAv-VCXbIVxOI88YMoIV2a/002-Sensory_Integration_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AADFqNtbuJyfkf2Vlo3LJKfRa/002-Sensory_Integration_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AAAL2Iossx_zSmiDDYm2UFWNa/002-Sensory_Integration_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AADVq7wKy_N5nK4NrQrs1wiIa/002-Sensory_Integration_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AADn430c1-eAwazh6bG9QqOLa/002-Sensory_Integration_-_Eng-4.jpg?raw=1",],
       "tags":[ "Autism", "Down's syndrome", "Hearing disability", "CP", "Developmental Delay", "ADHD", "Growth retardation"],
       "araDir": "./docs/Pedia/002-Sensory_Integration_-_Ara.pdf",
@@ -6590,7 +6590,7 @@ const pedia = [
    {
       "id": "P003",
       "title":"Club Foot",
-      "tumbUrl":[
+      "thumbUrl":[
          "./docs/Pedia/Thumbnail/003-Club_Foot_-_Eng-1.jpg",
          "./docs/Pedia/Thumbnail/003-Club_Foot_-_Eng-2.jpg",
          "./docs/Pedia/Thumbnail/003-Club_Foot_-_Eng-3.jpg",
@@ -6603,7 +6603,7 @@ const pedia = [
          "./docs/Pedia/Big/003-Club_Foot_-_Eng-4.jpg",
       ],
       "engQRCode":"./docs/Pedia/QRcode/003-Club_Foot_-_Eng.jpg",
-      "tumbBackup":["https://www.dropbox.com/sh/0gb35migsr1gjwr/AABohXdR-5pIGL6R5yXuJIoaa/003-Club_Foot_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AAA86zqQJwRIXRWlnAWXgiAEa/003-Club_Foot_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AABjyidGFfc4qM3TrH2Pjoipa/003-Club_Foot_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AACMik3eX3KWXhvxszaNIxE5a/003-Club_Foot_-_Eng-4.jpg?raw=1",],
+      "thumbBackup":["https://www.dropbox.com/sh/0gb35migsr1gjwr/AABohXdR-5pIGL6R5yXuJIoaa/003-Club_Foot_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AAA86zqQJwRIXRWlnAWXgiAEa/003-Club_Foot_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AABjyidGFfc4qM3TrH2Pjoipa/003-Club_Foot_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AACMik3eX3KWXhvxszaNIxE5a/003-Club_Foot_-_Eng-4.jpg?raw=1",],
       "bigBackup":["https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AACadjA6AIgkYVU_QWtxqHPma/003-Club_Foot_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AACcx2oY3XeFHiwiArE1zvFma/003-Club_Foot_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AAAtYMQ2t1ZDc120s6f018lma/003-Club_Foot_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AABDH4YhQcyOBYizYLWpUe0Ba/003-Club_Foot_-_Eng-4.jpg?raw=1",],
       "tags":[ "Club Foot", "Stretching Exe", "ROM Exe", "Strengthening Exe"],
       "engDir": "./docs/Pedia/003-Club_Foot_-_Eng.pdf",
@@ -6612,7 +6612,7 @@ const pedia = [
    {
       "id": "P004",
       "title":"Sever's Disease",
-      "tumbUrl":[
+      "thumbUrl":[
          "./docs/Pedia/Thumbnail/004-Sever's_Disease_-_Eng-1.jpg",
          "./docs/Pedia/Thumbnail/004-Sever's_Disease_-_Eng-2.jpg",
       ],
@@ -6621,7 +6621,7 @@ const pedia = [
          "./docs/Pedia/Big/004-Sever's_Disease_-_Eng-2.jpg",
       ],
       "engQRCode":"./docs/Pedia/QRcode/004-Sever's_Disease_-_Eng.jpg",
-      "tumbBackup":["https://www.dropbox.com/sh/0gb35migsr1gjwr/AAD1Cr42lgvrYsORIx6VdDh9a/004-Sever%27s_Disease_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AAATo7-5ISnt5wHmoFXriZrea/004-Sever%27s_Disease_-_Eng-2.jpg?raw=1",],
+      "thumbBackup":["https://www.dropbox.com/sh/0gb35migsr1gjwr/AAD1Cr42lgvrYsORIx6VdDh9a/004-Sever%27s_Disease_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AAATo7-5ISnt5wHmoFXriZrea/004-Sever%27s_Disease_-_Eng-2.jpg?raw=1",],
       "bigBackup":["https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AAB_R_MXkUwgacoH4aH7nTLVa/004-Sever%27s_Disease_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AACnEsC91kv5hZkrTGclNAFSa/004-Sever%27s_Disease_-_Eng-2.jpg?raw=1",],
       "tags":[ "pediatric", "Sever's Disease", "Calf Stretch Exe"],
       "engDir": "./docs/Pedia/004-Sever's_Disease_-_Eng.pdf",
@@ -6630,7 +6630,7 @@ const pedia = [
    {
       "id": "P005",
       "title":"Tip Toe Walking",
-      "tumbUrl":[
+      "thumbUrl":[
          "./docs/Pedia/Thumbnail/005-Tip_Toe_Walking_-_Ara-1.jpg",
          "./docs/Pedia/Thumbnail/005-Tip_Toe_Walking_-_Ara-2.jpg",
          "./docs/Pedia/Thumbnail/005-Tip_Toe_Walking_-_Ara-3.jpg",
@@ -6660,7 +6660,7 @@ const pedia = [
       ],
       "araQRCode":"./docs/Pedia/QRcode/005-Tip_Toe_Walking_-_Ara.jpg",
       "engQRCode":"./docs/Pedia/QRcode/005-Tip_Toe_Walking_-_Eng.jpg",
-      "tumbBackup":["https://www.dropbox.com/sh/0gb35migsr1gjwr/AABh46x0KuSAxjq6YupYTVSEa/005-Tip_Toe_Walking_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AABItoA0Dms-W5LfKQXZdd75a/005-Tip_Toe_Walking_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AACHkgQfAWZEdpwJWppgKXq3a/005-Tip_Toe_Walking_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AABWAlmxhN4UsanCxVunku1La/005-Tip_Toe_Walking_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AADR9l5DtYic6htt5pGOPOE3a/005-Tip_Toe_Walking_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AAAnCPK2wV7D1CxELg-tcjNWa/005-Tip_Toe_Walking_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AAA_QAPq-OAB0JQeiGNfkSaDa/005-Tip_Toe_Walking_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AABtChCgromUNMzkXigKZ6V3a/005-Tip_Toe_Walking_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AADblBl19ZTv2iYg6r1A7tTAa/005-Tip_Toe_Walking_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AAAcCpFmWKU1UEeM-DHU8ti1a/005-Tip_Toe_Walking_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AACP3_KTuwcssroIqud_DaZta/005-Tip_Toe_Walking_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AABUkiw6Y2hDYtr72jF_tQXHa/005-Tip_Toe_Walking_-_Eng-6.jpg?raw=1",],
+      "thumbBackup":["https://www.dropbox.com/sh/0gb35migsr1gjwr/AABh46x0KuSAxjq6YupYTVSEa/005-Tip_Toe_Walking_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AABItoA0Dms-W5LfKQXZdd75a/005-Tip_Toe_Walking_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AACHkgQfAWZEdpwJWppgKXq3a/005-Tip_Toe_Walking_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AABWAlmxhN4UsanCxVunku1La/005-Tip_Toe_Walking_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AADR9l5DtYic6htt5pGOPOE3a/005-Tip_Toe_Walking_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AAAnCPK2wV7D1CxELg-tcjNWa/005-Tip_Toe_Walking_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AAA_QAPq-OAB0JQeiGNfkSaDa/005-Tip_Toe_Walking_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AABtChCgromUNMzkXigKZ6V3a/005-Tip_Toe_Walking_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AADblBl19ZTv2iYg6r1A7tTAa/005-Tip_Toe_Walking_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AAAcCpFmWKU1UEeM-DHU8ti1a/005-Tip_Toe_Walking_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AACP3_KTuwcssroIqud_DaZta/005-Tip_Toe_Walking_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AABUkiw6Y2hDYtr72jF_tQXHa/005-Tip_Toe_Walking_-_Eng-6.jpg?raw=1",],
       "bigBackup":["https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AABFz_QDyWEe8-a3iRXHTPjza/005-Tip_Toe_Walking_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AABWtHO9mvlHrwZlTiHuwwv8a/005-Tip_Toe_Walking_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AABPuuH4nD9aT6qGJH9EQ_xza/005-Tip_Toe_Walking_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AABWlp3dBamv6K20Ek_k4b-Da/005-Tip_Toe_Walking_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AABSnjskzkrKtmlW_l4OirCoa/005-Tip_Toe_Walking_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AABZCdrSQvckENU_p4xhQu2ka/005-Tip_Toe_Walking_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AADvB4J30sbMHPY_uHxVDA5Ea/005-Tip_Toe_Walking_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AAC0gyq4q1bsHeCjo1OVTGPKa/005-Tip_Toe_Walking_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AABGSHnX2lWb_iHbVn_sLQ3ea/005-Tip_Toe_Walking_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AADYV7yMvqP2uUEG-kVWM1Boa/005-Tip_Toe_Walking_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AAAEyY8dINuC7E7OxWA5BOR3a/005-Tip_Toe_Walking_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AAA58Hj_6zyTd7CQPVfx4bGua/005-Tip_Toe_Walking_-_Eng-6.jpg?raw=1",],
       "tags":[ "CP", ",spinal cord abnormalities", "Peripheral neuropathies", "Duchene Muscular Dystrophy", ":club foot", "leg length difference", ":Autism", "Cognitive Disability"],
       "araDir": "./docs/Pedia/005-Tip_Toe_Walking_-_Ara.pdf",
@@ -6671,7 +6671,7 @@ const pedia = [
    {
       "id": "P006",
       "title":"Torticollis",
-      "tumbUrl":[
+      "thumbUrl":[
          "./docs/Pedia/Thumbnail/006-Torticollis_-_Ara-1.jpg",
          "./docs/Pedia/Thumbnail/006-Torticollis_-_Ara-2.jpg",
          "./docs/Pedia/Thumbnail/006-Torticollis_-_Ara-3.jpg",
@@ -6697,7 +6697,7 @@ const pedia = [
       ],
       "araQRCode":"./docs/Pedia/QRcode/006-Torticollis_-_Ara.jpg",
       "engQRCode":"./docs/Pedia/QRcode/006-Torticollis_-_Eng.jpg",
-      "tumbBackup":["https://www.dropbox.com/sh/0gb35migsr1gjwr/AABZfkN2_Nxd-0z5DHGMHqUwa/006-Torticollis_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AABsu2Un6onkDiLkDoWlTlz_a/006-Torticollis_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AAAEC1yEjrXTkAqBq7lX-TdAa/006-Torticollis_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AAD6_AOaqzMh-DG-lgy5FFc7a/006-Torticollis_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AAAsSP284tBVgSnLNurUe3kWa/006-Torticollis_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AADFMu5D6nKoH17T4RO0V4-Na/006-Torticollis_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AADeONLgusxH5QRBlBemsrPDa/006-Torticollis_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AADT79T5S_zYc_v0G8UphcFba/006-Torticollis_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AACmJAmestKQoU3aYYkhLAbua/006-Torticollis_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AADwG2sXnDvv3zXf0pbeFLmua/006-Torticollis_-_Eng-5.jpg?raw=1",],
+      "thumbBackup":["https://www.dropbox.com/sh/0gb35migsr1gjwr/AABZfkN2_Nxd-0z5DHGMHqUwa/006-Torticollis_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AABsu2Un6onkDiLkDoWlTlz_a/006-Torticollis_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AAAEC1yEjrXTkAqBq7lX-TdAa/006-Torticollis_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AAD6_AOaqzMh-DG-lgy5FFc7a/006-Torticollis_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AAAsSP284tBVgSnLNurUe3kWa/006-Torticollis_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AADFMu5D6nKoH17T4RO0V4-Na/006-Torticollis_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AADeONLgusxH5QRBlBemsrPDa/006-Torticollis_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AADT79T5S_zYc_v0G8UphcFba/006-Torticollis_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AACmJAmestKQoU3aYYkhLAbua/006-Torticollis_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AADwG2sXnDvv3zXf0pbeFLmua/006-Torticollis_-_Eng-5.jpg?raw=1",],
       "bigBackup":["https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AAAnAo_pMC5sVqE4--rby-eTa/006-Torticollis_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AAB6j27m7_HBM-aRVMipLTE2a/006-Torticollis_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AABJP5L6DmRSyD7URmQDvF0Ua/006-Torticollis_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AACQF8GdKHdWRcVQAVc9FeFza/006-Torticollis_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AAC35CkNz7EJvH5UX2U5g7K5a/006-Torticollis_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AAD-oST5zxvnGIASRPWB-k71a/006-Torticollis_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AADMVWJU9fFTl448vc5nmBIYa/006-Torticollis_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AACZYFBOuebnpg6leywQ0Zxva/006-Torticollis_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AABB2wKDrWK9VYgCznFa4wPFa/006-Torticollis_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AADPIl_WI2GUPC43URiv0Tvma/006-Torticollis_-_Eng-5.jpg?raw=1",],
       "tags":[ "Fibromatosis colli", "Torticollis", "Positioning", "Positioning", "Positioning", "Strengthening", "Motor development"],
       "araDir": "./docs/Pedia/006-Torticollis_-_Ara.pdf",
@@ -6708,7 +6708,7 @@ const pedia = [
    {
       "id": "P007",
       "title":"W-Sitting",
-      "tumbUrl":[
+      "thumbUrl":[
          "./docs/Pedia/Thumbnail/007-W-Sitting_-_Eng-1.jpg",
          "./docs/Pedia/Thumbnail/007-W-Sitting_-_Eng-2.jpg",
       ],
@@ -6717,7 +6717,7 @@ const pedia = [
          "./docs/Pedia/Big/007-W-Sitting_-_Eng-2.jpg",
       ],
       "engQRCode":"./docs/Pedia/QRcode/007-W-Sitting_-_Eng.jpg",
-      "tumbBackup":["https://www.dropbox.com/sh/0gb35migsr1gjwr/AADX2S1MZhNf86XMo237tv4da/007-W-Sitting_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AADjO6eJL5eAm53T0PEWAzJXa/007-W-Sitting_-_Eng-2.jpg?raw=1",],
+      "thumbBackup":["https://www.dropbox.com/sh/0gb35migsr1gjwr/AADX2S1MZhNf86XMo237tv4da/007-W-Sitting_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/0gb35migsr1gjwr/AADjO6eJL5eAm53T0PEWAzJXa/007-W-Sitting_-_Eng-2.jpg?raw=1",],
       "bigBackup":["https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AAClwSMQGCe10SbX77N7em8Ba/007-W-Sitting_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/jcxx5rq3tsgjhqk/AADm7DAPBYd_QP-_dN9UtNgTa/007-W-Sitting_-_Eng-2.jpg?raw=1",],
       "tags":[ "pediatric"],
       "engDir": "./docs/Pedia/007-W-Sitting_-_Eng.pdf",
@@ -6733,7 +6733,7 @@ const womenHealth = [
    {
       "id": "W001",
       "title":"Lymphedema",
-      "tumbUrl":[
+      "thumbUrl":[
          "./docs/WH/Thumbnail/001-Lymphedema_-_Eng_-1.jpg",
          "./docs/WH/Thumbnail/001-Lymphedema_-_Eng_-2.jpg",
          "./docs/WH/Thumbnail/001-Lymphedema_-_Eng_-3.jpg",
@@ -6752,7 +6752,7 @@ const womenHealth = [
          "./docs/WH/Big/001-Lymphedema_-_Eng_-7.jpg",
       ],
       "engQRCode":"./docs/WH/QRcode/001-Lymphedema_-_Eng.jpg",
-      "tumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAArkaESTe8vYEaILsBmeeaBa/001-Lymphedema_-_Eng_-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACgNrGxjqnU659_wZTqAlXBa/001-Lymphedema_-_Eng_-2.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADkqlJD6SWEi8AC82IXR--1a/001-Lymphedema_-_Eng_-3.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADqPX4pogzkjP9plKC13pxva/001-Lymphedema_-_Eng_-4.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADdP1e0ssv6ON1kL6jepCUba/001-Lymphedema_-_Eng_-5.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAbsZLrCzLUgFYa6vvjIQyca/001-Lymphedema_-_Eng_-6.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAOttOgiUXTIRiVvJ_9Kdfta/001-Lymphedema_-_Eng_-7.jpg?raw=1",],
+      "thumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAArkaESTe8vYEaILsBmeeaBa/001-Lymphedema_-_Eng_-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACgNrGxjqnU659_wZTqAlXBa/001-Lymphedema_-_Eng_-2.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADkqlJD6SWEi8AC82IXR--1a/001-Lymphedema_-_Eng_-3.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADqPX4pogzkjP9plKC13pxva/001-Lymphedema_-_Eng_-4.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADdP1e0ssv6ON1kL6jepCUba/001-Lymphedema_-_Eng_-5.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAbsZLrCzLUgFYa6vvjIQyca/001-Lymphedema_-_Eng_-6.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAOttOgiUXTIRiVvJ_9Kdfta/001-Lymphedema_-_Eng_-7.jpg?raw=1",],
       "bigBackup":["https://www.dropbox.com/sh/x9lklgl0w6655jz/AADN7FM9THcrv5dgqlzPdcYLa/001-Lymphedema_-_Eng_-1.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AACY2qh4LNzj2-hDPmOGDphaa/001-Lymphedema_-_Eng_-2.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAC9fCj7kLUj-mq5n1Qjr3pAa/001-Lymphedema_-_Eng_-3.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAAwdGsMFhk6kGTd4lHFB-Aga/001-Lymphedema_-_Eng_-4.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AADtOzvqYUijdaDmCB2i0lwla/001-Lymphedema_-_Eng_-5.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AABn6r3jRIX68E1azCYM-R2da/001-Lymphedema_-_Eng_-6.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAB8fghxFf2BJ0RQzDMlyxGja/001-Lymphedema_-_Eng_-7.jpg?raw=1",],
       "tags":[ "Lymphedema", "Post Cancer surgery/radiation", "Tumors", "Trauma", "Infection", "Chronic venous insufficiency", "Obesity", "Filariasis"],
       "engDir": "./docs/WH/001-Lymphedema_-_Eng_.pdf",
@@ -6761,7 +6761,7 @@ const womenHealth = [
    {
       "id": "W002",
       "title":"Breast cancer rehabilitation",
-      "tumbUrl":[
+      "thumbUrl":[
          "./docs/WH/Thumbnail/002-Breast_cancer_rehabilitation_-_Ara-1.jpg",
          "./docs/WH/Thumbnail/002-Breast_cancer_rehabilitation_-_Ara-2.jpg",
          "./docs/WH/Thumbnail/002-Breast_cancer_rehabilitation_-_Ara-3.jpg",
@@ -6788,7 +6788,7 @@ const womenHealth = [
          "./docs/WH/Big/002-Breast_cancer_rehabilitation_-_Ara-11.jpg",
       ],
       "araQRCode":"./docs/WH/QRcode/002-Breast_cancer_rehabilitation_-_Ara.jpg",
-      "tumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AABgExS5Gem8raW2KXbvwKkZa/002-Breast_cancer_rehabilitation_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACuEXk_bkeHju0cEKFwo1nHa/002-Breast_cancer_rehabilitation_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAikb9r3hbm2LXn-YgRV9B3a/002-Breast_cancer_rehabilitation_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAS5wpMqLvo8T0D7KIm3VmOa/002-Breast_cancer_rehabilitation_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAcG8e_ArfL9mV0iVwMmlgwa/002-Breast_cancer_rehabilitation_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AABBA4Die4keg8nb9EiJmb_6a/002-Breast_cancer_rehabilitation_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAD_K10HE3CdXbgzCkXpex8aa/002-Breast_cancer_rehabilitation_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADgA8N6i4YEY0k0y7GiiO0pa/002-Breast_cancer_rehabilitation_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADOCLmnFD98ZT-2g-5o3cTPa/002-Breast_cancer_rehabilitation_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAD_1Z1do0FhkQbrDOKnWm9aa/002-Breast_cancer_rehabilitation_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAumcjc1TThaLrRS4Ekwk5Ha/002-Breast_cancer_rehabilitation_-_Ara-11.jpg?raw=1",],
+      "thumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AABgExS5Gem8raW2KXbvwKkZa/002-Breast_cancer_rehabilitation_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACuEXk_bkeHju0cEKFwo1nHa/002-Breast_cancer_rehabilitation_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAikb9r3hbm2LXn-YgRV9B3a/002-Breast_cancer_rehabilitation_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAS5wpMqLvo8T0D7KIm3VmOa/002-Breast_cancer_rehabilitation_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAcG8e_ArfL9mV0iVwMmlgwa/002-Breast_cancer_rehabilitation_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AABBA4Die4keg8nb9EiJmb_6a/002-Breast_cancer_rehabilitation_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAD_K10HE3CdXbgzCkXpex8aa/002-Breast_cancer_rehabilitation_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADgA8N6i4YEY0k0y7GiiO0pa/002-Breast_cancer_rehabilitation_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADOCLmnFD98ZT-2g-5o3cTPa/002-Breast_cancer_rehabilitation_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAD_1Z1do0FhkQbrDOKnWm9aa/002-Breast_cancer_rehabilitation_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAumcjc1TThaLrRS4Ekwk5Ha/002-Breast_cancer_rehabilitation_-_Ara-11.jpg?raw=1",],
       "bigBackup":["https://www.dropbox.com/sh/x9lklgl0w6655jz/AACqmq3RzL30a9sZMuo5fpL7a/002-Breast_cancer_rehabilitation_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AADnj8nx9cMvxnGBRodozLSBa/002-Breast_cancer_rehabilitation_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AADap38ArZlYv3XTWfRt2_Jpa/002-Breast_cancer_rehabilitation_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AACBNirPuIxCq8bBDqGHB61ya/002-Breast_cancer_rehabilitation_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAD6PtSWjpl02DUw9PfliqLga/002-Breast_cancer_rehabilitation_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AABn_R10WeNO5RGCRDDjTbPZa/002-Breast_cancer_rehabilitation_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAAZooeiRDZxIeUsWMiC4_mua/002-Breast_cancer_rehabilitation_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AADV3LiLzlYDn_hM0e15W0Tma/002-Breast_cancer_rehabilitation_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AABefxC-j0lOV5G3_MoS5E07a/002-Breast_cancer_rehabilitation_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AADSLANSI4bGViNHlJoXWbNNa/002-Breast_cancer_rehabilitation_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AADFkXt867_hpcST5ZNGxi1Ia/002-Breast_cancer_rehabilitation_-_Ara-11.jpg?raw=1",],
       "tags":[ "Breast", "cancer", "rehabilitation"],
       "araDir": "./docs/WH/002-Breast_cancer_rehabilitation_-_Ara.pdf",
@@ -6797,7 +6797,7 @@ const womenHealth = [
    {
       "id": "W003",
       "title":"Coccydynia",
-      "tumbUrl":[
+      "thumbUrl":[
          "./docs/WH/Thumbnail/003-Coccydynia_-_Ara-1.jpg",
          "./docs/WH/Thumbnail/003-Coccydynia_-_Ara-2.jpg",
          "./docs/WH/Thumbnail/003-Coccydynia_-_Ara-3.jpg",
@@ -6823,7 +6823,7 @@ const womenHealth = [
       ],
       "araQRCode":"./docs/WH/QRcode/003-Coccydynia_-_Ara.jpg",
       "engQRCode":"./docs/WH/QRcode/003-Coccydynia_-_Eng.jpg",
-      "tumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AABRYhf60kp1myf3Kb-MoNfGa/003-Coccydynia_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACN1dkRnwYehO_UnN2I110Fa/003-Coccydynia_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAC6zQQjlF2aPtE56Z4kH5m2a/003-Coccydynia_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAB2WB4ujaUum8c1U3H1jkDBa/003-Coccydynia_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADlKCwaBOGqaAMU7UBuh7qea/003-Coccydynia_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACEP6Ugo9sRZMbHBFHujGNma/003-Coccydynia_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACz0IAqcijxfwT9jFoj7GMla/003-Coccydynia_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADAQJlbRyBz7gLtHMNX1CR-a/003-Coccydynia_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACa_z6PG3pHXnrJ0ZwKWOYta/003-Coccydynia_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AABRkYFMrQsPSRflu9ZIV8Yua/003-Coccydynia_-_Eng-5.jpg?raw=1",],
+      "thumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AABRYhf60kp1myf3Kb-MoNfGa/003-Coccydynia_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACN1dkRnwYehO_UnN2I110Fa/003-Coccydynia_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAC6zQQjlF2aPtE56Z4kH5m2a/003-Coccydynia_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAB2WB4ujaUum8c1U3H1jkDBa/003-Coccydynia_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADlKCwaBOGqaAMU7UBuh7qea/003-Coccydynia_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACEP6Ugo9sRZMbHBFHujGNma/003-Coccydynia_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACz0IAqcijxfwT9jFoj7GMla/003-Coccydynia_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADAQJlbRyBz7gLtHMNX1CR-a/003-Coccydynia_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACa_z6PG3pHXnrJ0ZwKWOYta/003-Coccydynia_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AABRkYFMrQsPSRflu9ZIV8Yua/003-Coccydynia_-_Eng-5.jpg?raw=1",],
       "bigBackup":["https://www.dropbox.com/sh/x9lklgl0w6655jz/AAAB8L_SiVjnsGHAuXwC6NoDa/003-Coccydynia_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAA5bctvX6eDKJ-_U4XPQde_a/003-Coccydynia_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAADbnE0PjA6VrCwtsdU0lbqa/003-Coccydynia_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAAqTUC_T5F6RznAcYHRugHTa/003-Coccydynia_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AABmPpPAQKz0ORnXeh-BvqdGa/003-Coccydynia_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAAA9bpgSJIUD0RpQEZ5V9Gpa/003-Coccydynia_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AACiv2QnX7OBCfZCxS2sdK0Fa/003-Coccydynia_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AADxnP0LUsn3HwB9k9vBrt_Fa/003-Coccydynia_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AACuhkOh0-2X94gUEdfXv5a3a/003-Coccydynia_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAAof1MzK866CUOrSfaI2CVwa/003-Coccydynia_-_Eng-5.jpg?raw=1",],
       "tags":[ "Coccydynia", "Taping", "Gluteal Sets", "Kegel Exe", "Cobra Pose Exe", "Cat Camel Exe", "Clam Shell Exe", "Donkey Kicks Exe", "Hip Extension Exe"],
       "araDir": "./docs/WH/003-Coccydynia_-_Ara.pdf",
@@ -6834,7 +6834,7 @@ const womenHealth = [
    {
       "id": "W004",
       "title":"Constipation",
-      "tumbUrl":[
+      "thumbUrl":[
          "./docs/WH/Thumbnail/004-Constipation_-_Ara-1.jpg",
          "./docs/WH/Thumbnail/004-Constipation_-_Ara-2.jpg",
          "./docs/WH/Thumbnail/004-Constipation_-_Ara-3.jpg",
@@ -6852,7 +6852,7 @@ const womenHealth = [
       ],
       "araQRCode":"./docs/WH/QRcode/004-Constipation_-_Ara.jpg",
       "engQRCode":"./docs/WH/QRcode/004-Constipation_-_Eng.jpg",
-      "tumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAC_XRZXPIpwE8gjXUa-KYl9a/004-Constipation_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAASTotG9eZEE7NNBxcIcVpca/004-Constipation_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACmM6AsSrGgqlBpfSIY4dBTa/004-Constipation_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAALHV2W7hYNezuZlMfkzAmua/004-Constipation_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACTkpDg1NrQac1N-yAgHD-7a/004-Constipation_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADIyxen5o7BM8_b7o3rV4A-a/004-Constipation_-_Eng-3.jpg?raw=1",],
+      "thumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAC_XRZXPIpwE8gjXUa-KYl9a/004-Constipation_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAASTotG9eZEE7NNBxcIcVpca/004-Constipation_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACmM6AsSrGgqlBpfSIY4dBTa/004-Constipation_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAALHV2W7hYNezuZlMfkzAmua/004-Constipation_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACTkpDg1NrQac1N-yAgHD-7a/004-Constipation_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADIyxen5o7BM8_b7o3rV4A-a/004-Constipation_-_Eng-3.jpg?raw=1",],
       "bigBackup":["https://www.dropbox.com/sh/x9lklgl0w6655jz/AACCNhpqZmRFr6Rk41NDhrJga/004-Constipation_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AACraJt_OJ8UaLZmwjgiQADVa/004-Constipation_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAAKQYCayu9WuXfzyGu0AMnsa/004-Constipation_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAAeuMzRpXUtVVGEruCLsSXna/004-Constipation_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAAYN8VnMkypy1OiohxpvMQ9a/004-Constipation_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAA2f_-2bVEwIy8OpbIqchCQa/004-Constipation_-_Eng-3.jpg?raw=1",],
       "tags":[ "Constipation", "Improving Bowel Activity", "Bowel Massage", "Relaxation", "Pelvic Floor Muscle Exe"],
       "araDir": "./docs/WH/004-Constipation_-_Ara.pdf",
@@ -6863,7 +6863,7 @@ const womenHealth = [
    {
       "id": "W005",
       "title":"C-Section Rehabilitation",
-      "tumbUrl":[
+      "thumbUrl":[
          "./docs/WH/Thumbnail/005-C-Section_Rehabilitation_-_Ara-1.jpg",
          "./docs/WH/Thumbnail/005-C-Section_Rehabilitation_-_Ara-2.jpg",
          "./docs/WH/Thumbnail/005-C-Section_Rehabilitation_-_Ara-3.jpg",
@@ -6901,7 +6901,7 @@ const womenHealth = [
       ],
       "araQRCode":"./docs/WH/QRcode/005-C-Section_Rehabilitation_-_Ara.jpg",
       "engQRCode":"./docs/WH/QRcode/005-C-Section_Rehabilitation_-_Eng.jpg",
-      "tumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADNPgLVjaF97shSqCkloSbIa/005-C-Section_Rehabilitation_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAD2mQyVSDQubfBPmexBbShVa/005-C-Section_Rehabilitation_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAB4BjntYJ1PFBe0AAzMaqIsa/005-C-Section_Rehabilitation_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADpbc5MTu38fjWqK1urgRUea/005-C-Section_Rehabilitation_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAD7AfF1bi8on_V4AG6YP1_Ma/005-C-Section_Rehabilitation_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACtQGtXSaFWXC9-SKT3UAjAa/005-C-Section_Rehabilitation_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAxhDnVcSTPJfq9sr3yltqZa/005-C-Section_Rehabilitation_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADczfhkM3eDwQWVz7SFDK9ga/005-C-Section_Rehabilitation_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAIWS1ePjp9Efnsq4l6EzwVa/005-C-Section_Rehabilitation_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADbihsXpanM62ibZglMpAF5a/005-C-Section_Rehabilitation_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAWk9GyY0QZoCtC1AVAGXQYa/005-C-Section_Rehabilitation_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADSY6abYf-YJV8lywtQWhjPa/005-C-Section_Rehabilitation_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAC0xf6K0nsFXv_FGjNWFRHAa/005-C-Section_Rehabilitation_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADrKG8qZ7DHO8BpYz2fGokma/005-C-Section_Rehabilitation_-_Eng-6.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADeV07NASUTYZq_zyn9xKM6a/005-C-Section_Rehabilitation_-_Eng-7.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAceSJplKW1dA4o1b2djx1ra/005-C-Section_Rehabilitation_-_Eng-8.jpg?raw=1",],
+      "thumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADNPgLVjaF97shSqCkloSbIa/005-C-Section_Rehabilitation_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAD2mQyVSDQubfBPmexBbShVa/005-C-Section_Rehabilitation_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAB4BjntYJ1PFBe0AAzMaqIsa/005-C-Section_Rehabilitation_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADpbc5MTu38fjWqK1urgRUea/005-C-Section_Rehabilitation_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAD7AfF1bi8on_V4AG6YP1_Ma/005-C-Section_Rehabilitation_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACtQGtXSaFWXC9-SKT3UAjAa/005-C-Section_Rehabilitation_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAxhDnVcSTPJfq9sr3yltqZa/005-C-Section_Rehabilitation_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADczfhkM3eDwQWVz7SFDK9ga/005-C-Section_Rehabilitation_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAIWS1ePjp9Efnsq4l6EzwVa/005-C-Section_Rehabilitation_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADbihsXpanM62ibZglMpAF5a/005-C-Section_Rehabilitation_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAWk9GyY0QZoCtC1AVAGXQYa/005-C-Section_Rehabilitation_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADSY6abYf-YJV8lywtQWhjPa/005-C-Section_Rehabilitation_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAC0xf6K0nsFXv_FGjNWFRHAa/005-C-Section_Rehabilitation_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADrKG8qZ7DHO8BpYz2fGokma/005-C-Section_Rehabilitation_-_Eng-6.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADeV07NASUTYZq_zyn9xKM6a/005-C-Section_Rehabilitation_-_Eng-7.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAceSJplKW1dA4o1b2djx1ra/005-C-Section_Rehabilitation_-_Eng-8.jpg?raw=1",],
       "bigBackup":["https://www.dropbox.com/sh/x9lklgl0w6655jz/AAA9Yw1c7WqLi6KwK-jBeHFya/005-C-Section_Rehabilitation_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAAxUmCWG1Ha6l1BPRPsVtSPa/005-C-Section_Rehabilitation_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AABrzNeSKffRiD2MYCmeDRYBa/005-C-Section_Rehabilitation_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AABWQ2VCmRNHQoBHMHD4zDZGa/005-C-Section_Rehabilitation_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAAKDqogJNeF9KMi1zuE6qmwa/005-C-Section_Rehabilitation_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AABzf9KIr-yj7UitU5Y8LM2va/005-C-Section_Rehabilitation_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AABhgbcTbwLcWkSxA5_PTbb3a/005-C-Section_Rehabilitation_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AADlZ9hCprqWSkfuHWrFfDMza/005-C-Section_Rehabilitation_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AABmd9XBKY8uCjgQASXo9Y9ea/005-C-Section_Rehabilitation_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAApMFEiYuOPxLDehG2DTJEYa/005-C-Section_Rehabilitation_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAAXQ0nmbLDss55gWTe69UxIa/005-C-Section_Rehabilitation_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AADtBCAIeTt96BQtG3pz4Ut2a/005-C-Section_Rehabilitation_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AACGKmIt4HV6kVpnB6eF5b0Sa/005-C-Section_Rehabilitation_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AADdqrT1r4l9KM6U1Hw7h23Ma/005-C-Section_Rehabilitation_-_Eng-6.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AABv2LK2wPktEpIGmbV26M_ja/005-C-Section_Rehabilitation_-_Eng-7.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAAAe32ggkZQFB4T_9EVp3Vva/005-C-Section_Rehabilitation_-_Eng-8.jpg?raw=1",],
       "tags":[ "Cesarean", "C-Section", "Day 1 Post-OP", "6-8 WEEKS Post-OP", "Ergonomic"],
       "araDir": "./docs/WH/005-C-Section_Rehabilitation_-_Ara.pdf",
@@ -6912,7 +6912,7 @@ const womenHealth = [
    {
       "id": "W006",
       "title":"Diastasis Rectus Abdominis",
-      "tumbUrl":[
+      "thumbUrl":[
          "./docs/WH/Thumbnail/006-Diastasis_Rectus_Abdominis_-_Ara-1.jpg",
          "./docs/WH/Thumbnail/006-Diastasis_Rectus_Abdominis_-_Ara-2.jpg",
          "./docs/WH/Thumbnail/006-Diastasis_Rectus_Abdominis_-_Ara-3.jpg",
@@ -6954,7 +6954,7 @@ const womenHealth = [
       ],
       "araQRCode":"./docs/WH/QRcode/006-Diastasis_Rectus_Abdominis_-_Ara.jpg",
       "engQRCode":"./docs/WH/QRcode/006-Diastasis_Rectus_Abdominis_-_Eng.jpg",
-      "tumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAB2czpyHmZVi_BI5EUrPs9Va/006-Diastasis_Rectus_Abdominis_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACF6jxtOuDb2oNjVr_M3xwOa/006-Diastasis_Rectus_Abdominis_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADTzXYJlsiWq7BaSE35LRLSa/006-Diastasis_Rectus_Abdominis_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAD5ZHLOsb7_ubj80HA9B4b4a/006-Diastasis_Rectus_Abdominis_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACZuWV6ggewYxQ-MwR1Y3tCa/006-Diastasis_Rectus_Abdominis_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADRMYkVwuEaua1p87Sj5gtda/006-Diastasis_Rectus_Abdominis_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACYPpvPP7FYL73i1wxLQ2P3a/006-Diastasis_Rectus_Abdominis_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACgy8PyVUbJtF_qa_EGVjPga/006-Diastasis_Rectus_Abdominis_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AABYWaw_P4t1hu2lOvdYOj_aa/006-Diastasis_Rectus_Abdominis_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAB5ml-ewZ4MkGizt5dAE6Tja/006-Diastasis_Rectus_Abdominis_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADv6oWsebxytxJbqi9xkHsta/006-Diastasis_Rectus_Abdominis_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADEKAqn4V8xKgugZxPDoNmWa/006-Diastasis_Rectus_Abdominis_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACumzEDl6MA7W3cN65L65tfa/006-Diastasis_Rectus_Abdominis_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AABRSqu4jqdYD-xeuN0VceHBa/006-Diastasis_Rectus_Abdominis_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAC2j6b0VZ9exVmWjCm06QIpa/006-Diastasis_Rectus_Abdominis_-_Eng-6.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAfz-0zJ1AxqynX24aVcFWma/006-Diastasis_Rectus_Abdominis_-_Eng-7.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAB_8Zo7HUqiE7UaLD5evFBQa/006-Diastasis_Rectus_Abdominis_-_Eng-8.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADhKgwnsDGcX0346rYlGLywa/006-Diastasis_Rectus_Abdominis_-_Eng-9.jpg?raw=1",],
+      "thumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAB2czpyHmZVi_BI5EUrPs9Va/006-Diastasis_Rectus_Abdominis_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACF6jxtOuDb2oNjVr_M3xwOa/006-Diastasis_Rectus_Abdominis_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADTzXYJlsiWq7BaSE35LRLSa/006-Diastasis_Rectus_Abdominis_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAD5ZHLOsb7_ubj80HA9B4b4a/006-Diastasis_Rectus_Abdominis_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACZuWV6ggewYxQ-MwR1Y3tCa/006-Diastasis_Rectus_Abdominis_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADRMYkVwuEaua1p87Sj5gtda/006-Diastasis_Rectus_Abdominis_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACYPpvPP7FYL73i1wxLQ2P3a/006-Diastasis_Rectus_Abdominis_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACgy8PyVUbJtF_qa_EGVjPga/006-Diastasis_Rectus_Abdominis_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AABYWaw_P4t1hu2lOvdYOj_aa/006-Diastasis_Rectus_Abdominis_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAB5ml-ewZ4MkGizt5dAE6Tja/006-Diastasis_Rectus_Abdominis_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADv6oWsebxytxJbqi9xkHsta/006-Diastasis_Rectus_Abdominis_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADEKAqn4V8xKgugZxPDoNmWa/006-Diastasis_Rectus_Abdominis_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACumzEDl6MA7W3cN65L65tfa/006-Diastasis_Rectus_Abdominis_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AABRSqu4jqdYD-xeuN0VceHBa/006-Diastasis_Rectus_Abdominis_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAC2j6b0VZ9exVmWjCm06QIpa/006-Diastasis_Rectus_Abdominis_-_Eng-6.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAfz-0zJ1AxqynX24aVcFWma/006-Diastasis_Rectus_Abdominis_-_Eng-7.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAB_8Zo7HUqiE7UaLD5evFBQa/006-Diastasis_Rectus_Abdominis_-_Eng-8.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADhKgwnsDGcX0346rYlGLywa/006-Diastasis_Rectus_Abdominis_-_Eng-9.jpg?raw=1",],
       "bigBackup":["https://www.dropbox.com/sh/x9lklgl0w6655jz/AABTIj5rx69HlcnnsbGtH0jsa/006-Diastasis_Rectus_Abdominis_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAAJFOmCjz1Na5WUV6xWkb6ra/006-Diastasis_Rectus_Abdominis_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AABUBAXZAY8Yj0ApkLcdwVaMa/006-Diastasis_Rectus_Abdominis_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AADMMsPh79KGsUalTRZ-oN5ia/006-Diastasis_Rectus_Abdominis_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAAQ3G0uSjfcx6VgK32KK-8za/006-Diastasis_Rectus_Abdominis_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAB95FFvMTl-bgwNjM9ltnDca/006-Diastasis_Rectus_Abdominis_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AACsgvKF_VCLguWe_cNKSUB5a/006-Diastasis_Rectus_Abdominis_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AABB0NXVzB_VlFUpGMXraMqta/006-Diastasis_Rectus_Abdominis_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAAchaQcnwDo8NFdwDloz8bPa/006-Diastasis_Rectus_Abdominis_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAAOqkYHmzA9vgXIZskkFOtna/006-Diastasis_Rectus_Abdominis_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AACCwYkkRTX67Eb35yXWspn8a/006-Diastasis_Rectus_Abdominis_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAB_QJ7OK_Se4fmcJIHjpY2za/006-Diastasis_Rectus_Abdominis_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAB_1OnHY8nYB36EktGsti8Oa/006-Diastasis_Rectus_Abdominis_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAD2YD8UqWgbBWGzfyc0pkYna/006-Diastasis_Rectus_Abdominis_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AACExsPtPqJ5ZulAYfKTp4RTa/006-Diastasis_Rectus_Abdominis_-_Eng-6.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAAxmZz5gOwjY6gUdNVM-Cyaa/006-Diastasis_Rectus_Abdominis_-_Eng-7.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAAegFBzc65Dq9e-qbplJFRaa/006-Diastasis_Rectus_Abdominis_-_Eng-8.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAB82VwFntssPO4Wh1gK3V-pa/006-Diastasis_Rectus_Abdominis_-_Eng-9.jpg?raw=1",],
       "tags":[ "Diastasis Rectus Abdominis", "Diastasis Rectus Exe"],
       "araDir": "./docs/WH/006-Diastasis_Rectus_Abdominis_-_Ara.pdf",
@@ -6965,7 +6965,7 @@ const womenHealth = [
    {
       "id": "W007",
       "title":"Pelvic Floor Exercises",
-      "tumbUrl":[
+      "thumbUrl":[
          "./docs/WH/Thumbnail/007-Pelvic_Floor_Exercises_-_Ara.jpg",
          "./docs/WH/Thumbnail/007-Pelvic_Floor_Exercises_-_Eng.jpg",
       ],
@@ -6975,7 +6975,7 @@ const womenHealth = [
       ],
       "araQRCode":"./docs/WH/QRcode/007-Pelvic_Floor_Exercises_-_Ara.jpg",
       "engQRCode":"./docs/WH/QRcode/007-Pelvic_Floor_Exercises_-_Eng.jpg",
-      "tumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AABDI2lWMvGgqPalJW62fi8Ka/007-Pelvic_Floor_Exercises_-_Ara.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAADsho6R53RplwGR42HG3vMa/007-Pelvic_Floor_Exercises_-_Eng.jpg?raw=1",],
+      "thumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AABDI2lWMvGgqPalJW62fi8Ka/007-Pelvic_Floor_Exercises_-_Ara.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAADsho6R53RplwGR42HG3vMa/007-Pelvic_Floor_Exercises_-_Eng.jpg?raw=1",],
       "bigBackup":["https://www.dropbox.com/sh/x9lklgl0w6655jz/AADNoxgmUzQS_rMpF3dxxDjSa/007-Pelvic_Floor_Exercises_-_Ara.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AABgNvw1QqN352eGrqeA66bsa/007-Pelvic_Floor_Exercises_-_Eng.jpg?raw=1",],
       "tags":[ "Pelvic Floor Exe"],
       "araDir": "./docs/WH/007-Pelvic_Floor_Exercises_-_Ara.pdf",
@@ -6986,7 +6986,7 @@ const womenHealth = [
    {
       "id": "W008",
       "title":"Pelvic Floor Muscles Info",
-      "tumbUrl":[
+      "thumbUrl":[
          "./docs/WH/Thumbnail/008-Pelvic_Floor_Muscles_Info_-_Ara-1.jpg",
          "./docs/WH/Thumbnail/008-Pelvic_Floor_Muscles_Info_-_Ara-2.jpg",
       ],
@@ -6995,7 +6995,7 @@ const womenHealth = [
          "./docs/WH/Big/008-Pelvic_Floor_Muscles_Info_-_Ara-2.jpg",
       ],
       "araQRCode":"./docs/WH/QRcode/008-Pelvic_Floor_Muscles_Info_-_Ara.jpg",
-      "tumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAsXnVMsfhCJkDf_JpOunVNa/008-Pelvic_Floor_Muscles_Info_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACfuisuaxPwdRA_mo64oYPqa/008-Pelvic_Floor_Muscles_Info_-_Ara-2.jpg?raw=1",],
+      "thumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAsXnVMsfhCJkDf_JpOunVNa/008-Pelvic_Floor_Muscles_Info_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACfuisuaxPwdRA_mo64oYPqa/008-Pelvic_Floor_Muscles_Info_-_Ara-2.jpg?raw=1",],
       "bigBackup":["https://www.dropbox.com/sh/x9lklgl0w6655jz/AADfNoJWlSmY9liMCJoBNx64a/008-Pelvic_Floor_Muscles_Info_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AACU63Gi-MN595f1xVrNgJ5oa/008-Pelvic_Floor_Muscles_Info_-_Ara-2.jpg?raw=1",],
       "tags":[ "Pelvic Floor Muscles"],
       "araDir": "./docs/WH/008-Pelvic_Floor_Muscles_Info_-_Ara.pdf",
@@ -7004,7 +7004,7 @@ const womenHealth = [
    {
       "id": "W009",
       "title":"Sacroiliac Joint Pain",
-      "tumbUrl":[
+      "thumbUrl":[
          "./docs/WH/Thumbnail/009-SIJ_-_Ara-1.jpg",
          "./docs/WH/Thumbnail/009-SIJ_-_Ara-2.jpg",
          "./docs/WH/Thumbnail/009-SIJ_-_Ara-3.jpg",
@@ -7022,7 +7022,7 @@ const womenHealth = [
       ],
       "araQRCode":"./docs/WH/QRcode/009-SIJ_-_Ara.jpg",
       "engQRCode":"./docs/WH/QRcode/009-SIJ_-_Eng.jpg",
-      "tumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AABvgl2-ORDjxc5KaLdT7_gha/009-SIJ_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACrWnKQKVd5gJmtyWfljRTLa/009-SIJ_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAP83kaX3HarjMxSq8g_kW2a/009-SIJ_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAB9bmLET2VMXBL-eLlJn-iga/009-SIJ_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACHQpGfqfcnr0HoD3BLuXA4a/009-SIJ_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AABGQBqItzSvy3qrFl5IlDRea/009-SIJ_-_Eng-3.jpg?raw=1",],
+      "thumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AABvgl2-ORDjxc5KaLdT7_gha/009-SIJ_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACrWnKQKVd5gJmtyWfljRTLa/009-SIJ_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAP83kaX3HarjMxSq8g_kW2a/009-SIJ_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAB9bmLET2VMXBL-eLlJn-iga/009-SIJ_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACHQpGfqfcnr0HoD3BLuXA4a/009-SIJ_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AABGQBqItzSvy3qrFl5IlDRea/009-SIJ_-_Eng-3.jpg?raw=1",],
       "bigBackup":["https://www.dropbox.com/sh/x9lklgl0w6655jz/AABTQelUjkCfKs5IBHv4K5e0a/009-SIJ_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AABaLqKp7FS6-H6ogEMgEgNza/009-SIJ_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAC35f6f8qbXhXKVAiNaBVMga/009-SIJ_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAAjE48H_lnRqj1NlnFwH5NVa/009-SIJ_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAAashmGm1sr3Pdz_EHRRK37a/009-SIJ_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAAiAx2PS24sM9sw6hxnjGtFa/009-SIJ_-_Eng-3.jpg?raw=1",],
       "tags":[ "Sacroiliac Joint Pain", "SIJ"],
       "araDir": "./docs/WH/009-SIJ_-_Ara.pdf",
@@ -7033,7 +7033,7 @@ const womenHealth = [
    {
       "id": "W010",
       "title":"Postnatal Exercise Recommendations",
-      "tumbUrl":[
+      "thumbUrl":[
          "./docs/WH/Thumbnail/010-Postnatal_Exercise_Recommendations_-_Ara-1.jpg",
          "./docs/WH/Thumbnail/010-Postnatal_Exercise_Recommendations_-_Ara-2.jpg",
          "./docs/WH/Thumbnail/010-Postnatal_Exercise_Recommendations_-_Ara-3.jpg",
@@ -7052,7 +7052,7 @@ const womenHealth = [
          "./docs/WH/Big/010-Postnatal_Exercise_Recommendations_-_Ara-7.jpg",
       ],
       "araQRCode":"./docs/WH/QRcode/010-Postnatal_Exercise_Recommendations_-_Ara.jpg",
-      "tumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AABZtox2CKU_Q7qZRaN0-6e0a/010-Postnatal_Exercise_Recommendations_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AABOWxeC6d7ApS--9YsN60Cna/010-Postnatal_Exercise_Recommendations_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAWUDBB1mAOQ8PmyHzMMK6Aa/010-Postnatal_Exercise_Recommendations_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACxVUGukV-sAHToWLwhSfrEa/010-Postnatal_Exercise_Recommendations_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADJtfMw8-JiDqC_9aQ3wYfsa/010-Postnatal_Exercise_Recommendations_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADuBdVfzzUgxvd2h3PrEnLDa/010-Postnatal_Exercise_Recommendations_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAbASg3TRIryHDgid2wGOw6a/010-Postnatal_Exercise_Recommendations_-_Ara-7.jpg?raw=1",],
+      "thumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AABZtox2CKU_Q7qZRaN0-6e0a/010-Postnatal_Exercise_Recommendations_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AABOWxeC6d7ApS--9YsN60Cna/010-Postnatal_Exercise_Recommendations_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAWUDBB1mAOQ8PmyHzMMK6Aa/010-Postnatal_Exercise_Recommendations_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACxVUGukV-sAHToWLwhSfrEa/010-Postnatal_Exercise_Recommendations_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADJtfMw8-JiDqC_9aQ3wYfsa/010-Postnatal_Exercise_Recommendations_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADuBdVfzzUgxvd2h3PrEnLDa/010-Postnatal_Exercise_Recommendations_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAbASg3TRIryHDgid2wGOw6a/010-Postnatal_Exercise_Recommendations_-_Ara-7.jpg?raw=1",],
       "bigBackup":["https://www.dropbox.com/sh/x9lklgl0w6655jz/AACrzT2WsshFDCDc6MTuiTLaa/010-Postnatal_Exercise_Recommendations_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AACwlkEX3kvRfO8u_yZ9NuxWa/010-Postnatal_Exercise_Recommendations_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAD4B13I_oTrRWB-hmr07xkOa/010-Postnatal_Exercise_Recommendations_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AABWb-kDkilQhbTkLdUX6Yjia/010-Postnatal_Exercise_Recommendations_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAAvpp0fZJnlJ6EZ91ui5pwIa/010-Postnatal_Exercise_Recommendations_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AADnRfQq5HyhrjVDgbT2wQGva/010-Postnatal_Exercise_Recommendations_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AAAhCPfwB_WA3DfpiG8n97-na/010-Postnatal_Exercise_Recommendations_-_Ara-7.jpg?raw=1",],
       "tags":[ "Postnatal Exercise", "Postnatal 0-3 weeks", "Postnatal 3-8 weeks", "Postnatal 8-12 weeks", "Postnatal 12-16 weeks", "Postnatal 16-18 weeks"],
       "araDir": "./docs/WH/010-Postnatal_Exercise_Recommendations_-_Ara.pdf",
@@ -7061,7 +7061,7 @@ const womenHealth = [
    {
       "id": "W011",
       "title":"Pubic Symphysis Diastasis",
-      "tumbUrl":[
+      "thumbUrl":[
          "./docs/WH/Thumbnail/011-Pubic_Symphysis_Diastasis_-_Eng-1.jpg",
          "./docs/WH/Thumbnail/011-Pubic_Symphysis_Diastasis_-_Eng-2.jpg",
       ],
@@ -7070,7 +7070,7 @@ const womenHealth = [
          "./docs/WH/Big/011-Pubic_Symphysis_Diastasis_-_Eng-2.jpg",
       ],
       "engQRCode":"./docs/WH/QRcode/011-Pubic_Symphysis_Diastasis_-_Eng.jpg",
-      "tumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACKkBoDmAa9O3E3WS_89z6Xa/011-Pubic_Symphysis_Diastasis_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADmjdxqAUroU7ajAWa4bLZWa/011-Pubic_Symphysis_Diastasis_-_Eng-2.jpg?raw=1",],
+      "thumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACKkBoDmAa9O3E3WS_89z6Xa/011-Pubic_Symphysis_Diastasis_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/qhkiakvzvsej1r3/AADmjdxqAUroU7ajAWa4bLZWa/011-Pubic_Symphysis_Diastasis_-_Eng-2.jpg?raw=1",],
       "bigBackup":["https://www.dropbox.com/sh/x9lklgl0w6655jz/AABcfDjUHlFYLGfHdMNxU_D8a/011-Pubic_Symphysis_Diastasis_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/x9lklgl0w6655jz/AADvWS2cfljoOY5iUQX-cc0ma/011-Pubic_Symphysis_Diastasis_-_Eng-2.jpg?raw=1",],
       "tags":[ "Pubic Symphysis Diastasis", "SPD", "SPD AROM Exe", "SPD Resistive Exe"],
       "engDir": "./docs/WH/011-Pubic_Symphysis_Diastasis_-_Eng.pdf",
@@ -7079,14 +7079,14 @@ const womenHealth = [
    {
       "id": "W012",
       "title":"Urinary Incontinence",
-      "tumbUrl":[
+      "thumbUrl":[
          "./docs/WH/Thumbnail/012-Urinary_incontinence_-_Ara.jpg"
       ],
       "bigImgs":[
          "./docs/WH/Big/012-Urinary_incontinence_-_Ara.jpg"
       ],
       "araQRCode":"./docs/WH/QRcode/012-Urinary_incontinence_-_Ara.jpg",
-      "tumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAAsh5pncMANGZyaJT4byopa/012-Urinary_incontinence_-_Ara.jpg?raw=1",],
+      "thumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAAsh5pncMANGZyaJT4byopa/012-Urinary_incontinence_-_Ara.jpg?raw=1",],
       "bigBackup":["https://www.dropbox.com/sh/x9lklgl0w6655jz/AACzN_OhWF4nubTqYSgZ5_Qja/012-Urinary_incontinence_-_Ara.jpg?raw=1",],
       "tags":[ "Urinary Incontinence"],
       "araDir": "./docs/WH/012-Urinary_incontinence_-_Ara.pdf",
@@ -7095,14 +7095,14 @@ const womenHealth = [
    {
       "id": "W013",
       "title":"Diastasis Rectus Abdominis Exercises",
-      "tumbUrl":[
+      "thumbUrl":[
          "./docs/WH/Thumbnail/013-Diastasis_Rectus_Abdominis_Exercises_-_Ara.jpg"
       ],
       "bigImgs":[
          "./docs/WH/Big/013-Diastasis_Rectus_Abdominis_Exercises_-_Ara.jpg"
       ],
       "araQRCode":"./docs/WH/QRcode/013-Diastasis_Rectus_Abdominis_Exercises_-_Ara.jpg",
-      "tumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAong7K8R-6JFrj09gR8sPGa/013-Diastasis_Rectus_Abdominis_Exercises_-_Ara.jpg?raw=1",],
+      "thumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AAAong7K8R-6JFrj09gR8sPGa/013-Diastasis_Rectus_Abdominis_Exercises_-_Ara.jpg?raw=1",],
       "bigBackup":["https://www.dropbox.com/sh/x9lklgl0w6655jz/AAB8w2iHEUEeh-IWBvhqD7i0a/013-Diastasis_Rectus_Abdominis_Exercises_-_Ara.jpg?raw=1",],
       "tags":[ "Diastasis Rectus Abdominis Exe"],
       "araDir": "./docs/WH/013-Diastasis_Rectus_Abdominis_Exercises_-_Ara.pdf",
@@ -7111,14 +7111,14 @@ const womenHealth = [
    {
       "id": "W014",
       "title":"Post Mastectomy Exercises part 1",
-      "tumbUrl":[
+      "thumbUrl":[
          "./docs/WH/Thumbnail/014-Post_Mastectomy_Exercises_part_1_-_Ara.jpg"
       ],
       "bigImgs":[
          "./docs/WH/Big/014-Post_Mastectomy_Exercises_part_1_-_Ara.jpg"
       ],
       "araQRCode":"./docs/WH/QRcode/014-Post_Mastectomy_Exercises_part_1_-_Ara.jpg",
-      "tumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACfynJv6N9HjezloITqqarBa/014-Post_Mastectomy_Exercises_part_1_-_Ara.jpg?raw=1",],
+      "thumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AACfynJv6N9HjezloITqqarBa/014-Post_Mastectomy_Exercises_part_1_-_Ara.jpg?raw=1",],
       "bigBackup":["https://www.dropbox.com/sh/x9lklgl0w6655jz/AADdvm63d6CsL_1xbvvmtkGea/014-Post_Mastectomy_Exercises_part_1_-_Ara.jpg?raw=1",],
       "tags":[ "Post Mastectomy Exercises"],
       "araDir": "./docs/WH/014-Post_Mastectomy_Exercises_part_1_-_Ara.jpg",
@@ -7127,14 +7127,14 @@ const womenHealth = [
    {
       "id": "W015",
       "title":"Post Mastectomy Exercises part 2",
-      "tumbUrl":[
+      "thumbUrl":[
          "./docs/WH/Thumbnail/015-Post_Mastectomy_Exercises_part_2_-_Ara.jpg"
       ],
       "bigImgs":[
          "./docs/WH/Big/015-Post_Mastectomy_Exercises_part_2_-_Ara.jpg"
       ],
       "araQRCode":"./docs/WH/QRcode/015-Post_Mastectomy_Exercises_part_2_-_Ara.jpg",
-      "tumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AABXFcrgykUB7x40VBx_cz9_a/015-Post_Mastectomy_Exercises_part_2_-_Ara.jpg?raw=1",],
+      "thumbBackup":["https://www.dropbox.com/sh/qhkiakvzvsej1r3/AABXFcrgykUB7x40VBx_cz9_a/015-Post_Mastectomy_Exercises_part_2_-_Ara.jpg?raw=1",],
       "bigBackup":["https://www.dropbox.com/sh/x9lklgl0w6655jz/AACmvlcDigZFDMT33RR32A2Za/015-Post_Mastectomy_Exercises_part_2_-_Ara.jpg?raw=1",],
       "tags":[ "Post Mastectomy Exercises"],
       "araDir": "./docs/WH/015-Post_Mastectomy_Exercises_part_2_-_Ara.jpg",
@@ -7167,7 +7167,7 @@ const others = {
       {
          "id": "Ch001",
          "title":"Post TKR Home Program FUP Chart",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Charts/Thumbnail/001-Post_TKR_Home_Program_FUP_Chart_-_Ara.jpg",
             "./docs/Other/Charts/Thumbnail/001-Post_TKR_Home_Program_FUP_Chart_-_Eng.jpg",
          ],
@@ -7177,7 +7177,7 @@ const others = {
          ],
          "araQRCode":"./docs/Other/Charts/QRcode/001-Post_TKR_Home_Program_FUP_Chart_-_Ara.jpg",
          "engQRCode":"./docs/Other/Charts/QRcode/001-Post_TKR_Home_Program_FUP_Chart_-_Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/k7mnn9r99vkurk8/AACwa1--JLEqwBkaNAwy2XVda/001-Post_TKR_Home_Program_FUP_Chart_-_Ara.jpg?raw=1","https://www.dropbox.com/sh/k7mnn9r99vkurk8/AACzVmEsjIc9VHn6M8cm8oDDa/001-Post_TKR_Home_Program_FUP_Chart_-_Eng.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/k7mnn9r99vkurk8/AACwa1--JLEqwBkaNAwy2XVda/001-Post_TKR_Home_Program_FUP_Chart_-_Ara.jpg?raw=1","https://www.dropbox.com/sh/k7mnn9r99vkurk8/AACzVmEsjIc9VHn6M8cm8oDDa/001-Post_TKR_Home_Program_FUP_Chart_-_Eng.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/9hdjfesaeptku2e/AABXNNOoHeykHH9s7Fz-U6Cba/001-Post_TKR_Home_Program_FUP_Chart_-_Ara.jpg?raw=1","https://www.dropbox.com/sh/9hdjfesaeptku2e/AAC6TrDOwn1RuHiZlSb5yhlza/001-Post_TKR_Home_Program_FUP_Chart_-_Eng.jpg?raw=1",],
          "tags":[ "TKR", "TKR Chart", "Total Knee Replacment"],
          "araDir": "./docs/Other/Charts/001-Post_TKR_Home_Program_FUP_Chart_-_Ara.pdf",
@@ -7188,7 +7188,7 @@ const others = {
       {
          "id": "Ch002",
          "title":"BRISTOL CHART",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Charts/Thumbnail/002-BRISTOL_CHART_-_Ara.jpg",
             "./docs/Other/Charts/Thumbnail/002-BRISTOL_CHART_-_Eng.jpg",
          ],
@@ -7198,7 +7198,7 @@ const others = {
          ],
          "araQRCode":"No Link",
          "engQRCode":"No Link",
-         "tumbBackup":["https://www.dropbox.com/sh/k7mnn9r99vkurk8/AACEZ-G9iCMrqrin7Z2ygE_Xa/002-BRISTOL_CHART_-_Ara.jpg?raw=1","https://www.dropbox.com/sh/k7mnn9r99vkurk8/AACUpXbBmfHOTFZghcsAWJZNa/002-BRISTOL_CHART_-_Eng.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/k7mnn9r99vkurk8/AACEZ-G9iCMrqrin7Z2ygE_Xa/002-BRISTOL_CHART_-_Ara.jpg?raw=1","https://www.dropbox.com/sh/k7mnn9r99vkurk8/AACUpXbBmfHOTFZghcsAWJZNa/002-BRISTOL_CHART_-_Eng.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/9hdjfesaeptku2e/AAA_3JXhVxau38laTBOxAeeja/002-BRISTOL_CHART_-_Ara.jpg?raw=1","https://www.dropbox.com/sh/9hdjfesaeptku2e/AAAVLaaBjBDnlVJNJ-lAFBh8a/002-BRISTOL_CHART_-_Eng.jpg?raw=1",],
          "tags":[ "BRISTOL CHART", "Women Health"],
          "araDir": "./docs/Other/Charts/002-BRISTOL_CHART_-_Ara.pdf",
@@ -7209,14 +7209,14 @@ const others = {
       {
          "id": "Ch003",
          "title":"BLADDER DIARY",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Charts/Thumbnail/003-BLADDER_DIARY-_Ara.jpg",
          ],
          "bigImgs":[
             "./docs/Other/Charts/Big/003-BLADDER_DIARY-_Ara.jpg",
          ],
          "araQRCode":"No Link",
-         "tumbBackup":["https://www.dropbox.com/sh/k7mnn9r99vkurk8/AABuyo657PFO347t1Y1OYIdta/003-BLADDER_DIARY-_Ara.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/k7mnn9r99vkurk8/AABuyo657PFO347t1Y1OYIdta/003-BLADDER_DIARY-_Ara.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/9hdjfesaeptku2e/AAAmOLWDoAQqa3brvBW9QQrUa/003-BLADDER_DIARY-_Ara.jpg?raw=1",],
          "tags":[ "BLADDER DIARY", "Women Health"],
          "araDir": "./docs/Other/Charts/003-BLADDER_DIARY-_Ara.pdf",
@@ -7228,14 +7228,14 @@ const others = {
       {
          "id": "COVID001",
          "title":"COVID019 Exercises",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/COVID/Thumbnail/001-COVID019_Exercises_-_Ara.jpg",
          ],
          "bigImgs":[
             "./docs/Other/COVID/Big/001-COVID019_Exercises_-_Ara.jpg",
          ],
          "araQRCode":"./docs/Other/COVID/QRcode/001-COVID019_Exercises_-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/ls6s318rx1jf01b/AACOYXWGGo-KkvDqGGW7jgPua/001-COVID019_Exercises_-_Ara.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/ls6s318rx1jf01b/AACOYXWGGo-KkvDqGGW7jgPua/001-COVID019_Exercises_-_Ara.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/nhtlb94cxm0wd0w/AAARI8CFnfrUINZGiUQOT3Kta/001-COVID019_Exercises_-_Ara.jpg?raw=1",],
          "tags":[ "COVID019"],
          "araDir": "./docs/Other/COVID/001-COVID019_Exercises_-_Ara.pdf",
@@ -7247,7 +7247,7 @@ const others = {
       {
          "id": "Erg0001",
          "title":"Back Ergonomics",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Ergonomics/Thumbnail/001-Back_Ergonomics_-_Ara-1.jpg",
             "./docs/Other/Ergonomics/Thumbnail/001-Back_Ergonomics_-_Ara-2.jpg",
             "./docs/Other/Ergonomics/Thumbnail/001-Back_Ergonomics_-_Ara-3.jpg",
@@ -7277,7 +7277,7 @@ const others = {
          ],
          "araQRCode":"./docs/Other/Ergonomics/QRcode/001-Back_Ergonomics_-_Ara.jpg",
          "engQRCode":"./docs/Other/Ergonomics/QRcode/001-Back_Ergonomics_-_Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/z56ppviqvg7ny2o/AAD5vk3cHz5W3vcMTb-tly_Oa/001-Back_Ergonomics_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AABIpFS0I76aW5FyFpPx8_nna/001-Back_Ergonomics_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AACEG20GeW4D9Z434hHaIrGNa/001-Back_Ergonomics_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AACC2nSZpcsUdmbNBADfkPija/001-Back_Ergonomics_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AAAo7NEifc8K5gRB3VMGN9ISa/001-Back_Ergonomics_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AADw1gi9F-IBrwukYCQUdS1ga/001-Back_Ergonomics_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AABBvLMifu8wCvZR1K8NovUXa/001-Back_Ergonomics_-_Eng_-1.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AAA0vKsgDomVxTwdYr8e-TJba/001-Back_Ergonomics_-_Eng_-2.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AAAAvWttNMNULFlAX_SPDRixa/001-Back_Ergonomics_-_Eng_-3.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AAD7h-Xt4tC8d-jh2NyBtw8Ja/001-Back_Ergonomics_-_Eng_-4.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AAB8c0IETGXSeKvSaP91gdpYa/001-Back_Ergonomics_-_Eng_-5.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AADT0tXDGV-jTvlnf7SaPrqOa/001-Back_Ergonomics_-_Eng_-6.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/z56ppviqvg7ny2o/AAD5vk3cHz5W3vcMTb-tly_Oa/001-Back_Ergonomics_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AABIpFS0I76aW5FyFpPx8_nna/001-Back_Ergonomics_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AACEG20GeW4D9Z434hHaIrGNa/001-Back_Ergonomics_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AACC2nSZpcsUdmbNBADfkPija/001-Back_Ergonomics_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AAAo7NEifc8K5gRB3VMGN9ISa/001-Back_Ergonomics_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AADw1gi9F-IBrwukYCQUdS1ga/001-Back_Ergonomics_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AABBvLMifu8wCvZR1K8NovUXa/001-Back_Ergonomics_-_Eng_-1.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AAA0vKsgDomVxTwdYr8e-TJba/001-Back_Ergonomics_-_Eng_-2.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AAAAvWttNMNULFlAX_SPDRixa/001-Back_Ergonomics_-_Eng_-3.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AAD7h-Xt4tC8d-jh2NyBtw8Ja/001-Back_Ergonomics_-_Eng_-4.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AAB8c0IETGXSeKvSaP91gdpYa/001-Back_Ergonomics_-_Eng_-5.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AADT0tXDGV-jTvlnf7SaPrqOa/001-Back_Ergonomics_-_Eng_-6.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/96jba60k1apu4j4/AADSZGkXnHYgZA_zHwo19Qppa/001-Back_Ergonomics_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/96jba60k1apu4j4/AADXOiuR4b_kbZPXsWYLd9nIa/001-Back_Ergonomics_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/96jba60k1apu4j4/AACwltyMp7QT7gWSiK0F9r6Da/001-Back_Ergonomics_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/96jba60k1apu4j4/AADCv9bJ5p9aVKeuVl0u7nLwa/001-Back_Ergonomics_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/96jba60k1apu4j4/AACeT2czN2DlXLhAbZrfIX9Ea/001-Back_Ergonomics_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/96jba60k1apu4j4/AABqqtCBs-ihpjWqv6ytOg9ua/001-Back_Ergonomics_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/96jba60k1apu4j4/AADMPU7Bo03RTThikyDfDf8la/001-Back_Ergonomics_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/96jba60k1apu4j4/AADkK5AvNi4Id48Ck7kTa0zLa/001-Back_Ergonomics_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/96jba60k1apu4j4/AADqu-2m_NPfZWkxQSIP0mGla/001-Back_Ergonomics_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/96jba60k1apu4j4/AABl9NG3l2Xu8gISx_Uugfcxa/001-Back_Ergonomics_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/96jba60k1apu4j4/AAAZZLuMvaMMcSNYNqjjwGXma/001-Back_Ergonomics_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/96jba60k1apu4j4/AADfz_jdMoeOGTesWX5nHNija/001-Back_Ergonomics_-_Eng-6.jpg?raw=1",],
          "tags":[ "Back Ergonomics", "LBP"],
          "araDir": "./docs/Other/Ergonomics/001-Back_Ergonomics_-_Ara.pdf",
@@ -7288,7 +7288,7 @@ const others = {
       {
          "id": "Erg002",
          "title":"Neck Ergonomics",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Ergonomics/Thumbnail/002-Neck_Ergonomics_-_Ara-1.jpg",
             "./docs/Other/Ergonomics/Thumbnail/002-Neck_Ergonomics_-_Ara-2.jpg",
             "./docs/Other/Ergonomics/Thumbnail/002-Neck_Ergonomics_-_Ara-3.jpg",
@@ -7306,7 +7306,7 @@ const others = {
          ],
          "araQRCode":"./docs/Other/Ergonomics/QRcode/002-Neck_Ergonomics_-_Ara.jpg",
          "engQRCode":"./docs/Other/Ergonomics/QRcode/002-Neck_Ergonomics_-_Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/z56ppviqvg7ny2o/AABBoLOuQNzxYW2rcooBm0FSa/002-Neck_Ergonomics_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AADQuWJUKJim3aZhuA4n_d9ma/002-Neck_Ergonomics_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AACaYb0sXwir7Cice8BKoPFEa/002-Neck_Ergonomics_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AAAhswcYhjYWYMGB-cCIFIDwa/002-Neck_Ergonomics_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AAA-c-_NLmmbvYpP7DVgp8g4a/002-Neck_Ergonomics_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AAC-Ld6L4z2jwJlg8RmDfXloa/002-Neck_Ergonomics_-_Eng-3.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/z56ppviqvg7ny2o/AABBoLOuQNzxYW2rcooBm0FSa/002-Neck_Ergonomics_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AADQuWJUKJim3aZhuA4n_d9ma/002-Neck_Ergonomics_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AACaYb0sXwir7Cice8BKoPFEa/002-Neck_Ergonomics_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AAAhswcYhjYWYMGB-cCIFIDwa/002-Neck_Ergonomics_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AAA-c-_NLmmbvYpP7DVgp8g4a/002-Neck_Ergonomics_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/z56ppviqvg7ny2o/AAC-Ld6L4z2jwJlg8RmDfXloa/002-Neck_Ergonomics_-_Eng-3.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/96jba60k1apu4j4/AABAI6DpuZidxT_sdanvFDima/002-Neck_Ergonomics_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/96jba60k1apu4j4/AADF5jpYMLKXRU2fh9TaJG3Qa/002-Neck_Ergonomics_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/96jba60k1apu4j4/AAC83Zomh25_pK1J_CnOvNAKa/002-Neck_Ergonomics_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/96jba60k1apu4j4/AABe8ekU0CyVIRZVKlbTEHM0a/002-Neck_Ergonomics_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/96jba60k1apu4j4/AAAWMsipvySNhEDZiR3OP_JOa/002-Neck_Ergonomics_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/96jba60k1apu4j4/AACi9peDURl2mqAhdZ2mr99Aa/002-Neck_Ergonomics_-_Eng-3.jpg?raw=1",],
          "tags":[ "Neck Ergonomics", "Neck Pain"],
          "araDir": "./docs/Other/Ergonomics/002-Neck_Ergonomics_-_Ara.pdf",
@@ -7317,14 +7317,14 @@ const others = {
       {
          "id": "Erg003",
          "title":"School Bag",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Ergonomics/Thumbnail/003-School_Bag__-_Ara.jpg",
          ],
          "bigImgs":[
             "./docs/Other/Ergonomics/Big/003-School_Bag__-_Ara.jpg",
          ],
          "araQRCode":"./docs/Other/Ergonomics/QRcode/003-School_Bag__-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/z56ppviqvg7ny2o/AADuk2N1bqDPWLDrtvC4ZuWka/003-School_Bag__-_Ara.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/z56ppviqvg7ny2o/AADuk2N1bqDPWLDrtvC4ZuWka/003-School_Bag__-_Ara.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/96jba60k1apu4j4/AACdQ8jTziPdsvu4gO7gRWLFa/003-School_Bag__-_Ara.jpg?raw=1",],
          "tags":[ "School Bag", "LBP"],
          "araDir": "./docs/Other/Ergonomics/003-School_Bag__-_Ara.pdf",
@@ -7333,14 +7333,14 @@ const others = {
       {
          "id": "Erg004",
          "title":"Office Exercises",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Ergonomics/Thumbnail/004-Office_Exercises_-_Ara.jpg",
          ],
          "bigImgs":[
             "./docs/Other/Ergonomics/Big/004-Office_Exercises_-_Ara.jpg",
          ],
          "araQRCode":"./docs/Other/Ergonomics/QRcode/004-Office_Exercises_-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/z56ppviqvg7ny2o/AADHlqXp-aXtFqUg3e_N1T5Ka/004-Office_Exercises_-_Ara.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/z56ppviqvg7ny2o/AADHlqXp-aXtFqUg3e_N1T5Ka/004-Office_Exercises_-_Ara.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/96jba60k1apu4j4/AAB61p9FUNLgKMwfKzaK2jiza/004-Office_Exercises_-_Ara.jpg?raw=1",],
          "tags":[ "Office Exercises"],
          "araDir": "./docs/Other/Ergonomics/004-Office_Exercises_-_Ara.jpg",
@@ -7349,14 +7349,14 @@ const others = {
       {
          "id": "Erg005",
          "title":"sport shoes",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Ergonomics/Thumbnail/005-sport_shoes-_Ara.jpg",
          ],
          "bigImgs":[
             "./docs/Other/Ergonomics/Big/005-sport_shoes-_Ara.jpg",
          ],
          "araQRCode":"./docs/Other/Ergonomics/QRcode/005-sport_shoes-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/z56ppviqvg7ny2o/AADlSIc0ojwc0juIbWcmY5Ora/005-sport_shoes-_Ara.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/z56ppviqvg7ny2o/AADlSIc0ojwc0juIbWcmY5Ora/005-sport_shoes-_Ara.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/96jba60k1apu4j4/AADWLPMLU4gSmEpmGA-AqDbaa/005-sport_shoes-_Ara.jpg?raw=1",],
          "tags":[ "Foot", "Foot Pain", "Shoes", "Sport Shoes"],
          "araDir": "./docs/Other/Ergonomics/005-sport_shoes-_Ara.jpg",
@@ -7368,7 +7368,7 @@ const others = {
       {
          "id": "Ger001",
          "title":"Elderly Exercises",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Geriatric/Thumbnail/001-Elderly_Exercises_-_Ara-1.jpg",
             "./docs/Other/Geriatric/Thumbnail/001-Elderly_Exercises_-_Ara-2.jpg",
             "./docs/Other/Geriatric/Thumbnail/001-Elderly_Exercises_-_Ara-3.jpg",
@@ -7386,7 +7386,7 @@ const others = {
          ],
          "araQRCode":"./docs/Other/Geriatric/QRcode/001-Elderly_Exercises_-_Ara.jpg",
          "engQRCode":"./docs/Other/Geriatric/QRcode/001-Elderly_Exercises_-_Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/q5q52raqm818ogo/AADBOUK-HC6Mucw88Y-ILmKxa/001-Elderly_Exercises_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/q5q52raqm818ogo/AABmu7oRjHZf3BWLxYmt_Gmia/001-Elderly_Exercises_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/q5q52raqm818ogo/AADNNO83qphDROFNjV7VaTW1a/001-Elderly_Exercises_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/q5q52raqm818ogo/AAD9_7gQeOKmh_P8qxiak9EAa/001-Elderly_Exercises_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/q5q52raqm818ogo/AAB_BU7kUrvwFn8N3DRWGKRHa/001-Elderly_Exercises_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/q5q52raqm818ogo/AABa2vcdJimtpR8YXkCEuVCna/001-Elderly_Exercises_-_Eng-3.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/q5q52raqm818ogo/AADBOUK-HC6Mucw88Y-ILmKxa/001-Elderly_Exercises_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/q5q52raqm818ogo/AABmu7oRjHZf3BWLxYmt_Gmia/001-Elderly_Exercises_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/q5q52raqm818ogo/AADNNO83qphDROFNjV7VaTW1a/001-Elderly_Exercises_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/q5q52raqm818ogo/AAD9_7gQeOKmh_P8qxiak9EAa/001-Elderly_Exercises_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/q5q52raqm818ogo/AAB_BU7kUrvwFn8N3DRWGKRHa/001-Elderly_Exercises_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/q5q52raqm818ogo/AABa2vcdJimtpR8YXkCEuVCna/001-Elderly_Exercises_-_Eng-3.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/cmazjiph5q48f7n/AACexYDJ2WhtSFoztMrpyChQa/001-Elderly_Exercises_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/cmazjiph5q48f7n/AADSE7vSR4iAtpyERvriQDuza/001-Elderly_Exercises_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/cmazjiph5q48f7n/AAC4YBfYC4fqMDVvUfCXHeKta/001-Elderly_Exercises_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/cmazjiph5q48f7n/AAByULJgQ4tePEOYp9fzP3Bka/001-Elderly_Exercises_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/cmazjiph5q48f7n/AAD5S8155NKPiKgbLrDwpzVha/001-Elderly_Exercises_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/cmazjiph5q48f7n/AAADBujkSVqw2iBJ6168wQ8Pa/001-Elderly_Exercises_-_Eng-3.jpg?raw=1",],
          "tags":[ "Elderly Exercises", "Geriatric"],
          "araDir": "./docs/Other/Geriatric/001-Elderly_Exercises_-_Ara.pdf",
@@ -7400,7 +7400,7 @@ const others = {
       {
          "id": "Hyd001",
          "title":"Aquatic Exercises",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Hydrotherapy/Thumbnail/001-Aquatic_Exercises_-_Ara-1.jpg",
             "./docs/Other/Hydrotherapy/Thumbnail/001-Aquatic_Exercises_-_Ara-2.jpg",
             "./docs/Other/Hydrotherapy/Thumbnail/001-Aquatic_Exercises_-_Ara-3.jpg",
@@ -7411,7 +7411,7 @@ const others = {
             "./docs/Other/Hydrotherapy/Big/001-Aquatic_Exercises_-_Ara-3.jpg",
          ],
          "araQRCode":"./docs/Other/Hydrotherapy/QRcode/001-Aquatic_Exercises_-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/g6mmeounjxzx8cu/AABS5guAJRDNAQNQFhPMo7pQa/001-Aquatic_Exercises_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/g6mmeounjxzx8cu/AABlHt0X8CRtHSbiAr2TtRFda/001-Aquatic_Exercises_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/g6mmeounjxzx8cu/AADEbrtDUGf2XqPU4gao7Gapa/001-Aquatic_Exercises_-_Ara-3.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/g6mmeounjxzx8cu/AABS5guAJRDNAQNQFhPMo7pQa/001-Aquatic_Exercises_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/g6mmeounjxzx8cu/AABlHt0X8CRtHSbiAr2TtRFda/001-Aquatic_Exercises_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/g6mmeounjxzx8cu/AADEbrtDUGf2XqPU4gao7Gapa/001-Aquatic_Exercises_-_Ara-3.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/0pdiee5yz2h1wac/AADg8rxiGyvW8zyjNbPwIHzSa/001-Aquatic_Exercises_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/0pdiee5yz2h1wac/AABTU1SOU9ve0jeEUN4CuLBIa/001-Aquatic_Exercises_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/0pdiee5yz2h1wac/AAD1iFeN3NNT2geCwkYHoJzqa/001-Aquatic_Exercises_-_Ara-3.jpg?raw=1",],
          "tags":[ "Aquatic Exercises", "HydroTherapy Exercises"],
          "araDir": "./docs/Other/Hydrotherapy/001-Aquatic_Exercises_-_Ara.pdf",
@@ -7420,7 +7420,7 @@ const others = {
       {
          "id": "Hyd002",
          "title":"Hydrotherapy Instructions and Exercises",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Hydrotherapy/Thumbnail/002-Hydrotherapy_Instructions_and_Exercises_-_Ara-1.jpg",
             "./docs/Other/Hydrotherapy/Thumbnail/002-Hydrotherapy_Instructions_and_Exercises_-_Ara-2.jpg",
             "./docs/Other/Hydrotherapy/Thumbnail/002-Hydrotherapy_Instructions_and_Exercises_-_Ara-3.jpg",
@@ -7433,7 +7433,7 @@ const others = {
             "./docs/Other/Hydrotherapy/Big/002-Hydrotherapy_Instructions_and_Exercises_-_Ara-4.jpg",
          ],
          "araQRCode":"./docs/Other/Hydrotherapy/QRcode/002-Hydrotherapy_Instructions_and_Exercises_-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/g6mmeounjxzx8cu/AABnJ3XK1-5FMpEISVJMMmwDa/002-Hydrotherapy_Instructions_and_Exercises_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/g6mmeounjxzx8cu/AAC4Ic63GFTzwuKryAf81ac6a/002-Hydrotherapy_Instructions_and_Exercises_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/g6mmeounjxzx8cu/AAALWYK-6ducsqlm-wCldYq9a/002-Hydrotherapy_Instructions_and_Exercises_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/g6mmeounjxzx8cu/AAC-MNAxTxC7dH4kHnm7UU3da/002-Hydrotherapy_Instructions_and_Exercises_-_Ara-4.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/g6mmeounjxzx8cu/AABnJ3XK1-5FMpEISVJMMmwDa/002-Hydrotherapy_Instructions_and_Exercises_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/g6mmeounjxzx8cu/AAC4Ic63GFTzwuKryAf81ac6a/002-Hydrotherapy_Instructions_and_Exercises_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/g6mmeounjxzx8cu/AAALWYK-6ducsqlm-wCldYq9a/002-Hydrotherapy_Instructions_and_Exercises_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/g6mmeounjxzx8cu/AAC-MNAxTxC7dH4kHnm7UU3da/002-Hydrotherapy_Instructions_and_Exercises_-_Ara-4.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/0pdiee5yz2h1wac/AACLu7n9D39Sq_JhgInx2JIBa/002-Hydrotherapy_Instructions_and_Exercises_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/0pdiee5yz2h1wac/AAAzeSuhA_bE5Km1ZMBDSxD1a/002-Hydrotherapy_Instructions_and_Exercises_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/0pdiee5yz2h1wac/AABJfYyoZr2bgmhpRlpRLlSja/002-Hydrotherapy_Instructions_and_Exercises_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/0pdiee5yz2h1wac/AADOY91mVUPBd09nrX7SwY3Ma/002-Hydrotherapy_Instructions_and_Exercises_-_Ara-4.jpg?raw=1",],
          "tags":[ "Aquatic Exercises", "HydroTherapy Exercises"],
          "araDir": "./docs/Other/Hydrotherapy/002-Hydrotherapy_Instructions_and_Exercises_-_Ara.pdf",
@@ -7442,7 +7442,7 @@ const others = {
       {
          "id": "Hyd003",
          "title":"Hydrotherapy Instructions",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Hydrotherapy/Thumbnail/003-Hydrotherapy_Instructions_only_-_Ara-1.jpg",
             "./docs/Other/Hydrotherapy/Thumbnail/003-Hydrotherapy_Instructions_only_-_Ara-2.jpg",
          ],
@@ -7451,7 +7451,7 @@ const others = {
             "./docs/Other/Hydrotherapy/Big/003-Hydrotherapy_Instructions_only_-_Ara-2.jpg",
          ],
          "araQRCode":"./docs/Other/Hydrotherapy/QRcode/003-Hydrotherapy_Instructions_only_-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/g6mmeounjxzx8cu/AAAwMM1OEQ67p_MR-1HiklMNa/003-Hydrotherapy_Instructions_only_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/g6mmeounjxzx8cu/AACQSw2tDx2cFg6CgzU0cgeua/003-Hydrotherapy_Instructions_only_-_Ara-2.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/g6mmeounjxzx8cu/AAAwMM1OEQ67p_MR-1HiklMNa/003-Hydrotherapy_Instructions_only_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/g6mmeounjxzx8cu/AACQSw2tDx2cFg6CgzU0cgeua/003-Hydrotherapy_Instructions_only_-_Ara-2.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/0pdiee5yz2h1wac/AABhSa6BoIiPGxiy_BDpB5uua/003-Hydrotherapy_Instructions_only_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/0pdiee5yz2h1wac/AACHKq3VsGcc6QUr4HTjB-Sta/003-Hydrotherapy_Instructions_only_-_Ara-2.jpg?raw=1",],
          "tags":[ "HydroTherapy"],
          "araDir": "./docs/Other/Hydrotherapy/003-Hydrotherapy_Instructions_only_-_Ara.pdf",
@@ -7463,7 +7463,7 @@ const others = {
       {
          "id": "Lec001",
          "title":"LBP CBT Lecture",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Lectures/Thumbnail/001-LBP_CBT_Lecture_-_Ara-1.jpg",
             "./docs/Other/Lectures/Thumbnail/001-LBP_CBT_Lecture_-_Ara-2.jpg",
             "./docs/Other/Lectures/Thumbnail/001-LBP_CBT_Lecture_-_Ara-3.jpg",
@@ -7553,7 +7553,7 @@ const others = {
             "./docs/Other/Lectures/Big/001-LBP_CBT_Lecture_-_Ara-42.jpg",
             "./docs/Other/Lectures/Big/001-LBP_CBT_Lecture_-_Ara-43.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC4okjVInDEOztIvs0ODgMqa/001-LBP_CBT_Lecture_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACf8SfQLhuHNW4v_A6mSvj0a/001-LBP_CBT_Lecture_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACABUyuMPftz_D_9XPcJRwna/001-LBP_CBT_Lecture_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC7eCaa2t2MQhHrvknBVTxxa/001-LBP_CBT_Lecture_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABDMUcWXqFwhem0T1Mv5c-xa/001-LBP_CBT_Lecture_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACPTF8W5r3BRFu-shgxdu87a/001-LBP_CBT_Lecture_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADVuq22GolAFnA0-xAVNnZKa/001-LBP_CBT_Lecture_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACafVRoXD1_2EJySqTN_m8ha/001-LBP_CBT_Lecture_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACoyNaQZ3wpvm3aPfgNMHx_a/001-LBP_CBT_Lecture_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADuKLOmQPUw0yziO5Y21yMea/001-LBP_CBT_Lecture_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA5YRVcek75DQLhn0dJkVx1a/001-LBP_CBT_Lecture_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACGyaIRLPUWOC75IDz0HBZma/001-LBP_CBT_Lecture_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABDvbgN8HU2PGhWDFS0m5Mua/001-LBP_CBT_Lecture_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADp_9aiVTaEFYb63znv_yJ1a/001-LBP_CBT_Lecture_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC52Yoonn7Kau1hvJoPxH4Qa/001-LBP_CBT_Lecture_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACxF6uPHAjcH_S8XLe52GQ_a/001-LBP_CBT_Lecture_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC87gkO0UatNSci-cZ8U1NDa/001-LBP_CBT_Lecture_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC4emlArMUt97z0Lwi-0ugUa/001-LBP_CBT_Lecture_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABYBiLCXaB_ioY_SskSLL4ta/001-LBP_CBT_Lecture_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAANBgV_RVfFlQisF5UmHL8Oa/001-LBP_CBT_Lecture_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAzBUuw8aYtUxxoUVvCDpERa/001-LBP_CBT_Lecture_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA8ISU58cLJ3gvoV5tSvFula/001-LBP_CBT_Lecture_-_Ara-22.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC4tU0nM1e_6jv_O2xX18tJa/001-LBP_CBT_Lecture_-_Ara-23.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC9GcE3vYGDaV2HpAnP40FFa/001-LBP_CBT_Lecture_-_Ara-24.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADSzr7AAzUtfdAJfQXglsopa/001-LBP_CBT_Lecture_-_Ara-25.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAqWin4rJzS-LpnSsBjsgPLa/001-LBP_CBT_Lecture_-_Ara-26.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAi_gutZfo3iQ91Qj5UDia1a/001-LBP_CBT_Lecture_-_Ara-27.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABP-llZ4brYHLcvt8psVQb-a/001-LBP_CBT_Lecture_-_Ara-28.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD1b4Pr8np-gEFI6hckeM_wa/001-LBP_CBT_Lecture_-_Ara-29.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAGe-XmZ67YC-eU9uvJioVBa/001-LBP_CBT_Lecture_-_Ara-30.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADDMEW9aUAVe4DjMeKHquVza/001-LBP_CBT_Lecture_-_Ara-31.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADYKYBbB6_PzCGnvJFcW7c-a/001-LBP_CBT_Lecture_-_Ara-32.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAvZNirrzlJRRj82FlH8d9ta/001-LBP_CBT_Lecture_-_Ara-33.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABGWfZwQ45r008Tkeaa9GB8a/001-LBP_CBT_Lecture_-_Ara-34.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD3tZ-jl4u-7rQ4hK97Q5mua/001-LBP_CBT_Lecture_-_Ara-35.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABBnm9ESD0fjjoxkoCllgHTa/001-LBP_CBT_Lecture_-_Ara-36.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAgmkrJi--aKYwQNM4i0epNa/001-LBP_CBT_Lecture_-_Ara-37.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABCko0pD_S_xkfnTOEvRMT9a/001-LBP_CBT_Lecture_-_Ara-38.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB9RXfHlKzL1dHLLli8Dtzfa/001-LBP_CBT_Lecture_-_Ara-39.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAzDlrwkqrqCnq2I7hbDnFra/001-LBP_CBT_Lecture_-_Ara-40.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABVUS4QgXCHOdu1lcnvLTuqa/001-LBP_CBT_Lecture_-_Ara-41.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB_-SxezADbjmi22MipNsV2a/001-LBP_CBT_Lecture_-_Ara-42.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAK-87Xw2tLBGJEI4Js3BLpa/001-LBP_CBT_Lecture_-_Ara-43.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC4okjVInDEOztIvs0ODgMqa/001-LBP_CBT_Lecture_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACf8SfQLhuHNW4v_A6mSvj0a/001-LBP_CBT_Lecture_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACABUyuMPftz_D_9XPcJRwna/001-LBP_CBT_Lecture_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC7eCaa2t2MQhHrvknBVTxxa/001-LBP_CBT_Lecture_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABDMUcWXqFwhem0T1Mv5c-xa/001-LBP_CBT_Lecture_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACPTF8W5r3BRFu-shgxdu87a/001-LBP_CBT_Lecture_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADVuq22GolAFnA0-xAVNnZKa/001-LBP_CBT_Lecture_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACafVRoXD1_2EJySqTN_m8ha/001-LBP_CBT_Lecture_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACoyNaQZ3wpvm3aPfgNMHx_a/001-LBP_CBT_Lecture_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADuKLOmQPUw0yziO5Y21yMea/001-LBP_CBT_Lecture_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA5YRVcek75DQLhn0dJkVx1a/001-LBP_CBT_Lecture_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACGyaIRLPUWOC75IDz0HBZma/001-LBP_CBT_Lecture_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABDvbgN8HU2PGhWDFS0m5Mua/001-LBP_CBT_Lecture_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADp_9aiVTaEFYb63znv_yJ1a/001-LBP_CBT_Lecture_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC52Yoonn7Kau1hvJoPxH4Qa/001-LBP_CBT_Lecture_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACxF6uPHAjcH_S8XLe52GQ_a/001-LBP_CBT_Lecture_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC87gkO0UatNSci-cZ8U1NDa/001-LBP_CBT_Lecture_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC4emlArMUt97z0Lwi-0ugUa/001-LBP_CBT_Lecture_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABYBiLCXaB_ioY_SskSLL4ta/001-LBP_CBT_Lecture_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAANBgV_RVfFlQisF5UmHL8Oa/001-LBP_CBT_Lecture_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAzBUuw8aYtUxxoUVvCDpERa/001-LBP_CBT_Lecture_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA8ISU58cLJ3gvoV5tSvFula/001-LBP_CBT_Lecture_-_Ara-22.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC4tU0nM1e_6jv_O2xX18tJa/001-LBP_CBT_Lecture_-_Ara-23.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC9GcE3vYGDaV2HpAnP40FFa/001-LBP_CBT_Lecture_-_Ara-24.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADSzr7AAzUtfdAJfQXglsopa/001-LBP_CBT_Lecture_-_Ara-25.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAqWin4rJzS-LpnSsBjsgPLa/001-LBP_CBT_Lecture_-_Ara-26.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAi_gutZfo3iQ91Qj5UDia1a/001-LBP_CBT_Lecture_-_Ara-27.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABP-llZ4brYHLcvt8psVQb-a/001-LBP_CBT_Lecture_-_Ara-28.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD1b4Pr8np-gEFI6hckeM_wa/001-LBP_CBT_Lecture_-_Ara-29.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAGe-XmZ67YC-eU9uvJioVBa/001-LBP_CBT_Lecture_-_Ara-30.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADDMEW9aUAVe4DjMeKHquVza/001-LBP_CBT_Lecture_-_Ara-31.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADYKYBbB6_PzCGnvJFcW7c-a/001-LBP_CBT_Lecture_-_Ara-32.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAvZNirrzlJRRj82FlH8d9ta/001-LBP_CBT_Lecture_-_Ara-33.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABGWfZwQ45r008Tkeaa9GB8a/001-LBP_CBT_Lecture_-_Ara-34.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD3tZ-jl4u-7rQ4hK97Q5mua/001-LBP_CBT_Lecture_-_Ara-35.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABBnm9ESD0fjjoxkoCllgHTa/001-LBP_CBT_Lecture_-_Ara-36.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAgmkrJi--aKYwQNM4i0epNa/001-LBP_CBT_Lecture_-_Ara-37.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABCko0pD_S_xkfnTOEvRMT9a/001-LBP_CBT_Lecture_-_Ara-38.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB9RXfHlKzL1dHLLli8Dtzfa/001-LBP_CBT_Lecture_-_Ara-39.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAzDlrwkqrqCnq2I7hbDnFra/001-LBP_CBT_Lecture_-_Ara-40.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABVUS4QgXCHOdu1lcnvLTuqa/001-LBP_CBT_Lecture_-_Ara-41.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB_-SxezADbjmi22MipNsV2a/001-LBP_CBT_Lecture_-_Ara-42.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAK-87Xw2tLBGJEI4Js3BLpa/001-LBP_CBT_Lecture_-_Ara-43.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAB0Nx9ElDkr_2VS-rSHN6Caa/001-LBP_CBT_Lecture_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABVbGxeLgjDh-8mp8wx78bta/001-LBP_CBT_Lecture_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAB8f35SHwDMPUX61TbsftfAa/001-LBP_CBT_Lecture_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADQss6ThKhUmKRzUDZaaWD-a/001-LBP_CBT_Lecture_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAK96NdG77pz7wwDstIUJwWa/001-LBP_CBT_Lecture_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAPVZyqRa9FoDszauqe7Psza/001-LBP_CBT_Lecture_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACfCidCkElJ3SFbfYlrNkira/001-LBP_CBT_Lecture_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAD8M6b_DKyjz14LjrSAdj6ra/001-LBP_CBT_Lecture_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAD11MRQIFRPMQCbBvXv7E9-a/001-LBP_CBT_Lecture_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADYPOrGlkmGM_heVue6akdGa/001-LBP_CBT_Lecture_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABNjv7quj2W9lHK6zygd7B1a/001-LBP_CBT_Lecture_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACI39_OFYdbRg93zoZTtVDCa/001-LBP_CBT_Lecture_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADd6N9A_9NO-NujwtmOaj2ea/001-LBP_CBT_Lecture_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADAmSSVeMpmX3nVl7h7WMtka/001-LBP_CBT_Lecture_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAzu8LuSoraiw7hItlwWLjSa/001-LBP_CBT_Lecture_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAziBHh17Exyd8-mshaPG_ga/001-LBP_CBT_Lecture_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABsD7bshowogtKA8cV2y8tEa/001-LBP_CBT_Lecture_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAB7soGtv-cbx7nPRUko7bY5a/001-LBP_CBT_Lecture_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACf5Kfkwg7hQVpxvIyROpqWa/001-LBP_CBT_Lecture_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABs0ekpd2X5QJVWP4YvqxUPa/001-LBP_CBT_Lecture_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACeLr0KH4fvjqE-arKxbLixa/001-LBP_CBT_Lecture_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACJND26ReFNFO4skQPDQT-Na/001-LBP_CBT_Lecture_-_Ara-22.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAB6IyA67weXm_0LbYxNtdsva/001-LBP_CBT_Lecture_-_Ara-23.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAQpDFHJcNstCLH2qq9YpsCa/001-LBP_CBT_Lecture_-_Ara-24.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABRkyH43x5jV4iFOGMOpPc1a/001-LBP_CBT_Lecture_-_Ara-25.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAD_eNDKSzEsh55AK528xP1a/001-LBP_CBT_Lecture_-_Ara-26.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADfzYSdpAw3vBr77gr6YhJva/001-LBP_CBT_Lecture_-_Ara-27.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAiNz2fwgIvrCgPgacVQx5Sa/001-LBP_CBT_Lecture_-_Ara-28.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABD-aFpxXGeXwNf192oV6dOa/001-LBP_CBT_Lecture_-_Ara-29.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABa_v_BhogJSenzS9YwuBaLa/001-LBP_CBT_Lecture_-_Ara-30.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABF6KGZcGmMZRFfGM0WMIEpa/001-LBP_CBT_Lecture_-_Ara-31.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAmprXf60F0IQvJx3MmQ1hMa/001-LBP_CBT_Lecture_-_Ara-32.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABmz-zdj6-70vtPTn4C5C_ia/001-LBP_CBT_Lecture_-_Ara-33.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADqlg1XXUScH01J54C-3FdEa/001-LBP_CBT_Lecture_-_Ara-34.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABtSMcoifSdDS1oQ92wwkjia/001-LBP_CBT_Lecture_-_Ara-35.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADxDVNorQxTF7mb-Pg8LDKoa/001-LBP_CBT_Lecture_-_Ara-36.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADjsRtI7Yxu13DKtqqIEjufa/001-LBP_CBT_Lecture_-_Ara-37.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAALyWCfPdFjZWQw628Pc5JIa/001-LBP_CBT_Lecture_-_Ara-38.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAoix5M3wIadWrsNyTdfabva/001-LBP_CBT_Lecture_-_Ara-39.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAh73ImpJrvKQfdnDlr4YZRa/001-LBP_CBT_Lecture_-_Ara-40.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACxQAzyz8qDJXmTXTd0Lymqa/001-LBP_CBT_Lecture_-_Ara-41.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAB0n30S0tGjLzl8rCRvQ30ca/001-LBP_CBT_Lecture_-_Ara-42.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADHOXoJu2VRKzXxhxD4R7T2a/001-LBP_CBT_Lecture_-_Ara-43.jpg?raw=1",],
          "tags":[ "LBP CBT Lecture", "cognitive behavioral therapy", "LBP"],
          "araDir": "./docs/Other/Lectures/001-LBP_CBT_Lecture_-_Ara.pdf",
@@ -7561,7 +7561,7 @@ const others = {
       {
          "id": "Lec002",
          "title":"LBP lecture",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Lectures/Thumbnail/002-LBP_lecture_-_Ara-1.jpg",
             "./docs/Other/Lectures/Thumbnail/002-LBP_lecture_-_Ara-2.jpg",
             "./docs/Other/Lectures/Thumbnail/002-LBP_lecture_-_Ara-3.jpg",
@@ -7615,7 +7615,7 @@ const others = {
             "./docs/Other/Lectures/Big/002-LBP_lecture_-_Ara-24.jpg",
             "./docs/Other/Lectures/Big/002-LBP_lecture_-_Ara-25.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABig1Tzg1t6LJSw10Vf9lQFa/002-LBP_lecture_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAaJHCrc3RpJ2tOmY4rLNkVa/002-LBP_lecture_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABSbRuoVj1y7He9sXk6s2Z2a/002-LBP_lecture_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAO2XLfQ588cXmW5jMAe1Xoa/002-LBP_lecture_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACgJIB0JlS1zTnY5PcPmMefa/002-LBP_lecture_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADYeXT3XB51xt1DR2qbyRM4a/002-LBP_lecture_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABDckzoXOovXk4kJLpVwnlBa/002-LBP_lecture_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC1we7LyrJER7VGCzML-63da/002-LBP_lecture_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAYJis6ksMJ-6QezSMLAx64a/002-LBP_lecture_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADPBMJ7Kmtt-xT91bVwGLYMa/002-LBP_lecture_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADdai3C7y_EJOJkyO6dZ7zpa/002-LBP_lecture_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACj9wHCMYaPZYQeXA6znzzJa/002-LBP_lecture_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADoA6rrSRKcWQgT37CWTslVa/002-LBP_lecture_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABujU8CEoeBn6hTjma3uwCHa/002-LBP_lecture_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADIyq5-GoNdWzze3MHDoT7ra/002-LBP_lecture_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADER-hnewxU0o_0EZvaEHcDa/002-LBP_lecture_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB7L5ezI5YlSkRGiTqvKLL0a/002-LBP_lecture_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACK9bAcg0GgBJVV-TxYltwOa/002-LBP_lecture_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC7Q1ei4o4EQlCyj-uNn6vCa/002-LBP_lecture_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD_QzzXTTrS5cgt-TU04d_9a/002-LBP_lecture_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB5w9Dj767ecTAJVqAKoH5Ia/002-LBP_lecture_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACjEi2gxW7JHL4WAnnioAqga/002-LBP_lecture_-_Ara-22.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABychK2IieUC3X1TRuLDVNDa/002-LBP_lecture_-_Ara-23.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABJINaZX0K5lQv6MRxyOnama/002-LBP_lecture_-_Ara-24.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADR4sIFwG3mIh814QaRCDTOa/002-LBP_lecture_-_Ara-25.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABig1Tzg1t6LJSw10Vf9lQFa/002-LBP_lecture_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAaJHCrc3RpJ2tOmY4rLNkVa/002-LBP_lecture_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABSbRuoVj1y7He9sXk6s2Z2a/002-LBP_lecture_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAO2XLfQ588cXmW5jMAe1Xoa/002-LBP_lecture_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACgJIB0JlS1zTnY5PcPmMefa/002-LBP_lecture_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADYeXT3XB51xt1DR2qbyRM4a/002-LBP_lecture_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABDckzoXOovXk4kJLpVwnlBa/002-LBP_lecture_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC1we7LyrJER7VGCzML-63da/002-LBP_lecture_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAYJis6ksMJ-6QezSMLAx64a/002-LBP_lecture_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADPBMJ7Kmtt-xT91bVwGLYMa/002-LBP_lecture_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADdai3C7y_EJOJkyO6dZ7zpa/002-LBP_lecture_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACj9wHCMYaPZYQeXA6znzzJa/002-LBP_lecture_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADoA6rrSRKcWQgT37CWTslVa/002-LBP_lecture_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABujU8CEoeBn6hTjma3uwCHa/002-LBP_lecture_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADIyq5-GoNdWzze3MHDoT7ra/002-LBP_lecture_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADER-hnewxU0o_0EZvaEHcDa/002-LBP_lecture_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB7L5ezI5YlSkRGiTqvKLL0a/002-LBP_lecture_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACK9bAcg0GgBJVV-TxYltwOa/002-LBP_lecture_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC7Q1ei4o4EQlCyj-uNn6vCa/002-LBP_lecture_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD_QzzXTTrS5cgt-TU04d_9a/002-LBP_lecture_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB5w9Dj767ecTAJVqAKoH5Ia/002-LBP_lecture_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACjEi2gxW7JHL4WAnnioAqga/002-LBP_lecture_-_Ara-22.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABychK2IieUC3X1TRuLDVNDa/002-LBP_lecture_-_Ara-23.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABJINaZX0K5lQv6MRxyOnama/002-LBP_lecture_-_Ara-24.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADR4sIFwG3mIh814QaRCDTOa/002-LBP_lecture_-_Ara-25.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADqNtXEPziaynPluVxzXaiha/002-LBP_lecture_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABTBbvpdGi6wZYUJwztY6qca/002-LBP_lecture_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABiPAJ5L-w8LvfLl3r9vYGDa/002-LBP_lecture_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAD9y9iMdQKGxmR6FVw8Uz3na/002-LBP_lecture_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAD81ropPUITzST4-WO2Lr97a/002-LBP_lecture_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAVDM9RoG75ZvxD6eOxHSjLa/002-LBP_lecture_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACANKy7CVQO2yz0RGN4sAH7a/002-LBP_lecture_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACbIpZbKwBWa_icCxYuQosIa/002-LBP_lecture_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAVeCiKoGZASoIJx-tnBv-_a/002-LBP_lecture_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACBHW_S9rrPWO4Vxfy1xt7Ga/002-LBP_lecture_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADecjOw9HOxKoWvvIkeX_pBa/002-LBP_lecture_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAQ1-CzbEbK-kfTTazZqW5wa/002-LBP_lecture_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAFcQofOKPnKl-U9CjX2tRxa/002-LBP_lecture_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAkUgK14ezghwNMtEGcQfUUa/002-LBP_lecture_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABIA-KdEdTU7KjTYtzaf7lia/002-LBP_lecture_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADKlfKLq0iQcnpGkU3c6OJ7a/002-LBP_lecture_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABCG22oOlT7gSusAiQMKHJsa/002-LBP_lecture_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABtb4YfT0x9-io8S88_5ghAa/002-LBP_lecture_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADr0Lz1zIXmf7BT2y9p60iPa/002-LBP_lecture_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAA1si8NjLcDWudio6Ubz4EQa/002-LBP_lecture_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABWpPq5roE-Hu_iAOxgxxrCa/002-LBP_lecture_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABalghy7ASF80s-FHULKzena/002-LBP_lecture_-_Ara-22.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADCr38EWXDLDzs1VWqCVbZna/002-LBP_lecture_-_Ara-23.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAmg-kkLF-m1vCy9Hm4uQcza/002-LBP_lecture_-_Ara-24.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAD-8DRLVWTVoEYLuCyqbdRYa/002-LBP_lecture_-_Ara-25.jpg?raw=1",],
          "tags":[ "LBP lecture", "LBP", "Low Back Pain"],
          "araDir": "./docs/Other/Lectures/002-LBP_lecture_-_Ara.pdf",
@@ -7623,7 +7623,7 @@ const others = {
       {
          "id": "Lec003",
          "title":"Neck pain",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Lectures/Thumbnail/003-Neck_pain_-_Ara-1.jpg",
             "./docs/Other/Lectures/Thumbnail/003-Neck_pain_-_Ara-2.jpg",
             "./docs/Other/Lectures/Thumbnail/003-Neck_pain_-_Ara-3.jpg",
@@ -7771,7 +7771,7 @@ const others = {
             "./docs/Other/Lectures/Big/003-Neck_pain_-_Eng-35.jpg",
             "./docs/Other/Lectures/Big/003-Neck_pain_-_Eng-36.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABy2dimUwvTwAl2nsFbEcuaa/003-Neck_pain_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAESfUmccx_FFQM-0NqNhRua/003-Neck_pain_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACFhC6usIbK5JXNL6THavKKa/003-Neck_pain_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB8GCNI-xtZOThjXAtHytNwa/003-Neck_pain_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADznqVY_WqDaK1JFwfTMcUFa/003-Neck_pain_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAz9P4Z7Pfmrss7UFq26uQJa/003-Neck_pain_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA5FP7nSi9S7NBbHEGHi_Lwa/003-Neck_pain_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAABbyMmCfZAXD1u2z8omrBya/003-Neck_pain_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAApXE_ARt2Z48fnOWbCvD4Va/003-Neck_pain_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAUDuyMy2xgP7t5LpLS8xZ7a/003-Neck_pain_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAp4KGK6keQOPMmW4BrWSy2a/003-Neck_pain_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACiedR6guHGHns77xJNGSZca/003-Neck_pain_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAABzpoTRIchqBNxqKMQSB4Oa/003-Neck_pain_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAxsmbNEx3pkfnYhkjCn2Vba/003-Neck_pain_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAOU_3l_Enj-T_ide3zqdsXa/003-Neck_pain_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADMKlJNk2E1KPyVFGZcoopla/003-Neck_pain_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD-w1uWpuZSv4ZjpgjrkwKZa/003-Neck_pain_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADSL4TzDroZ1GlV2R-bo3IBa/003-Neck_pain_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACa-E2R2ElQyD5VoNqu5eyma/003-Neck_pain_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABtnxnSCfxl0bcVEtmSrHIga/003-Neck_pain_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACrJDeuzQ5_BCFfNa95RxSXa/003-Neck_pain_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD1gu3rCcQBq1fJjLj4gx2xa/003-Neck_pain_-_Ara-22.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADkAP1CjaegduTcf_Ubzwkga/003-Neck_pain_-_Ara-23.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADilUxUzUUTNTLETQHSwPUra/003-Neck_pain_-_Ara-24.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA4Qd5fQodWI8SKueXoIlVVa/003-Neck_pain_-_Ara-25.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABfbFIvp_fQPpjMaoZCtALsa/003-Neck_pain_-_Ara-26.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAApYiVDTNGRd6htdl9Ie0UEa/003-Neck_pain_-_Ara-27.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABLFkEGb97uBz0Hdp2MKDX6a/003-Neck_pain_-_Ara-28.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAbzcabcl2kCGiiDR-MWva4a/003-Neck_pain_-_Ara-29.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACBSU1nt3UkAudcF3nlAduVa/003-Neck_pain_-_Ara-30.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADG0z_jWN8ljMRqnga5EH9La/003-Neck_pain_-_Ara-31.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD6rEAPTTC3MwXeaoFX4Chca/003-Neck_pain_-_Ara-32.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAABOXhP-_3rTjfd0W9byDIKa/003-Neck_pain_-_Ara-33.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACee9Si0tv1uXyJis82Xjama/003-Neck_pain_-_Ara-34.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADJs9-8uovoU6EUnA2hqk3fa/003-Neck_pain_-_Ara-35.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAu_NJoWGSIaODN35FQCUnxa/003-Neck_pain_-_Ara-36.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAALjT-AV3JSANePXNJ5oYypa/003-Neck_pain_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB0cRjMlxtFmf0Ti7UOCY1Na/003-Neck_pain_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAChLmQPrTZkYkGvZFS8iZn-a/003-Neck_pain_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA_BkPmsREFgI1-CRIKCMZBa/003-Neck_pain_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADKOmWmRGpP661XG8-p3Aofa/003-Neck_pain_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADnXCq1ZaypBpoXXR9mwPeua/003-Neck_pain_-_Eng-6.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACmNjX9QlYcr9-Bn9zCW7-ua/003-Neck_pain_-_Eng-7.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABAHQB2Jb1pG84U76PAvwqIa/003-Neck_pain_-_Eng-8.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD69LyQ5dJ3SxVH0OCTNAhGa/003-Neck_pain_-_Eng-9.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB-akLbrhIwj2AYhkjjdIKca/003-Neck_pain_-_Eng-10.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADM1SvnE6h6GO63w7KUu6r_a/003-Neck_pain_-_Eng-11.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAXPGjJ3sjrJWKuiBlNUa0da/003-Neck_pain_-_Eng-12.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABZNwxEMybdOKSMf-LWKPBja/003-Neck_pain_-_Eng-13.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAACCbqD7y8UCFHh1HNmOlJ-a/003-Neck_pain_-_Eng-14.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADqGKT3h49C63reWXNi4-_Fa/003-Neck_pain_-_Eng-15.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADKl-UhYOZQ3w9hwrR4xOdDa/003-Neck_pain_-_Eng-16.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADIxAperh9o8sUnqBivCmsea/003-Neck_pain_-_Eng-17.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA_Lrzn4F5-XISOzMdO--sxa/003-Neck_pain_-_Eng-18.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAuFXx2h30Ul59czAVsCuQLa/003-Neck_pain_-_Eng-19.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAVxfy010LOZbjQRpOrVieya/003-Neck_pain_-_Eng-20.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACVfwjc9aPJEy_wArTrVGmja/003-Neck_pain_-_Eng-21.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAANtSp2LrcJ5NIVBwLpoNlCa/003-Neck_pain_-_Eng-22.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACSVnnM0QvivPsOhtWZ94bta/003-Neck_pain_-_Eng-23.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACQUBOqeKIRSrQ45B8BW7vPa/003-Neck_pain_-_Eng-24.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADsgSjYOfAwsMHm-6DboAlJa/003-Neck_pain_-_Eng-25.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACy2_GogznCYD_5t2Tmy0f4a/003-Neck_pain_-_Eng-26.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACcwkwoCaQsjMitSQs7aq9Ba/003-Neck_pain_-_Eng-27.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACVFwUBcBQnihUIvChV52yYa/003-Neck_pain_-_Eng-28.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACuuYuOBYB5bekxUegN3nKpa/003-Neck_pain_-_Eng-29.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADqOJnFXWpztN-hl8U7_KLha/003-Neck_pain_-_Eng-30.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB3yKqQObvR98QWZfIRn_BJa/003-Neck_pain_-_Eng-31.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAByaViDShx_Z4l4cYA8AfQoa/003-Neck_pain_-_Eng-32.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACG2J9ExBHrjch8__clbSlya/003-Neck_pain_-_Eng-33.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA8JGEvLZargSFBCygRQ53ja/003-Neck_pain_-_Eng-34.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACrmSS8vqP1uOTQrVKl86n7a/003-Neck_pain_-_Eng-35.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABw7xS_VEXCdJQvDdttwdGra/003-Neck_pain_-_Eng-36.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABy2dimUwvTwAl2nsFbEcuaa/003-Neck_pain_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAESfUmccx_FFQM-0NqNhRua/003-Neck_pain_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACFhC6usIbK5JXNL6THavKKa/003-Neck_pain_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB8GCNI-xtZOThjXAtHytNwa/003-Neck_pain_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADznqVY_WqDaK1JFwfTMcUFa/003-Neck_pain_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAz9P4Z7Pfmrss7UFq26uQJa/003-Neck_pain_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA5FP7nSi9S7NBbHEGHi_Lwa/003-Neck_pain_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAABbyMmCfZAXD1u2z8omrBya/003-Neck_pain_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAApXE_ARt2Z48fnOWbCvD4Va/003-Neck_pain_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAUDuyMy2xgP7t5LpLS8xZ7a/003-Neck_pain_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAp4KGK6keQOPMmW4BrWSy2a/003-Neck_pain_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACiedR6guHGHns77xJNGSZca/003-Neck_pain_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAABzpoTRIchqBNxqKMQSB4Oa/003-Neck_pain_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAxsmbNEx3pkfnYhkjCn2Vba/003-Neck_pain_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAOU_3l_Enj-T_ide3zqdsXa/003-Neck_pain_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADMKlJNk2E1KPyVFGZcoopla/003-Neck_pain_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD-w1uWpuZSv4ZjpgjrkwKZa/003-Neck_pain_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADSL4TzDroZ1GlV2R-bo3IBa/003-Neck_pain_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACa-E2R2ElQyD5VoNqu5eyma/003-Neck_pain_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABtnxnSCfxl0bcVEtmSrHIga/003-Neck_pain_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACrJDeuzQ5_BCFfNa95RxSXa/003-Neck_pain_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD1gu3rCcQBq1fJjLj4gx2xa/003-Neck_pain_-_Ara-22.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADkAP1CjaegduTcf_Ubzwkga/003-Neck_pain_-_Ara-23.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADilUxUzUUTNTLETQHSwPUra/003-Neck_pain_-_Ara-24.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA4Qd5fQodWI8SKueXoIlVVa/003-Neck_pain_-_Ara-25.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABfbFIvp_fQPpjMaoZCtALsa/003-Neck_pain_-_Ara-26.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAApYiVDTNGRd6htdl9Ie0UEa/003-Neck_pain_-_Ara-27.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABLFkEGb97uBz0Hdp2MKDX6a/003-Neck_pain_-_Ara-28.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAbzcabcl2kCGiiDR-MWva4a/003-Neck_pain_-_Ara-29.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACBSU1nt3UkAudcF3nlAduVa/003-Neck_pain_-_Ara-30.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADG0z_jWN8ljMRqnga5EH9La/003-Neck_pain_-_Ara-31.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD6rEAPTTC3MwXeaoFX4Chca/003-Neck_pain_-_Ara-32.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAABOXhP-_3rTjfd0W9byDIKa/003-Neck_pain_-_Ara-33.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACee9Si0tv1uXyJis82Xjama/003-Neck_pain_-_Ara-34.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADJs9-8uovoU6EUnA2hqk3fa/003-Neck_pain_-_Ara-35.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAu_NJoWGSIaODN35FQCUnxa/003-Neck_pain_-_Ara-36.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAALjT-AV3JSANePXNJ5oYypa/003-Neck_pain_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB0cRjMlxtFmf0Ti7UOCY1Na/003-Neck_pain_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAChLmQPrTZkYkGvZFS8iZn-a/003-Neck_pain_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA_BkPmsREFgI1-CRIKCMZBa/003-Neck_pain_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADKOmWmRGpP661XG8-p3Aofa/003-Neck_pain_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADnXCq1ZaypBpoXXR9mwPeua/003-Neck_pain_-_Eng-6.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACmNjX9QlYcr9-Bn9zCW7-ua/003-Neck_pain_-_Eng-7.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABAHQB2Jb1pG84U76PAvwqIa/003-Neck_pain_-_Eng-8.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD69LyQ5dJ3SxVH0OCTNAhGa/003-Neck_pain_-_Eng-9.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB-akLbrhIwj2AYhkjjdIKca/003-Neck_pain_-_Eng-10.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADM1SvnE6h6GO63w7KUu6r_a/003-Neck_pain_-_Eng-11.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAXPGjJ3sjrJWKuiBlNUa0da/003-Neck_pain_-_Eng-12.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABZNwxEMybdOKSMf-LWKPBja/003-Neck_pain_-_Eng-13.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAACCbqD7y8UCFHh1HNmOlJ-a/003-Neck_pain_-_Eng-14.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADqGKT3h49C63reWXNi4-_Fa/003-Neck_pain_-_Eng-15.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADKl-UhYOZQ3w9hwrR4xOdDa/003-Neck_pain_-_Eng-16.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADIxAperh9o8sUnqBivCmsea/003-Neck_pain_-_Eng-17.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA_Lrzn4F5-XISOzMdO--sxa/003-Neck_pain_-_Eng-18.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAuFXx2h30Ul59czAVsCuQLa/003-Neck_pain_-_Eng-19.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAVxfy010LOZbjQRpOrVieya/003-Neck_pain_-_Eng-20.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACVfwjc9aPJEy_wArTrVGmja/003-Neck_pain_-_Eng-21.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAANtSp2LrcJ5NIVBwLpoNlCa/003-Neck_pain_-_Eng-22.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACSVnnM0QvivPsOhtWZ94bta/003-Neck_pain_-_Eng-23.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACQUBOqeKIRSrQ45B8BW7vPa/003-Neck_pain_-_Eng-24.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADsgSjYOfAwsMHm-6DboAlJa/003-Neck_pain_-_Eng-25.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACy2_GogznCYD_5t2Tmy0f4a/003-Neck_pain_-_Eng-26.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACcwkwoCaQsjMitSQs7aq9Ba/003-Neck_pain_-_Eng-27.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACVFwUBcBQnihUIvChV52yYa/003-Neck_pain_-_Eng-28.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACuuYuOBYB5bekxUegN3nKpa/003-Neck_pain_-_Eng-29.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADqOJnFXWpztN-hl8U7_KLha/003-Neck_pain_-_Eng-30.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB3yKqQObvR98QWZfIRn_BJa/003-Neck_pain_-_Eng-31.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAByaViDShx_Z4l4cYA8AfQoa/003-Neck_pain_-_Eng-32.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACG2J9ExBHrjch8__clbSlya/003-Neck_pain_-_Eng-33.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA8JGEvLZargSFBCygRQ53ja/003-Neck_pain_-_Eng-34.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACrmSS8vqP1uOTQrVKl86n7a/003-Neck_pain_-_Eng-35.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABw7xS_VEXCdJQvDdttwdGra/003-Neck_pain_-_Eng-36.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADcHlsnrgYBwCZe6Okao0fBa/003-Neck_pain_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACTzl_0txPVF9tVedTEwdhTa/003-Neck_pain_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAA41oRpylUlOvgC394AJfa2a/003-Neck_pain_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADEvmAMpY8fpCLkECbTKaGZa/003-Neck_pain_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAqF5LbXH4HAt21Y9JWk_bHa/003-Neck_pain_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACZ81-bQ4Me3cG-ysXyk1I4a/003-Neck_pain_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAB3cosukE1RVmgg_RnWi90za/003-Neck_pain_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADC3inNTIGTpfDONSG2_SbTa/003-Neck_pain_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADwBSVMM_sUSPmMRYJF_Ua7a/003-Neck_pain_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAaZVg396yfld4A5Z4dd9rta/003-Neck_pain_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACCzQWxufIF0NnN38DjFSJZa/003-Neck_pain_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADkl9z-2bFisd4FaJdWS_sza/003-Neck_pain_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAALyXCkWre4mqGreG1jvP4na/003-Neck_pain_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACCAsEG68NqC1y-mDGT5ak8a/003-Neck_pain_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAtUN2M1Fqh-qW61xgdHC0sa/003-Neck_pain_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAB4BexhyJ8TJMX2tsw4JJ4Fa/003-Neck_pain_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAA_mEQmjQ65Bam262OiYnYza/003-Neck_pain_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABiH1P-O4pugbFdja5E5_J3a/003-Neck_pain_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADRGNub3IhvJPr_GYi61wZXa/003-Neck_pain_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADGr5--V9FzMzJCERNnGQqra/003-Neck_pain_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADaIY901HnsGyJeXcz-0RQza/003-Neck_pain_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABjuEpj6RdbwnYNk_sL103La/003-Neck_pain_-_Ara-22.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACwqEcO0pqT_54o7DBGGbWKa/003-Neck_pain_-_Ara-23.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADHwOOQ09LeMPkMx7Wf2G_8a/003-Neck_pain_-_Ara-24.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAB10cQNYPPEQJmIUunovC-7a/003-Neck_pain_-_Ara-25.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAL219xgCd308tMPqrxiB1ia/003-Neck_pain_-_Ara-26.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADjqiATk0Zy9y_O-pbr90T1a/003-Neck_pain_-_Ara-27.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACFb9KXV7HDxubDRKIoxDyqa/003-Neck_pain_-_Ara-28.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABroFYZOzI1lPcXDGmuImmBa/003-Neck_pain_-_Ara-29.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAGKTypegNugKr8HgZrrxz-a/003-Neck_pain_-_Ara-30.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACuEyBrHY9gQUDMh-_QyVXja/003-Neck_pain_-_Ara-31.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAD2eRA7DOgMvYHTMr4NdCSfa/003-Neck_pain_-_Ara-32.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADB3fXJUnl5_RJR1uj_fRLMa/003-Neck_pain_-_Ara-33.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAAYUi8RnA8Gnf0WhlQ752ua/003-Neck_pain_-_Ara-34.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAAjsh5_MCJWj-lpaA4D7Bfa/003-Neck_pain_-_Ara-35.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAB2prHcfWl-yiZOwDLA0jPfa/003-Neck_pain_-_Ara-36.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACqdmQTed1kK6TqTidVDXJ1a/003-Neck_pain_-_Eng-1.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACzpbxB5wyYBoh8q2cz-MGfa/003-Neck_pain_-_Eng-2.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADqAWDsJWnF11j__2MT_DiFa/003-Neck_pain_-_Eng-3.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACp_kTiWd_THbDtaMi9ToAMa/003-Neck_pain_-_Eng-4.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAN_SG-052TMCv-GmZsEsIya/003-Neck_pain_-_Eng-5.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABDgReZPl0i5XBY02FwgZ-sa/003-Neck_pain_-_Eng-6.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADDCJD2Key_M0C-i7zHQ_Zqa/003-Neck_pain_-_Eng-7.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAD5aMaGTm3rdVOC8skgEQ7Sa/003-Neck_pain_-_Eng-8.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAC4YZdu-aG7lk4tFb8ZRUMLa/003-Neck_pain_-_Eng-9.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAuXydIIfCYsGMEICkDl53ea/003-Neck_pain_-_Eng-10.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACXFAL3-ckMOGxrkMsV8GiAa/003-Neck_pain_-_Eng-11.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABbSveJz9c-96Tm0WH8biONa/003-Neck_pain_-_Eng-12.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAA1ycNTfQ09K95yNb9J_mkva/003-Neck_pain_-_Eng-13.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADoV7VYXEcb4PieQqKQMoBMa/003-Neck_pain_-_Eng-14.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAD4AZD-X3jvFlKv_WYFzV4Pa/003-Neck_pain_-_Eng-15.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACXqmmSazO6HJp6Eqz1aDAfa/003-Neck_pain_-_Eng-16.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADGz3Uyev1sfifV2d82dkVoa/003-Neck_pain_-_Eng-17.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABbncxV0A35BFrvqG2k93Jua/003-Neck_pain_-_Eng-18.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABwyzF_k1bTkNBIgvKY8HwJa/003-Neck_pain_-_Eng-19.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACIn6rvTkTDmKFMY4dP8vMJa/003-Neck_pain_-_Eng-20.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACoejUlamq-LtBJoSQN6Di4a/003-Neck_pain_-_Eng-21.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABPdpfo2qoQ5rDuCTTCqtqsa/003-Neck_pain_-_Eng-22.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAARQWGPEbn6JL6uW7MafT4na/003-Neck_pain_-_Eng-23.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADuMwLjuto-CwtZTJUJtNY-a/003-Neck_pain_-_Eng-24.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABFr59DZ4PmW4tIXzxiVgjAa/003-Neck_pain_-_Eng-25.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACGe3c_e0EM6E3JFutiZO2Da/003-Neck_pain_-_Eng-26.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABqNR5S5Kq4KvumPUIO_A7ea/003-Neck_pain_-_Eng-27.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAC6Tqv7-U3lWpv0LxQDbJD4a/003-Neck_pain_-_Eng-28.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACgBvEk1CvWBc9_wXRssTE4a/003-Neck_pain_-_Eng-29.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAA5aFlEoUqofi3OioMvoa2Oa/003-Neck_pain_-_Eng-30.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADcseokEvBnPTZ5ksiZESYOa/003-Neck_pain_-_Eng-31.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACyi3wyJwl2U3lmIg0C7OuMa/003-Neck_pain_-_Eng-32.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAA2rEQNSoI9Pcai4fxz-1eza/003-Neck_pain_-_Eng-33.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAvvVKVj4ib6W9ZqyTS_yqia/003-Neck_pain_-_Eng-34.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADJKQOqaUnW_ue7_A23jGwpa/003-Neck_pain_-_Eng-35.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAD8QUx--XP3C3mSv6irFthza/003-Neck_pain_-_Eng-36.jpg?raw=1",],
          "tags":[ "Neck pain"],
          "araDir": "./docs/Other/Lectures/003-Neck_pain_-_Ara.pdf",
@@ -7780,7 +7780,7 @@ const others = {
       {
          "id": "Lec004",
          "title":"Good Posture",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Lectures/Thumbnail/004-Good_Posture_-_Ara-1.jpg",
             "./docs/Other/Lectures/Thumbnail/004-Good_Posture_-_Ara-2.jpg",
             "./docs/Other/Lectures/Thumbnail/004-Good_Posture_-_Ara-3.jpg",
@@ -7862,7 +7862,7 @@ const others = {
             "./docs/Other/Lectures/Big/004-Good_Posture_-_Ara-38.jpg",
             "./docs/Other/Lectures/Big/004-Good_Posture_-_Ara-39.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADXQ7Wja7NzBNMxH9pV1Loga/004-Good_Posture_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB_x8DGd5g3yYLZdKGXqp7ra/004-Good_Posture_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADUJBFYqv720y47a4HNL5jKa/004-Good_Posture_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB5MJyCNT38fqRO0MI0ueAVa/004-Good_Posture_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD0fk7NwEdUp1zCBXXfD_2Wa/004-Good_Posture_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADwHEx5Nxse8lxv_ETRu3-Ia/004-Good_Posture_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAoTJmwnCviAV2nZOCAqPOLa/004-Good_Posture_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD1a9kEHo-YMuG93aUpqpq1a/004-Good_Posture_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAwO0ptuwNdGfxiYkcd3MwJa/004-Good_Posture_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACH8vFjnnJwZtzWgOO8DK0pa/004-Good_Posture_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADY344BpJHFzut10ehjaP54a/004-Good_Posture_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACC3lUXhzXnxeRcluZbishza/004-Good_Posture_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACZp0OmHI1c28TiSlzAEzGEa/004-Good_Posture_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB2evmmMLHY2mKwgMEpE4CXa/004-Good_Posture_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACh1snRa91QgnH3vs3wAErQa/004-Good_Posture_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA8Fpevo_ikKUjWtHHIYexka/004-Good_Posture_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADSrDp4YF_YIcsm-PH-AuRba/004-Good_Posture_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADo_EWIZu1DfN9FhMVfjgoNa/004-Good_Posture_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACalO4KJ4W8yUiNaQJnsDvpa/004-Good_Posture_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACQ0jjKWQGDwlTPGr2X6Msla/004-Good_Posture_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABnBEzgIXm72e87zJtavz3la/004-Good_Posture_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADG-l_zHv2S6B4-zo53le4wa/004-Good_Posture_-_Ara-22.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACFSp9yOcY1qxTNoJuQhH0Oa/004-Good_Posture_-_Ara-23.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABTClZObm1HCckMpdNYvxzra/004-Good_Posture_-_Ara-24.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABA4FZo1W5SnBwXLyK3yUfMa/004-Good_Posture_-_Ara-25.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABtx3eQLo8x1trS0i_MXrAha/004-Good_Posture_-_Ara-26.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADLuLD16Ar5V6NvBLOx6jd9a/004-Good_Posture_-_Ara-27.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC_eZ5Fg0yUoC1uWi1YQouRa/004-Good_Posture_-_Ara-28.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC11OrWYBZZz0uN6L1ptLqHa/004-Good_Posture_-_Ara-29.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABJJXnU3wqdYNHKNnpgN-94a/004-Good_Posture_-_Ara-30.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADveG28dJfSwZ6xVXjRdKH-a/004-Good_Posture_-_Ara-31.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACcSo_lTWfwnY9Zmab9y_wNa/004-Good_Posture_-_Ara-32.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABzb8YaWJAxm1yf4S_5IJbha/004-Good_Posture_-_Ara-33.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAXOeAE-zFPHJW7TYCO9JF_a/004-Good_Posture_-_Ara-34.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABkGrtl_5imdpwJUdQqtz9-a/004-Good_Posture_-_Ara-35.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD7AuXUJ-rsIEJhrN98U8B9a/004-Good_Posture_-_Ara-36.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB7fxbHKR8lY4cM98KScBi5a/004-Good_Posture_-_Ara-37.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAm3VVcb4HzNoDsHxGV6-uea/004-Good_Posture_-_Ara-38.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAGXLDew278i6Ggm041lxBDa/004-Good_Posture_-_Ara-39.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADXQ7Wja7NzBNMxH9pV1Loga/004-Good_Posture_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB_x8DGd5g3yYLZdKGXqp7ra/004-Good_Posture_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADUJBFYqv720y47a4HNL5jKa/004-Good_Posture_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB5MJyCNT38fqRO0MI0ueAVa/004-Good_Posture_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD0fk7NwEdUp1zCBXXfD_2Wa/004-Good_Posture_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADwHEx5Nxse8lxv_ETRu3-Ia/004-Good_Posture_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAoTJmwnCviAV2nZOCAqPOLa/004-Good_Posture_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD1a9kEHo-YMuG93aUpqpq1a/004-Good_Posture_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAwO0ptuwNdGfxiYkcd3MwJa/004-Good_Posture_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACH8vFjnnJwZtzWgOO8DK0pa/004-Good_Posture_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADY344BpJHFzut10ehjaP54a/004-Good_Posture_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACC3lUXhzXnxeRcluZbishza/004-Good_Posture_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACZp0OmHI1c28TiSlzAEzGEa/004-Good_Posture_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB2evmmMLHY2mKwgMEpE4CXa/004-Good_Posture_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACh1snRa91QgnH3vs3wAErQa/004-Good_Posture_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA8Fpevo_ikKUjWtHHIYexka/004-Good_Posture_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADSrDp4YF_YIcsm-PH-AuRba/004-Good_Posture_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADo_EWIZu1DfN9FhMVfjgoNa/004-Good_Posture_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACalO4KJ4W8yUiNaQJnsDvpa/004-Good_Posture_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACQ0jjKWQGDwlTPGr2X6Msla/004-Good_Posture_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABnBEzgIXm72e87zJtavz3la/004-Good_Posture_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADG-l_zHv2S6B4-zo53le4wa/004-Good_Posture_-_Ara-22.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACFSp9yOcY1qxTNoJuQhH0Oa/004-Good_Posture_-_Ara-23.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABTClZObm1HCckMpdNYvxzra/004-Good_Posture_-_Ara-24.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABA4FZo1W5SnBwXLyK3yUfMa/004-Good_Posture_-_Ara-25.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABtx3eQLo8x1trS0i_MXrAha/004-Good_Posture_-_Ara-26.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADLuLD16Ar5V6NvBLOx6jd9a/004-Good_Posture_-_Ara-27.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC_eZ5Fg0yUoC1uWi1YQouRa/004-Good_Posture_-_Ara-28.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC11OrWYBZZz0uN6L1ptLqHa/004-Good_Posture_-_Ara-29.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABJJXnU3wqdYNHKNnpgN-94a/004-Good_Posture_-_Ara-30.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADveG28dJfSwZ6xVXjRdKH-a/004-Good_Posture_-_Ara-31.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACcSo_lTWfwnY9Zmab9y_wNa/004-Good_Posture_-_Ara-32.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABzb8YaWJAxm1yf4S_5IJbha/004-Good_Posture_-_Ara-33.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAXOeAE-zFPHJW7TYCO9JF_a/004-Good_Posture_-_Ara-34.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABkGrtl_5imdpwJUdQqtz9-a/004-Good_Posture_-_Ara-35.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD7AuXUJ-rsIEJhrN98U8B9a/004-Good_Posture_-_Ara-36.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB7fxbHKR8lY4cM98KScBi5a/004-Good_Posture_-_Ara-37.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAm3VVcb4HzNoDsHxGV6-uea/004-Good_Posture_-_Ara-38.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAGXLDew278i6Ggm041lxBDa/004-Good_Posture_-_Ara-39.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAD7jSV0a7CumZgnOK8RMOK_a/004-Good_Posture_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABMGzijRytYye_msgIbVJGca/004-Good_Posture_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADieyGNombLHWjVqdq4sXLNa/004-Good_Posture_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADMeWmiANho9RaMUGYuNn_fa/004-Good_Posture_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADYuh30yZUqil3WVDAywlZDa/004-Good_Posture_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAjLdVuOORptJ9VwBr0DaFEa/004-Good_Posture_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABtaO--gSVI5aiv1wZoOCJfa/004-Good_Posture_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACuikt-EcN2PLi2XEIkrvB4a/004-Good_Posture_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAr9vg38XyLtXJfqpzU4GMEa/004-Good_Posture_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACDsYIaRjZ4iH8VCtAZ6fUDa/004-Good_Posture_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACIRRJ_NeXPLi4B2kMXGMwHa/004-Good_Posture_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADLNCAF7DtFZws5f6GTPr68a/004-Good_Posture_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAConFoKPrIcnoGa1usy9tZWa/004-Good_Posture_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAB_GPmyNd_Z0CSXImTA3oCwa/004-Good_Posture_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADP9ZPGKWA63tF-XyeecdeOa/004-Good_Posture_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAALNfYobgDNH7VS2SsZbRr9a/004-Good_Posture_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAUUqpGTAOX9GHdK8AsGXkBa/004-Good_Posture_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADc_YcIniW7dyiHB0S_IZj2a/004-Good_Posture_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADMJb7P71sL3b9o7-V94GZPa/004-Good_Posture_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAIndmjOqe4MmBhXeo9huu0a/004-Good_Posture_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADT1TXzHtLOr2jEhdSA7oNVa/004-Good_Posture_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADnvSzC2ORdMctKLR8wNiuNa/004-Good_Posture_-_Ara-22.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAuZDO46bMLAionmi8iv0qSa/004-Good_Posture_-_Ara-23.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADuuBPvwrzCf9tKH2KLtHnNa/004-Good_Posture_-_Ara-24.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABR4scxNmV9qWGS6jaysDTha/004-Good_Posture_-_Ara-25.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADQYql1SfYLsZpdaQ5BNsLVa/004-Good_Posture_-_Ara-26.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAA2wsMki1iHA6tnXMaSuI_ra/004-Good_Posture_-_Ara-27.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABFhCA_6wtKb-24teLQQa5ra/004-Good_Posture_-_Ara-28.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABP438rKhBNWVri94Z99PmKa/004-Good_Posture_-_Ara-29.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABC4L7kHuF3Czu3djwBiicPa/004-Good_Posture_-_Ara-30.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADhpPXjJ_2gC5ANIs6ZgLAOa/004-Good_Posture_-_Ara-31.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABgotDJ7ekzRaf1NBW-Ngwla/004-Good_Posture_-_Ara-32.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADwx3MgOtbxKRDpuOxbppq7a/004-Good_Posture_-_Ara-33.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACZG1orHB2xbJlJx_6KwEGTa/004-Good_Posture_-_Ara-34.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAA1qLM013-fneE4XntHoTfWa/004-Good_Posture_-_Ara-35.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACifh8NCmIxmCVReA24cOC-a/004-Good_Posture_-_Ara-36.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAA-DqoaQwjcAcvrxyIf-xEQa/004-Good_Posture_-_Ara-37.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAB5wzd7ilFrkt0xrlIrWGdRa/004-Good_Posture_-_Ara-38.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABIkZEppkSxmU-XBni1g8Pja/004-Good_Posture_-_Ara-39.jpg?raw=1",],
          "tags":[ "Good Posture"],
          "araDir": "./docs/Other/Lectures/004-Good_Posture_-_Ara.pdf",
@@ -7870,7 +7870,7 @@ const others = {
       {
          "id": "Lec005",
          "title":"Sport Day Lecture",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Lectures/Thumbnail/005-Sport_Day_Lecture_-_Ara-1.jpg",
             "./docs/Other/Lectures/Thumbnail/005-Sport_Day_Lecture_-_Ara-2.jpg",
             "./docs/Other/Lectures/Thumbnail/005-Sport_Day_Lecture_-_Ara-3.jpg",
@@ -7940,7 +7940,7 @@ const others = {
             "./docs/Other/Lectures/Big/005-Sport_Day_Lecture_-_Ara-32.jpg",
             "./docs/Other/Lectures/Big/005-Sport_Day_Lecture_-_Ara-33.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA6ArzEhQibOK-d24POD5TTa/005-Sport_Day_Lecture_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACFIYiiFtJvzTjLkK3S4vRSa/005-Sport_Day_Lecture_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAR-fWH9OfyXa-rWwPBN4D8a/005-Sport_Day_Lecture_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABqqhqkWsevXQNBRT6F_m71a/005-Sport_Day_Lecture_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAASxMbpnHgY-y5QGmebObTAa/005-Sport_Day_Lecture_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAVuzhejiW49oA5OyhimXXPa/005-Sport_Day_Lecture_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADyY8Zp3ngbg0pHkhvMjamya/005-Sport_Day_Lecture_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADNTHmy0KLOZqSSujA4ql-Ca/005-Sport_Day_Lecture_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC4KohuK-5JpPQrrTwjkqTba/005-Sport_Day_Lecture_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAASK7d-d0jfndZ3IeyGAM51a/005-Sport_Day_Lecture_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAy4JObL-e21QxN2mFKYe_ra/005-Sport_Day_Lecture_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABVpubgssXRPbOErn2XPtzFa/005-Sport_Day_Lecture_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAwR8-TVs95QaU5DoqVyxVAa/005-Sport_Day_Lecture_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACsXu7XeTPO4XZCDQjFQN-Ka/005-Sport_Day_Lecture_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAASTEaxVjVMqJfGCV_49KDka/005-Sport_Day_Lecture_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAhJ6GsJ7Y0XS99jWyiTaOEa/005-Sport_Day_Lecture_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADHjLYa8NKtlVCgQs0piZT3a/005-Sport_Day_Lecture_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAADf7TbCU8BEvNNp4taWAJTa/005-Sport_Day_Lecture_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAAhECXkaSyIKEdMi0NRq2ja/005-Sport_Day_Lecture_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADfNTlTFLno8vl2F1yr_dRSa/005-Sport_Day_Lecture_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA9MEU9v769yaQwSYNG2Omya/005-Sport_Day_Lecture_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADgdlu1KCj4ggaxyZZsw5Q5a/005-Sport_Day_Lecture_-_Ara-22.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABFPdZK2IxXl_rUEFmRqvZda/005-Sport_Day_Lecture_-_Ara-23.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACFQBhnPiH2o7YCZnGfYqTQa/005-Sport_Day_Lecture_-_Ara-24.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACULMYzd92NtWO_FS-m9L5na/005-Sport_Day_Lecture_-_Ara-25.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB7FYNbSlJ4Rwejmq6bVOAJa/005-Sport_Day_Lecture_-_Ara-26.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAxUnte8NXZdZ4oqRGVIM3Ba/005-Sport_Day_Lecture_-_Ara-27.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADs8HhbIlZl8kgas801IMWRa/005-Sport_Day_Lecture_-_Ara-28.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABmNhaa-RRF-Gn7IEFxEo5ga/005-Sport_Day_Lecture_-_Ara-29.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACrNiNYK43BU5IZ7cenHOKAa/005-Sport_Day_Lecture_-_Ara-30.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABqnQ3w6lnca-YUV-ItkcCwa/005-Sport_Day_Lecture_-_Ara-31.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAWK03N3iqqxKhOcyixCMvBa/005-Sport_Day_Lecture_-_Ara-32.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAUxfypswa6G8ZhfjBYtdyOa/005-Sport_Day_Lecture_-_Ara-33.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA6ArzEhQibOK-d24POD5TTa/005-Sport_Day_Lecture_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACFIYiiFtJvzTjLkK3S4vRSa/005-Sport_Day_Lecture_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAR-fWH9OfyXa-rWwPBN4D8a/005-Sport_Day_Lecture_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABqqhqkWsevXQNBRT6F_m71a/005-Sport_Day_Lecture_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAASxMbpnHgY-y5QGmebObTAa/005-Sport_Day_Lecture_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAVuzhejiW49oA5OyhimXXPa/005-Sport_Day_Lecture_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADyY8Zp3ngbg0pHkhvMjamya/005-Sport_Day_Lecture_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADNTHmy0KLOZqSSujA4ql-Ca/005-Sport_Day_Lecture_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC4KohuK-5JpPQrrTwjkqTba/005-Sport_Day_Lecture_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAASK7d-d0jfndZ3IeyGAM51a/005-Sport_Day_Lecture_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAy4JObL-e21QxN2mFKYe_ra/005-Sport_Day_Lecture_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABVpubgssXRPbOErn2XPtzFa/005-Sport_Day_Lecture_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAwR8-TVs95QaU5DoqVyxVAa/005-Sport_Day_Lecture_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACsXu7XeTPO4XZCDQjFQN-Ka/005-Sport_Day_Lecture_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAASTEaxVjVMqJfGCV_49KDka/005-Sport_Day_Lecture_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAhJ6GsJ7Y0XS99jWyiTaOEa/005-Sport_Day_Lecture_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADHjLYa8NKtlVCgQs0piZT3a/005-Sport_Day_Lecture_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAADf7TbCU8BEvNNp4taWAJTa/005-Sport_Day_Lecture_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAAhECXkaSyIKEdMi0NRq2ja/005-Sport_Day_Lecture_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADfNTlTFLno8vl2F1yr_dRSa/005-Sport_Day_Lecture_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA9MEU9v769yaQwSYNG2Omya/005-Sport_Day_Lecture_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADgdlu1KCj4ggaxyZZsw5Q5a/005-Sport_Day_Lecture_-_Ara-22.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABFPdZK2IxXl_rUEFmRqvZda/005-Sport_Day_Lecture_-_Ara-23.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACFQBhnPiH2o7YCZnGfYqTQa/005-Sport_Day_Lecture_-_Ara-24.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACULMYzd92NtWO_FS-m9L5na/005-Sport_Day_Lecture_-_Ara-25.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB7FYNbSlJ4Rwejmq6bVOAJa/005-Sport_Day_Lecture_-_Ara-26.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAxUnte8NXZdZ4oqRGVIM3Ba/005-Sport_Day_Lecture_-_Ara-27.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADs8HhbIlZl8kgas801IMWRa/005-Sport_Day_Lecture_-_Ara-28.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABmNhaa-RRF-Gn7IEFxEo5ga/005-Sport_Day_Lecture_-_Ara-29.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACrNiNYK43BU5IZ7cenHOKAa/005-Sport_Day_Lecture_-_Ara-30.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABqnQ3w6lnca-YUV-ItkcCwa/005-Sport_Day_Lecture_-_Ara-31.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAWK03N3iqqxKhOcyixCMvBa/005-Sport_Day_Lecture_-_Ara-32.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAUxfypswa6G8ZhfjBYtdyOa/005-Sport_Day_Lecture_-_Ara-33.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABUWwYswEQoGU61sKDInew0a/005-Sport_Day_Lecture_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACpX_F4MBy0n8105g8K7Z9Ta/005-Sport_Day_Lecture_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADp1wF0c1hiQEhX8dGq2PGea/005-Sport_Day_Lecture_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADHuWStyXd0byTpVmg4wnSca/005-Sport_Day_Lecture_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAC7gRESYRAnIA48lKwQ8Nua/005-Sport_Day_Lecture_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAATNWfYG8-hRgJaTiHWWz9ma/005-Sport_Day_Lecture_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADG_fscIS_MzZHcf2jE4TUAa/005-Sport_Day_Lecture_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACoN7ZKo4IJTrfFgn5E3QQfa/005-Sport_Day_Lecture_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABj8EHCSeeTNrqiGzFbD7Rza/005-Sport_Day_Lecture_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABfa020p8e01jJ9p3mtQnQEa/005-Sport_Day_Lecture_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACF031w2qKdK1hnLys-k2qLa/005-Sport_Day_Lecture_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABosRG_KcoClUHEfKGRm8HNa/005-Sport_Day_Lecture_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAcyhXVQQa1W3DUcJoPlKjFa/005-Sport_Day_Lecture_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAvDMUZzPEPAUOxkix1IZ5Ba/005-Sport_Day_Lecture_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAArE1lYWCK_ojmozE9kVFyta/005-Sport_Day_Lecture_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACD7JMEmPU6Oy-A-jFE6VsGa/005-Sport_Day_Lecture_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAA0Fzsnu-r0Y_hGyPd0yRkea/005-Sport_Day_Lecture_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACGOpH1eXRs1CdKvtL_yqyKa/005-Sport_Day_Lecture_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABGtnGREhVRytt2CLEXdkASa/005-Sport_Day_Lecture_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACbH7zRbDrDYHmFkuagZR_Ea/005-Sport_Day_Lecture_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABGfxcQLhvMshglG-LalOpoa/005-Sport_Day_Lecture_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAD6TzxTOJHvZfW7DtvVH_3sa/005-Sport_Day_Lecture_-_Ara-22.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAr2WMDK3mKzqCLXJw3A4lMa/005-Sport_Day_Lecture_-_Ara-23.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAB9gF_ie-O8rh7N2vAAdsrXa/005-Sport_Day_Lecture_-_Ara-24.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABvZCmEW7ksCUBZGjoXQqG4a/005-Sport_Day_Lecture_-_Ara-25.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADxTGc-kJYUsDr1dH4aND1La/005-Sport_Day_Lecture_-_Ara-26.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACdoIwouUkvU6oNHvpdGhjta/005-Sport_Day_Lecture_-_Ara-27.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACqlIZ-61_WL60UfxXjcsYca/005-Sport_Day_Lecture_-_Ara-28.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABMhCiQ-OoPGUIM5gk4Yzh1a/005-Sport_Day_Lecture_-_Ara-29.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAA_14SKMIX3vX4PjU14nAOGa/005-Sport_Day_Lecture_-_Ara-30.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADb7AAFuN5nzEIVop6ZqcjLa/005-Sport_Day_Lecture_-_Ara-31.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAA-ysr7Fmp0fY9A4xCmU9EXa/005-Sport_Day_Lecture_-_Ara-32.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABnLCtj0wwqBnRqrIz1nZ1Sa/005-Sport_Day_Lecture_-_Ara-33.jpg?raw=1",],
          "tags":[ "Sport Day Lecture"],
          "araDir": "./docs/Other/Lectures/005-Sport_Day_Lecture_-_Ara.pdf",
@@ -7948,7 +7948,7 @@ const others = {
       {
          "id": "Lec006",
          "title":"Schoole Bag",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Lectures/Thumbnail/006-Schoole_Bag_-_Ara-1.jpg",
             "./docs/Other/Lectures/Thumbnail/006-Schoole_Bag_-_Ara-2.jpg",
             "./docs/Other/Lectures/Thumbnail/006-Schoole_Bag_-_Ara-3.jpg",
@@ -7984,7 +7984,7 @@ const others = {
             "./docs/Other/Lectures/Big/006-Schoole_Bag_-_Ara-15.jpg",
             "./docs/Other/Lectures/Big/006-Schoole_Bag_-_Ara-16.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA95zxBlXmHGNQqy0n8MeDNa/006-Schoole_Bag_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADD4HtCUIhW0l4QI1wN_OBQa/006-Schoole_Bag_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAKB3H-7POWdN95gBC56qZZa/006-Schoole_Bag_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACEEV8Nbm2B2uVTOMIkwymCa/006-Schoole_Bag_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACzOfA2wlHw0BKddKi8iubka/006-Schoole_Bag_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB0KkWSWrw9-qwKeBQGFMjJa/006-Schoole_Bag_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACu04w9HcAmqYROYSs_7jv1a/006-Schoole_Bag_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACUSKygLQ-32kFnYsPiRQ9-a/006-Schoole_Bag_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD0CxI0eKX__q5zYSDNb4Qja/006-Schoole_Bag_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABjmUJJVDvfEug7Lab4v9KCa/006-Schoole_Bag_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAANy3KloQci3mWPBUHSyk9ba/006-Schoole_Bag_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABfE6YZchvZkofhPBf-wGBGa/006-Schoole_Bag_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABoVfKWP-UGOuCFRGBwkY2za/006-Schoole_Bag_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABHknnKD3VwHZcjcZymV4x3a/006-Schoole_Bag_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADwkFKH6vpc4tpLN9sEC45da/006-Schoole_Bag_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABeyMdRhwMll1TZTfw-CK4Pa/006-Schoole_Bag_-_Ara-16.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA95zxBlXmHGNQqy0n8MeDNa/006-Schoole_Bag_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADD4HtCUIhW0l4QI1wN_OBQa/006-Schoole_Bag_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAKB3H-7POWdN95gBC56qZZa/006-Schoole_Bag_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACEEV8Nbm2B2uVTOMIkwymCa/006-Schoole_Bag_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACzOfA2wlHw0BKddKi8iubka/006-Schoole_Bag_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB0KkWSWrw9-qwKeBQGFMjJa/006-Schoole_Bag_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACu04w9HcAmqYROYSs_7jv1a/006-Schoole_Bag_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACUSKygLQ-32kFnYsPiRQ9-a/006-Schoole_Bag_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD0CxI0eKX__q5zYSDNb4Qja/006-Schoole_Bag_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABjmUJJVDvfEug7Lab4v9KCa/006-Schoole_Bag_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAANy3KloQci3mWPBUHSyk9ba/006-Schoole_Bag_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABfE6YZchvZkofhPBf-wGBGa/006-Schoole_Bag_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABoVfKWP-UGOuCFRGBwkY2za/006-Schoole_Bag_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABHknnKD3VwHZcjcZymV4x3a/006-Schoole_Bag_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADwkFKH6vpc4tpLN9sEC45da/006-Schoole_Bag_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABeyMdRhwMll1TZTfw-CK4Pa/006-Schoole_Bag_-_Ara-16.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABKoSr5wS3aQkQTuac1Hr6xa/006-Schoole_Bag_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAX-aAZR76tSBBLl5xRHvkwa/006-Schoole_Bag_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAMwBkW8UE4G8w9fEPheIKSa/006-Schoole_Bag_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAAF0xgcyZN3Vm443PK12Sna/006-Schoole_Bag_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADQkxUBM3-KBNzpgqBu9fgia/006-Schoole_Bag_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACOALBVb0gUHbBSWiGc5d7Da/006-Schoole_Bag_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACi0OM9xYjl_-OsKxD1727fa/006-Schoole_Bag_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAB94N68Ok-FGuVM9bF0oPd0a/006-Schoole_Bag_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACetDfUMCMNIP7V2gbDl9m9a/006-Schoole_Bag_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADPMN6R-x7S53TT9ovmt2SGa/006-Schoole_Bag_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACWc3fWkY0CqLOLV9XJTszFa/006-Schoole_Bag_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADv-pkzC1TL8EpkbdP7fU9Na/006-Schoole_Bag_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAC_fpTevEQbCnHs9Mnwjimka/006-Schoole_Bag_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABKUsXTn7GPIhzInz5swqV_a/006-Schoole_Bag_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAD6Kt-PtZW1UFKwtYN7SMbya/006-Schoole_Bag_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAi0eth34ckCFYvVnwlKYqOa/006-Schoole_Bag_-_Ara-16.jpg?raw=1",],
          "tags":[ "Schoole Bag"],
          "araDir": "./docs/Other/Lectures/006-Schoole_Bag_-_Ara.pdf",
@@ -7992,7 +7992,7 @@ const others = {
       {
          "id": "Lec007",
          "title":"Knee Pain",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Lectures/Thumbnail/007-Knee_Pain_-_Ara-1.jpg",
             "./docs/Other/Lectures/Thumbnail/007-Knee_Pain_-_Ara-2.jpg",
             "./docs/Other/Lectures/Thumbnail/007-Knee_Pain_-_Ara-3.jpg",
@@ -8040,7 +8040,7 @@ const others = {
             "./docs/Other/Lectures/Big/007-Knee_Pain_-_Ara-21.jpg",
             "./docs/Other/Lectures/Big/007-Knee_Pain_-_Ara-22.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADfuZ7gy4HrlCayIuJrKz3wa/007-Knee_Pain_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADoBmW1gN9AHqBqYf-ZBgwYa/007-Knee_Pain_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADtm-fpyC0yzc_Ptq1FfMO8a/007-Knee_Pain_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAzlpgJurHIbZjaGKHZnyPQa/007-Knee_Pain_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB-5Cueo-KVHpIMlQIwszIca/007-Knee_Pain_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABNEDtlpfFFXmm4QXrsUxfJa/007-Knee_Pain_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADC7RRWHrtpkjv2OMHf_scya/007-Knee_Pain_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACNnRwWrXS2uGV1HMFh-HvAa/007-Knee_Pain_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAArU6-RFE3x7bzlmIq1bGFBa/007-Knee_Pain_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD82QGuBzJvzLg21u9QQhIDa/007-Knee_Pain_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACkFYcwkil_0fzsZcts8pUEa/007-Knee_Pain_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACYrutSdV8WY64ZfDa8xZ4qa/007-Knee_Pain_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADGSuIU4pOB1zgiai-6dCb5a/007-Knee_Pain_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD8log5J1KQrIyyVsyE_vZxa/007-Knee_Pain_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA-qRRG-AyXilkSAAgKNJSba/007-Knee_Pain_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAv5kNsqkFVWgW8XY4gx7uTa/007-Knee_Pain_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAi588JqEprfXLzy9GKDV-8a/007-Knee_Pain_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAE08Oue8ozZ7vT-0YgVmW0a/007-Knee_Pain_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADsJU4HA-JhSCnXBgxOkW0pa/007-Knee_Pain_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAdMrBwxjnAs7fSjWI8317Ta/007-Knee_Pain_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADP2H86kti0mhsGIAzmpTIDa/007-Knee_Pain_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADpxHLMm6nLhB0vhAKANcEda/007-Knee_Pain_-_Ara-22.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADfuZ7gy4HrlCayIuJrKz3wa/007-Knee_Pain_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADoBmW1gN9AHqBqYf-ZBgwYa/007-Knee_Pain_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADtm-fpyC0yzc_Ptq1FfMO8a/007-Knee_Pain_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAzlpgJurHIbZjaGKHZnyPQa/007-Knee_Pain_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAB-5Cueo-KVHpIMlQIwszIca/007-Knee_Pain_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABNEDtlpfFFXmm4QXrsUxfJa/007-Knee_Pain_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADC7RRWHrtpkjv2OMHf_scya/007-Knee_Pain_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACNnRwWrXS2uGV1HMFh-HvAa/007-Knee_Pain_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAArU6-RFE3x7bzlmIq1bGFBa/007-Knee_Pain_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD82QGuBzJvzLg21u9QQhIDa/007-Knee_Pain_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACkFYcwkil_0fzsZcts8pUEa/007-Knee_Pain_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACYrutSdV8WY64ZfDa8xZ4qa/007-Knee_Pain_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADGSuIU4pOB1zgiai-6dCb5a/007-Knee_Pain_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD8log5J1KQrIyyVsyE_vZxa/007-Knee_Pain_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA-qRRG-AyXilkSAAgKNJSba/007-Knee_Pain_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAv5kNsqkFVWgW8XY4gx7uTa/007-Knee_Pain_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAi588JqEprfXLzy9GKDV-8a/007-Knee_Pain_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAE08Oue8ozZ7vT-0YgVmW0a/007-Knee_Pain_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADsJU4HA-JhSCnXBgxOkW0pa/007-Knee_Pain_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAdMrBwxjnAs7fSjWI8317Ta/007-Knee_Pain_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADP2H86kti0mhsGIAzmpTIDa/007-Knee_Pain_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADpxHLMm6nLhB0vhAKANcEda/007-Knee_Pain_-_Ara-22.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAjjjjEFlLuyOh2JF3xXaoAa/007-Knee_Pain_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABy6OIyepURk7YvhMw9eOe-a/007-Knee_Pain_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACS0KCLXCOcsWKTRKJVNNoha/007-Knee_Pain_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADa3pIr0rrgziR63ANcpRJNa/007-Knee_Pain_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADU79M4lm34G4mn0K3RQXx-a/007-Knee_Pain_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADpgKKglXEfGIcEL1SAyWlpa/007-Knee_Pain_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACWE422SvLWGo6fqw3ikgQda/007-Knee_Pain_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABCCotQHU6cOoRQIY8BGnbAa/007-Knee_Pain_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADRnr5ZNNAW0XnLGAgTw2KSa/007-Knee_Pain_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADJr-1lh2NDC4s__V5EMH-pa/007-Knee_Pain_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAA1TW0aAIE8EGWEgJA62PXGa/007-Knee_Pain_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACnpDMuts_Z-VRbSoWoo9OLa/007-Knee_Pain_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAC_4vV-9GA-TcMEJRfCZ8w4a/007-Knee_Pain_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACRDvDk88eAXoQHS6jEzMaia/007-Knee_Pain_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAByfOTGR3oJGXYX2cMYmqsba/007-Knee_Pain_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACfIkR8aMidzCUwU8C1Yqg3a/007-Knee_Pain_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABQ4V4wn_CaTypyEHCaFfXLa/007-Knee_Pain_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADPtCw3rhyCJ1bduEZf8-6Ca/007-Knee_Pain_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAC63EJOySSKrtJvgwQhUi5ea/007-Knee_Pain_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABc4UtWhy3wO9uI6Pv5RwSEa/007-Knee_Pain_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABEcqzoMmUuZcVGAl1vK6-la/007-Knee_Pain_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAOT1iZmDypYPBEH_c8-N96a/007-Knee_Pain_-_Ara-22.jpg?raw=1",],
          "tags":[ "Knee Pain"],
          "araDir": "./docs/Other/Lectures/007-Knee_Pain_-_Ara.pdf",
@@ -8048,7 +8048,7 @@ const others = {
       {
          "id": "Lec008",
          "title":"WH Clinic",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Lectures/Thumbnail/008-WH_Clinic_-_Ara-1.jpg",
             "./docs/Other/Lectures/Thumbnail/008-WH_Clinic_-_Ara-2.jpg",
             "./docs/Other/Lectures/Thumbnail/008-WH_Clinic_-_Ara-3.jpg",
@@ -8104,7 +8104,7 @@ const others = {
             "./docs/Other/Lectures/Big/008-WH_Clinic_-_Ara-25.jpg",
             "./docs/Other/Lectures/Big/008-WH_Clinic_-_Ara-26.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD63Mtv4n4YCUR_jwQZ-C4Ga/008-WH_Clinic_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADm8lFNNjPONBteH6ZEpIMpa/008-WH_Clinic_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABjyHMti1sBzDpr6x5QTy6Za/008-WH_Clinic_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADDDGO__QzouVTdRD5viR0Pa/008-WH_Clinic_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACPZFtu4ZDz101NQ5b40wz8a/008-WH_Clinic_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADsn4oBthwOzUBlB52ACpuSa/008-WH_Clinic_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACMHqZnVUTV1aAmmFiYJduta/008-WH_Clinic_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADlBvElPSLfBlA_AT7WQe4Ia/008-WH_Clinic_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAApHTXj41bvGp11QsOfHjp7a/008-WH_Clinic_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACiZX6Bz-xGUPbrX5iY-qa2a/008-WH_Clinic_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACjMVA2HfZ-8RcUEj0zzz15a/008-WH_Clinic_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA7Hi4wV-ohY6MnQCVui2yqa/008-WH_Clinic_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADF2eTbFNl1QGZqFH0uZaKra/008-WH_Clinic_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACGe6EH91e9O4dsY-J6kX1Ia/008-WH_Clinic_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACg8ebvh5DT6PBHita_Ie5ca/008-WH_Clinic_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACYna9JCfg6Qc8zhMAlVKuwa/008-WH_Clinic_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABAcot3TnM_QnJGWjNgi6cNa/008-WH_Clinic_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACi4TgQjYVc7kg7XBeqHepca/008-WH_Clinic_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACxP8mHWKbi4Q2dPpIEHVS4a/008-WH_Clinic_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACwnL7ysXeNclfRRo9lcWR5a/008-WH_Clinic_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABOoUufbxxC-v_kmqy3RV8ha/008-WH_Clinic_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA1UXpjqhYThRMx6FXU-v4Ua/008-WH_Clinic_-_Ara-22.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACEtYSxuYKozSx-H2SWvAp5a/008-WH_Clinic_-_Ara-23.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAe0dXPF879Qwng2QL1rNHTa/008-WH_Clinic_-_Ara-24.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACBZJbNlhu__LNQytJn2Pcya/008-WH_Clinic_-_Ara-25.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABSvYcJPMT6zffZVLv4fuNda/008-WH_Clinic_-_Ara-26.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAD63Mtv4n4YCUR_jwQZ-C4Ga/008-WH_Clinic_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADm8lFNNjPONBteH6ZEpIMpa/008-WH_Clinic_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABjyHMti1sBzDpr6x5QTy6Za/008-WH_Clinic_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADDDGO__QzouVTdRD5viR0Pa/008-WH_Clinic_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACPZFtu4ZDz101NQ5b40wz8a/008-WH_Clinic_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADsn4oBthwOzUBlB52ACpuSa/008-WH_Clinic_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACMHqZnVUTV1aAmmFiYJduta/008-WH_Clinic_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADlBvElPSLfBlA_AT7WQe4Ia/008-WH_Clinic_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAApHTXj41bvGp11QsOfHjp7a/008-WH_Clinic_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACiZX6Bz-xGUPbrX5iY-qa2a/008-WH_Clinic_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACjMVA2HfZ-8RcUEj0zzz15a/008-WH_Clinic_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA7Hi4wV-ohY6MnQCVui2yqa/008-WH_Clinic_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADF2eTbFNl1QGZqFH0uZaKra/008-WH_Clinic_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACGe6EH91e9O4dsY-J6kX1Ia/008-WH_Clinic_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACg8ebvh5DT6PBHita_Ie5ca/008-WH_Clinic_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACYna9JCfg6Qc8zhMAlVKuwa/008-WH_Clinic_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABAcot3TnM_QnJGWjNgi6cNa/008-WH_Clinic_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACi4TgQjYVc7kg7XBeqHepca/008-WH_Clinic_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACxP8mHWKbi4Q2dPpIEHVS4a/008-WH_Clinic_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACwnL7ysXeNclfRRo9lcWR5a/008-WH_Clinic_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABOoUufbxxC-v_kmqy3RV8ha/008-WH_Clinic_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA1UXpjqhYThRMx6FXU-v4Ua/008-WH_Clinic_-_Ara-22.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACEtYSxuYKozSx-H2SWvAp5a/008-WH_Clinic_-_Ara-23.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAe0dXPF879Qwng2QL1rNHTa/008-WH_Clinic_-_Ara-24.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACBZJbNlhu__LNQytJn2Pcya/008-WH_Clinic_-_Ara-25.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABSvYcJPMT6zffZVLv4fuNda/008-WH_Clinic_-_Ara-26.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADdWhKNo_SzmgK1H52nDGloa/008-WH_Clinic_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAB5wnT22Hloim7EC-3S4ne9a/008-WH_Clinic_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAB6aUAx7JBXud04wXQz81Zfa/008-WH_Clinic_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAzs0mQaMddvNgGT7WRrpjya/008-WH_Clinic_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACPuUoD3EP575z5exXUM2S_a/008-WH_Clinic_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACQQa3lraSfbPpQuMmFEDOZa/008-WH_Clinic_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADu6nIIiyqgjj8tIwc8cXD6a/008-WH_Clinic_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAXeGHUISQ9K9p362MZMUkOa/008-WH_Clinic_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADBmkxBs_A5z5XZQjPwj-zea/008-WH_Clinic_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADvel5vhnY15wu9a6gUi8G8a/008-WH_Clinic_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABB1jXPzFDkWaXldHUTThVea/008-WH_Clinic_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADcMKxKyBC49Oqga6aVCFjea/008-WH_Clinic_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACdmoPqIgRsd3nTZs-HdTnLa/008-WH_Clinic_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABuBHPgp5ppi6R4eT1x-YeLa/008-WH_Clinic_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADsbyE1By55Ld0ETLlORLXFa/008-WH_Clinic_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAB0BMCLBPY2lNEFLslMboz0a/008-WH_Clinic_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADjsEjjVTAHUQ8_Mi5O56o5a/008-WH_Clinic_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAA9WK5UbSkV_O2AxgT7pwFpa/008-WH_Clinic_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAByTeSjr_oAY434XmMP7taGa/008-WH_Clinic_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADrUG99B349JRfQyzbNwWwqa/008-WH_Clinic_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACBX9UsbI3F7Es_WMWXfBeIa/008-WH_Clinic_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAGzzIyiCZB3z30uWWQfw_xa/008-WH_Clinic_-_Ara-22.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABE-CEGG6V2sL0tX_KowoXza/008-WH_Clinic_-_Ara-23.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAACTj1_2Qg7TFb4gwXVJOeQa/008-WH_Clinic_-_Ara-24.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAVZ83g5Fn8PksBGgI52LK1a/008-WH_Clinic_-_Ara-25.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACQfi7Oasar9ucCLemHZ_bva/008-WH_Clinic_-_Ara-26.jpg?raw=1",],
          "tags":[ "WH Clini", "Women Health"],
          "araDir": "./docs/Other/Lectures/008-WH_Clinic_-_Ara.pptx",
@@ -8112,7 +8112,7 @@ const others = {
       {
          "id": "Lec009",
          "title":"Constipation",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Lectures/Thumbnail/009-Constipation_-_Ara-1.jpg",
             "./docs/Other/Lectures/Thumbnail/009-Constipation_-_Ara-2.jpg",
             "./docs/Other/Lectures/Thumbnail/009-Constipation_-_Ara-3.jpg",
@@ -8166,7 +8166,7 @@ const others = {
             "./docs/Other/Lectures/Big/009-Constipation_-_Ara-24.jpg",
             "./docs/Other/Lectures/Big/009-Constipation_-_Ara-25.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAQx8qlYGfCDVNeJAT1Av-za/009-Constipation_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA-DGzV1RdHfOalAJtNyC4Ga/009-Constipation_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAYg_nzvlR3FYwHqwJsC85za/009-Constipation_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACfqhr-qIq8CcDbTbWW4Zr-a/009-Constipation_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC5RTbWgvrVp-lAvTkst_EHa/009-Constipation_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADaOug7GWuqiNVSJ2PWOhnKa/009-Constipation_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACjNIGJCiW82N6gZx6laRBYa/009-Constipation_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAHEXTGYUTrNMiHIkIfvpUIa/009-Constipation_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAmAbyyBHZkjDI8bWCoNuhca/009-Constipation_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACWB2IOx53FrlrFllL1Oddba/009-Constipation_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADHRbcjBh4Aqk_f_Q8onOyPa/009-Constipation_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABsUvesWjXECG67JLm6YEI5a/009-Constipation_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAACj-cOFOQ9rlGSUt5IewFfa/009-Constipation_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAEH2blEkVWiLpw-ajP2fFva/009-Constipation_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABzhPaYQmTGYjhp_wbRql1Fa/009-Constipation_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACGg5AjMiHz_TZ7lEDfLG3ta/009-Constipation_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADdKHNqibyMcg3sw-qDuJgca/009-Constipation_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAShBv1deEzKpl3AQEi9VhYa/009-Constipation_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADwyDssK_vC_bMsHSr_dZ_ca/009-Constipation_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC0nfhjghn0qtS7ZMVay-lVa/009-Constipation_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAADyJ89kHFLlfFTVGNiHDj9a/009-Constipation_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAmjE7rBMvl-XqBjTeg66VSa/009-Constipation_-_Ara-22.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABh-E8Ivuyhea6K7wceb7PZa/009-Constipation_-_Ara-23.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABMv0o2GI20ZZ506zNNerIla/009-Constipation_-_Ara-24.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADLyU00R67Z4eDUXOdedaEya/009-Constipation_-_Ara-25.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAQx8qlYGfCDVNeJAT1Av-za/009-Constipation_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAA-DGzV1RdHfOalAJtNyC4Ga/009-Constipation_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAYg_nzvlR3FYwHqwJsC85za/009-Constipation_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACfqhr-qIq8CcDbTbWW4Zr-a/009-Constipation_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC5RTbWgvrVp-lAvTkst_EHa/009-Constipation_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADaOug7GWuqiNVSJ2PWOhnKa/009-Constipation_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACjNIGJCiW82N6gZx6laRBYa/009-Constipation_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAHEXTGYUTrNMiHIkIfvpUIa/009-Constipation_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAmAbyyBHZkjDI8bWCoNuhca/009-Constipation_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACWB2IOx53FrlrFllL1Oddba/009-Constipation_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADHRbcjBh4Aqk_f_Q8onOyPa/009-Constipation_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABsUvesWjXECG67JLm6YEI5a/009-Constipation_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAACj-cOFOQ9rlGSUt5IewFfa/009-Constipation_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAEH2blEkVWiLpw-ajP2fFva/009-Constipation_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABzhPaYQmTGYjhp_wbRql1Fa/009-Constipation_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AACGg5AjMiHz_TZ7lEDfLG3ta/009-Constipation_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADdKHNqibyMcg3sw-qDuJgca/009-Constipation_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAShBv1deEzKpl3AQEi9VhYa/009-Constipation_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADwyDssK_vC_bMsHSr_dZ_ca/009-Constipation_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAC0nfhjghn0qtS7ZMVay-lVa/009-Constipation_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAADyJ89kHFLlfFTVGNiHDj9a/009-Constipation_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AAAmjE7rBMvl-XqBjTeg66VSa/009-Constipation_-_Ara-22.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABh-E8Ivuyhea6K7wceb7PZa/009-Constipation_-_Ara-23.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AABMv0o2GI20ZZ506zNNerIla/009-Constipation_-_Ara-24.jpg?raw=1","https://www.dropbox.com/sh/tvbzq1qr7r43ldm/AADLyU00R67Z4eDUXOdedaEya/009-Constipation_-_Ara-25.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABo91JYtf5zs3BcBzCufzHxa/009-Constipation_-_Ara-1.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABTICRfA2mOhpnAIjYgF-JRa/009-Constipation_-_Ara-2.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADsUtz3ZCY4h0ix810MDXaTa/009-Constipation_-_Ara-3.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABvCyH_1xYl3fRWWsiEwLuha/009-Constipation_-_Ara-4.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADlW4ihYHURclSI_faJKE0ga/009-Constipation_-_Ara-5.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADk0Z18g6028CG0sI-DKsLua/009-Constipation_-_Ara-6.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAbWc2i204xIhdhlwGaFmcUa/009-Constipation_-_Ara-7.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACbop8ypqdgYZFq7AaV7nmga/009-Constipation_-_Ara-8.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AACo6HgPcrD9-_1kANRURB_Ba/009-Constipation_-_Ara-9.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADqiQebuh7fkGaoGOIwmbCZa/009-Constipation_-_Ara-10.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAB9TzTHr_SzmP6M6uWiugbDa/009-Constipation_-_Ara-11.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAC6IUA3XuQQNHxNIUiaXXPIa/009-Constipation_-_Ara-12.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAIO8IHCpRRLMKvjXKvhy6Aa/009-Constipation_-_Ara-13.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAClIS2npGk9zG2pJ3hG8m9-a/009-Constipation_-_Ara-14.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABeoRczY5QVSR1ePK1T7kxfa/009-Constipation_-_Ara-15.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABXnTleN-xi0ih2BqEduTWLa/009-Constipation_-_Ara-16.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABD7FvsqQ87_X5DFf8arKVga/009-Constipation_-_Ara-17.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABEojW-MFERwMnjRkz7is6ya/009-Constipation_-_Ara-18.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AABGCaoi5pECkx6XhLVxNOEOa/009-Constipation_-_Ara-19.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAB_cKvJyFQU51gKziq10zpKa/009-Constipation_-_Ara-20.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAA8KfEVaH7j0TXG6U7goU9xa/009-Constipation_-_Ara-21.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAowS_cZlS0QPrxoaZg2hwia/009-Constipation_-_Ara-22.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAC-6zK6UmFkjb_GoG2x2Hi0a/009-Constipation_-_Ara-23.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AAAWDhtM9n806VUGDcSFZpk8a/009-Constipation_-_Ara-24.jpg?raw=1","https://www.dropbox.com/sh/1g68pjy30gcxbc9/AADgDMNJpEK0kAGvU8ui3srFa/009-Constipation_-_Ara-25.jpg?raw=1",],
          "tags":[ "Constipation"],
          "araDir": "./docs/Other/Lectures/009-Constipation_-_Ara.pptx",
@@ -8177,13 +8177,13 @@ const others = {
       {
          "id": "Pst001",
          "title":"hand exercises poster",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Posters/Thumbnail/001-hand_exercises_poster_-_Eng.jpg",
          ],
          "bigImgs":[
             "./docs/Other/Posters/Big/001-hand_exercises_poster_-_Eng.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/xbluqfnss8sq1y7/AABCTShyZWINFHyuOrWatWsKa/001-hand_exercises_poster_-_Eng.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/xbluqfnss8sq1y7/AABCTShyZWINFHyuOrWatWsKa/001-hand_exercises_poster_-_Eng.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/ax4r0ehqaairebb/AABDtNbklbQzMqp65ZnWmsTAa/001-hand_exercises_poster_-_Eng.jpg?raw=1",],
          "tags":[ "hand exercises poster"],
          "engDir": "./docs/Other/Posters/001-hand_exercises_poster_-_Eng.pdf",
@@ -8191,13 +8191,13 @@ const others = {
       {
          "id": "Pst002",
          "title":"MET 25%",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Posters/Thumbnail/002-MET_25_-_Eng.jpg",
          ],
          "bigImgs":[
             "./docs/Other/Posters/Big/002-MET_25_-_Eng.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/xbluqfnss8sq1y7/AABkc98Y63Qj6dGUew0tP4mBa/002-MET_25_-_Eng.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/xbluqfnss8sq1y7/AABkc98Y63Qj6dGUew0tP4mBa/002-MET_25_-_Eng.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/ax4r0ehqaairebb/AAD4frpHdq6RdmewLSpUoY52a/002-MET_25_-_Eng.jpg?raw=1",],
          "tags":[ "MET 25%"],
          "engDir": "./docs/Other/Posters/002-MET_25_-_Eng.pdf",
@@ -8205,13 +8205,13 @@ const others = {
       {
          "id": "Pst003",
          "title":"WH CLINIC POSTER 3LINES",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Posters/Thumbnail/003-WH_CLINIC_POSTER_3LINES-_V2_-_Ara.jpg",
          ],
          "bigImgs":[
             "./docs/Other/Posters/Big/003-WH_CLINIC_POSTER_3LINES-_V2_-_Ara.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/xbluqfnss8sq1y7/AABF2J-ylK1BkeY6hxIxxJrca/003-WH_CLINIC_POSTER_3LINES-_V2_-_Ara.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/xbluqfnss8sq1y7/AABF2J-ylK1BkeY6hxIxxJrca/003-WH_CLINIC_POSTER_3LINES-_V2_-_Ara.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/ax4r0ehqaairebb/AABJ1ge_nIUCzMWm7idQBKNta/003-WH_CLINIC_POSTER_3LINES-_V2_-_Ara.jpg?raw=1",],
          "tags":[ "WH CLINIC POSTER 3LINES"],
          "araDir": "./docs/Other/Posters/003-WH_CLINIC_POSTER_3LINES-_V2_-_Ara.pdf",
@@ -8219,13 +8219,13 @@ const others = {
       {
          "id": "Pst004",
          "title":"Sport Shoes",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Posters/Thumbnail/004-Sport_Shoes_-_Ara.jpg",
          ],
          "bigImgs":[
             "./docs/Other/Posters/Big/004-Sport_Shoes_-_Ara.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/xbluqfnss8sq1y7/AAB-aKawl30_nWMmJdrsx2IKa/004-Sport_Shoes_-_Ara.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/xbluqfnss8sq1y7/AAB-aKawl30_nWMmJdrsx2IKa/004-Sport_Shoes_-_Ara.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/ax4r0ehqaairebb/AAACn4gcxdzTj1X0E3voZUxZa/004-Sport_Shoes_-_Ara.jpg?raw=1",],
          "tags":[ "Sport Shoes"],
          "araDir": "./docs/Other/Posters/004-Sport_Shoes_-_Ara.jpg",
@@ -8233,13 +8233,13 @@ const others = {
       {
          "id": "Pst005",
          "title":"Wax Steps",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Posters/Thumbnail/005-Wax_Steps_-_Ara.jpg",
          ],
          "bigImgs":[
             "./docs/Other/Posters/Big/005-Wax_Steps_-_Ara.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/xbluqfnss8sq1y7/AACl6qWN4SFK1CTMYbjYMN3Qa/005-Wax_Steps_-_Ara.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/xbluqfnss8sq1y7/AACl6qWN4SFK1CTMYbjYMN3Qa/005-Wax_Steps_-_Ara.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/ax4r0ehqaairebb/AAAyVprT1N5Bulv7aOZFqjOpa/005-Wax_Steps_-_Ara.jpg?raw=1",],
          "tags":[ "Wax Steps"],
          "araDir": "./docs/Other/Posters/005-Wax_Steps_-_Ara.JPG",
@@ -8247,13 +8247,13 @@ const others = {
       {
          "id": "Pst006",
          "title":"School Back Bag",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Posters/Thumbnail/006-School_Back_Bag-_Ara.jpg",
          ],
          "bigImgs":[
             "./docs/Other/Posters/Big/006-School_Back_Bag-_Ara.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/xbluqfnss8sq1y7/AADy_Uq1tpMOzFxOlvC4F753a/006-School_Back_Bag-_Ara.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/xbluqfnss8sq1y7/AADy_Uq1tpMOzFxOlvC4F753a/006-School_Back_Bag-_Ara.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/ax4r0ehqaairebb/AADM30I0zY7IGQK32b0m7XNNa/006-School_Back_Bag-_Ara.jpg?raw=1",],
          "tags":[ "School Back Bag"],
          "araDir": "./docs/Other/Posters/006-School_Back_Bag-_Ara.jpg",
@@ -8264,7 +8264,7 @@ const others = {
       {
          "id": "Pro001",
          "title":"Achilles tendon repair giuldline  protocol",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Protocols/Thumbnail/001-Achilles_tendon_repair_giuldline__protocol-1.jpg",
             "./docs/Other/Protocols/Thumbnail/001-Achilles_tendon_repair_giuldline__protocol-2.jpg",
             "./docs/Other/Protocols/Thumbnail/001-Achilles_tendon_repair_giuldline__protocol-3.jpg",
@@ -8320,7 +8320,7 @@ const others = {
             "./docs/Other/Protocols/Big/001-Achilles_tendon_repair_giuldline__protocol-25.jpg",
             "./docs/Other/Protocols/Big/001-Achilles_tendon_repair_giuldline__protocol-26.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACPVav78P1J4FgWQWpZy1O3a/001-Achilles_tendon_repair_giuldline__protocol-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAVDrChgk85zwO_budzwMwaa/001-Achilles_tendon_repair_giuldline__protocol-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADWD-vglnX8_rXHPfkWBxi3a/001-Achilles_tendon_repair_giuldline__protocol-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADDxdaLaryWJeigPATE9wBMa/001-Achilles_tendon_repair_giuldline__protocol-4.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABsD6wVCgJSMxRHR0HGlQ-Za/001-Achilles_tendon_repair_giuldline__protocol-5.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACwu7oNnlpsTvOb3BRaXlOva/001-Achilles_tendon_repair_giuldline__protocol-6.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAUXKQfR4sXo0kiQSFZqsCXa/001-Achilles_tendon_repair_giuldline__protocol-7.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAB6pcXDhQNqFcuwVDkq8fEga/001-Achilles_tendon_repair_giuldline__protocol-8.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAA9JicEhmSBMAUsAorr9zk0a/001-Achilles_tendon_repair_giuldline__protocol-9.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAml31GEGsDFxT0pBQOK2-Aa/001-Achilles_tendon_repair_giuldline__protocol-10.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACZAdw_ZHaRRGpeqdcGEWPha/001-Achilles_tendon_repair_giuldline__protocol-11.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAC0XgxaxUAvUiUa683Gx4I2a/001-Achilles_tendon_repair_giuldline__protocol-12.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAQWvXnF4bbda4AEw-BBgEHa/001-Achilles_tendon_repair_giuldline__protocol-13.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAB3e5SFODwoT-fbfQK6pJjNa/001-Achilles_tendon_repair_giuldline__protocol-14.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAADF_o_Cybau5gI4XEAnKZYa/001-Achilles_tendon_repair_giuldline__protocol-15.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADtNYfLdzARYmlHXVrGBbfRa/001-Achilles_tendon_repair_giuldline__protocol-16.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADH3sofZ0dDDy0q1znJTJsta/001-Achilles_tendon_repair_giuldline__protocol-17.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAA17RPWyiASoZcKJing3vQWa/001-Achilles_tendon_repair_giuldline__protocol-18.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAB9fsDbrlm7YMmqRMZxW0qNa/001-Achilles_tendon_repair_giuldline__protocol-19.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAD03TDAzxnH4KKXPULYptZ7a/001-Achilles_tendon_repair_giuldline__protocol-20.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABAKA-RqtiALOMNMj8mYjSGa/001-Achilles_tendon_repair_giuldline__protocol-21.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABpcCuRtpdHugrhMtXWO_Ika/001-Achilles_tendon_repair_giuldline__protocol-22.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADqiEUZ_oT2SFYEuvPOA0Sja/001-Achilles_tendon_repair_giuldline__protocol-23.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADLL0qrH5Ln5uJYRN95XZnAa/001-Achilles_tendon_repair_giuldline__protocol-24.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAvS1kayzobt6fNOcheUXJFa/001-Achilles_tendon_repair_giuldline__protocol-25.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAA6A_bv1k4MRS8X_bbP0O04a/001-Achilles_tendon_repair_giuldline__protocol-26.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACPVav78P1J4FgWQWpZy1O3a/001-Achilles_tendon_repair_giuldline__protocol-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAVDrChgk85zwO_budzwMwaa/001-Achilles_tendon_repair_giuldline__protocol-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADWD-vglnX8_rXHPfkWBxi3a/001-Achilles_tendon_repair_giuldline__protocol-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADDxdaLaryWJeigPATE9wBMa/001-Achilles_tendon_repair_giuldline__protocol-4.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABsD6wVCgJSMxRHR0HGlQ-Za/001-Achilles_tendon_repair_giuldline__protocol-5.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACwu7oNnlpsTvOb3BRaXlOva/001-Achilles_tendon_repair_giuldline__protocol-6.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAUXKQfR4sXo0kiQSFZqsCXa/001-Achilles_tendon_repair_giuldline__protocol-7.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAB6pcXDhQNqFcuwVDkq8fEga/001-Achilles_tendon_repair_giuldline__protocol-8.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAA9JicEhmSBMAUsAorr9zk0a/001-Achilles_tendon_repair_giuldline__protocol-9.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAml31GEGsDFxT0pBQOK2-Aa/001-Achilles_tendon_repair_giuldline__protocol-10.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACZAdw_ZHaRRGpeqdcGEWPha/001-Achilles_tendon_repair_giuldline__protocol-11.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAC0XgxaxUAvUiUa683Gx4I2a/001-Achilles_tendon_repair_giuldline__protocol-12.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAQWvXnF4bbda4AEw-BBgEHa/001-Achilles_tendon_repair_giuldline__protocol-13.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAB3e5SFODwoT-fbfQK6pJjNa/001-Achilles_tendon_repair_giuldline__protocol-14.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAADF_o_Cybau5gI4XEAnKZYa/001-Achilles_tendon_repair_giuldline__protocol-15.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADtNYfLdzARYmlHXVrGBbfRa/001-Achilles_tendon_repair_giuldline__protocol-16.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADH3sofZ0dDDy0q1znJTJsta/001-Achilles_tendon_repair_giuldline__protocol-17.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAA17RPWyiASoZcKJing3vQWa/001-Achilles_tendon_repair_giuldline__protocol-18.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAB9fsDbrlm7YMmqRMZxW0qNa/001-Achilles_tendon_repair_giuldline__protocol-19.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAD03TDAzxnH4KKXPULYptZ7a/001-Achilles_tendon_repair_giuldline__protocol-20.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABAKA-RqtiALOMNMj8mYjSGa/001-Achilles_tendon_repair_giuldline__protocol-21.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABpcCuRtpdHugrhMtXWO_Ika/001-Achilles_tendon_repair_giuldline__protocol-22.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADqiEUZ_oT2SFYEuvPOA0Sja/001-Achilles_tendon_repair_giuldline__protocol-23.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADLL0qrH5Ln5uJYRN95XZnAa/001-Achilles_tendon_repair_giuldline__protocol-24.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAvS1kayzobt6fNOcheUXJFa/001-Achilles_tendon_repair_giuldline__protocol-25.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAA6A_bv1k4MRS8X_bbP0O04a/001-Achilles_tendon_repair_giuldline__protocol-26.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/lf00z49yjw1kufm/AABwgF7g4Q_u7euoAxcU-kcWa/001-Achilles_tendon_repair_giuldline__protocol-1.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADChUBiBGNJeXp5BIjIEi9Ha/001-Achilles_tendon_repair_giuldline__protocol-2.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACgHh9mSed5QbL6FHVuwtqoa/001-Achilles_tendon_repair_giuldline__protocol-3.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADk8sD9JBzd8e4etEVYziL7a/001-Achilles_tendon_repair_giuldline__protocol-4.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADyifrZdmgJcN2sDI-svy9ra/001-Achilles_tendon_repair_giuldline__protocol-5.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAJ0kGoiyTFVyH04vuuAiKZa/001-Achilles_tendon_repair_giuldline__protocol-6.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADc0HaGAGSCXFZLQ3pT3FFxa/001-Achilles_tendon_repair_giuldline__protocol-7.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACJtMWStgoZyGyVaJczGLaEa/001-Achilles_tendon_repair_giuldline__protocol-8.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AABjsPcjfaytzV0Pvdd-T8i4a/001-Achilles_tendon_repair_giuldline__protocol-9.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADB6WWZZtD95eQOtYC17ENua/001-Achilles_tendon_repair_giuldline__protocol-10.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAOaF3pJuHbJaplFm7N12uta/001-Achilles_tendon_repair_giuldline__protocol-11.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AABShIz7g3tOGUP5VUVAp0Sca/001-Achilles_tendon_repair_giuldline__protocol-12.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACwejhxRTn-aNLhh4WDxt6da/001-Achilles_tendon_repair_giuldline__protocol-13.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAD5Na9dCDTgOyhqYQOkN1ipa/001-Achilles_tendon_repair_giuldline__protocol-14.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAEzRkYC2Twn828kmK9b9_ia/001-Achilles_tendon_repair_giuldline__protocol-15.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAK7q7bvurBHh7lxkDrgm_Wa/001-Achilles_tendon_repair_giuldline__protocol-16.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAvKVeL0ZxrRAVvXn0STywLa/001-Achilles_tendon_repair_giuldline__protocol-17.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADDPMb-beEsXDoYnOCTn7Kia/001-Achilles_tendon_repair_giuldline__protocol-18.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACjk61g_hIMC0Fgpa3k5kvAa/001-Achilles_tendon_repair_giuldline__protocol-19.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAxMvJy_-zmifi-tlmLBvXFa/001-Achilles_tendon_repair_giuldline__protocol-20.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AABuQ_257qcjH0f4J4PSk13sa/001-Achilles_tendon_repair_giuldline__protocol-21.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACg4QuBFf2vjd9rjkAfShe_a/001-Achilles_tendon_repair_giuldline__protocol-22.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAEx1PXojl4I4610pS3mnW1a/001-Achilles_tendon_repair_giuldline__protocol-23.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACgRaBOGSNf14kgYWToidfua/001-Achilles_tendon_repair_giuldline__protocol-24.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AABeq1HmOI1iIkcoEVZDq7Z2a/001-Achilles_tendon_repair_giuldline__protocol-25.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACD8ySXFUf2dxND6Lm05qD-a/001-Achilles_tendon_repair_giuldline__protocol-26.jpg?raw=1",],
          "tags":[ "Achilles tendon repair giuldline  protocol"],
          "engDir":"./docs/Other/Protocols/001-Achilles_tendon_repair_giuldline__protocol.pdf"
@@ -8328,7 +8328,7 @@ const others = {
       {
          "id": "Pro002",
          "title":"ACL Reconstruction protocol",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Protocols/Thumbnail/002-ACL_-Reconstruction_protocol-1.jpg",
             "./docs/Other/Protocols/Thumbnail/002-ACL_-Reconstruction_protocol-2.jpg",
             "./docs/Other/Protocols/Thumbnail/002-ACL_-Reconstruction_protocol-3.jpg",
@@ -8362,7 +8362,7 @@ const others = {
             "./docs/Other/Protocols/Big/002-ACL_-Reconstruction_protocol-14.jpg",
             "./docs/Other/Protocols/Big/002-ACL_-Reconstruction_protocol-15.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAD-O7RVG3BzlxuuLgDsbi43a/002-ACL_-Reconstruction_protocol-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAelE27ZKL1-2XVs2yWbvQHa/002-ACL_-Reconstruction_protocol-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACALoGocDUJOPSyb5gFQQu9a/002-ACL_-Reconstruction_protocol-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACY23ZiP-PE4pGwbIqyWfLsa/002-ACL_-Reconstruction_protocol-4.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAXVLYMJhzPtnVgmCj6m3vCa/002-ACL_-Reconstruction_protocol-5.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAG23oeG7j89_6sdeuLmWF5a/002-ACL_-Reconstruction_protocol-6.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADp22foVbLJH3mzq3pc_kNha/002-ACL_-Reconstruction_protocol-7.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAASlH4KY4P_4pbkQMeO1BPta/002-ACL_-Reconstruction_protocol-8.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAQ3_6CLiZQ3atRE7n8BqZma/002-ACL_-Reconstruction_protocol-9.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAB_AQlchbL5ta7xorOgHj2ca/002-ACL_-Reconstruction_protocol-10.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACYa5dwa_QVmKYqAbkfIV0ya/002-ACL_-Reconstruction_protocol-11.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACzg9MeFru8YVvXXyorAj-5a/002-ACL_-Reconstruction_protocol-12.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACj4ZI_ipdRRaAfH3Jdaw5ta/002-ACL_-Reconstruction_protocol-13.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAC1VS0iPreUh-GBlVjRsWrEa/002-ACL_-Reconstruction_protocol-14.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABvrwVCrmvgVYLXJUNDNUM5a/002-ACL_-Reconstruction_protocol-15.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAD-O7RVG3BzlxuuLgDsbi43a/002-ACL_-Reconstruction_protocol-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAelE27ZKL1-2XVs2yWbvQHa/002-ACL_-Reconstruction_protocol-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACALoGocDUJOPSyb5gFQQu9a/002-ACL_-Reconstruction_protocol-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACY23ZiP-PE4pGwbIqyWfLsa/002-ACL_-Reconstruction_protocol-4.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAXVLYMJhzPtnVgmCj6m3vCa/002-ACL_-Reconstruction_protocol-5.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAG23oeG7j89_6sdeuLmWF5a/002-ACL_-Reconstruction_protocol-6.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADp22foVbLJH3mzq3pc_kNha/002-ACL_-Reconstruction_protocol-7.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAASlH4KY4P_4pbkQMeO1BPta/002-ACL_-Reconstruction_protocol-8.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAQ3_6CLiZQ3atRE7n8BqZma/002-ACL_-Reconstruction_protocol-9.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAB_AQlchbL5ta7xorOgHj2ca/002-ACL_-Reconstruction_protocol-10.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACYa5dwa_QVmKYqAbkfIV0ya/002-ACL_-Reconstruction_protocol-11.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACzg9MeFru8YVvXXyorAj-5a/002-ACL_-Reconstruction_protocol-12.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACj4ZI_ipdRRaAfH3Jdaw5ta/002-ACL_-Reconstruction_protocol-13.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAC1VS0iPreUh-GBlVjRsWrEa/002-ACL_-Reconstruction_protocol-14.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABvrwVCrmvgVYLXJUNDNUM5a/002-ACL_-Reconstruction_protocol-15.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/lf00z49yjw1kufm/AABYF3h8W105FxT2n15fGc_Ja/002-ACL_-Reconstruction_protocol-1.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAu20bBybRRsmQgqbz-loC7a/002-ACL_-Reconstruction_protocol-2.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAC0u4H35gYJiwN16TklgwEca/002-ACL_-Reconstruction_protocol-3.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACKB4BSxEKFIEL3AZTUDs9Wa/002-ACL_-Reconstruction_protocol-4.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAhPPgdkEg-wihBiQbrS71va/002-ACL_-Reconstruction_protocol-5.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAA-FUgg1PbIuwAsoltQpcOTa/002-ACL_-Reconstruction_protocol-6.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAGOocXaQNxx-uYG7t5-S5La/002-ACL_-Reconstruction_protocol-7.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACpvVE-AeWRy1n52OilTnrDa/002-ACL_-Reconstruction_protocol-8.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACmy84q7m_EU3US5m0EqbYOa/002-ACL_-Reconstruction_protocol-9.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AABIYQ8JZ4A9PBmZUnEgVneEa/002-ACL_-Reconstruction_protocol-10.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACWdEmH8yP6GE4R5AfGzJc8a/002-ACL_-Reconstruction_protocol-11.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AABX8gqUxSjlt-B0HZxrSLE_a/002-ACL_-Reconstruction_protocol-12.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AABCvSrz5UPgUMDsizXMhyZTa/002-ACL_-Reconstruction_protocol-13.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AABBHHx2OZeJ94qkAvvXivHia/002-ACL_-Reconstruction_protocol-14.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AABp86rb4JYlES88GNtfqSaxa/002-ACL_-Reconstruction_protocol-15.jpg?raw=1",],
          "tags":[ "ACL Reconstruction protocol"],
          "engDir": "./docs/Other/Protocols/002-ACL_-Reconstruction_protocol.pdf",
@@ -8370,7 +8370,7 @@ const others = {
       {
          "id": "Pro003",
          "title":"Ankle Sprain Rehabilitation Protocol",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Protocols/Thumbnail/003-Ankle_Sprain_Rehabilitation_Protocol-1.jpg",
             "./docs/Other/Protocols/Thumbnail/003-Ankle_Sprain_Rehabilitation_Protocol-2.jpg",
             "./docs/Other/Protocols/Thumbnail/003-Ankle_Sprain_Rehabilitation_Protocol-3.jpg",
@@ -8414,7 +8414,7 @@ const others = {
             "./docs/Other/Protocols/Big/003-Ankle_Sprain_Rehabilitation_Protocol-19.jpg",
             "./docs/Other/Protocols/Big/003-Ankle_Sprain_Rehabilitation_Protocol-20.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABQBCPXIZp7Jg8TlTF3jKAda/003-Ankle_Sprain_Rehabilitation_Protocol-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADuqeVTsgAa6V8QjCXm2qbra/003-Ankle_Sprain_Rehabilitation_Protocol-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACNoF0wA5SSmiktKulOFkRTa/003-Ankle_Sprain_Rehabilitation_Protocol-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAC54_Qygpn9fmknrgNX6Iq3a/003-Ankle_Sprain_Rehabilitation_Protocol-4.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADtQOU5sqakuXiwsBVlEsGZa/003-Ankle_Sprain_Rehabilitation_Protocol-5.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADEMf8zjm3G46Vm51VCamIJa/003-Ankle_Sprain_Rehabilitation_Protocol-6.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACsm19KnA_lQIhZfErJlgq4a/003-Ankle_Sprain_Rehabilitation_Protocol-7.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAATfov0l_KTLkqZMqdWGsuua/003-Ankle_Sprain_Rehabilitation_Protocol-8.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABq8AW2a_sBn_o33p0o59Foa/003-Ankle_Sprain_Rehabilitation_Protocol-9.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACBxktiwF-3knmOE0Fc9Pnaa/003-Ankle_Sprain_Rehabilitation_Protocol-10.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAK_tzZn1PxNpL2zMQhy9nga/003-Ankle_Sprain_Rehabilitation_Protocol-11.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADTaWGLNfIMSvVyrcdfNTL_a/003-Ankle_Sprain_Rehabilitation_Protocol-12.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAA0tENrQTrJen-1He2xCPq5a/003-Ankle_Sprain_Rehabilitation_Protocol-13.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACgFWHu_1xAng3-E0t0TSXZa/003-Ankle_Sprain_Rehabilitation_Protocol-14.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADZcs3nKt8KbPTBskctuc8Ca/003-Ankle_Sprain_Rehabilitation_Protocol-15.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAALTtFCAYplEaC5ew89DZmka/003-Ankle_Sprain_Rehabilitation_Protocol-16.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACH-PW-gd4QeRydoTXBvNeua/003-Ankle_Sprain_Rehabilitation_Protocol-17.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAr7RbtpybPwmn8M-orXj_Ra/003-Ankle_Sprain_Rehabilitation_Protocol-18.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAKddT9WbijeOgGUzFQGK_ia/003-Ankle_Sprain_Rehabilitation_Protocol-19.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAA_hIXQGKO4pzf5XGXPVqpBa/003-Ankle_Sprain_Rehabilitation_Protocol-20.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABQBCPXIZp7Jg8TlTF3jKAda/003-Ankle_Sprain_Rehabilitation_Protocol-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADuqeVTsgAa6V8QjCXm2qbra/003-Ankle_Sprain_Rehabilitation_Protocol-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACNoF0wA5SSmiktKulOFkRTa/003-Ankle_Sprain_Rehabilitation_Protocol-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAC54_Qygpn9fmknrgNX6Iq3a/003-Ankle_Sprain_Rehabilitation_Protocol-4.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADtQOU5sqakuXiwsBVlEsGZa/003-Ankle_Sprain_Rehabilitation_Protocol-5.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADEMf8zjm3G46Vm51VCamIJa/003-Ankle_Sprain_Rehabilitation_Protocol-6.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACsm19KnA_lQIhZfErJlgq4a/003-Ankle_Sprain_Rehabilitation_Protocol-7.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAATfov0l_KTLkqZMqdWGsuua/003-Ankle_Sprain_Rehabilitation_Protocol-8.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABq8AW2a_sBn_o33p0o59Foa/003-Ankle_Sprain_Rehabilitation_Protocol-9.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACBxktiwF-3knmOE0Fc9Pnaa/003-Ankle_Sprain_Rehabilitation_Protocol-10.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAK_tzZn1PxNpL2zMQhy9nga/003-Ankle_Sprain_Rehabilitation_Protocol-11.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADTaWGLNfIMSvVyrcdfNTL_a/003-Ankle_Sprain_Rehabilitation_Protocol-12.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAA0tENrQTrJen-1He2xCPq5a/003-Ankle_Sprain_Rehabilitation_Protocol-13.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACgFWHu_1xAng3-E0t0TSXZa/003-Ankle_Sprain_Rehabilitation_Protocol-14.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADZcs3nKt8KbPTBskctuc8Ca/003-Ankle_Sprain_Rehabilitation_Protocol-15.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAALTtFCAYplEaC5ew89DZmka/003-Ankle_Sprain_Rehabilitation_Protocol-16.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACH-PW-gd4QeRydoTXBvNeua/003-Ankle_Sprain_Rehabilitation_Protocol-17.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAr7RbtpybPwmn8M-orXj_Ra/003-Ankle_Sprain_Rehabilitation_Protocol-18.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAKddT9WbijeOgGUzFQGK_ia/003-Ankle_Sprain_Rehabilitation_Protocol-19.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAA_hIXQGKO4pzf5XGXPVqpBa/003-Ankle_Sprain_Rehabilitation_Protocol-20.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/lf00z49yjw1kufm/AABUNRV5igpo2U-3jXhCmPZoa/003-Ankle_Sprain_Rehabilitation_Protocol-1.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AABrSMU6WNvkJfqmmcfLaW0Wa/003-Ankle_Sprain_Rehabilitation_Protocol-2.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADbGKsunc5oOTjeZmKfnmVoa/003-Ankle_Sprain_Rehabilitation_Protocol-3.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADkkC3sbWwEBtx7410ILJPua/003-Ankle_Sprain_Rehabilitation_Protocol-4.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADJjje0I3dqPLzkxni3F4Qfa/003-Ankle_Sprain_Rehabilitation_Protocol-5.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AABL9D3SUoQ_RjQOulXUag-Ja/003-Ankle_Sprain_Rehabilitation_Protocol-6.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACj6ZGV7vZRCY8N3U7vIptpa/003-Ankle_Sprain_Rehabilitation_Protocol-7.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAC96TBenzNly9KHdVHGYuNqa/003-Ankle_Sprain_Rehabilitation_Protocol-8.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADAN9i9ypbFlzB91tv4ncHba/003-Ankle_Sprain_Rehabilitation_Protocol-9.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAXWb0Rk-2k5e0eElYkiZ6Ka/003-Ankle_Sprain_Rehabilitation_Protocol-10.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACmr0_H9GSceR28q3PcQEREa/003-Ankle_Sprain_Rehabilitation_Protocol-11.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAC5O0uVFML5rCx4_Ptn2nnva/003-Ankle_Sprain_Rehabilitation_Protocol-12.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAIg_46rf6t-Tt9_bKn6pu2a/003-Ankle_Sprain_Rehabilitation_Protocol-13.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAABjm-YF_aoWxHtdfRd6IbUa/003-Ankle_Sprain_Rehabilitation_Protocol-14.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAah_4ly_Iy_IuZ-9U7GJF0a/003-Ankle_Sprain_Rehabilitation_Protocol-15.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADo0uqIZd1gGkhZQVZSLZYva/003-Ankle_Sprain_Rehabilitation_Protocol-16.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADl374aeD7ddO_87eoLqi6sa/003-Ankle_Sprain_Rehabilitation_Protocol-17.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAbhm7_27qF-7F_EvIrfm8Ta/003-Ankle_Sprain_Rehabilitation_Protocol-18.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAA4V3GyPdZMCA87i9bH_lnra/003-Ankle_Sprain_Rehabilitation_Protocol-19.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACZx5wCBSSkk1Od59HsGs2ya/003-Ankle_Sprain_Rehabilitation_Protocol-20.jpg?raw=1",],
          "tags":[ "Ankle Sprain Rehabilitation Protocol"],
          "engDir": "./docs/Other/Protocols/003-Ankle_Sprain_Rehabilitation_Protocol.pdf",
@@ -8422,7 +8422,7 @@ const others = {
       {
          "id": "Pro004",
          "title":"Arthroscopic Shoulder Decompression Rehabilitation Program Protocol - FINAL QR",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Protocols/Thumbnail/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR-1.jpg",
             "./docs/Other/Protocols/Thumbnail/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR-2.jpg",
             "./docs/Other/Protocols/Thumbnail/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR-3.jpg",
@@ -8440,7 +8440,7 @@ const others = {
             "./docs/Other/Protocols/Big/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR-6.jpg",
             "./docs/Other/Protocols/Big/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR-7.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADwAs7BQ-tKk7ZDGFtXmLada/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAB-7ymFtYg_URety3drpPm_a/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAa-yv1Q_Nkg5AwCkFgAyYma/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABQtF4q79uIL9MEm9TWISaAa/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR-4.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACapFEHeoZDTOQwyYT_Ii6Ca/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR-5.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADkeIpQlE8jEkWCs_Tjdjdca/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR-6.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACe-X0a9BxO0fCR9Mj-PfUfa/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR-7.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADwAs7BQ-tKk7ZDGFtXmLada/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAB-7ymFtYg_URety3drpPm_a/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAa-yv1Q_Nkg5AwCkFgAyYma/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABQtF4q79uIL9MEm9TWISaAa/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR-4.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACapFEHeoZDTOQwyYT_Ii6Ca/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR-5.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADkeIpQlE8jEkWCs_Tjdjdca/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR-6.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACe-X0a9BxO0fCR9Mj-PfUfa/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR-7.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/lf00z49yjw1kufm/AACTrXZrk4ULok0fh3TjGHi3a/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR-1.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAB8KARn-U0Zslze9F2MVU9ra/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR-2.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AABEIQv69QEbvNpbwwHWAjgUa/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR-3.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAXlcMD-TJBBa0n7cCtSfOia/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR-4.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAB5G9E3PzQ7Cj8-ySNCG1xLa/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR-5.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADla0FnUgGnVTQvQRu3ox4Ma/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR-6.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAA3XAI6yvSpsxEKPHdnhXjga/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR-7.jpg?raw=1",],
          "tags":[ "Arthroscopic Shoulder Decompression Rehabilitation Program Protocol - FINAL QR"],
          "engDir": "./docs/Other/Protocols/004-Arthroscopic_Shoulder_Decompression_Rehabilitation_Program_Protocol_-_FINAL_QR.pdf",
@@ -8448,7 +8448,7 @@ const others = {
       {
          "id": "Pro005",
          "title":"cold and hot pack protocol",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Protocols/Thumbnail/005-cold_and_hot_pack_protocol-1.jpg",
             "./docs/Other/Protocols/Thumbnail/005-cold_and_hot_pack_protocol-2.jpg",
             "./docs/Other/Protocols/Thumbnail/005-cold_and_hot_pack_protocol-3.jpg",
@@ -8458,7 +8458,7 @@ const others = {
             "./docs/Other/Protocols/Big/005-cold_and_hot_pack_protocol-2.jpg",
             "./docs/Other/Protocols/Big/005-cold_and_hot_pack_protocol-3.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAC-HBaPip8d4ywrhDegClSOa/005-cold_and_hot_pack_protocol-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACdj_8m152U0OCIQvVyGf8ta/005-cold_and_hot_pack_protocol-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAcClRtCpYPu5CI6XiIzfjqa/005-cold_and_hot_pack_protocol-3.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAC-HBaPip8d4ywrhDegClSOa/005-cold_and_hot_pack_protocol-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACdj_8m152U0OCIQvVyGf8ta/005-cold_and_hot_pack_protocol-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAcClRtCpYPu5CI6XiIzfjqa/005-cold_and_hot_pack_protocol-3.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAt1yDzZ7l5VsCD0ycme8mla/005-cold_and_hot_pack_protocol-1.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAASaUoHjN_iNS0zzyOpmreea/005-cold_and_hot_pack_protocol-2.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAD66WULHCB8Foe4Lwo9Mzqua/005-cold_and_hot_pack_protocol-3.jpg?raw=1",],
          "tags":[ "cold and hot pack protocol"],
          "engDir": "./docs/Other/Protocols/005-cold_and_hot_pack_protocol.pdf",
@@ -8466,7 +8466,7 @@ const others = {
       {
          "id": "Pro006",
          "title":"DHS REHABLITATION PROTOCOL",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Protocols/Thumbnail/006-DHS_REHABLITATION_PROTOCOL-1.jpg",
             "./docs/Other/Protocols/Thumbnail/006-DHS_REHABLITATION_PROTOCOL-2.jpg",
             "./docs/Other/Protocols/Thumbnail/006-DHS_REHABLITATION_PROTOCOL-3.jpg",
@@ -8492,7 +8492,7 @@ const others = {
             "./docs/Other/Protocols/Big/006-DHS_REHABLITATION_PROTOCOL-10.jpg",
             "./docs/Other/Protocols/Big/006-DHS_REHABLITATION_PROTOCOL-11.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAeNVQ04TwvuMMQP-vwk50Ra/006-DHS_REHABLITATION_PROTOCOL-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAD6RQeytEKiKEXLNikKJoEya/006-DHS_REHABLITATION_PROTOCOL-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACqywiRZURL-AocafU9MHhUa/006-DHS_REHABLITATION_PROTOCOL-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADl5vUYdhVjRBPTSizlICnea/006-DHS_REHABLITATION_PROTOCOL-4.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAACEdBGdS7SqCMMNHmPFmzXa/006-DHS_REHABLITATION_PROTOCOL-5.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAvp4vwNcK81XvlteViY5vVa/006-DHS_REHABLITATION_PROTOCOL-6.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABOo1LR85Pfy7i_jDPz7iX6a/006-DHS_REHABLITATION_PROTOCOL-7.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAW90kuPvaDFsCNnIR24wHra/006-DHS_REHABLITATION_PROTOCOL-8.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADu7fU2CvwyiowpusW7Ifiya/006-DHS_REHABLITATION_PROTOCOL-9.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADjpQeJT2yYYi4g1XjSIwpfa/006-DHS_REHABLITATION_PROTOCOL-10.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACegzaPfCbaBkqvYCwL5ryha/006-DHS_REHABLITATION_PROTOCOL-11.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAeNVQ04TwvuMMQP-vwk50Ra/006-DHS_REHABLITATION_PROTOCOL-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAD6RQeytEKiKEXLNikKJoEya/006-DHS_REHABLITATION_PROTOCOL-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACqywiRZURL-AocafU9MHhUa/006-DHS_REHABLITATION_PROTOCOL-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADl5vUYdhVjRBPTSizlICnea/006-DHS_REHABLITATION_PROTOCOL-4.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAACEdBGdS7SqCMMNHmPFmzXa/006-DHS_REHABLITATION_PROTOCOL-5.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAvp4vwNcK81XvlteViY5vVa/006-DHS_REHABLITATION_PROTOCOL-6.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABOo1LR85Pfy7i_jDPz7iX6a/006-DHS_REHABLITATION_PROTOCOL-7.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAW90kuPvaDFsCNnIR24wHra/006-DHS_REHABLITATION_PROTOCOL-8.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADu7fU2CvwyiowpusW7Ifiya/006-DHS_REHABLITATION_PROTOCOL-9.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADjpQeJT2yYYi4g1XjSIwpfa/006-DHS_REHABLITATION_PROTOCOL-10.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACegzaPfCbaBkqvYCwL5ryha/006-DHS_REHABLITATION_PROTOCOL-11.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/lf00z49yjw1kufm/AAADrEh7KDxy4k7NmBLZgCY2a/006-DHS_REHABLITATION_PROTOCOL-1.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AABqzgzA0Nwdeqj5RxB3uhzpa/006-DHS_REHABLITATION_PROTOCOL-2.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAcn9vUSepvVOCGDX4l0VDca/006-DHS_REHABLITATION_PROTOCOL-3.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACaIx2XPx56B8TB6XDuRq2La/006-DHS_REHABLITATION_PROTOCOL-4.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACW5YH6zhEciTGloWtQXvADa/006-DHS_REHABLITATION_PROTOCOL-5.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADjfKQQ5SPFDGODhmaKRPVIa/006-DHS_REHABLITATION_PROTOCOL-6.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAC_JUNinMamuVALfYIDMJ6xa/006-DHS_REHABLITATION_PROTOCOL-7.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAA3_RZmIrQYQCQcgAchIYBNa/006-DHS_REHABLITATION_PROTOCOL-8.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAA-WM1QxDk3mY8L11SbcmfIa/006-DHS_REHABLITATION_PROTOCOL-9.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACOxkOeNguSK8x0Wq82nrZya/006-DHS_REHABLITATION_PROTOCOL-10.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACtK2UMhbRgZXeHgjNoIvura/006-DHS_REHABLITATION_PROTOCOL-11.jpg?raw=1",],
          "tags":[ "DHS REHABLITATION PROTOCOL"],
          "engDir": "./docs/Other/Protocols/006-DHS_REHABLITATION_PROTOCOL.pdf",
@@ -8500,7 +8500,7 @@ const others = {
       {
          "id": "Pro007",
          "title":"Microdiscectomy Rehabilitation Protocol and Guidelines",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Protocols/Thumbnail/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines-1.jpg",
             "./docs/Other/Protocols/Thumbnail/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines-2.jpg",
             "./docs/Other/Protocols/Thumbnail/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines-3.jpg",
@@ -8518,7 +8518,7 @@ const others = {
             "./docs/Other/Protocols/Big/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines-6.jpg",
             "./docs/Other/Protocols/Big/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines-7.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABtsoQLVscMS-J8RAG0E7Uaa/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAC-7m82poAUVbM1fWw4Nt1Oa/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAEGkWYq8whBtsfnH-GITd5a/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABNxagD6OAN2Y6KVuFT2tLsa/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines-4.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABNbETuJpJtMk-uDdweaAnpa/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines-5.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAwjzOwB6SS_RPJuHkptFbGa/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines-6.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADd3VKhErMsh1aPV6Cz32CKa/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines-7.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABtsoQLVscMS-J8RAG0E7Uaa/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAC-7m82poAUVbM1fWw4Nt1Oa/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAEGkWYq8whBtsfnH-GITd5a/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABNxagD6OAN2Y6KVuFT2tLsa/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines-4.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABNbETuJpJtMk-uDdweaAnpa/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines-5.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAwjzOwB6SS_RPJuHkptFbGa/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines-6.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADd3VKhErMsh1aPV6Cz32CKa/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines-7.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/lf00z49yjw1kufm/AABuE46oEC8Db55dw3BkLR_Ga/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines-1.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AABmRFeIiLDeDppo3948jAoKa/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines-2.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AABOxMqOvm-SG10eXxP_-FmUa/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines-3.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADrBU60lWgH_9phhMAae0E9a/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines-4.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADZnx70aULZjerssW5rxFpKa/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines-5.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADGSWkpPuOhuY1Uwff5bkBFa/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines-6.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAqVn8l9AbvpllVGdd7kZ4Ya/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines-7.jpg?raw=1",],
          "tags":[ "Microdiscectomy Rehabilitation Protocol and Guidelines"],
          "engDir": "./docs/Other/Protocols/007-Microdiscectomy_Rehabilitation_Protocol_and_Guidelines.pdf",
@@ -8526,7 +8526,7 @@ const others = {
       {
          "id": "Pro008",
          "title":"Muscle Tear Rehab Protocol",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Protocols/Thumbnail/008-Muscle_Tear_Rehab_Protocol-1.jpg",
             "./docs/Other/Protocols/Thumbnail/008-Muscle_Tear_Rehab_Protocol-2.jpg",
             "./docs/Other/Protocols/Thumbnail/008-Muscle_Tear_Rehab_Protocol-3.jpg",
@@ -8542,7 +8542,7 @@ const others = {
             "./docs/Other/Protocols/Big/008-Muscle_Tear_Rehab_Protocol-5.jpg",
             "./docs/Other/Protocols/Big/008-Muscle_Tear_Rehab_Protocol-6.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAj5vYlOH3Z9jKokplx1WWMa/008-Muscle_Tear_Rehab_Protocol-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAByRKYJfZBM1eSEKL0e5Fysa/008-Muscle_Tear_Rehab_Protocol-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABonJwmF3cM2cJBe1gD0wMsa/008-Muscle_Tear_Rehab_Protocol-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACtfdgl5It7B2xvsArVkWeva/008-Muscle_Tear_Rehab_Protocol-4.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAA-Luh66YG7pQWBYNTsvSvda/008-Muscle_Tear_Rehab_Protocol-5.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAA3-TOwSS3hRbKBODF7A-msa/008-Muscle_Tear_Rehab_Protocol-6.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAj5vYlOH3Z9jKokplx1WWMa/008-Muscle_Tear_Rehab_Protocol-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAByRKYJfZBM1eSEKL0e5Fysa/008-Muscle_Tear_Rehab_Protocol-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABonJwmF3cM2cJBe1gD0wMsa/008-Muscle_Tear_Rehab_Protocol-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACtfdgl5It7B2xvsArVkWeva/008-Muscle_Tear_Rehab_Protocol-4.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAA-Luh66YG7pQWBYNTsvSvda/008-Muscle_Tear_Rehab_Protocol-5.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAA3-TOwSS3hRbKBODF7A-msa/008-Muscle_Tear_Rehab_Protocol-6.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/lf00z49yjw1kufm/AACIbgWKvfxfZC1kcQdfH6Xca/008-Muscle_Tear_Rehab_Protocol-1.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACln9BlDWYXsnG2Ynu9_fk6a/008-Muscle_Tear_Rehab_Protocol-2.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAgg9XTTaAmHZUxNIuH5Wtqa/008-Muscle_Tear_Rehab_Protocol-3.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADBPAMlqV54ayH9FjjWsKtOa/008-Muscle_Tear_Rehab_Protocol-4.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACkTbpHvxuYZwUXS_6rcRNka/008-Muscle_Tear_Rehab_Protocol-5.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADPFSiNjLw6rHieyv2GkV-5a/008-Muscle_Tear_Rehab_Protocol-6.jpg?raw=1",],
          "tags":[ "Muscle Tear Rehab Protocol"],
          "engDir": "./docs/Other/Protocols/008-Muscle_Tear_Rehab_Protocol.pdf",
@@ -8550,7 +8550,7 @@ const others = {
       {
          "id": "Pro009",
          "title":"Protocol for Cervical spine decompression surgery table",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Protocols/Thumbnail/009-Protocol_for_Cervical_spine_decompression_surgery_table-1.jpg",
             "./docs/Other/Protocols/Thumbnail/009-Protocol_for_Cervical_spine_decompression_surgery_table-2.jpg",
             "./docs/Other/Protocols/Thumbnail/009-Protocol_for_Cervical_spine_decompression_surgery_table-3.jpg",
@@ -8568,7 +8568,7 @@ const others = {
             "./docs/Other/Protocols/Big/009-Protocol_for_Cervical_spine_decompression_surgery_table-6.jpg",
             "./docs/Other/Protocols/Big/009-Protocol_for_Cervical_spine_decompression_surgery_table-7.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAALvAFSZXZ_qby_2wPfCpb0a/009-Protocol_for_Cervical_spine_decompression_surgery_table-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABQ2mvGQtHRRXRgV_GEzCLLa/009-Protocol_for_Cervical_spine_decompression_surgery_table-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAd1avePDhf7JVmfNYU2phxa/009-Protocol_for_Cervical_spine_decompression_surgery_table-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACXt248gMKSw3-ucAtI_EMIa/009-Protocol_for_Cervical_spine_decompression_surgery_table-4.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACVHufOJfta5YWnvkh4eZ32a/009-Protocol_for_Cervical_spine_decompression_surgery_table-5.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAOUsu_KIqvaokQ7wDOSsgAa/009-Protocol_for_Cervical_spine_decompression_surgery_table-6.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAaojWSm2-yyknx3Pfx7nUUa/009-Protocol_for_Cervical_spine_decompression_surgery_table-7.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAALvAFSZXZ_qby_2wPfCpb0a/009-Protocol_for_Cervical_spine_decompression_surgery_table-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABQ2mvGQtHRRXRgV_GEzCLLa/009-Protocol_for_Cervical_spine_decompression_surgery_table-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAd1avePDhf7JVmfNYU2phxa/009-Protocol_for_Cervical_spine_decompression_surgery_table-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACXt248gMKSw3-ucAtI_EMIa/009-Protocol_for_Cervical_spine_decompression_surgery_table-4.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACVHufOJfta5YWnvkh4eZ32a/009-Protocol_for_Cervical_spine_decompression_surgery_table-5.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAOUsu_KIqvaokQ7wDOSsgAa/009-Protocol_for_Cervical_spine_decompression_surgery_table-6.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAaojWSm2-yyknx3Pfx7nUUa/009-Protocol_for_Cervical_spine_decompression_surgery_table-7.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/lf00z49yjw1kufm/AACbaK58q-L2kHp5JCDcJQAba/009-Protocol_for_Cervical_spine_decompression_surgery_table-1.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADoK77W7CaFf2H97WCVJWxka/009-Protocol_for_Cervical_spine_decompression_surgery_table-2.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACimBwL_fvOdi8jFioLz4-Qa/009-Protocol_for_Cervical_spine_decompression_surgery_table-3.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAJm8UaWRTwMVIgK_CTC9TIa/009-Protocol_for_Cervical_spine_decompression_surgery_table-4.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AABh4b-YJ4j0LvRY35V9-OcUa/009-Protocol_for_Cervical_spine_decompression_surgery_table-5.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAC-JQaCW46uVx1K47CL1psMa/009-Protocol_for_Cervical_spine_decompression_surgery_table-6.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAD8ybmapYm46dtrzwXxHXWxa/009-Protocol_for_Cervical_spine_decompression_surgery_table-7.jpg?raw=1",],
          "tags":[ "Protocol for Cervical spine decompression surgery table"],
          "engDir": "./docs/Other/Protocols/009-Protocol_for_Cervical_spine_decompression_surgery_table.pdf",
@@ -8576,7 +8576,7 @@ const others = {
       {
          "id": "Pro010",
          "title":"Rehabilitation Protocol of lumber fusion",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Protocols/Thumbnail/010-Rehabilitation_Protocol_of_lumber_fusion-1.jpg",
             "./docs/Other/Protocols/Thumbnail/010-Rehabilitation_Protocol_of_lumber_fusion-2.jpg",
             "./docs/Other/Protocols/Thumbnail/010-Rehabilitation_Protocol_of_lumber_fusion-3.jpg",
@@ -8590,7 +8590,7 @@ const others = {
             "./docs/Other/Protocols/Big/010-Rehabilitation_Protocol_of_lumber_fusion-4.jpg",
             "./docs/Other/Protocols/Big/010-Rehabilitation_Protocol_of_lumber_fusion-5.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADulfNaC4iaoUEVhXRV-zCea/010-Rehabilitation_Protocol_of_lumber_fusion-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAABMnY335XTfogpE5jhV3d8a/010-Rehabilitation_Protocol_of_lumber_fusion-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADG_x3U7hs8nLqSlaRgFnpsa/010-Rehabilitation_Protocol_of_lumber_fusion-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADq267OvllGMajdfAvqPb-za/010-Rehabilitation_Protocol_of_lumber_fusion-4.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADbKuCIVpZq4l746275hUOra/010-Rehabilitation_Protocol_of_lumber_fusion-5.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADulfNaC4iaoUEVhXRV-zCea/010-Rehabilitation_Protocol_of_lumber_fusion-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAABMnY335XTfogpE5jhV3d8a/010-Rehabilitation_Protocol_of_lumber_fusion-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADG_x3U7hs8nLqSlaRgFnpsa/010-Rehabilitation_Protocol_of_lumber_fusion-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADq267OvllGMajdfAvqPb-za/010-Rehabilitation_Protocol_of_lumber_fusion-4.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADbKuCIVpZq4l746275hUOra/010-Rehabilitation_Protocol_of_lumber_fusion-5.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/lf00z49yjw1kufm/AACVgTF4rW5YkaT4-2nVu-vLa/010-Rehabilitation_Protocol_of_lumber_fusion-1.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADRfVMyjATR0njLBLDGXsRqa/010-Rehabilitation_Protocol_of_lumber_fusion-2.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADudKI0sSgF46FB7wb1jsjla/010-Rehabilitation_Protocol_of_lumber_fusion-3.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AABhYzPuuyy57TiizlKC4NXCa/010-Rehabilitation_Protocol_of_lumber_fusion-4.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AABoJkVp_1NKE6jmrYhPPyB_a/010-Rehabilitation_Protocol_of_lumber_fusion-5.jpg?raw=1",],
          "tags":[ "Rehabilitation Protocol of lumber fusion"],
          "engDir": "./docs/Other/Protocols/010-Rehabilitation_Protocol_of_lumber_fusion.pdf",
@@ -8598,7 +8598,7 @@ const others = {
       {
          "id": "Pro011",
          "title":"Sh. decompression Rehab. protocol 2",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Protocols/Thumbnail/011-Sh._decompression_Rehab._protocol_2-1.jpg",
             "./docs/Other/Protocols/Thumbnail/011-Sh._decompression_Rehab._protocol_2-2.jpg",
             "./docs/Other/Protocols/Thumbnail/011-Sh._decompression_Rehab._protocol_2-3.jpg",
@@ -8624,7 +8624,7 @@ const others = {
             "./docs/Other/Protocols/Big/011-Sh._decompression_Rehab._protocol_2-10.jpg",
             "./docs/Other/Protocols/Big/011-Sh._decompression_Rehab._protocol_2-11.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABw8iDjRaYvYhZnDS8XX-iTa/011-Sh._decompression_Rehab._protocol_2-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAgdVzRaSL-AdnnTcDHz_rxa/011-Sh._decompression_Rehab._protocol_2-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAD7eB4zB6CllV-6Z3FFX_doa/011-Sh._decompression_Rehab._protocol_2-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAB5kzCNlZgrcnf08pE63cIpa/011-Sh._decompression_Rehab._protocol_2-4.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAB4ijoBsnjUbSUsFP2erMaka/011-Sh._decompression_Rehab._protocol_2-5.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAAoUhRNn26EdUkHmSqhlXRa/011-Sh._decompression_Rehab._protocol_2-6.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAB-S45sxrdZw2LeM1jzpA1wa/011-Sh._decompression_Rehab._protocol_2-7.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACX-9KoJFj9TdNtSXDp8oICa/011-Sh._decompression_Rehab._protocol_2-8.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACEYyvFL16cC7IKn5gZN5F7a/011-Sh._decompression_Rehab._protocol_2-9.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAYGRcuKs0SPQnkHBgX2lPGa/011-Sh._decompression_Rehab._protocol_2-10.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACRsuxRfi6-ap8R7erWzPlta/011-Sh._decompression_Rehab._protocol_2-11.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABw8iDjRaYvYhZnDS8XX-iTa/011-Sh._decompression_Rehab._protocol_2-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAgdVzRaSL-AdnnTcDHz_rxa/011-Sh._decompression_Rehab._protocol_2-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAD7eB4zB6CllV-6Z3FFX_doa/011-Sh._decompression_Rehab._protocol_2-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAB5kzCNlZgrcnf08pE63cIpa/011-Sh._decompression_Rehab._protocol_2-4.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAB4ijoBsnjUbSUsFP2erMaka/011-Sh._decompression_Rehab._protocol_2-5.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAAoUhRNn26EdUkHmSqhlXRa/011-Sh._decompression_Rehab._protocol_2-6.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAB-S45sxrdZw2LeM1jzpA1wa/011-Sh._decompression_Rehab._protocol_2-7.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACX-9KoJFj9TdNtSXDp8oICa/011-Sh._decompression_Rehab._protocol_2-8.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACEYyvFL16cC7IKn5gZN5F7a/011-Sh._decompression_Rehab._protocol_2-9.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAYGRcuKs0SPQnkHBgX2lPGa/011-Sh._decompression_Rehab._protocol_2-10.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACRsuxRfi6-ap8R7erWzPlta/011-Sh._decompression_Rehab._protocol_2-11.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/lf00z49yjw1kufm/AABvoaOKut0bYsMKCqBBiUYoa/011-Sh._decompression_Rehab._protocol_2-1.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AABRe2_8TjCnH6ZSBdbXPPl9a/011-Sh._decompression_Rehab._protocol_2-2.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AABYeLmk5bIq0cYvBeTOg1q7a/011-Sh._decompression_Rehab._protocol_2-3.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAjwQiZAOwA3xnNBIrUZo7Ba/011-Sh._decompression_Rehab._protocol_2-4.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAD5_i35hBoceb_TgOwaKeF1a/011-Sh._decompression_Rehab._protocol_2-5.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AABXAfIZfuqLUkqBVX2X_lvda/011-Sh._decompression_Rehab._protocol_2-6.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADgENQ5_cqHbZbEc9-ZtVzUa/011-Sh._decompression_Rehab._protocol_2-7.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACbUFxYiroTGnTUgwbfIqbta/011-Sh._decompression_Rehab._protocol_2-8.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAB2-DxjqAIQtSvc-WOXObXJa/011-Sh._decompression_Rehab._protocol_2-9.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AABaoNvgsfK9ARdn_536pegXa/011-Sh._decompression_Rehab._protocol_2-10.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADMBhX5vxKPpKS2_0FZyrqia/011-Sh._decompression_Rehab._protocol_2-11.jpg?raw=1",],
          "tags":[ "Sh. decompression Rehab. protocol 2"],
          "engDir": "./docs/Other/Protocols/011-Sh._decompression_Rehab._protocol_2.pdf",
@@ -8632,7 +8632,7 @@ const others = {
       {
          "id": "Pro012",
          "title":"shoulder impingment protocol",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Protocols/Thumbnail/012-shoulder_impingment_protocol-1.jpg",
             "./docs/Other/Protocols/Thumbnail/012-shoulder_impingment_protocol-2.jpg",
             "./docs/Other/Protocols/Thumbnail/012-shoulder_impingment_protocol-3.jpg",
@@ -8660,7 +8660,7 @@ const others = {
             "./docs/Other/Protocols/Big/012-shoulder_impingment_protocol-11.jpg",
             "./docs/Other/Protocols/Big/012-shoulder_impingment_protocol-12.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADqgdhTW7-bIpuUAmaNd_1Za/012-shoulder_impingment_protocol-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAASy89cRH_p1kGg1C4Sstoja/012-shoulder_impingment_protocol-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAD6lik59ab6QL92rfVza30Ba/012-shoulder_impingment_protocol-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACTqRddnvF0mnErDHKINE5Wa/012-shoulder_impingment_protocol-4.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACWSQF5OE92ExyBby-1h2OCa/012-shoulder_impingment_protocol-5.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAzWdsaTlZ_2Q7xRlfoMEUZa/012-shoulder_impingment_protocol-6.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAvrcNuXQaIMOXidhsaVe6Ra/012-shoulder_impingment_protocol-7.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADBNoYH4zMvIsZ_9tng_43Da/012-shoulder_impingment_protocol-8.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAC2oAj7a4ByqC31ZXA3ZjZAa/012-shoulder_impingment_protocol-9.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAdIVIFuoYn4H7tsD_45OmCa/012-shoulder_impingment_protocol-10.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADxO8n5CKHJ40wNET4iofSpa/012-shoulder_impingment_protocol-11.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACxPAruuR-9_8GZodF7dhrEa/012-shoulder_impingment_protocol-12.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADqgdhTW7-bIpuUAmaNd_1Za/012-shoulder_impingment_protocol-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAASy89cRH_p1kGg1C4Sstoja/012-shoulder_impingment_protocol-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAD6lik59ab6QL92rfVza30Ba/012-shoulder_impingment_protocol-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACTqRddnvF0mnErDHKINE5Wa/012-shoulder_impingment_protocol-4.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACWSQF5OE92ExyBby-1h2OCa/012-shoulder_impingment_protocol-5.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAzWdsaTlZ_2Q7xRlfoMEUZa/012-shoulder_impingment_protocol-6.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAvrcNuXQaIMOXidhsaVe6Ra/012-shoulder_impingment_protocol-7.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADBNoYH4zMvIsZ_9tng_43Da/012-shoulder_impingment_protocol-8.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAC2oAj7a4ByqC31ZXA3ZjZAa/012-shoulder_impingment_protocol-9.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAdIVIFuoYn4H7tsD_45OmCa/012-shoulder_impingment_protocol-10.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADxO8n5CKHJ40wNET4iofSpa/012-shoulder_impingment_protocol-11.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACxPAruuR-9_8GZodF7dhrEa/012-shoulder_impingment_protocol-12.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/lf00z49yjw1kufm/AAA0irpp6SHh5NSonatrThxEa/012-shoulder_impingment_protocol-1.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAzNwnoikSpqSSftcwNVXTaa/012-shoulder_impingment_protocol-2.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADBWQzXDNq_TeYlfkB2_196a/012-shoulder_impingment_protocol-3.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACk1WVT0HcdsIBR94Iczf9Qa/012-shoulder_impingment_protocol-4.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACls1EdWYCq9jVfHXUeSsKZa/012-shoulder_impingment_protocol-5.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACMNFf1MRK8r6q4Wx9ez4vsa/012-shoulder_impingment_protocol-6.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACnP2n7kBwvDkv6sflUrrIua/012-shoulder_impingment_protocol-7.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACosXe2FHm0M2h_SvckVXo-a/012-shoulder_impingment_protocol-8.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAGYRrPvPwmSNu0PyEcPIdFa/012-shoulder_impingment_protocol-9.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAABs849KdLQLjlOijC3qBvaa/012-shoulder_impingment_protocol-10.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADKrkFwjiGZtUw82RhWO0e0a/012-shoulder_impingment_protocol-11.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAALs4Pg9iN12n9Vo32LOKqSa/012-shoulder_impingment_protocol-12.jpg?raw=1",],
          "tags":[ "shoulder impingment protocol"],
          "engDir": "./docs/Other/Protocols/012-shoulder_impingment_protocol.pdf",
@@ -8668,7 +8668,7 @@ const others = {
       {
          "id": "Pro013",
          "title":"Tennis elbow protocol",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Protocols/Thumbnail/013-Tennis_elbow_protocol-1.jpg",
             "./docs/Other/Protocols/Thumbnail/013-Tennis_elbow_protocol-2.jpg",
             "./docs/Other/Protocols/Thumbnail/013-Tennis_elbow_protocol-3.jpg",
@@ -8690,7 +8690,7 @@ const others = {
             "./docs/Other/Protocols/Big/013-Tennis_elbow_protocol-8.jpg",
             "./docs/Other/Protocols/Big/013-Tennis_elbow_protocol-9.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAC_yeJZumPhkpt7E5YUMa2Va/013-Tennis_elbow_protocol-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACigwlfqc3fvJNpvjQ7P6g2a/013-Tennis_elbow_protocol-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABr6Rn3Tfyt4lLaf9gsB6Nda/013-Tennis_elbow_protocol-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABOy2uIcrOw8Raq2-Ws65pua/013-Tennis_elbow_protocol-4.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAA7RCj2V4LMYHsY_VPhdO0ba/013-Tennis_elbow_protocol-5.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAUoejg3zEicJih0oioSh5La/013-Tennis_elbow_protocol-6.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACV27mTK1Q4vYBKrdVOGgZEa/013-Tennis_elbow_protocol-7.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADDy2eTV77vAZpYrohnpdUEa/013-Tennis_elbow_protocol-8.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAmgugWph6VfrzBSxEortl8a/013-Tennis_elbow_protocol-9.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAC_yeJZumPhkpt7E5YUMa2Va/013-Tennis_elbow_protocol-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACigwlfqc3fvJNpvjQ7P6g2a/013-Tennis_elbow_protocol-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABr6Rn3Tfyt4lLaf9gsB6Nda/013-Tennis_elbow_protocol-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABOy2uIcrOw8Raq2-Ws65pua/013-Tennis_elbow_protocol-4.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAA7RCj2V4LMYHsY_VPhdO0ba/013-Tennis_elbow_protocol-5.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAUoejg3zEicJih0oioSh5La/013-Tennis_elbow_protocol-6.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACV27mTK1Q4vYBKrdVOGgZEa/013-Tennis_elbow_protocol-7.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADDy2eTV77vAZpYrohnpdUEa/013-Tennis_elbow_protocol-8.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAmgugWph6VfrzBSxEortl8a/013-Tennis_elbow_protocol-9.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/lf00z49yjw1kufm/AABVLxxqP7DtZU_iJiidKqFQa/013-Tennis_elbow_protocol-1.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACaTXNcVWgudBru_zfao-R4a/013-Tennis_elbow_protocol-2.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADISyGSR0taiH93tJmgvGupa/013-Tennis_elbow_protocol-3.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAU1y54OhJe7Ch8Xe1EzSLia/013-Tennis_elbow_protocol-4.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADonTeWaUqv3sTopt5HZ4wQa/013-Tennis_elbow_protocol-5.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACK25ZlVTIerTxAxPlWR9Oza/013-Tennis_elbow_protocol-6.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAvGd1m8xzlJKiuAFAMOhoWa/013-Tennis_elbow_protocol-7.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAD4lDKA5yNSTvh_FaDAPCiua/013-Tennis_elbow_protocol-8.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAA5a80q-1WhxYAJJl63t6xTa/013-Tennis_elbow_protocol-9.jpg?raw=1",],
          "tags":[ "Tennis elbow protocol"],
          "engDir": "./docs/Other/Protocols/013-Tennis_elbow_protocol.pdf",
@@ -8698,7 +8698,7 @@ const others = {
       {
          "id": "Pro014",
          "title":"TKR Protocol",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Protocols/Thumbnail/014-TKR_Protocol-1.jpg",
             "./docs/Other/Protocols/Thumbnail/014-TKR_Protocol-2.jpg",
             "./docs/Other/Protocols/Thumbnail/014-TKR_Protocol-3.jpg",
@@ -8710,7 +8710,7 @@ const others = {
             "./docs/Other/Protocols/Big/014-TKR_Protocol-3.jpg",
             "./docs/Other/Protocols/Big/014-TKR_Protocol-4.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAdXxSPfZQE5EdBR5r4zOjua/014-TKR_Protocol-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAB-TazQ6nKVW9TgM7GT0n14a/014-TKR_Protocol-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAlspfXrlKLz5oTC7pD2EgLa/014-TKR_Protocol-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAA-O9OKMinNoCaXg9B1lYn6a/014-TKR_Protocol-4.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAdXxSPfZQE5EdBR5r4zOjua/014-TKR_Protocol-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAB-TazQ6nKVW9TgM7GT0n14a/014-TKR_Protocol-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAlspfXrlKLz5oTC7pD2EgLa/014-TKR_Protocol-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAA-O9OKMinNoCaXg9B1lYn6a/014-TKR_Protocol-4.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/lf00z49yjw1kufm/AAA8jvSLjOhx4_7vivNf2uuya/014-TKR_Protocol-1.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAet811UkpAIYLFk4B25DgNa/014-TKR_Protocol-2.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADU41da9fozAe88ruW0x8NTa/014-TKR_Protocol-3.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACICmTaywCujNnKbAxbzETya/014-TKR_Protocol-4.jpg?raw=1",],
          "tags":[ "TKR Protocol"],
          "engDir": "./docs/Other/Protocols/014-TKR_Protocol.pdf",
@@ -8718,7 +8718,7 @@ const others = {
       {
          "id": "Pro015",
          "title":"Total Hip Replacement Rehabilitation Protocol",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Protocols/Thumbnail/015-Total_Hip_Replacement_Rehabilitation_Protocol-1.jpg",
             "./docs/Other/Protocols/Thumbnail/015-Total_Hip_Replacement_Rehabilitation_Protocol-2.jpg",
             "./docs/Other/Protocols/Thumbnail/015-Total_Hip_Replacement_Rehabilitation_Protocol-3.jpg",
@@ -8754,7 +8754,7 @@ const others = {
             "./docs/Other/Protocols/Big/015-Total_Hip_Replacement_Rehabilitation_Protocol-15.jpg",
             "./docs/Other/Protocols/Big/015-Total_Hip_Replacement_Rehabilitation_Protocol-16.jpg",
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABE8KM1VKyFoytrMj_Ge3O0a/015-Total_Hip_Replacement_Rehabilitation_Protocol-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACNMI_Ijq-4l_BiBBwx0Ps7a/015-Total_Hip_Replacement_Rehabilitation_Protocol-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAexduWxyJtYQ-uSt-T4qQEa/015-Total_Hip_Replacement_Rehabilitation_Protocol-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADUgEHYGBYdwvlV07Kv-pTla/015-Total_Hip_Replacement_Rehabilitation_Protocol-4.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAMWtGZCNvZwKeApWT2n20Va/015-Total_Hip_Replacement_Rehabilitation_Protocol-5.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABcig1-kPKoTLy4ey2Fp7E_a/015-Total_Hip_Replacement_Rehabilitation_Protocol-6.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADV0dvmREogZNOr6YiNpIwsa/015-Total_Hip_Replacement_Rehabilitation_Protocol-7.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAD0y-PuKfymrIBKPsFqZaHpa/015-Total_Hip_Replacement_Rehabilitation_Protocol-8.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAk6pDVSdgGGCJGfYySF_Bxa/015-Total_Hip_Replacement_Rehabilitation_Protocol-9.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAiCwRpABVr3zSU2P6a3sdca/015-Total_Hip_Replacement_Rehabilitation_Protocol-10.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAA9oEI5JHMgBjHtuXdGuEd_a/015-Total_Hip_Replacement_Rehabilitation_Protocol-11.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADGFU9TvucUbNEbrqiscprZa/015-Total_Hip_Replacement_Rehabilitation_Protocol-12.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACRkeX8b6JoAfYvcg55M8DUa/015-Total_Hip_Replacement_Rehabilitation_Protocol-13.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADwQBEMjvYsGrb0zdEmgp-4a/015-Total_Hip_Replacement_Rehabilitation_Protocol-14.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADvX31O-PV3u9bM3VCsp1m7a/015-Total_Hip_Replacement_Rehabilitation_Protocol-15.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACVmP5B6EW-xyBDSzfNI3U5a/015-Total_Hip_Replacement_Rehabilitation_Protocol-16.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABE8KM1VKyFoytrMj_Ge3O0a/015-Total_Hip_Replacement_Rehabilitation_Protocol-1.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACNMI_Ijq-4l_BiBBwx0Ps7a/015-Total_Hip_Replacement_Rehabilitation_Protocol-2.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAexduWxyJtYQ-uSt-T4qQEa/015-Total_Hip_Replacement_Rehabilitation_Protocol-3.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADUgEHYGBYdwvlV07Kv-pTla/015-Total_Hip_Replacement_Rehabilitation_Protocol-4.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAMWtGZCNvZwKeApWT2n20Va/015-Total_Hip_Replacement_Rehabilitation_Protocol-5.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AABcig1-kPKoTLy4ey2Fp7E_a/015-Total_Hip_Replacement_Rehabilitation_Protocol-6.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADV0dvmREogZNOr6YiNpIwsa/015-Total_Hip_Replacement_Rehabilitation_Protocol-7.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAD0y-PuKfymrIBKPsFqZaHpa/015-Total_Hip_Replacement_Rehabilitation_Protocol-8.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAk6pDVSdgGGCJGfYySF_Bxa/015-Total_Hip_Replacement_Rehabilitation_Protocol-9.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAAiCwRpABVr3zSU2P6a3sdca/015-Total_Hip_Replacement_Rehabilitation_Protocol-10.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AAA9oEI5JHMgBjHtuXdGuEd_a/015-Total_Hip_Replacement_Rehabilitation_Protocol-11.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADGFU9TvucUbNEbrqiscprZa/015-Total_Hip_Replacement_Rehabilitation_Protocol-12.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACRkeX8b6JoAfYvcg55M8DUa/015-Total_Hip_Replacement_Rehabilitation_Protocol-13.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADwQBEMjvYsGrb0zdEmgp-4a/015-Total_Hip_Replacement_Rehabilitation_Protocol-14.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AADvX31O-PV3u9bM3VCsp1m7a/015-Total_Hip_Replacement_Rehabilitation_Protocol-15.jpg?raw=1","https://www.dropbox.com/sh/7vq0bmsdj8gq2b8/AACVmP5B6EW-xyBDSzfNI3U5a/015-Total_Hip_Replacement_Rehabilitation_Protocol-16.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAczg696RhEYbr5tvekHTmxa/015-Total_Hip_Replacement_Rehabilitation_Protocol-1.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACKwKYK2UlVJ3ub4NdBXwW0a/015-Total_Hip_Replacement_Rehabilitation_Protocol-2.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADBd45uooLAoXfbIQh6qO1Va/015-Total_Hip_Replacement_Rehabilitation_Protocol-3.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADH8Ylq5Fof-chDzl134XvQa/015-Total_Hip_Replacement_Rehabilitation_Protocol-4.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADDOWlEyJWAMqYksy7Ctx-Va/015-Total_Hip_Replacement_Rehabilitation_Protocol-5.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAA4ctLC2X2JYWQ_avVsEOZTa/015-Total_Hip_Replacement_Rehabilitation_Protocol-6.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADeiIg7KlB0lWvJdvh5Qpw4a/015-Total_Hip_Replacement_Rehabilitation_Protocol-7.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAC4XMC1RMjgWtsIYO7zf5JRa/015-Total_Hip_Replacement_Rehabilitation_Protocol-8.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACYTZTS8PjsQNDZYRyMgOnba/015-Total_Hip_Replacement_Rehabilitation_Protocol-9.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AADbZK7y5I1kg8Q_KU8_zCcna/015-Total_Hip_Replacement_Rehabilitation_Protocol-10.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AABCGa2z70XpU8VXX-FRC23Ga/015-Total_Hip_Replacement_Rehabilitation_Protocol-11.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAAiInXaO_bcM6_4TxlbWRD8a/015-Total_Hip_Replacement_Rehabilitation_Protocol-12.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AABYI3N0mjbPxlv4sg9WJHIYa/015-Total_Hip_Replacement_Rehabilitation_Protocol-13.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AACharR_imfBfadwbuuFe8k3a/015-Total_Hip_Replacement_Rehabilitation_Protocol-14.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AAB-YqX4sCbH0EsvdHaEIXRTa/015-Total_Hip_Replacement_Rehabilitation_Protocol-15.jpg?raw=1","https://www.dropbox.com/sh/lf00z49yjw1kufm/AABPkIDqvmxQoGYJ3C-8uZOca/015-Total_Hip_Replacement_Rehabilitation_Protocol-16.jpg?raw=1",],
          "tags":[ "Total Hip Replacement Rehabilitation Protocol"],
          "engDir": "./docs/Other/Protocols/015-Total_Hip_Replacement_Rehabilitation_Protocol.pdf",
@@ -8765,14 +8765,14 @@ const others = {
       {
          "id": "Tel001",
          "title":"Telephysio session",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Telephysio Service/Thumbnail/001-Telephysio_session_-_Ara.jpg",
          ],
          "bigImgs":[
             "./docs/Other/Telephysio Service/Big/001-Telephysio_session_-_Ara.jpg"
          ],
          "araQRCode":"./docs/Other/Telephysio Service/QRcode/001-Telephysio_session_-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/odqa4chx2qqxhps/AAD6otoc_LFTGsVupWn-V081a/001-Telephysio_session_-_Ara.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/odqa4chx2qqxhps/AAD6otoc_LFTGsVupWn-V081a/001-Telephysio_session_-_Ara.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/nyw8nve3ewl9txb/AAASVuu5dgeOKuyaeuUM_A9Ba/001-Telephysio_session_-_Ara.jpg?raw=1",],
          "tags":[ "Telephysio"],
          "araDir": "./docs/Other/Telephysio Service/001-Telephysio_session_-_Ara.pdf",
@@ -8781,14 +8781,14 @@ const others = {
       {
          "id": "Tel002",
          "title":"Telephysio Service",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Telephysio Service/Thumbnail/002-Telephysio_Service_-_Ara.jpg",
          ],
          "bigImgs":[
             "./docs/Other/Telephysio Service/Big/002-Telephysio_Service_-_Ara.jpg"
          ],
          "araQRCode":"./docs/Other/Telephysio Service/QRcode/002-Telephysio_Service_-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/odqa4chx2qqxhps/AABj4HEmcLorJW4h_7PticCIa/002-Telephysio_Service_-_Ara.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/odqa4chx2qqxhps/AABj4HEmcLorJW4h_7PticCIa/002-Telephysio_Service_-_Ara.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/nyw8nve3ewl9txb/AAB0XeRayUvG3sP9Af3TgwFPa/002-Telephysio_Service_-_Ara.jpg?raw=1",],
          "tags":[ "Telephysio"],
          "araDir": "./docs/Other/Telephysio Service/002-Telephysio_Service_-_Ara.pdf",
@@ -8800,14 +8800,14 @@ const others = {
       {
          "id": "Tol001",
          "title":"SIJ BELT",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Tools/Thumbnail/001-SIJ_BELT_-_Ara.jpg",
          ],
          "bigImgs":[
             "./docs/Other/Tools/Big/001-SIJ_BELT_-_Ara.jpg",
          ],
          "araQRCode":"./docs/Other/Tools/QRcode/001-SIJ_BELT_-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/9hm276r04t91bks/AABITEyyjlrtEKiq9aSm9hQqa/001-SIJ_BELT_-_Ara.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/9hm276r04t91bks/AABITEyyjlrtEKiq9aSm9hQqa/001-SIJ_BELT_-_Ara.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/lurh47gexqbu669/AABLr43H9qbS5U1BGv2lxiVRa/001-SIJ_BELT_-_Ara.jpg?raw=1",],
          "tags":[ "SIJ BELT"],
          "araDir":"./docs/Other/Tools/001-SIJ_BELT_-_Ara.pdf",
@@ -8816,14 +8816,14 @@ const others = {
       {
          "id": "Tol002",
          "title":"Coccyx Seat Cushion",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Tools/Thumbnail/002-Coccyx_Seat_Cushion_-_Ara.jpg",
          ],
          "bigImgs":[
             "./docs/Other/Tools/Big/002-Coccyx_Seat_Cushion_-_Ara.jpg",
          ],
          "araQRCode":"./docs/Other/Tools/QRcode/002-Coccyx_Seat_Cushion_-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/9hm276r04t91bks/AADGWVI37Nm-m7ycxHoHAlcPa/002-Coccyx_Seat_Cushion_-_Ara.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/9hm276r04t91bks/AADGWVI37Nm-m7ycxHoHAlcPa/002-Coccyx_Seat_Cushion_-_Ara.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/lurh47gexqbu669/AACtH-UnaHGhJrTKF-wjx-ska/002-Coccyx_Seat_Cushion_-_Ara.jpg?raw=1",],
          "tags":[ "Coccyx Seat Cushion"],
          "araDir":"./docs/Other/Tools/002-Coccyx_Seat_Cushion_-_Ara.pdf",
@@ -8832,14 +8832,14 @@ const others = {
       {
          "id": "Tol003",
          "title":"Adjustable Posture Clavicle Corrector",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Tools/Thumbnail/003-Adjustable_Posture_Clavicle_Corrector-_Ara_.jpg",
          ],
          "bigImgs":[
             "./docs/Other/Tools/Big/003-Adjustable_Posture_Clavicle_Corrector-_Ara_.jpg",
          ],
          "araQRCode":"./docs/Other/Tools/QRcode/003-Adjustable_Posture_Clavicle_Corrector-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/9hm276r04t91bks/AADCe9FMRBXFXQY5ydXYh8mDa/003-Adjustable_Posture_Clavicle_Corrector-_Ara_.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/9hm276r04t91bks/AADCe9FMRBXFXQY5ydXYh8mDa/003-Adjustable_Posture_Clavicle_Corrector-_Ara_.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/lurh47gexqbu669/AAAQd0V2wShGYEquYDLK2HJTa/003-Adjustable_Posture_Clavicle_Corrector-_Ara_.jpg?raw=1",],
          "tags":[ "Adjustable Posture Clavicle Corrector"],
          "araDir":"./docs/Other/Tools/003-Adjustable_Posture_Clavicle_Corrector-_Ara_.pdf",
@@ -8848,14 +8848,14 @@ const others = {
       {
          "id": "Tol004",
          "title":"Theraband Resistance Level Guide",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Tools/Thumbnail/004-Theraband_Resistance_Level_Guide_-_Ara.jpg",
          ],
          "bigImgs":[
             "./docs/Other/Tools/Big/004-Theraband_Resistance_Level_Guide_-_Ara.jpg",
          ],
          "araQRCode":"./docs/Other/Tools/QRcode/004-Theraband_Resistance_Level_Guide_-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/9hm276r04t91bks/AAARLYkjqtxce1AIgyf_dCdfa/004-Theraband_Resistance_Level_Guide_-_Ara.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/9hm276r04t91bks/AAARLYkjqtxce1AIgyf_dCdfa/004-Theraband_Resistance_Level_Guide_-_Ara.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/lurh47gexqbu669/AAAvdc8HlPgE2WBC7XDexjoHa/004-Theraband_Resistance_Level_Guide_-_Ara.jpg?raw=1",],
          "tags":[ "Theraband Resistance Level Guide"],
          "araDir":"./docs/Other/Tools/004-Theraband_Resistance_Level_Guide_-_Ara.pdf",
@@ -8864,14 +8864,14 @@ const others = {
       {
          "id": "Tol005",
          "title":"Thumb Stabilizer",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Tools/Thumbnail/005-Thumb_Stabilizer_-_Ara.jpg",
          ],
          "bigImgs":[
             "./docs/Other/Tools/Big/005-Thumb_Stabilizer_-_Ara.jpg",
          ],
          "araQRCode":"./docs/Other/Tools/QRcode/005-Thumb_Stabilizer_-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/9hm276r04t91bks/AADVUetWVvdlwP0zzy67nCWwa/005-Thumb_Stabilizer_-_Ara.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/9hm276r04t91bks/AADVUetWVvdlwP0zzy67nCWwa/005-Thumb_Stabilizer_-_Ara.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/lurh47gexqbu669/AACqqU7l82a_zhwT3f_Mk3_2a/005-Thumb_Stabilizer_-_Ara.jpg?raw=1",],
          "tags":[ "Thumb Stabilizer", "De quervain syndrome"],
          "araDir":"./docs/Other/Tools/005-Thumb_Stabilizer_-_Ara.pdf",
@@ -8880,14 +8880,14 @@ const others = {
       {
          "id": "Tol006",
          "title":"Carpal Tunnel Syndrome(CTS) brace",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Tools/Thumbnail/006-Carpal_Tunnel_Syndrome(CTS)_brace_-_Ara.jpg",
          ],
          "bigImgs":[
             "./docs/Other/Tools/Big/006-Carpal_Tunnel_Syndrome(CTS)_brace_-_Ara.jpg",
          ],
          "araQRCode":"./docs/Other/Tools/QRcode/006-Carpal_Tunnel_Syndrome(CTS)_brace_-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/9hm276r04t91bks/AAB5NNmWHRwODwvY2veODkKya/006-Carpal_Tunnel_Syndrome%28CTS%29_brace_-_Ara.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/9hm276r04t91bks/AAB5NNmWHRwODwvY2veODkKya/006-Carpal_Tunnel_Syndrome%28CTS%29_brace_-_Ara.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/lurh47gexqbu669/AADCf_I-a-IOEv3t026kTkARa/006-Carpal_Tunnel_Syndrome%28CTS%29_brace_-_Ara.jpg?raw=1",],
          "tags":[ "Carpal Tunnel Syndrome brace", "CTS"],
          "araDir":"./docs/Other/Tools/006-Carpal_Tunnel_Syndrome(CTS)_brace_-_Ara.pdf",
@@ -8896,14 +8896,14 @@ const others = {
       {
          "id": "Tol007",
          "title":"Tennis Elbow Brace",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Tools/Thumbnail/007-Tennis_Elbow_Brace_-_Ara.jpg",
          ],
          "bigImgs":[
             "./docs/Other/Tools/Big/007-Tennis_Elbow_Brace_-_Ara.jpg",
          ],
          "araQRCode":"./docs/Other/Tools/QRcode/007-Tennis_Elbow_Brace_-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/9hm276r04t91bks/AABKAjolm4YR0Sz75Y56AOPsa/007-Tennis_Elbow_Brace_-_Ara.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/9hm276r04t91bks/AABKAjolm4YR0Sz75Y56AOPsa/007-Tennis_Elbow_Brace_-_Ara.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/lurh47gexqbu669/AAB0HETr1WHbHXfQmLDufXMWa/007-Tennis_Elbow_Brace_-_Ara.jpg?raw=1",],
          "tags":[ "Tennis Elbow Brace"],
          "araDir":"./docs/Other/Tools/007-Tennis_Elbow_Brace_-_Ara.pdf",
@@ -8912,14 +8912,14 @@ const others = {
       {
          "id": "Tol008",
          "title":"Walking Exercise",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Tools/Thumbnail/008-Walking_Exercise_-_Ara.jpg",
          ],
          "bigImgs":[
             "./docs/Other/Tools/Thumbnail/008-Walking_Exercise_-_Ara.jpg",
          ],
          "araQRCode":"./docs/Other/Tools/QRcode/008-Walking_Exercise_-_Ara.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/9hm276r04t91bks/AAD3qOHTGrdcueXZI77XYNNHa/008-Walking_Exercise_-_Ara.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/9hm276r04t91bks/AAD3qOHTGrdcueXZI77XYNNHa/008-Walking_Exercise_-_Ara.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/lurh47gexqbu669/AAD6n0ozqO6aLI1RZuv0frdra/008-Walking_Exercise_-_Ara.jpg?raw=1",],
          "tags":[ "Walking Exercise"],
          "araDir":"./docs/Other/Tools/008-Walking_Exercise_-_Ara.pdf",
@@ -8928,7 +8928,7 @@ const others = {
       {
          "id": "Tol009",
          "title":"cold - hot pack application guide",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Tools/Thumbnail/009-cold-_hot_pack_application_guide_-_Ara.jpg",
             "./docs/Other/Tools/Thumbnail/009-cold-_hot_pack_application_guide_-_Eng.jpg",
          ],
@@ -8938,7 +8938,7 @@ const others = {
          ],
          "araQRCode":"./docs/Other/Tools/QRcode/009-cold-_hot_pack_application_guide_-_Ara.jpg",
          "engQRCode":"./docs/Other/Tools/QRcode/009-cold-_hot_pack_application_guide_-_Eng.jpg",
-         "tumbBackup":["https://www.dropbox.com/sh/9hm276r04t91bks/AACLAkWp98ZM7kZXjEq22vEWa/009-cold-_hot_pack_application_guide_-_Ara.jpg?raw=1","https://www.dropbox.com/sh/9hm276r04t91bks/AADC3EviEBO6mbqFx9RbXxoya/009-cold-_hot_pack_application_guide_-_Eng.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/9hm276r04t91bks/AACLAkWp98ZM7kZXjEq22vEWa/009-cold-_hot_pack_application_guide_-_Ara.jpg?raw=1","https://www.dropbox.com/sh/9hm276r04t91bks/AADC3EviEBO6mbqFx9RbXxoya/009-cold-_hot_pack_application_guide_-_Eng.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/lurh47gexqbu669/AAAlvmU4f6vE7r5vkTFvaKeMa/009-cold-_hot_pack_application_guide_-_Ara.jpg?raw=1","https://www.dropbox.com/sh/lurh47gexqbu669/AADkQ2HFENsFxYbh55piYHxZa/009-cold-_hot_pack_application_guide_-_Eng.jpg?raw=1",],
          "tags":[ "cold pack", "hot pack"],
          "araDir":"./docs/Other/Tools/009-cold-_hot_pack_application_guide_-_Ara.pdf",
@@ -8949,13 +8949,13 @@ const others = {
       {
          "id": "Tol010",
          "title":"Tele Physio Equipment List",
-         "tumbUrl":[
+         "thumbUrl":[
             "./docs/Other/Tools/Thumbnail/010-Tele_Physio_Equipment_List_-_Ara.jpg",
          ],
          "bigImgs":[
             "./docs/Other/Tools/Big/010-Tele_Physio_Equipment_List_-_Ara.jpg"
          ],
-         "tumbBackup":["https://www.dropbox.com/sh/9hm276r04t91bks/AAA_O0E6y-0aPKUa_YEOWQt-a/010-Tele_Physio_Equipment_List_-_Ara.jpg?raw=1",],
+         "thumbBackup":["https://www.dropbox.com/sh/9hm276r04t91bks/AAA_O0E6y-0aPKUa_YEOWQt-a/010-Tele_Physio_Equipment_List_-_Ara.jpg?raw=1",],
          "bigBackup":["https://www.dropbox.com/sh/lurh47gexqbu669/AACNfl1Fw8GZiBoLzAKQJMDta/010-Tele_Physio_Equipment_List_-_Ara.jpg?raw=1",],
          "tags":[ "Tele Physio Equipment List"],
          "araDir":"./docs/Other/Tools/010-Tele_Physio_Equipment_List_-_Ara.png",

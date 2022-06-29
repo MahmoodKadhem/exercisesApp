@@ -172,20 +172,20 @@ function creatCard(data){
 
 
   // create the imgs elements for each image in the array
-  data.tumbUrl.forEach(function(img,i){
+  data.thumbUrl.forEach(function(img,i){
     const slideEle = document.createElement('div');
     slideEle.classList.add('card__slide');
     const imgEle = document.createElement('img');
     imgEle.src = img;
     imgEle.alt = data.title + i;
     imgEle.onclick = imgClickCheckBox;
-    imgEle.onerror = function(){this.onerror=null; this.src=data["tumbBackup"]};
+    imgEle.onerror = function(){this.onerror=null; this.src=data["thumbBackup"]};
     slideEle.appendChild(imgEle);
     sliderEle.appendChild(slideEle);
   });
 
   // create the slider navigation btns
-  if (data.tumbUrl.length > 1){
+  if (data.thumbUrl.length > 1){
     const lbtn = document.createElement('button');
     const rbtn = document.createElement('button');
     const dots = document.createElement('div');
@@ -321,20 +321,20 @@ function switchImages(ele){
   let obj =JSON.parse(ele.closest(".card").dataset.obj)
   // check whether local image is used or online.
   const currentUrl = ele.querySelector('img').src;
-  const thumbUrl = obj.tumbUrl[0].slice(1);
+  const thumbUrl = obj.thumbUrl[0].slice(1);
   const bigUrl = obj.bigImgs[0].slice(1);
   // console.log(currentUrl);
   // console.log(thumbUrl);
   // console.log(bigUrl);
   // console.log(obj.bigBackup[0]);
-  // console.log(obj.tumbBackup[0]);
+  // console.log(obj.thumbBackup[0]);
 
   
   
   // if (ele.classList.contains('card__slider--fullscreen')){
   //   ele.querySelectorAll('img').forEach((img,i) => img.src = obj.bigImgs[i]);
   // } else {
-  //   ele.querySelectorAll('img').forEach(img => img.src = obj.tumbUrl[i]);
+  //   ele.querySelectorAll('img').forEach(img => img.src = obj.thumbUrl[i]);
   // }
 
 
@@ -349,10 +349,10 @@ function switchImages(ele){
   } else {
     if (currentUrl.includes(bigUrl)) {
       console.log("local thumb");
-      ele.querySelectorAll('img').forEach((img,i) => img.src = obj.tumbUrl[i]);
+      ele.querySelectorAll('img').forEach((img,i) => img.src = obj.thumbUrl[i]);
     }
     else {
-      ele.querySelectorAll('img').forEach((img,i) => img.src = obj.tumbBackup[i]);
+      ele.querySelectorAll('img').forEach((img,i) => img.src = obj.thumbBackup[i]);
     }
   }
 }
